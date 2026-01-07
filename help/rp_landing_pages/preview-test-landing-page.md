@@ -28,7 +28,7 @@ Zorg voor foutloze berichtlevering door fouten af te vangen voordat ze klanten b
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Uw inhoud voorvertonen en testen
 
@@ -38,7 +38,7 @@ Leer hoe u testprofielen en voorbeeldinvoergegevens gebruikt om inhoud voor te v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Testprofielen selecteren
 
@@ -48,7 +48,7 @@ Ontdek hoe u testprofielen kunt selecteren en beheren om op maat gesneden inhoud
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 Inhoud voorvertonen met testprofielen
 
@@ -58,7 +58,7 @@ Stapsgewijze handleiding voor het voorvertonen van gepersonaliseerde inhoud met 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
 
 Proefdrukken verzenden met testprofielgegevens
 
@@ -68,7 +68,7 @@ Test en valideer uw e-mailberichten door proefdrukken te verzenden met behulp va
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=nl-NL)
 
 E-mailrendering testen met Litmus
 
@@ -78,7 +78,7 @@ Integreer Litmus voor een voorvertoning van de e-mailrendering voor populaire e-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 Inhoudsvariaties simuleren en testen
 
