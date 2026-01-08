@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 0cdc5dce00d2240b2de6c4cba1648b4517323cce
+source-git-commit: cd31c50de91593348744ead8042e480a2f1164de
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '933'
 ht-degree: 1%
 
 ---
@@ -23,27 +23,27 @@ De op code-gebaseerde ervaring steunt om het even welk type van klantenimplement
 
 >[!IMPORTANT]
 >
->Volg [&#x200B; deze verbinding &#x200B;](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} om steekproefimplementaties voor verschillende verpersoonlijking en het experimenteren gebruiksgevallen te vinden. Controleer hen uit en stel hen in werking om beter te begrijpen wat de implementatiestappen nodig zijn en hoe de verpersoonlijkingsstroom van begin tot eind werkt.
+>Volg [ deze verbinding ](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} om steekproefimplementaties voor verschillende verpersoonlijking en het experimenteren gebruiksgevallen te vinden. Controleer hen uit en stel hen in werking om beter te begrijpen wat de implementatiestappen nodig zijn en hoe de verpersoonlijkingsstroom van begin tot eind werkt.
 
-➡️ Leer meer over het vormen van het Web SDK voor op code-gebaseerde ervaringen en besluitvorming in [&#x200B; deze leerprogramma&#39;s &#x200B;](code-based-decisioning-implementations.md#tutorials)
+➡️ Leer meer over het vormen van het Web SDK voor op code-gebaseerde ervaringen en besluitvorming in [ deze leerprogramma&#39;s ](code-based-decisioning-implementations.md#tutorials)
 
 ## Implementatie op de client {#client-side-implementation}
 
 Als u een clientimplementatie hebt, kunt u een van de AEP client-SDK&#39;s gebruiken: AEP Web SDK of AEP Mobile SDK.
 
-* De stappen [&#x200B; beschrijven hieronder &#x200B;](#client-side-how) het proces om de inhoud te halen die op de rand door de op code-gebaseerde ervaringstransporten en campagnes in een 3&rbrace; implementatie wordt gepubliceerd van SDK van het steekproef **Web &lbrace;en het tonen van de gepersonaliseerde inhoud.**
+* De stappen [ beschrijven hieronder ](#client-side-how) het proces om de inhoud te halen die op de rand door de op code-gebaseerde ervaringstransporten en campagnes in een 3} implementatie wordt gepubliceerd van SDK van het steekproef **Web {en het tonen van de gepersonaliseerde inhoud.**
 
-* De stappen om code-gebaseerd kanaal uit te voeren gebruikend **Mobiele SDK** worden beschreven in [&#x200B; dit leerprogramma &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+* De stappen om code-gebaseerd kanaal uit te voeren gebruikend **Mobiele SDK** worden beschreven in [ dit leerprogramma ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
 
   >[!NOTE]
   >
-  >De implementaties van de steekproef voor mobiele gebruiksgevallen zijn beschikbaar voor [&#x200B; app van iOS &#x200B;](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} en [&#x200B; app van Android &#x200B;](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+  >De implementaties van de steekproef voor mobiele gebruiksgevallen zijn beschikbaar voor [ app van iOS ](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} en [ app van Android ](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
 
 ### Hoe het werkt - Web SDK {#client-side-how}
 
-1. [&#x200B; SDK van het Web &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL){target="_blank"} is inbegrepen op de pagina.
+1. [ SDK van het Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} is inbegrepen op de pagina.
 
-1. U moet het `sendEvent` bevel gebruiken en de [&#x200B; oppervlakte URI &#x200B;](code-based-surface.md)<!--( or location/path)--> specificeren om verpersoonlijkingsinhoud te halen.
+1. U moet het `sendEvent` bevel gebruiken en de [ oppervlakte URI ](code-based-surface.md)<!--( or location/path)--> specificeren om verpersoonlijkingsinhoud te halen.
 
    ```javascript
    alloy("sendEvent", {
@@ -54,7 +54,7 @@ Als u een clientimplementatie hebt, kunt u een van de AEP client-SDK&#39;s gebru
    }).then(applyPersonalization("#sample-json-content"));
    ```
 
-1. Op code-gebaseerde ervaringspunten zouden manueel door de implementatiecode (gebruikend de [`applyPersonalization` &#x200B;](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"} methode) moeten worden toegepast om DOM bij te werken die op het besluit wordt gebaseerd.
+1. Op code-gebaseerde ervaringspunten zouden manueel door de implementatiecode (gebruikend de [`applyPersonalization` ](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"} methode) moeten worden toegepast om DOM bij te werken die op het besluit wordt gebaseerd.
 
 1. Voor op code-gebaseerde ervaringsreizen en campagnes, moeten de vertoningsgebeurtenissen manueel worden verzonden om erop te wijzen wanneer de inhoud is getoond. Dit gebeurt via de opdracht `sendEvent` .
 
@@ -147,7 +147,7 @@ In de onderstaande stappen wordt beschreven hoe u de inhoud die aan de rand word
 ### Werking
 
 1. De webpagina wordt opgevraagd en cookies die eerder zijn opgeslagen door de browser die vooraf is ingesteld op `kndctr_` , worden opgenomen.
-1. Wanneer de pagina van de toepassingsserver wordt gevraagd, wordt een gebeurtenis verzonden naar het [&#x200B; interactieve eindpunt van de gegevensinzameling &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=nl-NL) om verpersoonlijkingsinhoud te halen. Deze steekproef app maakt gebruik van sommige helpermethodes om het bouwen en het verzenden van verzoeken naar API (zie [&#x200B; aepEdgeClient.js &#x200B;](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}) te vereenvoudigen. Maar de aanvraag is gewoon een `POST` met een payload die een gebeurtenis en query bevat. De cookies (indien beschikbaar) uit de voorgaande stap worden opgenomen in de aanvraag in de array `meta>state>entries` .
+1. Wanneer de pagina van de toepassingsserver wordt gevraagd, wordt een gebeurtenis verzonden naar het [ interactieve eindpunt van de gegevensinzameling ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) om verpersoonlijkingsinhoud te halen. Deze steekproef app maakt gebruik van sommige helpermethodes om het bouwen en het verzenden van verzoeken naar API (zie [ aepEdgeClient.js ](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}) te vereenvoudigen. Maar de aanvraag is gewoon een `POST` met een payload die een gebeurtenis en query bevat. De cookies (indien beschikbaar) uit de voorgaande stap worden opgenomen in de aanvraag in de array `meta>state>entries` .
 
    ```javascript
    fetch(
@@ -307,8 +307,46 @@ Aanvragen aan de Adobe Experience Platform API zijn vereist om voorstellen te on
 
 Als u een hybride implementatie hebt, checkt u de onderstaande koppelingen uit.
 
-* Tech Blog van Adobe: [&#x200B; Hybride Personalization in SDK van het Web van Adobe Experience Platform &#x200B;](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* De Documentatie van SDK: [&#x200B; Hybride verpersoonlijking die Web SDK en de Server API van Edge Network gebruiken &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=nl-NL){target="_blank"}
+* Tech Blog van Adobe: [ Hybride Personalization in SDK van het Web van Adobe Experience Platform ](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
+* De Documentatie van SDK: [ Hybride verpersoonlijking die Web SDK en de Server API van Edge Network gebruiken ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+
+## Fouten opsporen in Edge netwerk-API-aanroepen met Adobe Experience Platform Assurance {#debugging-edge-api-assurance}
+
+Wanneer u de Edge Network API rechtstreeks gebruikt voor ervaringen met code (zonder Web SDK of Mobile SDK te gebruiken), kunt u fouten in uw API-aanroepen opsporen met Adobe Experience Platform Assurance door de Assurance-sessie-id op te nemen als een kop voor een validatietoken.
+
+1. Haal de Assurance-sessie-id op van een actieve Adobe Experience Platform Assurance-sessie of maak een sessie met de Assurance API.
+
+1. Voeg de header `x-adobe-aep-validation-token` toe met uw Assurance-sessie-id om uw Edge Network API-aanvragen door te sturen via de Assurance-sessie.
+
+   **Voorbeeld:**
+
+   ```bash
+   curl -v 'https://edge.adobedc.net/ee/v1/interact?configId={DATASTREAM_ID}&requestId={REQUEST_ID}' \
+   --header 'Content-Type: application/json' \
+   --header 'x-adobe-aep-validation-token: {ASSURANCE_SESSION_ID}' \
+   --data-raw '{
+       "xdm": {
+         "identityMap": {
+               "ECID": [
+                   {
+                       "id": "{ECID_VALUE}"
+                   }
+               ]
+           }
+       },
+       "events": [
+           {
+               "xdm": {
+                   "eventType": "test",
+                   "timestamp": "{TIMESTAMP}"
+               }
+           }
+       ]
+   }'
+   ```
+
+1. Open uw Assurance-sessie als deze eenmaal is geconfigureerd en selecteer de **[!UICONTROL Edge Delivery]** -weergave om Edge Network API-aanvragen en -reacties in real-time weer te geven, inclusief aanvraagladingen, antwoordinhoud, personalisatievoorstellen en foutberichten.
+
 
 <!--
 ## Implementation guides and tutorials {#implementation-guides}
@@ -319,4 +357,4 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
