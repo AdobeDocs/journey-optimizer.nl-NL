@@ -68,15 +68,15 @@ Door kanaalactiviteiten te gebruiken, kunt u uitvoerige en gepersonaliseerde cam
 
 >[!PREREQUISITES]
 >
->Alvorens een kanaalactiviteit toe te voegen, bepaal het doelpubliek gebruikend a [&#x200B; bouwt publiek &#x200B;](build-audience.md) of a [&#x200B; gelezen publiek &#x200B;](read-audience.md) activiteit.
+>Alvorens een kanaalactiviteit toe te voegen, bepaal het doelpubliek gebruikend a [ bouwt publiek ](build-audience.md) of a [ gelezen publiek ](read-audience.md) activiteit.
 
 1. Voeg een kanaalactiviteit toe aan het canvas. De beschikbare kanaalactiviteiten zijn **[!UICONTROL Email]** , **[!UICONTROL SMS]** en **[!UICONTROL Push]** .
 
-   ![&#x200B; beeld dat het canvas met beschikbare activiteiten toont &#x200B;](../assets/channel-add.png)
+   ![ beeld dat het canvas met beschikbare activiteiten toont ](../assets/channel-add.png)
 
 1. Selecteer de activiteit en klik op **[!UICONTROL Edit email]** , **[!UICONTROL Edit SMS]** of **[!UICONTROL Edit Push]** afhankelijk van het gekozen kanaal.
 
-   ![&#x200B; beeld dat het canvas met een e-mailactiviteit toont &#x200B;](../assets/channel-edit.png)
+   ![ beeld dat het canvas met een e-mailactiviteit toont ](../assets/channel-edit.png)
 
 1. Voer op het tabblad **[!UICONTROL Properties]** een beschrijving in en schakel vervolgens over naar het tabblad **[!UICONTROL Actions]** om de activiteit te configureren.
 
@@ -86,33 +86,33 @@ Gebruik het tabblad **[!UICONTROL Actions]** om een kanaalconfiguratie voor uw b
 
 1. **selecteer een kanaalconfiguratie**
 
-   Een configuratie wordt bepaald door de Beheerder van het a [&#x200B; Systeem &#x200B;](../../start/path/administrator.md). Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enzovoort. [&#x200B; leer hoe te de configuraties van het opstellingskanaal &#x200B;](../../configuration/channel-surfaces.md).
+   Een configuratie wordt bepaald door de Beheerder van het a [ Systeem ](../../start/path/administrator.md). Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enzovoort. [ leer hoe te de configuraties van het opstellingskanaal ](../../configuration/channel-surfaces.md).
 
-   ![&#x200B; beeld dat de sectie van Acties &#x200B;](../assets/channel-actions.png) toont
+   ![ beeld dat de sectie van Acties ](../assets/channel-actions.png) toont
 
 1. **pas het begrenzen van regels** toe
 
-   Selecteer in de vervolgkeuzelijst **[!UICONTROL Rule set]** een kanaalregel die is ingesteld om de bijschilderingsregels toe te passen op uw campagne. De reeksen van de kanaalregel van hefboomwerking staan u toe om frequentie het begrenzen door communicatie type te plaatsen om het overbelasten van klanten met gelijkaardige berichten te verhinderen. [&#x200B; leer hoe te met regelreeksen &#x200B;](../../conflict-prioritization/rule-sets.md) werken
+   Selecteer in de vervolgkeuzelijst **[!UICONTROL Rule set]** een kanaalregel die is ingesteld om de bijschilderingsregels toe te passen op uw campagne. De reeksen van de kanaalregel van hefboomwerking staan u toe om frequentie het begrenzen door communicatie type te plaatsen om het overbelasten van klanten met gelijkaardige berichten te verhinderen. [ leer hoe te met regelreeksen ](../../conflict-prioritization/rule-sets.md) werken
 
 1. **Overeenkomst van het Spoor** (E-mail en SMS)
 
-   In de sectie **[!UICONTROL Action tracking]** kunt u bijhouden hoe de ontvangers op uw e-mail- of SMS-berichten reageren. De resultaten van het bijhouden van de campagne zijn toegankelijk vanuit het campagnerapport nadat de campagne is uitgevoerd. [&#x200B; leer meer over campagnerapporten &#x200B;](../../reports/campaign-global-report-cja.md)
+   In de sectie **[!UICONTROL Action tracking]** kunt u bijhouden hoe de ontvangers op uw e-mail- of SMS-berichten reageren. De resultaten van het bijhouden van de campagne zijn toegankelijk vanuit het campagnerapport nadat de campagne is uitgevoerd. [ leer meer over campagnerapporten ](../../reports/campaign-global-report-cja.md)
 
 1. **laat Snelle leveringswijze** toe (Duw)
 
-   De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer snelle pushbericht toestaat die in grote volumes door campagnes verzenden. De snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is. U wilt bijvoorbeeld een dringende pushwaarschuwing verzenden op mobiele telefoons, zoals het doorgeven van nieuws aan gebruikers die uw nieuwszender-app hebben geïnstalleerd. Leer hoe te om Snelle leveringswijze voor de Duw berichten [&#x200B; op deze pagina &#x200B;](../../push/create-push.md#rapid-delivery) toe te laten.
+   De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer snelle pushbericht toestaat die in grote volumes door campagnes verzenden. De snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is. U wilt bijvoorbeeld een dringende pushwaarschuwing verzenden op mobiele telefoons, zoals het doorgeven van nieuws aan gebruikers die uw nieuwszender-app hebben geïnstalleerd. Leer hoe te om Snelle leveringswijze voor de Duw berichten [ op deze pagina ](../../push/create-push.md#rapid-delivery) toe te laten.
 
-   Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [&#x200B; het productbeschrijving van Adobe Journey Optimizer &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+   Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [ het productbeschrijving van Adobe Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 1. **creeer een inhoudexperiment**
 
-   Gebruik de sectie **[!UICONTROL Content experiment]** om meerdere leveringsbehandelingen te definiëren om te meten welke het beste presteert voor uw doelgroep. Klik de **[!UICONTROL Create experiment]** knoop dan de stappen volgen die in deze sectie worden gedetailleerd: [&#x200B; creeer een inhoudexperiment &#x200B;](../../content-management/content-experiment.md).
+   Gebruik de sectie **[!UICONTROL Content experiment]** om meerdere leveringsbehandelingen te definiëren om te meten welke het beste presteert voor uw doelgroep. Klik de **[!UICONTROL Create experiment]** knoop dan de stappen volgen die in deze sectie worden gedetailleerd: [ creeer een inhoudexperiment ](../../content-management/content-experiment.md).
 
 1. **voeg meertalige inhoud** toe
 
-   Gebruik de sectie **[!UICONTROL Languages]** om inhoud in meerdere talen binnen uw campagne te maken. Klik hiertoe op de knop **[!UICONTROL Add languages]** en selecteer de gewenste **[!UICONTROL Language settings]** . De gedetailleerde informatie over hoe te opstelling en gebruik meertalige mogelijkheden zijn beschikbaar in deze sectie: [&#x200B; krijgt begonnen met meertalige inhoud &#x200B;](../../content-management/multilingual-gs.md)
+   Gebruik de sectie **[!UICONTROL Languages]** om inhoud in meerdere talen binnen uw campagne te maken. Klik hiertoe op de knop **[!UICONTROL Add languages]** en selecteer de gewenste **[!UICONTROL Language settings]** . De gedetailleerde informatie over hoe te opstelling en gebruik meertalige mogelijkheden zijn beschikbaar in deze sectie: [ krijgt begonnen met meertalige inhoud ](../../content-management/multilingual-gs.md)
 
-   ![&#x200B; beeld dat de sectie van het Inhoudexperiment toont &#x200B;](../assets/channel-experiment.png)
+   ![ beeld dat de sectie van het Inhoudexperiment toont ](../assets/channel-experiment.png)
 
 Wanneer uw kanaalactiviteit is gevormd, selecteer het **[!UICONTROL Content]** lusje om zijn inhoud te bepalen.
 
@@ -142,21 +142,21 @@ Wanneer u tot de verpersoonlijkingsredacteur van een Geordende campagne toegang 
 
    * **`<Targeting dimension>`** (bijv. &quot;Ontvangers&quot;, &quot;Aankopen&quot;): bevat alle kenmerken die betrekking hebben op de dimensie waarop uw campagne betrekking heeft.
 
-   * **`Enrichment`**: neemt gegevens die via **[!UICONTROL Enrichment]** -activiteiten zijn toegevoegd, op in uw canvas. Dit staat u toe om berichten te personaliseren die op externe datasets of extra logica worden gebaseerd die tijdens orchestratie worden opgenomen. [&#x200B; leer hoe te om een activiteit van de Verrijking te gebruiken &#x200B;](../activities/enrichment.md)
+   * **`Enrichment`**: neemt gegevens die via **[!UICONTROL Enrichment]** -activiteiten zijn toegevoegd, op in uw canvas. Dit staat u toe om berichten te personaliseren die op externe datasets of extra logica worden gebaseerd die tijdens orchestratie worden opgenomen. [ leer hoe te om een activiteit van de Verrijking te gebruiken ](../activities/enrichment.md)
 
-Voor een gedetailleerd overzicht van hoe te om de verpersoonlijkingsredacteur te gebruiken, verwijs naar [&#x200B; begonnen worden met verpersoonlijking &#x200B;](../../personalization/personalize.md)
+Voor een gedetailleerd overzicht van hoe te om de verpersoonlijkingsredacteur te gebruiken, verwijs naar [ begonnen worden met verpersoonlijking ](../../personalization/personalize.md)
 
 ## Uw inhoud controleren en testen
 
 Zodra de inhoud is gemaakt, gebruikt u de knop **[!UICONTROL Simulate Content]** om een voorvertoning van uw inhoud weer te geven en deze te testen met testprofielen of voorbeeldinvoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of handmatig zijn toegevoegd. [Meer informatie](../../content-management/preview-test.md)
 
-![&#x200B; beeld dat de Simulate knoop van de Inhoud toont &#x200B;](../assets/channel-simulate.png)
+![ beeld dat de Simulate knoop van de Inhoud toont ](../assets/channel-simulate.png)
 
 ## Volgende stappen {#next}
 
-Wanneer de berichtinhoud klaar is, navigeert u met de pijl **[!UICONTROL Back]** terug naar uw geordende campagne. Vervolgens kunt u de activiteiten op het canvas ordenen en de campagne publiceren om de berichten te verzenden. [&#x200B; leren hoe te om Geordende campagnes te beginnen en te controleren &#x200B;](../start-monitor-campaigns.md)
+Wanneer de berichtinhoud klaar is, navigeert u met de pijl **[!UICONTROL Back]** terug naar uw geordende campagne. Vervolgens kunt u de activiteiten op het canvas ordenen en de campagne publiceren om de berichten te verzenden. [ leren hoe te om Geordende campagnes te beginnen en te controleren ](../start-monitor-campaigns.md)
 
-![&#x200B; beeld dat de achterknoop &#x200B;](../assets/channel-back.png) toont
+![ beeld dat de achterknoop ](../assets/channel-back.png) toont
 
 <!--
 ## Examples {#cross-channel-workflow-sample}
