@@ -102,7 +102,7 @@ Gebruik het tabblad **[!UICONTROL Actions]** om een kanaalconfiguratie voor uw b
 
    De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer snelle pushbericht toestaat die in grote volumes door campagnes verzenden. De snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is. U wilt bijvoorbeeld een dringende pushwaarschuwing verzenden op mobiele telefoons, zoals het doorgeven van nieuws aan gebruikers die uw nieuwszender-app hebben geïnstalleerd. Leer hoe te om Snelle leveringswijze voor de Duw berichten [&#x200B; op deze pagina &#x200B;](../../push/create-push.md#rapid-delivery) toe te laten.
 
-   Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [&#x200B; het productbeschrijving van Adobe Journey Optimizer &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+   Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [&#x200B; het productbeschrijving van Adobe Journey Optimizer &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 1. **creeer een inhoudexperiment**
 
