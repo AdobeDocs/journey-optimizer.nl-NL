@@ -72,7 +72,7 @@ Merk op dat de metriek zal variëren gebaseerd op de kanalen die in uw campagne 
 
 * **[!UICONTROL Outbound Errors]**: het totale aantal fouten dat is opgetreden tijdens het verzendproces waardoor het niet naar profielen kan worden verzonden.
 
-* **[!UICONTROL Outbound Exclusions]**: aantal profielen dat door Adobe Journey Optimizer is uitgesloten. [ Leer meer over hoe de uitsluitingen worden geteld ](exclusion-list.md#exclusion-list).
+* **[!UICONTROL Outbound Exclusions]**: aantal profielen dat door Adobe Journey Optimizer is uitgesloten. [&#x200B; Leer meer over hoe de uitsluitingen worden geteld &#x200B;](exclusion-list.md#exclusion-list).
 
 * **[!UICONTROL Displays]**: Het aantal keren dat het bericht is geopend.
 
@@ -113,7 +113,7 @@ De tabel **[!UICONTROL Tracked link label]** biedt essentiële inzichten in de b
 
 Als u **[!UICONTROL Targeting rules]** instelt voor uw inhoud, biedt de tabel van **[!UICONTROL Targeting overview]** een gedetailleerde weergave van de belangrijkste betrokkenheidsmetriek, waarmee u kunt zien hoe de doelprofielen voor elke regel reageren op uw inhoud.
 
-➡️ [ Leer meer bij het richten van regels ](../content-management/optimization-targeting.md)
+➡️ [&#x200B; Leer meer bij het richten van regels &#x200B;](../content-management/optimization-targeting.md)
 
 +++ Meer informatie over gerichte overzichtsmetriek
 
