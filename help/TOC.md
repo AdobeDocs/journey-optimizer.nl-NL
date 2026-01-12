@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c9274ddf086fd0ea5fd4d2de9d90daffbccd5ae5
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
-source-wordcount: '3051'
+source-wordcount: '3061'
 ht-degree: 15%
 
 ---
@@ -501,9 +501,12 @@ ht-degree: 15%
       + [Een taalprovider maken](using/content-management/multilingual-provider.md)
       + [Meertalige inhoud maken met handmatige vertaling](using/content-management/multilingual-manual.md)
       + [Meertalige inhoud maken met automatische vertaling](using/content-management/multilingual-automated.md)
-   + [Berichtoptimalisatie](using/campaigns/campaigns-message-optimization.md)
+   + Inhoud optimaliseren {#message-optimization}
+      + [Aan de slag met optimalisatie](using/campaigns/gs-message-optimization.md)
+      + [Doelen](using/campaigns/optimization-targeting.md)
+      + [Gebruik experimenteren](using/campaigns/optimization-experimentation.md)
+      + [Doelstellingen en experimenten combineren](using/campaigns/optimization-combination.md)
    + Inhoudsexperiment {#content-experiment}
-      + [Inhoudsexperiment](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [Aan de slag met het experimenteren met inhoud](using/content-management/get-started-experiment.md)
       + [Aan de slag met de experimentele accelerator](using/content-management/experiment-accelerator-gs.md)
       + [Een inhoudexperiment maken](using/content-management/content-experiment.md)
@@ -838,7 +841,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
