@@ -31,7 +31,7 @@ Systeemwaarschuwingen zijn beschikbaar in het menu **[!UICONTROL Alerts]** onder
 
 Voordat u gaat werken met waarschuwingen:
 
-* **Toestemmingen**: U hebt specifieke toestemmingen nodig om alarm te bekijken en te leiden. Zie [&#x200B; vereiste toestemmingen in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
+* **Toestemmingen**: U hebt specifieke toestemmingen nodig om alarm te bekijken en te leiden. Zie [&#x200B; vereiste toestemmingen in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=nl-NL#permissions){target="_blank"}.
 
 * **het bewustzijn van Sandbox**: De alarm abonnementen zijn zandbak-specifiek. Wanneer u zich abonneert op waarschuwingen, zijn deze alleen van toepassing op de huidige sandbox. Wanneer een sandbox opnieuw wordt ingesteld, worden ook alle waarschuwingsabonnementen opnieuw ingesteld.
 
@@ -39,7 +39,7 @@ Voordat u gaat werken met waarschuwingen:
 
 >[!NOTE]
 >
->Journey Optimizer-specifieke alarm is slechts op **levende** reizen van toepassing. Er worden geen waarschuwingen gegeven voor reizen in testmodus. Voor meer informatie over het waakzame kader, zie de [&#x200B; het alarm van Adobe Experience Platform documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}.
+>Journey Optimizer-specifieke alarm is slechts op **levende** reizen van toepassing. Er worden geen waarschuwingen gegeven voor reizen in testmodus. Voor meer informatie over het waakzame kader, zie de [&#x200B; het alarm van Adobe Experience Platform documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=nl-NL){target="_blank"}.
 
 ## Beschikbare waarschuwingen
 
@@ -67,7 +67,7 @@ Journey Optimizer biedt twee categorieën systeemwaarschuwingen:
 
 >[!NOTE]
 >
->Voor alarm van andere diensten van Adobe Experience Platform (gegevensopname, identiteitsresolutie, segmentatie, en meer), zie de [&#x200B; standaarddocumentatie van de waakzame regels &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
+>Voor alarm van andere diensten van Adobe Experience Platform (gegevensopname, identiteitsresolutie, segmentatie, en meer), zie de [&#x200B; standaarddocumentatie van de waakzame regels &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=nl-NL){target="_blank"}.
 
 ## Abonneren op waarschuwingen {#subscribe-alerts}
 
@@ -86,7 +86,7 @@ U kunt zich op twee manieren abonneren op waarschuwingen:
 
 * **Resolutie**: Wanneer een waakzame voorwaarde wordt opgelost, ontvangen de abonnees een &quot;Opgelost&quot;bericht. Om berichtvermoeidheid te voorkomen die waarden fluctueert, worden waarschuwingen automatisch na 1 uur opgelost, zelfs als de voorwaarde aanhoudt.
 
-Voor informatie over het intekenen via Gebeurtenissen I/O, zie de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}.
+Voor informatie over het intekenen via Gebeurtenissen I/O, zie de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=nl-NL){target="_blank"}.
 
 
 ### Globaal abonnement {#global-subscription}
@@ -113,7 +113,7 @@ Klik op **[!UICONTROL Unsubscribe]** naast de waarschuwing.
 
 **Alternatieve abonnementsmethode:**
 
-U kunt ook via [&#x200B; I/O de berichten van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} intekenen, die integratie met externe systemen toestaat. De namen van het abonnement van de gebeurtenis voor het alarm van Journey Optimizer worden vermeld in elk [&#x200B; waakzame beschrijving hieronder &#x200B;](#journey-alerts).
+U kunt ook via [&#x200B; I/O de berichten van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=nl-NL){target="_blank"} intekenen, die integratie met externe systemen toestaat. De namen van het abonnement van de gebeurtenis voor het alarm van Journey Optimizer worden vermeld in elk [&#x200B; waakzame beschrijving hieronder &#x200B;](#journey-alerts).
 
 ### Reisspecifiek abonnement {#unitary-subscription}
 
@@ -147,7 +147,7 @@ Open hetzelfde dialoogvenster, deselecteer de waarschuwing(en) en klik op **[!UI
 >
 >Het [&#x200B; Gelezen Gevonden &#x200B;](#alert-read-audiences) alarm van de Trekker van het Publiek is slechts beschikbaar door globaal abonnement, niet per-reis abonnement.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=nl-NL#enable-email-alerts){target="_blank"}.-->
 
 ## Reiswaarschuwingen {#journey-alerts}
 
