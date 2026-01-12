@@ -34,7 +34,7 @@ Met betrekking tot doelgerichtheid kunnen specifieke regels worden vastgesteld o
 
 Volg de onderstaande stappen om doelframes in te stellen.
 
-1. Creeer a [ reis ](../building-journeys/journey-gs.md#jo-build) of a [ campagne ](../campaigns/create-campaign.md).
+1. Creeer a [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md#jo-build) of a [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md).
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ Volg de onderstaande stappen om doelframes in te stellen.
 
    >[!AVAILABILITY]
    >
-   >[ Creërend het richten van regels ](../experience-decisioning/rules.md#create) van het specifieke [!DNL Journey Optimizer] menu is momenteel beschikbaar aan organisaties die het Besluit toe:voegen-op aanbieden hebben gekocht, en zij zijn beschikbaar op bestelling voor de andere organisaties (Beperkte Beschikbaarheid).
+   >[&#x200B; Creërend het richten van regels &#x200B;](../experience-decisioning/rules.md#create) van het specifieke [!DNL Journey Optimizer] menu is momenteel beschikbaar aan organisaties die het Besluit toe:voegen-op aanbieden hebben gekocht, en zij zijn beschikbaar op bestelling voor de andere organisaties (Beperkte Beschikbaarheid).
    >
    >Deze capaciteit zal geleidelijk aan aan alle klanten worden uitgebreid. Neem in de tussentijd contact op met uw Adobe-vertegenwoordiger voor toegang.
 
@@ -90,7 +90,7 @@ Volg de onderstaande stappen om doelframes in te stellen.
 
    In dit voorbeeld, ontwerp een specifieke inhoud voor inwoners van de V.S., een verschillende inhoud voor Franse ingezetenen en een andere inhoud voor inwoners van India.
 
-1. [ activeer ](review-activate-campaign.md) uw reis of campagne.
+1. [&#x200B; activeer &#x200B;](review-activate-campaign.md) uw reis of campagne.
 
 Zodra de reis/campagne live is, wordt inhoud die voor elk doel is ontworpen, verzonden zodat inwoners van de VS een specifieke boodschap krijgen, inwoners van Frankrijk een andere boodschap, enzovoort.
 

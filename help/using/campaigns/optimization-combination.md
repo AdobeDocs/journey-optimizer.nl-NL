@@ -23,13 +23,13 @@ U kunt bijvoorbeeld een &#39;50% korting op promotie&#39; testen in plaats van e
 
 Volg de onderstaande stappen om zowel gerichte als experimenten op een reis of campagne te combineren.
 
-1. Creeer een reis of een campagne waar u verscheidene richtingsregels bepaalt. [ leer hoe ](optimization-targeting.md)
+1. Creeer een reis of een campagne waar u verscheidene richtingsregels bepaalt. [&#x200B; leer hoe &#x200B;](optimization-targeting.md)
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
 1. Maak een experiment voor de eerste doelregel.
 
-1. Ontwerp en configureer uw content-experiment naar wens. [ leer hoe ](../content-management/content-experiment.md)
+1. Ontwerp en configureer uw content-experiment naar wens. [&#x200B; leer hoe &#x200B;](../content-management/content-experiment.md)
 
    ![](assets/msg-optimization-targeting-with-experiment.png){width=85%}
 
@@ -45,7 +45,7 @@ Volg de onderstaande stappen om zowel gerichte als experimenten op een reis of c
 
 1. Ga zo gelijkaardig voor andere het richten regels te werk, en ontwerp de overeenkomstige inhoud voor elke variant.
 
-1. Sparen uw veranderingen en [ activeer ](review-activate-campaign.md) uw reis of campagne.
+1. Sparen uw veranderingen en [&#x200B; activeer &#x200B;](review-activate-campaign.md) uw reis of campagne.
 
 Zodra de reis/de campagne levend is, worden de gebruikers van elke doelgroep willekeurig toegewezen de verschillende inhoudvariaties die voor de groep worden bepaald zij tot behoren.
 
