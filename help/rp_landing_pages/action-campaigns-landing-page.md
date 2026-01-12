@@ -5,7 +5,7 @@ title: Actiecampagnes
 description: Actiecampagnes
 redpen-status: CREATED_||_2025-08-11_20-22-10
 exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 2%
@@ -20,7 +20,7 @@ Met handelscampagnes in Adobe Journey Optimizer kunt u actuele, doelgerichte ber
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Een actiecampagne maken
 
@@ -30,7 +30,7 @@ Leer hoe u actiecampagnes maakt en beheert, inclusief eigenschappen, handelingen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Campagneeigenschappen voor handelingen definiëren
 
@@ -40,7 +40,7 @@ Stapsgewijze instructies voor het definiëren van campagne-eigenschappen zoals n
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Campagnehandelingen configureren
 
@@ -50,17 +50,17 @@ Handleiding voor het instellen van campagnehandelingen, waaronder kanaalselectie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Optimalisatie van berichten gebruiken
 
 Gebruik gerichte toepassingen en experimenten om de betrokkenheid te maximaliseren en persoonlijke campagnes te maken.
 
-[Campagnes optimaliseren](../using/campaigns/gs-message-optimization.md)
+[Campagnes optimaliseren](../using/content-management/gs-message-optimization.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
 
 Campagne-inhoud bewerken
 
@@ -70,7 +70,7 @@ Ontwerp, test en configureer inhoud voor uw actiecampagnes op meerdere kanalen.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Campagnepubliek definiëren
 

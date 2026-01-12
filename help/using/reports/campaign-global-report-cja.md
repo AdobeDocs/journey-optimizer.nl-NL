@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Merk op dat de metriek zal variëren gebaseerd op de kanalen die in uw campagne 
 
 * **[!UICONTROL Outbound Errors]**: het totale aantal fouten dat is opgetreden tijdens het verzendproces waardoor het niet naar profielen kan worden verzonden.
 
-* **[!UICONTROL Outbound Exclusions]**: aantal profielen dat door Adobe Journey Optimizer is uitgesloten. [&#x200B; Leer meer over hoe de uitsluitingen worden geteld &#x200B;](exclusion-list.md#exclusion-list).
+* **[!UICONTROL Outbound Exclusions]**: aantal profielen dat door Adobe Journey Optimizer is uitgesloten. [ Leer meer over hoe de uitsluitingen worden geteld ](exclusion-list.md#exclusion-list).
 
 * **[!UICONTROL Displays]**: Het aantal keren dat het bericht is geopend.
 
@@ -113,7 +113,7 @@ De tabel **[!UICONTROL Tracked link label]** biedt essentiële inzichten in de b
 
 Als u **[!UICONTROL Targeting rules]** instelt voor uw inhoud, biedt de tabel van **[!UICONTROL Targeting overview]** een gedetailleerde weergave van de belangrijkste betrokkenheidsmetriek, waarmee u kunt zien hoe de doelprofielen voor elke regel reageren op uw inhoud.
 
-➡️ [&#x200B; Leer meer bij het richten van regels &#x200B;](../campaigns/optimization-targeting.md)
+➡️ [ Leer meer bij het richten van regels ](../content-management/optimization-targeting.md)
 
 +++ Meer informatie over gerichte overzichtsmetriek
 

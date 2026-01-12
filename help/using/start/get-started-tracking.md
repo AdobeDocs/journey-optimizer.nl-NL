@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Beginner
 keywords: bijhouden, bewaken, analyseren, rapporteren, leverbaarbaarheid
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 3%
@@ -95,7 +95,7 @@ E-mailtracking wordt automatisch ingeschakeld wanneer u een e-mailbericht maakt.
 
 * **voeg spiegelpagina het volgen** toe - laat de optie van de spiegelpagina toe om een Webversie van uw e-mail met het automatische volgen van toe wie het bekijkt. [Meer informatie](../email/message-tracking.md#mirror-page)
 
-**prestaties van de Monitor:** metriek van de Mening in real time in campagne en reisrapporten met inbegrip van opent, klikt, en verbinding-vlakke prestaties. [&#x200B; de rapporten van de Campagne &#x200B;](../reports/campaign-global-report-cja-email.md) | [&#x200B; de rapporten van de Reis &#x200B;](../reports/journey-global-report-cja-email.md)
+**prestaties van de Monitor:** metriek van de Mening in real time in campagne en reisrapporten met inbegrip van opent, klikt, en verbinding-vlakke prestaties. [ de rapporten van de Campagne ](../reports/campaign-global-report-cja-email.md) | [ de rapporten van de Reis ](../reports/journey-global-report-cja-email.md)
 
 +++
 
@@ -111,7 +111,7 @@ Wanneer u een webpagina ontwerpt, kunt u specifieke elementen (knoppen, afbeeldi
 * **Automatische gegevensinzameling** - Zodra gevormd, vangt Journey Optimizer automatisch gebeurtenissen en associeert hen met profielen.
 * **Monitor in real time** - de gebruikersinteractie van het spoor aangezien zij om verpersoonlijkingsdoeltreffendheid bevestigen.
 
-**het volgen van de Mening gegevens:** de vertoningsmetriek van de Toegang, klik-door tarieven, en element-vlakke prestaties in rapporten. [&#x200B; de rapporten van de Campagne &#x200B;](../reports/campaign-global-report-cja-web.md) | [&#x200B; de rapporten van de Reis &#x200B;](../reports/journey-global-report-cja-web.md)
+**het volgen van de Mening gegevens:** de vertoningsmetriek van de Toegang, klik-door tarieven, en element-vlakke prestaties in rapporten. [ de rapporten van de Campagne ](../reports/campaign-global-report-cja-web.md) | [ de rapporten van de Reis ](../reports/journey-global-report-cja-web.md)
 
 +++
 
@@ -131,7 +131,7 @@ Het volgen van de duw wordt automatisch toegelaten en vangt (geleverde) indrukke
 >
 >Voor pushtracering is mobiele SDK-implementatie vereist. Zorg ervoor dat de Adobe Experience Platform Mobile SDK correct is geconfigureerd voor uw app. [Meer informatie](../push/push-configuration.md#integrate-mobile-app)
 
-**analyseer overeenkomst:** klik-door tarieven van de Mening, knoopprestaties, en gevolgde verbindingsdetails in rapporten. [&#x200B; de rapporten van de Campagne &#x200B;](../reports/campaign-global-report-cja-push.md) | [&#x200B; de rapporten van de Reis &#x200B;](../reports/journey-global-report-cja-push.md)
+**analyseer overeenkomst:** klik-door tarieven van de Mening, knoopprestaties, en gevolgde verbindingsdetails in rapporten. [ de rapporten van de Campagne ](../reports/campaign-global-report-cja-push.md) | [ de rapporten van de Reis ](../reports/journey-global-report-cja-push.md)
 
 +++
 
@@ -149,7 +149,7 @@ In-app berichten volgen automatisch weergaven en gebruikersinteracties. Configur
 
 [Leer hoe u in-app-berichten configureert](../in-app/create-in-app.md)
 
-**wat wordt gevolgd:** Journey Optimizer vangt automatisch vertoningen, knoop klikt, ontslagen, teweeggebracht vs. getoonde metriek, en verbindingsprestaties. [&#x200B; de rapporten van de Campagne &#x200B;](../reports/campaign-global-report-cja-inapp.md) | [&#x200B; de rapporten van de Reis &#x200B;](../reports/journey-global-report-cja-inapp.md)
+**wat wordt gevolgd:** Journey Optimizer vangt automatisch vertoningen, knoop klikt, ontslagen, teweeggebracht vs. getoonde metriek, en verbindingsprestaties. [ de rapporten van de Campagne ](../reports/campaign-global-report-cja-inapp.md) | [ de rapporten van de Reis ](../reports/journey-global-report-cja-inapp.md)
 
 +++
 
@@ -163,7 +163,7 @@ Voor het bijhouden van SMS is een minimale installatie vereist. Journey Optimize
 
 * **Binnenkomende bericht het volgen** - de antwoorden van ontvangers worden automatisch gevangen, toestaand u om bidirectionele gesprekken en reactiepatronen te controleren. [Meer informatie](../sms/sms-opt-out.md#sms-native-keywords)
 
-**metriek van de Mening:** de verbindingsgegevens van de Toegang klikken, binnenkomende berichtvolumes, en berichttype prestaties in rapporten. [&#x200B; de rapporten van de Campagne &#x200B;](../reports/campaign-global-report-cja-sms.md) | [&#x200B; de rapporten van de Reis &#x200B;](../reports/journey-global-report-cja-sms.md)
+**metriek van de Mening:** de verbindingsgegevens van de Toegang klikken, binnenkomende berichtvolumes, en berichttype prestaties in rapporten. [ de rapporten van de Campagne ](../reports/campaign-global-report-cja-sms.md) | [ de rapporten van de Reis ](../reports/journey-global-report-cja-sms.md)
 
 +++
 
@@ -175,13 +175,13 @@ Voor op code gebaseerde ervaringen is implementatieinstelling vereist om trackin
 
 Voordat tracking werkt, moet u uw implementatie configureren om interactiegebeurtenissen (weergaven, klikken) naar Adobe Experience Platform te verzenden. Hiervoor is het volgende vereist:
 
-* Een gegevensstroom instellen die is geconfigureerd voor Adobe Experience Platform. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=nl-NL)
+* Een gegevensstroom instellen die is geconfigureerd voor Adobe Experience Platform. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html)
 * Het uitvoeren van gebeurtenisinzameling in uw code die Web SDK of Mobiele SDK gebruikt.
 * Weergave- en interactiegebeurtenissen verzenden wanneer inhoud wordt weergegeven of geklikt.
 
 [Meer informatie over implementatievereisten](../code-based/code-based-prerequisites.md#reporting-prerequisites)
 
-**wat wordt gevolgd:** zodra uitgevoerd, spoorvertoningen, kliks, kliks-door tarieven, en element-vlakke prestaties over om het even welk digitaal aanraakpunt (websites, mobiele apps, apparaten IoT, enz.). [&#x200B; de rapporten van de Campagne &#x200B;](../reports/campaign-global-report-cja-code.md) | [&#x200B; de rapporten van de Reis &#x200B;](../reports/journey-global-report-cja-code.md)
+**wat wordt gevolgd:** zodra uitgevoerd, spoorvertoningen, kliks, kliks-door tarieven, en element-vlakke prestaties over om het even welk digitaal aanraakpunt (websites, mobiele apps, apparaten IoT, enz.). [ de rapporten van de Campagne ](../reports/campaign-global-report-cja-code.md) | [ de rapporten van de Reis ](../reports/journey-global-report-cja-code.md)
 
 +++
 
@@ -199,7 +199,7 @@ Met inhoudskaarten worden gebruikersinteracties automatisch bijgehouden. Vorm in
 
 [Leer hoe u inhoudskaarten kunt configureren](../content-card/create-content-card.md)
 
-**Overeenkomst van de Monitor:** de vertoningen van het Spoor, klikken, kliks-door tarieven, en betrokkenheidspatronen over veelvoudige zittingen. [&#x200B; de rapporten van de Campagne &#x200B;](../reports/campaign-global-report-cja-content.md) | [&#x200B; de rapporten van de Reis &#x200B;](../reports/journey-global-report-cja-content.md)
+**Overeenkomst van de Monitor:** de vertoningen van het Spoor, klikken, kliks-door tarieven, en betrokkenheidspatronen over veelvoudige zittingen. [ de rapporten van de Campagne ](../reports/campaign-global-report-cja-content.md) | [ de rapporten van de Reis ](../reports/journey-global-report-cja-content.md)
 
 +++
 
@@ -216,7 +216,7 @@ De bestemmingspagina&#39;s komen met ingebouwde het volgen die geen extra opstel
 
 [Leer hoe u bestemmingspagina&#39;s kunt configureren](../landing-pages/create-lp.md)
 
-**prestaties van de Monitor:** de patronen van het Bezoek van het spoor, omzettingen, en stuittarieven in tijd om te begrijpen hoe de gebruikers met uw vormen in wisselwerking staan en gebieden voor verbetering identificeren. [&#x200B; de rapporten van de Campagne &#x200B;](../reports/lp-report-global-cja.md)
+**prestaties van de Monitor:** de patronen van het Bezoek van het spoor, omzettingen, en stuittarieven in tijd om te begrijpen hoe de gebruikers met uw vormen in wisselwerking staan en gebieden voor verbetering identificeren. [ de rapporten van de Campagne ](../reports/lp-report-global-cja.md)
 
 +++
 
@@ -234,7 +234,7 @@ Buiten kanaal-niveau het volgen, vorm het volgen om algemene prestaties te meten
 
 * **creeer douanerapporten en de uitvoergegevens** - bouw op maat gemaakte rapporten en de uitvoer volggegevens naar externe systemen voor diepere analyse. [Meer informatie](../reports/sharing-overview.md)
 
-* **Mening verenigde prestaties:** toegang uitvoerige rapporten voor zowel campagnes als reizen om prestaties over e-mail, duw, SMS, en andere kanalen te vergelijken, en te begrijpen welke combinaties drijven de beste resultaten. [&#x200B; de rapporten van de Campagne &#x200B;](../reports/campaign-global-report-cja.md) | [&#x200B; de rapporten van de Reis &#x200B;](../reports/journey-global-report-cja.md)
+* **Mening verenigde prestaties:** toegang uitvoerige rapporten voor zowel campagnes als reizen om prestaties over e-mail, duw, SMS, en andere kanalen te vergelijken, en te begrijpen welke combinaties drijven de beste resultaten. [ de rapporten van de Campagne ](../reports/campaign-global-report-cja.md) | [ de rapporten van de Reis ](../reports/journey-global-report-cja.md)
 
 ## Optimalisatie- en beslissingsprestaties bijhouden {#optimization-decisioning-tracking}
 
@@ -244,13 +244,13 @@ Journey Optimizer volgt automatisch optimalisatieexperimenten, doelgerichte stra
 
 * **Optimalisering in uw campagnes en reizen**:
 
-   * Definieer bij het maken van experimenten welke meetgegevens moeten worden bijgehouden (conversies, klikken, aangepaste gebeurtenissen). Journey Optimizer verzamelt automatisch prestatiegegevens voor elke behandeling. [Meer informatie](../campaigns/optimization-experimentation.md)
+   * Definieer bij het maken van experimenten welke meetgegevens moeten worden bijgehouden (conversies, klikken, aangepaste gebeurtenissen). Journey Optimizer verzamelt automatisch prestatiegegevens voor elke behandeling. [Meer informatie](../content-management/optimization-experimentation.md)
 
-   * Creeer het richten regels om verschillende inhoud aan verschillende publiekssegmenten te leveren. Journey Optimizer volgt automatisch de betrokkenheidswaarden voor elke doelgroep, zodat u de prestaties voor de verschillende segmenten kunt vergelijken. [Meer informatie](../campaigns/optimization-targeting.md)
+   * Creeer het richten regels om verschillende inhoud aan verschillende publiekssegmenten te leveren. Journey Optimizer volgt automatisch de betrokkenheidswaarden voor elke doelgroep, zodat u de prestaties voor de verschillende segmenten kunt vergelijken. [Meer informatie](../content-management/optimization-targeting.md)
 
-* **optimalisering van de weg van de Reis**: Voeg **&#x200B;**&#x200B;activiteit aan uw reis toe optimaliseren en veelvoudige wegen vormen. Journey Optimizer houdt automatisch bij welke paden worden gebruikt en meet de prestaties. [Meer informatie](../building-journeys/optimize.md)
+* **optimalisering van de weg van de Reis**: Voeg **** activiteit aan uw reis toe optimaliseren en veelvoudige wegen vormen. Journey Optimizer houdt automatisch bij welke paden worden gebruikt en meet de prestaties. [Meer informatie](../building-journeys/optimize.md)
 
-Resultaten analyseren: conversiesnelheden bekijken, statistisch belang bekijken en de afstand tussen behandelingen in experimentatierapporten opheffen, of de betrokkenheidsmetriek in de doelsegmenten vergelijken. [&#x200B; het campagnerapport van de Experimentatiecampagne van de Experimentatie &#x200B;](../reports/campaign-global-report-cja-experimentation.md) | [&#x200B; het rapport van de reis van de Experimentatie &#x200B;](../reports/journey-global-report-cja-experimentation.md) | [&#x200B; Reis richtend rapport &#x200B;](../reports/journey-global-report-cja.md#targeting)
+Resultaten analyseren: conversiesnelheden bekijken, statistisch belang bekijken en de afstand tussen behandelingen in experimentatierapporten opheffen, of de betrokkenheidsmetriek in de doelsegmenten vergelijken. [ het campagnerapport van de Experimentatiecampagne van de Experimentatie ](../reports/campaign-global-report-cja-experimentation.md) | [ het rapport van de reis van de Experimentatie ](../reports/journey-global-report-cja-experimentation.md) | [ Reis richtend rapport ](../reports/journey-global-report-cja.md#targeting)
 
 ### Prestaties van beslissingen bijhouden {#decisioning-tracking}
 
