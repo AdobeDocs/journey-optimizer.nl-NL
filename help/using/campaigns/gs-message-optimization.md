@@ -111,7 +111,7 @@ Zodra uw reis of campagne levend is, worden de profielen beoordeeld aan de crite
 
 Leer hoe u de optimalisatie van inhoud kunt optimaliseren in actie- of API-campagnes. U zult zien hoe te om sub-publiek te richten, berichtvariaties door plaats tot stand te brengen, fallback inhoud toe te laten, en veelvoudige experimenten in één enkele campagne in werking te stellen. In deze zelfstudie wordt ook uitgelegd hoe u campagnes met meerdere kanalen kunt beheren en tegelijkertijd de consistentie van berichten kunt behouden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470374?captions=dut&quality=12)
 
 **Verwante onderwerpen**
 
