@@ -175,7 +175,7 @@ Voor op code gebaseerde ervaringen is implementatieinstelling vereist om trackin
 
 Voordat tracking werkt, moet u uw implementatie configureren om interactiegebeurtenissen (weergaven, klikken) naar Adobe Experience Platform te verzenden. Hiervoor is het volgende vereist:
 
-* Een gegevensstroom instellen die is geconfigureerd voor Adobe Experience Platform. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html)
+* Een gegevensstroom instellen die is geconfigureerd voor Adobe Experience Platform. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=nl-NL)
 * Het uitvoeren van gebeurtenisinzameling in uw code die Web SDK of Mobiele SDK gebruikt.
 * Weergave- en interactiegebeurtenissen verzenden wanneer inhoud wordt weergegeven of geklikt.
 

@@ -42,7 +42,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 <li><strong> AI de Experimentele Inzichten &amp; Kansen:</strong> ga voorbij statistische overzichten met GenAI-Gedreven inzichten en aanbevelingen. Elk experiment bevat nu actiemogelijkheden, compleet met ondersteuning voor rationale, zodat teams betrouwbaarder kunnen beslissen wat ze moeten testen.</li>
 <li><strong> Multi-Armed Bandit (MAB) Steun in Journey Optimizer:</strong> maximaliseer effect terwijl het verminderen van verspild verkeer met multi-Armed experimenten van de Bandit. In plaats van het publiek gelijkmatig te verdelen, wijst MAB automatisch meer bezoekers toe aan de best-presterende variaties in echt - tijd zodat kunt u betere ervaringen aan meer klanten leveren terwijl nog het leren van wat werkt.</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
-<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview"> gedetailleerde documentatie </a></p>
+<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/nl/docs/experimentation-accelerator/using/overview"> gedetailleerde documentatie </a></p>
 <p>Beschikbaarheidsdatum: 3 oktober 2025</p>
 </td>
 </tr>
@@ -59,7 +59,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 <tr>
 <td>
 <p>Aangedreven door <a href="https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank"> Adobe Experience Platform Agent Orchestrator </a>, is Journey Agent beschikbaar in Journey Optimizer. Het laat u toe om reizen door een natuurlijke taalinterface te analyseren. De agent zal publiek of programmaconflicten en profieldrop-offs in een reis ontdekken om u te helpen stappen nemen om hen op te lossen. Binnenkort kunt u reizen maken met ongeduldige ondersteuning.</p>
-<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank"> gedetailleerde documentatie </a></p>
+<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank"> gedetailleerde documentatie </a></p>
 <p>Beschikbaarheidsdatum: 24 september 2025</p>
 </td>
 </tr>
@@ -1603,7 +1603,7 @@ Raadpleeg de [gedetailleerde documentatie](../test-approve/approval-policies.md)
 
 **Bedrijfs regels**
 
-U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegmentatie. Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [&#x200B; gids van de Dienst van de Identiteit van het Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegmentatie. Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [&#x200B; gids van de Dienst van de Identiteit van het Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 Ter herinnering: dagelijkse frequentiecapping in regelsets is alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
