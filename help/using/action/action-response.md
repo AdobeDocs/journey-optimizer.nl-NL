@@ -216,11 +216,11 @@ currentActionField.description == "abc"
 
 De gebieden van de lading van de antwoord van douaneacties kunnen in inheemse kanalen (e-mail, duw, SMS) voor berichtverpersoonlijking worden gebruikt. Dit omvat de mogelijkheid om arrays te doorlopen en geneste gegevensstructuren die door externe API&#39;s worden geretourneerd.
 
-Voor gedetailleerde voorbeelden en syntaxis voor het herhalen over de gegevens van de douanereactie in berichten, verwijs naar [ over contextafhankelijke gegevens met Handlebars ](../personalization/iterate-contextual-data.md#custom-action-responses) ireren.
+Voor gedetailleerde voorbeelden en syntaxis voor het herhalen over de gegevens van de douanereactie in berichten, verwijs naar [&#x200B; over contextafhankelijke gegevens met Handlebars &#x200B;](../personalization/iterate-contextual-data.md#custom-action-responses) ireren.
 
 ## Aanvullende bronnen
 
 Raadpleeg deze pagina’s voor meer informatie:
 
-* [ verwijzingen van het Gebied ](../building-journeys/expression/field-references.md).
+* [&#x200B; verwijzingen van het Gebied &#x200B;](../building-journeys/expression/field-references.md).
 * [Functies voor het beheer van verzamelingen](../building-journeys/expression/collection-management-functions.md)
