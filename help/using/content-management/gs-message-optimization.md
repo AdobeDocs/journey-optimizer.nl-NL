@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Aan de slag met optimalisatie van inhoud
 description: Leer hoe u inhoud optimaliseert voor persoonlijke en geoptimaliseerde inhoud tijdens campagnes en reizen.
-feature: Experimentation, Targeting
+feature: Experimentation
 topic: Content Management
 role: User
 level: Beginner
 keywords: optimalisatie, doelgericht, experimenteren, A/B-tests, campagnes, reizen, personalisatie
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 8dba26f29fda47d0b953d80656aa0f0b6fe294a9
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 2%
@@ -25,19 +25,19 @@ ht-degree: 2%
 
 Met de gereedschappen kunt u de juiste boodschap op het juiste moment aan het juiste publiek afgeven. Door gegevensgestuurde inzichten te combineren met krachtige personalisatiemogelijkheden kunt u uw betrokkenheid en conversies maximaliseren voor al uw campagnes en reizen.
 
-De optimalisering van de inhoud is beschikbaar in zowel [&#x200B; campagnes &#x200B;](../campaigns/create-campaign.md) als [&#x200B; reizen &#x200B;](../building-journeys/journey-gs.md), toelatend u om de zelfde optimaliseringsstrategieën over al uw klanten toe te passen touchpoints.
+De optimalisering van de inhoud is beschikbaar in zowel [ campagnes ](../campaigns/create-campaign.md) als [ reizen ](../building-journeys/journey-gs.md), toelatend u om de zelfde optimaliseringsstrategieën over al uw klanten toe te passen touchpoints.
 
-➡️ [&#x200B; Leer hoe te optimalisering van de hefboominhoud binnen een campagne in deze video &#x200B;](#video)
+➡️ [ Leer hoe te optimalisering van de hefboominhoud binnen een campagne in deze video ](#video)
 
 ## Optimalisatiefuncties {#capabilities}
 
 Met de optimalisatie van inhoud in Journey Optimizer kunt u:
 
-* [&#x200B; Gebruik richtend &#x200B;](optimization-targeting.md) om gepersonaliseerde inhoud aan specifieke publiekssegmenten te leveren die op profielattributen, contextafhankelijke gegevens, of publiekslidmaatschap worden gebaseerd.
+* [ Gebruik richtend ](optimization-targeting.md) om gepersonaliseerde inhoud aan specifieke publiekssegmenten te leveren die op profielattributen, contextafhankelijke gegevens, of publiekslidmaatschap worden gebaseerd.
 
-* [&#x200B; de experimenten van de Looppas &#x200B;](optimization-experimentation.md) om veelvoudige inhoudvariaties te testen en te identificeren die best op uw succesmetriek wordt gebaseerd.
+* [ de experimenten van de Looppas ](optimization-experimentation.md) om veelvoudige inhoudvariaties te testen en te identificeren die best op uw succesmetriek wordt gebaseerd.
 
-* [&#x200B; combineer beide benaderingen &#x200B;](optimization-combination.md) om verfijnde optimaliseringsstrategieën tot stand te brengen waar u verschillende variaties voor elk gericht segment test.
+* [ combineer beide benaderingen ](optimization-combination.md) om verfijnde optimaliseringsstrategieën tot stand te brengen waar u verschillende variaties voor elk gericht segment test.
 
 ## Doelstelling versus experimenteren {#targeting-vs-experimentation}
 
@@ -83,16 +83,16 @@ Combinatie:
 
 Uw inhoud optimaliseren:
 
-1. **creeer een campagne of een reis**: Opstelling uw [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md) of [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md) en voeg minstens één actie toe.
+1. **creeer een campagne of een reis**: Opstelling uw [ campagne ](../campaigns/create-campaign.md) of [ reis ](../building-journeys/journey-gs.md) en voeg minstens één actie toe.
 
 1. **kies uw optimalisatiebenadering**:
-   * [&#x200B; Gebruik richtend &#x200B;](optimization-targeting.md) om inhoud voor specifieke segmenten te personaliseren.
-   * [&#x200B; experimenteren van het Gebruik &#x200B;](optimization-experimentation.md) om veelvoudige variaties te testen.
-   * [&#x200B; combineer allebei &#x200B;](optimization-combination.md) voor geavanceerde optimalisering.
+   * [ Gebruik richtend ](optimization-targeting.md) om inhoud voor specifieke segmenten te personaliseren.
+   * [ experimenteren van het Gebruik ](optimization-experimentation.md) om veelvoudige variaties te testen.
+   * [ combineer allebei ](optimization-combination.md) voor geavanceerde optimalisering.
 
 1. **bepaal uw inhoud**: Creeer de verschillende inhoudsvariaties voor uw optimaliseringsstrategie.
 
-1. **activeer en controleer**: Lanceer uw geoptimaliseerde campagne of reis en spoorprestaties in de [&#x200B; rapporten &#x200B;](../reports/campaign-global-report-cja.md).
+1. **activeer en controleer**: Lanceer uw geoptimaliseerde campagne of reis en spoorprestaties in de [ rapporten ](../reports/campaign-global-report-cja.md).
 
 ## Werking {#how-it-works}
 
@@ -111,7 +111,7 @@ Zodra uw reis of campagne levend is, worden de profielen beoordeeld aan de crite
 
 Leer hoe u de optimalisatie van inhoud kunt optimaliseren in actie- of API-campagnes. U zult zien hoe te om sub-publiek te richten, berichtvariaties door plaats tot stand te brengen, fallback inhoud toe te laten, en veelvoudige experimenten in één enkele campagne in werking te stellen. In deze zelfstudie wordt ook uitgelegd hoe u campagnes met meerdere kanalen kunt beheren en tegelijkertijd de consistentie van berichten kunt behouden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470374?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
 
 **Verwante onderwerpen**
 
