@@ -4,7 +4,7 @@ description: Leer hoe u mogelijke conflicten tijdens reizen en campagnes kunt id
 role: User
 level: Beginner
 exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: a824e7342ee32eb261f2ecfb00b9ec12ec655f1e
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -67,7 +67,7 @@ Wanneer u een reis of campagne maakt, kunt u met Journey Optimizer controleren o
    >
    >Nieuwe gepubliceerde reizen en campagnes kunnen tot 3-7 minuten duren om in de conflictviewer te verschijnen, als gevolg van het in cache plaatsen.
 
-Als u uw zoekopdracht naar mogelijke overlappingen verder wilt verfijnen, kunt u uw lijst met campagnes en reizen filteren op basis van de velden die u relevant vindt. Selecteer hiertoe het filterpictogram in de overzichtsweergave. [&#x200B; leer hoe te met filters &#x200B;](../start/search-filter-categorize.md#filter-lists) werken
+Als u uw zoekopdracht naar mogelijke overlappingen verder wilt verfijnen, kunt u uw lijst met campagnes en reizen filteren op basis van de velden die u relevant vindt. Selecteer hiertoe het filterpictogram in de overzichtsweergave. [ leer hoe te met filters ](../start/search-filter-categorize.md#filter-lists) werken
 
 ## Conflicten oplossen {#resolve}
 
