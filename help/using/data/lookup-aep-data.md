@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expression, editor
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
+source-git-commit: 41364a89289f0657a2b7646c5daa45a369936e57
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 Met [!DNL Journey Optimizer] kunt u gegevens uit [!DNL Adobe Experience Platform] -gegevens benutten met mogelijkheden voor personalisatie, besluitvorming en reisorchestratie. Om dit te doen, op verslag-gebaseerde datasets nodig voor raadplegingsverpersoonlijking moet eerst voor de raadplegingsdienst worden toegelaten zoals hieronder beschreven.
 
-Leer meer op hoe te om met datasets in deze sectie toegang te hebben en te werken: [&#x200B; wordt begonnen met datasets &#x200B;](../data/get-started-datasets.md)
+Leer meer op hoe te om met datasets in deze sectie toegang te hebben en te werken: [ wordt begonnen met datasets ](../data/get-started-datasets.md)
 
-## Lees hier meer
+## Meer lezen
 
 ### Hulplijnen en richtlijnen {#guidelines}
 
@@ -41,6 +41,8 @@ Controleer voordat u begint de volgende beperkingen en richtlijnen:
 * **het type van Schema** - Datasets moeten met een schema worden geassocieerd dat **NIET** van het type van Profiel of van de Gebeurtenis is is.
 
 * **houd de raadplegingsknevel aan** - vermijd herhaaldelijk het draaien datasets aan en uit. Dit kan leiden tot onverwachte indexering. De beste praktijken moeten de dataset verlaten die wordt toegelaten zolang u van plan bent om het voor raadplegingen te gebruiken.
+
+* **Edge activeringsgebied** - Datasets die voor raadpleging worden toegelaten zijn beschikbaar voor binnenkomende op rand-gebaseerde activering slechts in het gebied waar de zandbak van de dataset (bijvoorbeeld, NLD2 of VA7) verblijft. Het sandboxgebied wordt weergegeven in de gebruikersinterface naast de naam van de sandbox.
 
 * **Partij van gegevensschrapping** - het verwijderen van een partij gegevens uit uw dataset verwijdert volledig alle passende sleutels uit de raadplegingsdienst. Bijvoorbeeld:
 
@@ -104,7 +106,7 @@ In het gegevenssetbeheer gebruikersinterface, gebruik de knevel om de dataset vo
 
 ### API-methode
 
-Volg de richtingen die in [&#x200B; worden gedetailleerd deze documentatie &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) om uw milieu te vormen om API bevelen te verzenden.
+Volg de richtingen die in [ worden gedetailleerd deze documentatie ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) om uw milieu te vormen om API bevelen te verzenden.
 
 #### Vereisten
 
