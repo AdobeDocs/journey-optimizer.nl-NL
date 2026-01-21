@@ -23,7 +23,7 @@ ht-degree: 1%
 
 **De pre-release notities hieronder kunnen zonder voorafgaande kennisgeving worden gewijzigd tot de releasedatum**. Links, schermen en bijgewerkte documentatie worden op de releasedatum gepubliceerd in de release notes.
 
-Zie ook [Adobe Experience Platform Pre-release notities](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [Adobe Experience Platform Pre-release notities](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Releasedatum**: 26 januari 2026
 
