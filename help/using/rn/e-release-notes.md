@@ -7,23 +7,23 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a6e6e8fce90fbd730c049f8a39878a44cea9c73c
+source-git-commit: f7cdbb8f4a0e43a6a2fa15032d1376faf0424168
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '1990'
 ht-degree: 1%
 
 ---
 
 # Opmerkingen voorafgaand aan de release {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [&#x200B; versienota&#39;s &#x200B;](release-notes.md).
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
 
 
 ## Opmerkingen bij de pre-release januari &#39;26 {#jan-26-01-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 26 Januari, 2026
 
@@ -312,16 +312,6 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 * **Webhooks van SMS: Fase II** - te verstrekken Beschrijving.
 
 * **WitApp opnieuw aanbieden** - te verstrekken Beschrijving.
-
-* **het gebied van de Uitvoering voor het Kanaal WhatsApp** - naast E-mail en SMS, kunt u het standaard uitvoeringsgebied voor uw leveringen WhatsApp op het zandbakniveau nu bijwerken. U kunt het uitvoeringsgebied ook met voeten treden globaal wordt geplaatst door het in de WhatsApp reisactiviteit geavanceerde parameters of in de WhatsApp kanaalconfiguratie te veranderen die. [Meer informatie](../configuration/primary-email-addresses.md)
-
-  Beschikbaarheidsdatum: 22 oktober 2025
-
-* **de kenmerkensteun van de Douane voor (unsubscribe) adres van Mailto** - met Journey Optimizer, als u toestemming buiten Adobe beheert, kunt u externe douaneeindpunten plaatsen door uw eigen te bepalen unsubscribe verbinding en een douane unsubscribe e-mailadres in de e-mailconfiguratie. Wanneer uw ontvangers op de koppeling voor afmelden klikken, voegt Journey Optimizer enkele standaardprofielspecifieke parameters toe aan de gebeurtenis voor het bijwerken van de toestemming. Als u uw aangepaste eindpunten verder wilt aanpassen, kunt u nu aangepaste kenmerken definiëren die ook aan de gebeurtenis permission worden toegevoegd. [Meer informatie](../email/list-unsubscribe.md#custom-attributes)
-
-  **Nota**: Dit vermogen is reeds beschikbaar voor douane **[!UICONTROL One-click Unsubscribe URL]** sinds Augustus 25 en wordt nu vrijgegeven voor de **[!UICONTROL Mailto (unsubscribe)]** optie in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
-
-  Beschikbaarheidsdatum: 6 oktober 2025
 
 #### Email Designer
 
