@@ -7,23 +7,23 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5cdb4e9f8e01a2db17d2c831178053db620286eb
+source-git-commit: a6e6e8fce90fbd730c049f8a39878a44cea9c73c
 workflow-type: tm+mt
-source-wordcount: '1779'
-ht-degree: 0%
+source-wordcount: '2163'
+ht-degree: 1%
 
 ---
 
 # Opmerkingen voorafgaand aan de release {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [&#x200B; versienota&#39;s &#x200B;](release-notes.md).
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
 
 
 ## Opmerkingen bij de pre-release januari &#39;26 {#jan-26-01-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 26 Januari, 2026
 
@@ -231,6 +231,65 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Nieuwe API om actiecampagnes op te halen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Er is nu een nieuwe Journey Optimizer API beschikbaar, waarmee u campagnegerelateerde gegevens zoals details, versies en configuraties via programmacode kunt ophalen en inspecteren.</p>
+<p>Raadpleeg de <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 24 november 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Nieuwe reiswaarschuwingen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Er zijn nu drie nieuwe waarschuwingen voor de reis beschikbaar om u te helpen gebeurtenissen tijdens de levenscyclus van de reis en de prestaties van aangepaste handelingen te volgen en bij te houden:</p>
+<ul>
+<li><strong> Gepubliceerde Reizen </strong>: Ontvang berichten wanneer een reis door een arts op het wegcanvas wordt gepubliceerd.</li>
+<li><strong> Reis die </strong> wordt geëindigd: Krijg alarm wanneer een reis heeft gebeëindigd, met specifieke definities die op reistype (Gelezen Publiek of gebeurtenis-teweeggebracht) worden gebaseerd.</li>
+<li><strong> Gegrafeerde het Afbakenen van de Actie van de Douane </strong>: Word op de hoogte gebracht wanneer het afschilderen op een eindpunt van de douaneactie wordt geactiveerd.</li>
+</ul>
+<p>Deze waarschuwingen kunnen worden geabonneerd op organisatieniveau of voor specifieke reizen.</p>
+<p>Raadpleeg de <a href="../reports/alerts.md#journey-alerts">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 5 november 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Thema's in de Designer-e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu snel vooraf goedgekeurde thema's toepassen om de consistentie van uw merk in alle e-mails te garanderen, het aanmaakproces van uw campagne te versnellen en onafhankelijk e-mails van hoge kwaliteit te produceren en de afhankelijkheid van ontwerpteams te verminderen.</p>
+<p>Eerder in bètaversie is deze mogelijkheid nu beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+<img src="assets/do-not-localize/themes.gif">
+<p>Raadpleeg de <a href="../email/apply-email-themes.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 5 november 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Verbeteringen {#jan-26-01-improv}
 
 De verbeteringen die bij deze release worden geleverd, worden hieronder weergegeven.
@@ -253,6 +312,16 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 * **Webhooks van SMS: Fase II** - te verstrekken Beschrijving.
 
 * **WitApp opnieuw aanbieden** - te verstrekken Beschrijving.
+
+* **het gebied van de Uitvoering voor het Kanaal WhatsApp** - naast E-mail en SMS, kunt u het standaard uitvoeringsgebied voor uw leveringen WhatsApp op het zandbakniveau nu bijwerken. U kunt het uitvoeringsgebied ook met voeten treden globaal wordt geplaatst door het in de WhatsApp reisactiviteit geavanceerde parameters of in de WhatsApp kanaalconfiguratie te veranderen die. [Meer informatie](../configuration/primary-email-addresses.md)
+
+  Beschikbaarheidsdatum: 22 oktober 2025
+
+* **de kenmerkensteun van de Douane voor (unsubscribe) adres van Mailto** - met Journey Optimizer, als u toestemming buiten Adobe beheert, kunt u externe douaneeindpunten plaatsen door uw eigen te bepalen unsubscribe verbinding en een douane unsubscribe e-mailadres in de e-mailconfiguratie. Wanneer uw ontvangers op de koppeling voor afmelden klikken, voegt Journey Optimizer enkele standaardprofielspecifieke parameters toe aan de gebeurtenis voor het bijwerken van de toestemming. Als u uw aangepaste eindpunten verder wilt aanpassen, kunt u nu aangepaste kenmerken definiëren die ook aan de gebeurtenis permission worden toegevoegd. [Meer informatie](../email/list-unsubscribe.md#custom-attributes)
+
+  **Nota**: Dit vermogen is reeds beschikbaar voor douane **[!UICONTROL One-click Unsubscribe URL]** sinds Augustus 25 en wordt nu vrijgegeven voor de **[!UICONTROL Mailto (unsubscribe)]** optie in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+
+  Beschikbaarheidsdatum: 6 oktober 2025
 
 #### Email Designer
 
