@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
+source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1496'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Voer de volgende stappen uit om gedeelten van een visueel fragment bewerkbaar te
 
 >[!NOTE]
 >
->Bewerkbare gebieden kunnen aan **beeld** worden toegevoegd, **tekst** en **knoop** componenten. Voor **HTML** componenten, worden de editable gebieden toegevoegd gebruikend de verpersoonlijkingsredacteur, gelijkend op uitdrukkingsfragmenten. [&#x200B; Leer hoe te om editable gebied in de componenten van HTML en uitdrukkingsfragmenten toe te voegen &#x200B;](#expression)
+>Bewerkbare gebieden kunnen aan **beeld** worden toegevoegd, **tekst** en **knoop** componenten. Voor **HTML** componenten, worden de editable gebieden toegevoegd gebruikend de verpersoonlijkingsredacteur, gelijkend op uitdrukkingsfragmenten. [ Leer hoe te om editable gebied in de componenten van HTML en uitdrukkingsfragmenten toe te voegen ](#expression)
 
 1. Open het scherm voor de editie van de fragmentinhoud.
 
@@ -57,11 +57,11 @@ Voer de volgende stappen uit om gedeelten van een visueel fragment bewerkbaar te
 
 1. Sla de wijzigingen op als u klaar bent om het fragment bij te werken.
 
-1. Nadat u het fragment in een e-mail hebt toegevoegd, kunnen gebruikers alle bewerkbare velden aanpassen die in het fragment zijn geconfigureerd. [&#x200B; Leer hoe te om editable gebieden in een visueel fragment aan te passen &#x200B;](../email/use-visual-fragments.md#customize-fields)
+1. Nadat u het fragment in een e-mail hebt toegevoegd, kunnen gebruikers alle bewerkbare velden aanpassen die in het fragment zijn geconfigureerd. [ Leer hoe te om editable gebieden in een visueel fragment aan te passen ](../email/use-visual-fragments.md#customize-fields)
 
 >[!CAUTION]
 >
->Wanneer zowel het **etiket** als **URL** van een knoopcomponent editable in een fragment wordt gemaakt, toont het volgen rapporten URL in plaats van het knoopetiket. <!--If accurate label tracking is critical for your reporting, one potential approach is to break the inheritance on the fragment after adding it to your email, though note that this disconnects the fragment from centralized updates.-->
+>Wanneer zowel het **etiket** als **URL** van een knoopcomponent editable in een fragment wordt gemaakt, toont het volgen rapporten URL in plaats van het knoopetiket. [ Leer meer over het volgen ](../email/message-tracking.md)
 
 ## Bewerkbare velden toevoegen aan HTML-componenten en expressiefragmenten {#expression}
 
@@ -120,9 +120,9 @@ Voer de volgende stappen uit om een variabele te declareren en in het fragment t
 
 Wanneer gebruikers het fragment aan hun e-mailinhoud toevoegen, kunnen ze nu de standaardwaarden van de variabelen overschrijven met de door hen gekozen waarden:
 
-* Voor expressiefragmenten wordt een specifieke syntaxis gebruikt om de waarden van variabelen te overschrijven. [&#x200B; Leer hoe te om editable gebieden in een uitdrukkingsfragment aan te passen &#x200B;](../personalization/use-expression-fragments.md#customize-fields)
+* Voor expressiefragmenten wordt een specifieke syntaxis gebruikt om de waarden van variabelen te overschrijven. [ Leer hoe te om editable gebieden in een uitdrukkingsfragment aan te passen ](../personalization/use-expression-fragments.md#customize-fields)
 
-* Voor HTML-componenten wordt de variabele weergegeven in de lijst met bewerkbare velden in de E-mail Designer. [&#x200B; Leer hoe te om editable gebieden in een visueel fragment aan te passen &#x200B;](../email/use-visual-fragments.md#customize-fields)
+* Voor HTML-componenten wordt de variabele weergegeven in de lijst met bewerkbare velden in de E-mail Designer. [ Leer hoe te om editable gebieden in een visueel fragment aan te passen ](../email/use-visual-fragments.md#customize-fields)
 
 ### Voorbeeld van bewerkbaar expressiefragment {#example}
 
@@ -140,7 +140,7 @@ Dit doet u als volgt:
 
    ![](assets/fragment-expression-custom.png)
 
-1. Wanneer gebruikers het uitdrukkingsfragment aan hun inhoud toevoegen, kunnen de waarde van de variabele met hun keus direct van de uitdrukkingsredacteur veranderen. [&#x200B; Leer hoe te om editable gebieden in een uitdrukkingsfragment aan te passen &#x200B;](../personalization/use-expression-fragments.md#customize-fields)
+1. Wanneer gebruikers het uitdrukkingsfragment aan hun inhoud toevoegen, kunnen de waarde van de variabele met hun keus direct van de uitdrukkingsredacteur veranderen. [ Leer hoe te om editable gebieden in een uitdrukkingsfragment aan te passen ](../personalization/use-expression-fragments.md#customize-fields)
 
    ![](assets/fragment-expression-use.png)
 
@@ -152,9 +152,9 @@ RTF-tekst, zoals regeleinden, vet, cursief, enzovoort, kan met HTML-componenten 
 
 ### Een fragment met opgemaakte tekst maken {#add-rich-text}
 
-1. Creeer een visueel [&#x200B; fragment &#x200B;](create-fragments.md) en begin componenten toe te voegen.
+1. Creeer een visueel [ fragment ](create-fragments.md) en begin componenten toe te voegen.
 
-1. Voeg een [&#x200B; component van HTML &#x200B;](../email/content-components.md#HTML) toe en open de redacteur van HTML.
+1. Voeg een [ component van HTML ](../email/content-components.md#HTML) toe en open de redacteur van HTML.
 
 1. Navigeer aan het **[!UICONTROL Helper functions]** menu in de linkernavigatieruit en voeg de **gealigneerde** hulpfunctie toe.
 
@@ -174,19 +174,19 @@ RTF-tekst, zoals regeleinden, vet, cursief, enzovoort, kan met HTML-componenten 
 
    ![](assets/fragment-rich-editable-fields.png)
 
-1. Sparen en [&#x200B; publiceer &#x200B;](create-fragments.md#publish) het fragment.
+1. Sparen en [ publiceer ](create-fragments.md#publish) het fragment.
 
 ### bewerkbare fragmenten met RTF-indeling gebruiken {#use-rich-text}
 
 Wanneer gebruikers het fragment aan hun e-mailinhoud toevoegen, kunnen ze nu de RTF-inhoud en -opmaak bewerken die u hebt gemaakt. Voer de onderstaande stappen uit als u bewerkbare tekstfragmenten met tekstopmaak wilt gebruiken als een markering.
 
-1. [&#x200B; creeer e-mail &#x200B;](../email/create-email.md) in een campagne of een reis, dan voeg het fragment met rijke tekst toe die [&#x200B; &#x200B;](#add-rich-text) werd gecreeerd.
+1. [ creeer e-mail ](../email/create-email.md) in een campagne of een reis, dan voeg het fragment met rijke tekst toe die [ ](#add-rich-text) werd gecreeerd.
 
    U ziet de twee bewerkbare velden die aan de rechterkant zijn gemaakt.
 
    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. U kunt op **[!UICONTROL Simulate content]** klikken om te zien hoe de bewerkbare inhoud en opmaak worden weergegeven. [&#x200B; leer meer bij het voorvertonen van inhoud &#x200B;](preview-test.md)
+1. U kunt op **[!UICONTROL Simulate content]** klikken om te zien hoe de bewerkbare inhoud en opmaak worden weergegeven. [ leer meer bij het voorvertonen van inhoud ](preview-test.md)
 
 1. Selecteer het pictogram **[!UICONTROL Add personalization]** naast een van de bewerkbare velden.
 
@@ -199,5 +199,5 @@ Wanneer gebruikers het fragment aan hun e-mailinhoud toevoegen, kunnen ze nu de 
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464374/?captions=dut&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->
