@@ -7,23 +7,23 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7965928aca9d4e36bacc058776c24065b8cfff21
+source-git-commit: 5cdb4e9f8e01a2db17d2c831178053db620286eb
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1779'
 ht-degree: 0%
 
 ---
 
 # Opmerkingen voorafgaand aan de release {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [&#x200B; versienota&#39;s &#x200B;](release-notes.md).
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
 
 
 ## Opmerkingen bij de pre-release januari &#39;26 {#jan-26-01-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 26 Januari, 2026
 
@@ -32,14 +32,36 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <table>
 <thead>
 <tr>
-<th><strong>Quiet-uren/uitsluitingen op basis van tijd</strong><br/></th>
+<th><strong>Actie tijdens reizen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Met stille uren kunt u op tijd gebaseerde uitsluitingen definiëren voor e-mail-, SMS-, push- en WhatsApp-kanalen. Zij zorgen ervoor dat geen berichten tijdens specifieke periodes worden verzonden, die u helpen klantenvoorkeur en nalevingsvereisten respecteren. U kunt stille uren toepassen via regelsets, die u kunt toewijzen aan afzonderlijke acties in campagnes of reizen voor een nauwkeurige controle.</p>
-<p>Eerder uitgebracht in Beperkte Beschikbaarheid, is deze eigenschap nu beschikbaar aan alle milieu's. Met deze algemene beschikbaarheidsrelease biedt deze functie nu de mogelijkheid voor de klant om een campagneactie in de wachtrij te plaatsen tot de voltooiing van Quiet Hours en de mogelijkheid om een voorvertoning van de geactiveerde Quiet Hours-regel weer te geven.</p>
+<p>Journey Optimizer steunt een nieuwe generische activiteit van de Actie die u toelaat om zowel enige acties als multi-actie binnenkomende actiegroepen te vormen, die voor gestroomlijnde actieconfiguratie binnen het reiscanvas toestaan. Met deze nieuwe functie kunt u met name:</p>
+<ul>
+<li>Een vereenvoudigde native actieconfiguratie binnen het reiscanvas.</li>
+<li>De capaciteit om multi-actie binnenkomende actiegroepen te creëren.</li>
+<li>De mogelijkheid om optimalisatie toe te voegen aan ingebouwde kanaalacties.</li>
+<li>De mogelijkheid om experimenten en meertalige opties toe te voegen aan elke actie.</li>
+</ul>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Beslissingsactiviteit inhoud</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu persoonlijke aanbiedingen opnemen in uw reizen door middel van een toegewijde Content-beslissingsactiviteit in het reiscanvas en deze gebruiken in reisactiviteiten, waaronder voorwaarden en aangepaste acties.</p>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
 </td>
 </tr>
 </tbody>
@@ -64,13 +86,29 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <table>
 <thead>
 <tr>
-<th><strong>Aangepaste formulieren op de bestemmingspagina</strong><br/></th>
+<th><strong>Quiet-uren/uitsluitingen op basis van tijd</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Met Journey Optimizer kunt u nu profielkenmerken vastleggen via uw bestemmingspagina's. U kunt aangepaste formulieren maken, ontwerpen en beheren op basis van een specifieke gegevensset. U kunt deze formulieren vervolgens gebruiken in bestemmingspagina's om de profielkenmerken van uw keuze toe te voegen aan de gegevensset die voor elk formulier is gedefinieerd.</p>
+<p>Met stille uren kunt u op tijd gebaseerde uitsluitingen definiëren voor e-mail-, SMS-, push- en WhatsApp-kanalen. Zij zorgen ervoor dat geen berichten tijdens specifieke periodes worden verzonden, die u helpen klantenvoorkeur en nalevingsvereisten respecteren. U kunt stille uren toepassen via regelsets, die u kunt toewijzen aan afzonderlijke acties in campagnes of reizen voor een nauwkeurige controle.</p>
+<p>Eerder uitgebracht in Beperkte Beschikbaarheid, is deze eigenschap nu beschikbaar aan alle milieu's. Met deze algemene beschikbaarheidsrelease biedt deze functie nu de mogelijkheid voor de klant om een campagneactie in de wachtrij te plaatsen tot de voltooiing van Quiet Hours en de mogelijkheid om een voorvertoning van de geactiveerde Quiet Hours-regel weer te geven.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Direct Mail-kanaal op reis</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Direct Mail Channel, dat voorheen beperkt was tot Campagnes, is nu beschikbaar op het reiscanvas, zodat u Direct Mail in uw reizen kunt opnemen. Directe post kan nu in zowel partij als 1:1 reisscenario's, met steun voor de configuratie van de dossierextractie en op tijd-gebaseerde frequentiemontages worden gebruikt.</p>
 <p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
 </td>
 </tr>
@@ -96,14 +134,20 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <table>
 <thead>
 <tr>
-<th><strong>Direct Mail-kanaal op reis</strong><br/></th>
+<th><strong>RCS Basic Messaging</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Direct Mail Channel, dat voorheen beperkt was tot Campagnes, is nu beschikbaar op het reiscanvas, zodat u Direct Mail in uw reizen kunt opnemen. Directe post kan nu in zowel partij als 1:1 reisscenario's, met steun voor de configuratie van de dossierextractie en op tijd-gebaseerde frequentiemontages worden gebruikt.</p>
-<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+<p>Met het nieuwe Basistoe:voegen-op aanbod RCS, kunt u basisRich Communication Services (RCS) overseinen nu leveren is in Journey Optimizer, toelatend de volgende verbeterde overseinenmogelijkheden afhankelijk van leverancier en dragersteun:</p>
+<ul>
+<li>Branded en de geverifieerde steun van de afzender: verzend berichten gebruikend geverifieerde bedrijfsprofielen met branding elementen (embleem, afzendernaam, enz.).</li>
+<li>Inzichten van de levering van berichten: Ontvang gedetailleerde leveringsrapporten met inbegrip van updates van de berichtstatus (b.v., verzonden, geleverd, gelezen).</li>
+<li>Koppelingentracering: sluit URL's in RCS-berichten in en traceer deze voor betrokkenheidsanalyses.</li>
+<li>Terugvallen op SMS: Automatische fallback aan SMS wanneer het apparaat van het profiel geen RCS steunt of tijdelijk onbereikbaar via RCS is.</li>
+<li>Basisberichtcompositie: Verstuur standaard op tekst gebaseerde RCS-berichten.</li>
+</ul>
 </td>
 </tr>
 </tbody>
@@ -144,20 +188,13 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <table>
 <thead>
 <tr>
-<th><strong>RCS Basic Messaging</strong><br/></th>
+<th><strong>Direct mail kanaal in geordende campagnes</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Met het nieuwe Basistoe:voegen-op aanbod RCS, kunt u basisRich Communication Services (RCS) overseinen nu leveren is in Journey Optimizer, toelatend de volgende verbeterde overseinenmogelijkheden afhankelijk van leverancier en dragersteun:</p>
-<ul>
-<li>Branded en de geverifieerde steun van de afzender: verzend berichten gebruikend geverifieerde bedrijfsprofielen met branding elementen (embleem, afzendernaam, enz.).</li>
-<li>Inzichten van de levering van berichten: Ontvang gedetailleerde leveringsrapporten met inbegrip van updates van de berichtstatus (b.v., verzonden, geleverd, gelezen).</li>
-<li>Koppelingentracering: sluit URL's in RCS-berichten in en traceer deze voor betrokkenheidsanalyses.</li>
-<li>Terugvallen op SMS: Automatische fallback aan SMS wanneer het apparaat van het profiel geen RCS steunt of tijdelijk onbereikbaar via RCS is.</li>
-<li>Basisberichtcompositie: Verstuur standaard op tekst gebaseerde RCS-berichten.</li>
-</ul>
+<p>Direct mail kanaal is nu beschikbaar in georkestreerde campagnes. De direct-mailactiviteit vergemakkelijkt direct mail verzenden binnen uw Geordende campagne, voor zowel eenmalige als terugkomende berichten. Hiermee wordt het genereren van het extractiebestand geautomatiseerd dat is vereist door directe-mailproviders. U kunt kanaalactiviteiten in het Geordende campagnecanvas combineren om kanaalcampagnes tot stand te brengen die acties kunnen teweegbrengen die op klantengedrag en gegevens worden gebaseerd.</p>
 </td>
 </tr>
 </tbody>
@@ -166,13 +203,14 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <table>
 <thead>
 <tr>
-<th><strong>Direct mail kanaal in geordende campagnes</strong><br/></th>
+<th><strong>Aangepaste formulieren op de bestemmingspagina</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Direct mail kanaal is nu beschikbaar in georkestreerde campagnes. De direct-mailactiviteit vergemakkelijkt direct mail verzenden binnen uw Geordende campagne, voor zowel eenmalige als terugkomende berichten. Hiermee wordt het genereren van het extractiebestand geautomatiseerd dat is vereist door directe-mailproviders. U kunt kanaalactiviteiten in het Geordende campagnecanvas combineren om kanaalcampagnes tot stand te brengen die acties kunnen teweegbrengen die op klantengedrag en gegevens worden gebaseerd.</p>
+<p>Met Journey Optimizer kunt u nu profielkenmerken vastleggen via uw bestemmingspagina's. U kunt aangepaste formulieren maken, ontwerpen en beheren op basis van een specifieke gegevensset. U kunt deze formulieren vervolgens gebruiken in bestemmingspagina's om de profielkenmerken van uw keuze toe te voegen aan de gegevensset die voor elk formulier is gedefinieerd.</p>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
 </td>
 </tr>
 </tbody>
@@ -193,44 +231,6 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Actie tijdens reizen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer steunt een nieuwe generische activiteit van de Actie die u toelaat om zowel enige acties als multi-actie binnenkomende actiegroepen te vormen, die voor gestroomlijnde actieconfiguratie binnen het reiscanvas toestaan. Met deze nieuwe functie kunt u met name:</p>
-<ul>
-<li>Een vereenvoudigde native actieconfiguratie binnen het reiscanvas.</li>
-<li>De capaciteit om multi-actie binnenkomende actiegroepen te creëren.</li>
-<li>De mogelijkheid om optimalisatie toe te voegen aan ingebouwde kanaalacties.</li>
-<li>De mogelijkheid om experimenten en meertalige opties toe te voegen aan elke actie.</li>
-</ul>
-<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Beslissingsactiviteit inhoud</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt nu persoonlijke aanbiedingen opnemen in uw reizen door middel van een toegewijde Content-beslissingsactiviteit in het reiscanvas en deze gebruiken in reisactiviteiten, waaronder voorwaarden en aangepaste acties.</p>
-<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### Verbeteringen {#jan-26-01-improv}
 
 De verbeteringen die bij deze release worden geleverd, worden hieronder weergegeven.
@@ -244,10 +244,7 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 * **Campagne van het Programma die de Zone van de Tijd van het Profiel** gebruikt - het plannen van de Campagne kan de tijdzone van elk profiel nu gebruiken om berichten in de voorgenomen lokale tijd te leveren.
 
-  &#x200B;>>
-  >[!AVAILABILITY]
-  &#x200B;>>
-  Deze verbetering is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid).
+  **Nota**: Deze verbetering is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid).
 
 #### Kanalen
 
@@ -271,10 +268,7 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 * **de fragmenten van de Band aan besluitvormingspunten** - Journey Optimizer verstrekt nu de capaciteit om fragmenten aan besluitvormingspunten vast te maken die in code-gebaseerde ervaringscampagnes door besluitvormingsbeleid kunnen worden leveraged.
 
-  &#x200B;>>
-  >[!AVAILABILITY]
-  &#x200B;>>
-  Eerder uitgebracht in Beperkte Beschikbaarheid, is deze verbetering nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid).
+  **Nota**: Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze verbetering nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid).
 
 #### Journeys
 
@@ -284,10 +278,7 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 * **Veelvoudige binnenkomende acties in reizen** - om uw reisorchestratie te vereenvoudigen, kunt u verscheidene binnenkomende acties in één enkele reis nu bepalen. Deze functie was eerder beschikbaar in campagnes en stelt u in staat om meerdere op code gebaseerde ervaringen, In-app-berichten, Content Cards of webhandelingen tegelijk naar verschillende locaties te verzenden, waarbij elke actie een specifieke inhoud bevat.
 
-  &#x200B;>>
-  >[!AVAILABILITY]
-  &#x200B;>>
-  Eerder uitgebracht in Beperkte Beschikbaarheid, is deze verbetering nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid).
+  **Nota**: Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze verbetering nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid).
 
 #### Geordende campagnes
 
