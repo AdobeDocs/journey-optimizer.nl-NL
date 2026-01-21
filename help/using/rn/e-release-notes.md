@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b7e8f139508ca9418c1b8941bc7ccd84f7f0661c
+source-git-commit: 86bd616a9331c5225c78ccf52c5d26a063fa8654
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: '2080'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 **De pre-release notities hieronder kunnen zonder voorafgaande kennisgeving worden gewijzigd tot de releasedatum**. Links, schermen en bijgewerkte documentatie worden op de releasedatum gepubliceerd in de release notes.
 
-Zie ook [Adobe Experience Platform Pre-release notities](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [Adobe Experience Platform Pre-release notities](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Releasedatum**: 26 januari 2026
 
@@ -301,6 +301,8 @@ Verbeteringen die met deze release komen, worden hieronder vermeld.
 #### Ervaringsbeslissingen
 
 * **Reisarbitrage** - Je kunt nu formules en AI-modellen<strong> gebruiken </strong>om automatisch de prioriteitsscores van reizen te verhogen op basis van klantprofielkenmerken en contextuele factoren, zodat klanten de meest relevante reizen invullen.
+
+  **Opmerking**: Deze verbetering is alleen beschikbaar voor een reeks organisaties (Beperkte beschikbaarheid).
 
 * **EXD Sandbox-tooling documentatie - Update** - Beschrijving wordt verstrekt.
 
