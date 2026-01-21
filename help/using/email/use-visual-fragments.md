@@ -8,18 +8,18 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 6a5b4c94228db0ab9573124762e89181c2c41b45
+source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 1%
+source-wordcount: '1019'
+ht-degree: 0%
 
 ---
 
 # Visuele fragmenten toevoegen aan uw e-mails {#use-visual-fragments}
 
-Een fragment is een herbruikbare component waarnaar in een of meer e-mails kan worden verwezen via Journey Optimizer-campagnes, -reizen of inhoudssjablonen. Met deze functionaliteit kunt u meerdere aangepaste inhoudsblokken samenstellen die door marketinggebruikers kunnen worden gebruikt om snel e-mailinhoud samen te stellen in een verbeterd ontwerpproces. [&#x200B; leer hoe te om fragmenten &#x200B;](../content-management/fragments.md) tot stand te brengen en te beheren.
+Een fragment is een herbruikbare component waarnaar in een of meer e-mails kan worden verwezen via Journey Optimizer-campagnes, -reizen of inhoudssjablonen. Met deze functionaliteit kunt u meerdere aangepaste inhoudsblokken samenstellen die door marketinggebruikers kunnen worden gebruikt om snel e-mailinhoud samen te stellen in een verbeterd ontwerpproces. [ leer hoe te om fragmenten ](../content-management/fragments.md) tot stand te brengen en te beheren.
 
-➡️ [&#x200B; Leer hoe te, auteur en gebruiks fragmenten in deze video &#x200B;](../content-management/fragments.md#video-fragments) beheren
+➡️ [ Leer hoe te, auteur en gebruiks fragmenten in deze video ](../content-management/fragments.md#video-fragments) beheren
 
 ## Een fragment gebruiken {#use-fragment}
 
@@ -29,7 +29,7 @@ Voer de onderstaande stappen uit om een fragment te gebruiken in een e-mailberic
 >
 >U kunt maximaal 30 fragmenten in een bepaalde levering toevoegen. Fragmenten kunnen maximaal 1 niveau worden genest.
 
-1. Open om het even welke e-mail of malplaatjeinhoud gebruikend [&#x200B; E-mail Designer &#x200B;](get-started-email-design.md).
+1. Open om het even welke e-mail of malplaatjeinhoud gebruikend [ E-mail Designer ](get-started-email-design.md).
 
 1. Selecteer het pictogram **[!UICONTROL Fragments]** van de linkerspoorstaaf.
 
@@ -105,11 +105,15 @@ Volg deze aanbevolen procedures bij het werken met visuele fragmenten en dynamis
 
 De impliciete variabelen verbeteren de bestaande fragmentfunctionaliteit om de efficiëntie voor hergebruik van inhoud en het gebruik van scripts te verbeteren. Fragmenten kunnen invoervariabelen gebruiken en uitvoervariabelen maken die bruikbaar zijn in campagne- en reisinhoud.
 
-Leer hoe te om impliciete variabelen in [&#x200B; te gebruiken deze sectie &#x200B;](../personalization/use-expression-fragments.md#implicit-variables).
+Leer hoe te om impliciete variabelen in [ te gebruiken deze sectie ](../personalization/use-expression-fragments.md#implicit-variables).
 
 ## Bewerkbare velden aanpassen {#customize-fields}
 
-Als bepaalde delen van het geselecteerde fragment bewerkbaar zijn gemaakt, kunt u de standaardwaarde ervan overschrijven nadat u het fragment aan de inhoud hebt toegevoegd. [&#x200B; Leer hoe te om uw fragmenten klantgericht te maken &#x200B;](../content-management/customizable-fragments.md)
+Als bepaalde delen van het geselecteerde fragment bewerkbaar zijn gemaakt, kunt u de standaardwaarde ervan overschrijven nadat u het fragment aan de inhoud hebt toegevoegd. [ Leer hoe te om uw fragmenten klantgericht te maken ](../content-management/customizable-fragments.md)
+
+>[!CAUTION]
+>
+>Wanneer zowel het **etiket** als **URL** van een knoopcomponent in een fragment editable zijn, toont het volgen rapporten URL in plaats van het knoopetiket. <!--If accurate label tracking is critical for your reporting, one potential approach is to break the inheritance on the fragment after adding it to your email, though note that this disconnects the fragment from centralized updates. [Learn more about breaking inheritance](#break-inheritance)-->
 
 Voer de volgende stappen uit om bewerkbare velden in een fragment aan te passen:
 
