@@ -52,8 +52,8 @@ De verslagen worden dan bewaard in de **Dataset van de Uitvoer van het Bericht v
 
 Het aan boord nemen proces voor de eigenschap van de Uitvoer van het Bericht bestaat uit twee stappen:
 
-1. [ opstelling de uitvoerdataflow ](#set-up-export-dataflow) in [!DNL Experience Platform];
-1. [ laat de Uitvoer van het Bericht ](#config-message-export) bij de kanaalconfiguratie in [!DNL Journey Optimizer] toe.
+1. [&#x200B; opstelling de uitvoerdataflow &#x200B;](#set-up-export-dataflow) in [!DNL Experience Platform];
+1. [&#x200B; laat de Uitvoer van het Bericht &#x200B;](#config-message-export) bij de kanaalconfiguratie in [!DNL Journey Optimizer] toe.
 
 >[!WARNING]
 >
@@ -67,9 +67,9 @@ Voordat u uw gegevens kunt exporteren, moet u het exportproces instellen door de
 >
 >Deze instelling moet voor elke sandbox worden geconfigureerd.
 
-1. Kies een Experience Platform [ bestemmingstype ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}. Een lijst van beschikbare bestemmingsplatforms die klaar zijn om gegevens te ontvangen is beschikbaar op [ deze pagina ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
+1. Kies een Experience Platform [&#x200B; bestemmingstype &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}. Een lijst van beschikbare bestemmingsplatforms die klaar zijn om gegevens te ontvangen is beschikbaar op [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
 
-1. In [!DNL Experience Platform], vorm uw bestemming door geloofsbrieven, emmertje/container, wegprefix, en veiligheidsopties te bepalen. [ leer hoe ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. In [!DNL Experience Platform], vorm uw bestemming door geloofsbrieven, emmertje/container, wegprefix, en veiligheidsopties te bepalen. [&#x200B; leer hoe &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. Creeer een stroom van de datasetuitvoer gebruikend de volgende gegevens:
 
@@ -81,7 +81,7 @@ Voordat u uw gegevens kunt exporteren, moet u het exportproces instellen door de
 
 Om de Uitvoer van het Bericht op uw campagnes en reizen toe te passen, moet u de specifieke optie op het niveau van de kanaalconfiguratie toelaten. Voer de onderstaande stappen uit.
 
-1. In [!DNL Journey Optimizer], geef of creeer de gewenste E-mail of van SMS [ kanaalconfiguratie ](channel-surfaces.md#create-channel-surface) uit.
+1. In [!DNL Journey Optimizer], geef of creeer de gewenste E-mail of van SMS [&#x200B; kanaalconfiguratie &#x200B;](channel-surfaces.md#create-channel-surface) uit.
 
 1. Selecteer de optie **[!UICONTROL Enable Message Export]** .
 
