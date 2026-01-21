@@ -16,14 +16,14 @@ ht-degree: 0%
 
 # Opmerkingen voorafgaand aan de release {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [&#x200B; versienota&#39;s &#x200B;](release-notes.md).
 
 
 ## Opmerkingen bij de pre-release januari &#39;26 {#jan-26-01-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 26 Januari, 2026
 
@@ -244,9 +244,9 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 * **Campagne van het Programma die de Zone van de Tijd van het Profiel** gebruikt - het plannen van de Campagne kan de tijdzone van elk profiel nu gebruiken om berichten in de voorgenomen lokale tijd te leveren.
 
-  >>
-  [!AVAILABILITY]
-  >>
+  &#x200B;>>
+  >[!AVAILABILITY]
+  &#x200B;>>
   Deze verbetering is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid).
 
 #### Kanalen
@@ -271,9 +271,9 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 * **de fragmenten van de Band aan besluitvormingspunten** - Journey Optimizer verstrekt nu de capaciteit om fragmenten aan besluitvormingspunten vast te maken die in code-gebaseerde ervaringscampagnes door besluitvormingsbeleid kunnen worden leveraged.
 
-  >>
-  [!AVAILABILITY]
-  >>
+  &#x200B;>>
+  >[!AVAILABILITY]
+  &#x200B;>>
   Eerder uitgebracht in Beperkte Beschikbaarheid, is deze verbetering nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid).
 
 #### Journeys
@@ -284,9 +284,9 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 * **Veelvoudige binnenkomende acties in reizen** - om uw reisorchestratie te vereenvoudigen, kunt u verscheidene binnenkomende acties in één enkele reis nu bepalen. Deze functie was eerder beschikbaar in campagnes en stelt u in staat om meerdere op code gebaseerde ervaringen, In-app-berichten, Content Cards of webhandelingen tegelijk naar verschillende locaties te verzenden, waarbij elke actie een specifieke inhoud bevat.
 
-  >>
-  [!AVAILABILITY]
-  >>
+  &#x200B;>>
+  >[!AVAILABILITY]
+  &#x200B;>>
   Eerder uitgebracht in Beperkte Beschikbaarheid, is deze verbetering nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid).
 
 #### Geordende campagnes
