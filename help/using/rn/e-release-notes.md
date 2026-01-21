@@ -7,23 +7,23 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 157e880de7dc63e4972b4e6794cc4a5f736d7bd4
+source-git-commit: 3635cb3ad81cc3462dc3ebb6d60594b4b83051e9
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '2068'
 ht-degree: 1%
 
 ---
 
 # Opmerkingen voorafgaand aan de release {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [&#x200B; versienota&#39;s &#x200B;](release-notes.md).
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
 
 
 ## Opmerkingen bij de pre-release januari &#39;26 {#jan-26-01-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 26 Januari, 2026
 
@@ -140,7 +140,7 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <tbody>
 <tr>
 <td>
-<p>Met het nieuwe <strong> aanbieden 0&rbrace; basistoe:voegen-on RCS </strong>, kunt u het basisbericht van de Communicatie van de Diensten (RCS) nu leveren is in Journey Optimizer, toelatend de volgende verbeterde overseinenmogelijkheden onderworpen aan leverancier en dragersteun:</p>
+<p>Met het nieuwe <strong> aanbieden 0} basistoe:voegen-on RCS </strong>, kunt u het basisbericht van de Communicatie van de Diensten (RCS) nu leveren is in Journey Optimizer, toelatend de volgende verbeterde overseinenmogelijkheden onderworpen aan leverancier en dragersteun:</p>
 <ul>
 <li>Branded en de geverifieerde steun van de afzender: verzend berichten gebruikend geverifieerde bedrijfsprofielen met branding elementen (embleem, afzendernaam, enz.).</li>
 <li>Inzichten van de levering van berichten: Ontvang gedetailleerde leveringsrapporten met inbegrip van updates van de berichtstatus (b.v., verzonden, geleverd, gelezen).</li>
@@ -218,6 +218,21 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <table>
 <thead>
 <tr>
+<th><strong>Bericht exporteren</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Het is nu mogelijk om <strong> verzonden leveringen </strong> naar een specifieke dataset, voor archiverings &amp; nalevingsdoeleinden uit te voeren. Deze capaciteit is niet alleen beschikbaar voor e-mail, maar ook andere kanalen zoals SMS.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Nieuwe API om actiecampagnes op te halen</strong><br/></th>
 </tr>
 </thead>
@@ -280,18 +295,16 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 #### AI
 
-* **AI de Controles van de Kwaliteit van de Inhoud van de Inhoud &lbrace;** - Naast merkgroepering, kunt u algemene <strong> inhoudskwaliteit </strong> nu evalueren om potentiële kwesties met leesbaarheid, samenhang, en doeltreffendheid, onafhankelijk van uw merkrichtlijnen te ontdekken. Deze geautomatiseerde controles helpen onduidelijk overseinen, inconsistente toon, of structurele hiaten identificeren.
+* **AI de Controles van de Kwaliteit van de Inhoud van de Inhoud {** - Naast merkgroepering, kunt u algemene <strong> inhoudskwaliteit </strong> nu evalueren om potentiële kwesties met leesbaarheid, samenhang, en doeltreffendheid, onafhankelijk van uw merkrichtlijnen te ontdekken. Deze geautomatiseerde controles helpen onduidelijk overseinen, inconsistente toon, of structurele hiaten identificeren.
 * **de brandjes van de Update met nieuw kleurenlusje** - de hulp van de Merk zorgt ervoor uw merk constant over alle touchpoints wordt voorgesteld. De nieuwe <strong> sectie van Kleuren </strong> bepaalt de normen voor het de kleurensysteem van uw merk, die schetsen hoe de kleuren worden geselecteerd, georganiseerd, en toegepast over ervaringen. Het zorgt voor consistent gebruik van primaire, secundaire, accenten en neutrale kleuren ter ondersteuning van een consistente, toegankelijke en herkenbare merkidentiteit.
 
 #### Campagnes
 
-* **Campagne van het Programma die de Zone van de Tijd van het Profiel** gebruikt - het plannen van de Campagne kan de 2&rbrace; tijdzone van elk profiel <strong> nu gebruiken om berichten bij de voorgenomen lokale tijd te leveren.</strong>
+* **Campagne van het Programma die de Zone van de Tijd van het Profiel** gebruikt - het plannen van de Campagne kan de 2} tijdzone van elk profiel <strong> nu gebruiken om berichten bij de voorgenomen lokale tijd te leveren.</strong>
 
   **Nota**: Deze verbetering is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid).
 
 #### Kanalen
-
-* **de uitvoer van het Bericht** - Het is nu mogelijk om <strong> verzonden leveringen </strong> in een specifieke dataset, voor archiverings &amp; nalevingsdoeleinden uit te voeren. Deze capaciteit is niet alleen beschikbaar voor e-mail, maar ook andere kanalen zoals SMS.
 
 * **Webhooks van SMS: Fase II** - te verstrekken Beschrijving.
 
@@ -299,15 +312,15 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 #### Email Designer
 
-* **Correcties op plaats - Acrite - E-mail en het Landen Pagina&#39;s** - te verstrekken Beschrijving.
+* **op zijn plaats correcties in de E-mailontwerper** - <strong> AI-Gerichte automatische inhoudsuggesties </strong> zijn nu beschikbaar in E-mail Designer wanneer de schendingen tijdens inhoudbevestiging worden ontdekt. Als inhoud wordt gemarkeerd als verkeerd afgestemd op de richtlijnen van het merk of als kwaliteitscriteria ontbreken, genereert het systeem proactief gecorrigeerde alternatieven die inline kunnen worden bekeken en toegepast, waardoor de conformiteit wordt verbeterd en de productie wordt versneld.
 
 #### Ervaar beslissingsvermogen
 
-* **Arbitrage van de Reis - Formulas** - u kunt <strong> formules en modellen AI </strong> nu gebruiken om de scores van de reisprioriteit automatisch op te voeren die op de attributen van het klantenprofiel en contextafhankelijke factoren worden gebaseerd, die klanten verzekeren gaan de meest relevante reizen in.
+* **arbitrage van de Reis** - u kunt <strong> formules en modellen AI </strong> nu gebruiken om de scores van de reisprioriteit automatisch op te voeren die op de attributen van het klantenprofiel en contextafhankelijke factoren worden gebaseerd, die klanten verzekeren gaan de meest relevante reizen in.
 
 * **uitgebreide zandbak het tooling documentatie - update** - te verstrekken Beschrijving.
 
-* **zelf-dienst migratie tooling APIs** - Beschrijving om te worden verstrekt.
+* **zelf-dienst migratie tooling APIs** - Een nieuwe reeks <strong> migratie tooling APIs </strong> is beschikbaar om het beheersentiteiten van de Aanbieding aan het Beslissing van de Ervaring te migreren. Met de gereedschappen kunt u naadloze migratie mogelijk maken tussen sandboxen met de mogelijkheden voor afhankelijkheidsresolutie en terugdraaien.
 
 * **verbindt fragmenten** - Journey Optimizer verstrekt nu de capaciteit om <strong> fragmenten </strong> aan besluitvormingspunten vast te maken die in code-gebaseerde ervaringscampagnes door besluitvormingsbeleid kunnen worden leveraged.
 
@@ -316,6 +329,8 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 #### Journeys
 
 * **Hefboomwerking een nuttige last van de mislukkingsreactie in de Acties van de reisDouane** - Te verstrekken Beschrijving.
+
+* **combineer inheemse en het berichtacties van Adobe Campaign** - Journey Optimizer laat u nu Adobe Campaign v7/v8 berichtacties met inheemse kanaalacties in de zelfde reis combineren.
 
 * **de bevestiging van de de grootte van de nuttige lading van de reis in reizen** - Journey Optimizer verstrekt nu <strong> bevestiging van de ladingsgrootte </strong> helpen optimale prestaties en systeemstabiliteit verzekeren. Bij het bouwen of publiceren van reizen, ontvangt u duidelijke waarschuwingen en fouten als de ladingsgrootte of geadviseerde grenzen, samen met actionable begeleiding nadert om uw reisconfiguratie te optimaliseren. Deze proactieve validatie helpt u potentiële problemen vroegtijdig te identificeren en de reisprestaties te handhaven.
 
@@ -359,6 +374,23 @@ In de komende dagen zijn de volgende mogelijkheden en verbeteringen gepland voor
 <tr>
 <td>
 <p>Aangedreven door Adobe Experience Platform Agent Orchestrator, <strong> Journey Agent </strong> is beschikbaar in Journey Optimizer en laat u toe om reizen door een natuurlijke taalinterface te analyseren. U kunt nu ook kanaalspecifieke inhoud rechtstreeks in Journey Agent genereren en beheren, inhoud maken voor kanalen zoals e-mail en push, sjablonen toepassen en voorvertonen, toon en stijl verfijnen via aanwijzingen en inhoud openen in Content Designer voor in-context bewerken.</p>
+<p>Beschikbaarheidsdatum: 2 februari 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Beslissingsactiviteit inhoud</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt <strong> gepersonaliseerde aanbiedingen </strong> nu omvatten in uw reizen door een specifieke het besluitvormingsactiviteit van de Inhoud in het wegcanvas, en hen gebruiken in reisactiviteiten, met inbegrip van voorwaarden en douaneacties.</p>
+<p>Beschikbaarheidsdatum: 2 februari 2026</p>
 </td>
 </tr>
 </tbody>
