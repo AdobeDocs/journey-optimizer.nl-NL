@@ -7,23 +7,23 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d1d544b484eb92fd29d0f3f2dc637c8617394304
+source-git-commit: 3ea5dd845569508421092bdf53634619354206e2
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2407'
 ht-degree: 1%
 
 ---
 
 # Opmerkingen voorafgaand aan de release {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [&#x200B; versienota&#39;s &#x200B;](release-notes.md).
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
 
 
 ## Opmerkingen bij de pre-release januari &#39;26 {#jan-26-01-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 27 Januari, 2026
 
@@ -178,7 +178,13 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <tbody>
 <tr>
 <td>
-<p>Het is nu mogelijk om <strong> verzonden leveringen </strong> naar een specifieke dataset, voor archiverings &amp; nalevingsdoeleinden uit te voeren. Deze capaciteit is niet alleen beschikbaar voor e-mail, maar ook andere kanalen zoals SMS. Het behoud van gegevens voor de dataset van de berichtuitvoer is nu <strong> 7 dagen </strong>.</p>
+<p>Een nieuw <strong> vermogen van de Uitvoer van het 0} Bericht is nu beschikbaar voor e-mail en de kanalen van SMS. </strong> Met deze functie kunt u automatisch verzonden berichtinhoud exporteren naar een speciale Experience Platform-gegevensset, zodat u:</p>
+<ul>
+<li>Voldoen aan wettelijke nalevingsvereisten (zoals HIPAA)</li>
+<li>Berichten archiveren voor juridische claims en vragen over klantenservice</li>
+<li>Kopieën behouden van persoonlijke inhoud die naar individuen is verzonden</li>
+</ul>
+<p>De verslagen worden bewaard in de Dataset van de Uitvoer van het Bericht van AJO voor <strong> 7 kalenderdagen van opname </strong>. Tijdens deze bewaarperiode kunt u de gegevens naar uw eigen opslag exporteren via Experience Platform-bestemmingen. De eigenschap wordt toegelaten op het niveau van de kanaalconfiguratie, die u korrelige controle geven over welke berichten worden uitgevoerd.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12915"> Verbinding aan de taak van DOCAC JIRA </a> | <a href="https://jira.corp.adobe.com/browse/CJM-105313"> Verbinding aan de taak van JIRA VAN HET PRODUCT </a></p>
 </td>
 </tr>
@@ -271,14 +277,14 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 #### AI
 
-* **AI de Controles van de Kwaliteit van de Inhoud van de Inhoud &lbrace;** - Naast merkgroepering, kunt u algemene <strong> inhoudskwaliteit </strong> nu evalueren om potentiële kwesties met leesbaarheid, samenhang, en doeltreffendheid, onafhankelijk van uw merkrichtlijnen te ontdekken. Deze geautomatiseerde controles helpen onduidelijk overseinen, inconsistente toon, of structurele hiaten identificeren.
+* **AI de Controles van de Kwaliteit van de Inhoud van de Inhoud {** - Naast merkgroepering, kunt u algemene <strong> inhoudskwaliteit </strong> nu evalueren om potentiële kwesties met leesbaarheid, samenhang, en doeltreffendheid, onafhankelijk van uw merkrichtlijnen te ontdekken. Deze geautomatiseerde controles helpen onduidelijk overseinen, inconsistente toon, of structurele hiaten identificeren.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13917"> Verbinding aan de taak van DOCAC JIRA </a> | <a href="https://jira.corp.adobe.com/browse/CJM-103238"> Verbinding aan de taak van JIRA VAN HET PRODUCT </a>
 * **de brandjes van de Update met nieuw kleurenlusje** - de hulp van de Merk zorgt ervoor uw merk constant over alle touchpoints wordt voorgesteld. De nieuwe <strong> sectie van Kleuren </strong> bepaalt de normen voor het de kleurensysteem van uw merk, die schetsen hoe de kleuren worden geselecteerd, georganiseerd, en toegepast over ervaringen. Het zorgt voor consistent gebruik van primaire, secundaire, accenten en neutrale kleuren ter ondersteuning van een consistente, toegankelijke en herkenbare merkidentiteit.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13811"> Verbinding aan de taak van DOCAC JIRA </a> | <a href="https://jira.corp.adobe.com/browse/CJM-121183"> Verbinding aan de taak van JIRA VAN HET PRODUCT </a>
 
 #### Campagnes
 
-* **Campagne van het Programma die de Zone van de Tijd van het Profiel** gebruikt - het plannen van de Campagne kan de 2&rbrace; tijdzone van elk profiel <strong> nu gebruiken om berichten bij de voorgenomen lokale tijd te leveren.</strong>
+* **Campagne van het Programma die de Zone van de Tijd van het Profiel** gebruikt - het plannen van de Campagne kan de 2} tijdzone van elk profiel <strong> nu gebruiken om berichten bij de voorgenomen lokale tijd te leveren.</strong>
 
   **Nota**: Deze verbetering is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid).
   <a href="https://jira.corp.adobe.com/browse/DOCAC-11534"> Verbinding aan de taak van DOCAC JIRA </a> | <a href="https://jira.corp.adobe.com/browse/CJM-43782"> Verbinding aan de taak van JIRA VAN HET PRODUCT </a>
@@ -297,9 +303,6 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13979"> Verbinding aan de taak van DOCAC JIRA </a> | <a href="https://jira.corp.adobe.com/browse/CJM-95365"> Verbinding aan de taak van JIRA VAN HET PRODUCT </a>
 
 #### Ervaar beslissingsvermogen
-
-* **uitgebreide zandbak het tooling documentatie - update** - te verstrekken Beschrijving.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13596"> Verbinding aan de taak van DOCAC JIRA </a>
 
 * **zelf-dienst migratie tooling APIs** - Een nieuwe reeks <strong> migratie tooling APIs </strong> is beschikbaar om het beheersentiteiten van de Aanbieding aan het Beslissing van de Ervaring te migreren. Met de gereedschappen kunt u naadloze migratie mogelijk maken tussen sandboxen met de mogelijkheden voor afhankelijkheidsresolutie en terugdraaien.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13837"> Verbinding aan de taak van DOCAC JIRA </a> | <a href="https://jira.corp.adobe.com/browse/CJM-109695"> Verbinding aan de taak van JIRA VAN HET PRODUCT </a>
