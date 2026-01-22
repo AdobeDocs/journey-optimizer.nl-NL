@@ -9,10 +9,10 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5a1a356d6bf0dbd5290b2cf8257d87aa7db43b5b
+source-git-commit: 69efe0254aae3cb067f2c9f89db6aa4fe0a50549
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 2%
+source-wordcount: '348'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 >
 >Deze mogelijkheid is alleen beschikbaar voor bepaalde klanten en houdt aanzienlijke risico&#39;s in. Bevestig met uw Adobe-vertegenwoordiger dat deze functie is ingeschakeld voor uw organisatie.
 
-Door gebrek, wordt het toevoegen van nieuwe [&#x200B; verpersoonlijkingsattributen &#x200B;](../personalization/personalization-build-expressions.md) aan een gepubliceerd fragment niet gesteund. Nadat een fragment is gepubliceerd, is de set met profiel of contextafhankelijke kenmerken vergrendeld voor alle campagnes en reizen.
+Door gebrek, wordt het toevoegen van nieuwe [ verpersoonlijkingsattributen ](../personalization/personalization-build-expressions.md) aan een gepubliceerd fragment niet gesteund. Nadat een fragment is gepubliceerd, is de set met profiel of contextafhankelijke kenmerken vergrendeld voor alle campagnes en reizen.
 
 Nochtans, voor uitgezochte klanten, is het mogelijk om **contextafhankelijke attributen** slechts aan gepubliceerde fragmenten toe te voegen.
 
@@ -44,7 +44,7 @@ Voer de onderstaande stappen uit om contextafhankelijke kenmerken aan een gepubl
 
 >[!IMPORTANT]
 >
->Ga alleen verder als u de effecten op reizen en campagnes die verwijzen naar het fragment volledig begrijpt. [Meer informatie](#limitations)
+>Ga slechts te werk als u volledig [ de gevolgen ](#limitations) op reizen en campagnes die het fragment van verwijzingen voorzien begrijpt.
 
 1. Ga naar **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]**.
 
@@ -56,11 +56,7 @@ Voer de onderstaande stappen uit om contextafhankelijke kenmerken aan een gepubl
 
 1. Ga naar **[!UICONTROL Code editor]** of **[!UICONTROL Advanced mode]** in de verpersoonlijkingseditor.
 
-1. Typ of kopieer het contextafhankelijke kenmerk handmatig met de syntaxis:
-
-   ```
-   {{context.attribute_name}}
-   ```
+1. Typ of kopieer het contextafhankelijke kenmerk handmatig en plak het met de syntaxis `{{context.attribute_name}}` :
 
    Voorbeeld voor een kenmerk `promotionCode` :
 
