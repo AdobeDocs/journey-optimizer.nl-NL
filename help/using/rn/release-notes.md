@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca652ee1469f411a1bd80733ba89921b0ddb1b1c
+source-git-commit: 789bae8373dda34cd132ea7abffea37f002dbc50
 workflow-type: tm+mt
-source-wordcount: '2048'
+source-wordcount: '2051'
 ht-degree: 2%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 2%
 
 [!DNL Adobe Journey Optimizer] volgt een doorlopend leveringsmodel, dat Adobe in staat stelt voortdurend nieuwe functies, verbeteringen en correcties te leveren. Deze benadering maakt een schaalbare, gefaseerde implementatie van mogelijkheden mogelijk om prestaties en stabiliteit in alle omgevingen te garanderen.
 
-Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [&#x200B; de versiecyclus van Journey Optimizer &#x200B;](releases.md).
+Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [ de versiecyclus van Journey Optimizer ](releases.md).
 
-[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Opmerkingen bij de release van januari &#39;26 {#latest-rn}
 
@@ -100,7 +100,6 @@ Deze releaseopmerkingen zijn pre-release en kunnen worden gewijzigd tot de datum
 <td>
 <p>Eerder beperkt tot Campagnes, is het <strong> Directe kanaal van de Post </strong> nu beschikbaar op het <strong> wegcanvas </strong>, toelatend u om Directe Post in uw reizen op te nemen. Directe post kan nu in zowel partij als 1:1 reisscenario's, met steun voor de configuratie van de dossierextractie en op tijd-gebaseerde frequentiemontages worden gebruikt.</p>
 <p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
-<img src="assets/do-not-localize/dm-journey.gif">
 </td>
 </tr>
 </tbody>
@@ -148,7 +147,6 @@ Deze releaseopmerkingen zijn pre-release en kunnen worden gewijzigd tot de datum
 <tr>
 <td>
 <p>Direct mail kanaal is nu beschikbaar in georkestreerde campagnes. De <strong> Directe postactiviteit </strong> vergemakkelijkt direct mail die binnen uw Geordende campagne, voor zowel eenmalige als terugkomende berichten verzendt. Het dient om het proces te automatiseren om het <strong> extractiedossier </strong> te produceren dat door directe postleveranciers wordt vereist. U kunt kanaalactiviteiten in het Geordende campagnecanvas combineren om kanaalcampagnes tot stand te brengen die acties kunnen teweegbrengen die op klantengedrag en gegevens worden gebaseerd.</p>
-<img src="assets/do-not-localize/dm-oc.gif">
 </td>
 </tr>
 </tbody>
@@ -178,7 +176,7 @@ Deze releaseopmerkingen zijn pre-release en kunnen worden gewijzigd tot de datum
 <tbody>
 <tr>
 <td>
-<p>Een nieuw <strong> vermogen van de Uitvoer van het 0&rbrace; Bericht is nu beschikbaar voor e-mail en de kanalen van SMS. </strong> Met deze functie kunt u automatisch verzonden berichtinhoud exporteren naar een speciale Experience Platform-gegevensset, zodat u:</p>
+<p>Een nieuw <strong> vermogen van de Uitvoer van het 0} Bericht is nu beschikbaar voor e-mail en de kanalen van SMS. </strong> Met deze functie kunt u automatisch verzonden berichtinhoud exporteren naar een speciale Experience Platform-gegevensset, zodat u:</p>
 <ul>
 <li>Voldoen aan wettelijke nalevingsvereisten (zoals HIPAA)</li>
 <li>Berichten archiveren voor juridische claims en vragen over klantenservice</li>
@@ -272,13 +270,13 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 #### AI
 
-* **AI de Controles van de Kwaliteit van de Inhoud van de Inhoud &lbrace;** - Naast merkgroepering, kunt u algemene <strong> inhoudskwaliteit </strong> nu evalueren om potentiële kwesties met leesbaarheid, samenhang, en doeltreffendheid, onafhankelijk van uw merkrichtlijnen te ontdekken. Deze geautomatiseerde controles helpen onduidelijk overseinen, inconsistente toon, of structurele hiaten identificeren.
+* **AI de Controles van de Kwaliteit van de Inhoud van de Inhoud {** - Naast merkgroepering, kunt u algemene <strong> inhoudskwaliteit </strong> nu evalueren om potentiële kwesties met leesbaarheid, samenhang, en doeltreffendheid, onafhankelijk van uw merkrichtlijnen te ontdekken. Deze geautomatiseerde controles helpen onduidelijk overseinen, inconsistente toon, of structurele hiaten identificeren.
 
 * **de brandjes van de Update met nieuw kleurenlusje** - de hulp van de Merk zorgt ervoor uw merk constant over alle touchpoints wordt voorgesteld. De nieuwe <strong> sectie van Kleuren </strong> bepaalt de normen voor het de kleurensysteem van uw merk, die schetsen hoe de kleuren worden geselecteerd, georganiseerd, en toegepast over ervaringen. Het zorgt voor consistent gebruik van primaire, secundaire, accenten en neutrale kleuren ter ondersteuning van een consistente, toegankelijke en herkenbare merkidentiteit.
 
 #### Campagnes
 
-* **Campagne van het Programma die de Zone van de Tijd van het Profiel** gebruikt - het plannen van de Campagne kan de 2&rbrace; tijdzone van elk profiel <strong> nu gebruiken om berichten bij de voorgenomen lokale tijd te leveren.</strong>
+* **Campagne van het Programma die de Zone van de Tijd van het Profiel** gebruikt - het plannen van de Campagne kan de 2} tijdzone van elk profiel <strong> nu gebruiken om berichten bij de voorgenomen lokale tijd te leveren.</strong>
 
   **Nota**: Deze verbetering is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid).
 
@@ -288,7 +286,7 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 #### Email Designer
 
-* **op zijn plaats correcties in de E-mailontwerper** - <strong> AI-Gerichte automatische inhoudsuggesties </strong> zijn nu beschikbaar in E-mail Designer wanneer de schendingen tijdens inhoudbevestiging worden ontdekt. Als inhoud wordt gemarkeerd als verkeerd afgestemd op de richtlijnen van het merk of als kwaliteitscriteria ontbreken, genereert het systeem proactief gecorrigeerde alternatieven die inline kunnen worden bekeken en toegepast, waardoor de conformiteit wordt verbeterd en de productie wordt versneld.
+* **Op zijn plaats correcties in de E-mailontwerper** - wanneer het beheren van inhoud met uw merkrichtlijn, <strong> AI-Gerichte automatische inhoudssuggesties </strong> zijn nu beschikbaar wanneer de schendingen tijdens inhoudbevestiging worden ontdekt. Als inhoud wordt gemarkeerd als verkeerd afgestemd op de richtlijnen van het merk of als kwaliteitscriteria ontbreken, genereert het systeem proactief gecorrigeerde alternatieven die inline kunnen worden bekeken en toegepast, waardoor de conformiteit wordt verbeterd en de productie wordt versneld.
 
 #### Ervaar beslissingsvermogen
 
