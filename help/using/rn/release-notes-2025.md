@@ -8,16 +8,433 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
+source-git-commit: ca652ee1469f411a1bd80733ba89921b0ddb1b1c
 workflow-type: tm+mt
-source-wordcount: '7910'
-ht-degree: 4%
+source-wordcount: '8998'
+ht-degree: 5%
 
 ---
 
 # Aanvullende informatie 2025 {#release-notes-2025}
 
 Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Journey Optimizer] in 2025 heeft uitgebracht.
+
+## Opmerkingen bij de release van oktober 1925 {#25-10-rn}
+
+### Nieuwe functies {#oct-25-10-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Afbeelding naar HTML-converter</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De afbeelding naar HTML-converter is een door AI aangedreven functie die statische afbeeldingsontwerpen omzet in volledig aanpasbare, modulaire HTML-sjablonen voor e-mailinhoud. Met dit codeprogramma kunnen marketers visuele ontwerpen transformeren in responsieve, bewerkbare e-mailsjablonen zonder dat hiervoor technische expertise nodig is. Dit is perfect voor platformmigratie, het snel maken van sjablonen en het bouwen van herbruikbare sjabloonbibliotheken.</p>
+<p><img src="../email/assets/email_designer_converted_img.png"/></p>
+<p>Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+<p>Raadpleeg de <a href="../email/image-to-html.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 30 oktober 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Controle en rapportage van aangepaste acties</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dit vermogen verstrekt beter zicht in de gezondheid en de prestaties van het de actiepuntpunt van de douaneactie. Een nieuwe douaneactie controledashboard en overeenkomstige gebieden in de dataset van de de gebeurtenisgebeurtenis van de reisstap zullen u succesvolle vraag, fouten, productie, reactietijd en rij wachttijd voor uw eindpunten van de douaneactie controleren. U kunt nu snel begrijpen wanneer, waar en waarom een afwijkende situatie zich voordoet in een aangepaste handeling.</p>
+<p>Deze mogelijkheid is momenteel beperkt beschikbaar voor klanten.</p>
+<p>Raadpleeg de <a href="../action/reporting.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 28 oktober 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Aangepaste formulieren op de bestemmingspagina</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met [!DNL Journey Optimizer] kunt u nu profielkenmerken vastleggen via de bestemmingspagina's.</p>
+<p>U kunt aangepaste formulieren maken, ontwerpen en beheren op basis van een specifieke gegevensset. U kunt deze formulieren vervolgens gebruiken in bestemmingspagina's om de profielkenmerken van uw keuze toe te voegen aan de gegevensset die voor elk formulier is gedefinieerd.</p>
+<p>Deze mogelijkheid is momenteel beperkt beschikbaar voor klanten in de Verenigde Staten en Australië. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+<p><img src="assets/do-not-localize/forms.gif"/></p>
+<p>Raadpleeg de <a href="../landing-pages/lp-forms.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 23 oktober 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Quiet-uren/uitsluitingen op basis van tijd</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met stille uren kunt u op tijd gebaseerde uitsluitingen definiëren voor e-mail-, SMS-, push- en WhatsApp-kanalen. Zij zorgen ervoor dat geen berichten tijdens specifieke periodes worden verzonden, die u helpen klantenvoorkeur en nalevingsvereisten respecteren.</p>
+<p>U kunt stille uren toepassen via regelsets, die u kunt toewijzen aan afzonderlijke acties in campagnes of reizen voor een nauwkeurige controle.</p>
+<p>De regels voor de korte uren zijn momenteel alleen beschikbaar voor een aantal organisaties (Beperkte Beschikbaarheid).  Deze zullen in toekomstige versies geleidelijk beschikbaar zijn voor alle klanten.</p>
+<img src="assets/do-not-localize/quiet-hour.gif">
+<p>Raadpleeg de <a href="../conflict-prioritization/quiet-hours.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 22 oktober 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>RCS Basic Messaging</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>With the new RCS Basic add-on offering, you can now deliver basic Rich Communication Services (RCS) messaging in Journey Optimizer, enabling the following enhanced messaging capabilities subject to provider and geographical support:</p>
+<ul>
+<li><strong>Branded and verified sender support:</strong> Send messages using verified business profiles with branding elements (logo, sender name, etc.).</li>
+<li><strong>Message delivery insights:</strong> Receive detailed delivery reports including message status updates (e.g., sent, delivered, read).</li>
+<li><strong>Link tracking:</strong> Embed and track URLs within RCS messages for engagement analytics.</li>
+<li><strong>Fallback to SMS:</strong> Automatic fallback to SMS when the recipient's device does not support RCS or is temporarily unreachable via RCS.</li>
+<li><strong>Basic message composition:</strong> Send basic text-based RCS messages.</li>
+</ul>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<!--/td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Direct mail channel in Orchestrated campaigns</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Direct mail channel is now available in orchestrated campaigns. The Direct mail activity facilitates direct mail sending within your Orchestrated campaign, for both one-time and recurring messages. It serves to automate the process of generating the extraction file required by direct mail providers. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data.</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<!--/td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Direct Mail channel in journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Previously limited to Campaigns, Direct Mail channel is now available on the journey canvas, enabling you to incorporate Direct Mail into your journeys. Direct Mail can now be used in both batch and 1:1 journey scenarios, with support for file extraction configuration and time-based frequency settings.</p>
+<p> Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<!--/td>
+</tr>
+</tbody>
+</table-->
+
+<!--<table>
+<thead>
+<tr>
+<th><strong>New source connectors for loyalty apps</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>New source connectors are now available in Adobe Experience Platform for the Talon.One, Capillary and Kobie loyalty Apps. These connectors let you seamlessly stream loyalty data into Adobe Experience Platform and leverage these data in Journey Optimizer.</p>
+<p>For more information, refer to the <a href="../start/get-started-sources.md">detailed documentation</a>.</p>
+<p>Availability date: October 22, 2025</p>
+</td>
+</tr>
+</tbody>
+</table>-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Decisioning support in email channel</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<img src="assets/do-not-localize/FILE.gif">
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p>
+<p>Availability date: October 22, 2025</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Het hoge overseinenvoor API teweeggebrachte e-mailcampagnes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Een nieuwe hoge wijze van het overseinen van de productietransactie is beschikbaar in API teweeggebrachte campagnes. Deze wijze wordt ontworpen voor grootschalig, transactioneel overseinen in real time en steunt tot 5.000 transacties per seconde met hogere beschikbaarheid. Deze wijze steunt ook transactionele berichten zonder verwijzing of het creëren van klantenprofielen, zoals gastcontrole, ordesbevestiging, wachtwoordterugstellen, veiligheidsberichten, en andere dienst/operationele berichten van verwijzingen te voorzien.</p>
+<p>Deze mogelijkheid is alleen beschikbaar voor het e-mailkanaal, voor organisaties die de invoegtoepassing Adobe High Throughput Transaction Messaging hebben aangeschaft. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie.</p>
+<p>Raadpleeg de <a href="../campaigns/api-triggered-high-throughput.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 22 oktober 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Herbruikbare richtingsregels</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Om u tijd en moeite te besparen, staat Journey Optimizer u nu toe om herbruikbare regels van een specifiek menu van UI tot stand te brengen en hen te gebruiken wanneer het bouwen van het richten, of als deel van inhoud Optimization in een campagne of een reis, of in Optimize reisactiviteit.</p>
+<p>De gerichte regels zijn momenteel in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang. Houd er rekening mee dat deze mogelijkheid alleen beschikbaar is voor organisaties die de invoegtoepassing voor besluiten hebben aangeschaft. Het zal geleidelijk aan aan alle klanten worden uitgevoerd.</p>
+<img src="assets/do-not-localize/targeting-rules.gif">
+<p>Raadpleeg de <a href="../experience-decisioning/rules.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 22 oktober 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Nieuwe reiswaarschuwingen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nieuwe vooraf geconfigureerde waarschuwingen zijn beschikbaar om de uitvoering van de reis te controleren:</p>
+<ul><li><a href="../reports/alerts.md#alert-discard-rate"> Profiel verwerpt Tarief dat </a> wordt overschreden: Verhouding van profielteruggooi naar ingegaan profielen over de laatste 5 minuten overschrijdt drempel</li>
+<li><a href="../reports/alerts.md#alert-custom-action-error-rate"> het Tarief van de Fout van de Actie van de Douane overtrok </a>: Verhouding van de fouten van de douaneactie aan succesvolle vraag van HTTP over de laatste 5 minuten overschrijdt drempel</li>
+<li><a href="../reports/alerts.md#alert-profile-error-rate"> het Tarief van de Fout van het Profiel overtrok </a>: Verhouding van profiel-in-fout aan ingegaan profielen over de laatste 5 minuten overschrijdt drempel.</li></ul> <p>U kunt drempelwaarden wijzigen en u kunt zich abonneren op individuele waarschuwingen op het niveau van de reis ten opzichte van de rest van de wereld.</p>
+<p>Raadpleeg de <a href="../reports/alerts.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 14 oktober 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Help voor metagegevens van uitvoering</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Een nieuwe hulpfunctie 'executeMetadata' is beschikbaar in de verpersoonlijkingsredacteur. Hiermee kunt u contextuele informatie toevoegen aan elke native actie en deze vastleggen in een gegevensset voor export naar externe systemen.</p>
+<p>Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+<img src="assets/do-not-localize/execution-metadata.gif">
+<p>Raadpleeg de <a href="../personalization/functions/helpers.md#execution-metadata">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 13 oktober 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Experimentation Accelerator met Experimentation Agent</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer Experimentation Accelerator is nu voorzien van de Experimentation Agent, een door AI aangedreven, conversationele tool waarmee u kunt communiceren met uw experimenten, inzichten en mogelijkheden. Het verbetert de ervaring van Journey Optimizer Experimentation Accelerator, helpt u efficiënter experimenten in werking te stellen, te ontdekken wat werkt, en te ontdekken waar te om daarna te optimaliseren.</p>
+<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 10 oktober 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>PDF-bijlagen bij e-mailberichten</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu een statisch PDF-bestand toevoegen aan een e-mailbericht dat met Journey Optimizer is verzonden.</p>
+<ul>
+<li>U kunt maximaal zes berichten verzenden met een PDF-bijlage per profiel per jaar.</li>
+<li>De maximaal toegestane bestandsgrootte voor elke bijlage is 5 MB.</li>
+<li>Voor elke extra grootte of elk ander volume kunt u de invoegtoepassing PDF-bijlagen aanschaffen. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.</li>
+</ul>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
+<p>Raadpleeg de <a href="../email/pdf-attachments.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 30 september 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Openbare API om reizen op te halen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Er is nu een nieuwe Journey Optimizer API beschikbaar voor het ophalen van reizen en de bijbehorende objecten, zoals campagnes en oppervlakken.</p>
+<p>Voor meer informatie, verwijs naar de <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/"> gedetailleerde documentatie </a></p>
+<p>Beschikbaarheidsdatum: 25 september 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbeteringen {#oct-25-10-improvements}
+
+**gebied van de Uitvoering voor het Kanaal WhatsApp**
+
+Naast e-mail en SMS, kunt u het standaard uitvoeringsgebied voor uw leveringen WhatsApp op het zandbakniveau weten bij te werken. Het is ook mogelijk om het uitvoeringsgebied met voeten te treden dat globaal door het in de WhatsApp reisactiviteit geavanceerde parameters of in de WhatsApp kanaalconfiguratie wordt geplaatst te veranderen. [Meer informatie](../configuration/primary-email-addresses.md)
+
+Beschikbaarheidsdatum: 22 oktober 2025
+
+**de kenmerkensteun van de Douane voor (unsubscribe) adres Mailto**
+
+Als u met Journey Optimizer toestemming buiten Adobe beheert, kunt u externe aangepaste eindpunten instellen door uw eigen koppeling voor het uit-schrijven van abonnementen met één klik te definiëren en een aangepast e-mailadres voor het afmelden van abonnementen in de e-mailconfiguratie. Wanneer uw ontvangers op de koppeling voor afmelden klikken, voegt Journey Optimizer enkele standaardprofielspecifieke parameters toe aan de gebeurtenis voor het bijwerken van de toestemming.
+
+Als u uw aangepaste eindpunten verder wilt aanpassen, kunt u nu aangepaste kenmerken definiëren die ook aan de gebeurtenis permission worden toegevoegd. [Meer informatie](../email/list-unsubscribe.md#custom-attributes)
+
+>[!AVAILABILITY]
+>
+>Deze mogelijkheid is al beschikbaar voor de aangepaste versie **[!UICONTROL One-click Unsubscribe URL]** sinds augustus 1995 en wordt nu vrijgegeven voor de optie **[!UICONTROL Mailto (unsubscribe)]** in Beperkte beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+
+Beschikbaarheidsdatum: 6 oktober 2025
+
+<!--
+### Coming soon {#oct-25-10-soon}
+
+In the next few days, the following capabilities and enhancements are scheduled for release. **Information is subject to change**. Updated links, screens, and documentation will be shared once these updates are live in production.
+
+#### New capabilities {#oct-25-10-soon-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Themes in the Email Designer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now quickly apply pre-approved themes to ensure brand consistency across all emails, speed up your campaign creation process, and independently produce high-quality emails while reducing dependency on design teams.</p>
+<p>Previously released in beta version, this capability is now available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<img src="assets/do-not-localize/themes.gif">
+<p>For more information, refer to the <a href="../email/apply-email-themes.md">detailed documentation</a>.</p>
+<p>Availability date: November 4, 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+#### Improvements {#oct-25-10-soon-improvements}
+
+**Decisioning in emails through AI models**
+
+You can now use AI models to optimize the best content in your email through the use of Decisioning. For example, this capability allows you to offer the best content based on custom events such as Purchases, Button Clicks, Add to Cart, etc.
+-->
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>New Web Push notifications channel</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer now supports Web Push notifications, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both mobile and desktop browsers, enabling you to reach customers directly on their devices without requiring an app.</p>
+<p>This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Custom action monitoring and reporting</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Custom action monitoring and reporting is now available. This capability provides better visibility into journey health and execution, including lifecycle status and performance alerts. You can now quickly understand when, where, and why an anomalous situation is occurring in a custom action.</p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>Availability date: Sept XX, 2025</p>
+</td>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>New source connectors for loyalty apps</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>New source connectors are now available in Adobe Experience Platform for the Talon.One, Capillary, and Kobie loyalty apps. These connectors let you seamlessly stream loyalty data into Adobe Experience Platform and leverage these data in Journey Optimizer.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+-->
 
 
 ## Opmerkingen bij de release van september 1925 {#25-9-rn}
@@ -42,7 +459,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 <li><strong> AI de Experimentele Inzichten &amp; Kansen:</strong> ga voorbij statistische overzichten met GenAI-Gedreven inzichten en aanbevelingen. Elk experiment bevat nu actiemogelijkheden, compleet met ondersteuning voor rationale, zodat teams betrouwbaarder kunnen beslissen wat ze moeten testen.</li>
 <li><strong> Multi-Armed Bandit (MAB) Steun in Journey Optimizer:</strong> maximaliseer effect terwijl het verminderen van verspild verkeer met multi-Armed experimenten van de Bandit. In plaats van het publiek gelijkmatig te verdelen, wijst MAB automatisch meer bezoekers toe aan de best-presterende variaties in echt - tijd zodat kunt u betere ervaringen aan meer klanten leveren terwijl nog het leren van wat werkt.</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
-<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/nl/docs/experimentation-accelerator/using/overview"> gedetailleerde documentatie </a></p>
+<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview"> gedetailleerde documentatie </a></p>
 <p>Beschikbaarheidsdatum: 3 oktober 2025</p>
 </td>
 </tr>
@@ -59,7 +476,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 <tr>
 <td>
 <p>Aangedreven door <a href="https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank"> Adobe Experience Platform Agent Orchestrator </a>, is Journey Agent beschikbaar in Journey Optimizer. Het laat u toe om reizen door een natuurlijke taalinterface te analyseren. De agent zal publiek of programmaconflicten en profieldrop-offs in een reis ontdekken om u te helpen stappen nemen om hen op te lossen. Binnenkort kunt u reizen maken met ongeduldige ondersteuning.</p>
-<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank"> gedetailleerde documentatie </a></p>
+<p>Voor meer informatie, verwijs naar de <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank"> gedetailleerde documentatie </a></p>
 <p>Beschikbaarheidsdatum: 24 september 2025</p>
 </td>
 </tr>
@@ -160,48 +577,48 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
   Beschikbaarheidsdatum: 29 september 2025
 
 * **mTLS Steun voor het Kanaal van SMS**
-Wanneer u een aangepaste SMS-provider instelt, hebt u nu de mogelijkheid om wederzijdse TLS-verificatie (mTLS) in te schakelen. Hiervoor moeten zowel de client als de server elkaars identiteit bevestigen voordat een veilige verbinding tot stand wordt gebracht. [&#x200B; las meer &#x200B;](../sms/sms-configuration-custom.md) - de datum van de Beschikbaarheid: 23 september, 2025
+Wanneer u een aangepaste SMS-provider instelt, hebt u nu de mogelijkheid om wederzijdse TLS-verificatie (mTLS) in te schakelen. Hiervoor moeten zowel de client als de server elkaars identiteit bevestigen voordat een veilige verbinding tot stand wordt gebracht. [ las meer ](../sms/sms-configuration-custom.md) - de datum van de Beschikbaarheid: 23 september, 2025
 
 * **Relationele Schema&#39;s**\
-  Relationele schema&#39;s kunnen nu door worden gebruikt om uw relationele modelleringsbehoeften in Geordende campagnes te steunen. [&#x200B; las meer &#x200B;](../orchestrated/gs-schemas.md) - de datum van de Beschikbaarheid: Sept 23.2025
+  Relationele schema&#39;s kunnen nu door worden gebruikt om uw relationele modelleringsbehoeften in Geordende campagnes te steunen. [ las meer ](../orchestrated/gs-schemas.md) - de datum van de Beschikbaarheid: Sept 23.2025
 
 * **de opzoeksteun van de Dataset in reizen**\
-  Een nieuwe activiteit in reizen, **de raadpleging van de Dataset**, staat u toe om gegevens van de het recorddatasets van Adobe Experience Platform dynamisch terug te winnen tijdens runtime. Door gebruik te maken van deze mogelijkheid hebt u toegang tot gegevens die mogelijk niet in het profiel of de lading van de gebeurtenis zijn opgeslagen, zodat uw klanteninteractie zowel relevant als tijdig is. [&#x200B; las meer &#x200B;](../building-journeys/dataset-lookup.md) - de datum van de Beschikbaarheid: Sept 23.2025
+  Een nieuwe activiteit in reizen, **de raadpleging van de Dataset**, staat u toe om gegevens van de het recorddatasets van Adobe Experience Platform dynamisch terug te winnen tijdens runtime. Door gebruik te maken van deze mogelijkheid hebt u toegang tot gegevens die mogelijk niet in het profiel of de lading van de gebeurtenis zijn opgeslagen, zodat uw klanteninteractie zowel relevant als tijdig is. [ las meer ](../building-journeys/dataset-lookup.md) - de datum van de Beschikbaarheid: Sept 23.2025
 
   Deze activiteit is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 * **Redirect Steun in de Acties van de Douane van de Reis**\
   Omleidingen (302) worden nu ondersteund in Aangepaste handelingen voor reizen. - Beschikbaarheidsdatum: september 2025
 
-* **de configuratiecontrolealarm van het Kanaal** - u kunt nu intekenen om systeemalarm, of door e-mail of in het het kennisgevingscentrum van Journey Optimizer te ontvangen, voor het geval dat een fout van de e-mailkanaalconfiguratie gebruikend het type van de douanesubdomeindelegatie gebeurt. [&#x200B; las meer &#x200B;](../reports/alerts.md#alert-channel-config-failure) - de datum van de Beschikbaarheid: 23 september, 2025
+* **de configuratiecontrolealarm van het Kanaal** - u kunt nu intekenen om systeemalarm, of door e-mail of in het het kennisgevingscentrum van Journey Optimizer te ontvangen, voor het geval dat een fout van de e-mailkanaalconfiguratie gebruikend het type van de douanesubdomeindelegatie gebeurt. [ las meer ](../reports/alerts.md#alert-channel-config-failure) - de datum van de Beschikbaarheid: 23 september, 2025
 
 * **één-klik unsubscribe verzoeken** - wij hebben verbeteringen geïntroduceerd die de behandeling van one-click verder versterken unsubscribe verzoeken die onder Beheerde Adobe worden gevormd, die betrouwbare en verenigbare verwerking verzekeren. - Beschikbaarheidsdatum: september 2025
 
 * **Geneste JSON lichaamsparams nu gesteund in douaneauthentificatie**\
-  Wanneer u aangepaste verificatie voor een aangepaste handeling configureert, worden geneste JSON-objecten (bijvoorbeeld subobjecten binnen `bodyParams` ) nu ondersteund. [&#x200B; las meer &#x200B;](../datasource/external-data-sources.md#custom-authentication-mode) - de datum van de Beschikbaarheid: Sept 18, 2025
+  Wanneer u aangepaste verificatie voor een aangepaste handeling configureert, worden geneste JSON-objecten (bijvoorbeeld subobjecten binnen `bodyParams` ) nu ondersteund. [ las meer ](../datasource/external-data-sources.md#custom-authentication-mode) - de datum van de Beschikbaarheid: Sept 18, 2025
 
-* **de frequentie van het terugstellen van de Uur het afschilderen** - u kunt het afschilderen op een uurbasis voor de reeksen van de kanaalregel nu toepassen. Voorheen beschikbaar in Beperkte Beschikbaarheid, is deze eigenschap nu beschikbaar aan alle milieu&#39;s en staat u toe om 1 uur (eerder 3 uren) te kiezen. [&#x200B; las meer &#x200B;](../conflict-prioritization/channel-capping.md) - de datum van de Beschikbaarheid: Sept 17.2025
+* **de frequentie van het terugstellen van de Uur het afschilderen** - u kunt het afschilderen op een uurbasis voor de reeksen van de kanaalregel nu toepassen. Voorheen beschikbaar in Beperkte Beschikbaarheid, is deze eigenschap nu beschikbaar aan alle milieu&#39;s en staat u toe om 1 uur (eerder 3 uren) te kiezen. [ las meer ](../conflict-prioritization/channel-capping.md) - de datum van de Beschikbaarheid: Sept 17.2025
 
 * **Simulerend inhoudsvariaties voor alle binnenkomende kanalen**\
-  Eerder alleen beschikbaar voor de communicatiekanalen E-mail, SMS en Push, geldt het simuleren van variaties in inhoud nu ook voor alle inkomende kanalen. [&#x200B; las meer &#x200B;](../test-approve/simulate-sample-input.md) - de datum van de Beschikbaarheid: Sept 17.2025
+  Eerder alleen beschikbaar voor de communicatiekanalen E-mail, SMS en Push, geldt het simuleren van variaties in inhoud nu ook voor alle inkomende kanalen. [ las meer ](../test-approve/simulate-sample-input.md) - de datum van de Beschikbaarheid: Sept 17.2025
 
-* **Uitdrukking voor Beslissende het begrenzen van regels** - u kunt uw eigen uitdrukkingen nu bouwen om de drempel van een afschilderingsregel voor een besluitvormingspunt te bepalen. [&#x200B; las meer &#x200B;](../experience-decisioning/items.md#capping) - de datum van de Beschikbaarheid: Sept 16, 2025
+* **Uitdrukking voor Beslissende het begrenzen van regels** - u kunt uw eigen uitdrukkingen nu bouwen om de drempel van een afschilderingsregel voor een besluitvormingspunt te bepalen. [ las meer ](../experience-decisioning/items.md#capping) - de datum van de Beschikbaarheid: Sept 16, 2025
 
-* **Dynamische domeinsteun** - Journey Optimizer steunt nu volledige/basisURL verpersoonlijking voor vooraf bepaalde die domeinen door Adobe worden goedgekeurd. [&#x200B; las meer &#x200B;](../personalization/personalization-build-expressions.md#where) - de datum van de Beschikbaarheid: Sept 12, 2025
+* **Dynamische domeinsteun** - Journey Optimizer steunt nu volledige/basisURL verpersoonlijking voor vooraf bepaalde die domeinen door Adobe worden goedgekeurd. [ las meer ](../personalization/personalization-build-expressions.md#where) - de datum van de Beschikbaarheid: Sept 12, 2025
 
   Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid voor een reeks klanten.
 
 * **Webhooks** - Deze versie introduceert de volgende verhogingen voor Webhooks wanneer het vormen van een leverancier van douaneSMS:
 
-   * U kunt nu het doel van uw website definiëren, Inkomend of Feedback, afhankelijk van het type gegevens dat u wilt vastleggen. [&#x200B; las meer &#x200B;](../sms/sms-configuration-custom.md#webhook) - de datum van de Beschikbaarheid: 23 september, 2025
+   * U kunt nu het doel van uw website definiëren, Inkomend of Feedback, afhankelijk van het type gegevens dat u wilt vastleggen. [ las meer ](../sms/sms-configuration-custom.md#webhook) - de datum van de Beschikbaarheid: 23 september, 2025
 
-   * De interface voor het vormen van sleutelwoorden is verbeterd voor gemakkelijkere opstelling. [&#x200B; las meer &#x200B;](../sms/sms-configuration-custom.md#webhook) - de datum van de Beschikbaarheid: 23 september, 2025
+   * De interface voor het vormen van sleutelwoorden is verbeterd voor gemakkelijkere opstelling. [ las meer ](../sms/sms-configuration-custom.md#webhook) - de datum van de Beschikbaarheid: 23 september, 2025
 
 * **SMS**
 
-   * Wanneer vestiging een leverancier van douaneSMS, kunt u a **Standaard** gebruikt sleutelwoord nu bepalen wanneer een inkomend SMS een niet erkend sleutelwoord bevat. U kunt **sleutelwoorden van de Douane van 0&rbrace; &lbrace;voor specifieke acties ook tot stand brengen.** [&#x200B; las meer &#x200B;](../sms/sms-configuration-custom.md) - de datum van de Beschikbaarheid: 23 september, 2025
+   * Wanneer vestiging een leverancier van douaneSMS, kunt u a **Standaard** gebruikt sleutelwoord nu bepalen wanneer een inkomend SMS een niet erkend sleutelwoord bevat. U kunt **sleutelwoorden van de Douane van 0} {voor specifieke acties ook tot stand brengen.** [ las meer ](../sms/sms-configuration-custom.md) - de datum van de Beschikbaarheid: 23 september, 2025
 
-   * U kunt tot ongedefinieerde binnenkomende sleutelwoordenreacties nu toegang hebben die via een SMS-bericht worden verzonden, met inbegrip van typos, woorden of zinnen die niet expliciet in de configuratie zijn gedefinieerd. Zij worden opgeslagen in de **dataset van de Gebeurtenis van de Ervaring van 0&rbrace; AJO E-mail Tracking, onder** InboundMessage **voor 13 maanden.** Alleen beschikbaar bij Sinch, Infobip en de aangepaste SMS-provider. - Beschikbaarheidsdatum: 23 september 2025
+   * U kunt tot ongedefinieerde binnenkomende sleutelwoordenreacties nu toegang hebben die via een SMS-bericht worden verzonden, met inbegrip van typos, woorden of zinnen die niet expliciet in de configuratie zijn gedefinieerd. Zij worden opgeslagen in de **dataset van de Gebeurtenis van de Ervaring van 0} AJO E-mail Tracking, onder** InboundMessage **voor 13 maanden.** Alleen beschikbaar bij Sinch, Infobip en de aangepaste SMS-provider. - Beschikbaarheidsdatum: 23 september 2025
 
 ## Opmerkingen bij de release van augustus &#39;25 {#25-8-rn}
 
@@ -471,9 +888,9 @@ Journey Optimizer omvat nu **Organiseren van de Campagne**, een nieuw vermogen d
 >
 >Om tot Campagneorganisatie toegang te hebben, moet uw vergunning of de **Journey Optimizer - Campagnes &amp; Reizen** of **Journey Optimizer - het pakket van Campagnes** omvatten. Neem contact op met uw Adobe-vertegenwoordiger om uw licentie te bevestigen en indien nodig bij te werken.
 
-![&#x200B; de Orchestratie GIF van de Campagne &#x200B;](assets/do-not-localize/release.gif)
+![ de Orchestratie GIF van de Campagne ](assets/do-not-localize/release.gif)
 
-Het omvat [&#x200B; Relationele Schema&#39;s &amp; Datasets &#x200B;](#oc-relational) en [&#x200B; het Canvas van de Campagne &#x200B;](#oc-canvas). Samen ontsluiten deze twee innovaties een nieuwe norm voor het organiseren van batchcampagnes in Journey Optimizer. De belangrijkste mogelijkheden worden hieronder vermeld.
+Het omvat [ Relationele Schema&#39;s &amp; Datasets ](#oc-relational) en [ het Canvas van de Campagne ](#oc-canvas). Samen ontsluiten deze twee innovaties een nieuwe norm voor het organiseren van batchcampagnes in Journey Optimizer. De belangrijkste mogelijkheden worden hieronder vermeld.
 
 ### Belangrijkste mogelijkheden {#oc-capabilities}
 
@@ -521,7 +938,7 @@ Deze release geeft marketeers volledige controle over merkgebaseerde batchmarket
 
 ### Meer informatie
 
-Leer meer in de [&#x200B; documentatie van het Organiseren van de Campagne &#x200B;](../orchestrated/gs-orchestrated-campaigns.md).
+Leer meer in de [ documentatie van het Organiseren van de Campagne ](../orchestrated/gs-orchestrated-campaigns.md).
 
 
 ## Opmerkingen bij de release van juli 1925 {#25-7-rn}
@@ -637,11 +1054,11 @@ Abonneren:
 
 ### Verandering van de reisomstandigheden {#ee-change@}
 
-Vanaf 8 juli wordt in nieuwe klantenorganisaties het maken van expressies met behulp van ervaringsgebeurtenissen niet langer ondersteund in de expressie-editor die wordt gebruikt in reisomstandigheden. Dientengevolge, kan de ervaringsgebeurtenissen in de [&#x200B; gegevensbron van Experience Platform &#x200B;](../datasource/adobe-experience-platform-data-source.md) niet voor het creëren van uitdrukkingen worden gebruikt. De alternatieve benaderingen en beste praktijken voor het creëren van uitdrukkingen/logica met ervaringsgebeurtenissen worden van verwijzingen voorzien [&#x200B; hier &#x200B;](../building-journeys/exp-event-lookup.md).
+Vanaf 8 juli wordt in nieuwe klantenorganisaties het maken van expressies met behulp van ervaringsgebeurtenissen niet langer ondersteund in de expressie-editor die wordt gebruikt in reisomstandigheden. Dientengevolge, kan de ervaringsgebeurtenissen in de [ gegevensbron van Experience Platform ](../datasource/adobe-experience-platform-data-source.md) niet voor het creëren van uitdrukkingen worden gebruikt. De alternatieve benaderingen en beste praktijken voor het creëren van uitdrukkingen/logica met ervaringsgebeurtenissen worden van verwijzingen voorzien [ hier ](../building-journeys/exp-event-lookup.md).
 
 Er is geen wijziging in de manier waarop gegevens over de reiscontext worden benaderd tijdens eenheidstreizen. In de redacteurs van de uitdrukking en van de verpersoonlijking, kunnen de gebruikers tot gegevens blijven toegang hebben die met de aanvankelijke reisgebeurtenis worden overgegaan.
 
-Leer meer [&#x200B; in dit FAQ &#x200B;](../building-journeys/exp-event-lookup.md#faq-ee).
+Leer meer [ in dit FAQ ](../building-journeys/exp-event-lookup.md#faq-ee).
 
 ### Verbeteringen {#25-7-improv}
 
@@ -1120,11 +1537,11 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 * **Omslagen voor malplaatjes en fragmenten** - de datum van de Beschikbaarheid: 20 mei, 2025
 
-  Met mappen kunt u uw objecten gemakkelijker en effectiever ordenen in een gestructureerde hiërarchie. Eerder beschikbaar voor een reeks organisaties (LA), zijn de omslagen nu beschikbaar aan alle gebruikers (GA) om hun inhoudsmalplaatjes en fragmenten te beheren. Lees meer in de [&#x200B; malplaatjes van de Inhoud &#x200B;](../content-management/access-content-templates.md#folders) en [&#x200B; Fragmenten &#x200B;](../content-management/manage-fragments.md#folders) secties.
+  Met mappen kunt u uw objecten gemakkelijker en effectiever ordenen in een gestructureerde hiërarchie. Eerder beschikbaar voor een reeks organisaties (LA), zijn de omslagen nu beschikbaar aan alle gebruikers (GA) om hun inhoudsmalplaatjes en fragmenten te beheren. Lees meer in de [ malplaatjes van de Inhoud ](../content-management/access-content-templates.md#folders) en [ Fragmenten ](../content-management/manage-fragments.md#folders) secties.
 
 * **klik het volgen in e-mailmalplaatjes** - de datum van de Beschikbaarheid: 20 mei, 2025
 
-  Klik op bijhouden op `<area>` -elementen in afbeeldingen met hyperlinks in e-mailinhoud worden nu standaard ondersteund in [!DNL Journey Optimizer] . Op deze manier zorgt u ervoor dat gebieden met afbeeldingskaarten dezelfde tekstomloop, tekstspatiëringsgegevens en toegevoegde parameters krijgen als standaardhyperlinks. [&#x200B; Leer meer bij bericht het volgen &#x200B;](../email/message-tracking.md#manage-tracking)
+  Klik op bijhouden op `<area>` -elementen in afbeeldingen met hyperlinks in e-mailinhoud worden nu standaard ondersteund in [!DNL Journey Optimizer] . Op deze manier zorgt u ervoor dat gebieden met afbeeldingskaarten dezelfde tekstomloop, tekstspatiëringsgegevens en toegevoegde parameters krijgen als standaardhyperlinks. [ Leer meer bij bericht het volgen ](../email/message-tracking.md#manage-tracking)
 
 <!--
 * **Decisioning - Leverage Adobe Experience Platform datasets** 
@@ -1409,7 +1826,7 @@ Er zijn nieuwe API&#39;s beschikbaar voor het weergeven van voorvertoningen van 
 
 * **Inhoudsbeheer** - Beschikbaarheidsdatum: 2 april 2025
 
-  Om uw inhoudsmalplaatjes en fragmenten gemakkelijk te beheren, kunt u omslagen nu gebruiken om hen effectiever te organiseren in een gestructureerde hiërarchie. Leer meer in de [&#x200B; malplaatjes van de Inhoud &#x200B;](../content-management/access-content-templates.md#folders) en [&#x200B; Fragmenten &#x200B;](../content-management/manage-fragments.md#folders) secties.
+  Om uw inhoudsmalplaatjes en fragmenten gemakkelijk te beheren, kunt u omslagen nu gebruiken om hen effectiever te organiseren in een gestructureerde hiërarchie. Leer meer in de [ malplaatjes van de Inhoud ](../content-management/access-content-templates.md#folders) en [ Fragmenten ](../content-management/manage-fragments.md#folders) secties.
 
   >[!AVAILABILITY]
   >
@@ -1585,7 +2002,7 @@ De Journey Optimizer personalization editor is bijgewerkt met nieuwe mogelijkhed
 * **auto-Volledig voor Profiel en de Attributen van de Context** - Biedt slimme suggesties aan om inhoudsverwezenlijking te stroomlijnen.
 * **Verbeterde Syntaxis die** benadrukt - verbetert leesbaarheid door codestructuur visueel duidelijker te maken.
 
-![&#x200B; Video die nieuwe eigenschap in de Redacteur van Personalization toont &#x200B;](assets/do-not-localize/personalization-editor.gif)
+![ Video die nieuwe eigenschap in de Redacteur van Personalization toont ](assets/do-not-localize/personalization-editor.gif)
 
 Raadpleeg de [gedetailleerde documentatie](../personalization/personalization-build-expressions.md) voor meer informatie.
 
@@ -1603,15 +2020,15 @@ Raadpleeg de [gedetailleerde documentatie](../test-approve/approval-policies.md)
 
 **Bedrijfs regels**
 
-U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegmentatie. Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [&#x200B; gids van de Dienst van de Identiteit van het Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
+U kunt nu dagelijkse aftopping gebruiken in reizen en campagnes met batchsegmentatie. Om ervoor te zorgen dat de regels voor dagelijkse frequentiecapping correct zijn, moet u de naamruimte met de hoogste prioriteit kiezen tijdens het ontwerpen van een campagne of een reis. Leer meer over namespace prioriteit in de [ gids van de Dienst van de Identiteit van het Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}
 
 Ter herinnering: dagelijkse frequentiecapping in regelsets is alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
-Voor meer informatie over bedrijfsregels, verwijs naar de [&#x200B; gedetailleerde documentatie &#x200B;](../conflict-prioritization/rule-sets.md).
+Voor meer informatie over bedrijfsregels, verwijs naar de [ gedetailleerde documentatie ](../conflict-prioritization/rule-sets.md).
 
 **Contentsjablonen**
 
-Sjablonen voor HTML-tekstinhoud zijn nu vervangen. U kunt nog steeds bestaande HTML-inhoudssjablonen gebruiken die eerder in [!DNL Journey Optimizer] zijn gemaakt. [&#x200B; Leer meer op inhoudsmalplaatjes &#x200B;](../content-management/content-templates.md)
+Sjablonen voor HTML-tekstinhoud zijn nu vervangen. U kunt nog steeds bestaande HTML-inhoudssjablonen gebruiken die eerder in [!DNL Journey Optimizer] zijn gemaakt. [ Leer meer op inhoudsmalplaatjes ](../content-management/content-templates.md)
 
 **Toegelaten beleid**
 
@@ -1734,7 +2151,7 @@ De verbeteringen hieronder komen met de update van februari.
 
   Deze wijziging wordt in een volgende fase doorgevoerd in bestaande sandboxen voor klanten.
 
-  Leer meer over deze update in [&#x200B; specifieke FAQ &#x200B;](../data/datasets-ttl.md#frequently-asked-questions).
+  Leer meer over deze update in [ specifieke FAQ ](../data/datasets-ttl.md#frequently-asked-questions).
 
 <!--* **Playbooks** - You can now create and publish your own Use Case Playbooks in Journey Optimizer.-->
 
@@ -1749,7 +2166,7 @@ De verbeteringen hieronder komen met de update van februari.
 * The personalization editor has been enhanced with new capabilities such as Auto-complete, Search, and filtering options. You can also show or hide deprecated attributes.-->
 
 
-* **E-mailconfiguratie** - als u toestemming buiten Adobe beheert, kunt u een douane plaatsen unsubscribe e-mailadres en een douane één-klik unsubscribe URL als deel van uw montages van de de kanaalconfiguratie van e-mail. [&#x200B; las meer &#x200B;](../email/list-unsubscribe.md#custom-managed)
+* **E-mailconfiguratie** - als u toestemming buiten Adobe beheert, kunt u een douane plaatsen unsubscribe e-mailadres en een douane één-klik unsubscribe URL als deel van uw montages van de de kanaalconfiguratie van e-mail. [ las meer ](../email/list-unsubscribe.md#custom-managed)
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
