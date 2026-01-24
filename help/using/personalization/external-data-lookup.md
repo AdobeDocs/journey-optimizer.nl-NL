@@ -210,7 +210,7 @@ Onder de sectie Edge Delivery van het betrouwbaarheidsspoor als deel van uitvoer
 
 Hieronder vindt u Veelgestelde vragen over de hulp bij externe gegevens opzoeken.
 
-Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [&#x200B; gemeenschap van Adobe Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
+Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [&#x200B; gemeenschap van Adobe Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=nl){target="_blank"} te verbinden.
 
 +++ Hoe te om een contextafhankelijk attribuut van het verzoek als parameter tot een externe gegevensraadpleging over te gaan?
 

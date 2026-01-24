@@ -202,5 +202,5 @@ Werk met [&#x200B; Beheerders &#x200B;](administrator.md) op toegang en configur
 
 1. **Begin klein**: Creeer een eenvoudige welkome reis of enig-bericht campagne om het platform te leren
 2. **AI van de Leverage van 0&rbrace;: De Medewerker van AI van het gebruik om vragen te stellen en inhoudsverwezenlijking te versnellen**
-3. **sluit zich aan bij de gemeenschap**: Verbind met andere gebruikers van Journey Optimizer in de [&#x200B; Gemeenschap van Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
+3. **sluit zich aan bij de gemeenschap**: Verbind met andere gebruikers van Journey Optimizer in de [&#x200B; Gemeenschap van Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=nl){target="_blank"}
 4. **Onderzoek leerprogramma&#39;s**: Bekijk geleidelijke video&#39;s op [&#x200B; Experience League &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=nl-NL){target="_blank"}

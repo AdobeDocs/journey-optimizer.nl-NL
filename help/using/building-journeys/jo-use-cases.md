@@ -193,41 +193,41 @@ Blader in de volgende blogberichten naar meer instructies en tips voor het maken
 <td>
 <img alt="Blogberichten" src="../assets/do-not-localize/community.jpeg">
 <div>
-<p><a href="weekday-email-uc.md"> Geval van het Gebruik: Hoe te om E-mail slechts op Weekdagen in Adobe Journey Optimizer </a> - ook beschikbaar als a <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400" target="_blank"> communautaire blogpost </a> te verzenden</p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396" target="_blank">Hoofdlettergebruik: geavanceerde goedkeuringsstrategieën</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510" target="_blank">Hoofdlettergebruik: dagelijkse frequentiecapping</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">Tips en trucs: Reizen publiek lezen</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270" target="_blank">Hoofdletters gebruiken: Uw reizen testen</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900" target="_blank">Hoofdlettergebruik: goedkeuringswerkstromen</a></p>
+<p><a href="weekday-email-uc.md"> Geval van het Gebruik: Hoe te om E-mail slechts op Weekdagen in Adobe Journey Optimizer </a> - ook beschikbaar als a <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=nl" target="_blank"> communautaire blogpost </a> te verzenden</p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396?profile.language=nl" target="_blank">Hoofdlettergebruik: geavanceerde goedkeuringsstrategieën</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=nl" target="_blank">Hoofdlettergebruik: dagelijkse frequentiecapping</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=nl" target="_blank">Tips en trucs: Reizen publiek lezen</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270?profile.language=nl" target="_blank">Hoofdletters gebruiken: Uw reizen testen</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900?profile.language=nl" target="_blank">Hoofdlettergebruik: goedkeuringswerkstromen</a></p>
 </div>
 <p>
 </td>
 <td>
 <img alt="Stap gebeurtenissen in uw reizen" src="../assets/do-not-localize/list.jpeg">
 <div>
-<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024" target="_blank"> het beheersen Gebeurtenissen van de Stap in Adobe Journey Optimizer: Grondbeginselen, Schema, en Essentiële Vragen voor gegevens-gedreven Campagnes
+<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024?profile.language=nl" target="_blank"> het beheersen Gebeurtenissen van de Stap in Adobe Journey Optimizer: Grondbeginselen, Schema, en Essentiële Vragen voor gegevens-gedreven Campagnes
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">Hoofdlettergebruik: snelle externe Audience Activation met aangepaste upload</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225" target="_blank">Hoofdlettergebruik: Personalization buiten het profiel
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658?profile.language=nl" target="_blank">Hoofdlettergebruik: snelle externe Audience Activation met aangepaste upload</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225?profile.language=nl" target="_blank">Hoofdlettergebruik: Personalization buiten het profiel
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513" target="_blank">Ga naar Personalization: Hoe luchtvaartmaatschappijen aanbiedingen met Adobe Journey Optimizer kunnen verhogen
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513?profile.language=nl" target="_blank">Ga naar Personalization: Hoe luchtvaartmaatschappijen aanbiedingen met Adobe Journey Optimizer kunnen verhogen
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606" target="_blank">Personalization in real time beheren: een gids van de Markering aan de Fragments van de Inhoud van AEM en Adobe Journey Optimizer
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606?profile.language=nl" target="_blank">Personalization in real time beheren: een gids van de Markering aan de Fragments van de Inhoud van AEM en Adobe Journey Optimizer
 </a></p>
 </div>
 <p></td>
 <td>
 <img alt="Aangepaste acties" src="../assets/do-not-localize/step-event.jpeg">
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">Hoe te om Adobe Journey Optimizer met de Acties van de Douane uit te breiden: De Gevallen van het Gebruik van de integratie
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323?profile.language=nl" target="_blank">Hoe te om Adobe Journey Optimizer met de Acties van de Douane uit te breiden: De Gevallen van het Gebruik van de integratie
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223" target="_blank">De functie Aangepaste delegatie van Adobe Journey Optimizer lost problemen met de naleving van de Enterprise-regels op
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223?profile.language=nl" target="_blank">De functie Aangepaste delegatie van Adobe Journey Optimizer lost problemen met de naleving van de Enterprise-regels op
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048" target="_blank">REGEL in Journey Optimizer: Van eerste campagne tot Geavanceerde voorbeelden voor expressiefragment en aangepaste handelingen
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048?profile.language=nl" target="_blank">REGEL in Journey Optimizer: Van eerste campagne tot Geavanceerde voorbeelden voor expressiefragment en aangepaste handelingen
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669" target="_blank">Journey Optimizer Universal Link Integration Guide voor iOS
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669?profile.language=nl" target="_blank">Journey Optimizer Universal Link Integration Guide voor iOS
 </a></p>
 </div>
 </td>

@@ -230,7 +230,7 @@ Verken de volgende bronnen voor diepgaander leren en updates:
 
 >[!TAB  Gemeenschap &amp; Steun ]
 
-* [&#x200B; Gemeenschap van Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - verbind met andere gebruikers en deskundigen
-* [&#x200B; Forum van het Product &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - stel vragen en deel kennis
+* [&#x200B; Gemeenschap van Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=nl){target="_blank"} - verbind met andere gebruikers en deskundigen
+* [&#x200B; Forum van het Product &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=nl){target="_blank"} - stel vragen en deel kennis
 
 >[!ENDTABS]

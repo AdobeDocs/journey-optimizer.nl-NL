@@ -121,7 +121,7 @@ Leer meer over [&#x200B; Journey Optimizer + Campaign Standard &#x200B;](../buil
 
 Met de Adobe Journey Optimizer-modules in Adobe Workfront kunt u records maken, lezen, bijwerken of verwijderen, of een aangepaste API-aanroep naar de Adobe Journey Optimizer API uitvoeren.
 
-Een overzicht van de belangrijkste stap van deze integratie is beschikbaar [&#x200B; in dit blogbericht &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
+Een overzicht van de belangrijkste stap van deze integratie is beschikbaar [&#x200B; in dit blogbericht &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=nl){target="_blank"}.
 
 Leer meer over Journey Optimizer + Adobe Workfront [&#x200B; in de documentatie van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=nl-NL){target="_blank"}.
 

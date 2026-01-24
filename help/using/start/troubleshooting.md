@@ -201,7 +201,7 @@ De discrepantie kan gebeuren wanneer de reis een het profielmomentopname van een
 
 Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} om stappen te leren om deze kwestie op te lossen.
 
-Leer meer in [&#x200B; dit communautaire post van Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
+Leer meer in [&#x200B; dit communautaire post van Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=nl){target="_blank"}.
 
 Zie ook de [&#x200B; documentatie van de Programma&#39;s API van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/api/schedules){target="_blank"} om te controleren wanneer uw dagelijkse baan gepland is.
 

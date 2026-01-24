@@ -208,7 +208,7 @@ Begin door uw klantentrekkers en uitgangspunten duidelijk in kaart te brengen, g
 
 **Zelfstudies en voorbeelden**
 
-[&#x200B; de gebruiksgevallen van de Reis &#x200B;](jo-use-cases.md) | [&#x200B; Klant op het instappen video &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [&#x200B; Verlaten kart video &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [&#x200B; Communautaire blog: De Criteria van de Ingang en van de Uitgang &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
+[&#x200B; de gebruiksgevallen van de Reis &#x200B;](jo-use-cases.md) | [&#x200B; Klant op het instappen video &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [&#x200B; Verlaten kart video &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [&#x200B; Communautaire blog: De Criteria van de Ingang en van de Uitgang &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=nl)
 
 **Verwante mogelijkheden**
 

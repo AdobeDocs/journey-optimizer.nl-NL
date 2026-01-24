@@ -155,7 +155,7 @@ Ontdek hoe u met AI inhoud kunt maken, verzendtijden kunt optimaliseren en slimm
 * **[Van het Geval van het gebruik Playbooks](../using/start/ai-features.md#playbooks)** - Vooraf gebouwde werkschema&#39;s voor gemeenschappelijke scenario&#39;s zoals verlaten kartterugwinning en welkome campagnes
 * **[Controle &amp; het Oplossen van problemen](troubleshoot-journey-landing-page.md)** - Hulpmiddelen om prestaties te volgen, kwesties te identificeren, en problemen snel op te lossen
 * **[wat](../using/rn/release-notes.md)** nieuw is - blijf bijgewerkt met de recentste eigenschappen, de verbeteringen, en moeilijke situaties
-* **[Communautair Forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** - verbind met andere gebruikers, stel vragen, en deel beste praktijken
+* **[Communautair Forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=nl){target="_blank"}** - verbind met andere gebruikers, stel vragen, en deel beste praktijken
 * **[Updates van de Documentatie](../using/rn/documentation-updates.md)** - blijf op de hoogte van recente veranderingen en toevoegingen aan de documentatie
 
 ## Klaar om aan de slag te gaan?
@@ -165,7 +165,7 @@ Kies het pad dat bij u past:
 * **Nieuw aan Journey Optimizer?** Begin met [&#x200B; wat is Journey Optimizer?](../using/start/get-started.md) om inzicht te krijgen in de basisbeginselen
 * **ken uw rol?** sprong aan de [&#x200B; rol-specifieke gids &#x200B;](../using/start/quick-start.md) die uw verantwoordelijkheden aanpast
 * **wil onderzoeken?** doorblader de [&#x200B; eigenschappen AI &#x200B;](../using/start/ai-features.md) of probeer [&#x200B; Playbooks van het Geval van het Gebruik &#x200B;](../using/start/ai-features.md#playbooks)
-* **Hulp nodig?** Controle de [&#x200B; Gids van het Oplossen van problemen &#x200B;](../using/start/troubleshooting.md) of bezoek het [&#x200B; Communautaire Forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
+* **Hulp nodig?** Controle de [&#x200B; Gids van het Oplossen van problemen &#x200B;](../using/start/troubleshooting.md) of bezoek het [&#x200B; Communautaire Forum &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=nl){target="_blank"}
 
 ## Snelle koppelingen {#quick-links}
 

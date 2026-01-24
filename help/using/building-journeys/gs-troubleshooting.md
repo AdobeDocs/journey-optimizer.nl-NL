@@ -59,9 +59,9 @@ Verken de pagina&#39;s hieronder om in specifieke het oplossen van problemenonde
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=nl">
     <img alt="Algemene foutcodes begrijpen" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br> bovendien, controle uit <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank"> dit Communautaire blogpost van Adobe </a> het detailleren van <strong> gemeenschappelijke foutencodes </strong> en hoe te om hen effectief op te lossen.
+    <br> bovendien, controle uit <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=nl" target="_blank"> dit Communautaire blogpost van Adobe </a> het detailleren van <strong> gemeenschappelijke foutencodes </strong> en hoe te om hen effectief op te lossen.
     </div>
   </td>
 </tr>

@@ -21,7 +21,7 @@ Alle gegevens die in Adobe Experience Platform worden opgenomen, blijven in het 
 
 ## Afbeeldingen en beperkingen
 
-* Vanaf 1 november 2024 ondersteunt streaming segmentatie niet langer het verzenden en openen van gebeurtenissen vanuit [!DNL Journey Optimizer] reeksgegevens voor bijhouden en feedback. Voor het uitvoeren van het Afbakenen van de Frequentie of het Beheer van de Moeheid, gelieve BedrijfsRegels in plaats daarvan te gebruiken. U kunt meer details in [&#x200B; deze sectie &#x200B;](../conflict-prioritization/rule-sets.md) vinden, met inbegrip van een verklaring van het gebruiksgeval voor dagelijks het in kaart brengen [&#x200B; hier &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
+* Vanaf 1 november 2024 ondersteunt streaming segmentatie niet langer het verzenden en openen van gebeurtenissen vanuit [!DNL Journey Optimizer] reeksgegevens voor bijhouden en feedback. Voor het uitvoeren van het Afbakenen van de Frequentie of het Beheer van de Moeheid, gelieve BedrijfsRegels in plaats daarvan te gebruiken. U kunt meer details in [&#x200B; deze sectie &#x200B;](../conflict-prioritization/rule-sets.md) vinden, met inbegrip van een verklaring van het gebruiksgeval voor dagelijks het in kaart brengen [&#x200B; hier &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=nl){target="_blank"}.
 
 * Vanaf februari 2025 wordt een time-to-live (TTL)-guardrail geïmplementeerd in door het systeem gegenereerde gegevenssets van Journey Optimizer. [Meer informatie](datasets-ttl.md)
 

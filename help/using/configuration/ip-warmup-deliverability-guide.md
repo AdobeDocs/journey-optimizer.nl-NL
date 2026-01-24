@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Wanneer het lanceren van e-mailcampagnes met nieuwe IP adressen of domeinen in Adobe Journey Optimizer, is het begrip van leverbaarheidsgrondbeginselen essentieel voor de bouw van een sterke afzenderreputatie. Deze gids behandelt de belangrijkste concepten, voorbereidingsstappen, en beste praktijken om u te helpen overgang van nul reputatie aan succesvolle inbox plaatsing.
 
-➡️ Leer over leverbaarheidsgrondbeginselen, reputatie het opbouwen, en beste praktijken voor IP warmup in de video van dit [&#x200B; Adobe blogpost &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}.
+➡️ Leer over leverbaarheidsgrondbeginselen, reputatie het opbouwen, en beste praktijken voor IP warmup in de video van dit [&#x200B; Adobe blogpost &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=nl){target="_blank"}.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Zodra u uw warmtingsplan hebt voltooid en de metriek hebben gestabiliseerd:
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=nl).-->
 
 ## Verwante onderwerpen {#related-topics}
 
