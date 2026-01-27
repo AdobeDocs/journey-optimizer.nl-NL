@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 3%
+source-wordcount: '844'
+ht-degree: 2%
 
 ---
 
@@ -94,7 +94,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. Maak de aangepaste handeling. Zie [deze pagina](../action/about-custom-action-configuration.md).
 
-1. Klik binnen het **gebied van de Reactie**.
+1. Klik binnen het **gebied van de Reactie** (succesreactie).
 
    ![](assets/action-response2.png){width="80%" align="left"}
 
@@ -111,6 +111,16 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payload-voorbeeld zijn opgenomen.
 
+1. (Optioneel) Schakel een payload van een foutreactie in om de indeling vast te leggen die wordt geretourneerd wanneer de aanroep mislukt. Plak vervolgens een voorbeeld van een payload. Om dit te doen, bepaalt de uitgezochte **een nuttige lading van de mislukkingsreactie** in de configuratie van de douaneactie. Leer meer over het vormen van de nuttige ladingsgebieden in [ een douaneactie ](../action/about-custom-action-configuration.md) vormen.
+
+   ```
+   {
+   "errorResponse" : "customer not found"
+   }
+   ```
+
+   De lading van de foutenreactie is slechts beschikbaar als u het in de configuratie van de douaneactie toelaat.
+
 1. Laten wij ook CustomerID als vraagparameter toevoegen.
 
    ![](assets/action-response9.png){width="80%" align="left"}
@@ -120,6 +130,8 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 ## De respons in een reis benutten {#response-in-journey}
 
 Voeg gewoon de aangepaste handeling toe aan een reis. U kunt de ladingsgebieden van de reactie in voorwaarden, andere acties en berichtverpersoonlijking dan gebruiken.
+
+Als u een nuttige lading van de foutenreactie hebt bepaald, wordt het blootgesteld onder **Contextuele attributen** > **Journey Orchestration** > **Acties** > `<action name>` > **errorResponse**. U kunt de functie in de time-out- en foutvertakking gebruiken om logica voor het terugdraaien en foutafhandeling te stimuleren.
 
 U kunt bijvoorbeeld een voorwaarde toevoegen om het aantal loyaliteitspunten te controleren. Wanneer de persoon het restaurant ingaat, verzendt uw lokale eindpunt een vraag met de loyaliteitsinformatie van het profiel. U kunt een push verzenden als het profiel een gouden klant is. En als een fout in de vraag wordt ontdekt, verzend een douaneactie om uw systeembeheerder op de hoogte te brengen.
 
@@ -150,6 +162,12 @@ U kunt bijvoorbeeld een voorwaarde toevoegen om het aantal loyaliteitspunten te 
    @action{ActionLoyalty.jo_status_code} == "http_400"
    ```
 
+   Als een antwoordlading voor een fout is gedefinieerd, kunt u ook zijn gebieden richten, bijvoorbeeld:
+
+   ```
+   @action{ActionLoyalty.errorResponse.errorResponse} == "customer not found"
+   ```
+
    ![](assets/action-response7.png)
 
 1. Voeg een aangepaste actie toe die naar uw organisatie wordt verzonden.
@@ -158,7 +176,7 @@ U kunt bijvoorbeeld een voorwaarde toevoegen om het aantal loyaliteitspunten te 
 
 ## Logboeken van testmodi {#test-mode-logs}
 
-Via de testmodus hebt u toegang tot statuslogboeken die gerelateerd zijn aan aangepaste actieantwoorden. Als u douaneacties met reacties in uw reis hebt bepaald, zult u een **actionsHistory** sectie op die logboeken zien die de nuttige lading tonen door het externe eindpunt (als reactie van die douaneactie) is teruggekeerd. Dit kan zeer nuttig in termen van het zuiveren zijn.
+Via de testmodus hebt u toegang tot statuslogboeken die gerelateerd zijn aan aangepaste actieantwoorden. Als u douaneacties met reacties in uw reis hebt bepaald, zult u een **actionsHistory** sectie op die logboeken zien die de nuttige lading tonen door het externe eindpunt (als reactie van die douaneactie) is teruggekeerd. Wanneer een lading van de foutenreactie wordt bepaald, is het inbegrepen voor ontbroken vraag. Dit kan zeer nuttig in termen van het zuiveren zijn.
 
 ![](assets/action-response12.png)
 
@@ -174,6 +192,8 @@ Hier volgen de mogelijke waarden voor dit veld:
 * interne fout: **internalError**
 
 Een actieaanroep wordt als fout beschouwd wanneer de geretourneerde http-code groter is dan 2xx of wanneer een fout optreedt. De reis stroomt naar de specifieke onderbreking of foutentak in dergelijke gevallen.
+
+Als een nuttige lading van de foutenreactie voor de douaneactie is gevormd, worden zijn gebieden blootgesteld onder de **errorResponse** knoop voor ontbroken vraag. Als er geen payload van een foutreactie is geconfigureerd, is dat knooppunt niet beschikbaar.
 
 >[!WARNING]
 >
@@ -216,11 +236,11 @@ currentActionField.description == "abc"
 
 De gebieden van de lading van de antwoord van douaneacties kunnen in inheemse kanalen (e-mail, duw, SMS) voor berichtverpersoonlijking worden gebruikt. Dit omvat de mogelijkheid om arrays te doorlopen en geneste gegevensstructuren die door externe API&#39;s worden geretourneerd.
 
-Voor gedetailleerde voorbeelden en syntaxis voor het herhalen over de gegevens van de douanereactie in berichten, verwijs naar [&#x200B; over contextafhankelijke gegevens met Handlebars &#x200B;](../personalization/iterate-contextual-data.md#custom-action-responses) ireren.
+Voor gedetailleerde voorbeelden en syntaxis voor het herhalen over de gegevens van de douanereactie in berichten, verwijs naar [ over contextafhankelijke gegevens met Handlebars ](../personalization/iterate-contextual-data.md#custom-action-responses) ireren.
 
 ## Aanvullende bronnen
 
 Raadpleeg deze pagina’s voor meer informatie:
 
-* [&#x200B; verwijzingen van het Gebied &#x200B;](../building-journeys/expression/field-references.md).
+* [ verwijzingen van het Gebied ](../building-journeys/expression/field-references.md).
 * [Functies voor het beheer van verzamelingen](../building-journeys/expression/collection-management-functions.md)
