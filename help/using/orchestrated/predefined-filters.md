@@ -22,7 +22,7 @@ U kunt vooraf gedefinieerde filters markeren als favorieten, deze delen met ande
 
 Sparen een douanefilter van de regelbouwer om het voor toekomstig gebruik beschikbaar te maken. Voer de volgende stappen uit:
 
-1. Open de regelbouwer en bepaal uw het filtreren voorwaarden. [ Leer hoe te om een regel ](../orchestrated/build-query.md) te bouwen
+1. Open de regelbouwer en bepaal uw het filtreren voorwaarden. [&#x200B; Leer hoe te om een regel &#x200B;](../orchestrated/build-query.md) te bouwen
 
 1. Optioneel: als u bepaalde velden bewerkbaar wilt maken wanneer u het filter gebruikt, selecteert u het veld en schakelt u **[!UICONTROL Set as parameter]** in. Wanneer u het filter toepast, kunnen alleen deze velden worden bewerkt.
 
@@ -63,7 +63,7 @@ De vooraf bepaalde filters zijn beschikbaar wanneer het bepalen van vragen in de
 
    ![](assets/predefined-filter-parameter-apply.png)
 
-   Om de vooraf bepaalde filter zelf uit te geven, klik de ![ weglatingsknoop ](assets/do-not-localize/rule-builder-icon-more.svg) en selecteer **[!UICONTROL Switch to rule edition]**. Alle wijzigingen zijn alleen van toepassing op de huidige regel die u bouwt. Het vooraf gedefinieerde filter wordt niet gewijzigd.
+   Om de vooraf bepaalde filter zelf uit te geven, klik de ![&#x200B; weglatingsknoop &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) en selecteer **[!UICONTROL Switch to rule edition]**. Alle wijzigingen zijn alleen van toepassing op de huidige regel die u bouwt. Het vooraf gedefinieerde filter wordt niet gewijzigd.
 
    ![](assets/predefined-filter-parameter-edit.png)
 
@@ -73,13 +73,13 @@ Wanneer u een vooraf gedefinieerd filter maakt, schakelt u de optie **[!UICONTRO
 
 Wanneer een filter wordt opgeslagen als een favoriet, verschijnt het in de **[!UICONTROL Favorite filters]** sectie van de filterlijst, zoals hieronder getoond:
 
-![ Favoriete filterssectie ](assets/predefined-filter-favorites.png)
+![&#x200B; Favoriete filterssectie &#x200B;](assets/predefined-filter-favorites.png)
 
 ## Een vooraf gedefinieerd filter delen {#share-filter}
 
 Vooraf gedefinieerde filters die u maakt, zijn standaard persoonlijk en zijn alleen voor u zichtbaar. Schakel de optie **[!UICONTROL Shared filter]** in als u een filter toegankelijk wilt maken voor andere operatoren in uw organisatie.
 
-![ Gedeelde filteroptie ](assets/predefined-filter-shared.png)
+![&#x200B; Gedeelde filteroptie &#x200B;](assets/predefined-filter-shared.png)
 
 De gedeelde filters verschijnen in de vooraf bepaalde filterlijst voor alle gebruikers, die hen toestaan om deze filters in hun eigen regels te gebruiken.
 
@@ -89,6 +89,6 @@ Ga als volgt te werk om vooraf gedefinieerde filters te bewerken of te verwijder
 
 1. Open de vooraf gedefinieerde filterlijst met de knop **[!UICONTROL Select or save filter]** in de regel.
 
-1. Selecteer de ![ weglatingsknoop ](assets/do-not-localize/rule-builder-icon-more.svg) naast een filter en kies de gewenste actie.
+1. Selecteer de ![&#x200B; weglatingsknoop &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) naast een filter en kies de gewenste actie.
 
 ![](assets/predefined-filters-edit.png)
