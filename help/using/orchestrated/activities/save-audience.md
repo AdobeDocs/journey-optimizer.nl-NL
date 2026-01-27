@@ -5,9 +5,9 @@ title: De publieksactiviteit Opslaan gebruiken
 description: Leer hoe u de publieksactiviteit Opslaan in een geordende campagne gebruikt
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Save audience]** -activiteit te
 
    Alleen toewijzingen die compatibel zijn met de huidige doeldimensie, d.w.z. de toewijzing uit de inkomende overgang, zijn beschikbaar in de vervolgkeuzelijst om te zorgen voor een goede afstemming tussen het publiek en de context van de campagne.
 
-   ➡️ [&#x200B; volg de stappen in deze pagina worden gedetailleerd om uw Campagne te creëren richtend afmeting &#x200B;](../target-dimension.md)
+   ➡️ [ volg de stappen in deze pagina worden gedetailleerd om uw Campagne te creëren richtend afmeting ](../target-dimension.md)
 
    ![](../assets/save-audience-1.png)
 
@@ -59,6 +59,9 @@ De inhoud van het opgeslagen publiek is dan beschikbaar in de detailweergave van
 
 ![](../assets/save-audience-4.png)
 
+>[!NOTE]
+>
+>Als in uw publieksdefinitie Experience Platform-schemakenmerken worden gebruikt die zijn gelabeld met gegevensgebruik (DULE), worden deze labels automatisch overgenomen door het opgeslagen publiek. U hoeft ze niet opnieuw toe te passen. [ leer meer over het Beheer van Gegevens ](../../action/action-privacy.md)
 
 ## Voorbeeld {#save-audience-example}
 
