@@ -39,7 +39,7 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 * Er is een nieuwe sectie toegevoegd aan de documentatie van de verpersoonlijkingssyntaxis om te verduidelijken hoe u gereserveerde trefwoorden in verpersoonlijkingsexpressies kunt gebruiken. Bepaalde PQL-trefwoorden zoals `next` , `last` en `this` moeten met backtiks worden beschermd wanneer ze als veldnamen in uw XDM-schema worden gebruikt. [Meer informatie](../personalization/personalization-syntax.md#reserved-keywords)
 
-* [ krijgt begonnen met campagnes ](../campaigns/get-started-with-campaigns.md) en [ leidt campagnes ](../campaigns/manage-campaigns.md) pagina&#39;s zijn geherstructureerd met betere informatiearchitectuur, met inbegrip van een uitvoerig werkschema met type-specifieke gidsen, verbeterde vergelijkingen van het campagnetype, en geconsolideerde statuslijst.
+* [&#x200B; krijgt begonnen met campagnes &#x200B;](../campaigns/get-started-with-campaigns.md) en [&#x200B; leidt campagnes &#x200B;](../campaigns/manage-campaigns.md) pagina&#39;s zijn geherstructureerd met betere informatiearchitectuur, met inbegrip van een uitvoerig werkschema met type-specifieke gidsen, verbeterde vergelijkingen van het campagnetype, en geconsolideerde statuslijst.
 
 * De landingspagina voor reizen is opnieuw ontworpen om het instappen te vergemakkelijken met een nieuwe werkstroom in zes stappen, verbeterde vergelijkingen van het type van reizen en verbeterde navigatie door de documentatie. [Meer informatie](../building-journeys/journey.md)
 
@@ -81,7 +81,7 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 * Een nieuwe pagina is nu beschikbaar in de sectie Beslissing over hoe te om gegevensinzameling voor het volgen van beelden, kliks, en douanegebeurtenissen te vormen. [Meer informatie](../experience-decisioning/data-collection/schema-requirement.md)
 
-* De productie van Inhoud met AI hulpdocumentatie is gereorganiseerd voor betere duidelijkheid en bruikbaarheid. De vorige vijf kanaal-specifieke pagina&#39;s (E-mail, Duw, SMS, Web, en het Landing Pagina) zijn geconsolideerd in drie generatie-type pagina&#39;s: [ produceer volledige inhoud ](../content-management/generative-full-content.md), [ produceert tekst ](../content-management/generative-text.md), en [ produceert beelden ](../content-management/generative-image.md).
+* De productie van Inhoud met AI hulpdocumentatie is gereorganiseerd voor betere duidelijkheid en bruikbaarheid. De vorige vijf kanaal-specifieke pagina&#39;s (E-mail, Duw, SMS, Web, en het Landing Pagina) zijn geconsolideerd in drie generatie-type pagina&#39;s: [&#x200B; produceer volledige inhoud &#x200B;](../content-management/generative-full-content.md), [&#x200B; produceert tekst &#x200B;](../content-management/generative-text.md), en [&#x200B; produceert beelden &#x200B;](../content-management/generative-image.md).
 
 ## November 2025 {#november-2025}
 
@@ -156,13 +156,13 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 * Journey Optimizer Experimentation Accelerator-documentatie is nu beschikbaar. [Meer informatie](../content-management/experiment-accelerator-gs.md)
 
-* Een nieuwe sectie is toegevoegd aan **formatDate** hulpdocumentatie van de hulpfunctie. Deze sectie verduidelijkt de betekenis van zeer belangrijke patroonsymbolen zoals y, Y, M, d, en D. [ las meer ](../personalization/functions/dates.md#pattern-characters)
+* Een nieuwe sectie is toegevoegd aan **formatDate** hulpdocumentatie van de hulpfunctie. Deze sectie verduidelijkt de betekenis van zeer belangrijke patroonsymbolen zoals y, Y, M, d, en D. [&#x200B; las meer &#x200B;](../personalization/functions/dates.md#pattern-characters)
 
 * Een PQL-voorbeeld is toegevoegd aan de sectie met rangschikkingsformules voor besluiten om te laten zien hoe aanbiedingen kunnen worden verhoogd op basis van de postcode en het jaarinkomen van een profiel. [Meer informatie](../experience-decisioning/ranking/ranking-formulas.md#ranking-formula-examples)
 
 * Er is een beperking toegevoegd aan de sectie over de testmodus voor reizen om aan te geven dat de testmodus geen ondersteuning biedt voor de verrijking van aangepaste upload-publiekskenmerken. [Meer informatie](../building-journeys/testing-the-journey.md#important_notes)
 
-* Een nieuwe sectie werd toegevoegd aan de [ het beheersbegeleiding &amp; de beperkingen van het Besluit ](../offers/decision-management-guardrails.md#configurations) en [ Beslissende guardrails &amp; de beperkingen ](../experience-decisioning/decisioning-guardrails.md#configurations) pagina&#39;s om het maximumaantal gesteunde configuraties (20.000) te specificeren, die aan het totale aantal het begrenzen regels beantwoorden die in uw zandbak bestaan.
+* Een nieuwe sectie werd toegevoegd aan de [&#x200B; het beheersbegeleiding &amp; de beperkingen van het Besluit &#x200B;](../offers/decision-management-guardrails.md#configurations) en [&#x200B; Beslissende guardrails &amp; de beperkingen &#x200B;](../experience-decisioning/decisioning-guardrails.md#configurations) pagina&#39;s om het maximumaantal gesteunde configuraties (20.000) te specificeren, die aan het totale aantal het begrenzen regels beantwoorden die in uw zandbak bestaan.
 
 * Een opmerking toegevoegd in het gedeelte Condition Activity van de reis om te documenteren dat de evaluatie van de voorwaarde zal mislukken voor profielen die meer dan twee apparaatidentiteiten bevatten. [Meer informatie](../building-journeys/condition-activity.md)
 
@@ -194,7 +194,7 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 * De informatie is toegevoegd in de schemaoverzichtsdocumentatie om standaard en relationele schema&#39;s te onderscheiden die voor Geordende campagnes worden gebruikt. [Meer informatie](../data/gs-data.md)
 
-* De informatie is toegevoegd in de Beslissing en de documentatie van het Beslissingsbeheer over de vereisten om [ auto-optimalisering ](../experience-decisioning/ranking/auto-optimization-model.md) en [ met succes te trainen gepersonaliseerde optimalisering ](../experience-decisioning/ranking/personalized-optimization-model.md) modellen.
+* De informatie is toegevoegd in de Beslissing en de documentatie van het Beslissingsbeheer over de vereisten om [&#x200B; auto-optimalisering &#x200B;](../experience-decisioning/ranking/auto-optimization-model.md) en [&#x200B; met succes te trainen gepersonaliseerde optimalisering &#x200B;](../experience-decisioning/ranking/personalized-optimization-model.md) modellen.
 
 * Verduidelijkt dat de Interactieve vraag van de Uitvoering van het Bericht REST API een 60 tweede onderbreking heeft, met interne pogingen om levering te verzekeren. [Meer informatie](../campaigns/trigger-campaigns.md)
 
@@ -222,7 +222,7 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 * De campagneinterface kenmerkt nu twee afzonderlijke lusjes: **Actie** en **API teweeggebracht**. De documentatie is dienovereenkomstig bijgewerkt, met informatie voor elk campagneretype dat in specifieke secties wordt georganiseerd om duidelijkheid en bruikbaarheid te verbeteren. [Meer informatie](../campaigns/get-started-with-campaigns.md)
 
-* [ wordt begonnen met subdomain delegatie ](../configuration/about-subdomain-delegation.md) en [ delegeer een subdomain ](../configuration/delegate-subdomain.md) pagina&#39;s zijn bijgewerkt om de verschillende delegatiemethodes en de stappen beter voor te stellen om hen op te zetten.
+* [&#x200B; wordt begonnen met subdomain delegatie &#x200B;](../configuration/about-subdomain-delegation.md) en [&#x200B; delegeer een subdomain &#x200B;](../configuration/delegate-subdomain.md) pagina&#39;s zijn bijgewerkt om de verschillende delegatiemethodes en de stappen beter voor te stellen om hen op te zetten.
 
 * Er is een notitie toegevoegd aan de sectie Fragments, waarin wordt aangegeven dat wanneer het bijhouden is ingeschakeld in een reis of een campagne, als er koppelingen aanwezig zijn in een fragment en als dit fragment wordt gebruikt in een bericht, deze koppelingen worden bijgehouden, zoals alle andere koppelingen in het bericht. [Meer informatie](../content-management/create-fragments.md#content)
 
@@ -280,7 +280,7 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 * Een nieuwe pagina over het oplossen van problemen binnenkomende acties in reizen verstrekt een geleidelijke gids om kwesties onafhankelijk te identificeren en op te lossen alvorens uit te gaan om te steunen. [Meer informatie](../building-journeys/troubleshooting-inbound.md)
 
-* Een nieuwe [ pagina ](../code-based/code-based-decisioning-implementations.md) is toegevoegd om te beschrijven hoe te om de volgende vlaggen aan uw cliëntimplementatie toe te voegen wanneer het gebruiken van besluit in op code-gebaseerde ervaringen:
+* Een nieuwe [&#x200B; pagina &#x200B;](../code-based/code-based-decisioning-implementations.md) is toegevoegd om te beschrijven hoe te om de volgende vlaggen aan uw cliëntimplementatie toe te voegen wanneer het gebruiken van besluit in op code-gebaseerde ervaringen:
 
    * De markering `dryRun` toevoegen om de besluitvorming in op code gebaseerde ervaringen te testen. [Meer informatie](../code-based/code-based-decisioning-implementations.md#code-based-test-decisions)
 
@@ -288,14 +288,14 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 ## April 2025 {#apr-2025}
 
-* Het hoofdstuk van de Configuratie is nu gesplitst in drie hoofdstukken: [ de configuratie van het Kanaal ](../configuration/get-started-configuration.md), [ configuratie van de Reis ](../configuration/about-data-sources-events-actions.md), en [ verbindt uw systemen ](../configuration/ajo-apis.md).
+* Het hoofdstuk van de Configuratie is nu gesplitst in drie hoofdstukken: [&#x200B; de configuratie van het Kanaal &#x200B;](../configuration/get-started-configuration.md), [&#x200B; configuratie van de Reis &#x200B;](../configuration/about-data-sources-events-actions.md), en [&#x200B; verbindt uw systemen &#x200B;](../configuration/ajo-apis.md).
 * Er is een waarschuwende opmerking toegevoegd over het gebruik van ervaringsgebeurtenissen in reisexpressies en -omstandigheden. [Meer informatie](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
 * Er is een opmerking toegevoegd op de pagina voor Direct-mailconfiguratie over tijdelijke opslag van het uitvoerbestand. [Meer informatie](../direct-mail/direct-mail-configuration.md)
 * Er is een tip toegevoegd in de sectie met de editor voor geavanceerde expressies voor de reis over de richtlijnen voor de indeling van voorwaarden. [Meer informatie](../building-journeys/expression/expressionadvanced.md)
 * In de functiesectie `inAudience` is een waarschuwing toegevoegd over de effecten en aanbevolen procedures bij het wijzigen van de naam van een publiek. [Meer informatie](../building-journeys/functions/functioninaudience.md)
 * Een aanbeveling toegevoegd over het gebruik van native trefwoorden bij het gebruik van 2-wegs-SMS. [Meer informatie](../sms/sms-opt-out.md)
 * De testpagina voor de reis is bijgewerkt met een opmerking over de noodzaak om een naamruimte voor identiteit op te nemen in de gebruikte gebeurtenis. [Meer informatie](../building-journeys/testing-the-journey.md)
-* U kunt subdomeinen momenteel niet dedelegeren via de gebruikersinterface van [!UICONTROL Journey Optimizer] . Dit moet u doorgeven aan uw Adobe-vertegenwoordiger. De stappen om een subdomain niet langer te delegeren zijn nu gedetailleerd voor [ E-mail ](../configuration/delegate-subdomain.md#undelegate-subdomain), [ SMS ](../sms/sms-subdomains.md#undelegate-subdomain), [ de ervaringen van het Web ](../web/web-delegated-subdomains.md#undelegate-subdomain), en [ het Bestaan pagina&#39;s ](../landing-pages/lp-subdomains.md#undelegate-subdomain).<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+* U kunt subdomeinen momenteel niet dedelegeren via de gebruikersinterface van [!UICONTROL Journey Optimizer] . Dit moet u doorgeven aan uw Adobe-vertegenwoordiger. De stappen om een subdomain niet langer te delegeren zijn nu gedetailleerd voor [&#x200B; E-mail &#x200B;](../configuration/delegate-subdomain.md#undelegate-subdomain), [&#x200B; SMS &#x200B;](../sms/sms-subdomains.md#undelegate-subdomain), [&#x200B; de ervaringen van het Web &#x200B;](../web/web-delegated-subdomains.md#undelegate-subdomain), en [&#x200B; het Bestaan pagina&#39;s &#x200B;](../landing-pages/lp-subdomains.md#undelegate-subdomain).<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
 * Meer informatie over de optionele parameter `maxHttpConnections` in de API voor afdekritten, inclusief instructies voor het gebruik van deze parameter naast configuraties voor het vertragen van hetzelfde eindpunt. [Meer informatie](../configuration/throttling.md)
 * In de sectie Beslissing kunnen toegevoegde richtlijnen waarin wordt uitgelegd dat goedgekeurde aanbiedingspunten niet kunnen worden verwijderd als zij in een verzameling of een beslissing worden gebruikt. Opgenomen stappen om de status te wijzigen in Concept met de optie **[!UICONTROL Undo approve]** . [Meer informatie](../experience-decisioning/items.md#manage)
 * Informatie over sandboxen is gegroepeerd in een nieuwe sectie voor &quot;Sandboxbeheer&quot;. Deze nieuwe sectie biedt informatie over het gebruik en toewijzen van sandboxen en over het gebruik van de functie voor exporteren en importeren van pakketten om objecten zoals reizen, inhoudssjablonen of fragmenten over meerdere sandboxen te kopiëren. [Meer informatie](../administration/sandboxes.md)
@@ -345,7 +345,7 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 * Er is een nieuw gebruiksgeval van begin tot eind toegevoegd om alle stappen voor te stellen die nodig zijn om het Beslissen in inhoudexperimenten met het [!DNL Journey Optimizer] op code-gebaseerde ervaringskanaal te gebruiken. [Meer informatie](../experience-decisioning/experience-decisioning-uc.md)
 
-* **vormt e-mailmontages** pagina is verdeeld in verscheidene subpagina&#39;s voor betere leesbaarheid, met inbegrip van nieuwe standalone pagina&#39;s gewijd aan [ Lijst unsubscribe ](../email/list-unsubscribe.md), [ parameters van de Kopbal ](../email/header-parameters.md) en [ URL het volgen ](../email/url-tracking.md).
+* **vormt e-mailmontages** pagina is verdeeld in verscheidene subpagina&#39;s voor betere leesbaarheid, met inbegrip van nieuwe standalone pagina&#39;s gewijd aan [&#x200B; Lijst unsubscribe &#x200B;](../email/list-unsubscribe.md), [&#x200B; parameters van de Kopbal &#x200B;](../email/header-parameters.md) en [&#x200B; URL het volgen &#x200B;](../email/url-tracking.md).
 
 ## December 2024 {#nov-2024}
 
