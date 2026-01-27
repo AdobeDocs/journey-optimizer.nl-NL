@@ -26,7 +26,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Voor het maken van goedkeuringsbeleid hebt u in Adobe Experience Platform systeem- of productbeheerdersrechten nodig. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
+>Voor het maken van goedkeuringsbeleid hebt u in Adobe Experience Platform systeem- of productbeheerdersrechten nodig. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/home)
 
 Met het goedkeuringsbeleid kunnen beheerders een validatieproces voor reizen en campagnes instellen. Dit systeem schetst specifieke voorwaarden die bepalen of een reis of campagne goedkeuring vereist. Dit beleid kan in ingewikkeldheid variëren. Ze kunnen gewoon verlangen dat alle campagnes worden gecontroleerd door een bepaalde gebruiker of een bepaald team, of ze kunnen criteria vaststellen op basis van wie de campagne heeft gemaakt.
 
