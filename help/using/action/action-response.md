@@ -111,7 +111,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payload-voorbeeld zijn opgenomen.
 
-1. (Optioneel) Schakel een payload van een foutreactie in om de indeling vast te leggen die wordt geretourneerd wanneer de aanroep mislukt. Plak vervolgens een voorbeeld van een payload. Om dit te doen, bepaalt de uitgezochte **een nuttige lading van de mislukkingsreactie** in de configuratie van de douaneactie. Leer meer over het vormen van de nuttige ladingsgebieden in [ een douaneactie ](../action/about-custom-action-configuration.md) vormen.
+1. (Optioneel) Schakel een payload van een foutreactie in om de indeling vast te leggen die wordt geretourneerd wanneer de aanroep mislukt. Plak vervolgens een voorbeeld van een payload. Om dit te doen, bepaalt de uitgezochte **een nuttige lading van de mislukkingsreactie** in de configuratie van de douaneactie. Leer meer over het vormen van de nuttige ladingsgebieden in [&#x200B; een douaneactie &#x200B;](../action/about-custom-action-configuration.md) vormen.
 
    ```
    {
@@ -236,11 +236,11 @@ currentActionField.description == "abc"
 
 De gebieden van de lading van de antwoord van douaneacties kunnen in inheemse kanalen (e-mail, duw, SMS) voor berichtverpersoonlijking worden gebruikt. Dit omvat de mogelijkheid om arrays te doorlopen en geneste gegevensstructuren die door externe API&#39;s worden geretourneerd.
 
-Voor gedetailleerde voorbeelden en syntaxis voor het herhalen over de gegevens van de douanereactie in berichten, verwijs naar [ over contextafhankelijke gegevens met Handlebars ](../personalization/iterate-contextual-data.md#custom-action-responses) ireren.
+Voor gedetailleerde voorbeelden en syntaxis voor het herhalen over de gegevens van de douanereactie in berichten, verwijs naar [&#x200B; over contextafhankelijke gegevens met Handlebars &#x200B;](../personalization/iterate-contextual-data.md#custom-action-responses) ireren.
 
 ## Aanvullende bronnen
 
 Raadpleeg deze pagina’s voor meer informatie:
 
-* [ verwijzingen van het Gebied ](../building-journeys/expression/field-references.md).
+* [&#x200B; verwijzingen van het Gebied &#x200B;](../building-journeys/expression/field-references.md).
 * [Functies voor het beheer van verzamelingen](../building-journeys/expression/collection-management-functions.md)
