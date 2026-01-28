@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 4ce83c9cd3f70462c977db6e872a7ac51ea0e006
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Voor het maken van goedkeuringsbeleid hebt u in Adobe Experience Platform systeem- of productbeheerdersrechten nodig. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/home)
+>Voor het maken van goedkeuringsbeleid hebt u in Adobe Experience Platform systeem- of productbeheerdersrechten nodig. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 Met het goedkeuringsbeleid kunnen beheerders een validatieproces voor reizen en campagnes instellen. Dit systeem schetst specifieke voorwaarden die bepalen of een reis of campagne goedkeuring vereist. Dit beleid kan in ingewikkeldheid variëren. Ze kunnen gewoon verlangen dat alle campagnes worden gecontroleerd door een bepaalde gebruiker of een bepaald team, of ze kunnen criteria vaststellen op basis van wie de campagne heeft gemaakt.
 
@@ -39,11 +39,16 @@ U kunt goedkeuringsbeleid richten gebruikend flexibele criteria zoals markeringe
 >title="Nieuw goedkeuringsbeleid"
 >abstract="In dit scherm, ga de naam in en selecteer de context voor het goedkeuringsbeleid, dan bouwt de voorwaarden om te bepalen wie de goedkeuringsverzoek in werking kan stellen en wie het kan bevestigen."
 
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_self_approval"
+>title="Zelfgoedkeuring blokkeren"
+>abstract="Schakel deze optie in om te voorkomen dat gebruikers hun eigen goedkeuringsaanvragen goedkeuren, zelfs als ze tot een gebruikersgroep of rol behoren die als controleur is aangewezen."
+
 Voer de volgende stappen uit om een goedkeuringsbeleid te maken:
 
 1. Open in het menu **[!UICONTROL Administration]** in [!DNL Journey Optimizer] eerst **[!UICONTROL Permissions]** en daarna **[!UICONTROL Policies]** .
 
-   ![&#x200B; creeer de knoop van het goedkeuringsbeleid in het menu van Toestemmingen &#x200B;](assets/policy_create_1.png)
+   ![ creeer de knoop van het goedkeuringsbeleid in het menu van Toestemmingen ](assets/policy_create_1.png)
 
 1. Klik op **[!UICONTROL Create]** op het tabblad **[!UICONTROL Approval Policy]** , kies **[!UICONTROL Approval Policy]** en klik op **[!UICONTROL Confirm]** .
 
@@ -64,7 +69,7 @@ Het goedkeuringsbeleid biedt flexibele opties voor het toewijzen van doelen, zod
 * **Campagne/de namen van de Reis**: De specifieke voorwerpen van het doel door naam
 * **Markeringen**: Pas beleid op alle campagnes of reizen met een specifieke markering toe
 * **types van Kanaal**: Vereis goedkeuring voor specifieke acties (e-mail, SMS, duw, enz.)
-* **types van Campagne**: Plaats verschillende regels voor [&#x200B; Actie vs. API-teweeggebrachte campagnes &#x200B;](../campaigns/get-started-with-campaigns.md#campaign-types)
+* **types van Campagne**: Plaats verschillende regels voor [ Actie vs. API-teweeggebrachte campagnes ](../campaigns/get-started-with-campaigns.md#campaign-types)
 * **Eisen**: Bepaal beleid dat op wie tot de campagne of de reis leidt wordt gebaseerd
 
 Voer de volgende stappen uit om de voorwaarden te definiëren die aan een goedkeuringsbeleid zijn gekoppeld:
@@ -77,7 +82,7 @@ Voer de volgende stappen uit om de voorwaarden te definiëren die aan een goedke
 
    Bijvoorbeeld &quot;als de Actie om het even welke Directe Post&quot;aanpast of &quot;als de Gebruikersbenaming van de Aanvrager John Doe.&quot;aanpast
 
-   ![&#x200B; van de de voorwaardenbouwer van het beleid van 0&rbrace; Goedkeuring &lbrace;](assets/policy_condition_1.png)
+   ![ van de de voorwaardenbouwer van het beleid van 0} Goedkeuring {](assets/policy_condition_1.png)
 
    +++ Meer informatie over beschikbare rubrieken en opties
    <table>
@@ -148,7 +153,7 @@ Voer de volgende stappen uit om de voorwaarden te definiëren die aan een goedke
 
    De geselecteerde gebruiker of gebruikersgroep is verantwoordelijk voor de validatie van de goedkeuringsaanvraag.
 
-   ![&#x200B; ontvankelijke selectieinterface van het verzoek van de Goedkeuring &#x200B;](assets/policy_condition_2.png)
+   ![ ontvankelijke selectieinterface van het verzoek van de Goedkeuring ](assets/policy_condition_2.png)
 
 1. Als u meer criteria wilt toevoegen, klikt u op **[!UICONTROL Add condition]** om extra regels te definiëren en selecteert u **[!UICONTROL And]** of **[!UICONTROL Or]** om op te geven hoe de voorwaarden worden verbonden.
 
@@ -168,8 +173,8 @@ Als u het goedkeuringsbeleid wilt toepassen, moet u het activeren. Voer de volge
    >
    >Nadat het beleid is geactiveerd, kan het niet meer worden bewerkt. Als u voorwaarden wilt wijzigen, deactiveert u eerst het beleid.
 
-   ![&#x200B; activeer de knoop van het goedkeuringsbeleid &#x200B;](assets/policy_activate_1.png)
+   ![ activeer de knoop van het goedkeuringsbeleid ](assets/policy_activate_1.png)
 
 1. Open in het menu **[!UICONTROL Policy]** de geavanceerde opties naar **[!UICONTROL Edit]** , **[!UICONTROL Deactivate]** of **[!UICONTROL Duplicate]** het beleid.
 
-   ![&#x200B; het optiemenu van het beleidsbeheer van de Goedkeuring &#x200B;](assets/policy_activate_2.png)
+   ![ het optiemenu van het beleidsbeheer van de Goedkeuring ](assets/policy_activate_2.png)
