@@ -5,7 +5,7 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 48d7d6e9e92c6bcd35cf0b88e5383aa068cdefd0
+source-git-commit: 669ea379f9e0ca54eb53be66f65343a9e00203cb
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Beslissing biedt aanzienlijke mogelijkheden en voordelen ten opzichte van het be
 
 ### Leermogelijkheden voor AI en machines
 
-* **metriek van de Douane**: Mogelijkheid om de metriek van de douaneverbetering voor AI modellen te gebruiken. Dit verstrekt het melden van interoperabiliteit met [&#x200B; Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, normaliseert het melden over beide platforms, en verbetert gegevensconsistentie en betrouwbaarheid. De naadloze integratie biedt een duidelijkere weergave van prestatiegegevens en voegt nieuwe functies toe, zoals het maken van eenvoudige meetgegevens, het publiceren van doelgroepen, het stellen van ad-hocvragen met Insight Builder en het plannen van rapporten.
+* **metriek van de Douane**: Mogelijkheid om de metriek van de douaneverbetering voor AI modellen te gebruiken. Dit verstrekt het melden van interoperabiliteit met [ Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, normaliseert het melden over beide platforms, en verbetert gegevensconsistentie en betrouwbaarheid. De naadloze integratie biedt een duidelijkere weergave van prestatiegegevens en voegt nieuwe functies toe, zoals het maken van eenvoudige meetgegevens, het publiceren van doelgroepen, het stellen van ad-hocvragen met Insight Builder en het plannen van rapporten.
 
 * **de meting van het optillen**: Mogelijkheid om onderzoek te visualiseren vs verkeer in AI modellen te exploiteren. Op deze manier kunnen marketeers en data wetenschappers kwantificeren hoe AI-exploratie de prestaties van het langetermijnmodel en de ontdekkingsmogelijkheden van nieuwe winnende aanbiedingen verbetert. De transparantie in verkeerstoewijzing bouwt vertrouwen in besluiten AI en machtigt teams om voor zowel het leren als prestaties in tijd te optimaliseren. [Meer informatie](ranking/auto-optimization-model.md#lift)
 
@@ -62,11 +62,11 @@ Het dashboard documenteert de prestaties van beslissingsitems en selectiestrateg
 
 ### Extra functies
 
-* **de handhaving van het Beleid**: De empowerment van de Bedrijfs gebruiker om eigenschappen als [&#x200B; de Etikettering en de Handhaving van het Gebruik van Gegevens te gebruiken (DULE) &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview){target="_blank"} en [&#x200B; Toestemming &#x200B;](../action/consent.md) binnen Beslissing, toelatend privacyschildbescherming over het besluitvormingswerkschema. Dit verzekert besluiten automatisch het beleid van het gegevensgebruik en de voorkeur van de klantentoestemming respecteren.
+* **de handhaving van het Beleid**: De empowerment van de Bedrijfs gebruiker om eigenschappen als [ de Etikettering en de Handhaving van het Gebruik van Gegevens te gebruiken (DULE) ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"} en [ Toestemming ](../action/consent.md) binnen Beslissing, toelatend privacyschildbescherming over het besluitvormingswerkschema. Dit verzekert besluiten automatisch het beleid van het gegevensgebruik en de voorkeur van de klantentoestemming respecteren.
 
-* **Inheemse steun van het overseinenkanaal**: Geïntegreerd overseinen en besluit binnen één enkel kader over veelvoudige kanalen ([&#x200B; op code-gebaseerde ervaring &#x200B;](../code-based/get-started-code-based.md) en [&#x200B; E-mail &#x200B;](../email/get-started-email.md) momenteel beschikbaar, andere kanalen die in H1 2026) komen. Dankzij de intuïtieve UI-ondersteuning kunnen gebruikers rechtstreeks beslissingscomponenten invoegen in workflows voor het schrijven van berichten.
+* **Inheemse steun van het overseinenkanaal**: Geïntegreerd overseinen en besluit binnen één enkel kader over veelvoudige kanalen ([ op code-gebaseerde ervaring ](../code-based/get-started-code-based.md) en [ E-mail ](../email/get-started-email.md) momenteel beschikbaar, andere kanalen die in H1 2026) komen. Dankzij de intuïtieve UI-ondersteuning kunnen gebruikers rechtstreeks beslissingscomponenten invoegen in workflows voor het schrijven van berichten.
 
-* **de datasetraadpleging van Experience Platform**: Mogelijkheid om [&#x200B; datasets van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/overview){target="_blank"} te uploaden en van verwijzingen te voorzien direct binnen de regels van de aanbiedingsselectie, rangschikkend, en gepersonaliseerde aanbiedingsinhoud. Dit breidt flexibiliteit voor verpersoonlijking en het richten door besluitvormingslogica toe te staan om dynamische externe gegevensbronnen te gebruiken. [Meer informatie](../data/lookup-aep-data.md)
+* **de datasetraadpleging van Experience Platform**: Mogelijkheid om [ datasets van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"} te uploaden en van verwijzingen te voorzien direct binnen de regels van de aanbiedingsselectie, rangschikkend, en gepersonaliseerde aanbiedingsinhoud. Dit breidt flexibiliteit voor verpersoonlijking en het richten door besluitvormingslogica toe te staan om dynamische externe gegevensbronnen te gebruiken. [Meer informatie](../data/lookup-aep-data.md)
 
 * **Schaalbaarheid &amp; prestaties**: De verhoging van de architectuur die besluitvormingsberekening van de hub aan de rand beweegt, beduidend verminderend latentie en verbeterend productie voor de gevallen van het hoog-verkeersgebruik.
 
@@ -74,16 +74,16 @@ Het dashboard documenteert de prestaties van beslissingsitems en selectiestrateg
 
 | Gebruiksscenario | Beslissingsbeheer | Beslissing |
 |----------|---------------------|-------------|
-| **Multiplacement strategie** | Eén strategie maakt zowel homepage als mobiele app mogelijk | Beslissingslogica gekoppeld aan een specifieke plaatsing (bijvoorbeeld web- of e-maillocatie) |
-| **Consistente aanbiedingsattributen** | Een markeerteken definieert één keer &quot;kortingType&quot; en &quot;aanbiedingValue&quot;; elke aanbieding neemt deze velden automatisch over | Elk aanbod beheert handmatig zijn eigen kenmerken; geen consistentie op schemaniveau |
-| **Dynamische AI rangschikking** | Een marketeter kan de weging aanpassen (bijv. een AI-conversiescore van 60% + winstmarge van 40%) om de doelstellingen van inkomsten en betrokkenheid in evenwicht te brengen | De waarderingen baseren zich uitsluitend op modeloutput of statische regels |
-| **A/B testende strategieën** | Een team kan A/B testen of &quot;AI + bedrijfsregels&quot;op prioriteit gebaseerde rangschikking overtreft | Geen ondersteuning voor ingebouwde experimenten |
-| **de metriek van AI van de Douane** | Retailer traint een &quot;waarschijnlijkheid om te kopen&quot; model op en monitort lifteffecten over nieuwe of bekende producten | Optimaliseert alleen tegen klikdichtheid; geen zicht in modelexploratie of lift |
-| **Inhoud herbruikbaarheid** | Een header bijwerken of CTA wordt automatisch doorgegeven aan honderden aanbiedingen | Bij elke aanbieding wordt volledige inhoud onafhankelijk opgeslagen |
-| **Geïntegreerde creatie** | Een markeerteken voegt gepersonaliseerde aanbiedingen in een e-mailbericht in zonder de berichteneditor te verlaten | Beslissing en overseinen leven in afzonderlijke kaders met beperkte integratie |
-| **naleving van de Privacy** | Een markeerteken bouwt een aanbiedingsregel in de wetenschap dat bepaalde profielen automatisch worden uitgesloten bij voorkeuren voor toestemming | Vereist handmatige coördinatie met engineering- en gegevensteams voor rechtshandhaving |
-| **inventaris in real time** | Gebruik een gegevensset van de productvoorraad om aanbiedingen voor posten buiten de voorraad in real time te onderdrukken | Statische gegevens; beperkte flexibiliteit voor het gebruik van externe of contextuele gegevenssets |
-| **prestaties van de Schaal** | Realtime personalisatie voor miljoenen inkomende verzoeken onder de reactietijd van 100 ms | Besluiten die in de hub met hogere latentie worden gemaakt |
+| **Multiplacement strategie** | Beslissingslogica gekoppeld aan een specifieke plaatsing (bijvoorbeeld web- of e-maillocatie) | Eén strategie maakt zowel homepage als mobiele app mogelijk |
+| **Consistente aanbiedingsattributen** | Elk aanbod beheert handmatig zijn eigen kenmerken; geen consistentie op schemaniveau | Een markeerteken definieert één keer &quot;kortingType&quot; en &quot;aanbiedingValue&quot;; elke aanbieding neemt deze velden automatisch over |
+| **Dynamische AI rangschikking** | De waarderingen baseren zich uitsluitend op modeloutput of statische regels | Een marketeter kan de weging aanpassen (bijv. een AI-conversiescore van 60% + winstmarge van 40%) om de doelstellingen van inkomsten en betrokkenheid in evenwicht te brengen |
+| **A/B testende strategieën** | Geen ondersteuning voor ingebouwde experimenten | Een team kan A/B testen of &quot;AI + bedrijfsregels&quot;op prioriteit gebaseerde rangschikking overtreft |
+| **de metriek van AI van de Douane** | Optimaliseert alleen tegen klikdichtheid; geen zicht in modelexploratie of lift | Retailer traint een &quot;waarschijnlijkheid om te kopen&quot; model op en monitort lifteffecten over nieuwe of bekende producten |
+| **Inhoud herbruikbaarheid** | Bij elke aanbieding wordt volledige inhoud onafhankelijk opgeslagen | Een header bijwerken of CTA wordt automatisch doorgegeven aan honderden aanbiedingen |
+| **Geïntegreerde creatie** | Beslissing en overseinen leven in afzonderlijke kaders met beperkte integratie | Een markeerteken voegt gepersonaliseerde aanbiedingen in een e-mailbericht in zonder de berichteneditor te verlaten |
+| **naleving van de Privacy** | Vereist handmatige coördinatie met engineering- en gegevensteams voor rechtshandhaving | Een markeerteken bouwt een aanbiedingsregel in de wetenschap dat bepaalde profielen automatisch worden uitgesloten bij voorkeuren voor toestemming |
+| **inventaris in real time** | Statische gegevens; beperkte flexibiliteit voor het gebruik van externe of contextuele gegevenssets | Gebruik een gegevensset van de productvoorraad om aanbiedingen voor posten buiten de voorraad in real time te onderdrukken |
+| **prestaties van de Schaal** | Besluiten die in de hub met hogere latentie worden gemaakt | Realtime personalisatie voor miljoenen inkomende verzoeken onder de reactietijd van 100 ms |
 
 ## Migratiewerkset {#migration-tooling}
 
