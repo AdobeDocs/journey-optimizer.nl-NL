@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 13d728fddb3179563edd9d5df752c732591c4a45
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1799'
 ht-degree: 4%
 
 ---
@@ -23,19 +23,19 @@ ht-degree: 4%
 
 [!DNL Adobe Journey Optimizer] volgt een doorlopend leveringsmodel, dat Adobe in staat stelt voortdurend nieuwe functies, verbeteringen en correcties te leveren. Deze benadering maakt een schaalbare, gefaseerde implementatie van mogelijkheden mogelijk om prestaties en stabiliteit in alle omgevingen te garanderen.
 
-Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [&#x200B; de versiecyclus van Journey Optimizer &#x200B;](releases.md).
+Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [ de versiecyclus van Journey Optimizer ](releases.md).
 
-[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Opmerkingen bij de release van januari &#39;26 {#latest-rn}
 
 **de datum van de Versie**: Januari 27-28, 2026
 
-De [&#x200B; Eigenschappen &#x200B;](#jan-26-01-features) en [&#x200B; Verbeteringen &#x200B;](#jan-26-01-improv) secties behandelen reeds beschikbare mogelijkheden, terwijl [&#x200B; komende spoedig &#x200B;](#jan-26-01-coming-soon) punten die voor een recentere beschikbaarheidsdatum worden gepland.
+De [ Eigenschappen ](#jan-26-01-features) en [ Verbeteringen ](#jan-26-01-improv) secties behandelen reeds beschikbare mogelijkheden, terwijl [ komende spoedig ](#jan-26-01-coming-soon) punten die voor een recentere beschikbaarheidsdatum worden gepland.
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nieuwe functies {#jan-26-01-features}
 
@@ -148,6 +148,10 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **verhindert zelfgoedkeuring voor reizen en campagnes** - toegevoegde een optie wanneer het creëren van of het plaatsen van het Beleid van de Goedkeuring om reis of campagnescheppers te verhinderen hun eigen voorwerpen goed te keuren. [Meer informatie](../test-approve/approval-policies.md)
 
+#### AI-assistent
+
+* **AI de Controles van de Kwaliteit van de Inhoud van de Hulp** - Naast merkgroepering, zult u algemene <strong> inhoudkwaliteit </strong> kunnen evalueren om potentiële kwesties met leesbaarheid, samenhang, en doeltreffendheid, onafhankelijk van uw merkrichtlijnen te ontdekken. Deze geautomatiseerde controles zullen helpen onduidelijk overseinen, inconsistente toon, of structurele hiaten identificeren. Beschikbaarheidsdatum: 28 januari 2026.
+
 ## Binnenkort beschikbaar {#jan-26-01-coming-soon}
 
 In de komende dagen zijn de volgende mogelijkheden en verbeteringen gepland voor release. **de Informatie is onderworpen aan verandering**. De bijgewerkte verbindingen, de schermen, en de documentatie zullen worden gedeeld zodra deze updates in productie levend zijn.
@@ -163,7 +167,7 @@ In de komende dagen zijn de volgende mogelijkheden en verbeteringen gepland voor
 <tbody>
 <tr>
 <td>
-<p>Een nieuw <strong> vermogen van de Uitvoer van het 0&rbrace; Bericht zal voor e-mail en de kanalen van SMS beschikbaar zijn. </strong> Met deze functie kunt u automatisch verzonden berichtinhoud exporteren naar een speciale Experience Platform-gegevensset, zodat u:</p>
+<p>Een nieuw <strong> vermogen van de Uitvoer van het 0} Bericht zal voor e-mail en de kanalen van SMS beschikbaar zijn. </strong> Met deze functie kunt u automatisch verzonden berichtinhoud exporteren naar een speciale Experience Platform-gegevensset, zodat u:</p>
 <ul>
 <li>Voldoen aan wettelijke nalevingsvereisten (zoals HIPAA)</li>
 <li>Berichten archiveren voor juridische claims en vragen over klantenservice</li>
@@ -334,10 +338,6 @@ In de komende dagen zijn de volgende mogelijkheden en verbeteringen gepland voor
 
 ### Verbeteringen
 
-* **AI de Controles van de Kwaliteit van de Inhoud van de Hulp** - Naast merkgroepering, zult u algemene <strong> inhoudkwaliteit </strong> kunnen evalueren om potentiële kwesties met leesbaarheid, samenhang, en doeltreffendheid, onafhankelijk van uw merkrichtlijnen te ontdekken. Deze geautomatiseerde controles zullen helpen onduidelijk overseinen, inconsistente toon, of structurele hiaten identificeren. Beschikbaarheidsdatum: 28 januari 2026.
-
-* **de merken van de Update met nieuw kleurenlusje** - de richtlijnen van het Merk zullen helpen ervoor zorgen uw merk constant over alle touchpoints wordt voorgesteld. De nieuwe <strong> sectie van Kleuren </strong> zal de normen voor het de kleurensysteem van uw merk bepalen, die schetsen hoe de kleuren worden geselecteerd, georganiseerd, en toegepast over ervaringen. Het zorgt voor consistent gebruik van primaire, secundaire, accenten en neutrale kleuren ter ondersteuning van een consistente, toegankelijke en herkenbare merkidentiteit. Beschikbaarheidsdatum: 28 januari 2026.
-
 * **Webhooks van SMS** - <strong> Webhooks </strong> zullen over alle leveranciers van SMS worden gesteund. U kunt elke webhaak configureren op basis van het beoogde doel: binnenkomende webhaken om binnenkomende berichten en feedbackwebhooks vast te leggen voor ontvangstbewijzen, statusupdates en andere berichtgerelateerde gebeurtenissen. Beschikbaarheidsdatum: 28 januari 2026.
 
-* **Campagne van het Programma die de Zone van de Tijd van het Profiel** gebruikt - het plannen van de Campagne zal de 2&rbrace; tijdzone van elk profiel <strong> kunnen gebruiken om berichten in de voorgenomen lokale tijd te leveren. </strong> **Nota**: Deze verbetering zal slechts voor een reeks organisaties (Beperkte Beschikbaarheid) beschikbaar zijn. Beschikbaarheidsdatum: 28 januari 2026.
+* **Campagne van het Programma die de Zone van de Tijd van het Profiel** gebruikt - het plannen van de Campagne zal de 2} tijdzone van elk profiel <strong> kunnen gebruiken om berichten in de voorgenomen lokale tijd te leveren. </strong> **Nota**: Deze verbetering zal slechts voor een reeks organisaties (Beperkte Beschikbaarheid) beschikbaar zijn. Beschikbaarheidsdatum: 28 januari 2026.

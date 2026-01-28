@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 9cd13e97315daef36918d4352f182efe0d3d9c7a
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 0%
+source-wordcount: '626'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ In [!DNL Journey Optimizer] hebt u nu de optie om uw merkdetails handmatig in te
 
 >[!AVAILABILITY]
 >
->U moet met de [&#x200B; gebruikersovereenkomst &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} akkoord gaan alvorens u de Medewerker AI in Adobe Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met de [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} akkoord gaan alvorens u de Medewerker AI in Adobe Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 
 ## Handelsmerken {#generative-access}
@@ -67,7 +67,7 @@ Voer de volgende stappen uit om machtigingen voor merken toe te wijzen:
 
 1. Ga de naam van de gebruiker, e-mailadres in, of kies van de lijst, dan klik **sparen**.
 
-1. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users).
+1. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 +++
 
@@ -94,11 +94,15 @@ Als u de richtlijn voor uw merk wilt maken en beheren, kunt u de details zelf in
 
 1. Uw standaarden voor het maken van inhoud en visuele weergave worden nu automatisch ingevuld. Blader door de verschillende tabbladen om de informatie naar wens aan te passen. [Meer informatie](#personalize)
 
-1. Vanuit het geavanceerde menu van elke sectie of categorie kunt u automatisch verwijzingen toevoegen om relevante merkgegevens te extraheren.
+1. Vanuit het geavanceerde menu in elke sectie of categorie kunt u verwijzingen toevoegen om automatisch relevante informatie over het merk te extraheren of de extractie opnieuw uit te voeren om bestaande richtlijnen bij te werken.
 
    Gebruik de opties **[!UICONTROL Clear section]** of **[!UICONTROL Clear category]** om bestaande inhoud te verwijderen.
 
    ![](assets/brands-15.png)
+
+1. Klik op **[!UICONTROL Filter]** om hulplijnen te filteren op kanaal of elementtype.
+
+   ![](assets/brands-18.png)
 
 1. Als u de configuratie hebt voltooid, klikt u op **[!UICONTROL Save]** en vervolgens op **[!UICONTROL Publish]** om uw merkenhulplijn beschikbaar te maken in AI Assistant.
 
@@ -113,7 +117,9 @@ Als u de richtlijn voor uw merk wilt maken en beheren, kunt u de details zelf in
 1. Open het geavanceerde menu op het dashboard van **[!UICONTROL Brands]** door op het pictogram ![](assets/do-not-localize/Smock_More_18_N.svg) te klikken op:
 
    * Merk weergeven
+   * Openen op nieuw tabblad
    * Bewerken
+   * Markeren als standaardmerk
    * Dupliceren
    * Publiceren
    * Publiceren ongedaan maken
@@ -121,7 +127,7 @@ Als u de richtlijn voor uw merk wilt maken en beheren, kunt u de details zelf in
 
    ![](assets/brands-6.png)
 
-De richtlijnen voor uw merk zijn nu beschikbaar in het keuzemenu **[!UICONTROL Brand]** in AI Assistant, waarmee u inhoud en elementen kunt genereren die zijn afgestemd op uw specificaties. [&#x200B; Leer meer over Medewerker AI &#x200B;](gs-generative.md)
+De richtlijnen voor uw merk zijn nu beschikbaar in het keuzemenu **[!UICONTROL Brand]** in AI Assistant, waarmee u inhoud en elementen kunt genereren die zijn afgestemd op uw specificaties. [ Leer meer over Medewerker AI ](gs-generative.md)
 
 ![](assets/brands-7.png)
 
@@ -132,244 +138,4 @@ U kunt een standaardmerk aanwijzen dat automatisch moet worden toegepast bij het
 Als u een standaardmerk wilt instellen, gaat u naar het **[!UICONTROL Brands]** -dashboard. Open het geavanceerde menu door op het pictogram ![](assets/do-not-localize/Smock_More_18_N.svg) te klikken en **[!UICONTROL Mark as default brand]** te selecteren.
 
 ![](assets/brands-9.png)
-
-## Uw merk aanpassen {#personalize}
-
-### Informatie over het merk {#about-brand}
-
-Gebruik het tabblad **[!UICONTROL About the brand]** om de belangrijkste identiteit van uw merk vast te stellen: het doel, de persoonlijkheid, de taglijn en andere definiërende kenmerken.
-
-1. Begin door de basisinformatie voor uw merk in te vullen in de categorie **[!UICONTROL Key details]** :
-
-   * **[!UICONTROL Brand Kit Name]**: voer de naam van de merkkit in.
-
-   * **[!UICONTROL When to Use]**: geef scenario&#39;s of contexten op waarop deze merkkit moet worden toegepast.
-
-   * **[!UICONTROL Brand Name]**: voer de officiële naam van het merk in.
-
-   * **[!UICONTROL Brand Description]**: geef een overzicht van wat dit merk vertegenwoordigt.
-
-   * **[!UICONTROL Default Tagline]**: voeg de primaire coderegel toe die aan het merk is gekoppeld.
-
-     ![](assets/brands-about-1.png)
-
-1. Geef in de categorie **[!UICONTROL Guiding principles]** uitleg over de kernrichting en filosofie van uw merk:
-
-   * **[!UICONTROL Mission]**: Geef het doel van uw merk op.
-
-   * **[!UICONTROL Vision]**: beschrijf uw langetermijndoel of gewenste toekomstige staat.
-
-   * **[!UICONTROL Market Positioning]**: leg uit hoe uw merk zich op de markt bevindt.
-
-     ![](assets/brands-about-2.png)
-
-1. Van de **[!UICONTROL Core brand values]** categorie, klik ![&#x200B; Beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Add_18_N.svg " pictogram ") toevoegen om de kernwaarden van het merk toe te voegen en de details in te vullen:
-
-   * **[!UICONTROL Value]**: geef een naam op voor een kernmerk.
-
-   * **[!UICONTROL Description]**: leg uit wat deze waarde aan uw merk betekent.
-
-   * **[!UICONTROL Behaviors]**: schets de handelingen of houdingen die deze waarde in de praktijk weerspiegelen.
-
-   * **[!UICONTROL Manifestations]**: geef voorbeelden van hoe deze waarde wordt uitgedrukt in echte branding.
-
-     ![](assets/brands-12.png)
-
-1. Indien nodig, klik het ![&#x200B; beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Edit_18_N.svg " uitgeven ") pictogram om één van uw waarde van het kernmerk bij te werken of te schrappen.
-
-   ![](assets/brands-10.png)
-
-U kunt uw merk verder personaliseren of [&#x200B; uw merk &#x200B;](#create-brand-kit) publiceren.
-
-### Schrijfstijl {#writing-style}
-
->[!CONTEXTUALHELP]
->id="ajo_brand_writing_style"
->title="Stijluitlijningsscore schrijven"
->abstract="De sectie Schrijfstijl definieert normen voor taal, opmaak en structuur om te zorgen voor duidelijke, consistente inhoud. De uitlijningsscore, van hoog naar laag, laat zien hoe goed uw inhoud deze richtlijnen volgt en geeft gebieden voor verbetering aan."
-
-In de sectie **[!UICONTROL Writing style]** worden de standaarden voor het schrijven van inhoud beschreven, met een gedetailleerde beschrijving van de manier waarop taal, opmaak en structuur moeten worden gebruikt voor het behoud van helderheid, coherentie en consistentie in alle materialen.
-
-+++ Beschikbare categorie en voorbeelden
-
-<table>
-  <thead>
-    <tr>
-      <th>Categorie</th>
-      <th>Subcategorie</th>
-      <th>Voorbeeld van richtlijnen</th>
-      <th>Voorbeeld van uitsluitingen</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="4">Normen voor het maken van inhoud</td>
-      <td>Merk Messaging-standaarden</td>
-      <td>Benadruk innovatie en klant-eerste overseinen.</td>
-      <td>U mag de productmogelijkheden niet overbelasten.</td>
-    </tr>
-    <tr>
-      <td>Taglinegebruik</td>
-      <td>Plaats de tag onder het logo op alle digitale marketingmiddelen.</td>
-      <td>Wijzig of vertaal de taglijn niet.</td>
-    </tr>
-    <tr>
-      <td>Core Messaging</td>
-      <td>Benadruk de belangrijkste voordeel verklaring-zulke als verbeterde productiviteit.</td>
-      <td>Gebruik geen ongerelateerde waardevoorstellen.</td>
-    </tr>
-    <tr>
-      <td>Naamgevingsstandaarden</td>
-      <td>Gebruik eenvoudige, beschrijvende namen, zoals "ProScheduler".</td>
-      <td>Gebruik geen complexe termen of speciale tekens.</td>
-    </tr>
-    <tr>
-      <td rowspan="5">Merk Communication-stijl</td>
-      <td>Merk Persoonlijke kenmerken</td>
-      <td>Vriendelijk en toegankelijk.</td>
-      <td>Wees geen nederlaag.</td>
-    </tr>
-    <tr>
-      <td>Schrijfmiddelen</td>
-      <td>Zorgt dat zinnen kort en ondoeltreffend blijven.</td>
-      <td>Gebruik geen overdreven jargon.</td>
-    </tr>
-    <tr>
-      <td>Situatietoon</td>
-      <td>Houd een professionele toon in crisiscommunicatie.</td>
-      <td>Wees niet afwijzend bij het ondersteunen van communicatie.</td>
-    </tr>
-    <tr>
-      <td>Richtlijnen voor woordkeuze</td>
-      <td>Gebruik woorden als "innovatief" en "slim".</td>
-      <td>Vermijd woorden als "goedkoop" of "hack".</td>
-    </tr>
-    <tr>
-      <td>Taalstandaarden</td>
-      <td>Volg de Amerikaanse conventies in het Engels.</td>
-      <td>Vermeng Brits en Amerikaans spelletje niet.</td>
-    </tr>
-    <tr>
-      <td rowspan="3">Normen voor juridische naleving</td>
-      <td>Handelsmerkstandaarden</td>
-      <td>Gebruik altijd het symbool ™ of ®.</td>
-      <td>Laat juridische symbolen niet weg wanneer dat nodig is.</td>
-    </tr>
-    <tr>
-      <td>Copyrightstandaarden</td>
-      <td>Inclusief copyrightkennisgevingen over marketingmaterialen.</td>
-      <td>Gebruik geen inhoud van derden zonder toestemming.</td>
-    </tr>
-    <tr>
-      <td>Disclaimingstandaarden</td>
-      <td>Dislaimers leesbaar weergeven op digitale middelen.</td>
-      <td>Verberg disclaimers niet in onzichtbare gebieden.</td>
-    </tr>
-</table>
-
-+++
-
-</br>
-
-U past de **[!UICONTROL Writing Style]** als volgt aan:
-
-1. Klik op het tabblad **[!UICONTROL Writing Style]** op ![](assets/do-not-localize/Smock_Add_18_N.svg) om een hulplijn, uitzondering of uitsluiting toe te voegen.
-
-1. Voer uw richtlijn, uitzondering of uitsluiting in. U kunt ook **[!UICONTROL Examples]** opnemen om beter aan te geven hoe deze toepassing moet worden toegepast.
-
-   ![](assets/brands-3.png)
-
-1. Geef de gebruikscontext voor uw richtlijn, uitzondering of uitsluiting op:
-
-   * **[!UICONTROL Channel type]**: kies waar deze richtlijn, uitzondering of uitsluiting van toepassing moet zijn. U wilt bijvoorbeeld dat een specifieke schrijfstijl alleen wordt weergegeven in e-mail, mobiel, Afdrukken of andere communicatiekanalen.
-
-   * **[!UICONTROL Element type]**: geef op op op welk inhoudselement de regel van toepassing is. Dit kan elementen bevatten zoals koppen, knoppen, koppelingen of andere componenten in de inhoud.
-
-     ![](assets/brands-16.png)
-
-1. Klik op **[!UICONTROL Add]** als uw hulplijn, uitzondering of uitsluiting is ingesteld.
-
-1. Selecteer zo nodig een van de hulplijnen of uitsluitingen die u wilt bijwerken of verwijderen.
-
-1. Klik het ![&#x200B; beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Edit_18_N.svg " uitgeven ") om uw voorbeeld of het ![Alternatieve tekst voor afbeelding duwen](assets/do-not-localize/Smock_Delete_18_N.svg "Verwijderen") pictogram uit te geven om het te schrappen.
-
-   ![](assets/brands-11.png)
-
-U kunt uw merk verder personaliseren of [&#x200B; uw merk &#x200B;](#create-brand-kit) publiceren.
-
-### Visuele inhoud {#visual-content}
-
->[!CONTEXTUALHELP]
->id="ajo_brand_imagery"
->title="Alignment score voor visuele inhoud"
->abstract="De visuele Score van de Uitlijning van Inhoud wijst erop hoe goed uw inhoud uw gevormde merkrichtlijnen aanpast. Met scores van hoog naar laag kunt u de uitlijning in één oogopslag beoordelen. Verken de verschillende categorieën om gebieden voor verbetering te identificeren en elementen te identificeren die buiten merknaam kunnen zijn."
-
-In de sectie **[!UICONTROL Visual Content]** worden de standaarden voor afbeeldingen en ontwerpen gedefinieerd, waarin de specificaties worden beschreven die nodig zijn om een uniform en consistent merkgebruik te behouden.
-
-+++ Beschikbare categorieën en voorbeelden
-
-<table>
-  <thead>
-    <tr>
-      <th>Categorie</th>
-      <th>Voorbeeld van richtlijnen</th>
-      <th>Voorbeeld van uitsluitingen</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Fotostandaarden</td>
-      <td>Gebruik natuurlijke belichting voor buitenschoten.</td>
-      <td>Vermijd te veel bewerkte of gepixeleerde afbeeldingen.</td>
-    </tr>
-    <tr>
-      <td>Illustratienormen</td>
-      <td>Gebruik schone, minimalistische stijlen.</td>
-      <td>Vermijd al te complex.</td>
-    </tr>
-    <tr>
-      <td>Pictogramstandaarden</td>
-      <td>Gebruik een consistent rastersysteem van 24 px.</td>
-      <td>U kunt pictogramafmetingen niet mengen, inconsistente lijndikten gebruiken of van rasterregels afwijken.</td>
-    </tr>
-    <tr>
-      <td>Richtlijnen voor gebruik</td>
-      <td>Kies levensstijlafbeeldingen die overeenkomen met echte klanten die het product in professionele omgevingen gebruiken.</td>
-      <td>Gebruik geen afbeeldingen die de toon van het merk tegenspreken of die uit de context vallen.</td>
-    </tr>
-</table>
-
-+++
-
-</br>
-
-U past de **[!UICONTROL Visual content]** als volgt aan:
-
-1. Klik op het tabblad **[!UICONTROL Visual content]** op ![](assets/do-not-localize/Smock_Add_18_N.svg) om een hulplijn, uitsluiting of voorbeeld toe te voegen.
-
-1. Voer uw richtlijn, uitsluiting of voorbeeld in.
-
-   ![](assets/brands-4.png)
-
-1. Geef de context voor het gebruik op voor uw hulplijn of uitsluiting:
-
-   * **[!UICONTROL Channel type]**: kies waar deze richtlijn, uitzondering of uitsluiting van toepassing moet zijn. U wilt bijvoorbeeld dat een specifieke schrijfstijl alleen wordt weergegeven in e-mail, mobiel, Afdrukken of andere communicatiekanalen.
-
-   * **[!UICONTROL Element type]**: geef op op op welk inhoudselement de regel van toepassing is. Dit kan elementen bevatten zoals koppen, knoppen, koppelingen of andere componenten in de inhoud.
-
-     ![](assets/brands-16.png)
-
-1. Klik op **[!UICONTROL Add]** als uw hulplijn, uitzondering of uitsluiting is ingesteld.
-
-1. Als u een afbeelding met het juiste gebruik wilt toevoegen, selecteert u **[!UICONTROL Example]** en klikt u op **[!UICONTROL Select image]** . U kunt ook een afbeelding toevoegen waarin onjuist gebruik wordt getoond als uitsluitingsvoorbeeld.
-
-   ![](assets/brands-13.png)
-
-1. Selecteer zo nodig een van de hulplijnen of uitsluitingen die u wilt bijwerken of verwijderen.
-
-1. Selecteer een van uw richtlijnen of uitsluitingen om deze bij te werken. Klik het ![&#x200B; beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Delete_18_N.svg " Schrapping ") pictogram om het te schrappen.
-
-   ![](assets/brands-14.png)
-
-U kunt uw merk verder personaliseren of [&#x200B; uw merk &#x200B;](#create-brand-kit) publiceren.
 
