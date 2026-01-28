@@ -30,7 +30,7 @@ Klik op het pictogram AI-assistent in de bovenste balk om het hulpdeelvenster aa
 
 >[!IMPORTANT]
 >
->U moet met de [&#x200B; Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"} akkoord gaan alvorens AI Medewerker te gebruiken.
+>U moet met de [&#x200B; Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home){target="_blank"} akkoord gaan alvorens AI Medewerker te gebruiken.
 
 ### Wat kan AI Assistant doen
 
@@ -60,7 +60,7 @@ Klik op het pictogram AI-assistent in de bovenste balk om het hulpdeelvenster aa
 
 ![](assets/do-not-localize/ai-assistant-answer.png){width="40%" align="left"}
 
-[&#x200B; Leer meer over AI Medewerker in Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}
+[&#x200B; Leer meer over AI Medewerker in Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home){target="_blank"}
 
 ## Geavanceerde AI-agents voor optimalisatie van reizen {#ai-agents}
 
@@ -82,7 +82,7 @@ Journey Agent beschikt over twee vaardigheden in AI Assistant: Analyseren en mak
 
 #### Journey Analyse Skill {#journey-analyze-skill}
 
-De [&#x200B; Reis analyseert Agent &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"} helpt u vervoersprestaties door natuurlijke taalanalyse optimaliseren:
+De [&#x200B; Reis analyseert Agent &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"} helpt u vervoersprestaties door natuurlijke taalanalyse optimaliseren:
 
 +++**Zeer belangrijke Mogelijkheden**
 
@@ -105,7 +105,7 @@ De [&#x200B; Reis analyseert Agent &#x200B;](https://experienceleague.adobe.com/
 
 #### Reis maken Vaardigheid {#journey-create-skill}
 
-De [&#x200B; Reis leidt Agent &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} hulp u reizen van natuurlijke taalherinneringen bouwt, die uw doelstellingen in gestructureerde reisconfiguraties vertalen:
+De [&#x200B; Reis leidt Agent &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} hulp u reizen van natuurlijke taalherinneringen bouwt, die uw doelstellingen in gestructureerde reisconfiguraties vertalen:
 
 +++**Zeer belangrijke Mogelijkheden**
 
@@ -127,7 +127,7 @@ De [&#x200B; Reis leidt Agent &#x200B;](https://experienceleague.adobe.com/en/do
 
 ### Experimentatieagent {#experimentation-agent}
 
-De [&#x200B; Agent van de Experimentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"} moderniseert hoe u digitale experimenten over websites, e-mail, duwberichten, en toepassingen in werking stelt en beheert:
+De [&#x200B; Agent van de Experimentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"} moderniseert hoe u digitale experimenten over websites, e-mail, duwberichten, en toepassingen in werking stelt en beheert:
 
 +++**Zeer belangrijke Mogelijkheden**
 
@@ -269,7 +269,7 @@ Blader in Journey Optimizer naar veelgebruikte scenario&#39;s, zoals:
 
 +++
 
-[&#x200B; Mening alle beschikbare playbooks &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html){target="_blank"} | [&#x200B; Leer meer in de documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+[&#x200B; Mening alle beschikbare playbooks &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=nl-NL){target="_blank"} | [&#x200B; Leer meer in de documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=nl-NL){target="_blank"}
 
 ## Aanvullende AI-mogelijkheden {#additional-capabilities}
 
