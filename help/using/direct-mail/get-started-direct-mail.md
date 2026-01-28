@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: direct mail, bericht, campagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -30,7 +30,7 @@ De belangrijkste stappen voor het verzenden van direct-mailberichten zijn als vo
 
 >[!AVAILABILITY]
 >
->Directe-mailberichten kunnen alleen worden gemaakt in het kader van geplande campagnes. Zij zijn niet beschikbaar voor gebruik in georkestreerde en API-getriggerde campagnes of in reizen.
+>Directe postberichten kunnen slechts in de context van geplande en georkestreerde campagnes worden gecreeerd. Ze zijn niet beschikbaar voor gebruik in API-getriggerde campagnes of reizen.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
@@ -39,6 +39,6 @@ De belangrijkste stappen voor het verzenden van direct-mailberichten zijn als vo
 * **[creeer directe post](create-direct-mail.md)** - leer hoe te om directe postleveringen tot stand te brengen en extractiedossiers voor off-line kanalen te vormen.
 * **[vorm direct-mailkanaal](direct-mail-configuration.md)** - de gebieden van de opstelling direct-mail en dossier die configuraties verpletteren.
 * **[Test en verzend direct-mail](test-send-direct-mail.md)** - leer hoe te, uw direct-mailleveringen te testen bevestigen en te publiceren.
-* **[Directe postzelfstudies &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - onderzoek geleidelijke videoleerprogramma&#39;s op direct-maileigenschappen en beste praktijken.
+* **[Directe postzelfstudies ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - onderzoek geleidelijke videoleerprogramma&#39;s op direct-maileigenschappen en beste praktijken.
 
 

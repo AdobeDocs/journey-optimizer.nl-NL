@@ -6,9 +6,9 @@ description: Meer informatie over hoe u aan de slag kunt gaan met georkestreerde
 short-description: Ontdek de belangrijkste kenmerken en gebruiksscenario's van georkestreerde campagnes.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '781'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="campagnes_overview_orchestrated"
->abstract="<b> Splitsen van de Campagne de orchestratie </b><br/>, combineren, verrijken en manipuleren relationele datasets om uw publiek <br/><br/> te bepalen <b> Van de hefboomwerking multi-entiteitgegevens </b><br/> leren hoe de Geordende campagnes uit relationele datasets kunnen voordeel halen om gegevens voor segmentatie &amp; verpersoonlijking <br/><br/><b> Ad-hoc segmentatie &amp; de nauwkeurige tellingen </b><br/> bouwen uw segment stap voor stap met nauwkeurige tellingen <br/><br/><b> Beschikbare kanalen </b><br/> E-mail, SMS, Push berichten"
+>abstract="<b> Splitsen van de Campagne de orchestratie </b><br/>, combineren, verrijken en manipuleren relationele datasets om uw publiek <br/><br/> te bepalen <b> Van de hefboomwerking multi-entiteitgegevens </b><br/> leren hoe Geordende campagnes uit relationele datasets kunnen voordeel halen om gegevens voor segmentatie &amp; verpersoonlijking <br/><br/><b> Ad-hoc segmentatie &amp; nauwkeurige tellingen </b><br/> te verrijken bouwt uw segment stap voor stap met nauwkeurige tellingen <br/><br/><b> Beschikbare kanalen </b><br/> E-mail, SMS, Push berichten, Directe post"
 
 Campagne in [!DNL Adobe Journey Optimizer] biedt geavanceerde, merkgestarte marketingcampagnes via verschillende kanalen, waarmee u op grote schaal betrokkenheid, inkomsten en klantenloyaliteit kunt stimuleren.
 
@@ -31,7 +31,7 @@ Hoewel de marketing over de kanalen essentieel is, maken de geordende campagnes 
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
 
-➡️ [&#x200B; ontdekt Geordende campagnes in video &#x200B;](#video-oc)
+➡️ [ ontdekt Geordende campagnes in video ](#video-oc)
 
 ## Kernmogelijkheden
 
@@ -51,7 +51,7 @@ Ondersteuning voor verzending op meerdere niveaus, waarbij één bericht wordt v
 
 >[!NOTE]
 >
->Voor meer informatie over de gesteunde kanalen, verwijs naar de lijst in deze sectie: [&#x200B; Kanalen in reizen &amp; campagnes &#x200B;](../channels/gs-channels.md#channels).
+>Voor meer informatie over de gesteunde kanalen, verwijs naar de lijst in deze sectie: [ Kanalen in reizen &amp; campagnes ](../channels/gs-channels.md#channels).
 >
 >Welke kanalen beschikbaar zijn, is afhankelijk van uw licentiemodel en invoegtoepassingen.
 
@@ -69,11 +69,11 @@ Beide canvas&#39;s zijn geoptimaliseerd voor hun respectieve gebruiksgevallen: J
 
 Het geordende campagnecanvas is een voorstelling van wat er moet gebeuren. Hierin worden de verschillende taken beschreven die moeten worden uitgevoerd en hoe deze aan elkaar zijn gekoppeld.
 
-![&#x200B; beeld dat een Geordend campagnecanvas &#x200B;](assets/canvas-example.png) toont
+![ beeld dat een Geordend campagnecanvas ](assets/canvas-example.png) toont
 
 Elke geordende campagne bevat:
 
-* **Activiteiten**: Een activiteit is een uit te voeren taak. De [&#x200B; diverse activiteiten &#x200B;](activities/about-activities.md) worden vertegenwoordigd op het canvas door pictogrammen. Elke activiteit heeft specifieke eigenschappen en andere eigenschappen die voor alle activiteiten gemeenschappelijk zijn.
+* **Activiteiten**: Een activiteit is een uit te voeren taak. De [ diverse activiteiten ](activities/about-activities.md) worden vertegenwoordigd op het canvas door pictogrammen. Elke activiteit heeft specifieke eigenschappen en andere eigenschappen die voor alle activiteiten gemeenschappelijk zijn.
 
   In een geordend campagnecanvas kan een bepaalde activiteit veelvoudige taken veroorzaken, in het bijzonder wanneer er een lijn of terugkomende acties is.
 
@@ -130,4 +130,4 @@ Nu u een inzicht hebt in wat georkestreerde campagnes zijn, is het tijd om diepe
 * **[Begin en controleer campagnes](start-monitor-campaigns.md)** - leer beste praktijken voor lanceringscampagnes en controle hun uitvoering in real time.
 * **[Grafieken en beperkingen](guardrails.md)** - herzie belangrijke gidsen, beperkingen, en beste praktijken om optimale campagneprestaties te verzekeren.
 * **[Veelgestelde Vragen](orchestrated-campaigns-faq.md)** - vind antwoorden aan gemeenschappelijke vragen over Geordende campagneeigenschappen, mogelijkheden, en gebruiksgevallen.
-* **[Geordende campagnezelfstudies &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s die eigenschappen en beste praktijken behandelen.
+* **[Geordende campagnezelfstudies ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s die eigenschappen en beste praktijken behandelen.
