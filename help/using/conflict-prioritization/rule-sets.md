@@ -180,4 +180,4 @@ De status verandert in **[!UICONTROL Inactive]** en de regel geldt niet voor toe
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3444732?captions=dut&quality=12)
