@@ -29,7 +29,7 @@ ht-degree: 1%
 
 **Uitvoer van het Bericht** laat u verzonden e-mail en SMS berichtinhoud van [!DNL Journey Optimizer] naar uw eigen opslag via [!DNL Adobe Experience Platform] bestemmingen overbrengen, die u toelaten om gegevens uit [!DNL Experience Platform] in externe eindpunten te leveren. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 
-Met deze eigenschap, wordt de inhoud van e-mail en SMS berichten die via [!DNL Journey Optimizer] worden verzonden die voor de uitvoer zijn duidelijk geschreven aan de [!DNL Experience Platform] **Dataset van de Uitvoer van het Bericht van AJO**. [ leer meer over datasets ](../data/get-started-datasets.md)
+Met deze eigenschap, wordt de inhoud van e-mail en SMS berichten die via [!DNL Journey Optimizer] worden verzonden die voor de uitvoer zijn duidelijk geschreven aan de [!DNL Experience Platform] **Dataset van de Uitvoer van het Bericht van AJO**. [&#x200B; leer meer over datasets &#x200B;](../data/get-started-datasets.md)
 
 De verslagen worden dan bewaard in de dataset voor zeven kalenderdagen vanaf opneming, waarin u hen uit naar het externe systeem van uw keus kunt uitvoeren.
 
@@ -43,8 +43,8 @@ De verslagen worden dan bewaard in de dataset voor zeven kalenderdagen vanaf opn
 
 Het aan boord nemen proces voor de eigenschap van de Uitvoer van het Bericht bestaat uit twee stappen:
 
-1. [ opstelling de uitvoerdataflow ](#set-up-export-dataflow) in [!DNL Experience Platform];
-1. [ laat de Uitvoer van het Bericht ](#config-message-export) bij de kanaalconfiguratie in [!DNL Journey Optimizer] toe.
+1. [&#x200B; opstelling de uitvoerdataflow &#x200B;](#set-up-export-dataflow) in [!DNL Experience Platform];
+1. [&#x200B; laat de Uitvoer van het Bericht &#x200B;](#config-message-export) bij de kanaalconfiguratie in [!DNL Journey Optimizer] toe.
 
 >[!WARNING]
 >
@@ -58,9 +58,9 @@ Voordat u uw gegevens kunt exporteren, moet u het exportproces instellen door de
 >
 >Deze instelling moet voor elke sandbox worden geconfigureerd.
 
-1. Kies een Experience Platform [ bestemmingstype ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}. Een lijst van beschikbare bestemmingsplatforms die klaar zijn om gegevens te ontvangen is beschikbaar op [ deze pagina ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
+1. Kies een Experience Platform [&#x200B; bestemmingstype &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}. Een lijst van beschikbare bestemmingsplatforms die klaar zijn om gegevens te ontvangen is beschikbaar op [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
 
-1. In [!DNL Experience Platform], vorm uw bestemming door geloofsbrieven, emmertje/container, wegprefix, en veiligheidsopties te bepalen. [ leer hoe ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. In [!DNL Experience Platform], vorm uw bestemming door geloofsbrieven, emmertje/container, wegprefix, en veiligheidsopties te bepalen. [&#x200B; leer hoe &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. Creeer een stroom van de datasetuitvoer gebruikend de volgende gegevens:
 
@@ -72,7 +72,7 @@ Voordat u uw gegevens kunt exporteren, moet u het exportproces instellen door de
 
 Om de Uitvoer van het Bericht op uw campagnes en reizen toe te passen, moet u de specifieke optie op het niveau van de kanaalconfiguratie toelaten. Voer de onderstaande stappen uit.
 
-1. In [!DNL Journey Optimizer], geef of creeer de gewenste E-mail of van SMS [ kanaalconfiguratie ](channel-surfaces.md#create-channel-surface) uit.
+1. In [!DNL Journey Optimizer], geef of creeer de gewenste E-mail of van SMS [&#x200B; kanaalconfiguratie &#x200B;](channel-surfaces.md#create-channel-surface) uit.
 
 1. Selecteer de optie **[!UICONTROL Enable Message Export]** .
 
@@ -80,7 +80,7 @@ Om de Uitvoer van het Bericht op uw campagnes en reizen toe te passen, moet u de
 
 1. Sla uw wijzigingen op en verzend uw kanaalconfiguratie.
 
-Zodra u berichten via campagnes of reizen gebruikend deze kanaalconfiguratie hebt verzonden, worden de e-mail en de berichten van SMS geschreven aan de **Dataset van de Uitvoer van het Bericht van AJO**. U kunt [ tot de verslagen ](#access-exported-data) in de dataset dan toegang hebben en hen uitvoeren naar uw geselecteerde opslagbestemming die op de de uitvoerdataflow wordt gebaseerd die u bepaalde.
+Zodra u berichten via campagnes of reizen gebruikend deze kanaalconfiguratie hebt verzonden, worden de e-mail en de berichten van SMS geschreven aan de **Dataset van de Uitvoer van het Bericht van AJO**. U kunt [&#x200B; tot de verslagen &#x200B;](#access-exported-data) in de dataset dan toegang hebben en hen uitvoeren naar uw geselecteerde opslagbestemming die op de de uitvoerdataflow wordt gebaseerd die u bepaalde.
 
 >[!NOTE]
 >
@@ -92,7 +92,7 @@ Nadat de berichten gebruikend een kanaalconfiguratie met toegelaten de Uitvoer v
 
 De geëxporteerde berichtgegevens weergeven:
 
-1. Navigeer in [!DNL Journey Optimizer] naar **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** in de linkernavigatie. [ leer meer over datasets ](../data/get-started-datasets.md)
+1. Navigeer in [!DNL Journey Optimizer] naar **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** in de linkernavigatie. [&#x200B; leer meer over datasets &#x200B;](../data/get-started-datasets.md)
 
 1. Zorg ervoor u systeem-geproduceerde datasets toont.
 
