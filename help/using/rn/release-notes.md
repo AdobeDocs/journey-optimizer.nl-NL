@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d727acc1d01376a4abb8a0766340a2d32832305e
+source-git-commit: 8a7926be7a8e73d889cf38a047400236fd352dab
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 5%
@@ -23,19 +23,19 @@ ht-degree: 5%
 
 [!DNL Adobe Journey Optimizer] volgt een doorlopend leveringsmodel, dat Adobe in staat stelt voortdurend nieuwe functies, verbeteringen en correcties te leveren. Deze benadering maakt een schaalbare, gefaseerde implementatie van mogelijkheden mogelijk om prestaties en stabiliteit in alle omgevingen te garanderen.
 
-Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [&#x200B; de versiecyclus van Journey Optimizer &#x200B;](releases.md).
+Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [ de versiecyclus van Journey Optimizer ](releases.md).
 
-[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Opmerkingen bij de release van januari &#39;26 {#latest-rn}
 
 **de datum van de Versie**: Januari 27-28, 2026
 
-De [&#x200B; Eigenschappen &#x200B;](#jan-26-01-features) en [&#x200B; Verbeteringen &#x200B;](#jan-26-01-improv) secties behandelen reeds beschikbare mogelijkheden, terwijl [&#x200B; komende spoedig &#x200B;](#jan-26-01-coming-soon) punten die voor een recentere beschikbaarheidsdatum worden gepland.
+De [ Eigenschappen ](#jan-26-01-features) en [ Verbeteringen ](#jan-26-01-improv) secties behandelen reeds beschikbare mogelijkheden, terwijl [ komende spoedig ](#jan-26-01-coming-soon) punten die voor een recentere beschikbaarheidsdatum worden gepland.
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nieuwe functies {#jan-26-01-features}
 
@@ -48,7 +48,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>Een nieuw <strong> vermogen van de Uitvoer van het 0&rbrace; Bericht is nu beschikbaar voor e-mail en de kanalen van SMS. </strong> Met deze functie kunt u automatisch verzonden berichtinhoud exporteren naar een speciale Experience Platform-gegevensset, zodat u:</p>
+<p>Een nieuw <strong> vermogen van de Uitvoer van het 0} Bericht is nu beschikbaar voor e-mail en de kanalen van SMS. </strong> Met deze functie kunt u automatisch verzonden berichtinhoud exporteren naar een speciale Experience Platform-gegevensset, zodat u:</p>
 <ul>
 <li>Voldoen aan wettelijke nalevingsvereisten (zoals HIPAA)</li>
 <li>Berichten archiveren voor juridische claims en vragen over klantenservice</li>
@@ -155,7 +155,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **AI de Controles van de Kwaliteit van de Inhoud van de Inhoud &lbrace;** - Naast merkgroepering, kunt u algemene <strong> inhoudskwaliteit </strong> nu evalueren om potentiële kwesties met <strong> leesbaarheid </strong>, samenhang, en doeltreffendheid, onafhankelijk van uw merkrichtlijnen te ontdekken. Deze geautomatiseerde controles helpen onduidelijk overseinen, inconsistente toon, of structurele hiaten identificeren. [&#x200B; las meer &#x200B;](../content-management/brands-score.md#validate-quality). [&#x200B; ontdekt deze eigenschap in video &#x200B;](https://video.tv.adobe.com/v/3470552/?captions=dut&learn=on).
+* **AI de Controles van de Kwaliteit van de Inhoud van de Inhoud {** - Naast merkgroepering, kunt u algemene <strong> inhoudskwaliteit </strong> nu evalueren om potentiële kwesties met <strong> leesbaarheid </strong>, samenhang, en doeltreffendheid, onafhankelijk van uw merkrichtlijnen te ontdekken. Deze geautomatiseerde controles helpen onduidelijk overseinen, inconsistente toon, of structurele hiaten identificeren. [ las meer ](../content-management/brands-score.md#validate-quality). [ ontdekt deze eigenschap in video ](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Ervaar beslissingsvermogen
 
@@ -196,7 +196,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### Campagnes
 
-* **Campagne van het Programma die de Zone van de Tijd van het Profiel** gebruikt - het plannen van de Campagne kan de 2&rbrace; tijdzone van elk profiel <strong> nu gebruiken om berichten bij de voorgenomen lokale tijd te leveren. </strong> [Meer informatie](../campaigns/campaign-schedule.md)
+* **Campagne van het Programma die de Zone van de Tijd van het Profiel** gebruikt - het plannen van de Campagne kan de 2} tijdzone van elk profiel <strong> nu gebruiken om berichten bij de voorgenomen lokale tijd te leveren. </strong> [Meer informatie](../campaigns/campaign-schedule.md)
 
   **Nota**: Deze verbetering zal slechts voor een reeks organisaties (Beperkte Beschikbaarheid) beschikbaar zijn.
 
@@ -219,7 +219,7 @@ In de komende dagen zijn de volgende mogelijkheden en verbeteringen gepland voor
 <tbody>
 <tr>
 <td>
-<p>Eerder beperkt tot Campagnes, <strong> is het kanaal van 0&rbrace; Directe Post &lbrace;nu beschikbaar op het wegcanvas, toelatend u om Directe Post in uw reizen op te nemen. </strong> De directe Post kan nu in zowel <strong> partij en 1:1 reisscenario's </strong>, met steun voor de configuratie van de dossierextractie en op tijd-gebaseerde frequentiemontages worden gebruikt.</p>
+<p>Eerder beperkt tot Campagnes, <strong> is het kanaal van 0} Directe Post {nu beschikbaar op het wegcanvas, toelatend u om Directe Post in uw reizen op te nemen. </strong> De directe Post kan nu in zowel <strong> partij en 1:1 reisscenario's </strong>, met steun voor de configuratie van de dossierextractie en op tijd-gebaseerde frequentiemontages worden gebruikt.</p>
 <p>Eerder vrijgegeven in Beperkte Beschikbaarheid, zal deze capaciteit aan alle milieu's (Algemene Beschikbaarheid) beschikbaar zijn.</p>
 <p>Beschikbaarheidsdatum: 28 januari 2026</p>
 </td>
@@ -238,7 +238,7 @@ In de komende dagen zijn de volgende mogelijkheden en verbeteringen gepland voor
 <td>
 <p><strong> Stil uren </strong> laat u op tijd-gebaseerde uitsluitingen voor E-mail, SMS, Duw, en kanalen WhatsApp bepalen. Zij zorgen ervoor dat geen berichten tijdens specifieke periodes worden verzonden, die u helpen klantenvoorkeur en nalevingsvereisten respecteren. U kunt stille uren door <strong> regelreeksen </strong> toepassen, die aan individuele acties in campagnes of reizen voor nauwkeurige controle kunnen worden toegewezen.</p>
 <p>Eerder uitgebracht in Beperkte Beschikbaarheid, is deze eigenschap nu beschikbaar aan alle milieu's. Met deze algemene beschikbaarheidsrelease biedt deze functie nu de mogelijkheid voor de klant om een campagneactie in de wachtrij te plaatsen tot de voltooiing van Quiet Hours en de mogelijkheid om een voorvertoning van de geactiveerde Quiet Hours-regel weer te geven.</p>
-<p>Beschikbaarheidsdatum: 28 januari 2026</p>
+<p>Beschikbaarheidsdatum: 29 januari 2026</p>
 </td>
 </tr>
 </tbody>
@@ -260,7 +260,7 @@ In de komende dagen zijn de volgende mogelijkheden en verbeteringen gepland voor
 <li>Ondersteuning voor terugdraaien van voltooide migraties</li>
 <li>Gedetailleerde migratierapporten met objecttoewijzingen</li>
 </ul>
-<p>Beschikbaarheidsdatum: 28 januari 2026</p>
+<p>Beschikbaarheidsdatum: 29 januari 2026</p>
 </td>
 </tr>
 </tbody>
@@ -277,7 +277,7 @@ In de komende dagen zijn de volgende mogelijkheden en verbeteringen gepland voor
 <td>
 <p>Versterken dieper insight in de gezondheid en de prestaties van uw <strong> eindpunten van de douaneactie </strong> met een nieuw controledashboard en verrijkte gegevens van de de de gebeurtenisgebeurtenis van de reisstap. Spoor succesvolle vraag, fouten, productie, reactietijden, en rij wacht tijden om snel te begrijpen wanneer, waar, en waarom anomalieën voorkomen.</p>
 <p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
-<p>Beschikbaarheidsdatum: 28 januari 2026</p>
+<p>Beschikbaarheidsdatum: 29 januari 2026</p>
 </td>
 </tr>
 </tbody>
