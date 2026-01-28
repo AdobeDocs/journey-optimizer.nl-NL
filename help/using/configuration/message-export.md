@@ -27,7 +27,7 @@ ht-degree: 1%
 >
 >Deze mogelijkheid is alleen beschikbaar voor het e-mail- en sms-kanaal, voor organisaties die de add-on service Message Export hebben aangeschaft. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-**Uitvoer van het Bericht** laat u verzonden e-mail en SMS berichtinhoud van [!DNL Journey Optimizer] naar uw eigen opslag via [!DNL Adobe Experience Platform] bestemmingen overbrengen, die u toelaten om gegevens uit [!DNL Experience Platform] in externe eindpunten te leveren. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
+**Uitvoer van het Bericht** laat u verzonden e-mail en SMS berichtinhoud van [!DNL Journey Optimizer] naar uw eigen opslag via [!DNL Adobe Experience Platform] bestemmingen overbrengen, die u toelaten om gegevens uit [!DNL Experience Platform] in externe eindpunten te leveren. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/home){target="_blank"}
 
 Met deze eigenschap, wordt de inhoud van e-mail en SMS berichten die via [!DNL Journey Optimizer] worden verzonden die voor de uitvoer zijn duidelijk geschreven aan de [!DNL Experience Platform] **Dataset van de Uitvoer van het Bericht van AJO**. [&#x200B; leer meer over datasets &#x200B;](../data/get-started-datasets.md)
 
@@ -58,9 +58,9 @@ Voordat u uw gegevens kunt exporteren, moet u het exportproces instellen door de
 >
 >Deze instelling moet voor elke sandbox worden geconfigureerd.
 
-1. Kies een Experience Platform [&#x200B; bestemmingstype &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}. Een lijst van beschikbare bestemmingsplatforms die klaar zijn om gegevens te ontvangen is beschikbaar op [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
+1. Kies een Experience Platform [&#x200B; bestemmingstype &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/destination-types){target="_blank"}. Een lijst van beschikbare bestemmingsplatforms die klaar zijn om gegevens te ontvangen is beschikbaar op [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
 
-1. In [!DNL Experience Platform], vorm uw bestemming door geloofsbrieven, emmertje/container, wegprefix, en veiligheidsopties te bepalen. [&#x200B; leer hoe &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. In [!DNL Experience Platform], vorm uw bestemming door geloofsbrieven, emmertje/container, wegprefix, en veiligheidsopties te bepalen. [&#x200B; leer hoe &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. Creeer een stroom van de datasetuitvoer gebruikend de volgende gegevens:
 
