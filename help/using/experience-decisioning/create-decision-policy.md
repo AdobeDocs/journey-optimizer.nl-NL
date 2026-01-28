@@ -30,7 +30,7 @@ ht-degree: 0%
 >id="ajo_code_based_strategy"
 >title="Wat is een strategie?"
 >abstract="De volgorde van de selectiestrategie bepaalt welke strategie eerst wordt geëvalueerd. Er is ten minste één strategie nodig. Beslissingsonderdelen in gecombineerde strategieën worden samen geëvalueerd."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Strategieën maken"
+>additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Strategieën maken"
 
 Om de beste dynamische aanbieding en ervaring aan uw klanten voor te stellen, voeg een besluitvormingsbeleid aan uw inhoud in een campagne of reis dan vormen de punten om terug te keren en de selectiestrategie aan gebruik. Hiervoor voert u de volgende stappen uit:
 
