@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: 5b586627473bd4e7618c235cbea1b286167859ab
 workflow-type: tm+mt
-source-wordcount: '3070'
+source-wordcount: '3073'
 ht-degree: 15%
 
 ---
@@ -843,13 +843,14 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
    + [Kanaalconfiguratie](/help/rp_landing_pages/configuration-landing-page.md)
    + [Aan de slag met kanaalconfiguratie](using/configuration/get-started-configuration.md)
    + [Kanaalconfiguraties instellen](using/configuration/channel-surfaces.md)
+   + [Inhoud van berichten exporteren](using/configuration/message-export.md)
    + Kanaalinstellingen met instructies {#guided-setup}
       + [Kanaalinstellingen met instructies](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [Aan de slag met de instelling van het kanaal met instructies](using/configuration/set-mobile-config.md)

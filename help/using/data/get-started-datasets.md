@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
+source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 0%
+source-wordcount: '889'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Alle gegevens die in Adobe Experience Platform worden opgenomen, blijven in het 
 
 ## Afbeeldingen en beperkingen
 
-* Vanaf 1 november 2024 ondersteunt streaming segmentatie niet langer het verzenden en openen van gebeurtenissen vanuit [!DNL Journey Optimizer] reeksgegevens voor bijhouden en feedback. Voor het uitvoeren van het Afbakenen van de Frequentie of het Beheer van de Moeheid, gelieve BedrijfsRegels in plaats daarvan te gebruiken. U kunt meer details in [&#x200B; deze sectie &#x200B;](../conflict-prioritization/rule-sets.md) vinden, met inbegrip van een verklaring van het gebruiksgeval voor dagelijks het in kaart brengen [&#x200B; hier &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=nl){target="_blank"}.
+* Vanaf 1 november 2024 ondersteunt streaming segmentatie niet langer het verzenden en openen van gebeurtenissen vanuit [!DNL Journey Optimizer] reeksgegevens voor bijhouden en feedback. Voor het uitvoeren van het Afbakenen van de Frequentie of het Beheer van de Moeheid, gelieve BedrijfsRegels in plaats daarvan te gebruiken. U kunt meer details in [ deze sectie ](../conflict-prioritization/rule-sets.md) vinden, met inbegrip van een verklaring van het gebruiksgeval voor dagelijks het in kaart brengen [ hier ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
 
 * Vanaf februari 2025 wordt een time-to-live (TTL)-guardrail geïmplementeerd in door het systeem gegenereerde gegevenssets van Journey Optimizer. [Meer informatie](datasets-ttl.md)
 
@@ -44,7 +44,7 @@ Om een dataset van de voorproef, uitgezochte **dataset van de Voorproef** dichtb
 
 ## [!DNL Journey Optimizer] systeemgegevenssets {#system-datasets}
 
-In deze secties worden de systeemgegevenssets weergegeven die door [!DNL Journey Optimizer] worden gebruikt. Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [&#x200B; het schemawoordenboek van Journey Optimizer &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL){target="_blank"}.
+In deze secties worden de systeemgegevenssets weergegeven die door [!DNL Journey Optimizer] worden gebruikt. Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -63,6 +63,10 @@ In deze secties worden de systeemgegevenssets weergegeven die door [!DNL Journey
 
   _de Dataset van de Dienst van de Goedkeuring_: slaat toestemmingsinformatie van een profiel op.
 
+* Bericht exporteren
+
+  _Dataset van de Uitvoer van het Bericht van AJO_: slaat de inhoud van verzonden e-mail en SMS berichten voor de uitvoerdoeleinden op. Records worden gedurende 7 kalenderdagen na inname bewaard. Beschikbaar slechts voor organisaties die de toe:voegen van de Uitvoer van het Bericht hebben gekocht. [Meer informatie](../configuration/message-export.md)
+
 * Intelligente services
 
   _Send-Time de Scores van de Optimalisering / de Scores van de Betrokkenheid_: De scores van de Output van Reis AI.
@@ -74,8 +78,8 @@ Het toevoegen van gegevens aan [!DNL Adobe Experience Platform] is de basis voor
 
 U kunt een dataset van schema of een Csv- dossier tot stand brengen. Gedetailleerde informatie over het maken van gegevenssets is beschikbaar in [!DNL Adobe Experience Platform] documentatie:
 
-* [&#x200B; creeer een dataset met een bestaand schema &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
-* [&#x200B; Kaart een Csv- dossier aan een bestaand schema XDM &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
+* [ creeer een dataset met een bestaand schema ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
+* [ Kaart een Csv- dossier aan een bestaand schema XDM ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
 Bekijk deze video om te leren hoe te om een dataset tot stand te brengen, het in kaart te brengen aan een schema, gegevens aan het toe te voegen, en te bevestigen dat de gegevens zijn opgenomen.
 
@@ -83,22 +87,22 @@ Bekijk deze video om te leren hoe te om een dataset tot stand te brengen, het in
 
 ## Datagovernance
 
-In een dataset, doorblader het **lusje van het Beleid van 0&rbrace; Gegevens &lbrace;om etiketten op de dataset en het gebiedsniveau te controleren.** Gegevensbeheer categoriseert gegevens op basis van het soort beleid dat van toepassing is.
+In een dataset, doorblader het **lusje van het Beleid van 0} Gegevens {om etiketten op de dataset en het gebiedsniveau te controleren.** Gegevensbeheer categoriseert gegevens op basis van het soort beleid dat van toepassing is.
 
 Een van de kernmogelijkheden van [!DNL Adobe Experience Platform] is om gegevens van meerdere bedrijfssystemen samen te brengen, zodat marketers hun klanten beter kunnen identificeren, begrijpen en betrekken. Deze gegevens zijn mogelijk onderworpen aan gebruiksbeperkingen die zijn gedefinieerd door uw organisatie of wettelijke voorschriften. Daarom is het belangrijk om ervoor te zorgen dat uw gegevensbewerkingen in overeenstemming zijn met het beleid voor gegevensgebruik.
 
 Met [!DNL Adobe Experience Platform Data Governance] kunt u klantgegevens beheren en ervoor zorgen dat de regels, beperkingen en beleidsregels die van toepassing zijn op het gebruik van gegevens worden nageleefd. Het speelt binnen Experience Platform een sleutelrol op verschillende niveaus, zoals catalogisering, gegevenskoppeling, etikettering van het gegevensgebruik, het beleid voor gegevensgebruik en het controleren van het gebruik van gegevens voor marketingacties.
 
-Leer meer over de etiketten van het gegevensbeheer en van het gegevensgebruik in de [&#x200B; documentatie van het Beleid van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=nl-NL){target="_blank"}
+Leer meer over de etiketten van het gegevensbeheer en van het gegevensgebruik in de [ documentatie van het Beleid van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html){target="_blank"}
 
 ## Steekproef- en gebruiksscenario&#39;s {#samples}
 
-* [&#x200B; Leerprogramma - Samenvatting gegevens in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=nl-NL){target="_blank"}
-* [&#x200B; het gebruikscase van begin tot eind &#x200B;](../audience/creating-test-profiles.md) - creeer een schema, een dataset en neemt gegevens op om de profielen van de Test in [!DNL Adobe Journey Optimizer] toe te voegen
-* [&#x200B; de voorbeelden van de Vraag &#x200B;](../data/datasets-query-examples.md) - [!DNL Adobe Journey Optimizer] datasets en verwante gebruiksgevallen.
+* [ Leerprogramma - Samenvatting gegevens in Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target="_blank"}
+* [ het gebruikscase van begin tot eind ](../audience/creating-test-profiles.md) - creeer een schema, een dataset en neemt gegevens op om de profielen van de Test in [!DNL Adobe Journey Optimizer] toe te voegen
+* [ de voorbeelden van de Vraag ](../data/datasets-query-examples.md) - [!DNL Adobe Journey Optimizer] datasets en verwante gebruiksgevallen.
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; documentatie van Datasets &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=nl-NL){target="_blank"}
->* [&#x200B; de documentatie van de Ingestie van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=nl-NL){target="_blank"}.
->* [&#x200B; De beste praktijken van de het beheersvergunning van Gegevens best &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
+>* [ documentatie van Datasets ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}
+>* [ de documentatie van de Ingestie van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target="_blank"}.
+>* [ De beste praktijken van de het beheersvergunning van Gegevens best ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
