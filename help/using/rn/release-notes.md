@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c301785d95b9701830fde7f9812ef7dff9ba1a60
+source-git-commit: 50dbebcd16631f5df624c962af1a84da0846f53d
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1849'
 ht-degree: 5%
 
 ---
@@ -23,19 +23,19 @@ ht-degree: 5%
 
 [!DNL Adobe Journey Optimizer] volgt een doorlopend leveringsmodel, dat Adobe in staat stelt voortdurend nieuwe functies, verbeteringen en correcties te leveren. Deze benadering maakt een schaalbare, gefaseerde implementatie van mogelijkheden mogelijk om prestaties en stabiliteit in alle omgevingen te garanderen.
 
-Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [&#x200B; de versiecyclus van Journey Optimizer &#x200B;](releases.md).
+Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [ de versiecyclus van Journey Optimizer ](releases.md).
 
-[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Opmerkingen bij de release van januari &#39;26 {#latest-rn}
 
-**de datum van de Versie**: Januari 27-28, 2026
+<!--**Release date**: January 27-28, 2026-->
 
-De [&#x200B; Eigenschappen &#x200B;](#jan-26-01-features) en [&#x200B; Verbeteringen &#x200B;](#jan-26-01-improv) secties behandelen reeds beschikbare mogelijkheden, terwijl [&#x200B; komende spoedig &#x200B;](#jan-26-01-coming-soon) punten die voor een recentere beschikbaarheidsdatum worden gepland.
+De [ Eigenschappen ](#jan-26-01-features) en [ Verbeteringen ](#jan-26-01-improv) secties behandelen reeds beschikbare mogelijkheden, terwijl [ komende spoedig ](#jan-26-01-coming-soon) punten die voor een recentere beschikbaarheidsdatum worden gepland.
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nieuwe functies {#jan-26-01-features}
 
@@ -48,7 +48,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>Een nieuw <strong> vermogen van de Uitvoer van het 0&rbrace; Bericht is nu beschikbaar voor e-mail en de kanalen van SMS. </strong> Met deze functie kunt u automatisch verzonden berichtinhoud exporteren naar een speciale Experience Platform-gegevensset, zodat u:</p>
+<p>Een nieuw <strong> vermogen van de Uitvoer van het 0} Bericht is nu beschikbaar voor e-mail en de kanalen van SMS. </strong> Met deze functie kunt u automatisch verzonden berichtinhoud exporteren naar een speciale Experience Platform-gegevensset, zodat u:</p>
 <ul>
 <li>Voldoen aan wettelijke nalevingsvereisten (zoals HIPAA)</li>
 <li>Berichten archiveren voor juridische claims en vragen over klantenservice</li>
@@ -58,6 +58,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>Deze mogelijkheid is alleen beschikbaar voor het e-mail- en sms-kanaal, voor organisaties die de add-on service Message Export hebben aangeschaft. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.</p>
 <p><img src="assets/do-not-localize/message-export.gif"/></p>
 <p>Raadpleeg de <a href="../configuration/message-export.md#message-export">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 28 januari 2026</p>
 </td>
 </tr>
 </tbody>
@@ -76,6 +77,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
 <p>Eerder in Beta is deze mogelijkheid nu beschikbaar voor alle omgevingen (algemene beschikbaarheid).</p>
 <p>Raadpleeg de <a href="../push/push-configuration-web.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 28 januari 2026</p>
 </td>
 </tr>
 </tbody>
@@ -93,6 +95,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>Direct mail kanaal is nu beschikbaar in georkestreerde campagnes. De <strong> Directe postactiviteit </strong> vergemakkelijkt direct mail die binnen uw Geordende campagne, voor zowel eenmalige als terugkomende berichten verzendt. Het dient om het proces te automatiseren om het <strong> extractiedossier </strong> te produceren dat door directe postleveranciers wordt vereist. U kunt kanaalactiviteiten in het Geordende campagnecanvas combineren om kanaalcampagnes tot stand te brengen die acties kunnen teweegbrengen die op klantengedrag en gegevens worden gebaseerd.</p>
 <p><img src="assets/do-not-localize/dm-oc.gif"/></p>
 <p>Raadpleeg de <a href="../orchestrated/activities/channels.md#channel">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 28 januari 2026</p>
 </td>
 </tr>
 </tbody>
@@ -155,7 +158,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **AI de Controles van de Kwaliteit van de Inhoud van de Inhoud &lbrace;** - Naast merkgroepering, kunt u algemene <strong> inhoudskwaliteit </strong> nu evalueren om potentiële kwesties met <strong> leesbaarheid </strong>, samenhang, en doeltreffendheid, onafhankelijk van uw merkrichtlijnen te ontdekken. Deze geautomatiseerde controles helpen onduidelijk overseinen, inconsistente toon, of structurele hiaten identificeren. [&#x200B; las meer &#x200B;](../content-management/brands-score.md#validate-quality). [&#x200B; ontdekt deze eigenschap in video &#x200B;](https://video.tv.adobe.com/v/3470552/?captions=dut&learn=on).
+* **AI de Controles van de Kwaliteit van de Inhoud van de Inhoud {** - Naast merkgroepering, kunt u algemene <strong> inhoudskwaliteit </strong> nu evalueren om potentiële kwesties met <strong> leesbaarheid </strong>, samenhang, en doeltreffendheid, onafhankelijk van uw merkrichtlijnen te ontdekken. Deze geautomatiseerde controles helpen onduidelijk overseinen, inconsistente toon, of structurele hiaten identificeren. [ las meer ](../content-management/brands-score.md#validate-quality). [ ontdekt deze eigenschap in video ](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Ervaar beslissingsvermogen
 
@@ -163,9 +166,16 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **combineer inheemse en het berichtacties van Adobe Campaign** - Journey Optimizer laat u nu <strong> Adobe Campaign v7/v8 </strong> berichtacties met <strong> inheemse kanaalacties </strong> in de zelfde reis combineren. [Meer informatie](../building-journeys/using-adobe-campaign-v7-v8.md)
 
+  Beschikbaarheidsdatum: 27 januari 2026.
+
 * **de antwoordlading van de actiefout van de Actie van de Douane** - u kunt een facultatieve <strong> nuttige lading van de foutenreactie </strong> voor douaneacties nu bepalen. Wanneer een vraag ontbreekt, wordt de foutenlading blootgesteld in de reiscontext (onder de knoop van errorResponse van de actie) en is beschikbaar in de <strong> onderbreking/foutentak </strong>, naast `jo_status_code`, om rijkere fallback logica en het zuiveren te steunen. [Meer informatie](../action/action-response.md)
 
+  Beschikbaarheidsdatum: 27 januari 2026.
+
 * **de bevestiging van de grootte van de ladingsgrootte van de Reis in reizen** - Journey Optimizer bevestigt nu <strong> ladingsgrootte </strong> helpen optimale prestaties en systeemstabiliteit verzekeren. Wanneer het bouwen van of het publiceren van reizen, ontvangt u duidelijke <strong> waarschuwingen en fouten </strong> als de grootte van de nuttige lading de geadviseerde grenzen, samen met actioneerbare begeleiding benadert om uw reisconfiguratie te optimaliseren. Deze proactieve validatie helpt u potentiële problemen vroegtijdig te identificeren en de reisprestaties te handhaven. [Meer informatie](../start/guardrails.md#journey-payload-size)
+
+  Beschikbaarheidsdatum: 27 januari 2026.
+
 
 * **het alarm van de Reis** - Nieuw <strong> pre-gevormde alarm </strong> is beschikbaar voor reizen.
    * <strong> Profiel verwerpt Tarief dat </strong> wordt overschreden - Verhouding van profielteruggooi naar ingegaan profielen over de laatste 5 minuten overschrijdt drempel
@@ -194,15 +204,21 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **gebruiker-geproduceerde meta-gegevenssteun** - de <strong> executeMetadata helperfunctie </strong> is nu beschikbaar in de verpersoonlijkingsredacteur voor Geordende campagnes, toelatend u om contextafhankelijke informatie aan om het even welke inheemse actie vast te maken en het op te slaan in een dataset voor de uitvoer naar externe systemen. [Meer informatie](../personalization/functions/helpers.md#execution-metadata)
 
+  Beschikbaarheidsdatum: 27 januari 2026.
+
 #### Campagnes
 
-* **Campagne van het Programma die de Zone van de Tijd van het Profiel** gebruikt - het plannen van de Campagne kan de 2&rbrace; tijdzone van elk profiel <strong> nu gebruiken om berichten bij de voorgenomen lokale tijd te leveren. </strong> [Meer informatie](../campaigns/campaign-schedule.md)
+* **Campagne van het Programma die de Zone van de Tijd van het Profiel** gebruikt - het plannen van de Campagne kan de 2} tijdzone van elk profiel <strong> nu gebruiken om berichten bij de voorgenomen lokale tijd te leveren. </strong> [Meer informatie](../campaigns/campaign-schedule.md)
 
-  **Nota**: Deze verbetering zal slechts voor een reeks organisaties (Beperkte Beschikbaarheid) beschikbaar zijn.
+  **Nota**: Deze verbetering is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid).
+
+  Beschikbaarheidsdatum: 27 januari 2026.
 
 #### Machtigingen
 
 * **verhindert zelfgoedkeuring voor reizen en campagnes** - voegde een optie toe wanneer het creëren van of het plaatsen van <strong> Beleid van de Goedkeuring </strong> om reis of campagnescheppers te verhinderen van <strong> goedkeurend hun eigen voorwerpen </strong>. [Meer informatie](../test-approve/approval-policies.md)
+
+  Beschikbaarheidsdatum: 27 januari 2026.
 
 ## Binnenkort beschikbaar {#jan-26-01-coming-soon}
 
@@ -219,8 +235,8 @@ In de komende dagen zijn de volgende mogelijkheden en verbeteringen gepland voor
 <tbody>
 <tr>
 <td>
-<p>Eerder beperkt tot Campagnes, <strong> is het kanaal van 0&rbrace; Directe Post &lbrace;nu beschikbaar op het wegcanvas, toelatend u om Directe Post in uw reizen op te nemen. </strong> De directe Post kan nu in zowel <strong> partij en 1:1 reisscenario's </strong>, met steun voor de configuratie van de dossierextractie en op tijd-gebaseerde frequentiemontages worden gebruikt.</p>
-<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, zal deze capaciteit aan alle milieu's (Algemene Beschikbaarheid) beschikbaar zijn.</p>
+<p>Eerder beperkt tot Campagnes, <strong> is het kanaal van 0} Directe Post {nu beschikbaar op het wegcanvas, toelatend u om Directe Post in uw reizen op te nemen. </strong> De directe Post kan nu in zowel <strong> partij en 1:1 reisscenario's </strong>, met steun voor de configuratie van de dossierextractie en op tijd-gebaseerde frequentiemontages worden gebruikt.</p>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
 <p>Beschikbaarheidsdatum: 28 januari 2026</p>
 </td>
 </tr>
@@ -336,7 +352,7 @@ In de komende dagen zijn de volgende mogelijkheden en verbeteringen gepland voor
 
 * **Webhooks van SMS** - <strong> Webhooks </strong> worden nu gesteund over alle leveranciers van SMS. U kunt elke WebHaak vormen die op zijn voorgenomen doel, binnenkomende webhooks wordt gebaseerd om inkomende berichten en terugkoppelen webhooks te vangen om leveringsontvangstbewijzen, statusupdates, en andere bericht-gerelateerde gebeurtenissen te ontvangen.
 
-  Beschikbaarheidsdatum: 29 januari 2026.
+  Beschikbaarheidsdatum: 30 januari 2026.
 
 * **maak fragmenten** vast - Journey Optimizer verstrekt nu de capaciteit om <strong> fragmenten </strong> aan <strong> besluitvormingspunten </strong> vast te maken die in code-gebaseerde ervaringscampagnes door besluitvormingsbeleid kunnen worden leveraged.
 
