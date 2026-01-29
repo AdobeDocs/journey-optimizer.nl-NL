@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
-source-wordcount: '2747'
-ht-degree: 0%
+source-wordcount: '3337'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ Zorg ervoor dat de gebieden die in uw vragen worden gebruikt waarden in het over
 
 >[!NOTE]
 >
->Voor het oplossen van problemendoeleinden, adviseren wij gebruikend tripVersionID in plaats van tripVersionName wanneer het vragen van reizen. Leer meer over de attributen van de reiseigenschappen [&#x200B; in deze sectie &#x200B;](../building-journeys/expression/journey-properties.md#journey-properties-fields).
+>Voor het oplossen van problemendoeleinden, adviseren wij gebruikend tripVersionID in plaats van tripVersionName wanneer het vragen van reizen. Leer meer over de attributen van de reiseigenschappen [ in deze sectie ](../building-journeys/expression/journey-properties.md#journey-properties-fields).
 
 +++
 
@@ -51,7 +51,7 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
@@ -369,27 +369,25 @@ WHERE _experience.journeyOrchestration.serviceType is not null;
 
 Met deze query kunt u elke fout die tijdens reizen is aangetroffen, weergeven tijdens het uitvoeren van een bericht/handeling.
 
-_de vraag van het meer van Gegevens_
-
 ```sql
-SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
-WHERE _experience.journeyOrchestration.stepEvents.nodeName=<'message-name'>
+SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) AS ERROR_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.nodeName = '<message-name>'
 AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>'
 GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
+ORDER BY ERROR_COUNT DESC;
 ```
 
-_Voorbeeld_
+_de output van de Steekproef_
 
-```sql
-SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
-WHERE _experience.journeyOrchestration.stepEvents.nodeName='Message - 100KB Email with Gateway and Kafkav2'
-AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
-AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f83-9cf5-cfec0fca3d26'
-GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
-```
+| actionExecutionError | ERROR_COUNT |
+|---|---|
+| TimedOut | 145 |
+| ErrorConnecting | 87 |
+| InvalidResponse | 23 |
 
-Deze vraag keert alle verschillende fouten terug die terwijl het uitvoeren van een actie in een reis samen met de telling van hoe vaak het voorkwam.
+Deze vraag keert alle verschillende fouten terug die terwijl het uitvoeren van een actie in een reis samen met de telling van hoe vaak elke fout voorkwam, die door frequentie wordt bevolen.
 
 +++
 
@@ -399,25 +397,20 @@ Deze vraag keert alle verschillende fouten terug die terwijl het uitvoeren van e
 
 Deze vraag controleert of een specifiek profiel een reis inging door de gebeurtenissen te tellen verbonden aan die profiel en reiscombinatie.
 
-_de vraag van het meer van Gegevens_
-
 ```sql
-SELECT count(distinct _id) FROM journey_step_events
-where
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
+SELECT count(distinct _id) AS EVENT_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>';
 ```
 
-_Voorbeeld_
+_de output van de Steekproef_
 
-```sql
-SELECT count(distinct _id) FROM journey_step_events
-where
-_experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d7a-a765-b2cad659fa4e' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
-```
+| EVENT_COUNT |
+|---|
+| 3 |
 
-Het resultaat moet groter zijn dan 0. Deze vraag keert het nauwkeurige aantal tijden terug een profiel een reis is ingegaan.
+Deze vraag keert het nauwkeurige aantal tijden terug een profiel een reis is ingegaan. Een resultaat groter dan 0 bevestigt dat het profiel de reis inging.
 
 +++
 
@@ -425,51 +418,41 @@ Het resultaat moet groter zijn dan 0. Deze vraag keert het nauwkeurige aantal ti
 
 Methode 1: als de naam van uw bericht niet uniek is in de reis (het wordt gebruikt op veelvoudige plaatsen).
 
-_de vraag van het meer van Gegevens_
-
 ```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeID='<NodeId in the UI corresponding to the message>' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
+SELECT count(distinct _id) AS MESSAGE_SENT_COUNT 
+FROM journey_step_events 
+WHERE _experience.journeyOrchestration.stepEvents.nodeID = '<NodeId in the UI corresponding to the message>' 
+AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL 
+AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>';
 ```
 
-_Voorbeeld_
+_de output van de Steekproef_
 
-```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeID='17ae65a1-02dd-439d-b54e-b56a78520eba' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f83-9cf5-cfec0fca3d26' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
-```
+| MESSAGE_SENT_COUNT |
+|---|
+| 1 |
 
-Het resultaat moet groter zijn dan 0. Deze vraag vertelt ons slechts of de berichtactie met succes op de reiskant werd uitgevoerd.
+Een resultaat groter dan 0 bevestigt dat de berichtactie met succes werd uitgevoerd. Deze vraag vertelt ons slechts of de berichtactie met succes op de reiskant werd uitgevoerd.
 
 Methode 2: als de naam van uw bericht uniek is in de reis.
 
-_de vraag van het meer van Gegevens_
-
 ```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeName='<NodeName in the UI corresponding to the message>' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
+SELECT count(distinct _id) AS MESSAGE_SENT_COUNT 
+FROM journey_step_events 
+WHERE _experience.journeyOrchestration.stepEvents.nodeName = '<NodeName in the UI corresponding to the message>' 
+AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL 
+AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>';
 ```
 
-_Voorbeeld_
+_de output van de Steekproef_
 
-```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeID='Message- 100KB Email' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f83-9cf5-cfec0fca3d26' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
-```
+| MESSAGE_SENT_COUNT |
+|---|
+| 1 |
 
-De vraag keert de lijst van alle berichten samen met hun telling terug die voor het geselecteerde profiel wordt aangehaald.
+De query retourneert het aantal keren dat het bericht is aangeroepen voor het geselecteerde profiel.
 
 +++
 
@@ -477,27 +460,26 @@ De vraag keert de lijst van alle berichten samen met hun telling terug die voor 
 
 Met deze query worden alle berichthandelingen voor een specifiek profiel in de afgelopen 30 dagen opgehaald, gegroepeerd op berichtnaam.
 
-_de vraag van het meer van Gegevens_
-
 ```sql
-SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.nodeType = 'action' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' AND
-timestamp > (now() - interval '30' day)
+SELECT _experience.journeyOrchestration.stepEvents.nodeName AS MESSAGE_NAME, 
+       count(distinct _id) AS MESSAGE_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL 
+AND _experience.journeyOrchestration.stepEvents.nodeType = 'action' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' 
+AND timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
+ORDER BY MESSAGE_COUNT DESC;
 ```
 
-_Voorbeeld_
+_de output van de Steekproef_
 
-```sql
-SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.nodeType = 'action' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com' AND
-timestamp > (now() - interval '30' day)
-GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
-```
+| MESSAGE_NAME | MESSAGE_COUNT |
+|---|---|
+| Welkom-e-mail | 1 |
+| Productaanbeveling | 3 |
+| Herinnering voor afhandeling van winkelwagentje | 2 |
+| Wekelijkse nieuwsbrief | 4 |
 
 De vraag keert de lijst van alle berichten samen met hun telling terug die voor het geselecteerde profiel wordt aangehaald.
 
@@ -507,27 +489,26 @@ De vraag keert de lijst van alle berichten samen met hun telling terug die voor 
 
 Deze vraag keert alle reizen terug die een specifiek profiel binnen de laatste 30 dagen, samen met de ingangstelling voor elke reis is ingegaan.
 
-_de vraag van het meer van Gegevens_
-
 ```sql
-SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' AND
-timestamp > (now() - interval '30' day)
+SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName AS JOURNEY_NAME, 
+       count(distinct _id) AS ENTRY_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.nodeType = 'start' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' 
+AND timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
+ORDER BY ENTRY_COUNT DESC;
 ```
 
-_Voorbeeld_
+_de output van de Steekproef_
 
-```sql
-SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com' AND
-timestamp > (now() - interval '30' day)
-GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
-```
+| JOURNEY_NAME | ENTRY_COUNT |
+|---|---|
+| Welkomstreis v2 | 1 |
+| Aanbevelingen voor producten | 5 |
+| Campagne voor opnieuw engagement | 2 |
 
-De vraag keert de lijst van alle reisnamen samen met het aantal tijden terug het gevraagde profiel de reis inging.
+De vraag keert de lijst van alle reisnamen samen met het aantal tijden terug het gevraagde profiel ingegaan elke reis.
 
 +++
 
@@ -535,29 +516,29 @@ De vraag keert de lijst van alle reisnamen samen met het aantal tijden terug het
 
 Deze vraag verstrekt een dagelijkse uitsplitsing van het aantal verschillende profielen die een reis over een gespecificeerde tijdspanne inging.
 
-_de vraag van het meer van Gegevens_
-
 ```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
+SELECT DATE(timestamp) AS ENTRY_DATE, 
+       count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS PROFILES_COUNT 
+FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '<last x days>' day)
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>'
 GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
+ORDER BY DATE(timestamp) DESC;
 ```
 
-_Voorbeeld_
+_de output van de Steekproef_
 
-```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
-WHERE DATE(timestamp) > (now() - interval '100' day)
-AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1'
-GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
-```
+| ENTRY_DATE | PROFILES_COUNT |
+|---|---|
+| 25-11-2024 | 1.245 |
+| 24-11-2024 | 1.189 |
+| 23-11-2024 | 15.340 |
+| 22-11-2024 | 1.205 |
+| 21-11-2024 | 1.167 |
 
-De vraag keert, voor de bepaalde periode, het aantal profielen terug dat de reis elke dag inging. Als een profiel wordt ingevoerd via meerdere identiteiten, wordt het twee keer geteld. Als de terugkeer wordt toegelaten, zou het profielaantal over verschillende dagen kunnen worden gedupliceerd als het de reis op verschillende dag opnieuw inging.
+De vraag keert, voor de bepaalde periode, het aantal profielen terug dat de reis elke dag inging. Als een profiel wordt ingevoerd via meerdere identiteiten, wordt het twee keer geteld. Als de terugkeer wordt toegelaten, zou het profielaantal over verschillende dagen kunnen worden gedupliceerd als het de reis op een verschillende dag opnieuw inging.
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 
 +++
@@ -568,8 +549,6 @@ Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](.
 
 Deze vraag berekent de duur van een publiek de uitvoerbaan door het tijdverschil tussen te vinden wanneer de baan een rij werd gevormd en wanneer het eindigde.
 
-_de vraag van het meer van Gegevens_
-
 ```sql
 select DATEDIFF (minute,
               (select timestamp
@@ -579,20 +558,6 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'queued
               (select timestamp
                 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
-```
-
-_Voorbeeld_
-
-```sql
-select DATEDIFF (minute,
-              (select timestamp
-                where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'queued') ,
-              (select timestamp
-                where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
@@ -604,21 +569,10 @@ De vraag keert het tijdverschil, in notulen, tussen terug wanneer de publiek uit
 
 Deze vraag telt het aantal verschillende profielen die wegens instantie duplicatiefouten tijdens de Gelezen activiteit van het Publiek werden verworpen.
 
-_de vraag van het meer van Gegevens_
-
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_DUPLICATION'
-```
-
-_Voorbeeld_
-
-```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_DUPLICATION'
 ```
 
@@ -630,21 +584,10 @@ De vraag keert alle profielID terug die door de reis werden verworpen omdat zij 
 
 Deze query retourneert het aantal profielen dat is verwijderd omdat deze een ongeldige naamruimte of een ontbrekende identiteit voor de vereiste naamruimte hadden.
 
-_de vraag van het meer van Gegevens_
-
 ```sql
 SELECT count(*) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_BAD_NAMESPACE'
-```
-
-_Voorbeeld_
-
-```sql
-SELECT count(*) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_BAD_NAMESPACE'
 ```
 
@@ -656,21 +599,10 @@ De query retourneert alle profiel-id&#39;s die door de rit zijn verwijderd omdat
 
 Deze vraag telt de profielen die werden verworpen omdat zij een identiteitskaart ontbraken die voor reisuitvoering wordt vereist.
 
-_de vraag van het meer van Gegevens_
-
 ```sql
 SELECT count(*) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NO_IDENTITY_MAP'
-```
-
-_Voorbeeld_
-
-```sql
-SELECT count(*) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NO_IDENTITY_MAP'
 ```
 
@@ -682,21 +614,10 @@ De vraag keert alle profielID terug die door de reis werden verworpen omdat de i
 
 Deze vraag identificeert profielen die werden verworpen toen de reis op testwijze liep maar het profiel had niet de testProfile attributen die aan waar werd geplaatst.
 
-_de vraag van het meer van Gegevens_
-
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
-```
-
-_Voorbeeld_
-
-```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
 ```
 
@@ -708,21 +629,10 @@ De vraag keert alle profielID terug die door de reis werden verworpen omdat de u
 
 Deze vraag keert de telling van profielen terug die wegens interne systeemfouten tijdens reisuitvoering werden verworpen.
 
-_de vraag van het meer van Gegevens_
-
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_INTERNAL'
-```
-
-_Voorbeeld_
-
-```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_INTERNAL'
 ```
 
@@ -1033,8 +943,6 @@ Deze query retourneert alle gebeurtenissen (externe gebeurtenissen/kwalificatieg
 
 Deze vraag telt het aantal tijden een bedrijfsgebeurtenis door een reis, gegroepeerd door datum, binnen een gespecificeerd tijdkader werd ontvangen.
 
-_de vraag van het meer van Gegevens_
-
 ```sql
 SELECT DATE(timestamp), count(distinct _id)
 FROM journey_step_events
@@ -1045,25 +953,11 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '<last x hours>' hour)
 ```
 
-_Voorbeeld_
-
-```sql
-SELECT DATE(timestamp), count(distinct _id)
-FROM journey_step_events
-where
-_experience.journeyOrchestration.stepEvents.journeyVersionID = 'b1093bd4-11f3-44cc-961e-33925cc58e18' AND
-_experience.journeyOrchestration.stepEvents.nodeName = 'TEST_MLTrainingSession' AND
-_experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
-WHERE DATE(timestamp) > (now() - interval '6' hour)
-```
-
 +++
 
 +++Controleren of een externe gebeurtenis van een profiel is verwijderd omdat er geen gerelateerde reis is gevonden
 
 Deze vraag identificeert wanneer een externe gebeurtenis voor een specifiek profiel werd verworpen omdat er geen actieve of passende reis was die werd gevormd om die gebeurtenis te ontvangen.
-
-_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
@@ -1074,26 +968,13 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-_Voorbeeld_
-
-```sql
-SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
-where
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '515bff852185e434ca5c83bcfc4f24626b1545ca615659fc4cfff91626ce61a6' AND
-_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
-```
-
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
 +++Controleren of een externe gebeurtenis van een profiel om een andere reden is verwijderd
 
 Deze query haalt externe gebeurtenissen op die zijn genegeerd voor een specifiek profiel vanwege interne servicefouten, samen met de gebeurtenis-id en foutcode.
-
-_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
@@ -1105,19 +986,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-_Voorbeeld_
-
-```sql
-SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
-FROM journey_step_events
-where
-_experience.journeyOrchestration.profile.ID='mandee@adobe.com' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='81c51be978d8bdf9ef497076b3e12b14533615522ecea9f5080a81c736491656' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
-```
-
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
@@ -1125,23 +994,13 @@ Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](.
 
 Deze vraag aggregeert alle gebeurtenissen die door de machine van de reisstaat worden verworpen, die door foutencode wordt gegroepeerd helpen de gemeenschappelijkste redenen voor verwerping identificeren.
 
-_de vraag van het meer van Gegevens_
-
 ```sql
 SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
 where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-_Voorbeeld_
-
-```sql
-SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
-where
-_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
-```
-
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
@@ -1149,8 +1008,6 @@ Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](.
 
 Deze vraag identificeert alle gebeurtenissen die werden verworpen omdat een profiel probeerde om een reis opnieuw in te gaan wanneer de ingang niet in de reisconfiguratie werd toegestaan.
 
-_de vraag van het meer van Gegevens_
-
 ```sql
 SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
 _experience.journeyOrchestration.journey.versionID,
@@ -1160,18 +1017,152 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
-_Voorbeeld_
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+
++++
+
+## Zoekopdrachten voor Ingageable Profiles {#engageable-profiles-queries}
+
+Deze vragen helpen u uw Engageable Aantal Profielen controleren en analyseren. Een meetbaar profiel is een uniek profiel dat de afgelopen twaalf maanden is gebruikt voor reizen of campagnes. Leer meer over [ Engageable Profielen en vergunningsgebruik ](../audience/license-usage.md#what-is-engageable-profile).
+
+>[!IMPORTANT]
+>
+>**Beste praktijken voor het vragen van toe te voegen Profielen:**
+>* Zorg ervoor dat elk veld zonder aggregaat is opgenomen in de `GROUP BY` -component
+>* Vermijd het van verwijzingen voorzien van datasets die niet in uw zandbak bestaan - bevestig datasetnamen in Platform UI
+>* Gebruik `distinct` bij het tellen van unieke profielen om dubbele waarden in naamruimten te voorkomen
+>* Wanneer u `LIMIT` gebruikt, plaatst u deze aan het einde van de query na `ORDER BY` -componenten
+
++++Unieke profielen tellen die worden gebruikt door een specifieke reis
+
+Deze vraag keert het aantal verschillende profielen terug die door een specifieke reis zijn bezeten, die tot uw Engageable Aantal Profielen bijdraagt.
 
 ```sql
-SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
-_experience.journeyOrchestration.journey.versionID,
-_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
 FROM journey_step_events
-where
-_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>'
+AND timestamp > (now() - interval '12' month);
 ```
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Deze vraag helpt u begrijpen hoeveel unieke profielen een specifieke reis aan uw [ toe te laten ](../audience/license-usage.md) telling van Profielen in de afgelopen 12 maanden heeft bijgedragen.
+
++++
+
++++Telprofielen per reis in de laatste twaalf maanden
+
+Deze vraag toont het aantal unieke profielen die door elke reis in uw organisatie in de voorbije 12 maanden worden geëngageerd, die u helpen identificeren welke reizen het meest aan uw [ Engageable Aantal Profielen ](../audience/license-usage.md) bijdragen.
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID AS JOURNEY_VERSION_ID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName AS JOURNEY_NAME,
+    count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '12' month)
+GROUP BY 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName
+ORDER BY ENGAGED_PROFILES DESC;
+```
+
+_de output van de Steekproef_
+
+| JOURNEY_VERSION_ID | JOURNEY_NAME | ENGAGED_PROFILES |
+|---|---|---|
+| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | Welkomstcampagne v2 | 125.450 |
+| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | Reis voor starten van product | 98.230 |
+| f9e8d7c6-b5a4-3210-9876-543210fedcba | Terugplaatsingsstroom | 45.670 |
+
+Deze uitvoer helpt u te identificeren welke reizen de meeste profielen in dienst nemen en levert het belangrijkst een bijdrage aan uw Engageable Aantal Profielen.
+
+>[!NOTE]
+>
+>Deze query groepeert zich door zowel `journeyVersionID` als `journeyVersionName` . Beide velden moeten worden opgenomen in de component `GROUP BY` omdat ze zijn geselecteerd in de query. Als u velden weglaat uit de component `GROUP BY` , mislukt de query.
+
++++
+
++++Telprofielen die de afgelopen 30 dagen dagelijks door reizen zijn gebruikt
+
+Deze vraag verstrekt een dagelijkse uitsplitsing van onlangs betrokken profielen, die u helpen spikes in [ identificeren Engageable Aantal Profielen ](../audience/license-usage.md).
+
+```sql
+SELECT 
+    DATE(timestamp) AS ENGAGEMENT_DATE,
+    count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '30' day)
+GROUP BY DATE(timestamp)
+ORDER BY ENGAGEMENT_DATE DESC;
+```
+
+_de output van de Steekproef_
+
+| ENGAGEMENT_DATE | ENGAGED_PROFILES |
+|---|---|
+| 25-11-2024 | 8.450 |
+| 24-11-2024 | 7.820 |
+| 23-11-2024 | 125.340 |
+| 22-11-2024 | 9.230 |
+| 21-11-2024 | 8.670 |
+
+Met deze uitvoer kunt u dagelijkse trends volgen en bepalen wanneer grote aantallen profielen worden gebruikt. In dit voorbeeld, toont 23 November een significante piek (125.340 profielen) in vergelijking met typisch dagelijkse overeenkomst (~8.000 profielen), die onderzoek zou rechtvaardigen om te begrijpen welke reis of campagne de toename in uw [ toe te laten Aantal Profielen ](../audience/license-usage.md) veroorzaakte.
+
++++
+
++++Reizen identificeren waarbij onlangs een groot publiek betrokken was
+
+Deze vraaghulp identificeert welke reizen grote aantallen nieuwe profielen in recente tijdsperiodes hebben geëngageerd, die plotselinge verhogingen in [ toe te laten ](../audience/license-usage.md) telling van Profielen kunnen verklaren.
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID AS JOURNEY_VERSION_ID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName AS JOURNEY_NAME,
+    DATE(timestamp) AS ENGAGEMENT_DATE,
+    count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '7' day)
+AND _experience.journeyOrchestration.stepEvents.nodeType = 'start'
+GROUP BY 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName,
+    DATE(timestamp)
+HAVING count(distinct _experience.journeyOrchestration.stepEvents.profileID) > 1000
+ORDER BY ENGAGEMENT_DATE DESC, ENGAGED_PROFILES DESC;
+```
+
+_de output van de Steekproef_
+
+| JOURNEY_VERSION_ID | JOURNEY_NAME | ENGAGEMENT_DATE | ENGAGED_PROFILES |
+|---|---|---|---|
+| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | Zwarte vrijdagcampagne | 23-11-2024 | 125.340 |
+| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | Reis voor starten van product | 22-11-2024 | 45.230 |
+| f9e8d7c6-b5a4-3210-9876-543210fedcba | Nieuwsbrief van feestdag | 21-11-2024 | 32.150 |
+
+Deze zoekopdracht filtert op reizen die de afgelopen 7 dagen meer dan 1.000 profielen per dag hebben gebruikt. Uit de resultaten blijkt welke specifieke reizen en data verantwoordelijk zijn voor grote profielvluchten. Pas de componentendrempel `HAVING` aan op basis van uw behoeften (wijzig bijvoorbeeld `> 1000` in `> 10000` voor grotere drempels).
+
++++
+
++++Totaal aantal unieke profielen voor alle reizen in de laatste twaalf maanden
+
+Deze query bevat een aantal unieke profielen die tijdens alle reizen in de afgelopen 12 maanden zijn gebruikt, zodat u een overzicht krijgt van uw op een reis gebaseerde betrokkenheid.
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS TOTAL_ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '12' month);
+```
+
+_de output van de Steekproef_
+
+| TOTAL_ENGAGED_PROFILES |
+|---|
+| 2.547.890 |
+
+Dit ene getal staat voor het totale aantal unieke profielen dat in de afgelopen twaalf maanden door ten minste één reis is gebruikt.
+
+>[!NOTE]
+>
+>Deze vraag telt duidelijke profiel IDs in de de gebeurtenisdataset van de de reisstap. De daadwerkelijke die Aantal van Profielen van Engageable in het [ dashboard van het Gebruik van de Vergunning ](../audience/license-usage.md) worden getoond kan lichtjes verschillen, aangezien het ook profielen omvat die door campagnes en andere mogelijkheden van Journey Optimizer voorbij reizen worden aangehaald.
 
 +++
 
@@ -1181,23 +1172,24 @@ Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](.
 
 Deze vraag keert een dagelijks aantal unieke reisversies terug die activiteit hadden, die u helpen patronen van de reisuitvoering in tijd begrijpen.
 
-_de vraag van het meer van Gegevens_
-
 ```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
+SELECT DATE(timestamp) AS ACTIVITY_DATE, 
+       count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) AS ACTIVE_JOURNEYS
+FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '<last x days>' day)
 GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
+ORDER BY DATE(timestamp) DESC;
 ```
 
-_Voorbeeld_
+_de output van de Steekproef_
 
-```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
-WHERE DATE(timestamp) > (now() - interval '100' day)
-GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
-```
+| ACTIVITY_DATE | ACTIVE_JOURNEYS |
+|---|---|
+| 25-11-2024 | 12 |
+| 24-11-2024 | 15 |
+| 23-11-2024 | 14 |
+| 22-11-2024 | 11 |
+| 21-11-2024 | 13 |
 
 De vraag keert, voor de bepaalde periode, de telling van unieke reizen terug die elke dag teweegbrachten. Eén enkele reis die op meerdere dagen plaatsvindt, wordt één keer per dag meegeteld.
 
