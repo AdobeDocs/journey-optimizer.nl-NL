@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Hieronder volgt een lijst met artikelen voor het oplossen van problemen voor Adobe Journey Optimizer. Elke het oplossen van problemensectie verstrekt antwoorden aan vaak gestelde vragen en oplossingen aan problemen.
 
-Zie ook de [&#x200B; Veelgestelde vragen van Adobe Experience Platform en de documentatie van het Oplossen van problemen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting){target="_blank"}.
+Zie ook de [&#x200B; Veelgestelde vragen van Adobe Experience Platform en de documentatie van het Oplossen van problemen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/troubleshooting){target="_blank"}.
 
 ## Email channel {#ajo-troubleshooting-email}
 
@@ -26,7 +26,7 @@ Zie ook de [&#x200B; Veelgestelde vragen van Adobe Experience Platform en de doc
 
 In Adobe Journey Optimizer (AJO) kan het wijzigen van de standaard CSS-blokken in de e-mailkoptekst leiden tot onverwachte opmaakproblemen, vooral na het verwijderen van inhoudsfragmenten. Deze problemen zijn merkbaarder op mobiele apparaten en kunnen leiden tot layoutverschuivingen of opmaakinconsistenties. Om dit te voorkomen, gebruikt u de functie Thema&#39;s om aangepaste CSS veilig toe te passen zonder door het systeem gegenereerde CSS-stijlen te wijzigen.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
 
 Leer meer over e-mail het formatteren [&#x200B; op deze pagina &#x200B;](../email/get-started-email-design.md).
 
@@ -37,7 +37,7 @@ Leer meer over e-mail het formatteren [&#x200B; op deze pagina &#x200B;](../emai
 
 In Adobe Journey Optimizer worden fragmenten met bewerkbare velden mogelijk niet correct geladen of onverwacht gedupliceerd wanneer ze aan sjablonen worden toegevoegd. Het probleem heeft doorgaans invloed op specifieke fragmenten in verschillende omgevingen.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26908){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26908){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
 
 Leer meer over klantgerichte fragmenten [&#x200B; op deze pagina &#x200B;](../content-management/customizable-fragments.md).
 
@@ -47,7 +47,7 @@ Leer meer over klantgerichte fragmenten [&#x200B; op deze pagina &#x200B;](../co
 
 De fragmenten van HTML kunnen er niet in slagen behoorlijk in e-mails terug te geven, die vaak als **fragment IDs** eerder dan daadwerkelijke inhoud verschijnen. In tegenstelling tot visuele fragmenten, vereisen de fragmenten van HTML zorgvuldige configuratie. Om dit op te lossen, volg beste praktijken voor het gebruiken van zowel **visuele als de uitdrukkingsfragmenten van HTML** in uw e-mailcampagnes.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25441){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-25441){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
 
 Leer meer over de fragmenten van HTML [&#x200B; op deze pagina &#x200B;](../content-management/fragments.md).
 
@@ -57,7 +57,7 @@ Leer meer over de fragmenten van HTML [&#x200B; op deze pagina &#x200B;](../cont
 
 Wanneer u e-mailsjablonen bewerkt in een niet-gepubliceerde reis, kunnen de inhoud en sjablonen van bepaalde e-mails onverwachts verdwijnen. Dit kan tot nieuwe werk en vertragingen leiden. Om het risico van deze kwestie te verminderen, vermijd gelijktijdige uitgeeft, beperk het aantal open lusjes, en sla regelmatig veranderingen op.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26738){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26738){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
 
 Leer meer over malplaatjes [&#x200B; op deze pagina &#x200B;](../email/use-email-templates.md).
 
@@ -67,7 +67,7 @@ Leer meer over malplaatjes [&#x200B; op deze pagina &#x200B;](../email/use-email
 
 In **&quot;Code uw eigen&quot;** wijze onder de **uitgeef E-mailHoofdtekst** eigenschap, verschijnt het gebied van de Preheaderinput niet. Om preheader tekst te omvatten, moeten de gebruikers **manueel preheader** binnen hun inhoud van douaneHTML coderen.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26174){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26174){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
 
 Leer meer over E-mail preheader configuratie [&#x200B; op deze pagina &#x200B;](../email/header-parameters.md).
 
@@ -77,7 +77,7 @@ Leer meer over E-mail preheader configuratie [&#x200B; op deze pagina &#x200B;](
 
 Wanneer het toevoegen van een **component van HTML** aan een e-mailmalplaatje, kunnen de verbindingen zich verschillend afhankelijk van de **e-mailcliënt** gedragen, **het bekijken wijze**, of **apparaat/browser**. Bijvoorbeeld, kunnen de ankerverbindingen verschillend in **Vooruitzichten zij aan zij mening** in vergelijking met het volledig-schermmening functioneren. Houd rekening met deze variaties wanneer u e-mailsjablonen ontwerpt en test op meerdere clients en apparaten.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26221){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26221){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
 
 Zie ook het ontwerp beste praktijken van e-mail [&#x200B; op deze pagina &#x200B;](../email/get-started-email-design.md).
 
@@ -89,7 +89,7 @@ Zie ook het ontwerp beste praktijken van e-mail [&#x200B; op deze pagina &#x200B
 Het bijhouden van koppelingen ontbreekt in Adobe Journey Optimizer wanneer e-mailURL&#39;s dynamische variabelen gebruiken en niet beginnen met http, of wanneer logische instructies in het URL-veld worden geplaatst. U lost dit probleem op door ervoor te zorgen dat alle URL&#39;s beginnen met http, geen logica te gebruiken in het URL-veld en complexe personalisatielogica te verplaatsen naar de HTML-inhoud of vooraf verwerkte kenmerken.
 
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26932){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26932){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
 
 Leer meer over e-mail het volgen [&#x200B; op deze pagina &#x200B;](../email/message-tracking.md).
 
@@ -99,7 +99,7 @@ Leer meer over e-mail het volgen [&#x200B; op deze pagina &#x200B;](../email/mes
 
 Als u een fout van de Uitwisseling van de Post (MX) terwijl het creëren van een kanaalconfiguratie voor een API-teweeggebrachte transactie e-mailcampagne in Adobe Journey Optimizer ontmoet, kan het aan **DNS misconfiguraties** of **het beleidsbeperkingen van DMARC** toe te schrijven zijn. Om dit op te lossen, zorg ervoor dat uw DNS correct wordt gevormd en verifieer dat uw domein met **op domein-gebaseerde Authentificatie van het Bericht, het Melden, en Conformance (DMARC)** vereisten voldoet.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26200){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26200){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
 
 Leer meer over e-mailDMARC beleid [&#x200B; op deze pagina &#x200B;](../configuration/dmarc-record-update.md).
 
@@ -112,7 +112,7 @@ Zie ook [&#x200B; API-teweeggebrachte campagnedocumentatie &#x200B;](../campaign
 
 Bij het implementeren van pushberichten in Journey Optimizer kan één profiel meerdere pushtokens hebben die zijn gekoppeld aan verschillende apparaten. Tijdens een pushmeldingscampagne is Journey Optimizer ontworpen om deze tokens te beheren en ervoor te zorgen dat het doelprofiel op alle gekoppelde apparaten kan worden bereikt.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26738){target="_blank"} om meer over het beheer van het duptoken te leren.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26738){target="_blank"} om meer over het beheer van het duptoken te leren.
 
 Leer meer over dupconfiguratie [&#x200B; op deze pagina &#x200B;](../push/push-configuration.md).
 
@@ -122,7 +122,7 @@ Leer meer over dupconfiguratie [&#x200B; op deze pagina &#x200B;](../push/push-c
 
 Als de pushberichten niet worden omgeleid naar de bedoelde web-URL, kan dit worden veroorzaakt door een onjuiste configuratie voor klikken op handeling of door uitgeschakelde instellingen voor pushmeldingen. Zorg ervoor dat de **klikactie** voor het duw bericht correct wordt geplaatst en dat **automatische vertoning en het volgen** van duw berichten worden toegelaten om deze kwestie op te lossen.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26226){target="_blank"} om meer over deze kwestie te leren.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26226){target="_blank"} om meer over deze kwestie te leren.
 
 Leer meer over dupconfiguratie [&#x200B; op deze pagina &#x200B;](../push/push-configuration.md).
 
@@ -135,7 +135,7 @@ Leer meer over dupconfiguratie [&#x200B; op deze pagina &#x200B;](../push/push-c
 
 Als een ontvanger **STOP** aan SMS antwoordt, worden alle toekomstige berichten van dat korte aantal geblokkeerd — met inbegrip van transactionele berichten. Om ononderbroken levering van transactieSMS te waarborgen, vorm en verzend hen door a **afzonderlijk kort aantal** dat de ontvangers niet eerder hebben gekozen uit.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26258){target="_blank"} om meer over deze kwestie te leren.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26258){target="_blank"} om meer over deze kwestie te leren.
 
 Leer meer over de opt-outconfiguratie van SMS [&#x200B; op deze pagina &#x200B;](../sms/sms-opt-out.md).
 
@@ -147,9 +147,9 @@ Leer meer over de opt-outconfiguratie van SMS [&#x200B; op deze pagina &#x200B;]
 
 De moeilijkheden die op het **in-app kanaal** in Adobe Customer Journey Analytics melden komen vaak uit misconfigured **gegevensmeningen**, **datasets**, of **schemaupdates** voort. Controleer of deze configuraties correct zijn toegepast om het probleem op te lossen.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"} om meer over deze kwestie te leren.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"} om meer over deze kwestie te leren.
 
-Leer meer hoe te om de analysegegevens van Journey Optimizer in Customer Journey Analytics [&#x200B; op deze pagina &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"} te integreren.
+Leer meer hoe te om de analysegegevens van Journey Optimizer in Customer Journey Analytics [&#x200B; op deze pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"} te integreren.
 
 Zie ook de [&#x200B; Journey Optimizer All-time documentatie van rapporten &#x200B;](../reports/report-gs-cja.md)
 
@@ -162,7 +162,7 @@ Zie ook de [&#x200B; Journey Optimizer All-time documentatie van rapporten &#x20
 
 Organisaties die nieuwe sandboxen in Adobe Journey Optimizer leveren, hebben vragen opgeworpen over hoe de instellingen voor tijd tot leven (TTL) van toepassing zijn op de datasets van het Profiel en Gegevensmeer. Dit artikel verduidelijkt dat de montages van TTL geen bestaande zandbakken beïnvloeden en automatisch toegepast slechts op nieuw provisioned degenen.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} om te leren hoe te om TTL te behandelen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} om te leren hoe te om TTL te behandelen.
 
 Leer meer over dataset tijd-aan-levende [&#x200B; op deze pagina &#x200B;](../data/datasets-ttl.md).
 
@@ -175,9 +175,9 @@ Leer meer over dataset tijd-aan-levende [&#x200B; op deze pagina &#x200B;](../da
 
 Het aantal verwerkte ingangen in de **Gelezen eigenschap van het Publiek** van Adobe Journey Optimizer kan lager zijn dan de verwachte publiekstelling. Dit probleem doet zich vaak voor als gevolg van onjuiste naamruimteconfiguraties, waardoor profielen van reizen worden uitgesloten. De resolutie omvat het controleren en corrigeren van naamruimteconfiguraties, het controleren van relevante documentatie en het aanpassen van prioriteiten om ervoor te zorgen dat bewerkingen in Adobe Journey Optimizer soepeler verlopen.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} om te leren hoe te om deze kwestie op te lossen.
 
-Zie ook [&#x200B; dit artikel over verouderde publieksaantallen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26166){target="_blank"}.
+Zie ook [&#x200B; dit artikel over verouderde publieksaantallen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26166){target="_blank"}.
 
 Leer meer over de **Gelezen activiteit van het publiek** in reizen [&#x200B; op deze pagina &#x200B;](../building-journeys/read-audience.md).
 
@@ -187,11 +187,11 @@ Leer meer over de **Gelezen activiteit van het publiek** in reizen [&#x200B; op 
 
 In Adobe Journey Optimizer, kunnen bepaalde gebiedswaarden niet correct na het lopen door een **activiteit van het Profiel van de Update** in een reis bijwerken. In sommige gevallen kunnen bijgewerkte velden verdwijnen of terugkeren naar de vorige status. Om dit te richten, controleren voor conflicterende regels of voorwaarden, herzie toestemmingsmontages, gebruik een unieke dataset voor de **activiteit van het Profiel van de Update**, en verzeker geen ander insluitingsproces aan het zelfde profiel tezelfdertijd schrijft.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26352){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26352){target="_blank"} om stappen te leren om deze kwestie op te lossen.
 
 Leer meer over de **activiteit van het Profiel van de Update** in reizen [&#x200B; op deze pagina &#x200B;](../building-journeys/update-profiles.md).
 
-Zie ook de [&#x200B; documentatie van Adobe Experience Platform over Inname van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}.
+Zie ook de [&#x200B; documentatie van Adobe Experience Platform over Inname van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}.
 
 +++
 
@@ -199,11 +199,11 @@ Zie ook de [&#x200B; documentatie van Adobe Experience Platform over Inname van 
 
 De discrepantie kan gebeuren wanneer de reis een het profielmomentopname van een vorige dag gebruikt als de momentopname van de huidige dag niet beschikbaar op het tijdstip van reisuitvoering is.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} om stappen te leren om deze kwestie op te lossen.
 
-Leer meer in [&#x200B; dit communautaire post van Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}.
+Leer meer in [&#x200B; dit communautaire post van Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=nl){target="_blank"}.
 
-Zie ook de [&#x200B; documentatie van de Programma&#39;s API van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules){target="_blank"} om te controleren wanneer uw dagelijkse baan gepland is.
+Zie ook de [&#x200B; documentatie van de Programma&#39;s API van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/api/schedules){target="_blank"} om te controleren wanneer uw dagelijkse baan gepland is.
 
 +++
 
@@ -220,11 +220,11 @@ Dit wordt verwacht gedrag en heeft geen invloed op de uitvoering van de campagne
 
 De de bevolkingsproblemen van het publiek kunnen voorkomen wanneer de componenten of de middelen, vaak toe te schrijven aan recht, levering, of toestemmingsmisconfiguraties ontbreken. Als u deze problemen wilt verhelpen, begint u met het controleren van rechten, het garanderen van correcte provisioning en het controleren van machtigingen. Als het probleem aanhoudt, escaleer de zaak en coördineer met steunteams voor een volledige resolutie.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26333){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26333){target="_blank"} om stappen te leren om deze kwestie op te lossen.
 
 Leer meer over de **activiteit van het Profiel van de Update** in reizen [&#x200B; op deze pagina &#x200B;](../building-journeys/update-profiles.md).
 
-Zie ook de [&#x200B; documentatie van het Profiel van Adobe Real-Time CDP &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}.
+Zie ook de [&#x200B; documentatie van het Profiel van Adobe Real-Time CDP &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}.
 
 +++
 
@@ -242,7 +242,7 @@ Leer hoe te om toe te laten verhogingen problemen op te lossen en op te lossen v
 
 E-mails kunnen worden verzonden naar ontvangers die **niet aan de gespecificeerde publiekscriteria** voldoen. Bijvoorbeeld, kunnen de leden met terugkoopdata **vóór 4 Juli, 2025** e-mails ontvangen die slechts voor die na die datum worden bestemd. Dit gedrag kan uit **misconfigured publiekssegmentatie** of **onverwachte veranderingen in de logica van de profielkwalificatie** voortvloeien.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26173){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26173){target="_blank"} om stappen te leren om deze kwestie op te lossen.
 
 Leer meer over datumfuncties [&#x200B; op deze pagina &#x200B;](../building-journeys/functions/date-functions.md).
 
@@ -264,7 +264,7 @@ Leer meer over [&#x200B; de rapporten van de Campagne &#x200B;](../reports/campa
 
 Het toevoegen van publiek aan reisvoorwaarden kan soms **toepassingsneerstortingen** veroorzaken of een **Onverwachte fout van de Waaier** in Chrome tonen, met inbegrip van fouten wanneer het bewaren van reizen. Deze kwesties zijn vaak verwant met **de diensten van het Chroom**. Om hen op te lossen, a **browser update** toepassen of een aangewezen **tijdelijke oplossing** gebruiken.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26145){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26145){target="_blank"} om stappen te leren om deze kwestie op te lossen.
 
 +++
 
@@ -282,7 +282,7 @@ Raadpleeg de volgende secties over het oplossen van problemen voor Reizen:
 
 Wanneer het creëren van een nieuwe versie van een reis, **uitdrukkingen in specifieke stappen** kunnen worden verloren, veroorzakend fouten en vereist handterugkeer. Om dit op te lossen, **dupliceer de reis**, test voor reproduceerbaarheid, **vermijden browser herlaadt**, en gebruik het **bijgewerkte canvas** voor oudere reizen.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26152){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26152){target="_blank"} om stappen te leren om deze kwestie op te lossen.
 
 Leer hoe te om een reis [&#x200B; op deze pagina &#x200B;](../building-journeys/journey-ui.md#duplicate-a-journey) te dupliceren.
 
@@ -292,7 +292,7 @@ Leer hoe te om een reis [&#x200B; op deze pagina &#x200B;](../building-journeys/
 
 Profielen kunnen een reis onverwacht verlaten zonder door een aangewezen knoop over te gaan wanneer de **voorwaarde die status** van verzonden berichten controleert misconfigured is. Om dit op te lossen, herzie de **voorwaardenlogica**, voer **alternatieve logica** uit, of raadpleeg met uw **implementatieteam**.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26127){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26127){target="_blank"} om stappen te leren om deze kwestie op te lossen.
 
 Zie ook [&#x200B; het ontwerprichtlijnen van de Reis &#x200B;](../building-journeys/using-the-journey-designer.md).
 
@@ -303,7 +303,7 @@ Zie ook [&#x200B; het ontwerprichtlijnen van de Reis &#x200B;](../building-journ
 
 De profielen kunnen een reis onverwacht verlaten wanneer **gebeurtenis het begrenzen** voorkomt, veroorzakend sommige profielen om worden verworpen als het aantal verwerkte gebeurtenissen systeemcapaciteit overschrijdt. Om profieluitgang te verminderen, begrijp de **systeemgrenzen**, controleer voor **gebeurtenisspikes**, en optimaliseer **gegevensstroom** om het overschrijden van drempels te verhinderen.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26018){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26018){target="_blank"} om stappen te leren om deze kwestie op te lossen.
 
 Zie ook [&#x200B; reisbegeleiding &#x200B;](../start/guardrails.md#decisioning-guardrails).
 
@@ -314,7 +314,7 @@ Zie ook [&#x200B; reisbegeleiding &#x200B;](../start/guardrails.md#decisioning-g
 
 De gebeurtenissen kunnen er niet in slagen om een reis teweeg te brengen zelfs als alle criteria worden voldaan aan wanneer zij **door vraagdiensten** eerder dan wordt gestroomd aan de **Dienst van de Kern van de Inzameling van Gegevens (DCCS)** worden gecreeerd. Om dit op te lossen, herzie de gebeurtenisconfiguratie, zorg ervoor gebeurtenissen **direct aan DCCS** worden gestroomd, en verifieer functionaliteit gebruikend **testwijze**.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26031){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26031){target="_blank"} om stappen te leren om deze kwestie op te lossen.
 
 Leer meer over gebeurtenissen [&#x200B; op deze pagina &#x200B;](../event/about-events.md).
 
@@ -327,7 +327,7 @@ Zie ook {de guardrails van de Gebeurtenis van 0}. [&#128279;](../start/guardrail
 
 Als een reis na wijzigingen aan zijn bijbehorend publiek, zoals veranderingen in het fusiebeleid ophoudt teweegbrengend, kunt u onderbroken stromen ervaren. Om dit op te lossen, **dupliceer en publiceer de reis** met de bijgewerkte publieksmontages om trekkerfunctie correct te verzekeren.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26224){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26224){target="_blank"} om stappen te leren om deze kwestie op te lossen.
 
 Leer hoe te om een reis [&#x200B; op deze pagina &#x200B;](../building-journeys/journey-ui.md#duplicate-a-journey) te dupliceren.
 
@@ -337,7 +337,7 @@ Leer hoe te om een reis [&#x200B; op deze pagina &#x200B;](../building-journeys/
 
 De fouten van de onderbreking kunnen voorkomen wanneer a **douaneactie** een extern derdeeindpunt roept. Om dit op te lossen, verifieer dat het **eindpunt toegankelijk** is, controleer **serverlogboeken**, ervoor zorgen er **geen het blokkeren van Adobe** is, update eindpuntconfiguraties zoals nodig, en **test na updates**. Ook, houd rekening met **API specificaties van de vraagonderbreking**.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26156){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26156){target="_blank"} om stappen te leren om deze kwestie op te lossen.
 
 Leer meer over Reis het Draaien API [&#x200B; op deze pagina &#x200B;](../configuration/throttling.md).
 
@@ -359,7 +359,7 @@ Verwijs naar [&#x200B; de toestemmingendocumentatie &#x200B;](../administration/
 
 De kwesties met **Capping regels dropdown** komen vaak voor wanneer de regelreeksen **misconfigured** of **ontoegankelijk** zijn. Zorg ervoor dat alle regelreeksen correct worden gevormd en beschikbaar zijn om het probleem op te lossen.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26204){target="_blank"} om meer te leren.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26204){target="_blank"} om meer te leren.
 
 Leer hoe te om het begrenzen van regels [&#x200B; in deze sectie &#x200B;](../conflict-prioritization/rule-sets.md) toe te passen.
 
@@ -371,7 +371,7 @@ Leer hoe te om het begrenzen van regels [&#x200B; in deze sectie &#x200B;](../co
 
 De moeilijkheden die tot aanbiedingsinzamelingen leiden komen vaak voor wanneer **catalogi niet provisioned** voor uw organisatie zijn. Om dit op te lossen, verifieer dat alle vereiste catalogi correct provisioned zijn alvorens te proberen om aanbiedingsinzamelingen tot stand te brengen.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26265){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26265){target="_blank"} om stappen te leren om deze kwestie op te lossen.
 
 Leer meer over aanbiedingsinzamelingen [&#x200B; op deze pagina &#x200B;](../offers/offer-library/creating-collections.md).
 
@@ -381,7 +381,7 @@ Leer meer over aanbiedingsinzamelingen [&#x200B; op deze pagina &#x200B;](../off
 
 Wanneer het integreren van Adobe Target in een toepassing die Adobe Journey Optimizer gebruikt, kan de **Offer Decisioning** optie ontoegankelijk binnen de configuratie zijn DataStream. Dit komt typisch toe te schrijven aan **toestemmingsmontages** of **leveringsbeperkingen**. Om de kwestie op te lossen, verifieer gebruikerstoestemmingen en controleer de noodzakelijke levering op zijn plaats is.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26175){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26175){target="_blank"} om stappen te leren om deze kwestie op te lossen.
 
 Leer meer over vereiste toestemmingen voor Offer Decisioning [&#x200B; op deze pagina &#x200B;](../offers/get-started/starting-offer-decisioning.md#granting-acess-to-decision-management).
 
@@ -395,7 +395,7 @@ Leer meer over vereiste toestemmingen voor Offer Decisioning [&#x200B; op deze p
 
 In Adobe Journey Optimizer voorkomt een Message Validation Error (CJMMAS - 1069-500) die gekoppeld is aan de meertalige functie dat reizen niet in de testmodus worden ingesteld of worden gepubliceerd.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26168){target="_blank"} om stappen te leren om deze kwestie op te lossen.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26168){target="_blank"} om stappen te leren om deze kwestie op te lossen.
 
 Leer meer over meertalige inhoud [&#x200B; op deze pagina &#x200B;](../content-management/multilingual-gs.md).
 
@@ -409,7 +409,7 @@ Leer meer over meertalige inhoud [&#x200B; op deze pagina &#x200B;](../content-m
 Om **gegevensintegriteit en veiligheid** te handhaven wanneer het verbinden met derdesystemen, zorg ervoor dat de Veiligheid van de Laag van het Vervoer (**TLS**) v1.3 voor uw douaneacties wordt toegelaten. Dit helpt mededelingen beschermen en verhindert potentiële veiligheidskwetsbaarheid.
 
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26223){target="_blank"} om meer te leren.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26223){target="_blank"} om meer te leren.
 
 Leer meer over meertalige inhoud [&#x200B; op deze pagina &#x200B;](../action/about-custom-action-configuration.md).
 
@@ -419,7 +419,7 @@ Leer meer over meertalige inhoud [&#x200B; op deze pagina &#x200B;](../action/ab
 
 In Adobe Journey Optimizer kunnen dashboards niet rechtstreeks van query&#39;s worden gemaakt. Om dashboards te bouwen, gebruik de beschikbare **functies van de dashboardverwezenlijking** binnen Adobe Experience Platform, die u toestaan om vraaggegevens effectief te visualiseren en te analyseren.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26201){target="_blank"} om meer te leren.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26201){target="_blank"} om meer te leren.
 
 +++
 
@@ -429,8 +429,8 @@ Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://e
 
 De fouten van de toegang wanneer het gebruiken van de **Dienst API van de Vraag** via Postman of gelijkaardige hulpmiddelen worden gewoonlijk veroorzaakt door **ontoereikende toestemmingen**. Om dit op te lossen, verifieert u gebruikerstoestemmingen, controleert API geloofsbrieven, en verstrekt gedetailleerde informatie om indien nodig te steunen.
 
-Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"} om meer te leren.
+Verwijs naar [&#x200B; dit het oplossen van problemenartikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"} om meer te leren.
 
-Zie ook [&#x200B; leiden API geloofsdocumentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}.
+Zie ook [&#x200B; leiden API geloofsdocumentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}.
 
 +++
