@@ -24,7 +24,7 @@ Klik hiertoe op **[!UICONTROL Simulate content]** en voeg vervolgens een testpro
 
 ![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-De gedetailleerde informatie over hoe te om testprofielen en voorproef uw inhoud te selecteren is beschikbaar in de [ sectie van het Beheer van de Inhoud ](../content-management/preview-test.md).
+De gedetailleerde informatie over hoe te om testprofielen en voorproef uw inhoud te selecteren is beschikbaar in de [&#x200B; sectie van het Beheer van de Inhoud &#x200B;](../content-management/preview-test.md).
 
 Als de bestandsinhoud klaar is om te worden verzonden, sluit u het simulatiescherm en klikt u op de knop **[!UICONTROL Review to activate]** .
 
@@ -42,7 +42,7 @@ Voordat u de campagne voor directe mail activeert, moet u controleren of de camp
 
 ![](assets/direct-mail-review.png){width="800" align="center"}
 
-Wanneer uw direct-mailcampagne klaar is, voltooi de configuratie van uw [ reis ](../building-journeys/journey-gs.md) of [ campagne ](../campaigns/create-campaign.md) om het te verzenden.
+Wanneer uw direct-mailcampagne klaar is, voltooi de configuratie van uw [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md) of [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md) om het te verzenden.
 
 >[!NOTE]
 >
@@ -54,12 +54,12 @@ Nadat u het e-mailbericht hebt verzonden, kunt u de impact van uw campagne of re
 
 ## Toestemming voor direct mail beheren {#dm-consent-management}
 
-In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de Experience Platform [ Toestemming ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie.
+In [!DNL Journey Optimizer], wordt de toestemming behandeld door het schema van de Experience Platform [&#x200B; Toestemming &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie.
 
 Als een profiel ervoor heeft gekozen geen directe e-mail te ontvangen, wordt in de corresponderende Experience Platform-profielkenmerken de waarde voor `consents.marketing.postalMail.val` `n` gebruikt en wordt het corresponderende profiel uitgesloten van volgende leveringen.
 
 Als u het profiel opnieuw wilt inschakelen, moet u het profielkenmerk weer instellen op `consents.marketing.postalMail.val` : `y` .
 
-Als u de kenmerken van een profiel wilt beheren, gaat u naar Experience Platform en opent u het profiel door een naamruimte voor identiteiten en een bijbehorende identiteitswaarde te selecteren. Leer meer in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
+Als u de kenmerken van een profiel wilt beheren, gaat u naar Experience Platform en opent u het profiel door een naamruimte voor identiteiten en een bijbehorende identiteitswaarde te selecteren. Leer meer in de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
 
-Leer meer over het beheren van opt-out in Journey Optimizer in [ deze sectie ](../privacy/opt-out.md).
+Leer meer over het beheren van opt-out in Journey Optimizer in [&#x200B; deze sectie &#x200B;](../privacy/opt-out.md).
