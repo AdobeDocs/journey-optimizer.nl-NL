@@ -45,4 +45,4 @@ De belangrijkste stappen voor het verzenden van direct-mailberichten zijn als vo
 
 Leer hoe u het Direct Mail-kanaal in Adobe Journey Optimizer kunt gebruiken om direct mail te automatiseren en te plannen binnen uw reizen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479168?captions=dut&quality=12)
