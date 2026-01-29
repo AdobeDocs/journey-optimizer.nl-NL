@@ -10,9 +10,9 @@ level: Intermediate
 keywords: reis, bericht, push, sms, e-mail, in-app, web, inhoudskaart, op code gebaseerde ervaring
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '572'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Ingebouwde kanaalactie"
->abstract="Journey Optimizer wordt geleverd met ingebouwde kanaalactiemogelijkheden. U kunt eenvoudig aan uw reis een bericht (e-mail, tekstbericht (SMS/MMS), duw) of een binnenkomende ervaring (In-app, Web, code-gebaseerde ervaring, inhoudskaart) activiteit toevoegen, en montages en inhoud bepalen. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis."
+>abstract="Journey Optimizer wordt geleverd met ingebouwde kanaalactiemogelijkheden. U kunt eenvoudig aan uw reis een bericht (e-mail, tekstbericht (SMS/MMS), duw, direct mail) of een binnenkomende ervaring (In-app, Web, code-gebaseerde ervaring, inhoudskaart) activiteit toevoegen, en montages en inhoud bepalen. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis."
 
 [!DNL Journey Optimizer] wordt geleverd met ingebouwde kanaalactiemogelijkheden die worden gebruikt om berichten te verzenden: wanneer een profiel deze activiteit ingaat, wordt een bericht naar hen verzonden.
 
@@ -34,15 +34,15 @@ Als u een ingebouwde kanaalactie aan uw reis wilt toevoegen, sleept u een kanaal
 
 ## Een bericht toevoegen tijdens een rit  {#add-msg-in-journey}
 
-Met ingebouwde kanaalacties, kunt u uitgaande of binnenkomende berichten vormen. Voor meer informatie over de kanalen beschikbaar in reizen, verwijs naar de lijst in deze sectie: [&#x200B; Kanalen in reizen &amp; campagnes &#x200B;](../channels/gs-channels.md#channels).
+Met ingebouwde kanaalacties, kunt u uitgaande of binnenkomende berichten vormen. Voor meer informatie over de kanalen beschikbaar in reizen, verwijs naar de lijst in deze sectie: [ Kanalen in reizen &amp; campagnes ](../channels/gs-channels.md#channels).
 
 Volg onderstaande stappen om een ingebouwde kanaalactie aan een reis toe te voegen.
 
-1. Begin uw reis met een [&#x200B; Gebeurtenis &#x200B;](general-events.md) of a [&#x200B; gelezen activiteit van het publiek &#x200B;](read-audience.md).
+1. Begin uw reis met een [ Gebeurtenis ](general-events.md) of a [ gelezen activiteit van het publiek ](read-audience.md).
 
 1. Van de **sectie van Acties** van het palet, sleep en laat vallen een kanaalactiviteit in het canvas.
 
-   ![&#x200B; de actiesactiviteit van het kanaal van het Web in wegcanvas &#x200B;](assets/journey-web-activity.png)
+   ![ de actiesactiviteit van het kanaal van het Web in wegcanvas ](assets/journey-web-activity.png)
 
 1. U kunt ook de **[!UICONTROL Action]** -activiteit selecteren, zodat u meerdere binnenkomende acties kunt selecteren. [Meer informatie](journey-action.md)
 
@@ -75,6 +75,15 @@ Volg onderstaande stappen om een ingebouwde kanaalactie aan een reis toe te voeg
       </a>
       <div>
       <a href="../sms/create-sms.md"><strong> creeer tekstberichten (SMS/MMS) </strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../direct-mail/create-direct-mail.md">
+      <img alt="Validatie" src="../assets/do-not-localize/direct-mail.jpg">
+      </a>
+      <div>
+      <a href="../direct-mail/create-direct-mail.md"><strong> creeer direct-mailberichten </strong></a>
       </div>
       <p>
       </td>
@@ -139,7 +148,7 @@ U kunt de inhoud van een ingebouwde kanaalactie tijdens een live reis bijwerken.
 
 Om dit te doen, open uw levende reis, selecteer de kanaalactiviteit en klik **geef inhoud** uit.
 
-![&#x200B; voeg dropdown actieactiviteit toe die beschikbare kanaalopties tonen &#x200B;](assets/add-a-message2.png)
+![ voeg dropdown actieactiviteit toe die beschikbare kanaalopties tonen ](assets/add-a-message2.png)
 
 U kunt de kenmerken die worden gebruikt in personalisatie echter niet wijzigen, ongeacht of het profielkenmerken of contextafhankelijke gegevens (van gebeurtenis- of reiseigenschappen) zijn.
 
