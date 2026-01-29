@@ -7,11 +7,10 @@ feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: bericht, frequentie, regels, druk
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
@@ -32,24 +31,21 @@ Door deze processen te stroomlijnen, kunt u klantenervaring verbeteren, tijd bes
 * **Tijd die** bespaart - beheer uitsluitingen op één plaats door a **op tijd-gebaseerde regel** te creëren, in plaats van het toevoegen van veelvoudige voorwaardenknopen met douaneuitdrukkingen.\
   <!--* **Extra Safeguard** - Benefit from an extra safeguard in case audience criteria or time-window configurations were incorrectly set, ensuring individuals are still excluded when they should be.-->
 
->[!AVAILABILITY]
->
->De regels voor de korte uren zijn momenteel alleen beschikbaar voor een aantal organisaties (Beperkte Beschikbaarheid).  Deze zullen in toekomstige versies geleidelijk beschikbaar zijn voor alle klanten.
-
-
 ➡️ [Ontdek deze functie in video](#video)
 
 ## Afbeeldingen en beperkingen
 
 * **Gesteunde kanalen** - E-mail, SMS, Duw, en WhatsApp.
-  <!--* **Custom actions** – For custom actions, only quiet hours rules are enforced. If a rule set also includes other rules (e.g., frequency capping), those rules are ignored.-->
+* **Geordende campagnes** - de stille uren worden niet gesteund voor Geordende campagnes.
 * {de vertraging van de Verspreiding 0} **- de Updates aan een stille urenregel kunnen tot 12 uren vergen om op kanaalacties worden toegepast die reeds die regel gebruiken.**
-  <!--* **Pre-suppression window** – The system begins suppressing communications 30 minutes before quiet hours start, ensuring that no messages are delivered once the quiet period begins.-->
 * **Hoog-volumelatentie** - in gevallen van hoog-volumemededelingen, kan het systeem extra tijd nemen beginnen met het met succes afdwingen van stille uuronderdrukking.
+
+<!--* **Custom actions** – For custom actions, only quiet hours rules are enforced. If a rule set also includes other rules (e.g., frequency capping), those rules are ignored.-->
+<!--* **Pre-suppression window** – The system begins suppressing communications 30 minutes before quiet hours start, ensuring that no messages are delivered once the quiet period begins.-->
 
 ## Regels voor stille uren maken
 
-Om stille uren te plaatsen, creeer een regel binnen een reeks van de douaneregel. Voer de volgende stappen uit:
+Om stille uren te plaatsen, creeer een regel binnen een reeks van de douaneregel. [ Leer hoe te om regelreeksen ](../conflict-prioritization/rule-sets.md#Create) tot stand te brengen. Voer de volgende stappen uit:
 
 1. Navigeer naar **[!UICONTROL Business rules]** om toegang te krijgen tot het overzicht van regelsets.
 
@@ -85,22 +81,21 @@ Om stille uren te plaatsen, creeer een regel binnen een reeks van de douaneregel
 
 1. Definieer in de sectie **[!UICONTROL Dates & times]** wanneer u stille uren wilt toepassen:
 
-   1. Kies de **[!UICONTROL Time zone]** die u wilt gebruiken:
+   1. Pas in de vervolgkeuzelijst **[!UICONTROL Time zone]** een standaardtijdzone toe op alle ontvangers in het publiek, ongeacht hun afzonderlijke tijdzones.
 
-      * **[!UICONTROL UTC/GMT]** - Pas een standaard GMT-tijdvenster toe op alle ontvangers in het publiek, ongeacht hun afzonderlijke tijdzones.
-      * **[!UICONTROL Use recipients local time zone]** - Gebruik het veld Tijdzone van elk profiel. [&#x200B; leer meer op het beheer van de tijdzone in reizen &#x200B;](../building-journeys/timezone-management.md#timezone-from-profiles)
+      Selecteer **[!UICONTROL Use recipients local time zone]** als u het tijdzoneveld van elk profiel wilt gebruiken. [ leer meer op het beheer van de tijdzone in reizen ](../building-journeys/timezone-management.md#timezone-from-profiles)
 
-        >[!IMPORTANT]
-        >
-        >Als een profiel geen tijdzone heeft, worden de stille uren niet afgedwongen voor dat profiel.
+      >[!IMPORTANT]
+      >
+      >Als een profiel geen tijdzone heeft, worden de stille uren niet afgedwongen voor dat profiel.
 
    1. Geef de periode op waarop de stille uren moeten worden toegepast.
 
-      * **[!UICONTROL Weekly]** - Kies specifieke dagen van de week en een tijdreeks. U kunt ook de regel **[!UICONTROL All day]** afdwingen (deze optie is alleen beschikbaar gedurende maximaal 3 opeenvolgende dagen).
+      * **[!UICONTROL Weekly]** - Kies specifieke dagen van de week en een tijdreeks. U kunt de regel ook afdwingen **[!UICONTROL All day]** .
 
         ![](assets/quiet-hours-weekly.png)
 
-      * **[!UICONTROL Custom date]** - Kies specifieke datums in de kalender en een tijdspad. U kunt ook de regel **[!UICONTROL All day]** afdwingen (deze optie is alleen beschikbaar gedurende maximaal 3 opeenvolgende dagen).
+      * **[!UICONTROL Custom date]** - Kies specifieke datums in de kalender en een tijdspad. U kunt de regel ook afdwingen **[!UICONTROL All day]** .
 
         ![](assets/quiet-hours-custom.png)
 
@@ -116,9 +111,19 @@ Om stille uren te plaatsen, creeer een regel binnen een reeks van de douaneregel
 
      >[!NOTE]
      >
-     >Deze optie is alleen beschikbaar voor reishandelingen. Als deze optie wordt toegepast op een actie in de campagne, gedraagt deze zich op dezelfde manier als wanneer u de optie **[!UICONTROL Discard message]** selecteert.
+     >Als een bericht langer dan 7 dagen in een wachtrij voor een profiel blijft staan, wordt het bericht genegeerd.
 
-   * **[!UICONTROL Discard message]** - Berichten worden nooit verzonden. Selecteer **[!UICONTROL Discard and exit journey or campaign]** als u wilt dat de reis of campagne met het bericht eindigt met de annulering van het verzenden.
+   * **[!UICONTROL Discard message]** - Berichten worden nooit verzonden.
+
+     >[!NOTE]
+     >
+     >Als u **[!UICONTROL Discard]** selecteert en deze regel op een reisactie toepast, wordt het profiel verwijderd uit de berichtlevering en van de reis verlaten.
+
+De regel wordt nu weergegeven in de regelset. U kunt het selecteren om zijn details in de eigenschappen ruit te tonen.
+
+![](assets/quiet-hours-preview.png)
+
+Als uw regel klaar is, activeer het en voltooi de configuratie van uw regelreeks. [ leer hoe te om regelreeksen tot stand te brengen en te activeren ](../conflict-prioritization/rule-sets.md#Create)
 
 ## Stil uur toepassen op reizen en campagnes {#apply}
 
@@ -128,14 +133,14 @@ Nadat u de regel hebt opgeslagen en de regelset hebt geactiveerd, kunt u deze to
 
 >[!TAB  pas de acties van het het urenkanaal van de stilte in reizen toe ]
 
-1. Open uw reis, selecteer de actie van het a [&#x200B; kanaal &#x200B;](../building-journeys/journeys-message.md) en geef de inhoud van uw bericht uit.
+1. Open uw reis, selecteer de actie van het a [ kanaal ](../building-journeys/journeys-message.md) en geef de inhoud van uw bericht uit.
 1. Klik op de knop **[!UICONTROL Add Business Rule]** en selecteer de regelset die de regel voor stille uren bevat.
 
    ![](assets/quiet-hours-apply.png)
 
    >[!NOTE]
    >
-   >Slechts [&#x200B; geactiveerde &#x200B;](#activate-rule) regelreeksen tonen in de lijst.
+   >Slechts [ geactiveerde ](#activate-rule) regelreeksen tonen in de lijst.
 
 1. Activeer je reis.
 
@@ -148,7 +153,7 @@ Nadat u de regel hebt opgeslagen en de regelset hebt geactiveerd, kunt u deze to
 
    >[!NOTE]
    >
-   >Slechts [&#x200B; geactiveerde &#x200B;](#activate-rule) regelreeksen tonen in de lijst.
+   >Slechts [ geactiveerde ](#activate-rule) regelreeksen tonen in de lijst.
 
 1. Activeer uw campagne.
 
@@ -156,7 +161,7 @@ Nadat u de regel hebt opgeslagen en de regelset hebt geactiveerd, kunt u deze to
 
 ## Volgende stappen
 
-Zodra uw reis of campagnes zijn geactiveerd en uitgevoerd, kunt u het aantal profielen bekijken die van de mededeling in het [&#x200B; rapport van Customer Journey Analytics &#x200B;](../reports/report-gs-cja.md) worden uitgesloten, en in het [&#x200B; Levende rapport &#x200B;](../reports/live-report.md), waar de de urenregels van de Quiet als mogelijke reden voor gebruikers die van levering worden uitgesloten zullen worden vermeld.
+Zodra uw reis of campagnes zijn geactiveerd en uitgevoerd, kunt u het aantal profielen bekijken die van de mededeling in het [ rapport van Customer Journey Analytics ](../reports/report-gs-cja.md) worden uitgesloten, en in het [ Levende rapport ](../reports/live-report.md), waar de de urenregels van de Quiet als mogelijke reden voor gebruikers die van levering worden uitgesloten zullen worden vermeld.
 
 ![](assets/quiet-hours-report.png)
 
@@ -187,4 +192,4 @@ Zodra uw reis of campagnes zijn geactiveerd en uitgevoerd, kunt u het aantal pro
 
 Leer hoe u de functie voor stille uren in Adobe Journey Optimizer kunt gebruiken.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475858?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
