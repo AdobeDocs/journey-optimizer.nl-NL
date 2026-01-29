@@ -17,15 +17,15 @@ ht-degree: 0%
 
 # Het gebruiksdashboard voor licenties {#license-usage}
 
-Het [!DNL Adobe Journey Optimizer] [ gebruikersinterface ](../start/user-interface.md) verstrekt een dashboard dat belangrijke informatie over het de vergunningsgebruik van uw organisatie toont, zoals die tijdens een dagelijkse momentopname wordt gevangen.
+Het [!DNL Adobe Journey Optimizer] [&#x200B; gebruikersinterface &#x200B;](../start/user-interface.md) verstrekt een dashboard dat belangrijke informatie over het de vergunningsgebruik van uw organisatie toont, zoals die tijdens een dagelijkse momentopname wordt gevangen.
 
 Ga naar **[!UICONTROL Administration]** > **[!UICONTROL License Usage]** om dit dashboard te openen. Hierdoor wordt het tabblad **[!UICONTROL Overview]** geopend, waarin het dashboard wordt weergegeven.
 
-![ het dashboard van het gebruiksdashboard van de Vergunning ](assets/license-usage-dashboard.png)
+![&#x200B; het dashboard van het gebruiksdashboard van de Vergunning &#x200B;](assets/license-usage-dashboard.png)
 
 >[!NOTE]
 >
->* Om het dashboard te bekijken, moet u de [ toestemming hebben van het Gebruik Dashboard van het Gebruik van de Vergunning van 0} Mening.](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}
+>* Om het dashboard te bekijken, moet u de [&#x200B; toestemming hebben van het Gebruik Dashboard van het Gebruik van de Vergunning van 0&rbrace; Mening.](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}
 >
 >* Bepaalde metriek (bijvoorbeeld computeruren, e-mails) worden niet weergegeven voor ontwikkelingssandboxen, zoals aangegeven door `N/A` in de quotakolom. Alleen waarden die niet &#39;null&#39; zijn, worden weergegeven in het dashboard: als de waarden nul of dicht bij nul zijn, worden ze niet gevuld.
 
@@ -51,7 +51,7 @@ Belangrijkste kenmerken van Inschakelbare profielen:
 
 >[!NOTE]
 >
->Als u een plotselinge piek in uw Engageable Aantal Profielen waarneemt, verwijs naar de [ sectie van het Oplossen van problemen ](#troubleshooting-engageable-profiles) hieronder voor gedetailleerde begeleiding bij het begrijpen van en het oplossen van de kwestie.
+>Als u een plotselinge piek in uw Engageable Aantal Profielen waarneemt, verwijs naar de [&#x200B; sectie van het Oplossen van problemen &#x200B;](#troubleshooting-engageable-profiles) hieronder voor gedetailleerde begeleiding bij het begrijpen van en het oplossen van de kwestie.
 
 ## Problemen oplossen: aanzienlijke toename van het aantal inschrijfbare profielen {#troubleshooting-engageable-profiles}
 
@@ -79,7 +79,7 @@ Ga als volgt te werk om dit probleem op te lossen:
 
 2. **onderzoekt reizen, campagnes en het besluit gericht op grote publiek:**
 
-   * Herzie recente reizen en campagnes richtend grote aantallen profielen gebruikend [ toe te laten vragen van Profielen ](../reports/query-examples.md#engageable-profiles-queries) of [ de Dienst van de Vraag ](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}.
+   * Herzie recente reizen en campagnes richtend grote aantallen profielen gebruikend [&#x200B; toe te laten vragen van Profielen &#x200B;](../reports/query-examples.md#engageable-profiles-queries) of [&#x200B; de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}.
    * Identificeer specifieke reisversies die tot de spike in profieltellingen bijdroegen.
    * Reizen, campagnes en besluitvorming met betrekking tot nieuwe profielen zullen waarschijnlijk leiden tot een toename van het aantal gebeurtenissen in de gegevensbestanden voor reizen, wat zal bijdragen aan de toename van het aantal Engageable Profiles.
 
@@ -91,10 +91,10 @@ Ga als volgt te werk om dit probleem op te lossen:
 4. **Verminder adresseerbare publieksgrootte:**
 
    * Verwijder indien nodig pseudoniem-profielen. Deze actie is van invloed op zowel Journey Optimizer als Real-Time Customer Data Platform.
-   * Leer meer over [ Pseudoniem de gegevensvervaldatum van het Profiel ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} in de Gids van het Profiel van de Klant in real time.
+   * Leer meer over [&#x200B; Pseudoniem de gegevensvervaldatum van het Profiel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} in de Gids van het Profiel van de Klant in real time.
    * **Nota:** de Pseudoniem gegevensvervalsing van het Profiel kan niet door het Platform UI of APIs worden gevormd. U moet contact opnemen met de ondersteuningsafdeling om deze functie in te schakelen.
 
-5. {de veranderingen van de 0} dataset van de Monitor:****
+5. {de veranderingen van de 0} dataset van de Monitor:**&#x200B;**
 
    * Verifieer datasets die voor het profileren worden toegelaten en zorg ervoor zij geen bovenmatige ECIDs (Experience Cloud IDs) bevatten.
    * Indien nodig, schrapt datasets met hoge aantallen ECID en ontspant hen met verminderde verslagen.
@@ -105,14 +105,14 @@ Ga als volgt te werk om dit probleem op te lossen:
 
 **zie ook:**
 
-* [ Ingageable de vraagvoorbeelden van Profielen ](../reports/query-examples.md#engageable-profiles-queries) - de vragen van de steekproef om uw Ingageable Profielen te controleren en te analyseren
-* [ overzicht van de Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}
+* [&#x200B; Ingageable de vraagvoorbeelden van Profielen &#x200B;](../reports/query-examples.md#engageable-profiles-queries) - de vragen van de steekproef om uw Ingageable Profielen te controleren en te analyseren
+* [&#x200B; overzicht van de Dienst van de Vraag van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}
 
 ## Gerelateerde documentatie {#related-documentation}
 
 Meer informatie vindt u in de documentatie van Adobe Experience Platform:
 
-* [ het dashboard van het gebruiksdashboard van de Vergunning ](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
-* [ het onderzoeken van het dashboard van het vergunningsgebruik ](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
-* [ Beschikbare metriek ](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target="_blank"}
-* [ Pseudoniem de gegevensvervalsing van het Profiel ](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html){target="_blank"}
+* [&#x200B; het dashboard van het gebruiksdashboard van de Vergunning &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
+* [&#x200B; het onderzoeken van het dashboard van het vergunningsgebruik &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [&#x200B; Beschikbare metriek &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target="_blank"}
+* [&#x200B; Pseudoniem de gegevensvervalsing van het Profiel &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html){target="_blank"}
