@@ -104,4 +104,4 @@ De belangrijkste stappen om met Beslissing te werken zijn als volgt:
 
 Meer informatie over beslissingsmogelijkheden in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475869?captions=dut&quality=12)
