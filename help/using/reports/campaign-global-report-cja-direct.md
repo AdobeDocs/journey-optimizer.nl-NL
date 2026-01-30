@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b0771fd9-72bd-4891-a394-f08e3dde6126
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ De tabel **[!UICONTROL Sending Statistics]** bevat een uitgebreid overzicht van 
 
 * **[!UICONTROL People]**: Aantal gebruikersprofielen dat als doelprofielen voor uw berichten in aanmerking komt.
 
-* **[!UICONTROL Targeted]**: Het totale aantal direct-mailberichten dat tijdens het verzendingsproces is verwerkt.
+* **[!UICONTROL Targeted]**: Aantal profielen dat in aanmerking kwam voor het publiek voordat uitsluitingen, onderdrukkingen of toestemmingsverwijderingen werden toegepast. Bij ritten waarbij terugkeer is ingeschakeld, kan een profiel meerdere keren worden aangewezen.
 
 * **[!UICONTROL Sends]**: Het totale aantal verzendingen voor uw direct-mailberichten.
 
@@ -69,8 +69,8 @@ In de tabel **[!UICONTROL Error Reasons]** kunt u de specifieke fouten identific
 
 ## Uitgesloten redenen {#exclude-reasons-directmail}
 
-[&#128279;](assets/cja-direct-excluded.png)
+[](assets/cja-direct-excluded.png)
 
 In de tabel **[!UICONTROL Exclude Reasons]** worden visueel de verschillende factoren weergegeven die hebben geleid tot de uitsluiting van gebruikersprofielen van het doelpubliek, zodat deze geen direct-mailberichten kunnen ontvangen.
 
-Verwijs naar [&#x200B; deze pagina &#x200B;](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
+Verwijs naar [ deze pagina ](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.

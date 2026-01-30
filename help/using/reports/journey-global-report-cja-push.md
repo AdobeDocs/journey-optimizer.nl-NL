@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6d4b7669-7852-42f0-9347-399a3994011f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ De tabel **[!UICONTROL Sending Statistics]** helpt u te begrijpen hoe uw pushmel
 
 * **[!UICONTROL People]**: Aantal gebruikersprofielen dat in aanmerking komt als doelprofielen voor uw SMS-berichten.
 
-* **[!UICONTROL Targeted]**: Het totale aantal pushmeldingen dat tijdens de analyse is verwerkt.
+* **[!UICONTROL Targeted]**: Aantal profielen dat in aanmerking kwam voor het publiek voordat uitsluitingen, onderdrukkingen of toestemmingsverwijderingen werden toegepast. Bij ritten waarbij terugkeer is ingeschakeld, kan een profiel meerdere keren worden aangewezen.
 
 * **[!UICONTROL Sends]**: Het totale aantal verzendingen voor de pushmelding.
 
@@ -110,4 +110,4 @@ In de tabel **[!UICONTROL Error Reasons]** kunt u de specifieke fouten identific
 
 In de tabel **[!UICONTROL Exclude Reasons]** worden visueel de verschillende factoren weergegeven die ertoe hebben geleid dat gebruikersprofielen zijn uitgesloten van het doelpubliek, zodat gebruikers uw pushberichten niet kunnen ontvangen.
 
-Verwijs naar [&#x200B; deze pagina &#x200B;](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
+Verwijs naar [ deze pagina ](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.

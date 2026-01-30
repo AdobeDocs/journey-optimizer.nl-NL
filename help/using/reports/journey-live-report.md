@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '3489'
+source-wordcount: '3508'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,9 @@ De pagina &quot;trip **[!UICONTROL Live report]**&quot; wordt weergegeven met de
 * [Sms](#sms-live)
 * [In-app](#in-app-live)
 
-De reis **[!UICONTROL Live report]** is verdeeld in verschillende widgets die het succes en de fouten van uw reis gedetailleerd beschrijven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Voor meer informatie over dit, verwijs naar deze [&#x200B; sectie &#x200B;](live-report.md#modify-dashboard).
+De reis **[!UICONTROL Live report]** is verdeeld in verschillende widgets die het succes en de fouten van uw reis gedetailleerd beschrijven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Voor meer informatie over dit, verwijs naar deze [ sectie ](live-report.md#modify-dashboard).
 
-Voor een gedetailleerde lijst van elke metrisch beschikbaar in Adobe Journey Optimizer, verwijs naar [&#x200B; deze pagina &#x200B;](live-report.md#live-report).
+Voor een gedetailleerde lijst van elke metrisch beschikbaar in Adobe Journey Optimizer, verwijs naar [ deze pagina ](live-report.md#live-report).
 
 ## Tabblad Reis {#journey-live}
 
@@ -55,7 +55,7 @@ Vanaf uw reis **[!UICONTROL Live report]** geeft het tabblad **[!UICONTROL Journ
 
 Met **[!UICONTROL Journey Performance]** kunt u het pad van uw doelprofielen stap voor stap bekijken.
 
-Let op: het aantal profielen voor een knooppunt wordt alleen bijgewerkt nadat het profiel het knooppunt heeft voltooid, niet wanneer het knooppunt wordt ingevoerd. Bijvoorbeeld, wacht een profiel op a **&#x200B;**&#x200B;knoop slechts wanneer de gespecificeerde datum wordt bereikt en het profiel de knoop heeft verlaten.
+Let op: het aantal profielen voor een knooppunt wordt alleen bijgewerkt nadat het profiel het knooppunt heeft voltooid, niet wanneer het knooppunt wordt ingevoerd. Bijvoorbeeld, wacht een profiel op a **** knoop slechts wanneer de gespecificeerde datum wordt bereikt en het profiel de knoop heeft verlaten.
 
 ### Reisstatistieken {#journey-statistics}
 
@@ -210,7 +210,7 @@ De tabel **[!UICONTROL Email - Statistics]** bevat een uitgebreid overzicht van 
 
 +++ Meer informatie over cijfers voor statistieken over verzendstatistieken per e-mail
 
-* **[!UICONTROL Targeted]**: Het totale aantal berichten dat tijdens het verzendingsproces is verwerkt.
+* **[!UICONTROL Targeted]**: Aantal profielen dat in aanmerking kwam voor het publiek voordat uitsluitingen, onderdrukkingen of toestemmingsverwijderingen werden toegepast. Bij ritten waarbij terugkeer is ingeschakeld, kan een profiel meerdere keren worden aangewezen.
 
 * **[!UICONTROL Excluded]**: aantal profielen dat door Adobe Journey Optimizer is uitgesloten.
 
@@ -276,7 +276,7 @@ De widget **[!UICONTROL Email - Performance by date]** biedt een gedetailleerd o
 
 De widgets **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** compileren de beschikbare gegevens met betrekking tot verzonden berichten, die gedetailleerde inzichten verstrekken in de specifieke redenen en categorieën achter e-mailschommelingen in de afgelopen 24 uur.
 
-Voor meer informatie over grenzen, verwijs naar de [&#x200B; lijst van de Onderdrukking &#x200B;](../reports/suppression-list.md) pagina.
+Voor meer informatie over grenzen, verwijs naar de [ lijst van de Onderdrukking ](../reports/suppression-list.md) pagina.
 
 +++ Meer informatie over e-mail - Bounce-rubrieken en redencijfers
 
@@ -310,7 +310,7 @@ De grafieken en tabel van **[!UICONTROL Error Reasons]** bieden zichtbaarheid in
 
 De grafieken en tabel van **[!UICONTROL Excluded Reasons]** bevatten een uitgebreide weergave van de verschillende factoren die ertoe hebben geleid dat gebruikersprofielen zijn uitgesloten van het doelpubliek, waardoor het bericht in de afgelopen 24 uur niet is ontvangen.
 
-Verwijs naar [&#x200B; deze pagina &#x200B;](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
+Verwijs naar [ deze pagina ](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
 
 ### E-mail - Beste ontvangende domein {#email-best-recipient}
 
@@ -332,7 +332,7 @@ De grafiek en tabel van **[!UICONTROL Email - Best recipient domain]** bevatten 
 
 >[!NOTE]
 >
->De widgets en cijfers voor aanbiedingen zijn alleen beschikbaar als een beslissing in een e-mail is ingevoegd. Voor meer informatie over het Beheer van het Besluit, verwijs naar deze [&#x200B; pagina &#x200B;](../offers/get-started/starting-offer-decisioning.md).
+>De widgets en cijfers voor aanbiedingen zijn alleen beschikbaar als een beslissing in een e-mail is ingevoegd. Voor meer informatie over het Beheer van het Besluit, verwijs naar deze [ pagina ](../offers/get-started/starting-offer-decisioning.md).
 
 De **[!UICONTROL Offers statistic]** - en **[!UICONTROL Offers statistics over time]** -widgets meten het succes van uw aanbieding en de invloed op uw doelgroep. Het detailleert de belangrijkste informatie met betrekking tot uw bericht met KPIs.
 
@@ -357,7 +357,7 @@ De **[!UICONTROL Offers statistic]** - en **[!UICONTROL Offers statistics over t
 
 >[!NOTE]
 >
->De widgets **[!UICONTROL Send time optimization]** en **[!UICONTROL Optimized vs non optimized]** zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor de levering. Voor meer informatie over Send-Time Optimalisering, verwijs naar [&#x200B; deze pagina &#x200B;](../building-journeys/send-time-optimization.md).
+>De widgets **[!UICONTROL Send time optimization]** en **[!UICONTROL Optimized vs non optimized]** zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor de levering. Voor meer informatie over Send-Time Optimalisering, verwijs naar [ deze pagina ](../building-journeys/send-time-optimization.md).
 
 De widgets **[!UICONTROL Send time optimization]** en **[!UICONTROL Optimized vs non optimized]** geven een gedetailleerd overzicht van het succes van uw e-mails, afhankelijk van de verzendmethode: geoptimaliseerd of normaal.
 
@@ -487,7 +487,7 @@ De **[!UICONTROL Error Reasons]** -tabel en -grafieken bieden u de mogelijkheid 
 
 In de grafieken en tabel van **[!UICONTROL Excluded Reasons]** ziet u de verschillende redenen waarom gebruikersprofielen, die zijn uitgesloten van de doelprofielen, uw pushberichten niet binnen 24 uur konden ontvangen.
 
-Verwijs naar [&#x200B; deze pagina &#x200B;](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
+Verwijs naar [ deze pagina ](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
 
 ## Tabblad SMS {#sms-live}
 
@@ -572,7 +572,7 @@ Met de grafieken en tabel van **[!UICONTROL SMS - Error Reasons]** kunt u de spe
 
 In de grafieken en tabel van **[!UICONTROL SMS - Excluded Reasons]** worden visueel de verschillende factoren weergegeven die ertoe hebben geleid dat gebruikersprofielen zijn uitgesloten van het doelpubliek, zodat gebruikers uw SMS-berichten niet kunnen ontvangen.
 
-Verwijs naar [&#x200B; deze pagina &#x200B;](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
+Verwijs naar [ deze pagina ](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
 
 <!--
 ### SMS - Clicks by links {#sms-clicks}

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: '2189'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
   </tr> 
   <tr> 
    <td> Gericht <br/> </td> 
-   <td> Het totale aantal berichten die tijdens de leveringsanalyse worden verwerkt.<br/> </td> 
+   <td> Aantal profielen dat voor het publiek kwalificeerde alvorens de uitsluitingen, onderdrukking, of toestemmingsverwijderingen werden toegepast. Bij reizen waarbij terugkeer is ingeschakeld, kan een profiel meerdere keren als doel worden ingesteld.<br/> </td> 
   </tr>
   <tr> 
    <td>Unieke grenzen <br/> </td> 
@@ -197,7 +197,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
   </tr>
   <tr> 
    <td>Uniek gericht <br/> </td> 
-   <td>Aantal unieke profielen die tijdens het verzendingsproces worden gericht.<br/> </td> 
+   <td>Aantal unieke profielen die voor het publiek vóór uitsluitingen, onderdrukking, of toestemmingsverwijderingen werden toegepast.<br/> </td> 
   </tr> 
   <tr> 
    <td> Unsubscribes <br/> </td> 

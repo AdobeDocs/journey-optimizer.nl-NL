@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d11dd1cb-041b-48cd-b1fc-bcbe12338a07
-source-git-commit: cc435a133f5fe24bff0f6ec9ec135941cf0bab99
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '2028'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!INFO]
 >
 >Aangezien Apple nieuwe privacybeschermingsfuncties heeft geïntroduceerd voor de native e-mailtoepassing, waaronder Mail Privacy Protection, kunnen afzenders geen pixels voor het bijhouden van gegevens meer gebruiken om gegevens te verzamelen over profielen die de bescherming van de privacy van Apple-mail hebben ingeschakeld. Het is dan ook mogelijk dat de mogelijkheid van Adobe Journey Optimizer om e-mailberichten te volgen met behulp van trackingpixels wordt beïnvloed.
-> [Meer informatie &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=nl) over de invloed van privacywijzigingen in Apple iOS op e-mailmarketing.
+> [Meer informatie ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780) over de invloed van privacywijzigingen in Apple iOS op e-mailmarketing.
 > 
 > We raden u aan de focus op kliks en conversiemetriek te richten in plaats van op open koersen voor nauwkeurigere inzichten.
 
@@ -72,7 +72,7 @@ In de grafiek van **[!UICONTROL Click funnel]** wordt een gedetailleerde analyse
 
 +++ Meer informatie over maatgegevens van funnel klikken
 
-* **[!UICONTROL Unique Targeted]**: aantal unieke profielen dat tijdens het verzendproces als doel is ingesteld.
+* **[!UICONTROL Unique Targeted]**: Aantal unieke profielen dat in aanmerking kwam voor het publiek voordat uitsluitingen, onderdrukking of toestemmingsverwijderingen werden toegepast.
 
 * **[!UICONTROL Unique Sends]**: aantal unieke profielen waarvoor is geprobeerd ten minste één e-mail te verzenden.
 
@@ -124,7 +124,7 @@ De tabel van **[!UICONTROL Unique Sending Statistics]** bevat een gedetailleerd 
 
 +++ Meer informatie over de statistische gegevens voor Unieke verzendstatistieken
 
-* **[!UICONTROL Unique Targeted]**: aantal unieke profielen dat tijdens het verzendproces als doel is ingesteld.
+* **[!UICONTROL Unique Targeted]**: Aantal unieke profielen dat in aanmerking kwam voor het publiek voordat uitsluitingen, onderdrukking of toestemmingsverwijderingen werden toegepast.
 
 * **[!UICONTROL Unique Sends]**: aantal unieke profielen waarvoor is geprobeerd ten minste één e-mail te verzenden.
 
@@ -170,7 +170,7 @@ De tabel **[!UICONTROL Sending Statistics]** bevat een uitgebreid overzicht van 
 
 +++ Meer informatie over het verzenden van statistieken
 
-* **[!UICONTROL Targeted]**: Het totale aantal e-mailberichten dat tijdens het verzendproces is verwerkt.
+* **[!UICONTROL Targeted]**: Aantal profielen dat in aanmerking kwam voor het publiek voordat uitsluitingen, onderdrukkingen of toestemmingsverwijderingen werden toegepast. Bij ritten waarbij terugkeer is ingeschakeld, kan een profiel meerdere keren worden aangewezen.
 
 * **[!UICONTROL Sends]**: Het totale aantal verzendingen voor uw e-mail.
 
@@ -282,7 +282,7 @@ De tabel **[!UICONTROL Email subjects]** bevat een uitgebreid overzicht van e-ma
 
 De tabel **[!UICONTROL Excluded reasons]** bevat een uitgebreide weergave van de verschillende factoren die ertoe hebben geleid dat gebruikersprofielen zijn uitgesloten van het doelpubliek, waardoor het bericht niet is ontvangen.
 
-Verwijs naar [&#x200B; deze pagina &#x200B;](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
+Verwijs naar [ deze pagina ](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
 
 ## Stuitingsredenen {#bounce-reasons-email}
 
@@ -290,7 +290,7 @@ Verwijs naar [&#x200B; deze pagina &#x200B;](exclusion-list.md) voor de uitvoeri
 
 In de tabel **[!UICONTROL Bounce Reasons]** worden de beschikbare gegevens met betrekking tot teruggestuurde berichten gecompileerd, zodat u gedetailleerde informatie krijgt over de specifieke redenen voor e-mailblokkeringen.
 
-Voor meer informatie over grenzen, verwijs naar de [&#x200B; lijst van de Onderdrukking &#x200B;](../reports/suppression-list.md) pagina.
+Voor meer informatie over grenzen, verwijs naar de [ lijst van de Onderdrukking ](../reports/suppression-list.md) pagina.
 
 ## Foutredenen {#error-reasons-email}
 
