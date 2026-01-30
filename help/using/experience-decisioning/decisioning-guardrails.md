@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 57017310f5ed34e447c47babe288b28186809f6e
+source-git-commit: 5be6ecd85b0b45e01f7a27e0ffc55a2c6a22bcea
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '263'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 Houd rekening met de volgende instructies en beperkingen om een optimaal gebruik van de beslissingsbevoegdheid te waarborgen.
 
-De volledige lijst van [!DNL Journey Optimizer] guardrails &amp; beperkingen is beschikbaar in [&#x200B; deze sectie &#x200B;](../start/guardrails.md).
+De volledige lijst van [!DNL Journey Optimizer] guardrails &amp; beperkingen is beschikbaar in [ deze sectie ](../start/guardrails.md).
 
 ## Beslissingsverzoeken {#decision-requests}
 
@@ -33,22 +33,21 @@ De volledige lijst van [!DNL Journey Optimizer] guardrails &amp; beperkingen is 
 | ------- | ------- |
 | Totaal aantal beslissingsitems | 10K |
 | Maximale grootte van items inclusief kenmerken (1 kB), max. 30 kenmerken | 1 kB |
-| Maximale grootte van itemrepresentatie (totaal voor alle plaatsingen) | 1 kB |
-| Frequentieregels - Maximumaantal regels voor aftopping per aanbieding | 10 |
+| Frequentieregels - Maximumaantal bijschriftregels per beslissingsitem | 10 |
 
 ## Itemverzamelingen {#item-collections}
 
 | Guardrail | Limiet |
 | ------- | ------- |
 | Items verzamelen | 10K |
-| Totaal aantal aanbiedingen per objectverzameling | 500 |
+| Totaal aantal beslissingspunten per collectie | 500 |
 
 ## Beslissingsbeleid {#decision-policy}
 
 | Guardrail | Limiet |
 | ------- | ------- |
 | Aantal selectiestrategieën en handmatige items per beslissingsbeleid | 10 |
-| Maximumaantal aangeboden objecten per beslissingsbeleid | 30 |
+| Max. aantal besluitvormingsitems geretourneerd per beslissingsbeleid | 30 |
 
 ## Subsidiabiliteitsregels {#eligibility-rules}
 
@@ -73,7 +72,7 @@ De volledige lijst van [!DNL Journey Optimizer] guardrails &amp; beperkingen is 
 
 | Guardrail | Limiet |
 | ------- | ------- |
-| Aantal aangepaste kenmerken per catalogusschema van aanbiedingen | 100 |
+| Aantal aangepaste kenmerken per itemcatalogusschema | 100 |
 | Totaal aantal plaatsen | 1K |
 | AI-waarderingsmodel | 5 |
 
@@ -81,4 +80,4 @@ De volledige lijst van [!DNL Journey Optimizer] guardrails &amp; beperkingen is 
 
 Het totale aantal configuraties dat Beslissende steun kan niet 20.000 overschrijden.
 
-De totale configuratiegraad is het totale aantal [&#x200B; het begrenzen regels &#x200B;](items.md#capping) die in uw zandbak bestaan.
+De totale configuratiegraad is het totale aantal [ het begrenzen regels ](items.md#capping) die in uw zandbak bestaan.
