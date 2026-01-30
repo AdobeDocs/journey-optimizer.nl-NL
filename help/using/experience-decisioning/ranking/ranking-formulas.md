@@ -7,22 +7,24 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
 
 # De AI-formulebuilder gebruiken {#create-ranking-formulas}
 
-**Rangschikkende formules** staan u toe om regels te bepalen die welke aanbieding eerst, eerder dan rekening houdend met de prioritaire scores zullen bepalen.
+**het Rangschikken formules** staat u toe om regels te bepalen die welke aanbieding eerst, eerder dan rekening houdend met de prioritaire scores zouden moeten worden voorgesteld.
 
 Als u deze regels wilt maken, biedt de AI-formule builder in **[!UICONTROL Adobe Journey Optimizer]** meer flexibiliteit en controle voor de manier waarop aanbiedingen worden gerangschikt. In plaats van alleen te vertrouwen op een statische aanbiedingsprioriteit, kunt u nu aangepaste rangschikkingsformules definiëren die AI-modelscores combineren, prioriteiten, profielkenmerken bieden, kenmerken aanbieden en contextuele signalen via een geleide interface.
 
 Deze benadering staat u toe om aanbiedingsrangschikking dynamisch aan te passen die op om het even welke combinatie van AI-gedreven neiging, bedrijfswaarde, en context in real time wordt gebaseerd, die het gemakkelijker maken om besluitvorming aan zowel marketing doelstellingen als klantenbehoeften te richten. De AI-formulebuilder ondersteunt eenvoudige of geavanceerde formules, afhankelijk van de mate van controle die u wilt toepassen.
 
-Zodra een het rangschikken formule is gecreeerd, kunt u het aan a [&#x200B; selectiestrategie &#x200B;](../selection-strategies.md) toewijzen. Als meerdere aanbiedingen in aanmerking komen om te worden gepresenteerd wanneer deze selectiestrategie wordt gebruikt, gebruikt de beslissingsmotor de geselecteerde formule om te berekenen welke aanbieding het eerst moet worden geleverd.
+Zodra een het rangschikken formule is gecreeerd, kunt u het aan a [ selectiestrategie ](../selection-strategies.md) toewijzen. Als meerdere aanbiedingen in aanmerking komen om te worden gepresenteerd wanneer deze selectiestrategie wordt gebruikt, gebruikt de beslissingsmotor de geselecteerde formule om te berekenen welke aanbieding het eerst moet worden geleverd.
+
+➡️ [Ontdek deze functie in video](#video)
 
 ## Een waarderingsformule maken {#create-ranking-formula}
 
@@ -47,26 +49,26 @@ Volg de onderstaande stappen om een rangschikkingsformule te maken.
 
    >[!NOTE]
    >
-   >[&#x200B; Gepersonaliseerde optimalisatiemodellen &#x200B;](personalized-optimization-model.md) die ononderbroken metriek gebruiken worden niet gesteund met de AI formule bouwer.
+   >[ Gepersonaliseerde optimalisatiemodellen ](personalized-optimization-model.md) die ononderbroken metriek gebruiken worden niet gesteund met de AI formule bouwer.
 
    Telkens wanneer u naar een modelscore verwijst wanneer u hieronder uw formule bepaalt, zal het AI model worden gebruikt dat u selecteerde.
 
    >[!CAUTION]
    >
-   >Wanneer het gebruiken van een AI model in een rangschikkende formule wordt opgenomen, worden de gegevens niet weerspiegeld in het [&#x200B; tarief van de Omzetting voor Holdout en Model Gedreven verkeer &#x200B;](../../reports/campaign-global-report-cja-code.md#conversion-rate) rapport.
+   >Wanneer het gebruiken van een AI model in een rangschikkende formule wordt opgenomen, worden de gegevens niet weerspiegeld in het [ tarief van de Omzetting voor Holdout en Model Gedreven verkeer ](../../reports/campaign-global-report-cja-code.md#conversion-rate) rapport.
 
 1. Bepaal de voorwaarden die de rangschikkingsscore voor de passende besluitvormingspunten zullen bepalen. U kunt
 
-   * vul de **[!UICONTROL Criteria]** sectie van het [&#x200B; gebruikersinterface &#x200B;](#ranking-select-criteria) in,
-   * of schakelaar aan de [&#x200B; coderedacteur &#x200B;](#ranking-code-editor).
+   * vul de **[!UICONTROL Criteria]** sectie van het [ gebruikersinterface ](#ranking-select-criteria) in,
+   * of schakelaar aan de [ coderedacteur ](#ranking-code-editor).
 
    >[!NOTE]
    >
-   >De nestdiepte in een rangschikkingsformule is beperkt tot 30 niveaus. Dit wordt gemeten door de `)` haakjes sluiten in de PQL-tekenreeks te tellen. Een regeltekenreeks kan maximaal 8 kB groot zijn voor UTF-8-gecodeerde tekens. Dit komt overeen met 8.000 ASCII-tekens (1 byte elk) of 2.000-4.000 niet-ASCII-tekens (2-4 bytes elk). [&#x200B; leer meer over het Beslissen van gidsen &amp; beperkingen &#x200B;](../decisioning-guardrails.md#ranking-formulas)
+   >De nestdiepte in een rangschikkingsformule is beperkt tot 30 niveaus. Dit wordt gemeten door de `)` haakjes sluiten in de PQL-tekenreeks te tellen. Een regeltekenreeks kan maximaal 8 kB groot zijn voor UTF-8-gecodeerde tekens. Dit komt overeen met 8.000 ASCII-tekens (1 byte elk) of 2.000-4.000 niet-ASCII-tekens (2-4 bytes elk). [ leer meer over het Beslissen van gidsen &amp; beperkingen ](../decisioning-guardrails.md#ranking-formulas)
 
-1. U kunt ook gegevens uit Adobe Experience Platform gebruiken om de waarderingslogica dynamisch aan te passen aan de omstandigheden in de praktijk. Dit is vooral nuttig voor attributen die vaak veranderen, zoals productbeschikbaarheid, of prijs in real time.
+1. U kunt ook gegevens uit Adobe Experience Platform gebruiken om de waarderingslogica dynamisch aan te passen aan de omstandigheden in de praktijk. Dit is vooral nuttig voor attributen die vaak veranderen, zoals productbeschikbaarheid of prijs in real time.
 
-   Deze mogelijkheid is momenteel beschikbaar voor alle klanten als een openbare bètaversie. Neem contact op met uw accountvertegenwoordiger als u toegang wilt. [&#x200B; Leer hoe te om de gegevens van Adobe Experience Platform voor besluit te gebruiken &#x200B;](../aep-data-exd.md)
+   Deze mogelijkheid is momenteel beschikbaar voor alle klanten als een openbare bètaversie. Neem contact op met uw accountvertegenwoordiger als u toegang wilt. [ Leer hoe te om de gegevens van Adobe Experience Platform voor besluit te gebruiken ](../aep-data-exd.md)
 
 <!--## Select an ELS dataset {#els-dataset}
 
@@ -93,9 +95,9 @@ Volg de onderstaande stappen om criteria rechtstreeks vanuit de interface te def
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
 
 1. Geef in de sectie **[!UICONTROL Criterion 1]** de beslissingsitems op waarop u een waarderingsscore wilt toepassen door het volgende te doen:
-   * selecteer de attributen van het a [&#x200B; besluitvormingspunt &#x200B;](../items.md#attributes),
-   * een logische operator te selecteren,
-   * Voeg een passende voorwaarde toe - u kunt of een waarde typen, of een profielattribuut of [&#x200B; contextgegevens &#x200B;](../context-data.md) selecteren.
+   * selecteren de attributen van het a [ besluit punt ](../items.md#attributes)
+   * een logische operator selecteren
+   * voeg een passende voorwaarde toe - u of een waarde kan typen, of een profielattribuut of [ contextgegevens ](../context-data.md) selecteren
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 
@@ -107,8 +109,8 @@ Volg de onderstaande stappen om criteria rechtstreeks vanuit de interface te def
 
 1. Creeer een uitdrukking die een rangschikkingsscore aan de besluitpunten zal toewijzen die aan de hierboven bepaalde voorwaarde voldoen. U kunt naar elk van de volgende items verwijzen:
 
-   * de score die uit het AI model kwam dat u naar keuze in de **[!UICONTROL Details]** sectie [&#x200B; hierboven &#x200B;](#create-ranking-formula) selecteerde;
-   * de prioriteit van het besluitvormingspunt, die een waarde manueel wordt toegewezen wanneer [&#x200B; creërend een besluitvormingspunt &#x200B;](../items.md#attributes); <!--If a profile qualifies for multiple decision items, a higher priority grants the item precedence over others.-->
+   * de score die uit het AI model kwam dat u naar keuze in de **[!UICONTROL Details]** sectie [ hierboven ](#create-ranking-formula) selecteerde;
+   * de prioriteit van het besluitvormingspunt, die een waarde manueel wordt toegewezen wanneer [ creërend een besluitvormingspunt ](../items.md#attributes); <!--If a profile qualifies for multiple decision items, a higher priority grants the item precedence over others.-->
    * alle kenmerken die in het profiel kunnen voorkomen, zoals een extern afgeleide vermogensscore;
    * een statische waarde die u in een vrije indeling kunt toewijzen;
    * een combinatie van alle bovenstaande punten.
@@ -127,7 +129,7 @@ Volg de onderstaande stappen om criteria rechtstreeks vanuit de interface te def
 
    ![](../assets/ranking-formula-criteria-not-met.png){width="70%"}
 
-1. Klik op **[!UICONTROL Create]** om uw waarderingsformule te voltooien. U kunt deze nu in de lijst selecteren om de details weer te geven en vervolgens bewerken of verwijderen. Het is klaar om in a [&#x200B; selectiestrategie &#x200B;](../selection-strategies.md) te worden gebruikt om in aanmerking komende besluitvormingspunten te rangschikken.
+1. Klik op **[!UICONTROL Create]** om uw waarderingsformule te voltooien. U kunt deze nu in de lijst selecteren om de details weer te geven en vervolgens bewerken of verwijderen. Het is klaar om in a [ selectiestrategie ](../selection-strategies.md) te worden gebruikt om in aanmerking komende besluitvormingspunten te rangschikken.
 
 ### Voorbeeld van een willekeurige formule
 
@@ -139,13 +141,13 @@ Als het gebied van het besluitpunt (douaneattribuut) het geografische etiket van
 
 ## De code-editor gebruiken {#ranking-code-editor}
 
-Om rangschikkende formules in **syntaxis van PQL** uit te drukken, schakelaar aan de coderedacteur gebruikend de specifieke knoop op hoogste recht van het scherm. Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [&#x200B; specifieke documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=nl-NL).
+Om rangschikkende formules in **syntaxis van PQL** uit te drukken, schakelaar aan de coderedacteur gebruikend de specifieke knoop op hoogste recht van het scherm. Voor meer op hoe te om de syntaxis van PQL te gebruiken, verwijs naar de [ specifieke documentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
 >[!CAUTION]
 >
 >Hierdoor kunt u niet terugkeren naar de standaardbuilderweergave voor deze formule.
 
-U kunt de attributen van het hefboomprofiel, [&#x200B; contextgegevens &#x200B;](../context-data.md), en [&#x200B; attributen van het besluitvormingspunt &#x200B;](../items.md#attributes) dan.
+U kunt de attributen van het hefboomprofiel, [ contextgegevens ](../context-data.md), en [ attributen van het besluitvormingspunt ](../items.md#attributes) dan.
 
 U wilt bijvoorbeeld de prioriteit van alle aanbiedingen verhogen met het kenmerk &quot;hot&quot; als het werkelijke weer heet is. Om dit te doen, werd **contextData.weather=hot** overgegaan in de beslissingsvraag. <!--[Learn how to work with context data](context-data.md)-->
 
@@ -247,7 +249,7 @@ Met [!DNL Journey Optimizer] kunt u bepaalde aanbiedingen verhogen op basis van 
 
 >[!NOTE]
 >
->Voor gedetailleerde informatie over hoe te om contextgegevens <!-- using the **Edge Decisioning** and **Decisioning** APIs--> over te gaan, verwijs naar [&#x200B; deze sectie &#x200B;](../context-data.md).
+>Voor gedetailleerde informatie over hoe te om contextgegevens <!-- using the **Edge Decisioning** and **Decisioning** APIs--> over te gaan, verwijs naar [ deze sectie ](../context-data.md).
 
 Merk op dat wanneer het gebruiken van **Beslissing** API, de contextgegevens aan het profielelement in het verzoeklichaam, zoals in het hieronder voorbeeld worden toegevoegd:
 
@@ -274,3 +276,9 @@ Merk op dat wanneer het gebruiken van **Beslissing** API, de contextgegevens aan
 ```
 
 +++
+
+## Hoe kan ik-video {#video}
+
+Leer hoe u de AI Formula Builder in Adobe Journey Optimizer kunt gebruiken voor het maken van classificatiestrategieën voor aangepaste aanbiedingen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464446/?learn=on&enablevpops)
