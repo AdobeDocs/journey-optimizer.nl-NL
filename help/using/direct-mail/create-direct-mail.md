@@ -32,8 +32,8 @@ Als u direct-mailberichten wilt maken, maakt u een geplande campagne of een reis
 >
 >Voordat u een direct-mailbericht maakt, moet u controleren of u het volgende hebt geconfigureerd:
 >
->1. A [&#x200B; dossier dat configuratie &#x200B;](../direct-mail/direct-mail-configuration.md#file-routing-configuration) verplettert die de server specificeert waar het extractiedossier zou moeten worden geupload en worden opgeslagen,
->1. A [&#x200B; direct-mailberichtconfiguratie &#x200B;](../direct-mail/direct-mail-configuration.md#direct-mail-surface) die het dossier zal van verwijzingen voorzien dat configuratie verplettert.
+>1. A [ dossier dat configuratie ](../direct-mail/direct-mail-configuration.md#file-routing-configuration) verplettert die de server specificeert waar het extractiedossier zou moeten worden geupload en worden opgeslagen,
+>1. A [ direct-mailberichtconfiguratie ](../direct-mail/direct-mail-configuration.md#direct-mail-surface) die het dossier zal van verwijzingen voorzien dat configuratie verplettert.
 
 ## Een e-mailbericht toevoegen {#create-dm-campaign}
 
@@ -41,27 +41,27 @@ Blader op de onderstaande tabbladen om te leren hoe u een direct-mailbericht kun
 
 >[!BEGINTABS]
 
->[!TAB voeg een Directe postbericht aan een Reis  toe]
+>[!TAB  voeg een Directe postbericht aan een Reis ] toe
 
-1. Open uw reis dan belemmering en laat vallen a **[!UICONTROL Direct mail]** activiteit van de **2&rbrace; sectie van Acties &lbrace;van het palet.**
+1. Open uw reis dan belemmering en laat vallen a **[!UICONTROL Direct mail]** activiteit van de **2} sectie van Acties {van het palet.**
 
-1. Verstrek basisinformatie over uw bericht (etiket, beschrijving, categorie), dan kies de berichtconfiguratie aan gebruik. Het veld **[!UICONTROL configuration]** wordt standaard voorgevuld met de laatste configuratie die de gebruiker voor dat kanaal heeft gebruikt. Voor meer informatie over hoe te om een reis te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../building-journeys/journey-gs.md).
+1. Verstrek basisinformatie over uw bericht (etiket, beschrijving, categorie), dan kies de berichtconfiguratie aan gebruik. Het veld **[!UICONTROL configuration]** wordt standaard voorgevuld met de laatste configuratie die de gebruiker voor dat kanaal heeft gebruikt. Voor meer informatie over hoe te om een reis te vormen, verwijs naar [ deze pagina ](../building-journeys/journey-gs.md).
 
 1. Configureer het extractiebestand dat u naar uw directe-mailprovider wilt verzenden. Klik hiertoe op de knop **[!UICONTROL Edit content]** .
 
    ![](assets/direct-mail-add-journey.png)
 
-1. Pas de eigenschappen van het extractiebestand aan, zoals de bestandsnaam, of de kolommen die u wilt weergeven. Voor meer informatie over hoe te om de eigenschappen van het extractiedossier te vormen, verwijs naar deze sectie: [&#x200B; creeer een direct-mailbericht &#x200B;](../direct-mail/create-direct-mail.md#extraction-file).
+1. Pas de eigenschappen van het extractiebestand aan, zoals de bestandsnaam, of de kolommen die u wilt weergeven. Voor meer informatie over hoe te om de eigenschappen van het extractiedossier te vormen, verwijs naar deze sectie: [ creeer een direct-mailbericht ](../direct-mail/create-direct-mail.md#extraction-file).
 
    ![](assets/direct-mail-journey-content.png)
 
 1. Nadat de inhoud van het extractiebestand is gedefinieerd, kunt u er testprofielen voor gebruiken. Als u gepersonaliseerde inhoud hebt ingevoegd, kunt u met behulp van testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
 
-   Klik hiertoe op **[!UICONTROL Simulate content]** en voeg vervolgens een testprofiel toe om te controleren hoe het extractiebestand met de testprofielgegevens wordt gerenderd. De gedetailleerde informatie over hoe te om testprofielen en voorproef uw inhoud te selecteren is beschikbaar in de [&#x200B; sectie van het Beheer van de Inhoud &#x200B;](../content-management/preview-test.md).
+   Klik hiertoe op **[!UICONTROL Simulate content]** en voeg vervolgens een testprofiel toe om te controleren hoe het extractiebestand met de testprofielgegevens wordt gerenderd. De gedetailleerde informatie over hoe te om testprofielen en voorproef uw inhoud te selecteren is beschikbaar in de [ sectie van het Beheer van de Inhoud ](../content-management/preview-test.md).
 
    ![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-Wanneer uw extractiedossier klaar is, voltooi de configuratie van uw [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md) om het te verzenden.
+Wanneer uw extractiedossier klaar is, voltooi de configuratie van uw [ reis ](../building-journeys/journey-gs.md) om het te verzenden.
 
 >[!TAB  voeg een Directe postbericht aan een Campagne toe ]
 
@@ -81,15 +81,15 @@ Wanneer uw extractiedossier klaar is, voltooi de configuratie van uw [&#x200B; r
 
 1. Kies in de sectie **[!UICONTROL Actions]** de optie **[!UICONTROL Direct mail]** .
 
-1. Selecteer of maak een **[!UICONTROL Direct mail configuration]** die u wilt gebruiken. [&#x200B; Leer hoe te om een direct-mailconfiguratie &#x200B;](direct-mail-configuration.md#direct-mail-surface) tot stand te brengen.
+1. Selecteer of maak een **[!UICONTROL Direct mail configuration]** die u wilt gebruiken. [ Leer hoe te om een direct-mailconfiguratie ](direct-mail-configuration.md#direct-mail-surface) tot stand te brengen.
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
    >[!AVAILABILITY]
    >
-   >De directe Post steunt de **Holdout** functionaliteit maar steunt momenteel niet **Behandelingen**. [&#x200B; leren hoe te met experimenten &#x200B;](../content-management/get-started-experiment.md) te werken
+   >De directe Post steunt de **Holdout** functionaliteit maar steunt momenteel niet **Behandelingen**. [ leren hoe te met experimenten ](../content-management/get-started-experiment.md) te werken
 
-1. De campagnes kunnen voor een specifieke datum worden gepland of worden geplaatst om met regelmatige intervallen opnieuw te komen. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [&#x200B; te vormen deze sectie &#x200B;](../campaigns/campaign-schedule.md).
+1. De campagnes kunnen voor een specifieke datum worden gepland of worden geplaatst om met regelmatige intervallen opnieuw te komen. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [ te vormen deze sectie ](../campaigns/campaign-schedule.md).
 
 U kunt nu het extractiebestand configureren en verzenden naar uw directe-mailprovider.
 
@@ -131,7 +131,7 @@ Het extractiebestand wordt vereist door directe-mailproviders om e-mail naar uw 
 
    1. Het deelvenster **[!UICONTROL Formatting]** wordt aan de rechterkant weergegeven, zodat u de geselecteerde kolom kunt instellen. Geef een **[!UICONTROL Label]** voor de kolom op.
 
-   1. Op het **[!UICONTROL Data]** gebied, selecteer de profielattributen om te tonen gebruikend de [&#x200B; verpersoonlijkingsredacteur &#x200B;](../personalization/personalization-build-expressions.md).
+   1. Op het **[!UICONTROL Data]** gebied, selecteer de profielattributen om te tonen gebruikend de [ verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md).
 
    1. Als u het extractiebestand wilt sorteren met een kolom, selecteert u de kolom en schakelt u de optie **[!UICONTROL Sort by]** in. Het pictogram **[!UICONTROL Sort By]** wordt weergegeven naast het label van de kolom in de sectie **[!UICONTROL Data Fields]** .
 
@@ -141,4 +141,4 @@ Het extractiebestand wordt vereist door directe-mailproviders om e-mail naar uw 
 
       Als u de positie van een kolom wilt wijzigen, sleept u de kolom naar de gewenste locatie in de sectie **[!UICONTROL Data field]** . Als u een kolom wilt verwijderen, selecteert u deze en klikt u op de knop **[!UICONTROL Remove]** in het deelvenster **[!UICONTROL Formatting]** .
 
-U kunt nu uw directe-mailbericht testen en verzenden naar uw publiek. [&#x200B; Leer hoe te om direct-mailberichten te testen en te verzenden &#x200B;](test-send-direct-mail.md)
+U kunt nu uw directe-mailbericht testen en verzenden naar uw publiek. [ Leer hoe te om direct-mailberichten te testen en te verzenden ](test-send-direct-mail.md)
