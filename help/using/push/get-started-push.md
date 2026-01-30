@@ -27,9 +27,9 @@ Met pushberichten bereikt u op elk gewenst moment gebruikers van uw mobiele app,
 
 U kunt pushmeldingen maken:
 
-* In a **Weg**: Zodra u een activiteit van de Duw in uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Push]** juiste ruit om de inhoud voor de Duw berichten tot stand te brengen. [ leer hoe te om een reis ](../building-journeys/journey-gs.md) tot stand te brengen
+* In a **Weg**: Zodra u een activiteit van de Duw in uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Push]** juiste ruit om de inhoud voor de Duw berichten tot stand te brengen. [&#x200B; leer hoe te om een reis &#x200B;](../building-journeys/journey-gs.md) tot stand te brengen
 
-* In a **Campagne**: Zodra u een campagne creeerde, uitgezocht duw bericht als uw actie en bepaalt basismontages. Leer hoe te om [ een actiecampagne ](../campaigns/campaign-action.md#action-campaign-action) te creëren | [ een API-teweeggebrachte campagne ](../campaigns/api-triggered-campaigns.md) | [ een georkestreerde campagne ](../orchestrated/create-orchestrated-campaign.md#create)
+* In a **Campagne**: Zodra u een campagne creeerde, uitgezocht duw bericht als uw actie en bepaalt basismontages. Leer hoe te om [&#x200B; een actiecampagne &#x200B;](../campaigns/campaign-action.md#action-campaign-action) te creëren | [&#x200B; een API-teweeggebrachte campagne &#x200B;](../campaigns/api-triggered-campaigns.md) | [&#x200B; een georkestreerde campagne &#x200B;](../orchestrated/create-orchestrated-campaign.md#create)
 
 Gebruik de specifieke lusjes om de montages van het duw- bericht voor **iOS** en **Android** te bepalen.
 
