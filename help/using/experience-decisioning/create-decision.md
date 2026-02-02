@@ -89,4 +89,4 @@ Nu u begrijpt hoe beleidsbeslissingen werken en hoe u persoonlijke aanbiedingen 
 
 Leer hoe u met Beslissing e-mails voor uw publiek kunt personaliseren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479216?captions=dut&quality=12)
