@@ -85,12 +85,12 @@ De belangrijkste stappen voor hefboomwerking beslissingsbeleid in berichten zijn
 
 Leer hoe u met Beslissing e-mails voor uw publiek kunt personaliseren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479216?captions=dut&quality=12)
 
 Leer hoe u met Beslissing pushmeldingen kunt personaliseren voor uw publiek.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479216?captions=dut&quality=12)
 
 Leer hoe u met Beslissing SMS-berichten voor uw publiek kunt personaliseren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479535?captions=dut&quality=12)
