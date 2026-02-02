@@ -50,7 +50,7 @@ Beslissingsbeleid is containers voor uw aanbiedingen die de beslissingsengine ge
 ## Afbeeldingen en beperkingen
 
 * **Gesteunde kanalen** - het beleid van het Besluit is beschikbaar voor deze kanalen: Op code-gebaseerde Ervaring, Directe post, E-mail, en Push berichten.
-* **Push berichten SDK vereiste** - Ervaar Beslissing met duimberichten vereist een specifieke versie van Mobiele SDK. Alvorens deze eigenschap uit te voeren, controleer de [ versienota&#39;s ](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} om de vereiste versie te identificeren en u te verzekeren dienovereenkomstig hebt bevorderd. U kunt alle beschikbare versies van SDK voor uw platform in [ ook bekijken deze sectie ](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
+* **Push berichten SDK vereiste** - Ervaar Beslissing met duimberichten vereist een specifieke versie van Mobiele SDK. Alvorens deze eigenschap uit te voeren, controleer de [&#x200B; versienota&#39;s &#x200B;](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} om de vereiste versie te identificeren en u te verzekeren dienovereenkomstig hebt bevorderd. U kunt alle beschikbare versies van SDK voor uw platform in [&#x200B; ook bekijken deze sectie &#x200B;](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
 * **E-mail spiegelpagina&#39;s** - voor nu, geven de besluitvormingspunten niet in e-mailspiegelpagina&#39;s terug.
 * **het Volgen &amp; het type van verbindingen** - om verbindingen te volgen die door besluit worden geproduceerd, bepaal hen in het schema als &quot;Beslissende Assets&quot;. Op kenmerken gebaseerde koppelingen kunnen niet worden gevolgd.
 * **beleid dat van het Besluit in e-mail** negeert - u kunt geen veelvoudige besluitvormingsbeleid binnen een ouder e-mailcomponent nesten die reeds een bijbehorend besluitvormingsbeleid heeft.
@@ -73,13 +73,13 @@ De belangrijkste stappen voor hefboomwerking beslissingsbeleid in berichten zijn
 
    Voeg een besluitvormingsbeleid in uw bericht toe en vorm het aantal punten aan terugkeer, de selectiestrategie en reserveopties.
 
-   ➡️ [ Leer hoe te om een besluitvormingsbeleid ](../experience-decisioning/create-decision-policy.md) tot stand te brengen
+   ➡️ [&#x200B; Leer hoe te om een besluitvormingsbeleid &#x200B;](../experience-decisioning/create-decision-policy.md) tot stand te brengen
 
 1. **gebruik het besluitvormingsbeleid in uw inhoud**
 
    Personaliseer uw inhoud met de output van het besluitvormingsbeleid door de attributen van de besluitpunten op te nemen u in het bericht wilt tonen
 
-   ➡️ [ Leer hoe te om besluitvormingsbeleid in berichten te gebruiken ](../experience-decisioning/create-decision-policy.md)
+   ➡️ [&#x200B; Leer hoe te om besluitvormingsbeleid in berichten te gebruiken &#x200B;](../experience-decisioning/create-decision-policy.md)
 
 ## Hoe kan ik-video&#39;s {#video}
 
