@@ -214,7 +214,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **AI de Controles van de Kwaliteit van de Inhoud van de Inhoud &lbrace;** - Naast merkgroepering, kunt u algemene <strong> inhoudskwaliteit </strong> nu evalueren om potentiële kwesties met <strong> leesbaarheid </strong>, samenhang, en doeltreffendheid, onafhankelijk van uw merkrichtlijnen te ontdekken. Deze geautomatiseerde controles helpen onduidelijk overseinen, inconsistente toon, of structurele hiaten identificeren. [Meer informatie](../content-management/brands-score.md#validate-quality).
 
-  [&#x200B; ontdekt deze eigenschap in video &#x200B;](https://video.tv.adobe.com/v/3470544/?learn=on).
+  [&#x200B; ontdekt deze eigenschap in video &#x200B;](https://video.tv.adobe.com/v/3470552/?captions=dut&learn=on).
 
 #### Journeys
 
