@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
 workflow-type: tm+mt
-source-wordcount: '3074'
+source-wordcount: '3086'
 ht-degree: 15%
 
 ---
@@ -132,7 +132,11 @@ ht-degree: 15%
       + [Leveringen opwaarderen](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Productie beperken met externe gegevensbronnen en aangepaste acties](using/building-journeys/limit-throughput.md)
       + [Aangepaste acties gebruiken om gebeurtenissen voor reizen in Experience Platform te schrijven](using/building-journeys/custom-action-aep.md)
-+ [Loyalty Challenges](using/loyalty-challenges/loyalty-challenges.md)
++ Loyalty-uitdagingen {#loyalty-challenges}
+   + [Aan de slag met Loyalty Challenges](using/loyalty-challenges/gs-loyalty-challenges.md)
+   + [Uitdagingen van Loyalty begrijpen](using/loyalty-challenges/get-started.md)
+   + [Uitdagingen maken](using/loyalty-challenges/create-challenges.md)
+   + [Uitdagingen beheren](using/loyalty-challenges/manage-challenges.md)
 + Campagnes {#campaigns}
    + [Campagnes](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Aan de slag met campagnes](using/campaigns/get-started-with-campaigns.md)
@@ -844,7 +848,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
