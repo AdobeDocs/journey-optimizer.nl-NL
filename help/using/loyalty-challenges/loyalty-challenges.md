@@ -90,7 +90,7 @@ Voordat u Loyalty Challenges gaat gebruiken, moet u controleren of u beschikt ov
 
   Zie voor gedetailleerde instructies:
 
-   * [&#x200B; Experience Platform brondocumentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+   * [&#x200B; Experience Platform brondocumentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home)
    * [Bronconnectors configureren in Journey Optimizer](../start/get-started-sources.md)
 
 * Vereiste machtigingen {#required-permissions}
@@ -1040,5 +1040,5 @@ Tijdens de bètafase is uw feedback nuttig om ons te helpen bij het verbeteren v
 * [Pushberichten maken](../push/create-push.md)
 * [Reizen samenstellen](../building-journeys/journey-gs.md)
 * [Uw reizen volgen](../building-journeys/report-journey.md)
-* [&#x200B; Experience Platform brondocumentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [&#x200B; Experience Platform brondocumentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home)
 * [Bronconnectors configureren in Journey Optimizer](../start/get-started-sources.md)
