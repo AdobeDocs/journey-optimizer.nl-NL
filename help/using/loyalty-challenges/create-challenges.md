@@ -31,10 +31,10 @@ Creeer een loyaliteitsuitdaging om de betrokkenheidsaanbieding te bepalen, inhou
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [ begin met de Uitdagingen van de Loyalty ](gs-loyalty-challenges.md) - Snel overzicht en volgende stappen
-* [ Begrijp Loyalty Uitdagingen ](get-started.md) - Eigenschappen, werkschema, eerste vereisten
+* [&#x200B; begin met de Uitdagingen van de Loyalty &#x200B;](gs-loyalty-challenges.md) - Snel overzicht en volgende stappen
+* [&#x200B; Begrijp Loyalty Uitdagingen &#x200B;](get-started.md) - Eigenschappen, werkschema, eerste vereisten
 * **creeer uitdagingen** {2 }︎ ◀ u hier **bent - bouw en vorm uitdagingen**
-* [ beheert uitdagingen ](manage-challenges.md) - geef uit, controleer, optimaliseer
+* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - geef uit, controleer, optimaliseer
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ Voor gedetailleerde stappen voor het creëren van uitdagingen zoals:
 * Selectie publiek
 * Datumconfiguratie
 
-Zie de volledige gids in de [ belangrijkste documentatie ](loyalty-challenges.md#create-challenges).
+Zie de volledige gids in de [&#x200B; belangrijkste documentatie &#x200B;](loyalty-challenges.md#create-challenges).
 
 ## Taken toevoegen {#add-tasks}
 
@@ -248,7 +248,7 @@ Voor gedetailleerde stappen bij het configureren van inhoudskaarten, waaronder:
 * Ontwerp en personalisatie
 * Voorvertonen en testen
 
-Zie de volledige gids in de [ belangrijkste documentatie ](loyalty-challenges.md#configure-content-cards).
+Zie de volledige gids in de [&#x200B; belangrijkste documentatie &#x200B;](loyalty-challenges.md#configure-content-cards).
 
 ## Berichten configureren {#configure-messaging}
 
@@ -257,7 +257,7 @@ Voor gedetailleerde stappen bij het vormen van multi-kanaaloverseinen die omvatt
 * Berichtfasen (opstarten, bezig, voltooid)
 * Berichttiming en -triggers
 
-Zie de volledige gids in de [ belangrijkste documentatie ](loyalty-challenges.md#configure-messaging).
+Zie de volledige gids in de [&#x200B; belangrijkste documentatie &#x200B;](loyalty-challenges.md#configure-messaging).
 
 ## Reviseren en publiceren {#review-and-publish}
 
@@ -271,5 +271,5 @@ De automatisch gegenereerde reis wordt geactiveerd op de opgegeven startdatum.
 
 ## Volgende stappen {#next-steps}
 
-* [ beheert uitdagingen ](manage-challenges.md) - Leer hoe te, uitdagingen uit te geven te controleren en te optimaliseren
-* [ Begrijp Loyalty Uitdagingen ](get-started.md) - de eigenschappen en de mogelijkheden van het overzicht
+* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - Leer hoe te, uitdagingen uit te geven te controleren en te optimaliseren
+* [&#x200B; Begrijp Loyalty Uitdagingen &#x200B;](get-started.md) - de eigenschappen en de mogelijkheden van het overzicht
