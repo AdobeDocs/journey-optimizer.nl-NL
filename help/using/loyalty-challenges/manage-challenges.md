@@ -31,9 +31,9 @@ Na het creëren van en het publiceren van loyaliteitsuitdagingen, kunt u hen bek
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [ begin met de Uitdagingen van de Loyalty ](gs-loyalty-challenges.md) - Snel overzicht en volgende stappen
-* [ Begrijp Loyalty Uitdagingen ](get-started.md) - Eigenschappen, werkschema, eerste vereisten
-* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
+* [&#x200B; begin met de Uitdagingen van de Loyalty &#x200B;](gs-loyalty-challenges.md) - Snel overzicht en volgende stappen
+* [&#x200B; Begrijp Loyalty Uitdagingen &#x200B;](get-started.md) - Eigenschappen, werkschema, eerste vereisten
+* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
 * **beheer uitdagingen** {2 }︎ ◀ u hier **bent - geef uit, controleer, optimaliseer**
 
 >[!ENDSHADEBOX]
@@ -49,7 +49,7 @@ De uitdagingen bewegen zich door verschillende statussen:
 * **Gestopt**: Handmatig tegengehouden vóór voltooiing
 * **Gearchiveerd**: Gearchiveerd voor organisatorische doeleinden
 
-Voor gedetailleerde informatie over elke status en het beheren van uitdagingen, zie de [ belangrijkste documentatie ](loyalty-challenges.md#manage-challenges).
+Voor gedetailleerde informatie over elke status en het beheren van uitdagingen, zie de [&#x200B; belangrijkste documentatie &#x200B;](loyalty-challenges.md#manage-challenges).
 
 ## Uitdagingen bewerken {#edit-challenges}
 
@@ -60,7 +60,7 @@ U kunt uitdagingen afhankelijk van hun huidige status uitgeven:
 
 Voor veranderingen die belangrijke wijzigingen vereisen, dupliceer de uitdaging en creeer een nieuwe versie.
 
-Zie de [ belangrijkste documentatie ](loyalty-challenges.md#edit-challenges) voor gedetailleerde het uitgeven richtlijnen.
+Zie de [&#x200B; belangrijkste documentatie &#x200B;](loyalty-challenges.md#edit-challenges) voor gedetailleerde het uitgeven richtlijnen.
 
 ## Dubbele uitdagingen {#duplicate-challenges}
 
@@ -70,7 +70,7 @@ Dubbele uitdagingen voor:
 * Taakvereisten of beloningen bijwerken
 * Ge-gedaan of voltooide uitdagingen opnieuw activeren
 
-Zie de [ belangrijkste documentatie ](loyalty-challenges.md#duplicate-challenge) voor gedetailleerde stappen.
+Zie de [&#x200B; belangrijkste documentatie &#x200B;](loyalty-challenges.md#duplicate-challenge) voor gedetailleerde stappen.
 
 ## Monitorprestaties {#monitor-performance}
 
@@ -83,7 +83,7 @@ Houd de prestaties van de uitdaging bij door:
 
 Toegang tot prestatiegegevens op het tabblad Uitdagingsprestaties en de automatisch gegenereerde reisrapporten.
 
-Zie de [ belangrijkste documentatie ](loyalty-challenges.md#monitor-performance) voor gedetailleerde metriek en het melden.
+Zie de [&#x200B; belangrijkste documentatie &#x200B;](loyalty-challenges.md#monitor-performance) voor gedetailleerde metriek en het melden.
 
 ## Best practices {#best-practices}
 
@@ -101,7 +101,7 @@ Zie de [ belangrijkste documentatie ](loyalty-challenges.md#monitor-performance)
 * Consistente tags toepassen voor organisatie
 * Voltooide uitdagingen archiveren om de voorraad beheerbaar te houden
 
-Zie de [ belangrijkste documentatie ](loyalty-challenges.md#best-practices) voor uitvoerige beste praktijken.
+Zie de [&#x200B; belangrijkste documentatie &#x200B;](loyalty-challenges.md#best-practices) voor uitvoerige beste praktijken.
 
 ## Problemen oplossen {#troubleshooting}
 
@@ -112,9 +112,9 @@ Algemene problemen en oplossingen:
 * **Taken teweegbrengend niet**: De gegevens van de controle, gebeurtenisattributen, publieksgeschiktheid
 * **beloningen die** niet toewijzen: Bevestig configuratie en externe systeemverbinding
 
-Zie de [ belangrijkste documentatie ](loyalty-challenges.md#troubleshooting) voor gedetailleerde het oplossen van problemenbegeleiding.
+Zie de [&#x200B; belangrijkste documentatie &#x200B;](loyalty-challenges.md#troubleshooting) voor gedetailleerde het oplossen van problemenbegeleiding.
 
 ## Volgende stappen {#next-steps}
 
-* [ creeer uitdagingen ](create-challenges.md) - bouw nieuwe loyaliteitsuitdagingen
-* [ Begrijp Loyalty Uitdagingen ](get-started.md) - de eigenschappen en de mogelijkheden van het overzicht
+* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw nieuwe loyaliteitsuitdagingen
+* [&#x200B; Begrijp Loyalty Uitdagingen &#x200B;](get-started.md) - de eigenschappen en de mogelijkheden van het overzicht
