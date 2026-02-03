@@ -53,7 +53,7 @@ Blader door de onderstaande tabbladen, afhankelijk van uw SMS-providers:
 
    * **[!UICONTROL Type]**: Binnenkomend.
 
-   * **[!UICONTROL API credentials]**: Kies van drop-down u [ eerder gevormde API geloofsbrieven ](sms-configuration-custom.md#api-credential).
+   * **[!UICONTROL API credentials]**: Kies van drop-down u [&#x200B; eerder gevormde API geloofsbrieven &#x200B;](sms-configuration-custom.md#api-credential).
 
    * **[!UICONTROL Sender Phone Number &#x200B;]**: ga het de telefoonaantal van de Afzender in &#x200B; u voor uw mededelingen wilt gebruiken.
 
@@ -87,7 +87,7 @@ Blader door de onderstaande tabbladen, afhankelijk van uw SMS-providers:
 
    ![](assets/sms_byo_7.png){zoomable="yes"}
 
-Na het creëren van en het vormen van de montages voor Webhaak, moet u nu a [ kanaalconfiguratie ](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
+Na het creëren van en het vormen van de montages voor Webhaak, moet u nu a [&#x200B; kanaalconfiguratie &#x200B;](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
 
 Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zoals bericht creatie, verpersoonlijking, verbinding het volgen, en rapportering.
 
@@ -105,7 +105,7 @@ Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zo
 
    * **[!UICONTROL Type]**: Binnenkomend.
 
-   * **[!UICONTROL API credentials]**: Kies van drop-down u [ eerder gevormde API geloofsbrieven ](sms-configuration-infobip.md#api-credential).
+   * **[!UICONTROL API credentials]**: Kies van drop-down u [&#x200B; eerder gevormde API geloofsbrieven &#x200B;](sms-configuration-infobip.md#api-credential).
 
    * **[!UICONTROL Sender Phone Number &#x200B;]**: ga het de telefoonaantal van de Afzender in &#x200B; u voor uw mededelingen wilt gebruiken.
 
@@ -135,7 +135,7 @@ Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zo
 
    ![](assets/sms_byo_7.png){zoomable="yes"}
 
-Na het creëren van en het vormen van de binnenkomende montages voor Webhaak, moet u nu a [ kanaalconfiguratie ](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
+Na het creëren van en het vormen van de binnenkomende montages voor Webhaak, moet u nu a [&#x200B; kanaalconfiguratie &#x200B;](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
 
 Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zoals bericht creatie, verpersoonlijking, verbinding het volgen, en rapportering.
 
@@ -153,7 +153,7 @@ Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zo
 
    * **[!UICONTROL Type]**: Binnenkomend.
 
-   * **[!UICONTROL API credentials]**: Kies van drop-down u [ eerder gevormde API geloofsbrieven ](sms-configuration-sinch.md#create-api).
+   * **[!UICONTROL API credentials]**: Kies van drop-down u [&#x200B; eerder gevormde API geloofsbrieven &#x200B;](sms-configuration-sinch.md#create-api).
 
    * **[!UICONTROL Sender Phone Number &#x200B;]**: ga het de telefoonaantal van de Afzender in &#x200B; u voor uw mededelingen wilt gebruiken.
 
@@ -177,7 +177,7 @@ Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zo
 
 1. Klik **[!UICONTROL Submit]** wanneer u de configuratie van uw Webhaak voltooide.
 
-1. In het **[!UICONTROL Webhooks]** menu, klik het ![ bakpictogram ](assets/do-not-localize/Smock_Delete_18_N.svg) om uw Webhaak te schrappen.
+1. In het **[!UICONTROL Webhooks]** menu, klik het ![&#x200B; bakpictogram &#x200B;](assets/do-not-localize/Smock_Delete_18_N.svg) om uw Webhaak te schrappen.
 
 1. Als u de bestaande configuratie wilt wijzigen, zoekt u de gewenste Webhaak en klikt u op de optie **[!UICONTROL Edit]** om de gewenste wijzigingen aan te brengen.
 
@@ -185,7 +185,7 @@ Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zo
 
    ![](assets/sms_byo_7.png){zoomable="yes"}
 
-Na het creëren van en het vormen van de binnenkomende montages voor Webhaak, moet u nu a [ kanaalconfiguratie ](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
+Na het creëren van en het vormen van de binnenkomende montages voor Webhaak, moet u nu a [&#x200B; kanaalconfiguratie &#x200B;](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
 
 Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zoals bericht creatie, verpersoonlijking, verbinding het volgen, en rapportering.
 
@@ -203,7 +203,7 @@ Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zo
 
    * **[!UICONTROL Type]**: Binnenkomend.
 
-   * **[!UICONTROL API credentials]**: Kies van drop-down u [ eerder gevormde API geloofsbrieven ](sms-configuration-twilio.md#create-api).
+   * **[!UICONTROL API credentials]**: Kies van drop-down u [&#x200B; eerder gevormde API geloofsbrieven &#x200B;](sms-configuration-twilio.md#create-api).
 
    * **[!UICONTROL Sender Phone Number &#x200B;]**: ga het de telefoonaantal van de Afzender in &#x200B; u voor uw mededelingen wilt gebruiken.
 
@@ -223,13 +223,13 @@ Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zo
 
 1. Klik **[!UICONTROL Submit]** wanneer u de configuratie van uw Webhaak voltooide.
 
-1. In het **[!UICONTROL Webhooks]** menu, klik het ![ bakpictogram ](assets/do-not-localize/Smock_Delete_18_N.svg) om uw Webhaak te schrappen.
+1. In het **[!UICONTROL Webhooks]** menu, klik het ![&#x200B; bakpictogram &#x200B;](assets/do-not-localize/Smock_Delete_18_N.svg) om uw Webhaak te schrappen.
 
 1. Als u de bestaande configuratie wilt wijzigen, zoekt u de gewenste Webhaak en klikt u op de optie **[!UICONTROL Edit]** om de gewenste wijzigingen aan te brengen.
 
 1. Open en kopieer uw nieuwe **[!UICONTROL Webhook URL]** vanuit uw eerder verzonden **[!UICONTROL Webhook]** .
 
-Na het creëren van en het vormen van de binnenkomende montages voor Webhaak, moet u nu a [ kanaalconfiguratie ](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
+Na het creëren van en het vormen van de binnenkomende montages voor Webhaak, moet u nu a [&#x200B; kanaalconfiguratie &#x200B;](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
 
 Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zoals bericht creatie, verpersoonlijking, verbinding het volgen, en rapportering.
 
