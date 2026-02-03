@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 223209750f1147e97d003ffb9d7231c7cef75663
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '3077'
+source-wordcount: '3074'
 ht-degree: 15%
 
 ---
@@ -328,12 +328,12 @@ ht-degree: 15%
       + [SMS-subdomeinen instellen](using/sms/sms-subdomains.md)
       + [Aanbevolen procedures voor optimalisatie van de SMS-kosten](using/sms/sms-cost-optimization.md)
       + SMS/MMS/RCS-kanaal configureren {#configure-sms}
-         + [SMS/MMS/RCS-kanaal configureren](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [Aan de slag met de configuratie SMS / MMS / RCS](using/sms/sms-configuration.md)
          + [Sinch-provider configureren](using/sms/sms-configuration-sinch.md)
          + [Infobip-provider configureren](using/sms/sms-configuration-infobip.md)
          + [Twilio-provider configureren](using/sms/sms-configuration-twilio.md)
          + [Een aangepaste provider configureren](using/sms/sms-configuration-custom.md)
+         + [Webhaak maken](using/sms/sms-webhook.md)
          + [Een SMS-/MMS-/RCS-configuratie maken](using/sms/sms-configuration-surface.md)
    + Direct mail {#direct-mail}
       + [Direct mail](/help/rp_landing_pages/direct-mail-landing-page.md)
@@ -844,7 +844,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}

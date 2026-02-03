@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: bd925e1fd053a19e2102536049278e48b0784960
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 1%
+source-wordcount: '1106'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,16 @@ Als de trefwoorden opt-in of opt-out niet worden opgegeven, worden standaardtoes
 
 >[!ENDSHADEBOX]
 
-## API-referenties configureren voor SMS
+Door Infobip te integreren met Adobe Journey Optimizer, kunt u tekstberichten naar uw profielen verzenden als onderdeel van uw reizen en campagnes.
+
+Volg de onderstaande stappen om Infobip als uw SMS-provider te configureren:
+
+1. [API-referentie maken](#api-credential)
+1. [Webhaak maken](sms-webhook.md)
+1. [Kanaalconfiguratie maken](sms-configuration-surface.md)
+1. [Reis of Campagne maken met SMS-kanaalactie](create-sms.md)
+
+## API-referenties configureren voor SMS {#api-credential}
 
 Ga als volgt te werk om Infobip met Journey Optimizer te configureren:
 
@@ -42,15 +51,15 @@ Ga als volgt te werk om Infobip met Journey Optimizer te configureren:
    |---|---|    
    | SMS-leverancier | Infobip |
    | Naam | Kies een naam voor uw API-referentie. |
-   | API basis-URL en API-sleutel | Ga naar de webinterface-homepage of de API-sleutelbeheerpagina om uw referenties te zoeken. Voor regionale of alternatieve eindpunten van domeinen, bijvoorbeeld `api-ny2.infobip.com` , geeft u de volledige basis-URL op en controleert u het verificatietoken met ondersteuning voor Infobip. </br> Leer meer in [&#x200B; Infobip Documentatie &#x200B;](https://www.infobip.com/docs/api){target="_blank"} |
-   | Trefwoorden bij Inschakelen | Voer de standaardtrefwoorden of aangepaste trefwoorden in die automatisch uw aanmeldingsbericht activeren. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden. |
-   | Bericht bij aanmelden | Voer de aangepaste reactie in die automatisch wordt verzonden als uw aanmeldingsbericht. |
-   | Trefwoorden uitschakelen | Voer de standaardtrefwoorden of aangepaste trefwoorden in die automatisch het bericht Uitschakelen activeren. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden. |
-   | Bericht bij Afmelden | Voer de aangepaste reactie in die automatisch wordt verzonden als uw bericht om te weigeren. |
-   | Trefwoorden Help | Ga het gebrek of douanetrefwoorden in die automatisch uw **Bericht van de Hulp** zullen teweegbrengen. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden. |
-   | Help-bericht | Ga de douanereactie in die automatisch als uw **Bericht van de Hulp** wordt verzonden. |
-   | Dubbele invoegtrefwoorden | Voer de trefwoorden in die het dubbele aanmeldingsproces activeren. Als een gebruikersprofiel niet bestaat, wordt het gecreeerd na succesvolle bevestiging. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden. [&#x200B; Leer meer over SMS Dubbelopt-binnen &#x200B;](https://video.tv.adobe.com/v/3440284/?captions=dut&learn=on). |
-   | Dubbel bericht voor aanmelden | Voer de aangepaste reactie in die automatisch wordt verzonden als reactie op de dubbele aanmeldingsbevestiging. |
+   | API basis-URL en API-sleutel | Ga naar de webinterface-homepage of de API-sleutelbeheerpagina om uw referenties te zoeken. Voor regionale of alternatieve eindpunten van domeinen, bijvoorbeeld `api-ny2.infobip.com` , geeft u de volledige basis-URL op en controleert u het verificatietoken met ondersteuning voor Infobip. </br> Leer meer in [ Infobip Documentatie ](https://www.infobip.com/docs/api){target="_blank"} |
+   | Trefwoorden bij Inschakelen | **voor nieuwe configuraties van SMS, gebruik het [ menu Webhooks ](sms-webhook.md) om toestemmingstrefwoorden te vormen. Bestaande configuraties kunnen in deze sectie blijven gebruikmaken van toestemmingstrefwoorden.** </br> ga het gebrek of douanetrefwoorden in die automatisch uw Opt-In Bericht zullen teweegbrengen. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden. |
+   | Bericht bij aanmelden | **voor nieuwe configuraties van SMS, gebruik het [ menu Webhooks ](sms-webhook.md) om toestemmingstrefwoorden te vormen. Bestaande configuraties kunnen in deze sectie blijven gebruikmaken van toestemmingstrefwoorden.** </br> Voer de aangepaste reactie in die automatisch wordt verzonden als uw aanmeldingsbericht. |
+   | Trefwoorden uitschakelen | **voor nieuwe configuraties van SMS, gebruik het [ menu Webhooks ](sms-webhook.md) om toestemmingstrefwoorden te vormen. Bestaande configuraties kunnen in deze sectie blijven gebruikmaken van toestemmingstrefwoorden.** </br> Voer de standaardtrefwoorden of aangepaste trefwoorden in die automatisch het bericht Uitschakelen activeren. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden. |
+   | Bericht bij Afmelden | **voor nieuwe configuraties van SMS, gebruik het [ menu Webhooks ](sms-webhook.md) om toestemmingstrefwoorden te vormen. Bestaande configuraties kunnen in deze sectie blijven gebruikmaken van toestemmingstrefwoorden.** </br> ga de douanerespons in die automatisch als uw uit:schakelen- Bericht wordt verzonden. |
+   | Trefwoorden Help | **voor nieuwe configuraties van SMS, gebruik het [ menu Webhooks ](sms-webhook.md) om toestemmingstrefwoorden te vormen. Bestaande configuraties kunnen in deze sectie blijven gebruikmaken van toestemmingstrefwoorden.** </br> ga het gebrek of douanesleutelwoorden in die uw **Bericht van de Hulp** automatisch zullen teweegbrengen. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden. |
+   | Help-bericht | **voor nieuwe configuraties van SMS, gebruik het [ menu Webhooks ](sms-webhook.md) om toestemmingstrefwoorden te vormen. Bestaande configuraties kunnen in deze sectie blijven gebruikmaken van toestemmingstrefwoorden.** </br> ga de douanereactie in die automatisch als uw **Bericht van de Hulp** wordt verzonden. |
+   | Dubbele invoegtrefwoorden | **voor nieuwe configuraties van SMS, gebruik het [ menu Webhooks ](sms-webhook.md) om toestemmingstrefwoorden te vormen. Bestaande configuraties kunnen in deze sectie blijven gebruikmaken van toestemmingstrefwoorden.** </br> ga de sleutelwoorden in die het dubbel opt-in proces teweegbrengen. Als een gebruikersprofiel niet bestaat, wordt het gecreeerd na succesvolle bevestiging. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden. [ Leer meer over SMS Dubbelopt-binnen ](https://video.tv.adobe.com/v/3427129/?learn=on). |
+   | Dubbel bericht voor aanmelden | **voor nieuwe configuraties van SMS, gebruik het [ menu Webhooks ](sms-webhook.md) om toestemmingstrefwoorden te vormen. Bestaande configuraties kunnen in deze sectie blijven gebruikmaken van toestemmingstrefwoorden.** </br> ga de douanereactie in die automatisch in als antwoord op de dubbele opt-in bevestiging wordt verzonden. |
    | Id van hoofdentiteit | Ga uw toegewezen Hoofdentiteitskaart van DLT in. |
    | Inhoudssjabloon-id | Voer uw geregistreerde sjabloon-id voor DLT-inhoud in. |
    | Geldigheidsperiode | Voer de geldigheidsperiode van het bericht in uren in. Als berichten niet binnen deze termijn kunnen worden geleverd, zal het systeem extra pogingen doen om hen opnieuw te verzenden. De standaardgeldigheidsperiode is ingesteld op 48 uur. |
@@ -85,9 +94,9 @@ Nadat u de API-referentie hebt gemaakt en geconfigureerd, moet u nu een kanaalco
 
 ## API-referentie configureren voor RCS
 
-Het overseinen RCS wordt gesteund in Adobe Journey Optimizer door Infobip gebruikend de [&#x200B; eigenschap van de Leverancier van SMS van de Douane &#x200B;](sms-configuration-custom.md). Dit maakt het mogelijk rijke, interactieve berichten via geverifieerde bedrijfsprofielen te verzenden, met elementen zoals carrousels, knoppen en multimedia-inhoud.
+Het overseinen RCS wordt gesteund in Adobe Journey Optimizer door Infobip gebruikend de [ eigenschap van de Leverancier van SMS van de Douane ](sms-configuration-custom.md). Dit maakt het mogelijk rijke, interactieve berichten via geverifieerde bedrijfsprofielen te verzenden, met elementen zoals carrousels, knoppen en multimedia-inhoud.
 
-➡️ [&#x200B; Onderzoek hoe Infobip RCS in Infrobip- documentatie &#x200B;](https://www.infobip.com/docs/api/channels/rcs) steunt
+➡️ [ Onderzoek hoe Infobip RCS in Infrobip- documentatie ](https://www.infobip.com/docs/api/channels/rcs) steunt
 
 Om RCS overseinen met Infobip toe te laten, moeten de nieuwe API geloofsbrieven via een Leverancier van Aangepaste SMS worden gevormd. De bestaande referenties van Infobip SMS zijn niet compatibel, aangezien RCS een verschillend ladingsformaat vereist.
 
@@ -95,14 +104,14 @@ RCS met Infobip vormen:
 
 1. **Registreer Uw Zaken voor RCS via Infobip**
 
-   Begin met het voltooien van het RCS-instapproces en het registratieproces binnen het Infobip-platform. Hiertoe moet u het RCS-verzendersprofiel instellen en ervoor zorgen dat uw account geschikt is voor RCS. Leer meer in [&#x200B; Infobip documentatie &#x200B;](https://www.infobip.com/docs/rcs/get-started)
+   Begin met het voltooien van het RCS-instapproces en het registratieproces binnen het Infobip-platform. Hiertoe moet u het RCS-verzendersprofiel instellen en ervoor zorgen dat uw account geschikt is voor RCS. Leer meer in [ Infobip documentatie ](https://www.infobip.com/docs/rcs/get-started)
 
 1. **creeer een Webhaak van SMS**
 
-   [&#x200B; vorm een Webhaak van douaneSMS &#x200B;](sms-configuration-custom.md#webhook) in Journey Optimizer. Deze webhaak is verantwoordelijk voor de afhandeling van ontvangstbewijzen, binnenkomende RCS-berichten en statusupdates van het platform van Infobip.
+   [ vorm een Webhaak van douaneSMS ](sms-configuration-custom.md#webhook) in Journey Optimizer. Deze webhaak is verantwoordelijk voor de afhandeling van ontvangstbewijzen, binnenkomende RCS-berichten en statusupdates van het platform van Infobip.
 
 1. **creeer API Verantwoordelijkheid gebruikend Douane als verkoper van SMS**
 
-   [&#x200B; creeer een nieuwe API referentie &#x200B;](sms-configuration-custom.md#api-credential) binnen Journey Optimizer, die &quot;Douane&quot;als leverancier van SMS selecteert. Gebruik de aangewezen methode van de RCS eindpuntauthentificatie, basis URL, en kopballen.
+   [ creeer een nieuwe API referentie ](sms-configuration-custom.md#api-credential) binnen Journey Optimizer, die &quot;Douane&quot;als leverancier van SMS selecteert. Gebruik de aangewezen methode van de RCS eindpuntauthentificatie, basis URL, en kopballen.
 
-Nadat u de API-referentie hebt gemaakt en geconfigureerd, moet u nu een kanaalconfiguratie voor uw RCS-berichten maken. [Meer informatie](sms-configuration-surface.md)
+Na het creëren van en het vormen van uw API geloofsbrieven, moet u nu [ uw Webhaak ](sms-webhook.md) en een kanaalconfiguratie voor uw RCS- berichten tot stand brengen. [Meer informatie](sms-configuration-surface.md)

@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 9b7e10643aaa4cd6c82e0355c45fa810352f21c0
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Met de configuratie van de douaneleverancier, kunt u de diensten van het derdeov
 Volg onderstaande stappen om uw aangepaste provider te configureren:
 
 1. [API-referentie maken](#api-credential)
-1. [Webhaak maken](#webhook)
+1. [Webhaak maken](sms-webhook.md)
 1. [Kanaalconfiguratie maken](sms-configuration-surface.md)
 1. [Reis of Campagne maken met SMS-kanaalactie](create-sms.md)
 
@@ -62,7 +62,7 @@ Voer de volgende stappen uit als u SMS- en RCS-berichten in Journey Optimizer wi
 
    * **[!UICONTROL Provider URL]**: voer de URL van uw SMS-provider in.
 
-   * **[!UICONTROL Auth Type&#x200B;]**: Selecteer uw toestemmingstype en [&#x200B; voltooi de overeenkomstige gebieden &#x200B;](#auth-options) die op de gekozen authentificatiemethode worden gebaseerd.
+   * **[!UICONTROL Auth Type&#x200B;]**: Selecteer uw toestemmingstype en [ voltooi de overeenkomstige gebieden ](#auth-options) die op de gekozen authentificatiemethode worden gebaseerd.
 
      ![](assets/sms-byop.png)
 
@@ -78,7 +78,7 @@ Voer de volgende stappen uit als u SMS- en RCS-berichten in Journey Optimizer wi
 
 1. Voeg uw **[!UICONTROL Provider Payload]** toe om uw verzoeklading te bevestigen en aan te passen.
 
-   Voor RCS- berichten, wordt deze nuttige lading later gebruikt tijdens [&#x200B; inhoudsontwerp &#x200B;](create-sms.md#sms-content).
+   Voor RCS- berichten, wordt deze nuttige lading later gebruikt tijdens [ inhoudsontwerp ](create-sms.md#sms-content).
 
    >[!NOTE]
    >
@@ -87,7 +87,7 @@ Voer de volgende stappen uit als u SMS- en RCS-berichten in Journey Optimizer wi
 
 1. Klik op **[!UICONTROL Submit]** wanneer u de configuratie van uw API-referenties hebt voltooid.
 
-1. In het **[!UICONTROL API Credentials]** menu, klik het ![&#x200B; bakpictogram &#x200B;](assets/do-not-localize/Smock_Delete_18_N.svg) om uw API geloofsbrieven te schrappen.
+1. In het **[!UICONTROL API Credentials]** menu, klik het ![ bakpictogram ](assets/do-not-localize/Smock_Delete_18_N.svg) om uw API geloofsbrieven te schrappen.
 
    ![](assets/sms_byo_3.png)
 
@@ -105,7 +105,7 @@ Voer de volgende stappen uit als u SMS- en RCS-berichten in Journey Optimizer wi
 
    ![](assets/verify-connection.png)
 
-Na het creëren van en het vormen van uw API geloofsbrieven, moet u nu opstelling [&#x200B; de binnenkomende montages voor Webhaak &#x200B;](#webhook) voor de berichten van SMS.
+Na het creëren van en het vormen van uw API geloofsbrieven, moet u nu opstelling [ de binnenkomende montages voor Webhaak ](#webhook) voor de berichten van SMS.
 
 ### Verificatieopties voor aangepaste SMS-providers {#auth-options}
 
@@ -163,117 +163,6 @@ Zodra uw API-referentie is gemaakt, vult u de velden in die vereist zijn voor JW
 ![](assets/sms-byop-jwt.png)
 
 >[!ENDTABS]
-
-## Webhaak maken {#webhook}
-
->[!BEGINSHADEBOX]
-
-Als de trefwoorden opt-in of opt-out niet worden opgegeven, worden standaardtoestemmingsberichten gebruikt om de privacy van de gebruiker te respecteren. Als u aangepaste trefwoorden toevoegt, worden de standaardwaarden automatisch genegeerd.
-
-**Standaardsleutelwoorden:**
-
-* **Opt-binnen**: ABONNEMENT, JA, ONSTOP, BEGIN, DOORGAAN, HERVATTEN, BEGINNEN
-* **Opt-out**: STOP, SLUIT, ANNULEREN, EINDE, ONABONNEMENT, GEEN
-* **Hulp**: HELP
-
->[!ENDSHADEBOX]
-
-Zodra uw API geloofsbrieven met succes zijn gecreeerd, kunt u Webhooks nu vormen om binnenkomende reacties voor het beheren van opt-in en opt-out toestemming te vangen, en leveringsrapporten zoals lees ontvangstbewijzen te ontvangen waar beschikbaar.
-
-Wanneer u een webhaak instelt, kunt u het doel ervan definiëren op basis van het type gegevens dat u wilt vastleggen:
-
-* **[!UICONTROL Inbound]**: gebruik deze optie als u toestemmingsreacties, zoals opt-ins of opt-outs, wilt vangen en gebruikersvoorkeur verzamelt.
-
-* **[!UICONTROL Feedback]**: Kies deze optie om bezorgings- en betrokkenheidsgebeurtenissen, inclusief leesontvangstbewijzen en gebruikersinteracties, bij te houden ter ondersteuning van rapportage en analyse.
-
->[!BEGINTABS]
-
->[!TAB  binnenkomend ]
-
-1. Navigeer in de linkertrack naar **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]** , selecteer het menu **[!UICONTROL SMS Webhooks]** onder **[!UICONTROL SMS settings]** en klik op de knop **[!UICONTROL Create Webhook]** .
-
-   ![](assets/sms_byo_5.png)
-
-1. Configureer uw WebHaak-instellingen, zoals hieronder wordt beschreven:
-
-   * **[!UICONTROL Name]**: ga een naam voor uw Webhaak in.
-
-   * **[!UICONTROL Select SMS vendor]**: Aangepast.
-
-   * **[!UICONTROL Type]**: Binnenkomend.
-
-   * **[!UICONTROL API credentials]**: Kies van drop-down u [&#x200B; eerder gevormde API geloofsbrieven &#x200B;](#api-credential).
-
-   * **[!UICONTROL Sender Phone Number &#x200B;]**: ga het de telefoonaantal van de Afzender in &#x200B; u voor uw mededelingen wilt gebruiken.
-
-     ![](assets/webhook-inbound.png)
-
-1. Klik op ![](assets/do-not-localize/Smock_Add_18_N.svg) om trefwoordencategorieën toe te voegen en configureer deze als volgt:
-
-   * **[!UICONTROL Inbound Keyword Category]**: Kies de trefwoordcategorieën **[!UICONTROL Opt-In]** , **[!UICONTROL Opt-Out]** , **[!UICONTROL Double Opt-In]** , **[!UICONTROL Help]** of **[!UICONTROL Custom]** .
-
-   * **[!UICONTROL Enter a keyword]**: voer de standaardtrefwoorden of aangepaste trefwoorden in die het bericht automatisch activeren. Klik op ![](assets/do-not-localize/Smock_Add_18_N.svg) om meerdere trefwoorden toe te voegen.
-
-     Gebruik voor **[!UICONTROL Custom keyword]** trefwoorden die geen betrekking hebben op toestemming, voor handelingen op basis van batchverwerking tijdens een rit.
-
-   * **[!UICONTROL Reply Message]**: selecteer in het keuzemenu de aangepaste reactie die automatisch wordt verzonden.
-
-   ![](assets/sms_byo_6.png)
-
-1. Klik op **[!UICONTROL View payload editor]** om uw aanvraag te valideren en aan te passen.
-
-   U kunt uw lading dynamisch personaliseren gebruikend profielattributen, en ervoor zorgen wordt de nauwkeurige gegevens verzonden voor verwerking en reactiegeneratie met de hulp van ingebouwde hulpfuncties.
-
-1. Klik **[!UICONTROL Submit]** wanneer u de configuratie van uw Webhaak voltooide.
-
-1. In het **[!UICONTROL Webhooks]** menu, klik het ![&#x200B; bakpictogram &#x200B;](assets/do-not-localize/Smock_Delete_18_N.svg) om uw Webhaak te schrappen.
-
-1. Als u de bestaande configuratie wilt wijzigen, zoekt u de gewenste Webhaak en klikt u op de optie **[!UICONTROL Edit]** om de gewenste wijzigingen aan te brengen.
-
-1. Open en kopieer uw nieuwe **[!UICONTROL Webhook URL]** vanuit uw eerder verzonden **[!UICONTROL Webhook]** .
-
-   ![](assets/sms_byo_7.png)
-
-Na het creëren van en het vormen van de binnenkomende montages voor Webhaak, moet u nu a [&#x200B; kanaalconfiguratie &#x200B;](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
-
-Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zoals bericht creatie, verpersoonlijking, verbinding het volgen, en rapportering.
-
->[!TAB  Terugkoppeling ]
-
-1. Navigeer in de linkertrack naar **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]** , selecteer het menu **[!UICONTROL SMS Webhooks]** onder **[!UICONTROL SMS settings]** en klik op de knop **[!UICONTROL Create Webhook]** .
-
-   ![](assets/sms_byo_5.png)
-
-1. Configureer uw WebHaak-instellingen, zoals hieronder wordt beschreven:
-
-   * **[!UICONTROL Name]**: ga een naam voor uw Webhaak in.
-
-   * **[!UICONTROL Select SMS vendor]**: Aangepast.
-
-   * **[!UICONTROL Type]**: Feedback.
-
-   ![](assets/webhook-feedback.png)
-
-1. Klik op **[!UICONTROL View payload editor]** om uw aanvraag te valideren en aan te passen.
-
-   U kunt uw lading dynamisch personaliseren gebruikend profielattributen, en ervoor zorgen wordt de nauwkeurige gegevens verzonden voor verwerking en reactiegeneratie met de hulp van ingebouwde hulpfuncties.
-
-1. Klik **[!UICONTROL Submit]** wanneer u de configuratie van uw Webhaak voltooide.
-
-1. In het **[!UICONTROL Webhooks]** menu, klik het ![&#x200B; bakpictogram &#x200B;](assets/do-not-localize/Smock_Delete_18_N.svg) om uw Webhaak te schrappen.
-
-1. Als u de bestaande configuratie wilt wijzigen, zoekt u de gewenste Webhaak en klikt u op de optie **[!UICONTROL Edit]** om de gewenste wijzigingen aan te brengen.
-
-1. Open en kopieer uw nieuwe **[!UICONTROL Webhook URL]** vanuit uw eerder verzonden **[!UICONTROL Webhook]** .
-
-   ![](assets/sms_byo_8.png)
-
-Na het creëren van en het vormen van de binnenkomende montages voor Webhaak, moet u nu a [&#x200B; kanaalconfiguratie &#x200B;](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
-
-Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zoals bericht creatie, verpersoonlijking, verbinding het volgen, en rapportering.
-
->[!ENDTABS]
-
 
 ## Hoe kan ik-video {#video}
 
