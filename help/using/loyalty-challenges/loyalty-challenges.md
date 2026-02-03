@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Private bèta" type="Informative"
 version: Journey Orchestration
-source-git-commit: ee67a1a9270c12fdf199bc378deaa6006553533c
+source-git-commit: 48ccfc4047251fa97777d3fb2f160c33797a113e
 workflow-type: tm+mt
-source-wordcount: '4742'
+source-wordcount: '4963'
 ht-degree: 0%
 
 ---
@@ -31,18 +31,45 @@ Met Loyalty Challenges kunt u persoonlijke serviceaanbiedingen voor uw klanten m
 >
 >**In deze gids:**
 >
->* [&#x200B; Overzicht &#x200B;](#overview) - begrijp welke Uitdagingen Loyalty aanbieden
->* [&#x200B; Vereisten &#x200B;](#prerequisites) - de gegevensopname van de opstelling en toestemmingen
->* [&#x200B; de Uitdagingen van de Loyalty van de Toegang &#x200B;](#access) - open het menu en de meningsuitdagingen
->* [&#x200B; creeer uitdagingen &#x200B;](#create-challenges) - bouw nieuwe loyaliteitsuitdagingen
->* [&#x200B; creeer taken &#x200B;](#create-tasks) - bepaal wat de klanten moeten doen
->* [&#x200B; beheert uitdagingen &#x200B;](#manage-challenges) - geef uit, controleer, en optimaliseer
+>* [ Overzicht ](#overview) - begrijp welke Uitdagingen Loyalty aanbieden
+>* [ hoe het ](#how-it-works) werkt - geleidelijke werkschema van opstelling aan controle
+>* [ Vereisten ](#prerequisites) - de gegevensopname van de opstelling en toestemmingen
+>* [ de Uitdagingen van de Loyalty van de Toegang ](#access) - open het menu en de meningsuitdagingen
+>* [ creeer uitdagingen ](#create-challenges) - bouw nieuwe loyaliteitsuitdagingen
+>* [ creeer taken ](#create-tasks) - bepaal wat de klanten moeten doen
+>* [ beheert uitdagingen ](#manage-challenges) - geef uit, controleer, en optimaliseer
 >
 >[!ENDSHADEBOX]
 
 ## Overzicht {#overview}
 
 Loyalty Challenges laat u toe om gepersonaliseerde betrokkenheidsaanbiedingen te ontwerpen en op te stellen die klanten motiveren om specifieke acties te voltooien en beloningen te verdienen. De functie biedt een volledige oplossing voor het maken van loyaliteitsprogramma&#39;s op schaal, van het definiëren van taken en mijlpalen tot het leveren van inhoud en het volgen van prestaties langs kanalen. U kunt drie soorten uitdagingservaringen tot stand brengen, beloningen vormen, multi-kanaalberichten verzenden bij zeer belangrijke levenscyclusstadia, en prestaties controleren door automatisch geproduceerde reizen-allen terwijl het handhaven van integratie met uw extern systeem van het loyaliteitsbeheer.
+
+## Werking {#how-it-works}
+
+Het creëren en lanceren van een loyaliteitsuitdaging volgt deze werkschema:
+
+1. **de gegevensopname van de opstelling** - Vorm de bronschakelaars van Experience Platform (als Capillary) aan ingeste loyaliteitsgebeurtenisgegevens die klantenacties en vooruitgang volgen.
+
+2. **creeer een uitdaging** - bepaal de basisuitdagingseigenschappen met inbegrip van naam, type (Norm, Streak, of Opeenvolgend), publiek, en datumwaaier.
+
+3. **voegt taken** toe - bepaal de specifieke acties klanten, met inbegrip van taaktypes (aankoop, uitgeven, bezoek, enz.), hoeveelheden, productfilters, en beloningen moeten voltooien.
+
+4. **de inhoudskaarten van het Ontwerp** - creeer de visuele vertegenwoordiging van uw uitdaging gebruikend de inhoudskaarten van Journey Optimizer die op klantenapparaten tonen.
+
+5. **vorm overseinen** (Facultatief) - Opstelling multi-kanaalberichten (in-app, e-mail, duw) voor zeer belangrijke stadia: lancering, lopend, en voltooiing.
+
+6. **Overzicht en publiceer** - test uw uitdaging met testprofielen, dan publiceer het om het ter beschikking te stellen van uw doelpubliek.
+
+7. **Auto-Geproduceerde reis** - wanneer u publiceert, leidt Journey Optimizer automatisch tot een reis die de levering en het overseinen van de inhoudskaart orkestreert.
+
+8. **activeer reis** - de auto-geproduceerde reis activeert op uw datum van het uitdagingsbegin en beheert alle klanteninteractie.
+
+9. **prestaties van de Monitor** - de participatie van het spoor, voltooiingstarieven, beloningsdistributie, en berichtovereenkomst door ingebouwde rapporten en het wegcanvas.
+
+>[!NOTE]
+>
+>De automatisch gegenereerde reis wordt weergegeven in uw reisvoorraad en kan indien nodig worden aangepast. Nochtans, synchroniseren de veranderingen die rechtstreeks aan de reis worden aangebracht niet terug naar de uitdagingsconfiguratie.
 
 ## Belangrijkste mogelijkheden
 
@@ -90,7 +117,7 @@ Voordat u Loyalty Challenges gaat gebruiken, moet u controleren of u beschikt ov
 
   Zie voor gedetailleerde instructies:
 
-   * [&#x200B; Experience Platform brondocumentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home)
+   * [ Experience Platform brondocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
    * [Bronconnectors configureren in Journey Optimizer](../start/get-started-sources.md)
 
 * Vereiste machtigingen {#required-permissions}
@@ -147,6 +174,59 @@ Met **[!UICONTROL Filter by date]** kunt u uitdagingen binnen een specifiek datu
 
 Uitdagingen weergeven met specifieke tags die zijn toegepast met **[!UICONTROL Filter by tags]** .
 
+
+**[!UICONTROL Discount]**: geef een kortingscode of waarde op.
+
+* Type korting invoeren (percentage of vast bedrag)
+* Waarde van korting invoeren
+* U kunt desgewenst kortingscode opgeven of het systeem een code laten genereren
+
+**[!UICONTROL Free item]**: een gratis product of service verlenen.
+
+* Geef het item SKU of de beschrijving op
+* Geef aan hoe het gratis object moet worden geclaimd
+
+**[!UICONTROL Custom reward]**: Definieer een aangepast beloningstype.
+
+* Geef een bonusbeschrijving op
+* Verstrek relevante codes of identificatoren
+* Vorm hoe de beloning wordt geleverd of geclaimd
+
+#### Voorbeeld van terugbetalingsconfiguratie {#reward-example}
+
+**Uitdaging**: &quot;Uitdaging van de Lover van de Koffie&quot;
+
+**Taak 1**: Koop 3 kassen
+
+* Achterwaarts: 30 punten (10 punten per koffie)
+* Timing: na voltooiing van de taak
+
+**Taak 2**: Probeer 2 nieuwe seizoensgebrande dranken
+
+* Achterwaarts: 50 punten
+* Timing: na voltooiing van de taak
+
+**de voltooiingsbeloning van de uitdaging**:
+
+* Reward: gratis koffie + 100 bonuspunten
+* Timing: Na alle taken voltooid
+
+**Totaal mogelijke beloningen**: 180 punten + 1 vrije koffie
+
+### Geavanceerde taakkenmerken {#advanced-attributes}
+
+Voor geavanceerd gebruik kunt u aanvullende taakkenmerken configureren:
+
+**[!UICONTROL Custom conditions]**: voeg aangepaste logica of voorwaarden toe die verder gaan dan de standaardtaaktypen met behulp van Experience Platform-segmenten of -regels.
+
+**[!UICONTROL Geofencing]**: (Voor bezoektaken) Vereist u bezoeken aan specifieke locaties die worden gedefinieerd door geografische coördinaten en straal.
+
+**[!UICONTROL Time-based requirements]**: vereisen dat taken worden voltooid tijdens specifieke uren, dagen of datumbereiken.
+
+**[!UICONTROL Cooldown period]**: stel een minimale tijd in tussen taakvoltooiing om snelle herhaalde handelingen te voorkomen.
+
+**[!UICONTROL Task dependencies]**: (Voor Opeenvolgende uitdagingen) Bepaal eerste vereisten die moeten worden voltooid alvorens deze taak beschikbaar wordt.
+
 ## Uitdagingen maken {#create-challenges}
 
 Creeer een loyaliteitsuitdaging om de betrokkenheidsaanbieding te bepalen, inhoudskaarten voor levering te vormen, taken toe te voegen, beloningen op te zetten, en naar keuze overseinen over kanalen te vormen.
@@ -196,9 +276,9 @@ Een nieuwe loyaliteitsuitdaging creëren:
 
 **[!UICONTROL Select audience]**: kies het publiek dat voor deze uitdaging in aanmerking komt. U kunt alleen bestaande soorten publiek selecteren. U kunt geen nieuwe soorten publiek maken via de gebruikersinterface voor Loyalty Challenges.
 
-Om publiek tot stand te brengen of te verfijnen, zie [&#x200B; publiek in Journey Optimizer &#x200B;](../audience/about-audiences.md) bouwen.
+Om publiek tot stand te brengen of te verfijnen, zie [ publiek in Journey Optimizer ](../audience/about-audiences.md) bouwen.
 
-&#x200B;4. Selecteer **[!UICONTROL Save as draft]** om uw uitdaging te blijven vormen.
+1. Selecteer **[!UICONTROL Save as draft]** om uw uitdaging te blijven vormen.
 
 ## Taken maken {#create-tasks}
 
@@ -372,59 +452,6 @@ Kies wanneer klanten beloningen ontvangen:
 
 * Voer het aantal punten in (bijvoorbeeld 100)
 * De punten worden meegedeeld aan uw extern loyaliteitsbeheerssysteem via API
-
-**[!UICONTROL Discount]**: geef een kortingscode of waarde op.
-
-* Type korting invoeren (percentage of vast bedrag)
-* Waarde van korting invoeren
-* U kunt desgewenst kortingscode opgeven of het systeem een code laten genereren
-
-**[!UICONTROL Free item]**: een gratis product of service verlenen.
-
-* Geef het item SKU of de beschrijving op
-* Geef aan hoe het gratis object moet worden geclaimd
-
-**[!UICONTROL Custom reward]**: Definieer een aangepast beloningstype.
-
-* Geef een bonusbeschrijving op
-* Verstrek relevante codes of identificatoren
-* Vorm hoe de beloning wordt geleverd of geclaimd
-
-#### Voorbeeld van terugbetalingsconfiguratie {#reward-example}
-
-**Uitdaging**: &quot;Uitdaging van de Lover van de Koffie&quot;
-
-**Taak 1**: Koop 3 kassen
-
-* Achterwaarts: 30 punten (10 punten per koffie)
-* Timing: na voltooiing van de taak
-
-**Taak 2**: Probeer 2 nieuwe seizoensgebrande dranken
-
-* Achterwaarts: 50 punten
-* Timing: na voltooiing van de taak
-
-**de voltooiingsbeloning van de uitdaging**:
-
-* Reward: gratis koffie + 100 bonuspunten
-* Timing: Na alle taken voltooid
-
-**Totaal mogelijke beloningen**: 180 punten + 1 vrije koffie
-
-### Geavanceerde taakkenmerken {#advanced-attributes}
-
-Voor geavanceerd gebruik kunt u aanvullende taakkenmerken configureren:
-
-**[!UICONTROL Custom conditions]**: voeg aangepaste logica of voorwaarden toe die verder gaan dan de standaardtaaktypen met behulp van Experience Platform-segmenten of -regels.
-
-**[!UICONTROL Geofencing]**: (Voor bezoektaken) Vereist u bezoeken aan specifieke locaties die worden gedefinieerd door geografische coördinaten en straal.
-
-**[!UICONTROL Time-based requirements]**: vereisen dat taken worden voltooid tijdens specifieke uren, dagen of datumbereiken.
-
-**[!UICONTROL Cooldown period]**: stel een minimale tijd in tussen taakvoltooiing om snelle herhaalde handelingen te voorkomen.
-
-**[!UICONTROL Task dependencies]**: (Voor Opeenvolgende uitdagingen) Bepaal eerste vereisten die moeten worden voltooid alvorens deze taak beschikbaar wordt.
-
 ## Inhoudskaarten configureren {#configure-content-cards}
 
 Inhoudskaarten zijn de belangrijkste manieren waarop klanten op hun apparaten voor uitdagingen staan. U moet een inhoudskaart voor uw uitdaging vormen.
@@ -449,7 +476,7 @@ Inhoudskaarten zijn de belangrijkste manieren waarop klanten op hun apparaten vo
    * Voortgangsindicatoren weergeven indien van toepassing
    * Call-to-action-knoppen toevoegen
 
-   De inhoudcard-editor biedt dezelfde mogelijkheden als andere Journey Optimizer-kanalen. Voor gedetailleerde begeleiding, zie [&#x200B; de inhoudskaarten van het Ontwerp &#x200B;](../content-card/design-content-card.md).
+   De inhoudcard-editor biedt dezelfde mogelijkheden als andere Journey Optimizer-kanalen. Voor gedetailleerde begeleiding, zie [ de inhoudskaarten van het Ontwerp ](../content-card/design-content-card.md).
 
 5. Selecteer **[!UICONTROL Save]** om de configuratie van de inhoudskaart op te slaan.
 
@@ -584,7 +611,7 @@ De reis aanpassen:
 
 5. Publiceer de reis als u klaar bent.
 
-Voor gedetailleerde reis die begeleiding uitgeeft, zie [&#x200B; reizen bouwen &#x200B;](../building-journeys/journey-gs.md).
+Voor gedetailleerde reis die begeleiding uitgeeft, zie [ reizen bouwen ](../building-journeys/journey-gs.md).
 
 ### Reiscanvasoverwegingen {#journey-considerations}
 
@@ -895,7 +922,7 @@ De automatisch gegenereerde reis bevat waardevolle uitvoeringsgegevens:
    * Berichtprestaties per kanaal
    * Optimalisatiemogelijkheden voor timing
 
-Voor gedetailleerde reismonitorbegeleiding, zie [&#x200B; uw reizen &#x200B;](../building-journeys/report-journey.md) controleren.
+Voor gedetailleerde reismonitorbegeleiding, zie [ uw reizen ](../building-journeys/report-journey.md) controleren.
 
 ### Uitdagingen optimaliseren {#optimize}
 
@@ -917,7 +944,7 @@ Gebruik prestatiegegevens om de huidige en toekomstige uitdagingen te verbeteren
 
 Alvorens uw uitdaging te publiceren, bevestig dat de taken correct worden gevormd:
 
-1. **de taaklogica van 0&rbrace; Controle:**
+1. **de taaklogica van 0} Controle:**
    * Controleren of de vereisten voor de hoeveelheid realistisch zijn
    * Zorg ervoor dat de criteria voor productfiltering correct zijn
    * Bevestig beloningen correct worden gevormd
@@ -1040,5 +1067,5 @@ Tijdens de bètafase is uw feedback nuttig om ons te helpen bij het verbeteren v
 * [Pushberichten maken](../push/create-push.md)
 * [Reizen samenstellen](../building-journeys/journey-gs.md)
 * [Uw reizen volgen](../building-journeys/report-journey.md)
-* [&#x200B; Experience Platform brondocumentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home)
+* [ Experience Platform brondocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Bronconnectors configureren in Journey Optimizer](../start/get-started-sources.md)
