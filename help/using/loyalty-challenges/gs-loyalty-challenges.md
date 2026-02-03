@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private bèta" type="Informative"
-source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
+source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 1%
 
 ---
@@ -31,9 +31,9 @@ Met Loyalty Challenges kunt u persoonlijke serviceaanbiedingen voor uw klanten m
 **de documentatie van de Uitdagingen van de Loyalty:**
 
 * **wordt begonnen met de Uitdagingen van de Loyalty** {2 }︎ ◀ u bent hier **- Snel overzicht en volgende stappen**
-* [&#x200B; Begrijp Loyalty Uitdagingen &#x200B;](get-started.md) - Eigenschappen, werkschema, eerste vereisten
-* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
-* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - geef uit, controleer, optimaliseer
+* [ Begrijp Loyalty Uitdagingen ](get-started.md) - Eigenschappen, werkschema, eerste vereisten
+* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
+* [ beheert uitdagingen ](manage-challenges.md) - geef uit, controleer, optimaliseer
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ Voordat u Loyalty Challenges gebruikt:
 * Zorg ervoor dat u de juiste machtigingen hebt in Journey Optimizer
 * Doelpubliek maken in Experience Platform
 
-Voor gedetailleerde eerste vereisten, zie [&#x200B; Uitdagingen Loyalty &#x200B;](get-started.md#prerequisites) begrijpen.
+Voor gedetailleerde eerste vereisten, zie [ Uitdagingen Loyalty ](get-started.md#prerequisites) begrijpen.
 
 ## Belangrijke beperkingen {#limitations-overview}
 
@@ -94,7 +94,7 @@ Voor gedetailleerde eerste vereisten, zie [&#x200B; Uitdagingen Loyalty &#x200B;
   </td>
   <td>
     <a href="create-challenges.md">
-      <img alt="Maken" src="../assets/do-not-localize/start-button.svg">
+      <!--<img alt="Create" src="../assets/do-not-localize/start-button.svg">-->
     </a>
     <div>
     <a href="create-challenges.md"><strong> creeer uitdagingen </strong></a>
@@ -105,7 +105,7 @@ Voor gedetailleerde eerste vereisten, zie [&#x200B; Uitdagingen Loyalty &#x200B;
   </td>
   <td>
     <a href="manage-challenges.md">
-    <img alt="Beheren" src="../assets/do-not-localize/monitor-button.svg">
+    <!--<img alt="Manage" src="../assets/do-not-localize/monitor-button.svg">-->
     </a>
     <div>
     <a href="manage-challenges.md"><strong> beheer uitdagingen </strong></a>
