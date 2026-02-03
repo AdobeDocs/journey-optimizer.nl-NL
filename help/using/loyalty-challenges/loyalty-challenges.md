@@ -29,13 +29,13 @@ Met Loyalty Challenges kunt u persoonlijke serviceaanbiedingen voor uw klanten m
 >
 >**In deze gids:**
 >
->* [ Overzicht ](#overview) - begrijp welke Uitdagingen Loyalty aanbieden
->* [ hoe het ](#how-it-works) werkt - geleidelijke werkschema van opstelling aan controle
->* [ Vereisten ](#prerequisites) - de gegevensopname van de opstelling en toestemmingen
->* [ de Uitdagingen van de Loyalty van de Toegang ](#access) - open het menu en de meningsuitdagingen
->* [ creeer uitdagingen ](#create-challenges) - bouw nieuwe loyaliteitsuitdagingen
->* [ creeer taken ](#create-tasks) - bepaal wat de klanten moeten doen
->* [ beheert uitdagingen ](#manage-challenges) - geef uit, controleer, en optimaliseer
+>* [&#x200B; Overzicht &#x200B;](#overview) - begrijp welke Uitdagingen Loyalty aanbieden
+>* [&#x200B; hoe het &#x200B;](#how-it-works) werkt - geleidelijke werkschema van opstelling aan controle
+>* [&#x200B; Vereisten &#x200B;](#prerequisites) - de gegevensopname van de opstelling en toestemmingen
+>* [&#x200B; de Uitdagingen van de Loyalty van de Toegang &#x200B;](#access) - open het menu en de meningsuitdagingen
+>* [&#x200B; creeer uitdagingen &#x200B;](#create-challenges) - bouw nieuwe loyaliteitsuitdagingen
+>* [&#x200B; creeer taken &#x200B;](#create-tasks) - bepaal wat de klanten moeten doen
+>* [&#x200B; beheert uitdagingen &#x200B;](#manage-challenges) - geef uit, controleer, en optimaliseer
 >
 >[!ENDSHADEBOX]
 
@@ -115,7 +115,7 @@ Voordat u Loyalty Challenges gaat gebruiken, moet u controleren of u beschikt ov
 
   Zie voor gedetailleerde instructies:
 
-   * [ Experience Platform brondocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+   * [&#x200B; Experience Platform brondocumentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
    * [Bronconnectors configureren in Journey Optimizer](../start/get-started-sources.md)
 
 * Vereiste machtigingen {#required-permissions}
@@ -274,7 +274,7 @@ Een nieuwe loyaliteitsuitdaging creëren:
 
 **[!UICONTROL Select audience]**: kies het publiek dat voor deze uitdaging in aanmerking komt. U kunt alleen bestaande soorten publiek selecteren. U kunt geen nieuwe soorten publiek maken via de gebruikersinterface voor Loyalty Challenges.
 
-Om publiek tot stand te brengen of te verfijnen, zie [ publiek in Journey Optimizer ](../audience/about-audiences.md) bouwen.
+Om publiek tot stand te brengen of te verfijnen, zie [&#x200B; publiek in Journey Optimizer &#x200B;](../audience/about-audiences.md) bouwen.
 
 1. Selecteer **[!UICONTROL Save as draft]** om uw uitdaging te blijven vormen.
 
@@ -475,7 +475,7 @@ Inhoudskaarten zijn de belangrijkste manieren waarop klanten op hun apparaten vo
    * Voortgangsindicatoren weergeven indien van toepassing
    * Call-to-action-knoppen toevoegen
 
-   De inhoudcard-editor biedt dezelfde mogelijkheden als andere Journey Optimizer-kanalen. Voor gedetailleerde begeleiding, zie [ de inhoudskaarten van het Ontwerp ](../content-card/design-content-card.md).
+   De inhoudcard-editor biedt dezelfde mogelijkheden als andere Journey Optimizer-kanalen. Voor gedetailleerde begeleiding, zie [&#x200B; de inhoudskaarten van het Ontwerp &#x200B;](../content-card/design-content-card.md).
 
 5. Selecteer **[!UICONTROL Save]** om de configuratie van de inhoudskaart op te slaan.
 
@@ -610,7 +610,7 @@ De reis aanpassen:
 
 5. Publiceer de reis als u klaar bent.
 
-Voor gedetailleerde reis die begeleiding uitgeeft, zie [ reizen bouwen ](../building-journeys/journey-gs.md).
+Voor gedetailleerde reis die begeleiding uitgeeft, zie [&#x200B; reizen bouwen &#x200B;](../building-journeys/journey-gs.md).
 
 ### Reiscanvasoverwegingen {#journey-considerations}
 
@@ -921,7 +921,7 @@ De automatisch gegenereerde reis bevat waardevolle uitvoeringsgegevens:
    * Berichtprestaties per kanaal
    * Optimalisatiemogelijkheden voor timing
 
-Voor gedetailleerde reismonitorbegeleiding, zie [ uw reizen ](../building-journeys/report-journey.md) controleren.
+Voor gedetailleerde reismonitorbegeleiding, zie [&#x200B; uw reizen &#x200B;](../building-journeys/report-journey.md) controleren.
 
 ### Uitdagingen optimaliseren {#optimize}
 
@@ -943,7 +943,7 @@ Gebruik prestatiegegevens om de huidige en toekomstige uitdagingen te verbeteren
 
 Alvorens uw uitdaging te publiceren, bevestig dat de taken correct worden gevormd:
 
-1. **de taaklogica van 0} Controle:**
+1. **de taaklogica van 0&rbrace; Controle:**
    * Controleren of de vereisten voor de hoeveelheid realistisch zijn
    * Zorg ervoor dat de criteria voor productfiltering correct zijn
    * Bevestig beloningen correct worden gevormd
@@ -1066,5 +1066,5 @@ Tijdens de bètafase is uw feedback nuttig om ons te helpen bij het verbeteren v
 * [Pushberichten maken](../push/create-push.md)
 * [Reizen samenstellen](../building-journeys/journey-gs.md)
 * [Uw reizen volgen](../building-journeys/report-journey.md)
-* [ Experience Platform brondocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [&#x200B; Experience Platform brondocumentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Bronconnectors configureren in Journey Optimizer](../start/get-started-sources.md)
