@@ -31,10 +31,10 @@ Creeer een loyaliteitsuitdaging om de betrokkenheidsaanbieding te bepalen, inhou
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [ begin met de Uitdagingen van de Loyalty ](gs-loyalty-challenges.md) - Snel overzicht en volgende stappen
-* [ Begrijp Loyalty Uitdagingen ](get-started.md) - Eigenschappen, werkschema, eerste vereisten
+* [&#x200B; begin met de Uitdagingen van de Loyalty &#x200B;](gs-loyalty-challenges.md) - Snel overzicht en volgende stappen
+* [&#x200B; Begrijp Loyalty Uitdagingen &#x200B;](get-started.md) - Eigenschappen, werkschema, eerste vereisten
 * **creeer uitdagingen** {2 }︎ ◀ u hier **bent - bouw en vorm uitdagingen**
-* [ beheert uitdagingen ](manage-challenges.md) - geef uit, controleer, optimaliseer
+* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - geef uit, controleer, optimaliseer
 
 >[!ENDSHADEBOX]
 
@@ -265,5 +265,5 @@ De automatisch gegenereerde reis wordt geactiveerd op de opgegeven startdatum.
 
 ## Volgende stappen {#next-steps}
 
-* [ beheert uitdagingen ](manage-challenges.md) - Leer hoe te, uitdagingen uit te geven te controleren en te optimaliseren
-* [ Begrijp Loyalty Uitdagingen ](get-started.md) - de eigenschappen en de mogelijkheden van het overzicht
+* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - Leer hoe te, uitdagingen uit te geven te controleren en te optimaliseren
+* [&#x200B; Begrijp Loyalty Uitdagingen &#x200B;](get-started.md) - de eigenschappen en de mogelijkheden van het overzicht
