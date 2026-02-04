@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private bèta" type="Informative"
-source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
+source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -25,107 +25,90 @@ ht-degree: 0%
 **de documentatie van de Uitdagingen van de Loyalty:**
 
 * **wordt begonnen met de Uitdagingen van de Loyalty** {2 }︎ ◀ u bent hier **- Overzicht, werkschema, eerste vereisten**
-* [&#x200B; de Uitdagingen van de Loyalty van de Toegang &#x200B;](access-loyalty-challenges.md) - Inventaris en het filtreren
-* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
-* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - geef uit, controleer, optimaliseer
+* [ de Uitdagingen van de Loyalty van de Toegang ](access-loyalty-challenges.md) - Inventaris en het filtreren
+* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
+* [ creeer taken ](create-tasks.md) - bepaal uitdagingstaken
+* [ beheert uitdagingen ](manage-challenges.md) - geef uit, controleer, optimaliseer
 
 >[!ENDSHADEBOX]
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_challenges_overview"
->title="Informatie over Loyalty Challenges"
->abstract="Met Loyalty Challenges kunt u persoonlijke serviceaanbiedingen maken die klanten motiveren om specifieke acties te voltooien en beloningen te verdienen."
-
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
 
 ## Overzicht {#overview}
 
-Loyalty Challenges verstrekt een volledige oplossing voor het creëren van loyaliteitsprogramma&#39;s op schaal, van het bepalen van taken en mijlpalen aan het leveren van inhoud en het volgen van prestaties over kanalen. U kunt drie soorten uitdagingservaringen tot stand brengen, beloningen vormen, multi-kanaalberichten verzenden bij zeer belangrijke levenscyclusstadia, en prestaties controleren door automatisch geproduceerde reizen-allen terwijl het handhaven van integratie met uw extern systeem van het loyaliteitsbeheer.
+Loyalty Challenges verstrekken een volledige oplossing voor het creëren van loyaliteitsprogramma&#39;s op schaal, van het bepalen van taken en mijlpalen aan het leveren van inhoud en het volgen van prestaties over kanalen.
 
-## Belangrijkste mogelijkheden {#key-capabilities}
+U kunt drie soorten uitdagingservaringen tot stand brengen:
 
-Loyalty-uitdagingen gebruiken voor:
+* **Standaard uitdagingen**: De klanten voltooien om het even welk gespecificeerd aantal taken in om het even welke orde
+* **de uitdagingen van de Streak**: De klanten voltooien achtereenvolgens de zelfde taak veelvoudige tijden
+* **Opeenvolgende uitdagingen**: De klanten voltooien taken in een bepaalde orde
 
-* **creeer drie soorten uitdagingen**:
-   * **Norm**: De klanten voltooien om het even welk aantal taken in om het even welke orde om beloningen te verdienen
-   * **Streak**: De klanten voltooien achtereenvolgens de zelfde taak veelvoudige tijden
-   * **Opeenvolgend**: De klanten voltooien taken in een specifieke orde
+Met de Uitdagingen van de Loyalty, kunt u beloningen vormen, multi-kanaalberichten bij zeer belangrijke levenscyclusstadia verzenden, en prestaties door automatisch geproduceerde reizen controleren-allen terwijl het handhaven van integratie met uw extern systeem van het loyaliteitsbeheer.
 
-* **de uitdagingsinhoud van het Ontwerp**: De inhoudskaarten van Journey Optimizer van het gebruik om de visuele vertegenwoordiging van uw uitdaging op klantenapparaten tot stand te brengen. Inhoudskaarten geven de informatie over de uitdaging, de voortgang en de beloningen weer.
-
-* **de taakvereisten van de opstelling**: Bepaal welke klanten moeten doen om beloningen te verdienen, die omvatten:
-   * Taaktypen (aankoop, uitgaven, bedrag, bezoek, betrokkenheid, aangepaste gebeurtenissen)
-   * Hoeveelheidsvereisten
-   * Productinclusies/uitsluitingen waarbij gebruik wordt gemaakt van SKU&#39;s, categorieën of kenmerken
-   * Aangepaste kenmerken en voorwaarden
-
-* **vorm beloningen**: Bepaal beloningen die de klanten of bij taakvoltooiing (progressieve beloningen) of na de voltooiing van de volledige uitdaging (definitieve beloningen) verdienen.
-
-* **verzend multikanaalberichten**: Lever berichten over veelvoudige kanalen (in-app, e-mail, duw) in zeer belangrijke stadia:
-   * **Lancering**: Wanneer de uitdaging begint
-   * **Bezig**: Wanneer de klanten door partway zijn
-   * **Volledig**: Wanneer de klanten de uitdaging beëindigen
-
-* **prestaties van het Spoor**: De controle produceerde automatisch reizen en de prestaties van de overzichtsuitdaging door ingebouwde rapporten.
+<!-- SCREENSHOT: High-level diagram showing Loyalty Challenges architecture with: Data ingestion from source connectors -> Challenge creation in JO -> Content cards & messaging -> Customer device -> Journey tracking -->
 
 ## Werking {#how-it-works}
 
+<!-- SCHEMA: Visual workflow diagram showing the 8 steps in the loyalty challenge creation process with icons for each step -->
+
 Het creëren en lanceren van een loyaliteitsuitdaging volgt deze werkschema:
 
-1. **de gegevensopname van de opstelling** - Vorm de bronschakelaars van Experience Platform (als Capillary) aan ingeste loyaliteitsgebeurtenisgegevens die klantenacties en vooruitgang volgen.
+1. **de gegevensopname van de opstelling** - Vorm de bronschakelaars van Experience Platform (zoals de Capillaire schakelaar) om loyaliteitsgebeurtenisgegevens in te voeren die klantenacties en vooruitgang volgen. Deze gegevens stellen het bijhouden van taken en het voltooien van taken op de proef.
 
-2. **creeer een uitdaging** - bepaal de basisuitdagingseigenschappen met inbegrip van naam, type (Norm, Streak, of Opeenvolgend), publiek, en datumwaaier.
+1. **creeer een uitdaging** - bepaal de basisuitdagingseigenschappen met inbegrip van naam, type (Norm, Streak, of Opeenvolgend), publiek, en datumwaaier. Zie [ tot uitdagingen ](create-challenges.md) voor gedetailleerde stappen leiden.
 
-3. **voegt taken** toe - bepaal de specifieke acties klanten, met inbegrip van taaktypes (aankoop, uitgeven, bezoek, enz.), hoeveelheden, productfilters, en beloningen moeten voltooien.
+1. **voegt taken** toe - bepaal de specifieke acties klanten moeten voltooien, met inbegrip van taaktypes (aankoop, uitgeven, bezoek, overeenkomst, douanegebeurtenissen), hoeveelheden, productfilters, en beloningen. Zie [ tot taken ](create-tasks.md) voor gedetailleerde instructies leiden.
 
-4. **de inhoudskaarten van het Ontwerp** - creeer de visuele vertegenwoordiging van uw uitdaging gebruikend de inhoudskaarten van Journey Optimizer die op klantenapparaten tonen.
+1. **de inhoudskaarten van het Ontwerp** - creeer de visuele vertegenwoordiging van uw uitdaging gebruikend Journey Optimizer [ inhoudskaarten ](../content-card/get-started-content-card.md) die op klantenapparaten tonen. De kaarten van de inhoud tonen uitdagingsinformatie, vooruitgang, en beloningen.
 
-5. **vorm overseinen** (Facultatief) - Opstelling multi-kanaalberichten (in-app, e-mail, duw) voor zeer belangrijke stadia: lancering, lopend, en voltooiing.
+1. **vorm overseinen** (Facultatief) - de berichten van de opstelling multi-channel ([ in-app ](../in-app/get-started-in-app.md), [ e-mail ](../email/get-started-email.md), [ duw ](../push/get-started-push.md)) voor zeer belangrijke levenscyclusstadia: lancering, lopend, en voltooiing.
 
-6. **Overzicht en publiceer** - test uw uitdaging met testprofielen, dan publiceer het om het ter beschikking te stellen van uw doelpubliek.
+1. **Overzicht en publiceer** - test uw uitdaging met [ testprofielen ](../test-approve/test-profiles.md), dan publiceer het om het ter beschikking te stellen van uw doelpubliek.
 
-7. **Auto-Geproduceerde reis** - wanneer u publiceert, leidt Journey Optimizer automatisch tot een reis die de levering en het overseinen van de inhoudskaart orkestreert.
+1. **activeer reis** - wanneer u een uitdaging publiceert, leidt Journey Optimizer automatisch tot a [ reis ](../building-journeys/journey-gs.md) in de status van het Ontwerp die de levering en het overseinen van de inhoudskaart organiseert. Navigeer aan de inventaris van de Reizen, bepaal de plaats van de auto-geproduceerde reis (genoemd &quot;Uitdaging: [ Naam van de Uitdaging ]&quot;), en [ activeer het ](../building-journeys/publishing-the-journey.md) om de uitdaging beschikbaar te maken aan uw klanten.
 
-8. **activeer reis** - de auto-geproduceerde reis activeert op uw datum van het uitdagingsbegin en beheert alle klanteninteractie.
-
-9. **prestaties van de Monitor** - de participatie van het spoor, voltooiingstarieven, beloningsdistributie, en berichtovereenkomst door ingebouwde rapporten en het wegcanvas.
-
->[!NOTE]
->
->De automatisch gegenereerde reis wordt weergegeven in uw reisvoorraad en kan indien nodig worden aangepast. Nochtans, synchroniseren de veranderingen die rechtstreeks aan de reis worden aangebracht niet terug naar de uitdagingsconfiguratie.
+1. **prestaties van de Monitor** - de participatie van het spoor, voltooiingstarieven, beloningsdistributie, en berichtovereenkomst door ingebouwde rapporten en het wegcanvas. Zie [ uitdagingen ](manage-challenges.md) voor het controleren van details beheren.
 
 ## Vereisten {#prerequisites}
 
 Voordat u Loyalty Challenges gaat gebruiken, moet u controleren of u beschikt over:
 
-### Instellingen voor gegevensinvoer {#data-ingestion}
++++Instellingen voor gegevensinvoer
 
-Loyalty Challenges baseert zich op gegevens die door de bronschakelaars van Experience Platform worden opgenomen om klantenvooruitgang en taakvoltooiing te volgen.
+Loyalty Challenges baseren zich op gegevens die door de bronschakelaars van Experience Platform worden opgenomen om klantenvooruitgang en taakvoltooiing te volgen.
 
-1. **vorm een gesteunde bronschakelaar**: Momenteel, is de Capillaire schakelaar algemeen beschikbaar. Aanvullende connectors zijn gepland.
+1. **vorm een gesteunde bronschakelaar**: Momenteel, is de Capillaire schakelaar algemeen beschikbaar. Extra schakelaars zijn gepland voor toekomstige versies.
 
-2. **bevestigt gegevensopname**: Zorg ervoor dat de loyaliteitsgebeurtenissen en de klantengegevens in Experience Platform stromen en beschikbaar in Journey Optimizer.
+1. **bevestigt gegevensopname**: Zorg ervoor dat de loyaliteitsgebeurtenissen en de klantengegevens in Experience Platform stromen en beschikbaar in Journey Optimizer. Verifieer dat het gegevensschema de noodzakelijke gebieden voor het volgen van klantenacties en vooruitgang omvat.
 
 Zie voor gedetailleerde instructies:
 
-* [&#x200B; Experience Platform brondocumentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home)
+* [ Experience Platform brondocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Bronconnectors configureren in Journey Optimizer](../start/get-started-sources.md)
 
-### Vereiste machtigingen {#required-permissions}
++++
 
-Als u Loyalty Challenges wilt gebruiken, hebt u de juiste machtigingen in Journey Optimizer nodig. Neem contact op met de beheerder als u de functie niet kunt openen.
++++Vereiste machtigingen
 
-### Doelpubliek {#target-audiences}
+Als u Loyalty Challenges wilt gebruiken, hebt u de juiste machtigingen in Journey Optimizer nodig. Vereiste machtigingen zijn:
 
-Maak doelgroepen in Experience Platform voordat u uitdagingen gaat creëren. U kunt een bestaand publiek selecteren, maar u kunt geen nieuw publiek maken via de gebruikersinterface voor Loyalty Challenges.
+* Toegang tot de functie **[!UICONTROL Loyalty challenges]**
+* Machtigingen om reizen te maken en te beheren
+* Machtigingen om inhoudskaarten te maken en te beheren
+* Machtigingen om een publiek te maken en te beheren
 
-## Belangrijke beperkingen {#limitations}
+Neem contact op met de beheerder als u geen toegang hebt tot de functie of aanvullende machtigingen nodig hebt.
 
-* **Geen grootboeksysteem**: De Uitdagingen van de Loyalty volgen geen monetaire waarden of puntsaldi. Wanneer de klanten een uitdaging voltooien en een beloning verdienen, roept Journey Optimizer uw extern systeem van het loyaliteitsbeheer om punttoewijzing te behandelen.
++++
 
-* **de selectie van het publiek slechts**: U kunt bestaand publiek selecteren maar kan geen nieuw publiek van de Uitdagingen UI van de Loyalty tot stand brengen.
++++Doelpubliek
+
+Maak doelgroepen in Experience Platform voordat u uitdagingen gaat creëren. Dit publiek bepaalt welke klanten verkiesbaar zijn om aan uw loyaliteitsuitdagingen deel te nemen. Voor meer informatie over hoe te om publiek tot stand te brengen, verwijs naar [ begonnen wordt met publiek ](../audience/about-audiences.md).
+
++++
 
 ## Volgende stappen {#next-steps}
 
@@ -140,7 +123,7 @@ Maak doelgroepen in Experience Platform voordat u uitdagingen gaat creëren. U k
     </div>
     <p>
     <em> Leer hoe te om tot de inventaris en filteruitdagingen toegang te hebben </em>
-    <p>
+    </p>
   </td>
   <td>
     <a href="create-challenges.md">
@@ -151,7 +134,18 @@ Maak doelgroepen in Experience Platform voordat u uitdagingen gaat creëren. U k
     </div>
     <p>
     <em> bouwt en vormt uw eerste loyaliteitsuitdaging </em>
+    </p>
+  </td>
+  <td>
+    <a href="create-tasks.md">
+    <!--<img alt="Tasks" src="../assets/do-not-localize/start-button.svg">-->
+    </a>
+    <div>
+    <a href="create-tasks.md"><strong> creeer taken </strong></a>
+    </div>
     <p>
+    <em> bepaal acties en beloningen voor uitdagingen </em>
+    </p>
   </td>
   <td>
     <a href="manage-challenges.md">
@@ -162,7 +156,7 @@ Maak doelgroepen in Experience Platform voordat u uitdagingen gaat creëren. U k
     </div>
     <p>
     <em> geef, controleer, en optimaliseer uitdagingen </em> uit
-    <p>
+    </p>
   </td>
 </tr>
 </table>
