@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private bèta" type="Informative"
-source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
+source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1430'
 ht-degree: 0%
 
 ---
@@ -24,17 +24,17 @@ ht-degree: 0%
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [&#x200B; wordt begonnen met de Uitdagingen van de Loyalty &#x200B;](get-started.md) - Overzicht, werkschema, eerste vereisten
-* [&#x200B; de Uitdagingen van de Loyalty van de Toegang &#x200B;](access-loyalty-challenges.md) - Inventaris en het filtreren
+* [ wordt begonnen met de Uitdagingen van de Loyalty ](get-started.md) - Overzicht, werkschema, eerste vereisten
+* [ de Uitdagingen van de Loyalty van de Toegang ](access-loyalty-challenges.md) - Inventaris en het filtreren
 * **creeer uitdagingen** {2 }︎ ◀ u hier **bent - bouw en vorm uitdagingen**
-* [&#x200B; creeer taken &#x200B;](create-tasks.md) - bepaal uitdagingstaken
-* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - geef uit, controleer, optimaliseer
+* [ creeer taken ](create-tasks.md) - bepaal uitdagingstaken
+* [ beheert uitdagingen ](manage-challenges.md) - geef uit, controleer, optimaliseer
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
 
 ## Werking {#how-it-works}
 
@@ -56,7 +56,7 @@ Het creëren en lanceren van een loyaliteitsuitdaging volgt deze werkschema:
 
 1. Navigeer naar **[!UICONTROL Loyalty Challenges (Beta)]** in Journey Optimizer.
 
-1. Selecteer de tab **[!UICONTROL Challenges]** en selecteer **[!UICONTROL Create challenge]** .
+1. Selecteer de tab **[!UICONTROL Challenges]** en selecteer **[!UICONTROL Create Challenge]** .
 
    ![](assets/challenge-create.png)
 
@@ -68,29 +68,29 @@ Het creëren en lanceren van een loyaliteitsuitdaging volgt deze werkschema:
 
 ## Vorm de uitdagingsstructuur {#structure}
 
-Op het tabblad Structuur definieert u hoe de uitdaging wordt georganiseerd: de eigenschappen, het schema, de taken die moeten worden voltooid en de beloningen die moeten worden toegekend.
+In het lusje van de Structuur, bepaal hoe uw uitdaging wordt georganiseerd: zijn eigenschappen, programma, te voltooien taken, en te geven beloningen.
 
 ### Definieer de challenge-eigenschappen en gebruik aangepaste metagegevens {#properties}
 
-1. In de de eigenschappen van de Uitdaging ruit, vorm de uitdagingseigenschappen:
+1. In de de eigenschappen van de Uitdaging ruit, bepaal de uitdagingsmontages:
 
    ![](assets/challenge-create-properties.png)
 
-   **Naam**: Ga een beschrijvende naam voor uw uitdaging in. Deze naam wordt weergegeven in de inventaris van uitdagingen en helpt u de uitdaging te identificeren.
+   **Naam**: Ga een beschrijvende naam voor uw uitdaging in. Deze naam wordt weergegeven in de lijst met uitdagingen.
 
-   **Beschrijving**: Ga een beschrijving voor uw uitdaging in.
+   **Beschrijving**: Ga een beschrijving in die het uitdagingsdoel en de doelstellingen verklaart.
 
 1. Gebruik de sectie **[!UICONTROL Custom metadata]** om aangepaste metagegevens toe te voegen met sleutel-/waardeparen. Deze metagegevens kunnen worden gebruikt voor het bijhouden, segmenteren of integreren met externe systemen.
 
 ### Plan de uitdaging {#schedule}
 
-Plan de uitdaging door het pictogram ![](assets/do-not-localize/schedule-icon.svg) **[!UICONTROL Open schedule]** te selecteren.
+Configureer wanneer de uitdaging wordt uitgevoerd door het pictogram ![](assets/do-not-localize/schedule-icon.svg) **[!UICONTROL Open schedule]** te selecteren:
 
-* **de datum en de tijd van het Begin**: Plaats wanneer de uitdaging aan klanten (formaat: mm/dd/jjjj, — wordt aangeboden:— AM/PM).
+* **de datum en de tijd van het Begin**: Plaats wanneer de uitdaging aan klanten beschikbaar wordt
 
-* **einddatum en tijd**: Plaats wanneer de uitdaging verloopt en niet meer nieuwe voltooide (formaat: mm/dd/jjjj, —:— AM/PM) goedkeurt.
+* **de datum en de tijd van het Eind**: Plaats wanneer de uitdaging verloopt en niet meer nieuwe voltooiing goedkeurt
 
-* **streek van de Tijd**: De uitdaging gebruikt lokale timezone van de ontvanger door gebrek.
+* **streek van de Tijd**: De uitdaging gebruikt lokale timezone van de ontvanger door gebrek
 
 * **Taken moeten worden voltooid**: Kies wanneer de klanten taken kunnen voltooien:
 
@@ -101,13 +101,18 @@ Het uitdagingsprogramma wordt nu gevormd. U kunt nu de taken toevoegen die klant
 
 ### Taken toevoegen {#add-tasks}
 
-De taken bepalen de specifieke acties of de mijlpalen die de klanten moeten voltooien om beloningen te verdienen. U configureert taaktypen (aanschaf, uitgave, bezoek, betrokkenheid, aangepaste gebeurtenissen), hoeveelheden, productfilters en beloningen.
+De taken bepalen de specifieke acties klanten moeten voltooien om beloningen te verdienen. U kunt taaktypes (aankoop, uitgeven), hoeveelheden, productfilters, en andere attributen vormen.
 
 Afhankelijk van uw uitdagingstype, voltooien de klanten verschillend taken:
 
-* **Standaard uitdagingen**: Voltooi om het even welk gespecificeerd aantal taken in om het even welke orde
-* **Streak uitdagingen**: Voltooi de zelfde taak veelvoudige tijden opeenvolgend
-* **Opeenvolgende uitdagingen**: Volledige taken in een bepaalde orde
+* **Standaard uitdagingen**: Voltooi om het even welk gespecificeerd aantal taken in om het even welke orde\
+  *Voorbeeld: Voltooi 3 van 5 taken - maak een aankoop, schrijf een overzicht, verwijs een vriend, aandeel op sociale media, of werk profiel* bij
+
+* **Streak uitdagingen**: Voltooi de zelfde taak veelvoudige tijden opeenvolgend\
+  *Voorbeeld: Maak een aankoop voor 7 opeenvolgende dagen om bonusbeloningen te verdienen*
+
+* **Opeenvolgende uitdagingen**: Volledige taken in een bepaalde orde\
+  *Voorbeeld: Maak eerst een aankoop, dan schrijf een overzicht, dan aandeel op sociale media - de taken moeten in deze nauwkeurige opeenvolging worden voltooid*
 
 Ga als volgt te werk om taken aan uw uitdaging toe te voegen:
 
@@ -117,12 +122,12 @@ Ga als volgt te werk om taken aan uw uitdaging toe te voegen:
 
 1. De inventaris van Taken opent. Selecteer een of meer taken in de lijst en selecteer **[!UICONTROL Add]** . Selecteer **[!UICONTROL New]** als u een nieuwe taak wilt maken.
 
-   Voor gedetailleerde instructies bij het creëren van en het vormen van taken, zie [&#x200B; tot taken &#x200B;](create-tasks.md) leiden.
+   [ leer hoe te om taken ](create-tasks.md) tot stand te brengen en te vormen.
 
-1. Geef in de sectie **[!UICONTROL Task completion requirement]** op wanneer de uitdaging als voltooid moet worden beschouwd:
+1. Geef in de sectie **[!UICONTROL Task completion requirement]** op wanneer de uitdaging als voltooid wordt beschouwd:
 
-   * **[!UICONTROL Customer chooses 1 task to complete]**: De klant kan elke taak selecteren en voltooien om beloningen te verdienen
-   * **[!UICONTROL Customer completes specific number of tasks]**: de klant moet een bepaald aantal taken voltooien. Voer het vereiste aantal taken in.
+   * **[!UICONTROL Customer chooses 1 task to complete]**: Klanten kunnen elke taak selecteren en voltooien om beloningen te verdienen
+   * **[!UICONTROL Customer completes specific number of tasks]**: klanten moeten een bepaald aantal taken voltooien. Geef het vereiste nummer op.
 
 1. Door gebrek, staan de uitdagingen klanten toe om taken over veelvoudige transacties te voltooien. Als u wilt dat alle taken in één transactie worden uitgevoerd, selecteert u het pictogram ![](assets/do-not-localize/settings-icon.svg) **[!UICONTROL Settings]** en schakelt u de optie **[!UICONTROL Single transaction]** in.
 
@@ -130,26 +135,26 @@ Ga als volgt te werk om taken aan uw uitdaging toe te voegen:
 
 ### Rente configureren {#rewards}
 
-De beloningen zijn de loyaliteitspunten of de voordelen klanten voor de voltooiing van uitdagingen ontvangen. Vorm hoe en wanneer de beloningen worden geleverd om klantenparticipatie te motiveren.
+De beloningen zijn de loyaliteitspunten of de voordelen klanten voor de voltooiing van uitdagingen ontvangen. Vorm wanneer en hoe de beloningen worden geleverd.
 
-1. Kies in het vervolgkeuzemenu **[!UICONTROL Reward delivery]** wanneer u beloningen wilt ontvangen:
+1. Kies in het vervolgkeuzemenu **[!UICONTROL Reward delivery]** wanneer u beloningen wilt leveren:
 
-   * **[!UICONTROL Deliver rewards when challenge is completed]**: Alle beloningen uitreiken wanneer de klant de hele uitdaging heeft voltooid
-   * **[!UICONTROL Deliver rewards at task completion milestones as challenge progress is made]**: Gunningspremies die incrementeel worden toegekend aan klanten die afzonderlijke taken uitvoeren (alleen beschikbaar als de uitdaging het voltooien van meer dan één taak vereist)
+   * **[!UICONTROL Deliver rewards when challenge is completed]**: beloningen van de prijs wanneer klanten de hele uitdaging voltooien
+   * **[!UICONTROL Deliver rewards at task completion milestones as challenge progress is made]**: Gunningspremies die incrementeel worden toegekend wanneer klanten afzonderlijke taken uitvoeren (alleen beschikbaar voor uitdagingen waarvoor meer dan één taak is vereist)
 
-1. Selecteer uw bonusprovider in de vervolgkeuzelijst. Dit is uw loyaliteitsoplossing die klantenpunten en beloningen beheert.
+1. Selecteer de **[!UICONTROL Reward provider]** in de vervolgkeuzelijst. Dit is uw loyaliteitsoplossing die klantenpunten en beloningen beheert.
 
 1. Vorm de beloningsbedragen die op uw geselecteerde leveringsmethode worden gebaseerd:
 
    +++Restituties leveren wanneer de uitdaging is voltooid
 
-   In het **Aantal [ loyaliteitspunten ] op uitdaging voltooit** gebied, specificeer het totale beloningsbedrag om te geven wanneer de klant de volledige uitdaging voltooit.
+   In het **Aantal van [ loyaliteitspunten ] op uitdaging voltooit** gebied, specificeer het totale beloningsbedrag om te geven wanneer de klanten de volledige uitdaging voltooien.
 
    De veldnaam geeft de naam van uw loyaliteitspunten weer, zoals die is gedefinieerd in de geselecteerde provider. Als uw provider bijvoorbeeld &quot;Luminatiepunten&quot; gebruikt, wordt in het veld &quot;Aantal Luminatiepunten bij voltooiing van de aanroep&quot; weergegeven.
 
    ![](assets/challenge-create-reward-total.png)
 
-   **Voorbeeld**: In het het schermschot hierboven, worden de klanten toegewezen 100 punten wanneer het voltooien van de uitdaging.
+   **Voorbeeld**: De klanten worden gegund 100 punten wanneer het voltooien van de uitdaging.
 
    +++
 
@@ -161,7 +166,7 @@ De beloningen zijn de loyaliteitspunten of de voordelen klanten voor de voltooii
 
    ![](assets/challenge-create-reward-milestones.png)
 
-   **Voorbeeld**: In het het schermschot hierboven, worden de klanten toegewezen 10 punten wanneer de voltooiing van de eerste taak, en dan 50 extra punten na de voltooiing van de tweede taak, voor een totaal van 60 punten wanneer de uitdaging wordt voltooid.
+   **Voorbeeld**: De klanten worden toegewezen 10 punten wanneer de voltooiing van de eerste taak, toen 50 extra punten na de voltooiing van de tweede taak, voor een totaal van 60 punten wanneer de uitdaging wordt voltooid.
 
    >[!TIP]
    >
@@ -169,31 +174,35 @@ De beloningen zijn de loyaliteitspunten of de voordelen klanten voor de voltooii
 
    +++
 
+>[!NOTE]
+>
+>Loyalty Challenges omvat geen ingebouwd grootboeksysteem om beloningssaldi te volgen. Zorg ervoor dat uw geselecteerde bonusprovider de functie voor het bijhouden en aflossen van punten afhandelt.
+
 De uitdagingsstructuur wordt nu gevormd met taken en beloningen. U kunt de inhoudskaarten nu ontwerpen om de uitdaging voor klanten weer te geven.
 
 ## Inhoudskaarten configureren {#configure-content-cards}
 
-De kaarten van de inhoud verstrekken de visuele vertegenwoordiging van uw uitdaging op klantenapparaten, tonend uitdagingsinformatie, vooruitgang, en beloningen. Leer meer over [&#x200B; inhoudskaarten &#x200B;](../content-card/create-content-card.md).
+De kaarten van de inhoud vertegenwoordigen visueel uw uitdaging op klantenapparaten, tonend uitdagingsinformatie, vooruitgang, en beloningen. [ leer meer over inhoudskaarten ](../content-card/create-content-card.md).
 
 Om inhoudskaarten voor uw uitdaging te vormen:
 
-1. Navigeer in de challenge-editor naar de tab **[!UICONTROL Content]** .
+1. Ga naar het tabblad **[!UICONTROL Content]**.
 
 1. Voer een **[!UICONTROL Name]** in voor de inhoudskaart.
 
-1. Selecteer de gekoppelde **[!UICONTROL Channel configuration]** . De configuraties van het kanaal bepalen hoe en waar uw inhoud aan klanten wordt geleverd. Voor meer informatie, zie {de configuraties van het 0} Kanaal [.](../configuration/channel-surfaces.md)
+1. Selecteer het **[!UICONTROL Channel configuration]**. Kanaalconfiguraties bevatten alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enzovoort. [ leer meer op kanaalconfiguraties ](../configuration/channel-surfaces.md).
 
 1. Selecteer **[!UICONTROL Edit content]** om uw inhoudskaart te ontwerpen.
 
    ![](assets/challenge-create-content.png)
 
-Voor meer informatie bij het ontwerpen van en het aanpassen van inhoudskaarten, zie [&#x200B; de inhoudskaarten van het Ontwerp &#x200B;](../content-card/design-content-card.md).
+[ Leer om inhoudskaarten ](../content-card/design-content-card.md) te ontwerpen en te personaliseren.
 
 De inhoudskaart is nu geconfigureerd. U kunt opstellingsoverseinen nu om klanten door de uitdagingslevenscyclus in dienst te nemen.
 
 ### Berichten configureren {#configure-messaging}
 
-De berichten van de opstelling multi-channel om klanten in belangrijkste stadia van de uitdagingslevenscyclus in dienst te nemen.
+De berichten van de opstelling multi-channel om klanten in belangrijkste stadia van de uitdagingslevenscyclus in dienst te nemen. Berichten is optioneel, maar wordt aanbevolen om de betrokkenheid van klanten te maximaliseren.
 
 1. Ga naar het tabblad **[!UICONTROL Messaging]**.
 
@@ -201,21 +210,21 @@ De berichten van de opstelling multi-channel om klanten in belangrijkste stadia 
 
    ![](assets/challenge-create-messaging.png)
 
-   * **de berichten van de Lancering**: Melden klanten op wanneer de uitdaging begint en verstrekken aanvankelijke details
-   * **In-progress berichten**: Houd klanten betrokken tijdens de uitdaging met herinneringen, vooruitgangsupdates, en aanmoediging om verder te gaan
-   * **de berichten van de Voltooiing**: Kwalificeer succes, bevestig bonustoewijzing, en stel volgende uitdagingen of acties voor
+   * **Lancering** bericht: Melden klanten op wanneer de uitdaging begint
+   * **In-progress** bericht: Houd klanten betrokken met herinneringen en vooruitgangsupdates
+   * **Voltooiing** bericht: Kwalificeer succes en bevestig bonustoewijzing
 
-1. Voor elk stadium, selecteer **[!UICONTROL Add *bericht *van het 0&rbrace; stadium &lbrace;om een bericht voor dat stadium tot stand te brengen.]**
+1. Voor elk stadium, selecteer **[!UICONTROL Add *bericht *van het 0} stadium {om een bericht voor dat stadium tot stand te brengen.]**
 
 1. Kies het gewenste kanaal: **[!UICONTROL In-app]** , **[!UICONTROL Email]** of **[!UICONTROL Push notification]** en selecteer de gekoppelde kanaalconfiguratie.
 
 1. Selecteer het pictogram ![](assets/do-not-localize/Smock_More_18_N.svg) en kies **[!UICONTROL Edit]** om uw berichtinhoud te ontwerpen.
 
-   Raadpleeg voor meer informatie over het maken van berichten voor specifieke kanalen:
+   Leer hoe u berichten voor specifieke kanalen maakt:
 
-   * [Documentatie voor in-app berichten](../in-app/get-started-in-app.md)
-   * [E-mailberichten](../email/get-started-email.md)
-   * [Documentatie voor pushmeldingen](../push/get-started-push.md)
+   * [Leer hoe u in-app-berichten maakt](../in-app/get-started-in-app.md)
+   * [Leer hoe u e-mailberichten kunt maken](../email/get-started-email.md)
+   * [Meer informatie over het maken van pushmeldingen](../push/get-started-push.md)
 
 1. Herhaal deze stappen voor elk werkgebied en kanaal naar wens.
 
@@ -223,15 +232,15 @@ De overseinenconfiguratie is nu volledig. U kunt nu bepalen welke klanten verkie
 
 ## Selecteer het publiek van de uitdaging {#audience}
 
-Bepaal welke klanten verkiesbaar zijn om aan uw loyaliteitsuitdaging deel te nemen.
+Bepaal welke klanten aan uw loyaliteitsuitdaging kunnen deelnemen.
 
-1. Navigeer naar het tabblad **[!UICONTROL Audience]** en klik op de knop **[!UICONTROL Select audience]** .
+1. Navigeer naar de tab **[!UICONTROL Audience]** en selecteer **[!UICONTROL Select audience]** .
 
    ![](assets/challenge-create-audience.png)
 
-1. Alle beschikbare Adobe Experience Platform-soorten publiek worden weergegeven. Selecteer het gewenste publiek in de lijst.
+1. Selecteer het doelpubliek in de lijst met beschikbare Adobe Experience Platform-doelgroepen.
 
-1. Selecteer **[!UICONTROL Add audience]** om uw selectie te bevestigen.
+1. Selecteer **[!UICONTROL Add audience]**.
 
 Uw uitdagingsconfiguratie is nu volledig. U kunt nu de reis genereren die de uitdaging zal afhandelen.
 
@@ -241,17 +250,16 @@ Wanneer uw uitdagingsconfiguratie volledig is, produceer de bijbehorende reis di
 
 ![](assets/challenge-create-generate-journey.png)
 
-Journey Optimizer leidt automatisch tot a [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md) in de status van het Ontwerp. De auto-geproduceerde reis verschijnt in uw reisinventaris met het naamformaat &quot;Uitdaging: [ Naam van de Uitdaging ]&quot;.
+Journey Optimizer leidt automatisch tot a [ reis ](../building-journeys/journey-gs.md) in de status van het Ontwerp. De auto-geproduceerde reis verschijnt in uw reisinventaris met het naamformaat &quot;Uitdaging: [ Naam van de Uitdaging ]&quot;.
 
-Herzie de reisconfiguratie indien nodig, dan [&#x200B; activeer de reis &#x200B;](../building-journeys/publish-journey.md) om de uitdaging beschikbaar te maken aan klanten.
+Herzie de reisconfiguratie indien nodig, dan [ activeer de reis ](../building-journeys/publish-journey.md) om de uitdaging beschikbaar te maken aan klanten.
 
 De reis zal automatisch op uw gespecificeerde datum van de uitdagingsaanvang beginnen en inhoud en berichten volgens uw configuratie leveren.
 
 >[!NOTE]
 >
->De auto-geproduceerde reis kan worden aangepast indien nodig om extra logica of overseinen toe te voegen. Nochtans, synchroniseren de veranderingen die rechtstreeks aan de reis worden aangebracht niet terug naar de uitdagingsconfiguratie. Als u de uitdaging later uitgeeft, zullen om het even welke reisaanpassingen verloren gaan wanneer de reis wordt opnieuw geproduceerd.
+>De auto-geproduceerde reis kan worden aangepast om extra logica of overseinen toe te voegen. Nochtans, synchroniseren de veranderingen die rechtstreeks aan de reis worden aangebracht niet terug naar de uitdagingsconfiguratie. Als u de uitdaging later uitgeeft, zullen om het even welke reisaanpassingen verloren gaan wanneer de reis wordt opnieuw geproduceerd.
 
 ## Volgende stappen {#next-steps}
 
-* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - Leer hoe te, uitdagingen uit te geven te controleren en te optimaliseren
-* [&#x200B; Begrijp Loyalty Uitdagingen &#x200B;](get-started.md) - de eigenschappen en de mogelijkheden van het overzicht
+* [ beheert uitdagingen ](manage-challenges.md) - geef, controleer, en optimaliseer uw uitdagingen uit

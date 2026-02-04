@@ -10,37 +10,35 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private bèta" type="Informative"
-source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
+source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
 
 
-# Uitdagingen beheren {#manage-challenges}
+# Uitdagingen en taken beheren {#manage-challenges}
 
 >[!BEGINSHADEBOX]
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [&#x200B; wordt begonnen met de Uitdagingen van de Loyalty &#x200B;](get-started.md) - Overzicht, werkschema, eerste vereisten
-* [&#x200B; de Uitdagingen van de Loyalty van de Toegang &#x200B;](access-loyalty-challenges.md) - Inventaris en het filtreren
-* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
-* [&#x200B; creeer taken &#x200B;](create-tasks.md) - bepaal uitdagingstaken
+* [ wordt begonnen met de Uitdagingen van de Loyalty ](get-started.md) - Overzicht, werkschema, eerste vereisten
+* [ de Uitdagingen van de Loyalty van de Toegang ](access-loyalty-challenges.md) - Inventaris en het filtreren
+* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
+* [ creeer taken ](create-tasks.md) - bepaal uitdagingstaken
 * **beheer uitdagingen** {2 }︎ ◀ u hier **bent - geef uit, controleer, optimaliseer**
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
 
 ## Uitdagingen beheren {#manage-challenges-section}
 
-### Levenscyclus van uitdagingen {#challenge-lifecycle}
-
-<!-- VISUAL: Flowchart diagram showing challenge lifecycle with status transitions: Draft → Scheduled → Live → Completed/Stopped/Archived -->
+### Uitdagingsstaten {#challenge-lifecycle}
 
 De uitdagingen bewegen zich door verschillende statussen tijdens hun levenscyclus:
 
@@ -107,7 +105,7 @@ Voor toegang tot prestatiegegevens:
 
 <!-- SCREENSHOT: Journey report showing challenge performance data with graphs and tables -->
 
-U kunt tot gedetailleerde prestatiesgegevens in de [&#x200B; auto-geproduceerde reisrapporten &#x200B;](../reports/journey-global-report-cja.md) ook toegang hebben, die extra inzichten en historische tendensen verstrekken.
+U kunt tot gedetailleerde prestatiesgegevens in de [ auto-geproduceerde reisrapporten ](../reports/journey-global-report-cja.md) ook toegang hebben, die extra inzichten en historische tendensen verstrekken.
 
 ## Taken beheren {#manage-tasks}
 
