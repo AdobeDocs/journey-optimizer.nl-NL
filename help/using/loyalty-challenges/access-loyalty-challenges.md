@@ -24,17 +24,17 @@ ht-degree: 0%
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [ wordt begonnen met de Uitdagingen van de Loyalty ](get-started.md) - Overzicht, werkschema, eerste vereisten
+* [&#x200B; wordt begonnen met de Uitdagingen van de Loyalty &#x200B;](get-started.md) - Overzicht, werkschema, eerste vereisten
 * **de Uitdagingen van de Loyalty van de Toegang** {2 }︎ ◀ u bent hier **- Overzicht en het filtreren**
-* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
-* [ creeer taken ](create-tasks.md) - bepaal uitdagingstaken
-* [ beheert uitdagingen ](manage-challenges.md) - geef uit, controleer, optimaliseer
+* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
+* [&#x200B; creeer taken &#x200B;](create-tasks.md) - bepaal uitdagingstaken
+* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - geef uit, controleer, optimaliseer
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
 
 Navigeer naar Journey Optimizer en selecteer **[!UICONTROL Loyalty Challenge (Beta)]** onder de sectie **[!UICONTROL Journey management]** om Loyalty Challenges te openen.
 
@@ -47,7 +47,7 @@ Op het tabblad **[!UICONTROL Challenges]** worden alle uitdagingen weergegeven d
 De volgende informatie wordt weergegeven:
 
 * **[!UICONTROL Challenge]**: De naam die u aan de uitdaging hebt toegewezen
-* **[!UICONTROL State]**: Huidige status van de challenge. Voor gedetailleerde informatie over statusovergangen en de levenscyclus van de uitdaging, zie [ levenscyclus van de Uitdaging ](manage-challenges.md#challenge-lifecycle).
+* **[!UICONTROL State]**: Huidige status van de challenge. Voor gedetailleerde informatie over statusovergangen en de levenscyclus van de uitdaging, zie [&#x200B; levenscyclus van de Uitdaging &#x200B;](manage-challenges.md#challenge-lifecycle).
 * **[!UICONTROL Description]**: korte beschrijving van het doel van de uitdaging
 * **[!UICONTROL Tasks]**: Aantal taken gevormd in de uitdaging
 * **[!UICONTROL Journey]**: Koppeling naar de automatisch gegenereerde reis die verband houdt met de uitdaging
@@ -64,7 +64,7 @@ Van het lusje van Uitdagingen, kunt u snelle acties op uitdagingen uitvoeren:
 * **Dupliceer een uitdaging**: Selecteer het ![](assets/do-not-localize/Smock_More_18_N.svg) pictogram en kies **[!UICONTROL Duplicate]**
 * **Schrap een ontwerp uitdaging**: Selecteer het ![](assets/do-not-localize/Smock_More_18_N.svg) pictogram en kies **[!UICONTROL Delete]**
 
-Voor gedetailleerde informatie bij het beheren van uitdagingen na verwezenlijking, zie [ uitdagingen en taken beheren ](manage-challenges.md).
+Voor gedetailleerde informatie bij het beheren van uitdagingen na verwezenlijking, zie [&#x200B; uitdagingen en taken beheren &#x200B;](manage-challenges.md).
 
 ## Overzicht van taken {#tasks-tab}
 
@@ -89,12 +89,12 @@ Via het tabblad Taken kunt u snelle handelingen uitvoeren op taken:
 * **dupliceer een taak**: Selecteer het ![](assets/do-not-localize/Smock_More_18_N.svg) pictogram en kies **[!UICONTROL Duplicate]**
 * **schrap een taak**: Selecteer het ![](assets/do-not-localize/Smock_More_18_N.svg) pictogram en kies **[!UICONTROL Delete]**
 
-Voor gedetailleerde informatie bij het beheren van taken na verwezenlijking, zie [ uitdagingen en taken beheren ](manage-challenges.md).
+Voor gedetailleerde informatie bij het beheren van taken na verwezenlijking, zie [&#x200B; uitdagingen en taken beheren &#x200B;](manage-challenges.md).
 
 ## Volgende stappen {#next-steps}
 
 Nu u weet hoe u toegang kunt krijgen tot en kunt navigeren in de inventaris Loyalty Challenges:
 
-* [ creeer uitdagingen ](create-challenges.md) - leer hoe te om uw eerste uitdaging te bouwen en taken te vormen
-* [ creeer taken ](create-tasks.md) - leer hoe te om herbruikbare taken voor uitdagingen te bepalen
-* [ beheert uitdagingen ](manage-challenges.md) - Leer hoe te, uitdagingen uit te geven te controleren en te optimaliseren
+* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - leer hoe te om uw eerste uitdaging te bouwen en taken te vormen
+* [&#x200B; creeer taken &#x200B;](create-tasks.md) - leer hoe te om herbruikbare taken voor uitdagingen te bepalen
+* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - Leer hoe te, uitdagingen uit te geven te controleren en te optimaliseren

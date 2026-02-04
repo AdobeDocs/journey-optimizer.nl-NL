@@ -24,17 +24,17 @@ ht-degree: 0%
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [ wordt begonnen met de Uitdagingen van de Loyalty ](get-started.md) - Overzicht, werkschema, eerste vereisten
-* [ de Uitdagingen van de Loyalty van de Toegang ](access-loyalty-challenges.md) - Inventaris en het filtreren
-* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
-* [ creeer taken ](create-tasks.md) - bepaal uitdagingstaken
+* [&#x200B; wordt begonnen met de Uitdagingen van de Loyalty &#x200B;](get-started.md) - Overzicht, werkschema, eerste vereisten
+* [&#x200B; de Uitdagingen van de Loyalty van de Toegang &#x200B;](access-loyalty-challenges.md) - Inventaris en het filtreren
+* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
+* [&#x200B; creeer taken &#x200B;](create-tasks.md) - bepaal uitdagingstaken
 * **beheer uitdagingen** {2 }︎ ◀ u hier **bent - geef uit, controleer, optimaliseer**
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
 
 ## Uitdagingen beheren {#manage-challenges-section}
 
@@ -107,7 +107,7 @@ Voor toegang tot prestatiegegevens:
 
 <!-- SCREENSHOT: Journey report showing challenge performance data with graphs and tables -->
 
-U kunt tot gedetailleerde prestatiesgegevens in de [ auto-geproduceerde reisrapporten ](../reports/journey-global-report-cja.md) ook toegang hebben, die extra inzichten en historische tendensen verstrekken.
+U kunt tot gedetailleerde prestatiesgegevens in de [&#x200B; auto-geproduceerde reisrapporten &#x200B;](../reports/journey-global-report-cja.md) ook toegang hebben, die extra inzichten en historische tendensen verstrekken.
 
 ## Taken beheren {#manage-tasks}
 

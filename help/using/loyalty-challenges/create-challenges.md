@@ -24,17 +24,17 @@ ht-degree: 0%
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [ wordt begonnen met de Uitdagingen van de Loyalty ](get-started.md) - Overzicht, werkschema, eerste vereisten
-* [ de Uitdagingen van de Loyalty van de Toegang ](access-loyalty-challenges.md) - Inventaris en het filtreren
+* [&#x200B; wordt begonnen met de Uitdagingen van de Loyalty &#x200B;](get-started.md) - Overzicht, werkschema, eerste vereisten
+* [&#x200B; de Uitdagingen van de Loyalty van de Toegang &#x200B;](access-loyalty-challenges.md) - Inventaris en het filtreren
 * **creeer uitdagingen** {2 }︎ ◀ u hier **bent - bouw en vorm uitdagingen**
-* [ creeer taken ](create-tasks.md) - bepaal uitdagingstaken
-* [ beheert uitdagingen ](manage-challenges.md) - geef uit, controleer, optimaliseer
+* [&#x200B; creeer taken &#x200B;](create-tasks.md) - bepaal uitdagingstaken
+* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - geef uit, controleer, optimaliseer
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
 
 ## Werking {#how-it-works}
 
@@ -117,7 +117,7 @@ Ga als volgt te werk om taken aan uw uitdaging toe te voegen:
 
 1. De inventaris van Taken opent. Selecteer een of meer taken in de lijst en selecteer **[!UICONTROL Add]** . Selecteer **[!UICONTROL New]** als u een nieuwe taak wilt maken.
 
-   Voor gedetailleerde instructies bij het creëren van en het vormen van taken, zie [ tot taken ](create-tasks.md) leiden.
+   Voor gedetailleerde instructies bij het creëren van en het vormen van taken, zie [&#x200B; tot taken &#x200B;](create-tasks.md) leiden.
 
 1. Geef in de sectie **[!UICONTROL Task completion requirement]** op wanneer de uitdaging als voltooid moet worden beschouwd:
 
@@ -173,7 +173,7 @@ De uitdagingsstructuur wordt nu gevormd met taken en beloningen. U kunt de inhou
 
 ## Inhoudskaarten configureren {#configure-content-cards}
 
-De kaarten van de inhoud verstrekken de visuele vertegenwoordiging van uw uitdaging op klantenapparaten, tonend uitdagingsinformatie, vooruitgang, en beloningen. Leer meer over [ inhoudskaarten ](../content-card/create-content-card.md).
+De kaarten van de inhoud verstrekken de visuele vertegenwoordiging van uw uitdaging op klantenapparaten, tonend uitdagingsinformatie, vooruitgang, en beloningen. Leer meer over [&#x200B; inhoudskaarten &#x200B;](../content-card/create-content-card.md).
 
 Om inhoudskaarten voor uw uitdaging te vormen:
 
@@ -187,7 +187,7 @@ Om inhoudskaarten voor uw uitdaging te vormen:
 
    ![](assets/challenge-create-content.png)
 
-Voor meer informatie bij het ontwerpen van en het aanpassen van inhoudskaarten, zie [ de inhoudskaarten van het Ontwerp ](../content-card/design-content-card.md).
+Voor meer informatie bij het ontwerpen van en het aanpassen van inhoudskaarten, zie [&#x200B; de inhoudskaarten van het Ontwerp &#x200B;](../content-card/design-content-card.md).
 
 De inhoudskaart is nu geconfigureerd. U kunt opstellingsoverseinen nu om klanten door de uitdagingslevenscyclus in dienst te nemen.
 
@@ -205,7 +205,7 @@ De berichten van de opstelling multi-channel om klanten in belangrijkste stadia 
    * **In-progress berichten**: Houd klanten betrokken tijdens de uitdaging met herinneringen, vooruitgangsupdates, en aanmoediging om verder te gaan
    * **de berichten van de Voltooiing**: Kwalificeer succes, bevestig bonustoewijzing, en stel volgende uitdagingen of acties voor
 
-1. Voor elk stadium, selecteer **[!UICONTROL Add *bericht *van het 0} stadium {om een bericht voor dat stadium tot stand te brengen.]**
+1. Voor elk stadium, selecteer **[!UICONTROL Add *bericht *van het 0&rbrace; stadium &lbrace;om een bericht voor dat stadium tot stand te brengen.]**
 
 1. Kies het gewenste kanaal: **[!UICONTROL In-app]** , **[!UICONTROL Email]** of **[!UICONTROL Push notification]** en selecteer de gekoppelde kanaalconfiguratie.
 
@@ -241,9 +241,9 @@ Wanneer uw uitdagingsconfiguratie volledig is, produceer de bijbehorende reis di
 
 ![](assets/challenge-create-generate-journey.png)
 
-Journey Optimizer leidt automatisch tot a [ reis ](../building-journeys/journey-gs.md) in de status van het Ontwerp. De auto-geproduceerde reis verschijnt in uw reisinventaris met het naamformaat &quot;Uitdaging: [ Naam van de Uitdaging ]&quot;.
+Journey Optimizer leidt automatisch tot a [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md) in de status van het Ontwerp. De auto-geproduceerde reis verschijnt in uw reisinventaris met het naamformaat &quot;Uitdaging: [ Naam van de Uitdaging ]&quot;.
 
-Herzie de reisconfiguratie indien nodig, dan [ activeer de reis ](../building-journeys/publish-journey.md) om de uitdaging beschikbaar te maken aan klanten.
+Herzie de reisconfiguratie indien nodig, dan [&#x200B; activeer de reis &#x200B;](../building-journeys/publish-journey.md) om de uitdaging beschikbaar te maken aan klanten.
 
 De reis zal automatisch op uw gespecificeerde datum van de uitdagingsaanvang beginnen en inhoud en berichten volgens uw configuratie leveren.
 
@@ -253,5 +253,5 @@ De reis zal automatisch op uw gespecificeerde datum van de uitdagingsaanvang beg
 
 ## Volgende stappen {#next-steps}
 
-* [ beheert uitdagingen ](manage-challenges.md) - Leer hoe te, uitdagingen uit te geven te controleren en te optimaliseren
-* [ Begrijp Loyalty Uitdagingen ](get-started.md) - de eigenschappen en de mogelijkheden van het overzicht
+* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - Leer hoe te, uitdagingen uit te geven te controleren en te optimaliseren
+* [&#x200B; Begrijp Loyalty Uitdagingen &#x200B;](get-started.md) - de eigenschappen en de mogelijkheden van het overzicht
