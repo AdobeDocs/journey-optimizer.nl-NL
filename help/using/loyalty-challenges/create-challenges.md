@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private bèta" type="Informative"
-source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
+source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1316'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ ht-degree: 0%
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [&#x200B; wordt begonnen met de Uitdagingen van de Loyalty &#x200B;](get-started.md) - Overzicht, werkschema, eerste vereisten
-* [&#x200B; toegang en beheer de Uitdagingen van de Loyalty &#x200B;](access-loyalty-challenges.md) - Overzicht, uitdagingen en taakbeheer
+* [ wordt begonnen met de Uitdagingen van de Loyalty ](get-started.md) - Overzicht, werkschema, eerste vereisten
+* [ toegang en beheer de Uitdagingen van de Loyalty ](access-loyalty-challenges.md) - Overzicht, uitdagingen en taakbeheer
 * **creeer uitdagingen** {2 }︎ ◀ u hier **bent - bouw en vorm uitdagingen**
-* [&#x200B; creeer taken &#x200B;](create-tasks.md) - bepaal uitdagingstaken
+* [ creeer taken ](create-tasks.md) - bepaal uitdagingstaken
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
 
 ## Maak de uitdaging {#create-the-challenge}
 
@@ -71,13 +71,13 @@ Definieer op het tabblad **[!UICONTROL Structure]** hoe de uitdaging is ingedeel
 
 ### Plan de uitdaging {#schedule}
 
-Configureer wanneer de uitdaging wordt uitgevoerd door het pictogram ![](assets/do-not-localize/schedule-icon.svg) **[!UICONTROL Open schedule]** te selecteren:
+Configureer wanneer de uitdaging wordt uitgevoerd door het pictogram **[!UICONTROL Open schedule]** te selecteren:
 
-![](assets/challenge-create-properties.png)
+![](assets/challenge-create-schedule.png)
 
 * **[!UICONTROL Start date and time]**: plaats wanneer de uitdaging aan klanten beschikbaar wordt.
 * **[!UICONTROL End date and time]**: stel in wanneer de uitdaging vervalt en geen nieuwe voltooide bewerkingen meer accepteert.
-   * **[!UICONTROL Time zone]**: De uitdaging gebruikt standaard de lokale tijdzone van de ontvanger.
+* **[!UICONTROL Time zone]**: De uitdaging gebruikt standaard de lokale tijdzone van de ontvanger.
 * **[!UICONTROL Tasks must be completed]**: kies wanneer klanten taken kunnen uitvoeren:
 
    * **[!UICONTROL Any time during challenge]**: Klanten kunnen taken op elk gewenst moment uitvoeren tussen de begin- en einddatum van de uitdaging.
@@ -89,31 +89,49 @@ Het uitdagingsprogramma wordt nu gevormd. Voeg vervolgens de taken toe die klant
 
 De taken bepalen de specifieke acties klanten moeten voltooien om beloningen te verdienen. U kunt taaktypes (aankoop, uitgeven), hoeveelheden, productfilters, en andere attributen vormen.
 
-Afhankelijk van uw uitdagingstype, voltooien de klanten verschillend taken:
-
-* **Standaard uitdagingen**: Voltooi om het even welk gespecificeerd aantal taken in om het even welke orde\
-  *Voorbeeld: Voltooi 3 van 5 taken - maak een aankoop, schrijf een overzicht, verwijs een vriend, aandeel op sociale media, of werk profiel* bij
-
-* **Streak uitdagingen**: Voltooi de zelfde taak veelvoudige tijden opeenvolgend\
-  *Voorbeeld: Maak een aankoop voor 7 opeenvolgende dagen om bonusbeloningen te verdienen*
-
-* **Opeenvolgende uitdagingen**: Volledige taken in een bepaalde orde\
-  *Voorbeeld: Maak eerst een aankoop, dan schrijf een overzicht, dan aandeel op sociale media - de taken moeten in deze nauwkeurige opeenvolging worden voltooid*
-
 Ga als volgt te werk om taken aan uw uitdaging toe te voegen:
 
 1. Selecteer **[!UICONTROL Tasks]** in de sectie **[!UICONTROL Add task]** .
 
    ![](assets/challenge-create-add-task.png)
 
-1. De lus **[!UICONTROL Tasks Inventory]** wordt geopend. Selecteer een of meer taken in de lijst en selecteer **[!UICONTROL Add]** . Selecteer **[!UICONTROL New]** als u een nieuwe taak wilt maken. [&#x200B; leer hoe te om taken &#x200B;](create-tasks.md) tot stand te brengen en te vormen.
+1. De lus **[!UICONTROL Tasks Inventory]** wordt geopend. Selecteer een of meer taken in de lijst en selecteer **[!UICONTROL Add]** . Selecteer **[!UICONTROL New]** als u een nieuwe taak wilt maken. [ leer hoe te om taken ](create-tasks.md) tot stand te brengen en te vormen.
 
-1. Geef in de sectie **[!UICONTROL Task completion requirement]** op wanneer de uitdaging als voltooid wordt beschouwd:
+1. Specificeer wanneer de uitdaging als voltooid wordt beschouwd. Beschikbare instellingen zijn afhankelijk van het type uitdaging:
 
-   * **[!UICONTROL Customer chooses 1 task to complete]**: klanten kunnen elke taak selecteren en voltooien om beloningen te verdienen.
-   * **[!UICONTROL Customer completes specific number of tasks]**: klanten moeten een bepaald aantal taken voltooien.
+   +++Standaarduitdagingen
 
-1. Door gebrek, staan de uitdagingen klanten toe om taken over veelvoudige transacties te voltooien. Als u wilt dat alle taken in één transactie worden uitgevoerd, selecteert u het pictogram ![](assets/do-not-localize/settings-icon.svg) **[!UICONTROL Settings]** en schakelt u de onderstaande optie in.
+   **[!UICONTROL Task completion requirement]** - Kies tussen:
+
+   * **[!UICONTROL Customer chooses 1 task to complete]**: Klanten kunnen elke taak selecteren en voltooien om beloningen te verdienen
+   * **[!UICONTROL Customer completes specific number of tasks]**: klanten moeten een bepaald aantal taken voltooien. Specificeer het vereiste aantal - *Voorbeeld: Voltooi 3 van 5 taken*
+
+   +++
+
+   +++Streep uitdagingen
+
+   * **[!UICONTROL Streak type]**:
+
+      * **Opeenvolgend**: De klanten moeten de taak op opeenvolgende dagen zonder onderbrekingen voltooien - *Voorbeeld: Aankoop op Maandag, Dinsdag, Woensdag - ontbrekende een dageinden de stroom*
+
+      * **niet-opeenvolgend**: De klanten kunnen de taak met hiaten tussen voltooiing - *Voorbeeld voltooien: Voltooi 7 aankopen meer dan 30 dagen, met toegelaten onderbrekingen*
+
+   * **[!UICONTROL Streak length]**: Specificeer hoeveel tijden de taak moet worden voltooid - *Voorbeeld: Reeks aan 7 voor een &quot;7 dag aankoopstroom&quot;*
+
+   +++
+
+   +++Opeenvolgende uitdagingen
+
+   **[!UICONTROL Task completion requirement]** - Kies tussen:
+
+   * **[!UICONTROL Customer chooses 1 task to complete]**: Klanten kunnen elke taak selecteren en voltooien om beloningen te verdienen
+   * **[!UICONTROL Customer completes specific number of tasks]**: klanten moeten een bepaald aantal taken voltooien in de exacte volgorde die u definieert. Als een taak ontbreekt of wordt overgeslagen, wordt de reeks verbroken. Geef het vereiste aantal op (bijvoorbeeld 3 van de 5 taken voltooien)
+
+   *Voorbeeld: Taak 1 (Aankoop) → Taak 2 (Overzicht) → Taak 3 (Aandeel) - moet in deze orde worden voltooid*
+
+   +++
+
+1. Door gebrek, staan de standaard en opeenvolgende uitdagingen klanten toe om taken over veelvoudige transacties te voltooien. Als u wilt dat alle taken in één transactie worden uitgevoerd, selecteert u het pictogram ![](assets/do-not-localize/settings-icon.svg) **[!UICONTROL Settings]** en schakelt u de onderstaande optie in.
 
    ![](assets/challenge-create-single-transaction.png)
 
@@ -165,15 +183,15 @@ Na het vormen van de uitdagingsstructuur met taken en beloningen, ontwerp de inh
 
 ## Inhoudskaarten configureren {#configure-content-cards}
 
-De kaarten van de inhoud vertegenwoordigen visueel uw uitdaging op klantenapparaten, tonend uitdagingsinformatie, vooruitgang, en beloningen. [&#x200B; leer meer over inhoudskaarten &#x200B;](../content-card/create-content-card.md).
+De kaarten van de inhoud vertegenwoordigen visueel uw uitdaging op klantenapparaten, tonend uitdagingsinformatie, vooruitgang, en beloningen. [ leer meer over inhoudskaarten ](../content-card/create-content-card.md).
 
 Om inhoudskaarten voor uw uitdaging te vormen:
 
 1. Navigeer naar het tabblad **[!UICONTROL Content]** en voer een **[!UICONTROL Name]** in voor de inhoudskaart.
 
-1. Selecteer het **[!UICONTROL Channel configuration]**. Kanaalconfiguraties bevatten alle technische parameters voor het verzenden van berichten, zoals headerparameters, subdomein, mobiele apps, enz. [&#x200B; leer meer over kanaalconfiguraties &#x200B;](../configuration/channel-surfaces.md).
+1. Selecteer het **[!UICONTROL Channel configuration]**. Kanaalconfiguraties bevatten alle technische parameters voor het verzenden van berichten, zoals headerparameters, subdomein, mobiele apps, enz. [ leer meer over kanaalconfiguraties ](../configuration/channel-surfaces.md).
 
-1. Selecteer **[!UICONTROL Edit content]** om uw inhoudskaart te ontwerpen. [&#x200B; Leer om inhoudskaarten &#x200B;](../content-card/design-content-card.md) te ontwerpen en te personaliseren.
+1. Selecteer **[!UICONTROL Edit content]** om uw inhoudskaart te ontwerpen. [ Leer om inhoudskaarten ](../content-card/design-content-card.md) te ontwerpen en te personaliseren.
 
    ![](assets/challenge-create-content.png)
 
@@ -213,7 +231,7 @@ Bepaal welke klanten aan uw loyaliteitsuitdaging kunnen deelnemen.
 
    ![](assets/challenge-create-audience.png)
 
-1. Selecteer het doelpubliek in de lijst met beschikbare Adobe Experience Platform-doelgroepen. [&#x200B; Leer hoe te met publiek &#x200B;](../audience/about-audiences.md) te werken.
+1. Selecteer het doelpubliek in de lijst met beschikbare Adobe Experience Platform-doelgroepen. [ Leer hoe te met publiek ](../audience/about-audiences.md) te werken.
 
 1. Selecteer **[!UICONTROL Add audience]**.
 
@@ -225,11 +243,11 @@ Genereer de reis die uw uitdagingslevering en klanteninteractie zal ordenen. Sel
 
 ![](assets/challenge-create-generate-journey.png)
 
-Journey Optimizer leidt automatisch tot a [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md) in de status van het Ontwerp. De auto-geproduceerde reis verschijnt in uw reisinventaris met het naamformaat &quot;Uitdaging: [ Naam van de Uitdaging ]&quot;.
+Journey Optimizer leidt automatisch tot a [ reis ](../building-journeys/journey-gs.md) in de status van het Ontwerp. De auto-geproduceerde reis verschijnt in uw reisinventaris met het naamformaat &quot;Uitdaging: [ Naam van de Uitdaging ]&quot;.
 
 ![](assets/challenge-create-journey.png)
 
-Herzie de reisconfiguratie indien nodig, dan publiceer de reis om de uitdaging ter beschikking te stellen van klanten. [&#x200B; leer hoe te om een reis &#x200B;](../building-journeys/publish-journey.md) te publiceren.
+Herzie de reisconfiguratie indien nodig, dan publiceer de reis om de uitdaging ter beschikking te stellen van klanten. [ leer hoe te om een reis ](../building-journeys/publish-journey.md) te publiceren.
 
 De reis zal automatisch op uw gespecificeerde datum van de uitdagingsaanvang beginnen en inhoud en berichten volgens uw configuratie leveren.
 
