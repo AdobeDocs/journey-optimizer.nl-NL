@@ -25,16 +25,16 @@ ht-degree: 0%
 **de documentatie van de Uitdagingen van de Loyalty:**
 
 * **wordt begonnen met de Uitdagingen van de Loyalty** {2 }︎ ◀ u bent hier **- Overzicht, werkschema, eerste vereisten**
-* [ de Uitdagingen van de Loyalty van de Toegang ](access-loyalty-challenges.md) - Inventaris en het filtreren
-* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
-* [ creeer taken ](create-tasks.md) - bepaal uitdagingstaken
-* [ beheert uitdagingen ](manage-challenges.md) - geef uit, controleer, optimaliseer
+* [&#x200B; de Uitdagingen van de Loyalty van de Toegang &#x200B;](access-loyalty-challenges.md) - Inventaris en het filtreren
+* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
+* [&#x200B; creeer taken &#x200B;](create-tasks.md) - bepaal uitdagingstaken
+* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - geef uit, controleer, optimaliseer
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
 
 ## Overzicht {#overview}
 
@@ -58,19 +58,19 @@ Het creëren en lanceren van een loyaliteitsuitdaging volgt deze werkschema:
 
 1. **de gegevensopname van de opstelling** - Vorm de bronschakelaars van Experience Platform (zoals de Capillaire schakelaar) om loyaliteitsgebeurtenisgegevens in te voeren die klantenacties en vooruitgang volgen. Deze gegevens stellen het bijhouden van taken en het voltooien van taken op de proef.
 
-1. **creeer een uitdaging** - bepaal de basisuitdagingseigenschappen met inbegrip van naam, type (Norm, Streak, of Opeenvolgend), publiek, en datumwaaier. Zie [ tot uitdagingen ](create-challenges.md) voor gedetailleerde stappen leiden.
+1. **creeer een uitdaging** - bepaal de basisuitdagingseigenschappen met inbegrip van naam, type (Norm, Streak, of Opeenvolgend), publiek, en datumwaaier. Zie [&#x200B; tot uitdagingen &#x200B;](create-challenges.md) voor gedetailleerde stappen leiden.
 
-1. **voegt taken** toe - bepaal de specifieke acties klanten moeten voltooien, met inbegrip van taaktypes (aankoop, uitgeven, bezoek, overeenkomst, douanegebeurtenissen), hoeveelheden, productfilters, en beloningen. Zie [ tot taken ](create-tasks.md) voor gedetailleerde instructies leiden.
+1. **voegt taken** toe - bepaal de specifieke acties klanten moeten voltooien, met inbegrip van taaktypes (aankoop, uitgeven, bezoek, overeenkomst, douanegebeurtenissen), hoeveelheden, productfilters, en beloningen. Zie [&#x200B; tot taken &#x200B;](create-tasks.md) voor gedetailleerde instructies leiden.
 
-1. **de inhoudskaarten van het Ontwerp** - creeer de visuele vertegenwoordiging van uw uitdaging gebruikend Journey Optimizer [ inhoudskaarten ](../content-card/create-content-card.md) die op klantenapparaten tonen. De kaarten van de inhoud tonen uitdagingsinformatie, vooruitgang, en beloningen.
+1. **de inhoudskaarten van het Ontwerp** - creeer de visuele vertegenwoordiging van uw uitdaging gebruikend Journey Optimizer [&#x200B; inhoudskaarten &#x200B;](../content-card/create-content-card.md) die op klantenapparaten tonen. De kaarten van de inhoud tonen uitdagingsinformatie, vooruitgang, en beloningen.
 
-1. **vorm overseinen** (Facultatief) - de berichten van de opstelling multi-channel ([ in-app ](../in-app/get-started-in-app.md), [ e-mail ](../email/get-started-email.md), [ duw ](../push/get-started-push.md)) voor zeer belangrijke levenscyclusstadia: lancering, lopend, en voltooiing.
+1. **vorm overseinen** (Facultatief) - de berichten van de opstelling multi-channel ([&#x200B; in-app &#x200B;](../in-app/get-started-in-app.md), [&#x200B; e-mail &#x200B;](../email/get-started-email.md), [&#x200B; duw &#x200B;](../push/get-started-push.md)) voor zeer belangrijke levenscyclusstadia: lancering, lopend, en voltooiing.
 
-1. **Overzicht en publiceer** - test uw uitdaging met [ testprofielen ](../test-approve/test-profiles.md), dan publiceer het om het ter beschikking te stellen van uw doelpubliek.
+1. **Overzicht en publiceer** - test uw uitdaging met [&#x200B; testprofielen &#x200B;](../test-approve/test-profiles.md), dan publiceer het om het ter beschikking te stellen van uw doelpubliek.
 
-1. **activeer reis** - wanneer u een uitdaging publiceert, leidt Journey Optimizer automatisch tot a [ reis ](../building-journeys/journey-gs.md) in de status van het Ontwerp die de levering en het overseinen van de inhoudskaart organiseert. Navigeer aan de inventaris van de Reizen, bepaal de plaats van de auto-geproduceerde reis (genoemd &quot;Uitdaging: [ Naam van de Uitdaging ]&quot;), en [ activeer het ](../building-journeys/publishing-the-journey.md) om de uitdaging beschikbaar te maken aan uw klanten.
+1. **activeer reis** - wanneer u een uitdaging publiceert, leidt Journey Optimizer automatisch tot a [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md) in de status van het Ontwerp die de levering en het overseinen van de inhoudskaart organiseert. Navigeer aan de inventaris van de Reizen, bepaal de plaats van de auto-geproduceerde reis (genoemd &quot;Uitdaging: [ Naam van de Uitdaging ]&quot;), en [&#x200B; activeer het &#x200B;](../building-journeys/publishing-the-journey.md) om de uitdaging beschikbaar te maken aan uw klanten.
 
-1. **prestaties van de Monitor** - de participatie van het spoor, voltooiingstarieven, beloningsdistributie, en berichtovereenkomst door ingebouwde rapporten en het wegcanvas. Zie [ uitdagingen ](manage-challenges.md) voor het controleren van details beheren.
+1. **prestaties van de Monitor** - de participatie van het spoor, voltooiingstarieven, beloningsdistributie, en berichtovereenkomst door ingebouwde rapporten en het wegcanvas. Zie [&#x200B; uitdagingen &#x200B;](manage-challenges.md) voor het controleren van details beheren.
 
 ## Vereisten {#prerequisites}
 
@@ -86,7 +86,7 @@ Loyalty Challenges baseren zich op gegevens die door de bronschakelaars van Expe
 
 Zie voor gedetailleerde instructies:
 
-* [ Experience Platform brondocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [&#x200B; Experience Platform brondocumentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Bronconnectors configureren in Journey Optimizer](../start/get-started-sources.md)
 
 +++
@@ -106,7 +106,7 @@ Neem contact op met de beheerder als u geen toegang hebt tot de functie of aanvu
 
 +++Doelpubliek
 
-Maak doelgroepen in Experience Platform voordat u uitdagingen gaat creëren. Dit publiek bepaalt welke klanten verkiesbaar zijn om aan uw loyaliteitsuitdagingen deel te nemen. Voor meer informatie over hoe te om publiek tot stand te brengen, verwijs naar [ begonnen wordt met publiek ](../audience/about-audiences.md).
+Maak doelgroepen in Experience Platform voordat u uitdagingen gaat creëren. Dit publiek bepaalt welke klanten verkiesbaar zijn om aan uw loyaliteitsuitdagingen deel te nemen. Voor meer informatie over hoe te om publiek tot stand te brengen, verwijs naar [&#x200B; begonnen wordt met publiek &#x200B;](../audience/about-audiences.md).
 
 +++
 
