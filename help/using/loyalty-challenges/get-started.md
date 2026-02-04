@@ -25,9 +25,9 @@ ht-degree: 0%
 **de documentatie van de Uitdagingen van de Loyalty:**
 
 * **wordt begonnen met de Uitdagingen van de Loyalty** {2 }︎ ◀ u bent hier **- Overzicht, werkschema, eerste vereisten**
-* [ de Uitdagingen van de Loyalty van de Toegang ](access-loyalty-challenges.md) - Inventaris en het filtreren
-* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
-* [ beheert uitdagingen ](manage-challenges.md) - geef uit, controleer, optimaliseer
+* [&#x200B; de Uitdagingen van de Loyalty van de Toegang &#x200B;](access-loyalty-challenges.md) - Inventaris en het filtreren
+* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
+* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - geef uit, controleer, optimaliseer
 
 >[!ENDSHADEBOX]
 
@@ -110,7 +110,7 @@ Loyalty Challenges baseert zich op gegevens die door de bronschakelaars van Expe
 
 Zie voor gedetailleerde instructies:
 
-* [ Experience Platform brondocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [&#x200B; Experience Platform brondocumentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Bronconnectors configureren in Journey Optimizer](../start/get-started-sources.md)
 
 ### Vereiste machtigingen {#required-permissions}

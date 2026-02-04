@@ -24,10 +24,10 @@ ht-degree: 0%
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [ wordt begonnen met de Uitdagingen van de Loyalty ](get-started.md) - Overzicht, werkschema, eerste vereisten
+* [&#x200B; wordt begonnen met de Uitdagingen van de Loyalty &#x200B;](get-started.md) - Overzicht, werkschema, eerste vereisten
 * **de Uitdagingen van de Loyalty van de Toegang** {2 }︎ ◀ u bent hier **- Overzicht en het filtreren**
-* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
-* [ beheert uitdagingen ](manage-challenges.md) - geef uit, controleer, optimaliseer
+* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
+* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - geef uit, controleer, optimaliseer
 
 >[!ENDSHADEBOX]
 
@@ -98,7 +98,7 @@ Om een nieuwe uitdaging van het lusje van Uitdagingen tot stand te brengen:
 
 2. De workflow voor het maken van uitdagingen begint.
 
-Voor gedetailleerde instructies, zie [ tot uitdagingen ](create-challenges.md) leiden.
+Voor gedetailleerde instructies, zie [&#x200B; tot uitdagingen &#x200B;](create-challenges.md) leiden.
 
 ## Het tabblad Taken {#tasks-tab}
 
@@ -148,5 +148,5 @@ Via het tabblad Taken kunt u handelingen uitvoeren op taken:
 
 Nu u weet hoe u toegang kunt krijgen tot en kunt navigeren in de inventaris Loyalty Challenges:
 
-* [ creeer uitdagingen ](create-challenges.md) - leer hoe te om uw eerste uitdaging te bouwen
-* [ beheer uitdagingen ](manage-challenges.md) - leer hoe te om uitdagingen uit te geven en te controleren
+* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - leer hoe te om uw eerste uitdaging te bouwen
+* [&#x200B; beheer uitdagingen &#x200B;](manage-challenges.md) - leer hoe te om uitdagingen uit te geven en te controleren

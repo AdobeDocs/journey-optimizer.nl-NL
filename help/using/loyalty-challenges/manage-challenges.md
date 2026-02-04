@@ -24,9 +24,9 @@ ht-degree: 0%
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [ wordt begonnen met de Uitdagingen van de Loyalty ](get-started.md) - Overzicht, werkschema, eerste vereisten
-* [ de Uitdagingen van de Loyalty van de Toegang ](access-loyalty-challenges.md) - Inventaris en het filtreren
-* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
+* [&#x200B; wordt begonnen met de Uitdagingen van de Loyalty &#x200B;](get-started.md) - Overzicht, werkschema, eerste vereisten
+* [&#x200B; de Uitdagingen van de Loyalty van de Toegang &#x200B;](access-loyalty-challenges.md) - Inventaris en het filtreren
+* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
 * **beheer uitdagingen** {2 }︎ ◀ u hier **bent - geef uit, controleer, optimaliseer**
 
 >[!ENDSHADEBOX]
@@ -102,5 +102,5 @@ Algemene problemen en oplossingen:
 
 ## Volgende stappen {#next-steps}
 
-* [ creeer uitdagingen ](create-challenges.md) - bouw nieuwe loyaliteitsuitdagingen
-* [ Begrijp Loyalty Uitdagingen ](get-started.md) - de eigenschappen en de mogelijkheden van het overzicht
+* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw nieuwe loyaliteitsuitdagingen
+* [&#x200B; Begrijp Loyalty Uitdagingen &#x200B;](get-started.md) - de eigenschappen en de mogelijkheden van het overzicht
