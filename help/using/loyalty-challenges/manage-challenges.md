@@ -31,9 +31,9 @@ Na het creëren van en het publiceren van loyaliteitsuitdagingen, kunt u hen bek
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [&#x200B; begin met de Uitdagingen van de Loyalty &#x200B;](gs-loyalty-challenges.md) - Snel overzicht en volgende stappen
-* [&#x200B; Begrijp Loyalty Uitdagingen &#x200B;](get-started.md) - Eigenschappen, werkschema, eerste vereisten
-* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
+* [ begin met de Uitdagingen van de Loyalty ](gs-loyalty-challenges.md) - Snel overzicht en volgende stappen
+* [ Begrijp Loyalty Uitdagingen ](get-started.md) - Eigenschappen, werkschema, eerste vereisten
+* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
 * **beheer uitdagingen** {2 }︎ ◀ u hier **bent - geef uit, controleer, optimaliseer**
 
 >[!ENDSHADEBOX]
@@ -104,5 +104,5 @@ Algemene problemen en oplossingen:
 
 ## Volgende stappen {#next-steps}
 
-* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw nieuwe loyaliteitsuitdagingen
-* [&#x200B; Begrijp Loyalty Uitdagingen &#x200B;](get-started.md) - de eigenschappen en de mogelijkheden van het overzicht
+* [ creeer uitdagingen ](create-challenges.md) - bouw nieuwe loyaliteitsuitdagingen
+* [ Begrijp Loyalty Uitdagingen ](get-started.md) - de eigenschappen en de mogelijkheden van het overzicht

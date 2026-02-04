@@ -31,10 +31,10 @@ Loyalty Challenges laat u toe om gepersonaliseerde betrokkenheidsaanbiedingen te
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [&#x200B; begin met de Uitdagingen van de Loyalty &#x200B;](gs-loyalty-challenges.md) - Snel overzicht en volgende stappen
+* [ begin met de Uitdagingen van de Loyalty ](gs-loyalty-challenges.md) - Snel overzicht en volgende stappen
 * **Begrijp Loyalty Uitdagingen** {2 }︎ ◀ u **- Eigenschappen, werkschema, eerste vereisten bent**
-* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
-* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - geef uit, controleer, optimaliseer
+* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
+* [ beheert uitdagingen ](manage-challenges.md) - geef uit, controleer, optimaliseer
 
 >[!ENDSHADEBOX]
 
@@ -114,7 +114,7 @@ Loyalty Challenges baseert zich op gegevens die door de bronschakelaars van Expe
 
 Zie voor gedetailleerde instructies:
 
-* [&#x200B; Experience Platform brondocumentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home)
+* [ Experience Platform brondocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Bronconnectors configureren in Journey Optimizer](../start/get-started-sources.md)
 
 ### Vereiste machtigingen {#required-permissions}
