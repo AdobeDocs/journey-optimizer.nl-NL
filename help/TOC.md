@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: cd85a3916735373c2cb63f0ad517ff7e5fbf001c
+source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
 source-wordcount: '3091'
 ht-degree: 15%
@@ -134,10 +134,9 @@ ht-degree: 15%
       + [Aangepaste acties gebruiken om gebeurtenissen voor reizen in Experience Platform te schrijven](using/building-journeys/custom-action-aep.md)
 + Loyalty-uitdagingen {#loyalty-challenges}
    + [Aan de slag met Loyalty Challenges](using/loyalty-challenges/get-started.md)
-   + [Loyalty-uitdagingen openen](using/loyalty-challenges/access-loyalty-challenges.md)
+   + [Loyalty-uitdagingen openen en beheren](using/loyalty-challenges/access-loyalty-challenges.md)
    + [Uitdagingen maken](using/loyalty-challenges/create-challenges.md)
    + [Taken maken](using/loyalty-challenges/create-tasks.md)
-   + [Uitdagingen beheren](using/loyalty-challenges/manage-challenges.md)
 + Campagnes {#campaigns}
    + [Campagnes](/help/rp_landing_pages/campaigns-landing-page.md)
    + [Aan de slag met campagnes](using/campaigns/get-started-with-campaigns.md)
@@ -851,7 +850,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}

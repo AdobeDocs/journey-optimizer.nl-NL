@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private bèta" type="Informative"
-source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
+source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -24,17 +24,17 @@ ht-degree: 0%
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [&#x200B; wordt begonnen met de Uitdagingen van de Loyalty &#x200B;](get-started.md) - Overzicht, werkschema, eerste vereisten
-* [&#x200B; de Uitdagingen van de Loyalty van de Toegang &#x200B;](access-loyalty-challenges.md) - Inventaris en het filtreren
-* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
-* [&#x200B; creeer taken &#x200B;](create-tasks.md) - bepaal uitdagingstaken
+* [ wordt begonnen met de Uitdagingen van de Loyalty ](get-started.md) - Overzicht, werkschema, eerste vereisten
+* [ de Uitdagingen van de Loyalty van de Toegang ](access-loyalty-challenges.md) - Inventaris en het filtreren
+* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
+* [ creeer taken ](create-tasks.md) - bepaal uitdagingstaken
 * **beheer uitdagingen** {2 }︎ ◀ u hier **bent - geef uit, controleer, optimaliseer**
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
 
 ## Uitdagingen beheren {#manage-challenges-section}
 
@@ -42,8 +42,8 @@ ht-degree: 0%
 
 De uitdagingen bewegen zich door verschillende statussen tijdens hun levenscyclus:
 
-* **Ontwerp**: De uitdaging wordt gecreeerd of uitgegeven en is nog niet beschikbaar aan klanten
-* **Gepubliceerd**: De uitdaging is actief, is de bijbehorende reis gecreeerd.
+* **Ontwerp**: De uitdaging wordt gecreeerd of uitgegeven en is nog niet beschikbaar aan klanten.
+* **Gepubliceerd**: De uitdaging is actief en de bijbehorende reis is gecreeerd.
 
 ### Uitdagingen bewerken {#edit-challenges}
 
@@ -53,10 +53,10 @@ U kunt uitdagingen uitgeven door hen in de inventaris van Uitdagingen te openen.
 
 **Gepubliceerde uitdagingen**: Wanneer u een gepubliceerde uitdaging voor het uitgeven opent, moet u het eerst aan de status van het Ontwerp terugkeren.
 
-* Alle aanpassingen die rechtstreeks op de automatisch gegenereerde reis worden aangebracht, gaan verloren
-* De uitdaging keert terug naar de staat van het Ontwerp
-* Nadat u de wijzigingen hebt aangebracht, moet u de uitdaging opnieuw opslaan en publiceren
-* U moet de bijbehorende reis opnieuw activeren om de bijgewerkte uitdaging voor klanten beschikbaar te maken
+* Alle aanpassingen die rechtstreeks op de automatisch gegenereerde reis worden aangebracht, gaan verloren.
+* De uitdaging keert terug naar de status van het Ontwerp.
+* Nadat u de wijzigingen hebt aangebracht, moet u de controle opslaan en opnieuw publiceren.
+* U moet de bijbehorende reis opnieuw publiceren om de bijgewerkte uitdaging ter beschikking van klanten te stellen.
 
 >[!IMPORTANT]
 >
@@ -105,18 +105,18 @@ Voor toegang tot prestatiegegevens:
 
 <!-- SCREENSHOT: Journey report showing challenge performance data with graphs and tables -->
 
-U kunt tot gedetailleerde prestatiesgegevens in de [&#x200B; auto-geproduceerde reisrapporten &#x200B;](../reports/journey-global-report-cja.md) ook toegang hebben, die extra inzichten en historische tendensen verstrekken.
+U kunt tot gedetailleerde prestatiesgegevens in de [ auto-geproduceerde reisrapporten ](../reports/journey-global-report-cja.md) ook toegang hebben, die extra inzichten en historische tendensen verstrekken.
 
 ## Taken beheren {#manage-tasks}
 
-De taken zijn herbruikbare componenten die over veelvoudige uitdagingen kunnen worden gebruikt. Het beheren van taken verzekert effectief consistentie over uw loyaliteitsprogramma en maakt het gemakkelijker om taakdefinities centraal bij te werken. Taken die in één uitdaging worden gecreëerd, kunnen in andere uitdagingen worden hergebruikt, waardoor dubbel werk wordt voorkomen en de standaardisering wordt gehandhaafd.
+De taken zijn herbruikbare componenten die over veelvoudige uitdagingen kunnen worden gebruikt. Het beheren van taken verzekert effectief consistentie over uw loyaliteitsprogramma en maakt het gemakkelijker om taakdefinities centraal bij te werken. Taken die in één uitdaging worden gecreëerd, kunnen in andere uitdagingen worden hergebruikt, waardoor dubbel werk wordt verminderd en de standaardisering wordt gehandhaafd.
 
 ### Taken bewerken {#edit-tasks}
 
 U kunt bestaande taken bewerken via de takenvoorraad. Overweeg het volgende:
 
-* **Taken niet die in actieve uitdagingen** worden gebruikt: Kan vrij worden uitgegeven - alle eigenschappen kunnen zonder effect worden gewijzigd
-* **Taken die in levende uitdagingen** worden gebruikt: De voorzichtigheid van de oefening, aangezien de veranderingen alle uitdagingen beïnvloeden gebruikend de taak - de wijzigingen zijn onmiddellijk van toepassing op alle verwijzende uitdagingen
+* **Taken niet die in actieve uitdagingen** worden gebruikt: Kan vrij worden uitgegeven. Alle eigenschappen kunnen zonder effect worden gewijzigd.
+* **Taken die in levende uitdagingen** worden gebruikt: De voorzichtigheid van het gebruik, aangezien de veranderingen alle uitdagingen beïnvloeden gebruikend de taak. Wijzigingen worden onmiddellijk toegepast op alle referentiekwesties.
 
 Een taak bewerken:
 
@@ -142,8 +142,8 @@ Een taak bewerken:
 
 Taken kunnen alleen worden verwijderd als ze momenteel niet worden gebruikt voor uitdagingen. Voordat u een taak verwijdert:
 
-* Controleer het **[!UICONTROL Used in challenges]** aantal in de inventaris van Taken
-* Zorg ervoor dat er geen concepten, geplande of live uitdagingen zijn die verwijzen naar de taak
+* Controleer het **[!UICONTROL Used in challenges]** aantal in de inventaris van Taken.
+* Zorg ervoor dat er geen concept-, geplande of live-uitdagingen zijn die naar de taak verwijzen.
 
 Een taak verwijderen:
 

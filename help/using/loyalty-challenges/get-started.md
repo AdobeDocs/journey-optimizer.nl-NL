@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Aan de slag met Loyalty Challenges
-description: Leer hoe u in Adobe Journey Optimizer loyaliteitsuitdagingen kunt maken en beheren om aansprekende loyaliteitsprogramma's te maken.
+description: Leer hoe u in Adobe Journey Optimizer loyaliteitsuitdagingen kunt maken en beheren om aansprekende loyaliteitsprogramma's op te bouwen.
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private bèta" type="Informative"
-source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
+source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -25,16 +25,15 @@ ht-degree: 0%
 **de documentatie van de Uitdagingen van de Loyalty:**
 
 * **wordt begonnen met de Uitdagingen van de Loyalty** {2 }︎ ◀ u bent hier **- Overzicht, werkschema, eerste vereisten**
-* [&#x200B; de Uitdagingen van de Loyalty van de Toegang &#x200B;](access-loyalty-challenges.md) - Inventaris en het filtreren
-* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
-* [&#x200B; creeer taken &#x200B;](create-tasks.md) - bepaal uitdagingstaken
-* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - geef uit, controleer, optimaliseer
+* [ toegang en beheer de Uitdagingen van de Loyalty ](access-loyalty-challenges.md) - Overzicht, uitdagingen en taakbeheer
+* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
+* [ creeer taken ](create-tasks.md) - bepaal uitdagingstaken
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
 
 ## Overzicht {#overview}
 
@@ -48,29 +47,25 @@ U kunt drie soorten uitdagingservaringen tot stand brengen:
 
 Met de Uitdagingen van de Loyalty, kunt u beloningen vormen, multi-kanaalberichten bij zeer belangrijke levenscyclusstadia verzenden, en prestaties door automatisch geproduceerde reizen controleren-allen terwijl het handhaven van integratie met uw extern systeem van het loyaliteitsbeheer.
 
-<!-- SCREENSHOT: High-level diagram showing Loyalty Challenges architecture with: Data ingestion from source connectors -> Challenge creation in JO -> Content cards & messaging -> Customer device -> Journey tracking -->
-
 ## Werking {#how-it-works}
-
-<!-- SCHEMA: Visual workflow diagram showing the 8 steps in the loyalty challenge creation process with icons for each step -->
 
 Het creëren en lanceren van een loyaliteitsuitdaging volgt deze werkschema:
 
 1. **de gegevensopname van de opstelling** - Vorm de bronschakelaars van Experience Platform (zoals de Capillaire schakelaar) om loyaliteitsgebeurtenisgegevens in te voeren die klantenacties en vooruitgang volgen. Deze gegevens stellen het bijhouden van taken en het voltooien van taken op de proef.
 
-1. **creeer een uitdaging** - bepaal de basisuitdagingseigenschappen met inbegrip van naam, type (Norm, Streak, of Opeenvolgend), publiek, en datumwaaier. Zie [&#x200B; tot uitdagingen &#x200B;](create-challenges.md) voor gedetailleerde stappen leiden.
+1. **Uitgezochte doelpubliek** - bepaal welke klanten aan uw uitdaging kunnen deelnemen door een publiek van Adobe Experience Platform te selecteren.
 
-1. **voegt taken** toe - bepaal de specifieke acties klanten moeten voltooien, met inbegrip van taaktypes (aankoop, uitgeven, bezoek, overeenkomst, douanegebeurtenissen), hoeveelheden, productfilters, en beloningen. Zie [&#x200B; tot taken &#x200B;](create-tasks.md) voor gedetailleerde instructies leiden.
+1. **creeer een uitdaging** - bepaal de basisuitdagingseigenschappen, met inbegrip van naam, type (Norm, Streak, of Opeenvolgend), en datumwaaier.
 
-1. **de inhoudskaarten van het Ontwerp** - creeer de visuele vertegenwoordiging van uw uitdaging gebruikend Journey Optimizer [&#x200B; inhoudskaarten &#x200B;](../content-card/create-content-card.md) die op klantenapparaten tonen. De kaarten van de inhoud tonen uitdagingsinformatie, vooruitgang, en beloningen.
+1. **voegt taken** toe - bepaal de specifieke acties klanten moeten voltooien, met inbegrip van taaktypes (aankoop, uitgeven, bezoek, overeenkomst, douanegebeurtenissen), hoeveelheden, productfilters, en beloningen.
 
-1. **vorm overseinen** (Facultatief) - de berichten van de opstelling multi-channel ([&#x200B; in-app &#x200B;](../in-app/get-started-in-app.md), [&#x200B; e-mail &#x200B;](../email/get-started-email.md), [&#x200B; duw &#x200B;](../push/get-started-push.md)) voor zeer belangrijke levenscyclusstadia: lancering, lopend, en voltooiing.
+1. **de inhoudskaarten van het Ontwerp** - creeer de visuele vertegenwoordiging van uw uitdaging gebruikend de inhoudskaarten van Journey Optimizer die op klantenapparaten tonen. De kaarten van de inhoud tonen uitdagingsinformatie, vooruitgang, en beloningen.
 
-1. **Overzicht en publiceer** - test uw uitdaging met [&#x200B; testprofielen &#x200B;](../content-management/test-profiles.md), dan publiceer het om het ter beschikking te stellen van uw doelpubliek.
+1. **vorm overseinen** (Facultatief) - Opstelling multi-kanaalberichten (in-app, e-mail, duw) voor zeer belangrijke levenscyclusstadia: lancering, lopend, en voltooiing.
 
-1. **activeer reis** - wanneer u een uitdaging publiceert, leidt Journey Optimizer automatisch tot a [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md) in de status van het Ontwerp die de levering en het overseinen van de inhoudskaart organiseert. Navigeer aan de inventaris van de Reizen, bepaal de plaats van de auto-geproduceerde reis (genoemd &quot;Uitdaging: [ Naam van de Uitdaging ]&quot;), en [&#x200B; activeer het &#x200B;](../building-journeys/publish-journey.md) om de uitdaging beschikbaar te maken aan uw klanten.
+1. **publiceer reis** - Journey Optimizer produceert automatisch een reis voor uw uitdaging. Navigeer naar het overzicht van de Reizen en publiceer de automatisch gegenereerde reis om de uitdaging voor klanten beschikbaar te maken.
 
-1. **prestaties van de Monitor** - de participatie van het spoor, voltooiingstarieven, beloningsdistributie, en berichtovereenkomst door ingebouwde rapporten en het wegcanvas. Zie [&#x200B; uitdagingen &#x200B;](manage-challenges.md) voor het controleren van details beheren.
+Voor gedetailleerde geleidelijke instructies, zie [ uitdagingen ](create-challenges.md) creëren.
 
 ## Vereisten {#prerequisites}
 
@@ -86,7 +81,7 @@ Loyalty Challenges baseren zich op gegevens die door de bronschakelaars van Expe
 
 Zie voor gedetailleerde instructies:
 
-* [&#x200B; Experience Platform brondocumentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home)
+* [ Experience Platform brondocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Bronconnectors configureren in Journey Optimizer](../start/get-started-sources.md)
 
 +++
@@ -104,9 +99,9 @@ Neem contact op met de beheerder als u geen toegang hebt tot de functie of aanvu
 
 +++
 
-+++Doelpubliek
++++Doelgroep
 
-Bepaal doelpubliek dat specificeert welke klanten verkiesbaar zijn om aan uw loyaliteitsuitdagingen deel te nemen. U kunt bestaande doelgroepen selecteren of rechtstreeks nieuwe doelgroepen maken vanuit de interface voor het maken van uitdagingen. [&#x200B; Leer hoe te met publiek &#x200B;](../audience/about-audiences.md) te werken.
+Bepaal een doelpubliek dat specificeert welke klanten verkiesbaar zijn om aan uw loyaliteitsuitdagingen deel te nemen. U kunt bestaande doelgroepen selecteren of rechtstreeks nieuwe doelgroepen maken vanuit de interface voor het maken van uitdagingen. [ Leer hoe te met publiek ](../audience/about-audiences.md) te werken.
 
 +++
 
