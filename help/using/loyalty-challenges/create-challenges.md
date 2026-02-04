@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private bèta" type="Informative"
-source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
+source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -20,23 +20,21 @@ ht-degree: 0%
 
 # Uitdagingen maken {#create-challenges}
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_create_challenge"
->title="Een loyaliteitsprobleem maken"
->abstract="Creeer een loyaliteitsuitdaging om de betrokkenheidsaanbieding te bepalen, inhoudskaarten voor levering te vormen, taken toe te voegen, beloningen op te zetten, en naar keuze overseinen over kanalen te vormen."
-
-Creeer een loyaliteitsuitdaging om de betrokkenheidsaanbieding te bepalen, inhoudskaarten te vormen, taken toe te voegen, beloningen op te zetten, en overseinen over kanalen te vormen.
-
 >[!BEGINSHADEBOX]
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [&#x200B; begin met de Uitdagingen van de Loyalty &#x200B;](gs-loyalty-challenges.md) - Snel overzicht en volgende stappen
-* [&#x200B; Begrijp Loyalty Uitdagingen &#x200B;](get-started.md) - Eigenschappen, werkschema, eerste vereisten
+* [ wordt begonnen met de Uitdagingen van de Loyalty ](get-started.md) - Overzicht, werkschema, eerste vereisten
+* [ de Uitdagingen van de Loyalty van de Toegang ](access-loyalty-challenges.md) - Inventaris en het filtreren
 * **creeer uitdagingen** {2 }︎ ◀ u hier **bent - bouw en vorm uitdagingen**
-* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - geef uit, controleer, optimaliseer
+* [ beheert uitdagingen ](manage-challenges.md) - geef uit, controleer, optimaliseer
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_create_challenge"
+>title="Een loyaliteitsprobleem maken"
+>abstract="Creeer een loyaliteitsuitdaging om de betrokkenheidsaanbieding te bepalen, inhoudskaarten voor levering te vormen, taken toe te voegen, beloningen op te zetten, en naar keuze overseinen over kanalen te vormen."
 
 ## Voordat u begint {#before-you-start}
 
@@ -265,5 +263,5 @@ De automatisch gegenereerde reis wordt geactiveerd op de opgegeven startdatum.
 
 ## Volgende stappen {#next-steps}
 
-* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - Leer hoe te, uitdagingen uit te geven te controleren en te optimaliseren
-* [&#x200B; Begrijp Loyalty Uitdagingen &#x200B;](get-started.md) - de eigenschappen en de mogelijkheden van het overzicht
+* [ beheert uitdagingen ](manage-challenges.md) - Leer hoe te, uitdagingen uit te geven te controleren en te optimaliseren
+* [ Begrijp Loyalty Uitdagingen ](get-started.md) - de eigenschappen en de mogelijkheden van het overzicht

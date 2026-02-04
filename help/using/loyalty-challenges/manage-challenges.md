@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private bèta" type="Informative"
-source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
+source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -20,23 +20,21 @@ ht-degree: 0%
 
 # Uitdagingen beheren {#manage-challenges}
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_manage_challenges"
->title="Beleidsuitdagingen beheren"
->abstract="Na het creëren van en het publiceren van loyaliteitsuitdagingen, kunt u hen bekijken, uitgeven, controleren en optimaliseren om ervoor te zorgen zij de gewenste resultaten voor uw loyaliteitsprogramma leveren."
-
-Na het creëren van en het publiceren van loyaliteitsuitdagingen, kunt u hen bekijken, uitgeven, controleren en optimaliseren om ervoor te zorgen zij de gewenste resultaten voor uw loyaliteitsprogramma leveren.
-
 >[!BEGINSHADEBOX]
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [&#x200B; begin met de Uitdagingen van de Loyalty &#x200B;](gs-loyalty-challenges.md) - Snel overzicht en volgende stappen
-* [&#x200B; Begrijp Loyalty Uitdagingen &#x200B;](get-started.md) - Eigenschappen, werkschema, eerste vereisten
-* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
+* [ wordt begonnen met de Uitdagingen van de Loyalty ](get-started.md) - Overzicht, werkschema, eerste vereisten
+* [ de Uitdagingen van de Loyalty van de Toegang ](access-loyalty-challenges.md) - Inventaris en het filtreren
+* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
 * **beheer uitdagingen** {2 }︎ ◀ u hier **bent - geef uit, controleer, optimaliseer**
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_manage_challenges"
+>title="Beleidsuitdagingen beheren"
+>abstract="Na het creëren van en het publiceren van loyaliteitsuitdagingen, kunt u hen bekijken, uitgeven, controleren en optimaliseren om ervoor te zorgen zij de gewenste resultaten voor uw loyaliteitsprogramma leveren."
 
 ## Levenscyclus van uitdagingen {#challenge-lifecycle}
 
@@ -104,5 +102,5 @@ Algemene problemen en oplossingen:
 
 ## Volgende stappen {#next-steps}
 
-* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw nieuwe loyaliteitsuitdagingen
-* [&#x200B; Begrijp Loyalty Uitdagingen &#x200B;](get-started.md) - de eigenschappen en de mogelijkheden van het overzicht
+* [ creeer uitdagingen ](create-challenges.md) - bouw nieuwe loyaliteitsuitdagingen
+* [ Begrijp Loyalty Uitdagingen ](get-started.md) - de eigenschappen en de mogelijkheden van het overzicht
