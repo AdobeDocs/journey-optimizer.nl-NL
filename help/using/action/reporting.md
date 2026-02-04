@@ -23,15 +23,15 @@ ht-degree: 0%
 
 Met de rapportpagina van **[!UICONTROL Custom action]** kunt u de betrouwbaarheid en prestaties controleren van API-aanroepen die tijdens uw reizen naar systemen van derden zijn gemaakt. Deze rapporten helpen u snel integratiekwesties, latentieknelpunten, of het vertragen/het begrenzen identificeren die levering kunnen beïnvloeden.
 
-De pagina met de rapportage van de aangepaste actie werkt net als andere All-time rapporten in Journey Optimizer. Voor details op dashboardfunctionaliteit, verwijs naar [ deze documentatie ](../reports/report-cja-manage.md).
+De pagina met de rapportage van de aangepaste actie werkt net als andere All-time rapporten in Journey Optimizer. Voor details op dashboardfunctionaliteit, verwijs naar [&#x200B; deze documentatie &#x200B;](../reports/report-cja-manage.md).
 
 Als u de **[!UICONTROL Custom action]** -rapportpagina wilt openen, klikt u op ![](assets/do-not-localize/Smock_Monitoring_18_N.svg) vanaf de **[!UICONTROL Actions]** -startpagina.
 
 ![](assets/monitor-1.png)
 
-➡️ [ Leer meer over de configuratie van de Acties van de Douane ](../action/about-custom-action-configuration.md)
+➡️ [&#x200B; Leer meer over de configuratie van de Acties van de Douane &#x200B;](../action/about-custom-action-configuration.md)
 
-Naast de **[!UICONTROL Custom action]** rapportpagina kunt u **[!DNL Adobe Experience Platform Query Service]** gebruiken om query&#39;s te maken voor het rapporteren van maatstaven voor aangepaste handelingsprestaties. De voorbeelden van de vraag zijn beschikbaar in [ deze sectie ](../reports/query-examples.md).
+Naast de **[!UICONTROL Custom action]** rapportpagina kunt u **[!DNL Adobe Experience Platform Query Service]** gebruiken om query&#39;s te maken voor het rapporteren van maatstaven voor aangepaste handelingsprestaties. De voorbeelden van de vraag zijn beschikbaar in [&#x200B; deze sectie &#x200B;](../reports/query-examples.md).
 
 ## KPI&#39;s {#kpis}
 
@@ -69,7 +69,7 @@ De **[!UICONTROL Calls over time]** grafiek toont de HTTP vraagKPI trend over de
 * Als u een tijdbereik van 1 dag selecteert, worden de KPI&#39;s per uur weergegeven in de grafiek.
 * Als u een tijdbereik van 1 uur selecteert, worden in de grafiek de PKI&#39;s per minuut weergegeven.
 
-➡️[ zie de sectie KPIs voor een beschrijving van de metriek van de vraag van HTTP ](#kpis)
+➡️[&#x200B; zie de sectie KPIs voor een beschrijving van de metriek van de vraag van HTTP &#x200B;](#kpis)
 
 ## Latentie in de tijd {#latency-overtime}
 
@@ -77,7 +77,7 @@ De **[!UICONTROL Calls over time]** grafiek toont de HTTP vraagKPI trend over de
 
 In de grafiek van **[!UICONTROL Latency over time]** wordt de trend van latentiemetriek gedurende de geselecteerde tijdsperiode weergegeven. In deze tijdreeksweergave kunt u prestatiepatronen volgen, pieklatentieperiodes identificeren en de invloed van optimalisaties of systeemwijzigingen in de loop van de tijd controleren.
 
-➡️[ zie de sectie KPIs voor een beschrijving van de metriek van de Latentie ](#kpis)
+➡️[&#x200B; zie de sectie KPIs voor een beschrijving van de metriek van de Latentie &#x200B;](#kpis)
 
 
 ## Uitsplitsing naar oproep {#breakdown}
@@ -86,7 +86,7 @@ In de grafiek van **[!UICONTROL Latency over time]** wordt de trend van latentie
 
 De **[!UICONTROL Calls breakdown]** lijst verstrekt een hiërarchische verdeling van de metriek van de vraag van HTTP, van de algemene metriek per eindpunt op het hoogste niveau aan de metriek per Actie van de Douane die elk eindpunt tot de reizen gebruikt die op hen op het bodemniveau baseren.
 
-➡️[ zie de sectie KPIs voor een beschrijving van de metriek van de vraag van HTTP ](#kpis)
+➡️[&#x200B; zie de sectie KPIs voor een beschrijving van de metriek van de vraag van HTTP &#x200B;](#kpis)
 
 ## Latentie-uitsplitsing {#latency-breakdown}
 
@@ -94,5 +94,5 @@ De **[!UICONTROL Calls breakdown]** lijst verstrekt een hiërarchische verdeling
 
 De tabel **[!UICONTROL Latency breakdown]** bevat een gedetailleerde uitsplitsing van de latentiemetriek in uw aangepaste handelingen. Deze weergave helpt u te identificeren welke specifieke eindpunten of acties prestatieproblemen ondervinden, zodat u knelpunten met betrekking tot wachttijden kunt opsporen en aanpakken.
 
-➡️[ zie de sectie KPIs voor een beschrijving van de metriek van de Latentie ](#kpis)
+➡️[&#x200B; zie de sectie KPIs voor een beschrijving van de metriek van de Latentie &#x200B;](#kpis)
 
