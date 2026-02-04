@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private bèta" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -24,17 +24,17 @@ ht-degree: 0%
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [&#x200B; wordt begonnen met de Uitdagingen van de Loyalty &#x200B;](get-started.md) - Overzicht, werkschema, eerste vereisten
-* [&#x200B; de Uitdagingen van de Loyalty van de Toegang &#x200B;](access-loyalty-challenges.md) - Inventaris en het filtreren
-* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
-* [&#x200B; creeer taken &#x200B;](create-tasks.md) - bepaal uitdagingstaken
+* [ wordt begonnen met de Uitdagingen van de Loyalty ](get-started.md) - Overzicht, werkschema, eerste vereisten
+* [ de Uitdagingen van de Loyalty van de Toegang ](access-loyalty-challenges.md) - Inventaris en het filtreren
+* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
+* [ creeer taken ](create-tasks.md) - bepaal uitdagingstaken
 * **beheer uitdagingen** {2 }︎ ◀ u hier **bent - geef uit, controleer, optimaliseer**
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
 
 ## Uitdagingen beheren {#manage-challenges-section}
 
@@ -45,67 +45,38 @@ ht-degree: 0%
 De uitdagingen bewegen zich door verschillende statussen tijdens hun levenscyclus:
 
 * **Ontwerp**: De uitdaging wordt gecreeerd of uitgegeven en is nog niet beschikbaar aan klanten
-* **Gepland**: De uitdaging is gepubliceerd en zal automatisch actief op de gespecificeerde begindatum worden
-* **Levend**: De uitdaging is momenteel actief en de klanten kunnen deelnemen
-* **Voltooid**: De uitdaging is geëindigd - of de einddatum is overgegaan of alle doelstellingen zijn verwezenlijkt
-* **Gestopt**: De uitdaging werd manueel tegengehouden alvorens zijn natuurlijke voltooiing te bereiken
-* **Gearchiveerd**: De uitdaging is gearchiveerd voor organisatorische doeleinden en is niet meer zichtbaar in de belangrijkste inventaris
+* **Gepubliceerd**: De uitdaging is actief, is de bijbehorende reis gecreeerd.
 
 ### Uitdagingen bewerken {#edit-challenges}
 
-U kunt uitdagingen afhankelijk van hun huidige status uitgeven:
+U kunt uitdagingen uitgeven door hen in de inventaris van Uitdagingen te openen. Het bewerkingsgedrag is afhankelijk van de status van de challenge:
 
-* **de uitdagingen van het Ontwerp**: Het volledige het uitgeven vermogen - alle eigenschappen kunnen worden gewijzigd
-* **Gepland/Levende uitdagingen**: Beperkte het uitgeven - u kunt inhoud bijwerken, overseinen, en data uitbreiden, maar kan kern uitdagingsstructuur (type, publiek, of taakdefinities) niet veranderen
+**de uitdagingen van het Ontwerp**: U hebt volledig het uitgeven vermogen. Alle eigenschappen, taken, inhoud, en overseinen kunnen zonder beperkingen worden gewijzigd.
 
-Een uitdaging bewerken:
+**Gepubliceerde uitdagingen**: Wanneer u een gepubliceerde uitdaging voor het uitgeven opent, moet u het eerst aan de status van het Ontwerp terugkeren.
 
-1. Navigeer naar het tabblad **[!UICONTROL Challenges]** in de lijst Loyalty Challenges.
+* Alle aanpassingen die rechtstreeks op de automatisch gegenereerde reis worden aangebracht, gaan verloren
+* De uitdaging keert terug naar de staat van het Ontwerp
+* Nadat u de wijzigingen hebt aangebracht, moet u de uitdaging opnieuw opslaan en publiceren
+* U moet de bijbehorende reis opnieuw activeren om de bijgewerkte uitdaging voor klanten beschikbaar te maken
 
-1. Zoek de uitdaging die u wilt bewerken.
-
-1. Selecteer de uitdagingsnaam om het in te openen uitgeeft wijze.
-
-1. Breng uw veranderingen aan die op de uitdagingsstatus worden gebaseerd:
-   * **de uitdagingen van het Ontwerp**: wijzig om het even welke eigenschappen, taken, inhoud, of overseinen
-   * **Gepland/Levende uitdagingen**: De kaarten van de inhoud van de update, overseinen, of breidt einddata uit zoals nodig
-
-1. Sla uw wijzigingen op. Voor geplande of live uitdagingen worden de wijzigingen onmiddellijk van kracht of volgens uw updateschema.
-
->[!NOTE]
+>[!IMPORTANT]
 >
->Voor veranderingen die belangrijke wijzigingen vereisen (zoals veranderend uitdagingstype, publiek, of taakstructuur), dupliceer de uitdaging en creeer een nieuwe versie in plaats van het uitgeven van bestaande.
+>Het omkeren van een gepubliceerde controle naar een concept kan niet ongedaan worden gemaakt. Overweeg de impact op uw actieve reis alvorens te werk te gaan.
 
 ### Dubbele uitdagingen {#duplicate-challenges}
-
-Dubbele uitdagingen voor:
-
-* Herhaal succesvolle uitdagingen voor nieuwe tijdsperioden
-* Variaties maken voor verschillende soorten publiek
-* Taakvereisten of beloningen bijwerken
-* Ge-gedaan of voltooide uitdagingen opnieuw activeren
 
 Het dupliceren van een uitdaging leidt tot een nauwkeurige exemplaar met alle taken, inhoud, en overseinen intact, die u toestaan om nieuwe versies snel tot stand te brengen zonder van kras te beginnen.
 
 Een uitdaging dupliceren:
 
-1. Navigeer naar het tabblad **[!UICONTROL Challenges]** in de lijst Loyalty Challenges.
+1. Navigeer naar het tabblad **[!UICONTROL Challenges]** en zoek de uitdaging die u wilt dupliceren.
 
-1. Zoek de uitdaging die u wilt dupliceren.
+1. Selecteer het pictogram ![](assets/do-not-localize/Smock_More_18_N.svg) naast die uitdaging en kies **[!UICONTROL Duplicate]** .
 
-1. Selecteer het menu Meer handelingen (drie punten) naast die uitdaging.
+1. Er wordt een kopie van de challenge gemaakt. Open de gedupliceerde uitdaging en wijzig de vereiste eigenschappen.
 
-1. Kies **[!UICONTROL Duplicate]** .
-
-1. Een exemplaar van de uitdaging wordt gecreeerd met &quot;[ Exemplaar ]&quot;toegevoegd aan zijn naam.
-
-1. Open de gedupliceerde uitdaging en wijzig de noodzakelijke eigenschappen:
-   * Werk de uitdagingsnaam bij
-   * Begin- en einddatums aanpassen
-   * Wijzig het doelpubliek indien nodig
-   * Pas taken, beloningen, inhoud of overseinen zonodig aan
-
-1. Controleer en publiceer de gedupliceerde uitdaging.
+1. Bespaar de gedupliceerde uitdaging en produceer de bijbehorende reis.
 
 ### Monitorprestaties {#monitor-performance}
 
@@ -136,7 +107,7 @@ Voor toegang tot prestatiegegevens:
 
 <!-- SCREENSHOT: Journey report showing challenge performance data with graphs and tables -->
 
-U kunt tot gedetailleerde prestatiesgegevens in de [&#x200B; auto-geproduceerde reisrapporten &#x200B;](../reports/journey-global-report-cja.md) ook toegang hebben, die extra inzichten en historische tendensen verstrekken.
+U kunt tot gedetailleerde prestatiesgegevens in de [ auto-geproduceerde reisrapporten ](../reports/journey-global-report-cja.md) ook toegang hebben, die extra inzichten en historische tendensen verstrekken.
 
 ## Taken beheren {#manage-tasks}
 
@@ -184,7 +155,7 @@ Een taak verwijderen:
 
 1. Controleer of het **[!UICONTROL Used in challenges]** -aantal 0 weergeeft. Als het aantal groter is dan 0, moet u de taak uit alle uitdagingen alvorens schrapping eerst verwijderen.
 
-1. Selecteer het menu Meer handelingen (drie punten) naast de taak.
+1. Selecteer het pictogram ![](assets/do-not-localize/Smock_More_18_N.svg) naast de taak.
 
 1. Kies **[!UICONTROL Delete]** .
 
