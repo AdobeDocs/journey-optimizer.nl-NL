@@ -25,15 +25,15 @@ ht-degree: 0%
 **de documentatie van de Uitdagingen van de Loyalty:**
 
 * **wordt begonnen met de Uitdagingen van de Loyalty** {2 }︎ ◀ u bent hier **- Overzicht, werkschema, eerste vereisten**
-* [ toegang en beheer de Uitdagingen van de Loyalty ](access-loyalty-challenges.md) - Overzicht, uitdagingen en taakbeheer
-* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
-* [ creeer taken ](create-tasks.md) - bepaal uitdagingstaken
+* [&#x200B; toegang en beheer de Uitdagingen van de Loyalty &#x200B;](access-loyalty-challenges.md) - Overzicht, uitdagingen en taakbeheer
+* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
+* [&#x200B; creeer taken &#x200B;](create-tasks.md) - bepaal uitdagingstaken
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
 
 ## Overzicht {#overview}
 
@@ -65,7 +65,7 @@ Het creëren en lanceren van een loyaliteitsuitdaging volgt deze werkschema:
 
 1. **publiceer reis** - Journey Optimizer produceert automatisch een reis voor uw uitdaging. Navigeer naar het overzicht van de Reizen en publiceer de automatisch gegenereerde reis om de uitdaging voor klanten beschikbaar te maken.
 
-Voor gedetailleerde geleidelijke instructies, zie [ uitdagingen ](create-challenges.md) creëren.
+Voor gedetailleerde geleidelijke instructies, zie [&#x200B; uitdagingen &#x200B;](create-challenges.md) creëren.
 
 ## Vereisten {#prerequisites}
 
@@ -81,7 +81,7 @@ Loyalty Challenges baseren zich op gegevens die door de bronschakelaars van Expe
 
 Zie voor gedetailleerde instructies:
 
-* [ Experience Platform brondocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [&#x200B; Experience Platform brondocumentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Bronconnectors configureren in Journey Optimizer](../start/get-started-sources.md)
 
 +++
@@ -101,7 +101,7 @@ Neem contact op met de beheerder als u geen toegang hebt tot de functie of aanvu
 
 +++Doelgroep
 
-Bepaal een doelpubliek dat specificeert welke klanten verkiesbaar zijn om aan uw loyaliteitsuitdagingen deel te nemen. U kunt bestaande doelgroepen selecteren of rechtstreeks nieuwe doelgroepen maken vanuit de interface voor het maken van uitdagingen. [ Leer hoe te met publiek ](../audience/about-audiences.md) te werken.
+Bepaal een doelpubliek dat specificeert welke klanten verkiesbaar zijn om aan uw loyaliteitsuitdagingen deel te nemen. U kunt bestaande doelgroepen selecteren of rechtstreeks nieuwe doelgroepen maken vanuit de interface voor het maken van uitdagingen. [&#x200B; Leer hoe te met publiek &#x200B;](../audience/about-audiences.md) te werken.
 
 +++
 

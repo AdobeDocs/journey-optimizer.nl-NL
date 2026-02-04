@@ -24,16 +24,16 @@ ht-degree: 0%
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [ wordt begonnen met de Uitdagingen van de Loyalty ](get-started.md) - Overzicht, werkschema, eerste vereisten
-* [ toegang en beheer de Uitdagingen van de Loyalty ](access-loyalty-challenges.md) - Overzicht, uitdagingen en taakbeheer
-* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
+* [&#x200B; wordt begonnen met de Uitdagingen van de Loyalty &#x200B;](get-started.md) - Overzicht, werkschema, eerste vereisten
+* [&#x200B; toegang en beheer de Uitdagingen van de Loyalty &#x200B;](access-loyalty-challenges.md) - Overzicht, uitdagingen en taakbeheer
+* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
 * **creeer taken** {2 }︎ ◀ u hier **bent - bepaal uitdagingstaken**
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
 
 De taken bepalen de specifieke acties of de mijlpalen die de klanten moeten voltooien om beloningen in een loyaliteitsuitdaging te verdienen. U kunt taaktypes, hoeveelheden, en productvereisten vormen om het in dienst nemen en gepersonaliseerde loyaliteitservaringen tot stand te brengen.
 
@@ -87,7 +87,7 @@ Configureer de taakkenmerken op basis van het geselecteerde type activiteit:
 Configureer de volgende kenmerken:
 
 * **[!UICONTROL Quantity]**: voer het aantal items in dat moet worden aangeschaft om deze taak te voltooien
-* **[!UICONTROL Eligible items & exclusions]**: Definieer items of itemgroepen die tellen voor voltooiing van de taak en items die dat niet doen. Leer meer over [ het bepalen van in aanmerking komende punten en uitsluitingen ](#eligible-items-exclusions)
+* **[!UICONTROL Eligible items & exclusions]**: Definieer items of itemgroepen die tellen voor voltooiing van de taak en items die dat niet doen. Leer meer over [&#x200B; het bepalen van in aanmerking komende punten en uitsluitingen &#x200B;](#eligible-items-exclusions)
 
 **Facultatieve attributen** (geactiveerd via het parameterpictogram):
 
@@ -102,7 +102,7 @@ Configureer de volgende kenmerken:
 
 * **[!UICONTROL Amount]**: voer het totale bedrag in dat nodig is om de taak te voltooien.
 * **[!UICONTROL Maximum number of transactions]**: geef op hoeveel transacties zijn toegestaan om te voldoen aan de vereisten voor uitgaven. U kunt dit kenmerk deactiveren via het parameterpictogram als u het aantal transacties niet wilt beperken.
-* **[!UICONTROL Eligible items & exclusions]**: (Optioneel) Definieer items of itemgroepen die tellen voor het voltooien van taken en items die dat niet doen. Leer meer over [ het bepalen van in aanmerking komende punten en uitsluitingen ](#eligible-items-exclusions)
+* **[!UICONTROL Eligible items & exclusions]**: (Optioneel) Definieer items of itemgroepen die tellen voor het voltooien van taken en items die dat niet doen. Leer meer over [&#x200B; het bepalen van in aanmerking komende punten en uitsluitingen &#x200B;](#eligible-items-exclusions)
 
 >[!ENDTABS]
 
