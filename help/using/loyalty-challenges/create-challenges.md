@@ -24,17 +24,17 @@ ht-degree: 0%
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [ wordt begonnen met de Uitdagingen van de Loyalty ](get-started.md) - Overzicht, werkschema, eerste vereisten
-* [ de Uitdagingen van de Loyalty van de Toegang ](access-loyalty-challenges.md) - Inventaris en het filtreren
+* [&#x200B; wordt begonnen met de Uitdagingen van de Loyalty &#x200B;](get-started.md) - Overzicht, werkschema, eerste vereisten
+* [&#x200B; de Uitdagingen van de Loyalty van de Toegang &#x200B;](access-loyalty-challenges.md) - Inventaris en het filtreren
 * **creeer uitdagingen** {2 }︎ ◀ u hier **bent - bouw en vorm uitdagingen**
-* [ creeer taken ](create-tasks.md) - bepaal uitdagingstaken
-* [ beheert uitdagingen ](manage-challenges.md) - geef uit, controleer, optimaliseer
+* [&#x200B; creeer taken &#x200B;](create-tasks.md) - bepaal uitdagingstaken
+* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - geef uit, controleer, optimaliseer
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
 
 ## Werking {#how-it-works}
 
@@ -73,7 +73,7 @@ Een nieuwe loyaliteitsuitdaging creëren:
    * **[!UICONTROL Streak]**: klanten voltooien dezelfde taak meerdere keren achter elkaar
    * **[!UICONTROL Sequential]**: klanten voltooien taken in een gedefinieerde volgorde
 
-   **het publiek van het Doel**: Selecteer het publiekssegment dat bepaalt wie aan deze uitdaging kan deelnemen. U moet een publiek maken in Experience Platform voordat u uitdagingen aanbrengt. Voor meer informatie, zie [ begonnen worden met publiek ](../audience/about-audiences.md).
+   **het publiek van het Doel**: Selecteer het publiekssegment dat bepaalt wie aan deze uitdaging kan deelnemen. U moet een publiek maken in Experience Platform voordat u uitdagingen aanbrengt. Voor meer informatie, zie [&#x200B; begonnen worden met publiek &#x200B;](../audience/about-audiences.md).
 
    **datum van het Begin**: Plaats wanneer de uitdaging aan klanten beschikbaar wordt.
 
@@ -93,13 +93,13 @@ Afhankelijk van uw uitdagingstype, voltooien de klanten verschillend taken:
 
 Als u taken wilt toevoegen aan uw taak, selecteert u **[!UICONTROL Add task]** in de sectie Taken en configureert u de taakeigenschappen.
 
-Voor gedetailleerde instructies bij het creëren van en het vormen van taken, zie [ tot taken ](create-tasks.md) leiden.
+Voor gedetailleerde instructies bij het creëren van en het vormen van taken, zie [&#x200B; tot taken &#x200B;](create-tasks.md) leiden.
 
 ### Inhoudskaarten configureren {#configure-content-cards}
 
 <!-- SCREENSHOT: Content cards configuration section in the challenge editor -->
 
-De kaarten van de inhoud verstrekken de visuele vertegenwoordiging van uw uitdaging op klantenapparaten, tonend uitdagingsinformatie, vooruitgang, en beloningen. Leer meer over [ inhoudskaarten ](../content-card/get-started-content-card.md).
+De kaarten van de inhoud verstrekken de visuele vertegenwoordiging van uw uitdaging op klantenapparaten, tonend uitdagingsinformatie, vooruitgang, en beloningen. Leer meer over [&#x200B; inhoudskaarten &#x200B;](../content-card/get-started-content-card.md).
 
 <!-- VISUAL: Example content card designs showing different states: challenge start, in-progress with progress bar, completion with reward -->
 
@@ -111,7 +111,7 @@ Om inhoudskaarten voor uw uitdaging te vormen:
 
 1. Ontwerp uw inhoudskaart:
    * Afbeeldingen, tekst en branding toevoegen
-   * Omvat [ personalisatietokens ](../personalization/personalization-syntax.md) om klant-specifieke informatie te tonen
+   * Omvat [&#x200B; personalisatietokens &#x200B;](../personalization/personalization-syntax.md) om klant-specifieke informatie te tonen
    * Voortgangsindicatoren voor uitdagingen weergeven
    * Beloningen en stimulansen weergeven
 
@@ -124,7 +124,7 @@ Om inhoudskaarten voor uw uitdaging te vormen:
 
 1. Sla de configuratie van de inhoudskaart op.
 
-Voor meer informatie bij het ontwerpen van en het aanpassen van inhoudskaarten, zie [ de inhoudskaarten van het Ontwerp ](../content-card/design-content-card.md).
+Voor meer informatie bij het ontwerpen van en het aanpassen van inhoudskaarten, zie [&#x200B; de inhoudskaarten van het Ontwerp &#x200B;](../content-card/design-content-card.md).
 
 ### Berichten configureren {#configure-messaging}
 
@@ -141,7 +141,7 @@ Om overseinen voor uw uitdaging te vormen:
 1. Berichten configureren voor elke levenscyclusfase:
 
    **de berichten van de Lancering** - breng klanten op de hoogte wanneer de uitdaging begint:
-   * Selecteer kanalen: [ In-app ](../in-app/get-started-in-app.md), [ e-mail ](../email/get-started-email.md), [ duw bericht ](../push/get-started-push.md), of [ SMS ](../sms/get-started-sms.md)
+   * Selecteer kanalen: [&#x200B; In-app &#x200B;](../in-app/get-started-in-app.md), [&#x200B; e-mail &#x200B;](../email/get-started-email.md), [&#x200B; duw bericht &#x200B;](../push/get-started-push.md), of [&#x200B; SMS &#x200B;](../sms/get-started-sms.md)
    * Ontwerp het bericht met uitdagingsdetails en call-to-action
    * Stel timing in: Verzend onmiddellijk wanneer de uitdaging live gaat of een specifieke tijd plant
 
@@ -171,13 +171,13 @@ Voordat u uw uitdaging publiceert:
 
 1. **Overzicht alle componenten**: Verifieer uitdagingseigenschappen, taken, beloningen, inhoudskaarten, en overseinenconfiguraties.
 
-1. **Test de ervaring**: Gebruik [ testprofielen ](../test-approve/test-profiles.md) om de vertoning van de inhoudskaart en het gedrag van de taaktrekker te bevestigen.
+1. **Test de ervaring**: Gebruik [&#x200B; testprofielen &#x200B;](../test-approve/test-profiles.md) om de vertoning van de inhoudskaart en het gedrag van de taaktrekker te bevestigen.
 
 1. **publiceer**: Selecteer **[!UICONTROL Publish]** om de uitdaging voor uw doelpubliek beschikbaar te maken.
 
 <!-- SCREENSHOT: Journeys inventory showing the auto-generated journey in Draft status with name format "Challenge: [Challenge Name]" -->
 
-Wanneer u een uitdaging publiceert, leidt Journey Optimizer automatisch tot a [ reis ](../building-journeys/journey-gs.md) in de status van het Ontwerp. De auto-geproduceerde reis verschijnt in uw reisinventaris met het naamformaat &quot;Uitdaging: [ Naam van de Uitdaging ]&quot;.
+Wanneer u een uitdaging publiceert, leidt Journey Optimizer automatisch tot a [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md) in de status van het Ontwerp. De auto-geproduceerde reis verschijnt in uw reisinventaris met het naamformaat &quot;Uitdaging: [ Naam van de Uitdaging ]&quot;.
 
 Om de uitdaging voor klanten beschikbaar te maken:
 
@@ -185,7 +185,7 @@ Om de uitdaging voor klanten beschikbaar te maken:
 
 1. Zoek de automatisch gegenereerde reis (deze heeft &#39;Uitdaging:&#39; als voorvoegsel in de naam).
 
-1. [ activeer de reis ](../building-journeys/publishing-the-journey.md).
+1. [&#x200B; activeer de reis &#x200B;](../building-journeys/publishing-the-journey.md).
 
 De reis begint automatisch op uw gespecificeerde datum van de uitdagingsaanvang.
 
@@ -195,6 +195,6 @@ De reis begint automatisch op uw gespecificeerde datum van de uitdagingsaanvang.
 
 ## Volgende stappen {#next-steps}
 
-* [ beheert uitdagingen ](manage-challenges.md) - Leer hoe te, uitdagingen uit te geven te controleren en te optimaliseren
-* [ Begrijp Loyalty Uitdagingen ](get-started.md) - de eigenschappen en de mogelijkheden van het overzicht
+* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - Leer hoe te, uitdagingen uit te geven te controleren en te optimaliseren
+* [&#x200B; Begrijp Loyalty Uitdagingen &#x200B;](get-started.md) - de eigenschappen en de mogelijkheden van het overzicht
 

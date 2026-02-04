@@ -24,17 +24,17 @@ ht-degree: 0%
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [ wordt begonnen met de Uitdagingen van de Loyalty ](get-started.md) - Overzicht, werkschema, eerste vereisten
-* [ de Uitdagingen van de Loyalty van de Toegang ](access-loyalty-challenges.md) - Inventaris en het filtreren
-* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
+* [&#x200B; wordt begonnen met de Uitdagingen van de Loyalty &#x200B;](get-started.md) - Overzicht, werkschema, eerste vereisten
+* [&#x200B; de Uitdagingen van de Loyalty van de Toegang &#x200B;](access-loyalty-challenges.md) - Inventaris en het filtreren
+* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
 * **creeer taken** {2 }︎ ◀ u hier **bent - bepaal uitdagingstaken**
-* [ beheert uitdagingen ](manage-challenges.md) - geef uit, controleer, optimaliseer
+* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - geef uit, controleer, optimaliseer
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
 
 ## Overzicht {#overview}
 
@@ -113,7 +113,7 @@ Configureer de taakkenmerken op basis van het geselecteerde type activiteit:
 Configureer de volgende kenmerken:
 
 * **Aantal**: Ga het aantal punten in die moeten worden gekocht om deze taak te voltooien
-* **In aanmerking komende punten &amp; uitsluitingen**: Bepaal punten of puntgroepen die naar taakvoltooiing en die tellen die niet. Leer meer over [ het bepalen van in aanmerking komende punten en uitsluitingen ](#eligible-items-exclusions)
+* **In aanmerking komende punten &amp; uitsluitingen**: Bepaal punten of puntgroepen die naar taakvoltooiing en die tellen die niet. Leer meer over [&#x200B; het bepalen van in aanmerking komende punten en uitsluitingen &#x200B;](#eligible-items-exclusions)
 
 **Facultatieve attributen** (vorm via het parameterpictogram):
 
@@ -128,7 +128,7 @@ Configureer de volgende kenmerken:
 
 * **Bedrag**: Ga het totale besteedbedrag in dat wordt vereist om de taak te voltooien
 * **Maximum aantal transacties**: Specificeer hoeveel transacties worden toegestaan om aan het uitgavenvereiste te voldoen. U kunt dit kenmerk deactiveren via het parameterpictogram als u het aantal transacties niet wilt beperken
-* **In aanmerking komende punten &amp; uitsluitingen**: (Facultatieve) Bepaal punten of puntgroepen die naar taakvoltooiing en die tellen die niet. Leer meer over [ het bepalen van in aanmerking komende punten en uitsluitingen ](#eligible-items-exclusions)
+* **In aanmerking komende punten &amp; uitsluitingen**: (Facultatieve) Bepaal punten of puntgroepen die naar taakvoltooiing en die tellen die niet. Leer meer over [&#x200B; het bepalen van in aanmerking komende punten en uitsluitingen &#x200B;](#eligible-items-exclusions)
 
 +++
 
@@ -170,5 +170,5 @@ Gebruik de sectie **[!UICONTROL The following are excluded from this task]** om 
 
 Nu u weet om taken tot stand te brengen en te vormen:
 
-* [ creeer uitdagingen ](create-challenges.md) - leer hoe te om volledige uitdagingen te bouwen en beloningen te vormen
-* [ beheert uitdagingen ](manage-challenges.md) - Leer hoe te, uitdagingen uit te geven te controleren en te optimaliseren
+* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - leer hoe te om volledige uitdagingen te bouwen en beloningen te vormen
+* [&#x200B; beheert uitdagingen &#x200B;](manage-challenges.md) - Leer hoe te, uitdagingen uit te geven te controleren en te optimaliseren
