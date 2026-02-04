@@ -102,6 +102,6 @@ In de onderstaande video ziet u hoe u de betrouwbaarheid en prestaties kunt cont
 
 +++Zie video
 
->[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479547?captions=dut&quality=12&learn=on)
 
 +++
