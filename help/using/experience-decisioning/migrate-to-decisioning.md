@@ -1,18 +1,18 @@
 ---
-title: Migreren van beslissingsbeheer naar besluitvorming
+title: Voordelen van migratie naar besluitvorming
 description: Meer informatie over de voordelen van migratie van beslissingsbeheer naar besluitvorming
 feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 669ea379f9e0ca54eb53be66f65343a9e00203cb
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1249'
 ht-degree: 1%
 
 ---
 
-# Migreren van beslissingsbeheer naar besluitvorming {#migrate-to-decisioning}
+# Voordelen van migratie naar besluitvorming {#migrate-to-decisioning}
 
 ## Wat is besluitvorming? {#what-is-decisioning}
 
@@ -26,7 +26,7 @@ Beslissing biedt aanzienlijke mogelijkheden en voordelen ten opzichte van het be
 
 ### Leermogelijkheden voor AI en machines
 
-* **metriek van de Douane**: Mogelijkheid om de metriek van de douaneverbetering voor AI modellen te gebruiken. Dit verstrekt het melden van interoperabiliteit met [&#x200B; Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, normaliseert het melden over beide platforms, en verbetert gegevensconsistentie en betrouwbaarheid. De naadloze integratie biedt een duidelijkere weergave van prestatiegegevens en voegt nieuwe functies toe, zoals het maken van eenvoudige meetgegevens, het publiceren van doelgroepen, het stellen van ad-hocvragen met Insight Builder en het plannen van rapporten.
+* **metriek van de Douane**: Mogelijkheid om de metriek van de douaneverbetering voor AI modellen te gebruiken. Dit verstrekt het melden van interoperabiliteit met [ Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, normaliseert het melden over beide platforms, en verbetert gegevensconsistentie en betrouwbaarheid. De naadloze integratie biedt een duidelijkere weergave van prestatiegegevens en voegt nieuwe functies toe, zoals het maken van eenvoudige meetgegevens, het publiceren van doelgroepen, het stellen van ad-hocvragen met Insight Builder en het plannen van rapporten.
 
 * **de meting van het optillen**: Mogelijkheid om onderzoek te visualiseren vs verkeer in AI modellen te exploiteren. Op deze manier kunnen marketeers en data wetenschappers kwantificeren hoe AI-exploratie de prestaties van het langetermijnmodel en de ontdekkingsmogelijkheden van nieuwe winnende aanbiedingen verbetert. De transparantie in verkeerstoewijzing bouwt vertrouwen in besluiten AI en machtigt teams om voor zowel het leren als prestaties in tijd te optimaliseren. [Meer informatie](ranking/auto-optimization-model.md#lift)
 
@@ -62,11 +62,11 @@ Het dashboard documenteert de prestaties van beslissingsitems en selectiestrateg
 
 ### Extra functies
 
-* **de handhaving van het Beleid**: De empowerment van de Bedrijfs gebruiker om eigenschappen als [&#x200B; de Etikettering en de Handhaving van het Gebruik van Gegevens te gebruiken (DULE) &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/data-governance/labels/overview){target="_blank"} en [&#x200B; Toestemming &#x200B;](../action/consent.md) binnen Beslissing, toelatend privacyschildbescherming over het besluitvormingswerkschema. Dit verzekert besluiten automatisch het beleid van het gegevensgebruik en de voorkeur van de klantentoestemming respecteren.
+* **de handhaving van het Beleid**: De empowerment van de Bedrijfs gebruiker om eigenschappen als [ de Etikettering en de Handhaving van het Gebruik van Gegevens te gebruiken (DULE) ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"} en [ Toestemming ](../action/consent.md) binnen Beslissing, toelatend privacyschildbescherming over het besluitvormingswerkschema. Dit verzekert besluiten automatisch het beleid van het gegevensgebruik en de voorkeur van de klantentoestemming respecteren.
 
-* **Inheemse steun van het overseinenkanaal**: Geïntegreerd overseinen en besluit binnen één enkel kader over veelvoudige kanalen ([&#x200B; op code-gebaseerde ervaring &#x200B;](../code-based/get-started-code-based.md) en [&#x200B; E-mail &#x200B;](../email/get-started-email.md) momenteel beschikbaar, andere kanalen die in H1 2026) komen. Dankzij de intuïtieve UI-ondersteuning kunnen gebruikers rechtstreeks beslissingscomponenten invoegen in workflows voor het schrijven van berichten.
+* **Inheemse steun van het overseinenkanaal**: Geïntegreerd overseinen en besluit binnen één enkel kader over veelvoudige kanalen ([ op code-gebaseerde ervaring ](../code-based/get-started-code-based.md) en [ E-mail ](../email/get-started-email.md) momenteel beschikbaar, andere kanalen die in H1 2026) komen. Dankzij de intuïtieve UI-ondersteuning kunnen gebruikers rechtstreeks beslissingscomponenten invoegen in workflows voor het schrijven van berichten.
 
-* **de datasetraadpleging van Experience Platform**: Mogelijkheid om [&#x200B; datasets van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/overview){target="_blank"} te uploaden en van verwijzingen te voorzien direct binnen de regels van de aanbiedingsselectie, rangschikkend, en gepersonaliseerde aanbiedingsinhoud. Dit breidt flexibiliteit voor verpersoonlijking en het richten door besluitvormingslogica toe te staan om dynamische externe gegevensbronnen te gebruiken. [Meer informatie](../data/lookup-aep-data.md)
+* **de datasetraadpleging van Experience Platform**: Mogelijkheid om [ datasets van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"} te uploaden en van verwijzingen te voorzien direct binnen de regels van de aanbiedingsselectie, rangschikkend, en gepersonaliseerde aanbiedingsinhoud. Dit breidt flexibiliteit voor verpersoonlijking en het richten door besluitvormingslogica toe te staan om dynamische externe gegevensbronnen te gebruiken. [Meer informatie](../data/lookup-aep-data.md)
 
 * **Schaalbaarheid &amp; prestaties**: De verhoging van de architectuur die besluitvormingsberekening van de hub aan de rand beweegt, beduidend verminderend latentie en verbeterend productie voor de gevallen van het hoog-verkeersgebruik.
 
@@ -87,11 +87,20 @@ Het dashboard documenteert de prestaties van beslissingsitems en selectiestrateg
 
 ## Migratiewerkset {#migration-tooling}
 
-Het Journey Optimizer-team werkt momenteel aan API&#39;s voor migratiehulpmiddelen om besluitvormingsentiteiten te migreren naar besluitvorming. Met deze gereedschappen kunt u naadloze migratie mogelijk maken tussen sandboxen met de mogelijkheden voor afhankelijkheidsresolutie en terugdraaien. Neem indien nodig contact op met uw Adobe-vertegenwoordiger.
+Een uitvoerige reeks **Tooling APIs van de Migratie** is beschikbaar om besluitvormingsentiteiten aan Beslissing te migreren. Deze API&#39;s maken naadloze migratie tussen sandboxen mogelijk met automatische afhankelijkheidsresolutie en terugdraaimogelijkheden.
+
+Met de API&#39;s voor migratiebeheer kunt u:
+
+* **analyseert gebiedsdelen** tussen bron en doelzandbakken
+* **Migreer bij verschillende werkingsgebied** - zandbak, aanbieding, of besluitvormingsniveau
+* **Terugdraaimigratie** als de kwesties worden ontdekt
+
+Voor volledige API documentatie, met inbegrip van authentificatie, eindpunten, verzoek/reactievoorbeelden, en geleidelijke werkschema&#39;s, verwijs naar de [ Beslissende API documentatie van de Migratie ](decisioning-migration-api.md).
 
 ## Verwante onderwerpen {#related-topics}
 
 * [Aan de slag met beslissing](gs-experience-decisioning.md)
 * [Beslissingsinstructies en beperkingen](decisioning-guardrails.md)
 * [Veelgestelde vragen over beslissingen](decisioning-faq.md)
+* [Migratie-API voor besluitvorming](decisioning-migration-api.md)
 

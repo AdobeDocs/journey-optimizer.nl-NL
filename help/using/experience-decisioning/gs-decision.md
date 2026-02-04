@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 19%
+source-wordcount: '303'
+ht-degree: 18%
 
 ---
 
@@ -39,7 +39,11 @@ Ons besluitvormingskader van de volgende generatie, ontworpen om bestaande Journ
 
 Het nemen van besluiten wordt momenteel gesteund in op code-gebaseerd ervaringskanaal.
 
-➡️ [&#x200B; worden begonnen met Beslissing &#x200B;](../experience-decisioning/gs-experience-decisioning.md)
+➡️ [ worden begonnen met Beslissing ](../experience-decisioning/gs-experience-decisioning.md)
+
+>[!NOTE]
+>
+>Om van besluitvormingsbeheer aan Beslissing te migreren, verwijs naar de [ migratiedocumentatie ](../experience-decisioning/migrate-to-decisioning.md) en [ gids van de Migratie API ](../experience-decisioning/decisioning-migration-api.md).
 
 ## Beslissingsbeheer {#decision-management}
 
@@ -49,4 +53,4 @@ Ons gevestigde kenmerk in Journey Optimizer, Beslissingsbeheer gebruikt een cent
 
 Beslissingsbeheer ondersteunt de volgende kanalen: E-mail, In-App-berichten, pushberichten, SMS en Direct-mail.
 
-➡️ [&#x200B; worden begonnen met het beheer van het Besluit &#x200B;](../offers/get-started/starting-offer-decisioning.md)
+➡️ [ worden begonnen met het beheer van het Besluit ](../offers/get-started/starting-offer-decisioning.md)
