@@ -58,7 +58,7 @@ Met de Uitdagingen van de Loyalty, vorm beloningen, verzend multi-kanaalberichte
 
 Het creëren en lanceren van een loyaliteitsuitdaging volgt deze werkschema:
 
-1. **de gegevensopname van de opstelling** - Vorm de bronschakelaars van Experience Platform (zoals [&#x200B; Capillaire schakelaar &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) om loyaliteitsgebeurtenisgegevens in te voeren die klantenacties en vooruitgang volgen. Deze gegevens stellen het bijhouden van taken en het voltooien van taken op de proef.
+1. **de gegevensopname van de opstelling** - Vorm de bronschakelaars van Experience Platform (zoals [&#x200B; Capillaire schakelaar &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home#loyalty)) om loyaliteitsgebeurtenisgegevens in te voeren die klantenacties en vooruitgang volgen. Deze gegevens stellen het bijhouden van taken en het voltooien van taken op de proef.
 
 1. **creeer een uitdaging** - bepaal de basisuitdagingseigenschappen, met inbegrip van naam, type (Norm, Streak, of Opeenvolgend), en datumwaaier.
 
@@ -82,11 +82,11 @@ Voordat u Loyalty Challenges gaat gebruiken, moet u controleren of u beschikt ov
 
 Loyalty Challenges baseren zich op gegevens die door de bronschakelaars van Experience Platform worden opgenomen om klantenvooruitgang en taakvoltooiing te volgen.
 
-1. **vorm een gesteunde bronschakelaar**: Momenteel, is de Capillaire schakelaar beschikbaar. Extra schakelaars zijn gepland voor toekomstige versies. [&#x200B; Leer over loyaliteitsbronschakelaars &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
+1. **vorm een gesteunde bronschakelaar**: Momenteel, is de Capillaire schakelaar beschikbaar. Extra schakelaars zijn gepland voor toekomstige versies. [&#x200B; Leer over loyaliteitsbronschakelaars &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home#loyalty).
 
 1. **bevestigt gegevensopname**: Zorg ervoor dat de loyaliteitsgebeurtenissen en de klantengegevens in Experience Platform stromen en beschikbaar in Journey Optimizer. Verifieer dat het gegevensschema de noodzakelijke gebieden voor het volgen van klantenacties en vooruitgang omvat.
 
-Voor gedetailleerde instructies, zie [&#x200B; Experience Platform bronoverzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+Voor gedetailleerde instructies, zie [&#x200B; Experience Platform bronoverzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home)
 
 +++
 
