@@ -39,11 +39,11 @@ Ons besluitvormingskader van de volgende generatie, ontworpen om bestaande Journ
 
 Het nemen van besluiten wordt momenteel gesteund in op code-gebaseerd ervaringskanaal.
 
-➡️ [ worden begonnen met Beslissing ](../experience-decisioning/gs-experience-decisioning.md)
+➡️ [&#x200B; worden begonnen met Beslissing &#x200B;](../experience-decisioning/gs-experience-decisioning.md)
 
 >[!NOTE]
 >
->Om van besluitvormingsbeheer aan Beslissing te migreren, verwijs naar de [ migratiedocumentatie ](../experience-decisioning/migrate-to-decisioning.md) en [ gids van de Migratie API ](../experience-decisioning/decisioning-migration-api.md).
+>Om van besluitvormingsbeheer aan Beslissing te migreren, verwijs naar de [&#x200B; migratiedocumentatie &#x200B;](../experience-decisioning/migrate-to-decisioning.md) en [&#x200B; gids van de Migratie API &#x200B;](../experience-decisioning/decisioning-migration-api.md).
 
 ## Beslissingsbeheer {#decision-management}
 
@@ -53,4 +53,4 @@ Ons gevestigde kenmerk in Journey Optimizer, Beslissingsbeheer gebruikt een cent
 
 Beslissingsbeheer ondersteunt de volgende kanalen: E-mail, In-App-berichten, pushberichten, SMS en Direct-mail.
 
-➡️ [ worden begonnen met het beheer van het Besluit ](../offers/get-started/starting-offer-decisioning.md)
+➡️ [&#x200B; worden begonnen met het beheer van het Besluit &#x200B;](../offers/get-started/starting-offer-decisioning.md)
