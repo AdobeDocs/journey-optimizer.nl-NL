@@ -24,16 +24,16 @@ ht-degree: 0%
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [ wordt begonnen met de Uitdagingen van de Loyalty ](get-started.md) - Overzicht, werkschema, eerste vereisten
-* [ toegang en beheer de Uitdagingen van de Loyalty ](access-loyalty-challenges.md) - Overzicht, uitdagingen en taakbeheer
+* [&#x200B; wordt begonnen met de Uitdagingen van de Loyalty &#x200B;](get-started.md) - Overzicht, werkschema, eerste vereisten
+* [&#x200B; toegang en beheer de Uitdagingen van de Loyalty &#x200B;](access-loyalty-challenges.md) - Overzicht, uitdagingen en taakbeheer
 * **creeer uitdagingen** {2 }︎ ◀ u hier **bent - bouw en vorm uitdagingen**
-* [ creeer taken ](create-tasks.md) - bepaal uitdagingstaken
+* [&#x200B; creeer taken &#x200B;](create-tasks.md) - bepaal uitdagingstaken
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
 
 ## Maak de uitdaging {#create-the-challenge}
 
@@ -95,7 +95,7 @@ Ga als volgt te werk om taken aan uw uitdaging toe te voegen:
 
    ![](assets/challenge-create-add-task.png)
 
-1. De lus **[!UICONTROL Tasks Inventory]** wordt geopend. Selecteer een of meer taken in de lijst en selecteer **[!UICONTROL Add]** . Selecteer **[!UICONTROL New]** als u een nieuwe taak wilt maken. [ leer hoe te om taken ](create-tasks.md) tot stand te brengen en te vormen.
+1. De lus **[!UICONTROL Tasks Inventory]** wordt geopend. Selecteer een of meer taken in de lijst en selecteer **[!UICONTROL Add]** . Selecteer **[!UICONTROL New]** als u een nieuwe taak wilt maken. [&#x200B; leer hoe te om taken &#x200B;](create-tasks.md) tot stand te brengen en te vormen.
 
 1. Specificeer wanneer de uitdaging als voltooid wordt beschouwd. Beschikbare instellingen zijn afhankelijk van het type uitdaging:
 
@@ -183,15 +183,15 @@ Na het vormen van de uitdagingsstructuur met taken en beloningen, ontwerp de inh
 
 ## Inhoudskaarten configureren {#configure-content-cards}
 
-De kaarten van de inhoud vertegenwoordigen visueel uw uitdaging op klantenapparaten, tonend uitdagingsinformatie, vooruitgang, en beloningen. [ leer meer over inhoudskaarten ](../content-card/create-content-card.md).
+De kaarten van de inhoud vertegenwoordigen visueel uw uitdaging op klantenapparaten, tonend uitdagingsinformatie, vooruitgang, en beloningen. [&#x200B; leer meer over inhoudskaarten &#x200B;](../content-card/create-content-card.md).
 
 Om inhoudskaarten voor uw uitdaging te vormen:
 
 1. Navigeer naar het tabblad **[!UICONTROL Content]** en voer een **[!UICONTROL Name]** in voor de inhoudskaart.
 
-1. Selecteer het **[!UICONTROL Channel configuration]**. Kanaalconfiguraties bevatten alle technische parameters voor het verzenden van berichten, zoals headerparameters, subdomein, mobiele apps, enz. [ leer meer over kanaalconfiguraties ](../configuration/channel-surfaces.md).
+1. Selecteer het **[!UICONTROL Channel configuration]**. Kanaalconfiguraties bevatten alle technische parameters voor het verzenden van berichten, zoals headerparameters, subdomein, mobiele apps, enz. [&#x200B; leer meer over kanaalconfiguraties &#x200B;](../configuration/channel-surfaces.md).
 
-1. Selecteer **[!UICONTROL Edit content]** om uw inhoudskaart te ontwerpen. [ Leer om inhoudskaarten ](../content-card/design-content-card.md) te ontwerpen en te personaliseren.
+1. Selecteer **[!UICONTROL Edit content]** om uw inhoudskaart te ontwerpen. [&#x200B; Leer om inhoudskaarten &#x200B;](../content-card/design-content-card.md) te ontwerpen en te personaliseren.
 
    ![](assets/challenge-create-content.png)
 
@@ -231,7 +231,7 @@ Bepaal welke klanten aan uw loyaliteitsuitdaging kunnen deelnemen.
 
    ![](assets/challenge-create-audience.png)
 
-1. Selecteer het doelpubliek in de lijst met beschikbare Adobe Experience Platform-doelgroepen. [ Leer hoe te met publiek ](../audience/about-audiences.md) te werken.
+1. Selecteer het doelpubliek in de lijst met beschikbare Adobe Experience Platform-doelgroepen. [&#x200B; Leer hoe te met publiek &#x200B;](../audience/about-audiences.md) te werken.
 
 1. Selecteer **[!UICONTROL Add audience]**.
 
@@ -243,11 +243,11 @@ Genereer de reis die uw uitdagingslevering en klanteninteractie zal ordenen. Sel
 
 ![](assets/challenge-create-generate-journey.png)
 
-Journey Optimizer leidt automatisch tot a [ reis ](../building-journeys/journey-gs.md) in de status van het Ontwerp. De auto-geproduceerde reis verschijnt in uw reisinventaris met het naamformaat &quot;Uitdaging: [ Naam van de Uitdaging ]&quot;.
+Journey Optimizer leidt automatisch tot a [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md) in de status van het Ontwerp. De auto-geproduceerde reis verschijnt in uw reisinventaris met het naamformaat &quot;Uitdaging: [ Naam van de Uitdaging ]&quot;.
 
 ![](assets/challenge-create-journey.png)
 
-Herzie de reisconfiguratie indien nodig, dan publiceer de reis om de uitdaging ter beschikking te stellen van klanten. [ leer hoe te om een reis ](../building-journeys/publish-journey.md) te publiceren.
+Herzie de reisconfiguratie indien nodig, dan publiceer de reis om de uitdaging ter beschikking te stellen van klanten. [&#x200B; leer hoe te om een reis &#x200B;](../building-journeys/publish-journey.md) te publiceren.
 
 De reis zal automatisch op uw gespecificeerde datum van de uitdagingsaanvang beginnen en inhoud en berichten volgens uw configuratie leveren.
 
