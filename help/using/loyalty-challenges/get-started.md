@@ -81,7 +81,7 @@ Loyalty Challenges baseren zich op gegevens die door de bronschakelaars van Expe
 
 Zie voor gedetailleerde instructies:
 
-* [&#x200B; Experience Platform brondocumentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [&#x200B; Experience Platform brondocumentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/home)
 * [Bronconnectors configureren in Journey Optimizer](../start/get-started-sources.md)
 
 +++
