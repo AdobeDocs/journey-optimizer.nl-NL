@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Private bèta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
+source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -21,20 +21,20 @@ ht-degree: 0%
 
 # Toegang tot en beheer uitdagingen en taken {#access-loyalty-challenges}
 
->[!AVAILABILITY]
->
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
-
 >[!BEGINSHADEBOX]
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
 * [Aan de slag met Loyalty Challenges](get-started.md)
-* **toegang &amp; beheer uitdagingen en taken** {2 }︎ ◀ u bent hier **&#x200B;**
+* **toegang &amp; beheer uitdagingen en taken** {2 }︎ ◀ u bent hier ****
 * [Uitdagingen maken](create-challenges.md)
 * [Taken maken](create-tasks.md)
 
 >[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>Deze eigenschap is momenteel in **privé bèta**. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
 
 ## Toegang tot en beheer uitdagingen en taken
 
