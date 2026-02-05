@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
+source-git-commit: c81d9e4c6339ea5637462afb87b6d81a716b22f1
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '1971'
 ht-degree: 1%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 1%
 >title="Aangepaste acties"
 >abstract="Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen."
 
-Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen. Bijvoorbeeld kunt u met de volgende systemen met douaneacties verbinden: Epsilon, Slack, [&#x200B; Adobe Developer &#x200B;](https://developer.adobe.com){target="_blank"}, Vuurbasis, enz.
+Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen. Bijvoorbeeld kunt u met de volgende systemen met douaneacties verbinden: Epsilon, Slack, [ Adobe Developer ](https://developer.adobe.com){target="_blank"}, Vuurbasis, enz.
 
-Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan verkopers. Als deze zijn geconfigureerd, worden ze weergegeven in het linkerpalet van uw reis, in de categorie **[!UICONTROL Action]** . Leer meer op [&#x200B; deze pagina &#x200B;](../building-journeys/about-journey-activities.md#action-activities).
+Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan verkopers. Als deze zijn geconfigureerd, worden ze weergegeven in het linkerpalet van uw reis, in de categorie **[!UICONTROL Action]** . Leer meer op [ deze pagina ](../building-journeys/about-journey-activities.md#action-activities).
 
 
 ## Configuratiestappen {#configuration-steps}
@@ -57,31 +57,31 @@ Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vorm
 
 ## Beperkingen{#custom-actions-limitations}
 
-De acties van de douane komen met een paar beperkingen die op [&#x200B; worden vermeld deze pagina &#x200B;](../start/guardrails.md).
+De acties van de douane komen met een paar beperkingen die op [ worden vermeld deze pagina ](../start/guardrails.md).
 
-In parameters voor aangepaste handelingen kunt u een eenvoudige verzameling en een verzameling objecten doorgeven. Leer meer over inzamelingsbeperkingen op [&#x200B; deze pagina &#x200B;](../building-journeys/collections.md#limitations).
+In parameters voor aangepaste handelingen kunt u een eenvoudige verzameling en een verzameling objecten doorgeven. Leer meer over inzamelingsbeperkingen op [ deze pagina ](../building-journeys/collections.md#limitations).
 
-De parameters voor aangepaste handelingen hebben een verwachte indeling (bijvoorbeeld tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren. Leer meer in dit [&#x200B; gebruiksgeval &#x200B;](../building-journeys/collections.md).
+De parameters voor aangepaste handelingen hebben een verwachte indeling (bijvoorbeeld tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren. Leer meer in dit [ gebruiksgeval ](../building-journeys/collections.md).
 
-De acties van de douane steunen JSON formaat slechts wanneer het gebruiken van [&#x200B; verzoek &#x200B;](../action/about-custom-action-configuration.md#define-the-message-parameters) of [&#x200B; antwoordladloads &#x200B;](../action/action-response.md).
+De acties van de douane steunen JSON formaat slechts wanneer het gebruiken van [ verzoek ](../action/about-custom-action-configuration.md#define-the-message-parameters) of [ antwoordladloads ](../action/action-response.md).
 
 >[!NOTE]
 >
->Wanneer een eindpunt een reactietijd meer dan 0.75 seconden heeft, worden zijn vraag van de douaneactie verpletterd door de specifieke langzaam [&#x200B; dienst van de douaneactie &#x200B;](../configuration/external-systems.md#response-time) in plaats van de standaarddienst.
+>Wanneer een eindpunt een reactietijd meer dan 0.75 seconden heeft, worden zijn vraag van de douaneactie verpletterd door de specifieke langzaam [ dienst van de douaneactie ](../configuration/external-systems.md#response-time) in plaats van de standaarddienst.
 
 
 ## Best practices{#custom-action-enhancements-best-practices}
 
 Wanneer het kiezen van een eindpunt om het gebruiken van een douaneactie te richten, ben zeker dat:
 
-* Dit eindpunt kan de productie van de reis steunen, gebruikend configuraties van [&#x200B; het Throttling API &#x200B;](../configuration/throttling.md) of [&#x200B; Capping API &#x200B;](../configuration/capping.md) om het te beperken. Wees voorzichtig dat een snelheidsbegrenzingsconfiguratie niet lager kan zijn dan 200 TPS. Om het even welk gericht eindpunt zal minstens 200 TPS moeten steunen. Leer meer over de tarieven van de reisverwerking in [&#x200B; deze sectie &#x200B;](../building-journeys/entry-management.md#journey-processing-rate).
+* Dit eindpunt kan de productie van de reis steunen, gebruikend configuraties van [ het Throttling API ](../configuration/throttling.md) of [ Capping API ](../configuration/capping.md) om het te beperken. Wees voorzichtig dat een snelheidsbegrenzingsconfiguratie niet lager kan zijn dan 200 TPS. Om het even welk gericht eindpunt zal minstens 200 TPS moeten steunen. Leer meer over de tarieven van de reisverwerking in [ deze sectie ](../building-journeys/entry-management.md#journey-processing-rate).
 * Dit eindpunt moet een reactietijd hebben zo laag mogelijk. Afhankelijk van uw verwachte productie, zou het hebben van een hoge reactietijd de daadwerkelijke productie kunnen beïnvloeden.
 
 Een maximum van 300.000 vraag over één minuut wordt bepaald voor alle douaneacties. Daarnaast wordt de standaarduitlijning uitgevoerd per host en per sandbox. Als u bijvoorbeeld op een sandbox twee eindpunten met dezelfde host hebt (bijvoorbeeld `https://www.adobe.com/endpoint1` en `https://www.adobe.com/endpoint2` ), wordt de aftopping toegepast op alle eindpunten onder de host adobe.com. De &quot;eindpunt1&quot;en &quot;eindpunt2&quot;zullen de zelfde het begrenzen configuratie delen en het hebben van één eindpunt bereikt de grens zal een effect op het andere eindpunt hebben.
 
 >[!NOTE]
 >
->De 300.000 vraag per minieme GLB wordt afgedwongen als a **glijdend venster** per zandbak en per eindpunt voor eindpunten met reactietijden minder dan 0.75 seconden. Het schuifvenster kan op elke gewenste milliseconde beginnen. Dit betekent dat er zich aftapfouten kunnen voordoen, zelfs als de snelheid lager dan 300 kB/min wordt weergegeven wanneer het venster wordt uitgelijnd op klokminuten. Voor eindpunten met reactietijden groter dan 0.75 seconden, is een afzonderlijke grens van 150.000 vraag per 30 seconden (ook een glijdend venster) van toepassing. Leer meer over langzame eindpunten op [&#x200B; deze pagina &#x200B;](../configuration/external-systems.md#response-time).
+>De 300.000 vraag per minieme GLB wordt afgedwongen als a **glijdend venster** per zandbak en per eindpunt voor eindpunten met reactietijden minder dan 0.75 seconden. Het schuifvenster kan op elke gewenste milliseconde beginnen. Dit betekent dat er zich aftapfouten kunnen voordoen, zelfs als de snelheid lager dan 300 kB/min wordt weergegeven wanneer het venster wordt uitgelijnd op klokminuten. Voor eindpunten met reactietijden groter dan 0.75 seconden, is een afzonderlijke grens van 150.000 vraag per 30 seconden (ook een glijdend venster) van toepassing. Leer meer over langzame eindpunten op [ deze pagina ](../configuration/external-systems.md#response-time).
 
 De standaard 300.000 vraag per minieme grens is van toepassing op het domeinniveau (d.w.z. example.com). Als u een hogere grens vereist, raadpleeg de Steun van Adobe met gebruiksbewijs, en bevestig de productie van uw eindpunt. Om om een het begrenzen verhoging te verzoeken, verstrek details van uw verwacht vraagvolume en eindpuntcapaciteit. Adobe kan het maximum aanpassen als de capaciteitstests aantonen het eindpunt hogere productie kan behandelen. Voor beste praktijken, overweeg het herstructureren van reizen of het uitvoeren van wachtactiviteiten om uitgaande vraag te stagneren en het begrenzen van fouten te vermijden.
 
@@ -97,8 +97,8 @@ U zou openbare eindpunten met douaneacties niet om verschillende redenen moeten 
 
 In Journey Optimizer kunt u beleid voor gegevensbeheer en toestemming toepassen op uw aangepaste acties om te voorkomen dat bepaalde velden worden geëxporteerd naar systemen van derden of om klanten uit te sluiten die niet hebben ingestemd met het ontvangen van e-mail, push- of SMS-berichten. Raadpleeg de volgende pagina&#39;s voor meer informatie:
 
-* [&#x200B; het bestuur van Gegevens &#x200B;](../action/action-privacy.md).
-* [&#x200B; Toestemming &#x200B;](../action/action-privacy.md).
+* [ het bestuur van Gegevens ](../action/action-privacy.md).
+* [ Toestemming ](../action/action-privacy.md).
 
 
 ## Eindpuntconfiguratie {#url-configuration}
@@ -151,7 +151,7 @@ Wanneer u een aangepaste handeling configureert, moet u de volgende **[!UICONTRO
    >
    >Nadat u de douaneactie aan een reis hebt toegevoegd, kunt u kopbal of vraagparametergebieden aan het nog toevoegen als de reis in ontwerpstatus is. Als u niet wilt dat de reis door configuratieveranderingen wordt beïnvloed, dupliceer de douaneactie en voeg de gebieden aan de nieuwe douaneactie toe.
    >
-   >Kopteksten worden gevalideerd volgens veldparseringsregels. Leer meer in [&#x200B; deze documentatie &#x200B;](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
+   >Kopteksten worden gevalideerd volgens veldparseringsregels. Leer meer in [ deze documentatie ](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## Laag voor transportbeveiliging {#tls}
 
@@ -163,7 +163,7 @@ Adobe Journey Optimizer biedt standaard ondersteuning voor TLS 1.3 voor aangepas
 
 U kunt Wederzijdse Veiligheid van de Laag van het Vervoer (mTLS) gebruiken om verbeterde veiligheid in uitgaande verbindingen aan de douaneacties van Adobe Journey Optimizer te verzekeren. mTLS is een end-to-end veiligheidsmethode voor wederzijdse authentificatie die ervoor zorgt dat beide partijen die informatie delen wie zij beweren te zijn alvorens de gegevens worden gedeeld. mTLS bevat een extra stap in vergelijking met TLS, waarin de server ook om het certificaat van de client vraagt en dit aan het einde verifieert.
 
-Wederzijdse TLS-verificatie (mTLS) wordt ondersteund in aangepaste handelingen. Er is geen extra configuratie vereist in de douaneactie of de reis om mTLS te activeren; het komt automatisch voor wanneer een mTLS-Toegelaten eindpunt wordt ontdekt. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+Wederzijdse TLS-verificatie (mTLS) wordt ondersteund in aangepaste handelingen. Er is geen extra configuratie vereist in de douaneactie of de reis om mTLS te activeren; het komt automatisch voor wanneer een mTLS-Toegelaten eindpunt wordt ontdekt. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## De parameters voor de nuttige lading definiëren {#define-the-message-parameters}
 
@@ -175,11 +175,11 @@ U kunt de parameter payload als volgt definiëren:
 
    ![](assets/null-values.png){width="70%" align="left"}
 
-1. Plak in de sectie **[!UICONTROL Response]** een voorbeeld van de lading die wordt geretourneerd wanneer de aanroep is gelukt. Dit veld is optioneel en beschikbaar voor alle aanroepmethoden. Voor gedetailleerde informatie over hoe te hefboomwerking API vraagreacties in douaneacties, verwijs naar [&#x200B; deze pagina &#x200B;](../action/action-response.md).
+1. Plak in de sectie **[!UICONTROL Response]** een voorbeeld van de lading die wordt geretourneerd wanneer de aanroep is gelukt. Dit veld is optioneel en beschikbaar voor alle aanroepmethoden. Voor gedetailleerde informatie over hoe te hefboomwerking API vraagreacties in douaneacties, verwijs naar [ deze pagina ](../action/action-response.md).
 
    ![](assets/response-values.png){width="70%" align="left"}
 
-1. (Optioneel) Selecteer **[!UICONTROL Define a failure response payload]** om het payloadveld voor foutreacties in te schakelen. Wanneer toegelaten, gebruik de **[!UICONTROL Error Response]** sectie om een voorbeeld van de nuttige lading te kleven teruggekeerd wanneer de vraag ontbreekt. Dezelfde vereisten gelden als voor de responslading (veldtypen en -indeling). Leer hoe te hefboomwerking de nuttige lading van de mislukkingsreactie in reizen [&#x200B; hier &#x200B;](../action/action-response.md).
+1. (Optioneel) Selecteer **[!UICONTROL Define a failure response payload]** om het payloadveld voor foutreacties in te schakelen. Wanneer toegelaten, gebruik de **[!UICONTROL Error Response]** sectie om een voorbeeld van de nuttige lading te kleven teruggekeerd wanneer de vraag ontbreekt. Dezelfde vereisten gelden als voor de responslading (veldtypen en -indeling). Leer hoe te hefboomwerking de nuttige lading van de mislukkingsreactie in reizen [ hier ](../action/action-response.md).
 
    ![](assets/response-values.png){width="70%" align="left"}
 
@@ -207,13 +207,14 @@ In deze gebiedsconfiguratie, moet u:
 >Als u optionele parameters configureert terwijl u Null-waarden toestaat, worden parameters die niet door een reisdeskundige worden ingevuld, als Null verzonden.
 >
 
-## Uitgebreide JSON-voorbeelden {#json-examples}
+<!--
+## Comprehensive JSON examples {#json-examples}
 
-Deze sectie bevat volledige JSON-voorbeelden waarin alle ondersteunde parametertypen en -configuraties voor aangepaste acties worden getoond.
+This section provides complete JSON examples demonstrating all supported parameter types and configurations for custom actions.
 
-### Voorbeeld 1: elementaire parametertypen
+### Example 1: Basic parameter types
 
-In dit voorbeeld wordt getoond hoe u verschillende gegevenstypen kunt gebruiken in de payload van een aangepaste handeling:
+This example shows how to use different data types in your custom action payload:
 
 ```json
 {
@@ -227,16 +228,16 @@ In dit voorbeeld wordt getoond hoe u verschillende gegevenstypen kunt gebruiken 
 }
 ```
 
-In de actieconfiguratie:
-* `userId` - Variabele parameter (String) - Wijst toe aan profiel firstName
-* `accountId` - Constante parameter (String) - verzendt altijd &quot;ABC123&quot;
-* `age` - Variabele parameter (geheel getal) - Wijzen toe aan profielpagina
-* `isActive` - Constante parameter (Boolean) - Altijd waar verzenden
-* `loyaltyScore` - Variabele parameter (decimaal) - Wordt toegewezen aan aangepast profielveld
+In the action configuration:
+* `userId` - Variable parameter (String) - Maps to profile firstName
+* `accountId` - Constant parameter (String) - Always sends "ABC123"
+* `age` - Variable parameter (Integer) - Maps to profile age
+* `isActive` - Constant parameter (Boolean) - Always sends true
+* `loyaltyScore` - Variable parameter (Decimal) - Maps to custom profile field
 
-### Voorbeeld 2: Werken met systeemconstanten en reiscontext
+### Example 2: Using system constants and journey context
 
-U kunt reisspecifieke informatie en systeemwaarden van verwijzingen voorzien:
+You can reference journey-specific information and system values:
 
 ```json
 {
@@ -252,22 +253,22 @@ U kunt reisspecifieke informatie en systeemwaarden van verwijzingen voorzien:
 }
 ```
 
-**Beschikbare variabelen van de reiscontext:**
+**Available journey context variables:**
 
 >[!NOTE]
 >
->De syntaxis van de de contextvariabelen van de reis wordt geverifieerd met het team van het Product. De daadwerkelijke veldnamen kunnen zijn: tripUID, tripVersionName, tripVersion, currentNodeId, currentNodeName die op de documentatie van de Eigenschappen van de Journey wordt gebaseerd.
+>Journey context variables syntax is being verified with Product team. The actual field names may be: journeyUID, journeyVersionName, journeyVersion, currentNodeId, currentNodeName based on Journey Properties documentation.
 
-* `@{journey.id}` - Unieke identificatie van de reis
-* `@{journey.name}` - Naam van de rit
-* `@{journey.version}` - Versienummer van de rit
-* `@{journey.startTime}` - Tijdstempel wanneer de rit voor dit profiel is gestart (verificatie vereist)
-* `@{journey.stepId}` - Huidige stap-id
-* `@{journey.stepName}` - Naam van de huidige stap
+* `@{journey.id}` - Unique identifier of the journey
+* `@{journey.name}` - Name of the journey
+* `@{journey.version}` - Version number of the journey
+* `@{journey.startTime}` - Timestamp when the journey started for this profile (verification needed)
+* `@{journey.stepId}` - Current step identifier
+* `@{journey.stepName}` - Name of the current step
 
-### Voorbeeld 3: Optionele en vereiste parameters
+### Example 3: Optional and required parameters
 
-Configureer parameters die reisprofessionals optioneel kunnen vullen:
+Configure parameters that journey practitioners can optionally fill:
 
 ```json
 {
@@ -279,18 +280,18 @@ Configureer parameters die reisprofessionals optioneel kunnen vullen:
 }
 ```
 
-In de UI voor actieconfiguratie:
-* Plaats `email` als **vereist** (controleer niet &quot;is facultatief&quot;)
-* Plaats `mobilePhone` als **facultatief** (de controle &quot;is facultatief&quot;)
-* Plaats `preferredLanguage` als **facultatief** met standaardwaarde
+In the action configuration UI:
+* Set `email` as **required** (do not check "Is optional")
+* Set `mobilePhone` as **optional** (check "Is optional")
+* Set `preferredLanguage` as **optional** with default value
 
 >[!TIP]
 >
->Wanneer een parameter als facultatief wordt gemerkt en niet door de reispraktiserer wordt gevuld, zal het of van de lading worden weggelaten of als ongeldig worden verzonden (als &quot;NULL waarden&quot;toestaan wordt toegelaten).
+>When a parameter is marked as optional and not filled by the journey practitioner, it will either be omitted from the payload or sent as null (if "Allow NULL values" is enabled).
 
-### Voorbeeld 4: Werken met arrays en verzamelingen
+### Example 4: Working with arrays and collections
 
-Verzamelingen gegevens doorgeven aan aangepaste handelingen:
+Pass collections of data to your custom actions:
 
 ```json
 {
@@ -313,11 +314,11 @@ Verzamelingen gegevens doorgeven aan aangepaste handelingen:
 
 >[!NOTE]
 >
->Leer meer over het overgaan van inzamelingen in douaneacties op [&#x200B; deze pagina &#x200B;](../building-journeys/collections.md).
+>Learn more about passing collections in custom actions on [this page](../building-journeys/collections.md).
 
-### Voorbeeld 5: Geneste objecten en complexe structuren
+### Example 5: Nested objects and complex structures
 
-hiërarchische gegevensstructuren maken:
+Build hierarchical data structures:
 
 ```json
 {
@@ -347,9 +348,9 @@ hiërarchische gegevensstructuren maken:
 }
 ```
 
-### Voorbeeld 6: Volledige aangepaste actie in de praktijk
+### Example 6: Complete real-world custom action
 
-Een uitgebreid voorbeeld waarin meerdere concepten worden geïntegreerd:
+A comprehensive example integrating multiple concepts:
 
 ```json
 {
@@ -386,36 +387,37 @@ Een uitgebreid voorbeeld waarin meerdere concepten worden geïntegreerd:
 }
 ```
 
-**uiteinden van de Configuratie voor dit voorbeeld:**
-* Mengsel van constante waarden (`eventSource` , `specialPromotion` , `sandbox` ) en variabele parameters
-* Gebruikt reiscontext voor het volgen en het zuiveren
-* Bevat profielgegevens voor personalisatie in het externe systeem
-* Voegt besluitvormingscontext toe wanneer het gebruiken van aanbiedingen
-* De meta-gegevens van het systeem voor het verpletteren en organisatie-vlakke volgen
+**Configuration tips for this example:**
+* Mix of constant values (`eventSource`, `specialPromotion`, `sandbox`) and variable parameters
+* Uses journey context for tracking and debugging
+* Includes profile data for personalization in the third-party system
+* Adds decisioning context when using offers
+* System metadata for routing and organization-level tracking
 
-### Tips voor het configureren van constanten
+### Tips for configuring constants
 
-**naam van Sandbox:** gebruik een constante parameter die aan uw milieu wordt geplaatst naam (b.v., &quot;prod&quot;, &quot;dev&quot;, &quot;stadium&quot;)
+**Sandbox name:** Use a constant parameter set to your environment name (e.g., "prod", "dev", "stage")
 
-**timestamp van de Uitvoering:** Gebruik `@{journey.startTime}` of creeer een veranderlijke parameter die de reispraktizaren aan `#{nowWithDelta()}` functie kunnen in kaart brengen
+**Execution timestamp:** Use `@{journey.startTime}` or create a variable parameter that journey practitioners can map to `#{nowWithDelta()}` function
 
-**API versie:** gebruik een constante voor API versieaantallen om consistentie over reizen te verzekeren
+**API version:** Use a constant for API version numbers to ensure consistency across journeys
 
-**tokens van de Authentificatie:** zet nooit authentificatietokens in de nuttige lading - gebruik in plaats daarvan de sectie van de Authentificatie van de configuratie van de douaneactie
+**Authentication tokens:** Never put authentication tokens in the payload - use the Authentication section of the custom action configuration instead
 
 >[!CAUTION]
 >
->Veldnamen in de payload mogen geen punt `.` -teken bevatten en mogen niet beginnen met een `$` -teken. Zorg ervoor dat de JSON-structuur deze naamgevingsconventies volgt.
+>Field names in the payload cannot contain a dot `.` character, nor start with a `$` character. Ensure your JSON structure follows these naming conventions.
+-->
 
-* [&#x200B; het oplossen van problemen van de Actie van de Douane &#x200B;](../action/troubleshoot-custom-action.md) - Leer hoe te om een douaneactie problemen op te lossen
+* [ het oplossen van problemen van de Actie van de Douane ](../action/troubleshoot-custom-action.md) - Leer hoe te om een douaneactie problemen op te lossen
 
 
 ## Aanvullende bronnen
 
 Blader in de onderstaande secties voor meer informatie over het configureren, gebruiken en oplossen van problemen met aangepaste handelingen:
 
-* [&#x200B; worden begonnen met douaneacties &#x200B;](../action/action.md) - leer wat een douaneactie is en hoe zij u met uw derdesystemen helpen verbinden
-* [&#x200B; de douaneacties van het Gebruik &#x200B;](../building-journeys/using-custom-actions.md) - leer hoe te om douaneacties in uw reizen te gebruiken
-* [&#x200B; het oplossen van problemen van de Actie van de Douane &#x200B;](../action/troubleshoot-custom-action.md) - Leer hoe te om een douaneactie problemen op te lossen
-* [&#x200B; de inzamelingen van de pas in de parameters van de douaneactie &#x200B;](../building-journeys/collections.md) - leer hoe te om een inzameling in de parameters van de douaneactie over te gaan die dynamisch bevolkt bij runtime is
+* [ worden begonnen met douaneacties ](../action/action.md) - leer wat een douaneactie is en hoe zij u met uw derdesystemen helpen verbinden
+* [ de douaneacties van het Gebruik ](../building-journeys/using-custom-actions.md) - leer hoe te om douaneacties in uw reizen te gebruiken
+* [ het oplossen van problemen van de Actie van de Douane ](../action/troubleshoot-custom-action.md) - Leer hoe te om een douaneactie problemen op te lossen
+* [ de inzamelingen van de pas in de parameters van de douaneactie ](../building-journeys/collections.md) - leer hoe te om een inzameling in de parameters van de douaneactie over te gaan die dynamisch bevolkt bij runtime is
 
