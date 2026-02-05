@@ -10,9 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private bèta" type="Informative"
-source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
+mini-toc-levels: 2
+source-git-commit: 43d3593264ea6d33794914e1b1f9ea45c295c79e
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -20,20 +21,20 @@ ht-degree: 0%
 
 # Taken maken {#create-tasks}
 
+>[!AVAILABILITY]
+>
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
+
 >[!BEGINSHADEBOX]
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
-* [&#x200B; wordt begonnen met de Uitdagingen van de Loyalty &#x200B;](get-started.md) - Overzicht, werkschema, eerste vereisten
-* [&#x200B; toegang en beheer de Uitdagingen van de Loyalty &#x200B;](access-loyalty-challenges.md) - Overzicht, uitdagingen en taakbeheer
-* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
+* [ wordt begonnen met de Uitdagingen van de Loyalty ](get-started.md) - Overzicht, werkschema, eerste vereisten
+* [ toegang &amp; beheer uitdagingen en taken ](access-loyalty-challenges.md) - Overzicht, uitdaging en taakbeheer
+* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
 * **creeer taken** {2 }︎ ◀ u hier **bent - bepaal uitdagingstaken**
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
 
 De taken bepalen de specifieke acties of de mijlpalen die de klanten moeten voltooien om beloningen in een loyaliteitsuitdaging te verdienen. U kunt taaktypes, hoeveelheden, en productvereisten vormen om het in dienst nemen en gepersonaliseerde loyaliteitservaringen tot stand te brengen.
 
@@ -47,19 +48,15 @@ U kunt taken maken op basis van twee invoerpunten. Het configuratieproces is het
 
 >[!TAB  van de inventaris van Taken ]
 
-Selecteer de tab **[!UICONTROL Tasks]** en selecteer **[!UICONTROL Create Task]** .
+Selecteer de tab **[!UICONTROL Tasks]** en selecteer **[!UICONTROL Create Task]** . Taken die zijn gemaakt op basis van de inventaris, worden opgeslagen en beschikbaar voor hergebruik voor meerdere uitdagingen.
 
 ![](assets/task-create-inventory.png)
 
-Taken die zijn gemaakt op basis van de inventaris, worden opgeslagen en beschikbaar voor hergebruik voor meerdere uitdagingen.
-
 >[!TAB  van binnen een uitdaging ]
 
-Open een bestaande uitdaging of maak een nieuwe. Selecteer **[!UICONTROL Add task]** en klik op de knop **[!UICONTROL New]** .
+Open een bestaande uitdaging of maak een nieuwe. Selecteer **[!UICONTROL Add task]** en klik op de knop **[!UICONTROL New]** . Taken die op deze manier worden gemaakt, worden automatisch toegevoegd aan uw taak en worden ook opgeslagen in de takenvoorraad voor hergebruik in andere uitdagingen.
 
 ![](assets/task-create-challenge.png)
-
-Taken die op deze manier worden gemaakt, worden automatisch toegevoegd aan uw taak en worden ook opgeslagen in de takenvoorraad voor hergebruik in andere uitdagingen.
 
 >[!ENDTABS]
 
@@ -70,39 +67,35 @@ Selecteer het type activiteit dat klanten moeten uitvoeren om deze taak te volto
 * **[!UICONTROL Purchase]**: Klanten moeten een of meer items aanschaffen om deze taak te voltooien
 * **[!UICONTROL Spend]**: Klanten moeten een opgegeven bedrag besteden om deze taak te voltooien
 
-Als u een type activiteit wilt selecteren, klikt u op het pictogram `+` en selecteert u de activiteit van de klant die het beste aansluit bij uw resultaatdoelstellingen. Elk activiteitstype heeft specifieke configureerbare attributen om de taakvereisten verder te bepalen en te vormen.
+Als u een activiteit wilt selecteren, klikt u op het pictogram **+** en selecteert u de activiteit van de klant die het beste aansluit bij uw resultaatdoelstellingen. Elk activiteitstype heeft specifieke configureerbare attributen om de taakvereisten verder te bepalen en te vormen.
+![](assets/task-create-activity.png)
 
-![](assets/task-create-activitiy.png)
+## De taakkenmerken definiëren {#define-attributes}
 
-## Kenmerken definiëren {#define-attributes}
-
-Configureer de taakkenmerken op basis van het geselecteerde type activiteit:
+Configureer de taakkenmerken op basis van het geselecteerde type activiteit. Blader op de onderstaande tabbladen naar de beschikbare kenmerken voor elk type activiteit:
 
 >[!BEGINTABS]
 
 >[!TAB  Activiteit van de Aankoop ]
 
+Beschikbare attributen voor **activiteiten van de Aankoop 0}:**
+
+* **[!UICONTROL Quantity]**: voer het aantal items in dat moet worden aangeschaft om deze taak te voltooien.
+* **[!UICONTROL Eligible items & exclusions]**: Definieer items of itemgroepen die tellen voor voltooiing van de taak en items die dat niet doen. [ Leer meer op in aanmerking komende punten en uitsluitingen ](#eligible-items-exclusions)
+* **[!UICONTROL Minimum spend value amount]**: stel een minimale aanschafwaarde in.
+* **[!UICONTROL Maximum number of transactions]**: Beperk het aantal transacties dat kan worden gebruikt om de taak te voltooien.
+
 ![](assets/task-create-purchase.png)
-
-Configureer de volgende kenmerken:
-
-* **[!UICONTROL Quantity]**: voer het aantal items in dat moet worden aangeschaft om deze taak te voltooien
-* **[!UICONTROL Eligible items & exclusions]**: Definieer items of itemgroepen die tellen voor voltooiing van de taak en items die dat niet doen. Leer meer over [&#x200B; het bepalen van in aanmerking komende punten en uitsluitingen &#x200B;](#eligible-items-exclusions)
-
-**Facultatieve attributen** (geactiveerd via het parameterpictogram):
-
-* **[!UICONTROL Minimum spend value amount]**: een vereiste voor een minimaal aankoopbedrag instellen
-* **[!UICONTROL Maximum number of transactions]**: Beperk het aantal transacties dat kan worden gebruikt om de taak te voltooien
 
 >[!TAB  uitgaven activiteit ]
 
-![](assets/task-create-spend.png)
-
-Configureer de volgende kenmerken:
+Beschikbare attributen voor **uitgaven** activiteiten:
 
 * **[!UICONTROL Amount]**: voer het totale bedrag in dat nodig is om de taak te voltooien.
-* **[!UICONTROL Maximum number of transactions]**: geef op hoeveel transacties zijn toegestaan om te voldoen aan de vereisten voor uitgaven. U kunt dit kenmerk deactiveren via het parameterpictogram als u het aantal transacties niet wilt beperken.
-* **[!UICONTROL Eligible items & exclusions]**: (Optioneel) Definieer items of itemgroepen die tellen voor het voltooien van taken en items die dat niet doen. Leer meer over [&#x200B; het bepalen van in aanmerking komende punten en uitsluitingen &#x200B;](#eligible-items-exclusions)
+* **[!UICONTROL Eligible items & exclusions]**: Definieer items of itemgroepen die tellen voor voltooiing van de taak en items die dat niet doen. [ Leer meer op in aanmerking komende punten en uitsluitingen ](#eligible-items-exclusions)
+* **[!UICONTROL Maximum number of transactions]**: geef op hoeveel transacties zijn toegestaan om te voldoen aan de vereisten voor uitgaven. U kunt dit kenmerk activeren via het parameterpictogram.
+
+![](assets/task-create-spend.png)
 
 >[!ENDTABS]
 
@@ -112,30 +105,24 @@ Configureer de volgende kenmerken:
 
 Voor zowel **Aankoop** als **besteedt** activiteiten, kunt u het **[!UICONTROL Eligible items & exclusions]** attribuut gebruiken om te bepalen welke punten en groepen verkiesbaar zijn en die worden uitgesloten. Dit staat u toe om specifieke producten, categorieën, of plaatsen te richten aan uw uitdagingsdoelstellingen.
 
-De gevallen van het gebruik omvatten: het beperken van een bestedingstaak tot specifieke productcategorieën, of het uitsluiten van geschenkkaarten of promotionele punten van het tellen naar taakvoltooiing.
+U kunt bijvoorbeeld een bestedingstaak beperken tot specifieke productcategorieën of cadeaukaarten of promotionele items uitsluiten van het aftellen naar het voltooien van de taak.
 
 ![](assets/tasks-create-eligible.png)
 
-* Gebruik de sectie **[!UICONTROL Eligible task purchases are limited to the following]** om in aanmerking komende items te definiëren. Voer specifieke item-id&#39;s, categorieën of doel-id&#39;s in, gescheiden door komma&#39;s.
+* Als u in aanmerking komende items wilt definiëren, voert u specifieke item-id&#39;s, categorieën of doel-id&#39;s in, gescheiden door komma&#39;s in het veld **[!UICONTROL Eligible task purchases are limited to the following]** . Als u dit veld leeg laat, zijn alle aankopen standaard subsidiabel. U kunt ook `*` invoeren om alle aankopen expliciet in aanmerking te laten komen.
 
   Voorbeeld: `SKU001, SKU002, CategoryA`
 
-  Voer `*` in om alle aankopen subsidiabel te maken (standaardgedrag indien leeg).
-
-* Gebruik de sectie **[!UICONTROL The following are excluded from this task]** om items uit te sluiten van de taak. Voer specifieke item-id&#39;s, categorieën of doel-id&#39;s in die niet moeten worden meegerekend voor het voltooien van de taak.
+* Als u items wilt uitsluiten van de taak, voert u specifieke item-id&#39;s, categorieën of doel-id&#39;s in het veld **[!UICONTROL The following are excluded from this task]** in.
 
   Voorbeeld: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
-
-  >[!NOTE]
-  >
-  >Uitsluitingen hebben voorrang op in aanmerking komende items. Als een item overeenkomt met zowel een in aanmerking komend als een uitgesloten item, wordt het van de taak uitgesloten.
 
 ## Taakeigenschappen definiëren {#define-task-properties}
 
 Configureer in het taakvenster **[!UICONTROL Properties]** de basistaakgegevens:
 
-* **[!UICONTROL Task name]**: voer een beschrijvende naam in voor de taak. Deze naam is zichtbaar voor u en uw team, maar wordt mogelijk niet weergegeven aan klanten, afhankelijk van het ontwerp van uw inhoudskaart.
-* **[!UICONTROL Task description]**: De beschrijving wordt automatisch gegenereerd op basis van het type activiteit en de kenmerken die u voor de taak configureert. U kunt automatisch genereren uitschakelen en desgewenst een aangepaste beschrijving invoeren.
+* **[!UICONTROL Task name]**: voer een beschrijvende naam in voor de taak.
+* **[!UICONTROL Task description]**: De beschrijving wordt automatisch gegenereerd op basis van de geconfigureerde activiteit en kenmerken. Als u een aangepaste beschrijving wilt invoeren, schakelt u de optie Automatisch genereren uit en voert u uw beschrijving in het tekstveld in.
 
 ![](assets/tasks-create-properties.png)
 
