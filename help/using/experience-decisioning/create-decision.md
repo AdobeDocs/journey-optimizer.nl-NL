@@ -7,7 +7,7 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
+source-git-commit: fb35bc5a51421818297586b5e386aa75deb1c669
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 1%
@@ -20,13 +20,13 @@ ht-degree: 1%
 >id="ajo_code_based_decision"
 >title="Wat is een beslissing?"
 >abstract="Het beslissingsbeleid bevat alle selectielogica waarmee de beslissingsengine de beste inhoud kan kiezen. Het besluitvormingsbeleid is specifiek voor de campagne. Hun doel is de beste aanbiedingen voor elk profiel te selecteren terwijl het campagneontwerp u toestaat om erop te wijzen hoe de geselecteerde besluitvormingspunten zouden moeten worden voorgesteld, met inbegrip van welke puntattributen om in het bericht worden omvat."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informatie over beslissen"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informatie over beslissen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_decision_policy"
 >title="Een beslissingsbeleid definiëren"
 >abstract="Een besluitvormingsbeleid staat u toe om de beste punten van de motor van Beslissing te kiezen en hen aan het juiste publiek te leveren."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informatie over beslissen"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informatie over beslissen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_decision_policy"
@@ -50,7 +50,7 @@ Beslissingsbeleid is containers voor uw aanbiedingen die de beslissingsengine ge
 ## Afbeeldingen en beperkingen
 
 * **Gesteunde kanalen** - het beleid van het Besluit is beschikbaar voor deze kanalen: Op code-gebaseerde Ervaring, E-mail, SMS en de Duw- berichten.
-* **Push berichten SDK vereiste** - Ervaar Beslissing met duimberichten vereist een specifieke versie van Mobiele SDK. Alvorens deze eigenschap uit te voeren, controleer de [&#x200B; versienota&#39;s &#x200B;](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} om de vereiste versie te identificeren en u te verzekeren dienovereenkomstig hebt bevorderd. U kunt alle beschikbare versies van SDK voor uw platform in [&#x200B; ook bekijken deze sectie &#x200B;](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
+* **Push berichten SDK vereiste** - Ervaar Beslissing met duimberichten vereist een specifieke versie van Mobiele SDK. Alvorens deze eigenschap uit te voeren, controleer de [ versienota&#39;s ](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} om de vereiste versie te identificeren en u te verzekeren dienovereenkomstig hebt bevorderd. U kunt alle beschikbare versies van SDK voor uw platform in [ ook bekijken deze sectie ](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
 * **E-mail spiegelpagina&#39;s** - voor nu, geven de besluitvormingspunten niet in e-mailspiegelpagina&#39;s terug.
 * **het Volgen &amp; het type van verbindingen** - om verbindingen te volgen die door besluit worden geproduceerd, bepaal hen in het schema als &quot;Beslissende Assets&quot;. Op kenmerken gebaseerde koppelingen kunnen niet worden gevolgd.
 * **beleid dat van het Besluit in e-mail** negeert - u kunt geen veelvoudige besluitvormingsbeleid binnen een ouder e-mailcomponent nesten die reeds een bijbehorend besluitvormingsbeleid heeft.
@@ -73,24 +73,24 @@ De belangrijkste stappen voor hefboomwerking beslissingsbeleid in berichten zijn
 
    Voeg een besluitvormingsbeleid in uw bericht toe en vorm het aantal punten aan terugkeer, de selectiestrategie en reserveopties.
 
-   ➡️ [&#x200B; Leer hoe te om een besluitvormingsbeleid &#x200B;](../experience-decisioning/create-decision-policy.md) tot stand te brengen
+   ➡️ [ Leer hoe te om een besluitvormingsbeleid ](../experience-decisioning/create-decision-policy.md) tot stand te brengen
 
 1. **gebruik het besluitvormingsbeleid in uw inhoud**
 
    Personaliseer uw inhoud met de output van het besluitvormingsbeleid door de attributen van de besluitpunten op te nemen u in het bericht wilt tonen
 
-   ➡️ [&#x200B; Leer hoe te om besluitvormingsbeleid in berichten te gebruiken &#x200B;](../experience-decisioning/create-decision-policy.md)
+   ➡️ [ Leer hoe te om besluitvormingsbeleid in berichten te gebruiken ](../experience-decisioning/create-decision-policy.md)
 
 ## Hoe kan ik-video&#39;s {#video}
 
 Leer hoe u met Beslissing e-mails voor uw publiek kunt personaliseren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479216?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
 Leer hoe u met Beslissing pushmeldingen kunt personaliseren voor uw publiek.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479216?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 Leer hoe u met Beslissing SMS-berichten voor uw publiek kunt personaliseren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479535?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
