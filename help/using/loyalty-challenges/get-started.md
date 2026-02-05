@@ -23,16 +23,16 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
 
 >[!BEGINSHADEBOX]
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
 * **wordt begonnen met de Uitdagingen van de Loyalty** {2 }︎ ◀ u bent hier **- Overzicht, werkschema, eerste vereisten**
-* [ toegang &amp; beheer uitdagingen en taken ](access-loyalty-challenges.md) - Overzicht, uitdaging en taakbeheer
-* [ creeer uitdagingen ](create-challenges.md) - bouw en vorm uitdagingen
-* [ creeer taken ](create-tasks.md) - bepaal uitdagingstaken
+* [&#x200B; toegang &amp; beheer uitdagingen en taken &#x200B;](access-loyalty-challenges.md) - Overzicht, uitdaging en taakbeheer
+* [&#x200B; creeer uitdagingen &#x200B;](create-challenges.md) - bouw en vorm uitdagingen
+* [&#x200B; creeer taken &#x200B;](create-tasks.md) - bepaal uitdagingstaken
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ U kunt drie soorten uitdagingservaringen tot stand brengen:
 
 Het creëren en lanceren van een loyaliteitsuitdaging volgt deze werkschema:
 
-1. **de gegevensopname van de opstelling** - Vorm de bronschakelaars van Experience Platform (zoals [ Capillaire schakelaar ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) om loyaliteitsgebeurtenisgegevens in te voeren die klantenacties en vooruitgang volgen. Deze gegevens stellen het bijhouden van taken en het voltooien van taken op de proef.
+1. **de gegevensopname van de opstelling** - Vorm de bronschakelaars van Experience Platform (zoals [&#x200B; Capillaire schakelaar &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)) om loyaliteitsgebeurtenisgegevens in te voeren die klantenacties en vooruitgang volgen. Deze gegevens stellen het bijhouden van taken en het voltooien van taken op de proef.
 
 1. **creeer een uitdaging** - bepaal de basisuitdagingseigenschappen, met inbegrip van naam, type (Norm, Streak, of Opeenvolgend), en datumwaaier.
 
@@ -79,7 +79,7 @@ Het creëren en lanceren van een loyaliteitsuitdaging volgt deze werkschema:
 
 1. **publiceer reis** - Journey Optimizer produceert automatisch een reis voor uw uitdaging. Navigeer naar het overzicht van de Reizen en publiceer de automatisch gegenereerde reis om de uitdaging voor klanten beschikbaar te maken.
 
-Voor gedetailleerde geleidelijke instructies, zie [ uitdagingen ](create-challenges.md) creëren.
+Voor gedetailleerde geleidelijke instructies, zie [&#x200B; uitdagingen &#x200B;](create-challenges.md) creëren.
 
 ## Vereisten {#prerequisites}
 
@@ -89,7 +89,7 @@ Voordat u Loyalty Challenges gaat gebruiken, moet u controleren of u beschikt ov
 
 Loyalty Challenges baseren zich op gegevens die door de bronschakelaars van Experience Platform worden opgenomen om klantenvooruitgang en taakvoltooiing te volgen.
 
-Vorm vóór aanvang, een gesteunde bronschakelaar. Momenteel is de Capillaire connector beschikbaar. Extra schakelaars zijn gepland voor toekomstige versies. [ Leer over loyaliteitsbronschakelaars ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
+Vorm vóór aanvang, een gesteunde bronschakelaar. Momenteel is de Capillaire connector beschikbaar. Extra schakelaars zijn gepland voor toekomstige versies. [&#x200B; Leer over loyaliteitsbronschakelaars &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty).
 
 +++
 
@@ -105,7 +105,7 @@ Contact your administrator if you cannot access the feature or need additional p
 
 +++Doelgroep
 
-Zorg ervoor dat het doelpubliek dat u nodig hebt, bestaat in Adobe Experience Platform voordat u de uitdaging aanbrengt. Tijdens uitdagingsconfiguratie, zult u het publiek selecteren dat bepaalt welke klanten verkiesbaar zijn om deel te nemen. [ Leer hoe te met publiek ](../audience/about-audiences.md) te werken.
+Zorg ervoor dat het doelpubliek dat u nodig hebt, bestaat in Adobe Experience Platform voordat u de uitdaging aanbrengt. Tijdens uitdagingsconfiguratie, zult u het publiek selecteren dat bepaalt welke klanten verkiesbaar zijn om deel te nemen. [&#x200B; Leer hoe te met publiek &#x200B;](../audience/about-audiences.md) te werken.
 
 +++
 
