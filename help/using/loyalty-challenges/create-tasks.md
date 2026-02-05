@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
 
 >[!BEGINSHADEBOX]
 
@@ -78,10 +78,10 @@ Configureer de taakkenmerken op basis van het geselecteerde type activiteit. Bla
 
 >[!TAB  Activiteit van de Aankoop ]
 
-Beschikbare attributen voor **activiteiten van de Aankoop 0}:**
+Beschikbare attributen voor **activiteiten van de Aankoop 0&rbrace;:**
 
 * **[!UICONTROL Quantity]**: voer het aantal items in dat moet worden aangeschaft om deze taak te voltooien.
-* **[!UICONTROL Eligible items & exclusions]**: Definieer items of itemgroepen die tellen voor voltooiing van de taak en items die dat niet doen. [ Leer meer op in aanmerking komende punten en uitsluitingen ](#eligible-items-exclusions)
+* **[!UICONTROL Eligible items & exclusions]**: Definieer items of itemgroepen die tellen voor voltooiing van de taak en items die dat niet doen. [&#x200B; Leer meer op in aanmerking komende punten en uitsluitingen &#x200B;](#eligible-items-exclusions)
 * **[!UICONTROL Minimum spend value amount]**: stel een minimale aanschafwaarde in.
 * **[!UICONTROL Maximum number of transactions]**: Beperk het aantal transacties dat kan worden gebruikt om de taak te voltooien.
 
@@ -92,7 +92,7 @@ Beschikbare attributen voor **activiteiten van de Aankoop 0}:**
 Beschikbare attributen voor **uitgaven** activiteiten:
 
 * **[!UICONTROL Amount]**: voer het totale bedrag in dat nodig is om de taak te voltooien.
-* **[!UICONTROL Eligible items & exclusions]**: Definieer items of itemgroepen die tellen voor voltooiing van de taak en items die dat niet doen. [ Leer meer op in aanmerking komende punten en uitsluitingen ](#eligible-items-exclusions)
+* **[!UICONTROL Eligible items & exclusions]**: Definieer items of itemgroepen die tellen voor voltooiing van de taak en items die dat niet doen. [&#x200B; Leer meer op in aanmerking komende punten en uitsluitingen &#x200B;](#eligible-items-exclusions)
 * **[!UICONTROL Maximum number of transactions]**: geef op hoeveel transacties zijn toegestaan om te voldoen aan de vereisten voor uitgaven. U kunt dit kenmerk activeren via het parameterpictogram.
 
 ![](assets/task-create-spend.png)

@@ -23,14 +23,14 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta** en kan niet in uw milieu beschikbaar zijn. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
 
 >[!BEGINSHADEBOX]
 
 **de documentatie van de Uitdagingen van de Loyalty:**
 
 * [Aan de slag met Loyalty Challenges](get-started.md)
-* **toegang &amp; beheer uitdagingen en taken** {2 }︎ ◀ u bent hier ****
+* **toegang &amp; beheer uitdagingen en taken** {2 }︎ ◀ u bent hier **&#x200B;**
 * [Uitdagingen maken](create-challenges.md)
 * [Taken maken](create-tasks.md)
 
