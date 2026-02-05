@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: dc417c88021bdb042d7a600ee13a7cbab0ceeb4a
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '678'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,7 @@ De instructie `elseif` geeft een nieuwe voorwaarde op die moet worden getest als
 
 >[!NOTE]
 >
->Meer over publiek en de segmentatieservice leren, verwijs naar [&#x200B; deze sectie &#x200B;](../../audience/about-audiences.md).
+>Meer over publiek en de segmentatieservice leren, verwijs naar [ deze sectie ](../../audience/about-audiences.md).
 
 
 ## Tenzij{#unless}
@@ -165,7 +165,7 @@ Een lijst met producten weergeven die deze gebruiker in zijn winkelwagentje heef
 
 >[!NOTE]
 >
->U kunt de `each` helper ook gebruiken om arrays die uit aangepaste handelingsreacties zijn geretourneerd, te doorlopen. Voor een voorbeeld om over genestelde series van een reactie van de douaneactie te herhalen, zie [&#x200B; Gebruikend de reacties van de douaneactie in inheemse kanalen &#x200B;](../../action/action-response.md#response-in-channels).
+>U kunt de `each` helper ook gebruiken om arrays die uit aangepaste handelingsreacties zijn geretourneerd, te doorlopen. Voor een voorbeeld om over genestelde series van een reactie van de douaneactie te herhalen, zie [ Gebruikend de reacties van de douaneactie in inheemse kanalen ](../../action/action-response.md#response-in-channels).
 
 ## Met{#with}
 
@@ -238,7 +238,7 @@ Met deze functie kunt u contextafhankelijke informatie toevoegen aan elke native
 
 >[!NOTE]
 >
->De functie van Meta-gegevens van de Uitvoering wordt niet gesteund door [&#x200B; douaneacties &#x200B;](../../action/action.md).
+>De functie van Meta-gegevens van de Uitvoering wordt niet gesteund door [ douaneacties ](../../action/action.md).
 
 U kunt bijvoorbeeld de functie Metagegevens uitvoeren gebruiken om een specifieke id toe te voegen aan elke levering die naar elk profiel wordt verzonden. Deze informatie wordt tijdens runtime gegenereerd en de verrijkte metagegevens voor uitvoering kunnen vervolgens worden geëxporteerd voor afstemming op een extern rapportageplatform.
 
@@ -267,13 +267,13 @@ Tijdens runtime wordt de metagegevenswaarde toegevoegd aan de bestaande **[!UICO
 
 >[!NOTE]
 >
->Leer meer op datasets in [&#x200B; deze sectie &#x200B;](../../data/get-started-datasets.md).
+>Leer meer op datasets in [ deze sectie ](../../data/get-started-datasets.md).
 
-**Beperking**
+**Beperkingen**
 
-Er is een bovengrens van 2kb op de belangrijkste waardeparen per actie.
+Er is een bovengrens van 2kb op de belangrijkste waardeparen per actie. Als de limiet van 2 kB wordt overschreden, wordt het bericht nog steeds geleverd, maar een van de sleutelwaardeparen kan worden afgekapt.
 
-Als de limiet van 2 kB wordt overschreden, wordt het bericht nog steeds geleverd, maar een van de sleutelwaardeparen kan worden afgekapt.
+Metagegevens worden niet vastgelegd voor profielen die zijn uitgesloten van de handeling. Wanneer een profiel van het ontvangen van een bericht wordt uitgesloten, wordt geen meta-gegevensingang gecreeerd voor dat profiel in de dataset.
 
 **Voorbeeld**
 
