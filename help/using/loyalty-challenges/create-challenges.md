@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta**. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta**. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
 
 Deze pagina behandelt het volledige proces om een loyaliteitsuitdaging tot stand te brengen, van het selecteren van het uitdagingstype en het vormen van zijn eigenschappen aan het produceren van en het publiceren van de reis die de uitdaging aan uw klanten zal leveren.
 
@@ -104,7 +104,7 @@ Ga als volgt te werk om taken aan uw uitdaging toe te voegen:
 
    ![](assets/challenge-create-add-task.png)
 
-1. De lus **[!UICONTROL Tasks Inventory]** wordt geopend. Selecteer een of meer taken in de lijst en selecteer **[!UICONTROL Add]** . Selecteer **[!UICONTROL New]** als u een nieuwe taak wilt maken. [ leer hoe te om taken ](create-tasks.md) tot stand te brengen en te vormen.
+1. De lus **[!UICONTROL Tasks Inventory]** wordt geopend. Selecteer een of meer taken in de lijst en selecteer **[!UICONTROL Add]** . Selecteer **[!UICONTROL New]** als u een nieuwe taak wilt maken. [&#x200B; leer hoe te om taken &#x200B;](create-tasks.md) tot stand te brengen en te vormen.
 
 1. Specificeer wanneer de uitdaging als voltooid wordt beschouwd. Beschikbare instellingen zijn afhankelijk van het type uitdaging:
 
@@ -190,15 +190,15 @@ Na het vormen van de uitdagingsstructuur met taken en beloningen, ontwerp de inh
 
 ## Inhoudskaarten configureren {#configure-content-cards}
 
-De kaarten van de inhoud vertegenwoordigen visueel uw uitdaging op klantenapparaten, tonend uitdagingsinformatie, vooruitgang, en beloningen. [ leer meer over inhoudskaarten ](../content-card/create-content-card.md).
+De kaarten van de inhoud vertegenwoordigen visueel uw uitdaging op klantenapparaten, tonend uitdagingsinformatie, vooruitgang, en beloningen. [&#x200B; leer meer over inhoudskaarten &#x200B;](../content-card/create-content-card.md).
 
 Om inhoudskaarten voor uw uitdaging te vormen:
 
 1. Navigeer naar het tabblad **[!UICONTROL Content]** en voer een **[!UICONTROL Name]** in voor de inhoudskaart.
 
-1. Selecteer het **[!UICONTROL Channel configuration]**. Kanaalconfiguraties bevatten alle technische parameters voor het verzenden van berichten, zoals headerparameters, subdomein, mobiele apps, enz. [ leer meer over kanaalconfiguraties ](../configuration/channel-surfaces.md).
+1. Selecteer het **[!UICONTROL Channel configuration]**. Kanaalconfiguraties bevatten alle technische parameters voor het verzenden van berichten, zoals headerparameters, subdomein, mobiele apps, enz. [&#x200B; leer meer over kanaalconfiguraties &#x200B;](../configuration/channel-surfaces.md).
 
-1. Selecteer **[!UICONTROL Edit content]** om uw inhoudskaart te ontwerpen. [ Leer om inhoudskaarten ](../content-card/design-content-card.md) te ontwerpen en te personaliseren.
+1. Selecteer **[!UICONTROL Edit content]** om uw inhoudskaart te ontwerpen. [&#x200B; Leer om inhoudskaarten &#x200B;](../content-card/design-content-card.md) te ontwerpen en te personaliseren.
 
    ![](assets/challenge-create-content.png)
 
@@ -222,7 +222,7 @@ De berichten van de opstelling multi-channel om klanten in belangrijkste stadia 
 
    ![](assets/challenge-create-messaging.png)
 
-Leer hoe te om berichten voor specifieke kanalen in deze secties tot stand te brengen: [ In-app berichten ](../in-app/get-started-in-app.md) - [ E-mailberichten ](../email/get-started-email.md) - [ Push berichten ](../push/get-started-push.md)
+Leer hoe te om berichten voor specifieke kanalen in deze secties tot stand te brengen: [&#x200B; In-app berichten &#x200B;](../in-app/get-started-in-app.md) - [&#x200B; E-mailberichten &#x200B;](../email/get-started-email.md) - [&#x200B; Push berichten &#x200B;](../push/get-started-push.md)
 
 Na de voltooiing van de overseinenconfiguratie, bepaal welke klanten verkiesbaar zijn om aan de uitdaging deel te nemen.
 
@@ -234,7 +234,7 @@ Bepaal welke klanten aan uw loyaliteitsuitdaging kunnen deelnemen.
 
    ![](assets/challenge-create-audience.png)
 
-1. Selecteer in het dialoogvenster publieksselectie uw doelpubliek in de lijst met beschikbare Adobe Experience Platform-soorten publiek en selecteer **[!UICONTROL Add audience]** . [ Leer hoe te met publiek ](../audience/about-audiences.md) te werken.
+1. Selecteer in het dialoogvenster publieksselectie uw doelpubliek in de lijst met beschikbare Adobe Experience Platform-soorten publiek en selecteer **[!UICONTROL Add audience]** . [&#x200B; Leer hoe te met publiek &#x200B;](../audience/about-audiences.md) te werken.
 
 Uw uitdaging wordt nu volledig gevormd met zijn structuur, inhoud, overseinen, en doelpubliek. De laatste stap is het genereren en publiceren van de reis.
 
@@ -248,11 +248,11 @@ Na het vormen van alle uitdagingscomponenten, produceer de reis die uw uitdaging
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizer maakt automatisch een reis in de status &#39;Concept&#39;. De auto-geproduceerde reis verschijnt in uw reisinventaris met het naamformaat *&quot;Reis: [ Naam van de Uitdaging ]&quot;*. [ leer meer over de reisinventaris ](../building-journeys/journey-ui.md).
+1. Journey Optimizer maakt automatisch een reis in de status &#39;Concept&#39;. De auto-geproduceerde reis verschijnt in uw reisinventaris met het naamformaat *&quot;Reis: [ Naam van de Uitdaging ]&quot;*. [&#x200B; leer meer over de reisinventaris &#x200B;](../building-journeys/journey-ui.md).
 
    ![](assets/challenge-create-journey.png)
 
-1. Wanneer klaar, publiceer de reis om de uitdaging ter beschikking te stellen van klanten. De reis zal automatisch op uw gespecificeerde datum van de uitdagingsaanvang beginnen en inhoud en berichten volgens uw configuratie leveren. [ leer hoe te om een reis ](../building-journeys/publish-journey.md) te publiceren.
+1. Wanneer klaar, publiceer de reis om de uitdaging ter beschikking te stellen van klanten. De reis zal automatisch op uw gespecificeerde datum van de uitdagingsaanvang beginnen en inhoud en berichten volgens uw configuratie leveren. [&#x200B; leer hoe te om een reis &#x200B;](../building-journeys/publish-journey.md) te publiceren.
 
 >[!NOTE]
 >

@@ -26,7 +26,7 @@ ht-degree: 0%
 **de documentatie van de Uitdagingen van de Loyalty:**
 
 * [Aan de slag met Loyalty Challenges](get-started.md)
-* **toegang &amp; beheer uitdagingen en taken** {2 }︎ ◀ u bent hier ****
+* **toegang &amp; beheer uitdagingen en taken** {2 }︎ ◀ u bent hier **&#x200B;**
 * [Uitdagingen maken](create-challenges.md)
 * [Taken maken](create-tasks.md)
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta**. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta**. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
 
 ## Toegang tot en beheer uitdagingen en taken
 
