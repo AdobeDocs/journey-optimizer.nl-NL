@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 version: Journey Orchestration
+badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 6e74fc363784fe4f4bae07bfe766035285c9a2ca
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -35,11 +36,11 @@ Belangrijkste voordelen:
 >
 >Deze activiteit is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
-## Lees hier meer {#must-read}
+## Meer lezen {#must-read}
 
 ### Gegevensset inschakelen
 
-De dataset moet voor raadpleging in Adobe Experience Platform worden toegelaten. De gedetailleerde informatie is beschikbaar in deze sectie: [&#x200B; de gegevens van Adobe Experience Platform van het Gebruik &#x200B;](../data/lookup-aep-data.md).
+De dataset moet voor raadpleging in Adobe Experience Platform worden toegelaten. De gedetailleerde informatie is beschikbaar in deze sectie: [ de gegevens van Adobe Experience Platform van het Gebruik ](../data/lookup-aep-data.md).
 
 ### Beperkingen en beperkingen
 
@@ -63,7 +64,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Dataset lookup]** -activiteit t
 
 1. Ontgrendel de categorie **[!UICONTROL Orchestration]** en zet een **[!UICONTROL Dataset lookup]** -activiteit neer op uw canvas.
 
-   ![&#x200B; de opzoekactiviteit van de dataset van Adobe Experience Platform in reis &#x200B;](assets/aep-data-activity.png)
+   ![ de opzoekactiviteit van de dataset van Adobe Experience Platform in reis ](assets/aep-data-activity.png)
 
 1. Voeg een label en beschrijving toe.
 
@@ -71,7 +72,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Dataset lookup]** -activiteit t
 
    >[!NOTE]
    >
-   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten. Voor meer details, verwijs naar [&#x200B; &#x200B;](#must-read) sectie moet lezen.
+   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten. Voor meer details, verwijs naar [ ](#must-read) sectie moet lezen.
 
 1. Selecteer de specifieke gebieden u van de dataset wilt halen.
 
@@ -81,7 +82,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Dataset lookup]** -activiteit t
 
    +++Voorbeeld
 
-   ![&#x200B; het gebiedsselectie van de Dataset die primitieve gegevenstypes en structuur tonen &#x200B;](assets/aep-data-leaf-primitive.png)
+   ![ het gebiedsselectie van de Dataset die primitieve gegevenstypes en structuur tonen ](assets/aep-data-leaf-primitive.png)
 
    +++
 
@@ -93,7 +94,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Dataset lookup]** -activiteit t
 
    +++Voorbeeld
 
-   ![&#x200B; de redacteur van de Uitdrukking met de raadpleging van het gegevenssetgebied en koordfuncties &#x200B;](assets/aep-data-strings.png)
+   ![ de redacteur van de Uitdrukking met de raadpleging van het gegevenssetgebied en koordfuncties ](assets/aep-data-strings.png)
 
    +++
 
@@ -103,7 +104,7 @@ De gegevens die door de **[!UICONTROL Dataset lookup]** -activiteit worden opgeh
 
 * **Redacteur van de Uitdrukking van de Reis**:
 
-  Open de editor van **[!UICONTROL Advanced mode]** en gebruik de syntaxis: `@datasetLookup{MyDatasetLookUpActivity1.entities}` . [&#x200B; Leer hoe te met de geavanceerde uitdrukkingsredacteur te werken &#x200B;](../building-journeys/expression/expressionadvanced.md)
+  Open de editor van **[!UICONTROL Advanced mode]** en gebruik de syntaxis: `@datasetLookup{MyDatasetLookUpActivity1.entities}` . [ Leer hoe te met de geavanceerde uitdrukkingsredacteur te werken ](../building-journeys/expression/expressionadvanced.md)
 
 * **Redacteur van Personalization**:
 
@@ -123,7 +124,7 @@ De gegevens die door de **[!UICONTROL Dataset lookup]** -activiteit worden opgeh
 
 1. **Gebeurtenis van de Aankoop**: Vang SKUs van de kar van de gebruiker.
 
-1. **de opzoekactiviteit van 0&rbrace; Dataset:**
+1. **de opzoekactiviteit van 0} Dataset:**
 
    * Gegevensset: `products-dataset` (SKU als primaire sleutel).
    * Opzoektoetsen: `list(@event{purchase_event.products.sku})`.
@@ -168,7 +169,7 @@ De gegevens die door de **[!UICONTROL Dataset lookup]** -activiteit worden opgeh
 
 1. **Trigger van de Gebeurtenis van het Profiel**: Leg e-mail IDs van het profiel of gebeurteniscontext vast.
 
-1. **de activiteit van de Opzoeken van de Dataset van 0&rbrace;:**
+1. **de activiteit van de Opzoeken van de Dataset van 0}:**
    * Gegevensset: `loyalty-member-dataset` (e-mail als primaire sleutel).
    * Opzoektoetsen: `@profile.email`.
    * Te retourneren velden: `["email", "loyaltyTier"]`.
