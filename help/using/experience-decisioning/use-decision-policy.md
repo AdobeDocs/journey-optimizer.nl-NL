@@ -23,7 +23,7 @@ Nadat u een beslissingsbeleid aan de inhoud hebt toegevoegd, kunt u kenmerken va
 >
 >Het beleid van het besluit is beschikbaar aan alle klanten voor de **op code-gebaseerde Ervaring**, **SMS**, en **Push bericht** kanalen.
 >
->Het besluit voor het **E-mail** kanaal is beschikbaar in Beperkte Beschikbaarheid slechts. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
+>Het besluit voor het **E-mail** kanaal is beschikbaar in Beperkte Beschikbaarheid slechts. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
 
 ## De beleidscode voor beslissingen invoegen {#insert}
 
@@ -39,7 +39,7 @@ Nadat u een beslissingsbeleid aan de inhoud hebt toegevoegd, kunt u kenmerken va
 
 >[!NOTE]
 >
->Voor op code-gebaseerde ervaringen, als uw besluitvormingsbeleid besluitpunten met inbegrip van fragmenten bevat, kunt u deze fragmenten in de code van het besluitvormingsbeleid hefboomwerking. [ leer hoe te hefboomfragmenten ](../experience-decisioning/fragments-decision-policies.md)
+>Voor op code-gebaseerde ervaringen, als uw besluitvormingsbeleid besluitpunten met inbegrip van fragmenten bevat, kunt u deze fragmenten in de code van het besluitvormingsbeleid hefboomwerking. [&#x200B; leer hoe te hefboomfragmenten &#x200B;](../experience-decisioning/fragments-decision-policies.md)
 
 >[!TAB  E-mail ]
 
@@ -75,7 +75,7 @@ Nadat u een beslissingsbeleid aan de inhoud hebt toegevoegd, kunt u kenmerken va
 
 >[!IMPORTANT]
 >
->Voor het bepalen van de ervaring met pushmeldingen is een specifieke versie van de Mobile SDK vereist. Alvorens deze eigenschap uit te voeren, controleer de [ versienota&#39;s ](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} om de vereiste versie te identificeren en u te verzekeren dienovereenkomstig hebt bevorderd. U kunt alle beschikbare versies van SDK voor uw platform in [ ook bekijken deze sectie ](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
+>Voor het bepalen van de ervaring met pushmeldingen is een specifieke versie van de Mobile SDK vereist. Alvorens deze eigenschap uit te voeren, controleer de [&#x200B; versienota&#39;s &#x200B;](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} om de vereiste versie te identificeren en u te verzekeren dienovereenkomstig hebt bevorderd. U kunt alle beschikbare versies van SDK voor uw platform in [&#x200B; ook bekijken deze sectie &#x200B;](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -83,13 +83,13 @@ De code van het besluitvormingsbeleid wordt toegevoegd. U kunt nu kenmerken van 
 
 >[!NOTE]
 >
->Voor code-gebaseerde ervaring en e-mailkanalen, herhaal deze opeenvolging eens per besluitpunt u teruggekeerd wilt. Bijvoorbeeld, als u verkoos om 2 punten terug te keren wanneer [ creërend het besluit ](create-decision-policy.md), herhaal tweemaal de opeenvolging. Voor SMS- en pushkanalen kan slechts één beslissingsitem worden geretourneerd.
+>Voor code-gebaseerde ervaring en e-mailkanalen, herhaal deze opeenvolging eens per besluitpunt u teruggekeerd wilt. Bijvoorbeeld, als u verkoos om 2 punten terug te keren wanneer [&#x200B; creërend het besluit &#x200B;](create-decision-policy.md), herhaal tweemaal de opeenvolging. Voor SMS- en pushkanalen kan slechts één beslissingsitem worden geretourneerd.
 
 ## Persoonlijk maken met kenmerken van een keuze-item {#attributes}
 
-Nadat u de code voor een beslissingsbeleid in uw inhoud hebt toegevoegd, worden alle kenmerken van de geretourneerde beslissingsitems beschikbaar voor personalisatie. [ Leer hoe te met verpersoonlijking ](../personalization/personalize.md) te werken.
+Nadat u de code voor een beslissingsbeleid in uw inhoud hebt toegevoegd, worden alle kenmerken van de geretourneerde beslissingsitems beschikbaar voor personalisatie. [&#x200B; Leer hoe te met verpersoonlijking &#x200B;](../personalization/personalize.md) te werken.
 
-De attributen worden opgeslagen in het &quot;Aanbiedingen&quot; [ catalogusschema ](catalogs.md). Zij tonen in de volgende omslagen van de verpersoonlijkingsredacteur:
+De attributen worden opgeslagen in het &quot;Aanbiedingen&quot; [&#x200B; catalogusschema &#x200B;](catalogs.md). Zij tonen in de volgende omslagen van de verpersoonlijkingsredacteur:
 * **de attributen van de Douane**: `_\<imsOrg\>` omslag
 * **Standaard attributen**: `_experience` omslag
 
@@ -122,7 +122,7 @@ Als u een kenmerk wilt toevoegen, klikt u op het pictogram **`+`** naast het ken
 
 ## Inhoud voorvertonen en testen
 
-Nadat u de inhoud hebt gemaakt, kunt u deze voorvertonen en testen voordat u uw reis of campagne activeert. De punten van het besluit geven terug gebaseerd op geselecteerde profielen in de simulatieinterface. [ Leer hoe te om inhoud ](../content-management/preview-test.md) voor te vertonen en te testen.
+Nadat u de inhoud hebt gemaakt, kunt u deze voorvertonen en testen voordat u uw reis of campagne activeert. De punten van het besluit geven terug gebaseerd op geselecteerde profielen in de simulatieinterface. [&#x200B; Leer hoe te om inhoud &#x200B;](../content-management/preview-test.md) voor te vertonen en te testen.
 
 ## Volgende stappen {#final-steps}
 
@@ -135,10 +135,10 @@ Voor code-gebaseerde ervaringen, zodra uw ontwikkelaar een API of SDK vraag om i
 
 >[!NOTE]
 >
->U kunt momenteel geen op besluit-gebaseerde inhoud voor [ op code-gebaseerde ervaring ](../code-based/create-code-based.md) campagnes of reizen simuleren. Een alternerende actie is beschikbaar [ hier ](../code-based/code-based-decisioning-implementations.md).
+>U kunt momenteel geen op besluit-gebaseerde inhoud voor [&#x200B; op code-gebaseerde ervaring &#x200B;](../code-based/create-code-based.md) campagnes of reizen simuleren. Een alternerende actie is beschikbaar [&#x200B; hier &#x200B;](../code-based/code-based-decisioning-implementations.md).
 
 ## Rapporterende dashboards gebruiken
 
-Om te zien hoe uw besluiten presteren, kunt u uit-van-de-doos beslissingsmetriek in de campagne of het reisrapport bekijken, of douane Customer Journey Analytics dashboards bouwen om prestaties te meten en inzicht in te winnen hoe uw besluitvormingsbeleid en aanbiedingen worden geleverd en met geëngageerd. [ Leer meer over Beslissing die ](cja-reporting.md) rapporteert.
+Om te zien hoe uw besluiten presteren, kunt u uit-van-de-doos beslissingsmetriek in de campagne of het reisrapport bekijken, of douane Customer Journey Analytics dashboards bouwen om prestaties te meten en inzicht in te winnen hoe uw besluitvormingsbeleid en aanbiedingen worden geleverd en met geëngageerd. [&#x200B; Leer meer over Beslissing die &#x200B;](cja-reporting.md) rapporteert.
 
 ![](../reports/assets/cja-decisioning-item-performance.png)
