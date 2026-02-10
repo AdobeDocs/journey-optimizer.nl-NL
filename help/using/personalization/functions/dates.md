@@ -416,7 +416,7 @@ Waar de eerste parameter het datum-tijdkenmerk is en de tweede waarde hoe u de d
 >
 > Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
 >
-> U kunt de datum die functies gebruiken Java zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> U kunt de datum die functies gebruiken Java zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **Voorbeelden**
 
@@ -513,9 +513,9 @@ Waar de eerste tekenreeks het datumkenmerk is, is de tweede waarde hoe u de datu
 >
 > Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
 >
-> U kunt de datum het formatteren functies van Java zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) gebruiken.
+> U kunt de datum het formatteren functies van Java zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) gebruiken.
 >
-> U kunt het formatteren en geldige scènes gebruiken zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [ Gesteunde scènes ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> U kunt het formatteren en geldige scènes gebruiken zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [&#x200B; Gesteunde scènes &#x200B;](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 **Voorbeeld**
 
