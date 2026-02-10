@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 80c652afef03b0be6d917cb4389850780c2a4379
+source-git-commit: 241af4304f0bed8f3addf28ed8e7bc746550d823
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1269'
 ht-degree: 3%
 
 ---
@@ -408,21 +408,81 @@ De functie `formatDate` wordt gebruikt om een datumtijdwaarde op te maken. De in
 {%= formatDate(datetime, format) %}
 ```
 
-Waar de eerste tekenreeks het datumkenmerk is en de tweede waarde hoe u de datum wilt omzetten en weergeven.
+Waar de eerste parameter het datum-tijdkenmerk is en de tweede waarde hoe u de datum wilt omzetten en weergeven.
 
 >[!NOTE]
 >
+> De `formatDate` functie vereist a **datum-tijd gebiedstype** als input, niet een koord. Als uw veld wordt opgeslagen als een tekenreekstype in uw XDM-schema, moet u het veld eerst omzetten in date-time met een conversiefunctie zoals `stringToDate()` of `toDateTime()` . Zie de onderstaande voorbeelden.
+>
 > Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
 >
-> U kunt de datum die functies gebruiken Java zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> U kunt de datum die functies gebruiken Java zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
-**Voorbeeld**
+**Voorbeelden**
 
-De volgende bewerking retourneert de datum in de volgende notatie: MM/DD/YY.
++++Een datum-/tijdveld opmaken
+
+Met de volgende bewerking wordt een datum-tijdveld opgemaakt in de notatie MM/DD/YY.
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}
 ```
+
++++
+
++++Een tekenreeks eerst omzetten in datum
+
+Als het veld is opgeslagen als een tekenreeks, moet u het eerst met `stringToDate()` omzetten in een datum-tijd voordat u het opmaakt.
+
+```sql
+{%= formatDate(stringToDate(profile.person.birthDayAndMonth), "MM/DD/YY") %}
+```
+
++++
+
++++Volledige datumnotatie met dagnaam
+
+De volgende bewerking retourneert een volledige datumnotatie met dag-, maand-, dag- en jaarnaam.
+
+```sql
+{%= formatDate(profile.person.birthDateTime, "EEEE MMMM dd yyyy") %}
+```
+
+Uitvoer: `Wednesday January 01 2020`
+
++++
+
++++Dynamische datum gebaseerd op systeemtijd
+
+U kunt de huidige systeemtijd opmaken om dynamische datums te genereren. De volgende bewerking retourneert de huidige datum in de notatie MM/dd/JJJJ.
+
+```sql
+{%= formatDate(getCurrentZonedDateTime(), "MM/dd/YYYY") %}
+```
+
+Uitvoer (30 januari 2026): `01/30/2026`
+
++++
+
++++Indeling dag van de week
+
+U kunt de dag van de week in korte vorm extraheren.
+
+```sql
+{%= formatDate(getCurrentZonedDateTime(), "EEE") %}
+```
+
+Uitvoer: `Sun` (voor zondag), `Mon` (voor maandag), `Tue` (voor dinsdag), enz.
+
+Combineer voor kleine letters de functie `lowerCase` :
+
+```sql
+{%= lowerCase(formatDate(getCurrentZonedDateTime(), "EEE")) %}
+```
+
+Uitvoer: `sun` , `mon` , `tue` , enzovoort.
+
++++
 
 ### Patroontekens {#pattern-characters}
 
@@ -453,9 +513,9 @@ Waar de eerste tekenreeks het datumkenmerk is, is de tweede waarde hoe u de datu
 >
 > Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
 >
-> U kunt de datum het formatteren functies van Java zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) gebruiken.
+> U kunt de datum het formatteren functies van Java zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) gebruiken.
 >
-> U kunt het formatteren en geldige scènes gebruiken zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [&#x200B; Gesteunde scènes &#x200B;](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> U kunt het formatteren en geldige scènes gebruiken zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [ Gesteunde scènes ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 **Voorbeeld**
 
