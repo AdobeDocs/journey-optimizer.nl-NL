@@ -18,10 +18,10 @@ Als een goedkeuringsbeleid van toepassing is op een reis of campagne, moet het t
 
 Als u als fiatteur bent geselecteerd, ontvangt u een melding via e-mail en een Journey Optimizer-waarschuwing. Deze waarschuwing is toegankelijk wanneer u in het tabblad **[!UICONTROL Requests]** op het belpictogram rechtsboven in het scherm klikt.
 
-![ het verzoekbericht van het Goedkeuringsverzoek ](assets/request-notification.png)
+![&#x200B; het verzoekbericht van het Goedkeuringsverzoek &#x200B;](assets/request-notification.png)
 
 Als u de reis/campagne wilt bekijken, opent u deze vanuit de e-mail of waarschuwing en controleert u de instellingen zoals het publiek, de inhoud of de instellingen.
-Zodra gedaan, kunt u of [ goedkeuren en de reis/de campagne ](#approve) publiceren, of [ verzoekveranderingen alvorens het ](#changes) te activeren.
+Zodra gedaan, kunt u of [&#x200B; goedkeuren en de reis/de campagne &#x200B;](#approve) publiceren, of [&#x200B; verzoekveranderingen alvorens het &#x200B;](#changes) te activeren.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Als een reis of campagne klaar is om live te gaan, kunt u deze goedkeuren door o
 
 Klik in het venster dat wordt weergegeven op **[!UICONTROL Approve and activate]** om de rit/campagne live te zetten.
 
-![ keur verzoekdialoog ](assets/approve-request.png) goed
+![&#x200B; keur verzoekdialoog &#x200B;](assets/approve-request.png) goed
 
 ## Wijzigingen in een reis/campagne aanvragen {#changes}
 
@@ -43,7 +43,7 @@ Als er wijzigingen nodig zijn in een reis of campagne die ter goedkeuring is ver
 
 Klik hiertoe op de knop **[!UICONTROL Request changes]** . Geef in het deelvenster dat wordt geopend een bericht op met uw verzoek en klik op **[!UICONTROL Send]** om uw verzoek in te dienen.
 
-![ de veranderingen van het Verzoek dialoog ](assets/request-changes.png)
+![&#x200B; de veranderingen van het Verzoek dialoog &#x200B;](assets/request-changes.png)
 
 Nadat de aanvraag is verzonden, wordt de maker van de reis/campagne via e-mail op de hoogte gebracht en wordt een Journey Optimizer-waarschuwing weergegeven. De campagne keert terug naar de status &quot;Concept&quot;. Nadat de wijzigingen zijn geïntegreerd, kan de maker van de reis/campagne deze opnieuw ter goedkeuring voorleggen.
 

@@ -40,18 +40,18 @@ Klik op de knop **[!UICONTROL Request Approval]** nadat u uw campagne of reis he
 
 Het deelvenster **[!UICONTROL Request approval]** wordt geopend. Geef indien nodig een bericht op voor de fiatteur(s) en klik op **[!UICONTROL Send]** om uw aanvraag in te dienen.
 
-![ de verzoekdialoog van de Goedkeuring ](assets/approval-request.png)
+![&#x200B; de verzoekdialoog van de Goedkeuring &#x200B;](assets/approval-request.png)
 
 Terwijl de campagne of de reis **[!UICONTROL In review]** staat is, hebt u de optie om het goedkeuringsverzoek te annuleren. Door op de knop **[!UICONTROL Cancel request]** te klikken, keert de campagne of de reis terug naar de ontwerpfase en wordt een melding naar de revisoren gestuurd waarin deze op de hoogte worden gesteld van het feit dat het verzoek is geannuleerd. Vervolgens kunt u de noodzakelijke wijzigingen aanbrengen en de campagne of reis opnieuw ter goedkeuring voorleggen.
 
-![ annuleert de knoop van het goedkeuringsverzoek ](assets/approval-cancel.png)
+![&#x200B; annuleert de knoop van het goedkeuringsverzoek &#x200B;](assets/approval-cancel.png)
 
 ## Goedkeuringsaanvragen beheren
 
-Zodra het goedkeuringsverzoek aan de fiatteurs is verzonden, kunnen zij het beoordelen en of de reis/campagne activeren om het live te zetten of zo nodig wijzigingen aan te vragen. [ Leer hoe te om een verzoek te herzien en goed te keuren ](review-approve-request.md)
+Zodra het goedkeuringsverzoek aan de fiatteurs is verzonden, kunnen zij het beoordelen en of de reis/campagne activeren om het live te zetten of zo nodig wijzigingen aan te vragen. [&#x200B; Leer hoe te om een verzoek te herzien en goed te keuren &#x200B;](review-approve-request.md)
 
 Als de aanvraag van fiatteurs verandert, ontvangt u een melding via e-mail en een Journey Optimizer-waarschuwing. Deze waarschuwing is toegankelijk wanneer u in het tabblad **[!UICONTROL Requests]** op het belpictogram rechtsboven in het scherm klikt.
 
-![ Veranderingen gevraagde bericht ](assets/changes-requested.png)
+![&#x200B; Veranderingen gevraagde bericht &#x200B;](assets/changes-requested.png)
 
 Als u het wijzigingsverzoek wilt doorlopen, opent u het vanuit de e-mail of de waarschuwing om toegang te krijgen tot de reis of campagne en brengt u de gewenste wijzigingen aan. Wanneer uw reis/campagne gereed is om opnieuw te worden beoordeeld, verzendt u een nieuw goedkeuringsverzoek met de knop **[!UICONTROL Request approval]** .
