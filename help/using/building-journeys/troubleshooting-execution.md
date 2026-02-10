@@ -10,9 +10,9 @@ level: Intermediate
 keywords: problemen oplossen, problemen oplossen, reis, controle, fouten
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1592'
 ht-degree: 16%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 16%
 
 In deze sectie, leer hoe te om reisgebeurtenissen problemen op te lossen, controleer als de profielen uw reis inging, hoe zij door het navigeren, en als de berichten worden verzonden.
 
-U kunt fouten ook oplossen voordat u een reis test of publiceert. Leer hoe [&#x200B; op deze pagina &#x200B;](troubleshooting.md).
+U kunt fouten ook oplossen voordat u een reis test of publiceert. Leer hoe [ op deze pagina ](troubleshooting.md).
 
-Als u binnenkomende acties gebruikt, leer hoe te om hen [&#x200B; op deze pagina &#x200B;](troubleshooting-inbound.md) problemen op te lossen.
+Als u binnenkomende acties gebruikt, leer hoe te om hen [ op deze pagina ](troubleshooting-inbound.md) problemen op te lossen.
 
 ## Controleren of gebeurtenissen correct zijn verzonden {#checking-that-events-are-properly-sent}
 
@@ -31,9 +31,9 @@ Het startpunt van een journey is altijd een gebeurtenis. U kunt tests uitvoeren 
 
 U kunt controleren of de API-aanroep die u via deze tools verzendt, correct is verzonden of niet. Als een fout wordt geretourneerd, betekent dit dat er een probleem is met uw aanroep. Controleer opnieuw de payload, de koptekst (vooral de organisatie-id) en de bestemmings-URL. U kunt de beheerder vragen wat de juiste URL is.
 
-Gebeurtenissen worden niet rechtstreeks van de bron naar de ritten verplaatst. Reizen vertrouwen inderdaad op Adobe Experience Platform-API&#39;s voor streaming-opname. Dientengevolge, in het geval van gebeurtenis verwante kwesties, kunt u naar [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=nl-NL){target="_blank"} voor het Streamen van opname APIs het oplossen van problemen verwijzen.
+Gebeurtenissen worden niet rechtstreeks van de bron naar de ritten verplaatst. Reizen vertrouwen inderdaad op de streaming opname-API&#39;s van [!DNL Adobe Experience Platform] . Dientengevolge, in het geval van gebeurtenis verwante kwesties, kunt u naar [[!DNL Adobe Experience Platform]  documentatie ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} voor het Streamen van opname APIs het oplossen van problemen verwijzen.
 
-Als uw reis er niet in slaagt testwijze met fout `ERR_MODEL_RULES_16` toe te laten, zorg ervoor de gebruikte gebeurtenis een [&#x200B; identiteit namespace &#x200B;](../audience/get-started-identity.md) omvat wanneer het gebruiken van een kanaalactie.
+Als uw reis er niet in slaagt testwijze met fout `ERR_MODEL_RULES_16` toe te laten, zorg ervoor de gebruikte gebeurtenis een [ identiteit namespace ](../audience/get-started-identity.md) omvat wanneer het gebruiken van een kanaalactie.
 
 De naamruimte identity wordt gebruikt om de testprofielen op unieke wijze te identificeren. Bijvoorbeeld, als e-mail wordt gebruikt om de testprofielen te identificeren, zou de identiteit namespace **E-mail** moeten worden geselecteerd. Als het unieke herkenningsteken het telefoonaantal is, dan zou de identiteit namespace **Telefoon** moeten worden geselecteerd.
 
@@ -57,8 +57,8 @@ U kunt het oplossen van problemen met de hieronder vragen beginnen:
   Content-type - application/json
   ```
 
-&#x200B;>>
-**voor de reizen van de Kwalificatie van het Publiek met het stromen publiek**: Als u een activiteit van de Kwalificatie van het Publiek als het punt van de reisingang gebruikt, ben zich ervan bewust dat niet alle profielen die voor het publiek worden gekwalificeerd noodzakelijkerwijs de reis wegens tijdsfactoren, snelle uitgang van het publiek zullen ingaan, of als de profielen reeds in het publiek alvorens te publiceren waren. Leer meer over [&#x200B; het stromen overwegingen van de publiekskwalificatie timing &#x200B;](audience-qualification-events.md#streaming-entry-caveats).
+>>
+**voor de reizen van de Kwalificatie van het Publiek met het stromen publiek**: Als u een activiteit van de Kwalificatie van het Publiek als het punt van de reisingang gebruikt, ben zich ervan bewust dat niet alle profielen die voor het publiek worden gekwalificeerd noodzakelijkerwijs de reis wegens tijdsfactoren, snelle uitgang van het publiek zullen ingaan, of als de profielen reeds in het publiek alvorens te publiceren waren. Leer meer over [ het stromen overwegingen van de publiekskwalificatie timing ](audience-qualification-events.md#streaming-entry-caveats).
 
 ## Problemen met overgangen in testmodi oplossen {#troubleshooting-test-transitions}
 
@@ -68,12 +68,12 @@ Als testprofielen uw reis in testmodus niet doorlopen of als de visuele stroom g
 
 Als testprofielen de reis ingaan maar niet voorbij de aanvankelijke stap vooruit, controleer het volgende:
 
-* **de begindatum van de Reis** - de gemeenschappelijkste oorzaak is wanneer de de begindatum van de reis in de toekomst wordt geplaatst. De profielen van de test worden onmiddellijk verworpen als de huidige tijd buiten de gevormde reis [&#x200B; begin en einddata/tijd &#x200B;](journey-properties.md#dates) venster valt. Oplossen:
+* **de begindatum van de Reis** - de gemeenschappelijkste oorzaak is wanneer de de begindatum van de reis in de toekomst wordt geplaatst. De profielen van de test worden onmiddellijk verworpen als de huidige tijd buiten de gevormde reis [ begin en einddata/tijd ](journey-properties.md#dates) venster valt. Oplossen:
    * Controleren of de begindatum van de reis in de toekomst niet is ingesteld
    * Zorg ervoor dat de huidige tijd binnen het actieve datumvenster van de reis valt
    * Werk indien nodig de eigenschappen van de reis bij om de begindatum aan te passen
 
-* **het profielconfiguratie van de Test** - bevestig dat het profiel correct als testprofiel in Adobe Experience Platform wordt gemarkeerd. Zie [&#x200B; hoe te om testprofielen &#x200B;](../audience/creating-test-profiles.md) voor meer informatie tot stand te brengen.
+* **het profielconfiguratie van de Test** - bevestig dat het profiel correct als testprofiel in [!DNL Adobe Experience Platform] wordt gemarkeerd. Zie [ hoe te om testprofielen ](../audience/creating-test-profiles.md) voor meer informatie tot stand te brengen.
 
 * **Identiteit namespace** - verzeker de identiteit namespace die in de gebeurtenisconfiguratie wordt gebruikt aanpast namespace van uw testprofiel.
 
@@ -115,6 +115,8 @@ In het geval van een bericht dat via een douaneactie wordt verzonden, is het eni
 
 ## Dubbele items begrijpen in Reisstapgebeurtenissen {#duplicate-step-events}
 
+Gebruik deze sectie om te begrijpen waarom dubbele rijen in de Gebeurtenissen van de Stap van de Reis kunnen verschijnen.
+
 ### Waarom zie ik veelvoudige ingangen met de zelfde reisinstantie, profiel, knoop, en verzoek IDs?
 
 Wanneer het vragen van de gegevens van de Gebeurtenissen van de Stap van de Reis, kunt u soms waarnemen wat om dubbele logboekingangen voor de zelfde reisuitvoering lijkt te zijn. Deze vermeldingen hebben identieke waarden voor:
@@ -128,7 +130,7 @@ Nochtans, hebben deze ingangen **verschillende `_id` waarden**, die de belangrij
 
 ### Wat veroorzaakt dit gedrag?
 
-Dit komt door backend auto-schrapende verrichtingen (ook genoemd &quot;het opnieuw in evenwicht brengen&quot;) in de architectuur van de microdiensten van Adobe Journey Optimizer voor. Tijdens perioden van hoge belasting of systeemoptimalisatie:
+Dit is het gevolg van automatische schalingsbewerkingen met backend (ook wel &#39;opnieuw in evenwicht brengen&#39; genoemd) in de microservicearchitectuur van [!DNL Adobe Journey Optimizer] . Tijdens perioden van hoge belasting of systeemoptimalisatie:
 
 1. Een gebeurtenis van de reisstap begint verwerking en aan de dataset van de Gebeurtenissen van de Stap van de Reis het programma geopend
 2. Een auto-schrapende verrichting herverdeelt werkbelasting over de dienstinstanties
@@ -138,7 +140,7 @@ Dit is een verwacht systeemgedrag en werkt **zoals ontworpen**.
 
 ### Is er enig effect op de uitvoering van de reis of de levering van berichten?
 
-**Nr.** Het effect is beperkt tot alleen loggen. Adobe Journey Optimizer heeft ingebouwde deduplicatiemechanismen bij de laag van de berichtuitvoering die verzekeren:
+**Nr.** Het effect is beperkt tot alleen loggen. [!DNL Adobe Journey Optimizer] heeft ingebouwde deduplicatiemechanismen bij de laag van de berichtuitvoering die verzekeren:
 
 * Er wordt slechts één bericht (e-mail, SMS, pushmelding, enz.) verzonden naar elk profiel
 * Handelingen worden slechts eenmaal uitgevoerd
@@ -187,7 +189,7 @@ Als u rapporten of analyses bouwt die op de Gebeurtenissen van de Stap van de Re
 * Kruisverwijzing met bericht terugkoppelt datasets wanneer het analyseren van berichtlevering
 * Houd er rekening mee dat timinganalyse items kan weergeven die binnen een paar seconden van elkaar zijn geclusterd
 
-Voor meer informatie over het vragen van de Gebeurtenissen van de Stap van de Reis, zie [&#x200B; Voorbeelden van vragen &#x200B;](../reports/query-examples.md).
+Voor meer informatie over het vragen van de Gebeurtenissen van de Stap van de Reis, zie [ Voorbeelden van vragen ](../reports/query-examples.md).
 
 ## Metrische verschillen in dashboard oplossen {#dashboard-metrics}
 

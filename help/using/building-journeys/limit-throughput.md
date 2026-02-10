@@ -9,18 +9,20 @@ level: Experienced
 keywords: reis, gegevensbronnen, grens, productie, douane, acties
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
 
 # Gebruik hoofdletters/kleine letters om de doorvoer te beperken met externe gegevensbronnen en aangepaste handelingen{#limit-throughput}
 
+Gebruik dit gebruiksgeval om de verwerking van de reis te vertragen wanneer externe systemen een beperkt aantal verzoeken per seconde moeten behandelen.
+
 ## Beschrijving van het gebruiksgeval
 
-Adobe Journey Optimizer staat artsen toe om API vraag naar externe systemen door het gebruik van de Acties van de Douane en Gegevensbronnen te verzenden.
+Met [!DNL Adobe Journey Optimizer] kunnen artsen API-aanroepen naar externe systemen verzenden met behulp van aangepaste handelingen en gegevensbronnen.
 
 Dit kan gebeuren met:
 
@@ -30,15 +32,15 @@ Dit kan gebeuren met:
 
 >[!NOTE]
 >
->Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [&#x200B; sectie &#x200B;](../action/action-response.md)
+>Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [ sectie ](../action/action-response.md)
 
-Als u met externe gegevensbronnen of douaneacties werkt, kunt u uw externe systemen willen beschermen door reisproductie te beperken: tot 5.000 instanties/seconde voor unitaire reizen en tot 20.000 instanties/seconde voor publiek-teweeggebrachte degenen. Leer meer over de tarieven van de reisverwerking en productie in [&#x200B; deze sectie &#x200B;](entry-management.md#journey-processing-rate).
+Als u met externe gegevensbronnen of douaneacties werkt, kunt u uw externe systemen willen beschermen door reisproductie te beperken: tot 5.000 instanties/seconde voor unitaire reizen en tot 20.000 instanties/seconde voor publiek-teweeggebrachte degenen. Leer meer over de tarieven van de reisverwerking en productie in [ deze sectie ](entry-management.md#journey-processing-rate).
 
-Voor aangepaste acties zijn vertragingsmogelijkheden beschikbaar op productniveau. Verwijs naar deze [&#x200B; pagina &#x200B;](../configuration/external-systems.md#capping).
+Voor aangepaste acties zijn vertragingsmogelijkheden beschikbaar op productniveau. Verwijs naar deze [ pagina ](../configuration/external-systems.md#capping).
 
 Voor externe gegevensbronnen, kunt u een het begrenzen op eindpuntniveau bepalen om die externe systemen te vermijden overweldigend door Journey Optimizer Capping APIs. Alle resterende aanvragen nadat de limiet is bereikt, worden echter genegeerd. In deze sectie vindt u tijdelijke oplossingen waarmee u de doorvoer kunt optimaliseren.
 
-Voor meer informatie over hoe te met externe systemen te integreren, verwijs naar deze [&#x200B; pagina &#x200B;](../configuration/external-systems.md).
+Voor meer informatie over hoe te met externe systemen te integreren, verwijs naar deze [ pagina ](../configuration/external-systems.md).
 
 ## Implementatie
 
@@ -49,11 +51,11 @@ Voor **publiek-teweeggebrachte reizen**, kunt u het lezingstarief van uw Gelezen
 > Dit is het maximumaantal profielen dat de reis per seconde kan ingaan. Dit tarief geldt alleen voor deze activiteit en niet voor andere activiteiten op de reis. [Meer informatie](../building-journeys/read-audience.md)
 
 
-![&#x200B; Beperk het paneel van de productieconfiguratie met tarief beperkende montages &#x200B;](assets/limit-throughput-1.png)
+![ Beperk het paneel van de productieconfiguratie met tarief beperkende montages ](assets/limit-throughput-1.png)
 
 U kunt deze waarde wijzigen van 500 tot 20 000 exemplaren per seconde. Als u lager dan 500/s moet gaan, kunt u &quot;percentage gespleten&quot;voorwaarden met wachtactiviteiten ook toevoegen om uw reis in veelvoudige takken te verdelen en hen te hebben op een specifiek tijdstip uitvoeren.
 
-![&#x200B; Reis met de activiteit van de beperkingsproductie die berichtleveringstarief controleert &#x200B;](assets/limit-throughput-2.png)
+![ Reis met de activiteit van de beperkingsproductie die berichtleveringstarief controleert ](assets/limit-throughput-2.png)
 
 Neem een voorbeeld van a **publiek-teweeggebrachte reizen** die met een bevolking van **10.000 profielen** werken en gegevens verzenden naar een extern systeem ondersteunend **100 verzoeken/seconde**.
 

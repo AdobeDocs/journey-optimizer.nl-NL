@@ -10,9 +10,9 @@ level: Intermediate
 keywords: send-time, send, message, optimization, trip, AI, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="Optimalisatie van verzonden tijd"
->abstract="De functie voor Send-Time optimalisatie van Adobe Journey Optimizer, aangedreven door Adobe AI-services, kan de beste tijd voorspellen om een e-mail- of pushbericht te verzenden om de betrokkenheid te maximaliseren op basis van de historische open en kliksnelheden."
+>abstract="Met de functie Send-Time Optimization van [!DNL Adobe Journey Optimizer], aangedreven door Adobe AI-services, kunt u de beste tijd voorspellen om een e-mail- of pushbericht te verzenden om de betrokkenheid te maximaliseren op basis van een open historie en klikfrequentie."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
@@ -34,13 +34,13 @@ ht-degree: 0%
 >title="Send-Time optimaliseren activeren"
 >abstract="Pushberichten worden standaard ingesteld op de optie Openen, omdat klikken niet van toepassing zijn op pushberichten. U kunt er ook voor kiezen om de verzendtijden die door het systeem worden gebruikt te accentueren door een waarde voor Verzenden in te voeren binnen de volgende optie."
 
-De Adobe Journey Optimizer-functie Send-Time Optimization, aangedreven door Adobe Journey AI-services, kiest de optimale verzendtijd voor e-mail- en pushberichten om de betrokkenheid van klanten te maximaliseren op basis van de historische open en klikfunctionaliteit van uw klanten.
+De functie Send-Time Optimization van [!DNL Adobe Journey Optimizer], aangedreven door Adobe Journey AI-services, kiest de optimale verzendtijd voor e-mail- en pushberichten om de betrokkenheid van klanten te maximaliseren op basis van de historische open en klikfunctionaliteit van uw klanten.
 
 Send-Time optimalisatie is alleen beschikbaar voor ingebouwde e-mail- en push-actietypen van Journey Optimizer en is momenteel niet beschikbaar voor berichten die via aangepaste handelingen worden verzonden of voor andere actietypen. Send-Time optimalisatie is alleen beschikbaar voor acties via e-mail en push binnen reizen en is momenteel niet beschikbaar voor berichten die via campagnes worden verzonden.
 
 >[!AVAILABILITY]
 >
->* De functie Send-Time Optimization wordt ingeschakeld voor Adobe Journey Optimizer-klanten op verzoek. Neem contact op met de klantenservice van Adobe of uw Adobe-vertegenwoordiger om de functie voor uw organisatie te activeren.
+>* De functie Send-Time Optimization wordt op verzoek ingeschakeld voor [!DNL Adobe Journey Optimizer] -klanten. Neem contact op met de klantenservice van Adobe of uw Adobe-vertegenwoordiger om de functie voor uw organisatie te activeren.
 >
 >* De optimalisering van de Send-Time is slechts op **E-mail** en **Push- bericht** kanalen van toepassing.
 >
@@ -49,7 +49,7 @@ Send-Time optimalisatie is alleen beschikbaar voor ingebouwde e-mail- en push-ac
 
 Gebruik Send-Time Optimization op een e-mail of duw actie door de Send-Time Optimization schakelaar van de actieparameters aan te zetten.
 
-![&#x200B; Send-Time de knevel van de Optimalisatie in de configuratie van het e-mailkanaal &#x200B;](assets/jo-message5.png)
+![ Send-Time de knevel van de Optimalisatie in de configuratie van het e-mailkanaal ](assets/jo-message5.png)
 
 De optimalisering van de Send-Time zou niet voor dringende, tijdgevoelige operationele berichten - bijvoorbeeld, een ordesbevestiging, een bericht van het wachtwoordterugstellen, of een bericht van de de gate verandering van de vlucht moeten worden gebruikt. De optimalisering van de Send-Time wordt het best gebruikt op minder-urgente marketing mededelingen - bijvoorbeeld, een wekelijkse advertentie, promotieinformatie over een nieuw product, of informatie over een maand-lange verkoop.
 
@@ -70,7 +70,7 @@ Wanneer uw reis wordt geactiveerd en een klant de actie E-mail of Duw in de reis
 
 ## Hoe Send-Time Optimalisatie werkt {#how-send-time}
 
-Het model van de Optimalisering van de Send-Time neemt de gegevens van het de klantengedrag van Adobe Journey Optimizer van uw organisatie op en kijkt open op gebruikersniveau en klik gebeurtenissen om te bepalen wanneer uw klanten het meest waarschijnlijk met uw overseinen in dienst zullen nemen.
+Het model van de Optimalisering van de Send-Time neemt de [!DNL Adobe Journey Optimizer] gegevens van het klantengedrag van uw organisatie op en kijkt open op gebruikersniveau en klikt gebeurtenissen om te bepalen wanneer uw klanten het meest waarschijnlijk met uw overseinen in dienst zullen nemen.
 
 De optimalisering van de Send-Tijd maakt voorspellingen voor elk uur van de week, voor elke gebruiker, die op drie soorten gedragsgegevens wordt gebaseerd:
 
@@ -80,11 +80,11 @@ De optimalisering van de Send-Tijd maakt voorspellingen voor elk uur van de week
 
 Deze voorspellingen worden gewogen en gecombineerd met behulp van een Bayesiaanse benadering, wat resulteert in een &quot;hittekaart&quot; voor elke metrische waarde (e-mail wordt geopend, e-mail klikt en push wordt geopend), die voor elke klant aangeeft hoeveel uren van de week contact met die gebruiker het meest en het minst waarschijnlijk zal leiden tot het gewenste betrokkenheidsresultaat (open/klik), zoals wordt geïllustreerd in het onderstaande voorbeeld van een verwarmingskaart:
 
-![&#x200B; de heatmap van de Betrokkenheid die optimale verzendt tijden voor e-mail door dag en uur &#x200B;](assets/heatmap-1.png) toont
+![ de heatmap van de Betrokkenheid die optimale verzendt tijden voor e-mail door dag en uur ](assets/heatmap-1.png) toont
 
 Als een gebruiker met de bovengenoemde voorspelde waarschijnlijkheden voor een bericht bij 9 wordt gericht AM Woensdag met Send-Time die optimalisering wordt aangezet en een maximum 7 uur wachttijd tijd, geselecteerde verzendt tijd voor het bericht zal 12 PM zijn:
 
-![&#x200B; de heatmap van de Betrokkenheid met gedetailleerde uur-voor-uur optimalisatiegegevens &#x200B;](assets/heatmap-2.png)
+![ de heatmap van de Betrokkenheid met gedetailleerde uur-voor-uur optimalisatiegegevens ](assets/heatmap-2.png)
 
 ## Training over het optimalisatiemodel voor verzendtijd en informatie over scores  {#model-send-time}
 
@@ -101,7 +101,7 @@ De exploratie verzendt tijden wordt geselecteerd in willekeurige volgorde van ve
 
 U vindt hieronder Veelgestelde vragen over Send-Time Optimization.
 
-Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [&#x200B; gemeenschap van Adobe Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=nl){target="_blank"} te verbinden.
+Wilt u meer details? Gebruik terugkoppelt opties bij de bodem van deze pagina om uw vraag op te heffen, of met [[!DNL Adobe Journey Optimizer]  gemeenschap ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
 
 +++Hoe lang moet ik wachten alvorens Send-Time Optimalisering te gebruiken?
 

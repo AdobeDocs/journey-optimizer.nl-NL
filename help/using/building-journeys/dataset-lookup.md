@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Experience Platform-gegevens gebruiken tijdens reizen
-description: Leer hoe u de activiteit Gegevensset opzoeken in Adobe Journey Optimizer kunt gebruiken om klantreizen te verrijken met externe gegevens van Adobe Experience Platform.
+title: ' [!DNL Adobe Experience Platform]  gegevens van het gebruik in reizen'
+description: Leer hoe te om de Activiteit van de Opzoeken van de Dataset in  [!DNL Adobe Journey Optimizer]  te gebruiken om klantenreizen met externe gegevens van  [!DNL Adobe Experience Platform] te verrijken.
 feature: Journeys, Activities
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 6e74fc363784fe4f4bae07bfe766035285c9a2ca
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="Opzoekactiviteit gegevensset"
->abstract="Met de **[!UICONTROL Dataset lookup]** -activiteit kunt u tijdens runtime dynamisch gegevens ophalen uit Adobe Experience Platform-recordgegevenssets. Door gebruik te maken van deze mogelijkheid hebt u toegang tot gegevens die mogelijk niet in het profiel of de lading van de gebeurtenis zijn opgeslagen, zodat uw klanteninteractie zowel relevant als tijdig is."
+>abstract="Met de **[!UICONTROL Dataset lookup]** -activiteit kunt u tijdens runtime dynamisch gegevens ophalen uit [!DNL Adobe Experience Platform] -recordgegevenssets. Door gebruik te maken van deze mogelijkheid hebt u toegang tot gegevens die mogelijk niet in het profiel of de lading van de gebeurtenis zijn opgeslagen, zodat uw klanteninteractie zowel relevant als tijdig is."
 
-Met de **[!UICONTROL Dataset lookup]** -activiteit kunt u tijdens runtime dynamisch gegevens ophalen uit Adobe Experience Platform-recordgegevenssets. Door gebruik te maken van deze mogelijkheid hebt u toegang tot gegevens die mogelijk niet in het profiel of de lading van de gebeurtenis zijn opgeslagen, zodat uw klanteninteractie zowel relevant als tijdig is.
+Met de **[!UICONTROL Dataset lookup]** -activiteit kunt u tijdens runtime dynamisch gegevens ophalen uit [!DNL Adobe Experience Platform] -recordgegevenssets. Door gebruik te maken van deze mogelijkheid hebt u toegang tot gegevens die mogelijk niet in het profiel of de lading van de gebeurtenis zijn opgeslagen, zodat uw klanteninteractie zowel relevant als tijdig is.
 
 Belangrijkste voordelen:
 
@@ -38,9 +38,11 @@ Belangrijkste voordelen:
 
 ## Meer lezen {#must-read}
 
+Herzie deze vereisten alvorens u datasetraadplegingen vormt.
+
 ### Gegevensset inschakelen
 
-De dataset moet voor raadpleging in Adobe Experience Platform worden toegelaten. De gedetailleerde informatie is beschikbaar in deze sectie: [&#x200B; de gegevens van Adobe Experience Platform van het Gebruik &#x200B;](../data/lookup-aep-data.md).
+De dataset moet voor raadpleging in [!DNL Adobe Experience Platform] worden toegelaten. De gedetailleerde informatie is beschikbaar in deze sectie: [ gegevens van het 1} Gebruik  [!DNL Adobe Experience Platform] .](../data/lookup-aep-data.md)
 
 ### Beperkingen en beperkingen
 
@@ -64,7 +66,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Dataset lookup]** -activiteit t
 
 1. Ontgrendel de categorie **[!UICONTROL Orchestration]** en zet een **[!UICONTROL Dataset lookup]** -activiteit neer op uw canvas.
 
-   ![&#x200B; de opzoekactiviteit van de dataset van Adobe Experience Platform in reis &#x200B;](assets/aep-data-activity.png)
+   ![[!DNL Adobe Experience Platform] activiteit van de datasetraadpleging in reis ](assets/aep-data-activity.png)
 
 1. Voeg een label en beschrijving toe.
 
@@ -72,7 +74,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Dataset lookup]** -activiteit t
 
    >[!NOTE]
    >
-   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten. Voor meer details, verwijs naar [&#x200B; &#x200B;](#must-read) sectie moet lezen.
+   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten. Voor meer details, verwijs naar [ ](#must-read) sectie moet lezen.
 
 1. Selecteer de specifieke gebieden u van de dataset wilt halen.
 
@@ -82,7 +84,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Dataset lookup]** -activiteit t
 
    +++Voorbeeld
 
-   ![&#x200B; het gebiedsselectie van de Dataset die primitieve gegevenstypes en structuur tonen &#x200B;](assets/aep-data-leaf-primitive.png)
+   ![ het gebiedsselectie van de Dataset die primitieve gegevenstypes en structuur tonen ](assets/aep-data-leaf-primitive.png)
 
    +++
 
@@ -94,7 +96,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Dataset lookup]** -activiteit t
 
    +++Voorbeeld
 
-   ![&#x200B; de redacteur van de Uitdrukking met de raadpleging van het gegevenssetgebied en koordfuncties &#x200B;](assets/aep-data-strings.png)
+   ![ de redacteur van de Uitdrukking met de raadpleging van het gegevenssetgebied en koordfuncties ](assets/aep-data-strings.png)
 
    +++
 
@@ -104,7 +106,7 @@ De gegevens die door de **[!UICONTROL Dataset lookup]** -activiteit worden opgeh
 
 * **Redacteur van de Uitdrukking van de Reis**:
 
-  Open de editor van **[!UICONTROL Advanced mode]** en gebruik de syntaxis: `@datasetLookup{MyDatasetLookUpActivity1.entities}` . [&#x200B; Leer hoe te met de geavanceerde uitdrukkingsredacteur te werken &#x200B;](../building-journeys/expression/expressionadvanced.md)
+  Open de editor van **[!UICONTROL Advanced mode]** en gebruik de syntaxis: `@datasetLookup{MyDatasetLookUpActivity1.entities}` . [ Leer hoe te met de geavanceerde uitdrukkingsredacteur te werken ](../building-journeys/expression/expressionadvanced.md)
 
 * **Redacteur van Personalization**:
 
@@ -124,7 +126,7 @@ De gegevens die door de **[!UICONTROL Dataset lookup]** -activiteit worden opgeh
 
 1. **Gebeurtenis van de Aankoop**: Vang SKUs van de kar van de gebruiker.
 
-1. **de opzoekactiviteit van 0&rbrace; Dataset:**
+1. **de opzoekactiviteit van 0} Dataset:**
 
    * Gegevensset: `products-dataset` (SKU als primaire sleutel).
    * Opzoektoetsen: `list(@event{purchase_event.products.sku})`.
@@ -169,7 +171,7 @@ De gegevens die door de **[!UICONTROL Dataset lookup]** -activiteit worden opgeh
 
 1. **Trigger van de Gebeurtenis van het Profiel**: Leg e-mail IDs van het profiel of gebeurteniscontext vast.
 
-1. **de activiteit van de Opzoeken van de Dataset van 0&rbrace;:**
+1. **de activiteit van de Opzoeken van de Dataset van 0}:**
    * Gegevensset: `loyalty-member-dataset` (e-mail als primaire sleutel).
    * Opzoektoetsen: `@profile.email`.
    * Te retourneren velden: `["email", "loyaltyTier"]`.

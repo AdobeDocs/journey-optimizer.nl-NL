@@ -10,9 +10,9 @@ level: Intermediate
 keywords: tijdzone, eigendommen, transport, conditie, tijd, datum, aangepast
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '370'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 >abstract="Selecteer de tijdzone van de reis. Wanneer een vaste tijdzone wordt gebruikt, is dit hetzelfde voor alle personen die de reis betreden."
 
 
-U kunt een tijdzone in de [&#x200B; eigenschappen &#x200B;](../building-journeys/journey-properties.md#timezone) van uw reis bepalen.
+U kunt een tijdzone in de [ eigenschappen ](../building-journeys/journey-properties.md#timezone) van uw reis bepalen.
 
 Als u de eigenschappen van een rit wilt openen, selecteert u het potloodpictogram rechtsboven in het scherm.
 
@@ -39,7 +39,7 @@ Deze tijdzone wordt gebruikt voor elke activiteit van de reis die een tijdseleme
 * [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 -->
 
-U kunt a [&#x200B; vaste tijdzone &#x200B;](#fixed-timezone) selecteren of verkiezen om de tijdzone [&#x200B; te gebruiken die in het gebruikersprofiel &#x200B;](#timezone-from-profiles) wordt bepaald.
+U kunt a [ vaste tijdzone ](#fixed-timezone) selecteren of verkiezen om de tijdzone [ te gebruiken die in het gebruikersprofiel ](#timezone-from-profiles) wordt bepaald.
 
 ## Een vaste tijdzone definiëren {#fixed-timezone}
 
@@ -47,7 +47,7 @@ De tijdzone kan worden vastgesteld. Wis de vooraf gedefinieerde tijdzone en kies
 
 Selecteer hiertoe in het deelvenster **[!UICONTROL Journey Properties]** een tijdzone.
 
-![&#x200B; de selectiedrop-down van de tijdzoneselectie in reiseigenschappen &#x200B;](assets/journey72.png)
+![ de selectiedrop-down van de tijdzoneselectie in reiseigenschappen ](assets/journey72.png)
 
 ## Tijdzone profielen gebruiken {#timezone-from-profiles}
 
@@ -56,15 +56,15 @@ Selecteer hiertoe in het deelvenster **[!UICONTROL Journey Properties]** een tij
 >title="Tijdzone profiel gebruiken"
 >abstract="Schakel het selectievakje in als u de tijdzone van het real-time profiel wilt gebruiken die wacht- en voorwaardenactiviteiten. Als een tijdzone voor een profiel is gedefinieerd, zal het door de reis worden teruggewonnen en gebruikt. Als dat niet het geval is, wordt de tijdzone gedefinieerd in het bovenstaande tijdzone-veld."
 
-Als de entry-gebeurtenis van de reis een naamruimte heeft, wat betekent dat de reis de Real-time service van het Profiel van de Klant van Adobe Experience Platform kan bereiken, kunt u de tijdzone willen gebruiken die op het profielniveau wordt bepaald. Om dit, in **Eigenschappen** te doen, controleer **de tijdzone van het Profiel van het Gebruik in wacht en voorwaarden**. Deze optie is niet standaard ingeschakeld.
+Als de entry-gebeurtenis van de reis een naamruimte heeft, wat betekent dat de reis de Real-time service van het Profiel van de Klant van [!DNL Adobe Experience Platform] kan bereiken, kunt u de tijdzone willen gebruiken die op het profielniveau wordt bepaald. Om dit, in **Eigenschappen** te doen, controleer **de tijdzone van het Profiel van het Gebruik in wacht en voorwaarden**. Deze optie is niet standaard ingeschakeld.
 
 Als een tijdzone voor een profiel is gedefinieerd, zal het door de reis worden teruggewonnen en gebruikt. Als dit niet het geval is, wordt de tijdzone gebruikt die is gedefinieerd in het tijdzone-veld.
 
-![&#x200B; de tijdzoneconfiguratie van het Profiel in gegevensbronnen voor gepersonaliseerde timing &#x200B;](assets/journey73.png)
+![ de tijdzoneconfiguratie van het Profiel in gegevensbronnen voor gepersonaliseerde timing ](assets/journey73.png)
 
 >[!NOTE]
 >
->De streek van de profieltijd werkt met het **timeZone** gebied bestaand in de **3&rbrace; gebiedsgroep van de Details van de Voorkeur &lbrace;.**
+>De streek van de profieltijd werkt met het **timeZone** gebied bestaand in de **3} gebiedsgroep van de Details van de Voorkeur {.**
 
 ## Tijdzones gebruiken in expressies {#timezone-in-expressions}
 

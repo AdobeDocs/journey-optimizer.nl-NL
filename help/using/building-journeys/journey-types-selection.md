@@ -10,17 +10,17 @@ keywords: reistypes, unitary, leest publiek, publiekskwalificatie, bedrijfsgebeu
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: f749eae4e0a826428880e913219cf6f5a135b17c
+exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '977'
 ht-degree: 1%
 
 ---
 
-
 # Reistypen en selectiehandleiding {#journey-types-selection}
 
-Adobe Journey Optimizer ondersteunt vier reistypes, elk ontworpen voor verschillende toegangsmechanismen en bedrijfsscenario&#39;s. Deze handleiding helpt u de verschillen te begrijpen en het juiste type voor uw gebruikscase te kiezen.
+[!DNL Adobe Journey Optimizer] ondersteunt vier soorten reizen, elk ontworpen voor verschillende toegangsmechanismen en bedrijfsscenario&#39;s. Deze handleiding helpt u de verschillen te begrijpen en het juiste type voor uw gebruikscase te kiezen.
 
 ## Overzicht van reistypes {#journey-types}
 
@@ -34,17 +34,17 @@ Adobe Journey Optimizer ondersteunt vier reistypes, elk ontworpen voor verschill
 
 **Perfect voor:** Bevestigingen van de Orde na aankoop, welkome e-mails wanneer iemand zich abonneert, wortelbeëindiging teweeggebracht door het doorbladeren, en wachtwoord terugstellende berichten.
 
-➡️ [&#x200B; Leer over gebeurtenissen &#x200B;](../event/about-events.md) | [&#x200B; Bericht aan abonnees gebruikt geval &#x200B;](message-to-subscribers-uc.md)
+➡️ [ Leer over gebeurtenissen ](../event/about-events.md) | [ Bericht aan abonnees gebruikt geval ](message-to-subscribers-uc.md)
 
 >[!TAB  lees de reizen van het Publiek ]
 
 **wanneer te gebruiken:** Geplande campagnes aan publiekssegmenten
 
-**las de reizen van het Publiek** beginnen met een publiek van Adobe Experience Platform en verzendt berichten in partij naar alle profielen gelijktijdig. Dit type van reis is ideaal voor geplande, grootschalige mededelingen.
+**lees de reizen van het Publiek** beginnen met een [!DNL Adobe Experience Platform] publiek en verzendt berichten in partij naar alle profielen gelijktijdig. Dit type van reis is ideaal voor geplande, grootschalige mededelingen.
 
 **Perfect voor:** Maandelijkse nieuwsbrieven, promotiecampagnes aan doelsegmenten, productaankondigingen, en seizoensgebonden marketing campagnes.
 
-➡️ [&#x200B; Leer over Gelezen Publiek &#x200B;](read-audience.md) | [&#x200B; krijgen begonnen met publiek &#x200B;](../audience/about-audiences.md)
+➡️ [ Leer over Gelezen Publiek ](read-audience.md) | [ krijgen begonnen met publiek ](../audience/about-audiences.md)
 
 >[!TAB  reizen van de Kwalificatie van het publiek ]
 
@@ -54,17 +54,17 @@ Adobe Journey Optimizer ondersteunt vier reistypes, elk ontworpen voor verschill
 
 **Perfect voor:** de de rijverbeteringsberichten van VIP, re-engagement wanneer de klanten inactief worden, eerste de berichten van de aankoopviering, en geografisch gericht richten wanneer de klanten zich bewegen.
 
-➡️ [&#x200B; Leer over de Kwalificatie van het Publiek &#x200B;](audience-qualification-events.md) | [&#x200B; Creërend publiek &#x200B;](../audience/creating-a-segment-definition.md)
+➡️ [ Leer over de Kwalificatie van het Publiek ](audience-qualification-events.md) | [ Creërend publiek ](../audience/creating-a-segment-definition.md)
 
 >[!TAB  Van bedrijfs gebeurtenisreizen ]
 
 **Wanneer te gebruiken:** Bedrijfs voorwaarden die veelvoudige klanten beïnvloeden
 
-&lbrace;de ritten van de Bedrijfs gebeurtenis **worden teweeggebracht door zaken-vlakke gebeurtenissen (voorraadupdates, weeralarm, prijsveranderingen) die veelvoudige profielen gelijktijdig beïnvloeden.** Deze maatregelen zijn eerder gericht op bredere bedrijfsomstandigheden dan op individuele acties.
+{de ritten van de Bedrijfs gebeurtenis **worden teweeggebracht door zaken-vlakke gebeurtenissen (voorraadupdates, weeralarm, prijsveranderingen) die veelvoudige profielen gelijktijdig beïnvloeden.** Deze maatregelen zijn eerder gericht op bredere bedrijfsomstandigheden dan op individuele acties.
 
 **Perfect voor:** Lage inventarisalarm aan geïnteresseerde klanten, de aankondigingen van de flitsverkoop, op weer-gebaseerde bevorderingen, de berichten van de prijsdaling, en product achterstandsalarm.
 
-➡️ [&#x200B; Leer over bedrijfsgebeurtenissen &#x200B;](../event/about-creating-business.md) | [&#x200B; Invoerbeheer &#x200B;](entry-management.md)
+➡️ [ Leer over bedrijfsgebeurtenissen ](../event/about-creating-business.md) | [ Invoerbeheer ](entry-management.md)
 
 >[!ENDTABS]
 
@@ -122,7 +122,7 @@ In deze tabel kunt u snel de verschillende soorten reizen vergelijken en de juis
 | **Gebruik wanneer** | Directe reactie op de afzonderlijke acties die nodig zijn | Grote publiekssegmenten op schema bereiken | Reageren op wijzigingen in de klantstatus | Bedrijfs gebeurtenissen beïnvloeden veelvoudige klanten |
 | **Voorbeelden** | Bevestigen van bestelling, wachtwoord opnieuw instellen | Maandelijkse nieuwsbrief, seizoenscampagne | VIP-upgrade, inactiviteitswaarschuwing | Waarschuwing voor lage voorraad, flash-verkoop, prijsdaling |
 | **re-entry** | Configureerbaar (meerdere items per profiel toestaan) | Elk profiel wordt één keer per uitvoering ingevoerd | Configureerbaar per kwalificatiegebeurtenis | Dezelfde gebeurtenis kan van invloed zijn op meerdere profielen |
-| **Vereisten van Gegevens** | Gebeurtenisschema met triggergegevens | Adobe Experience Platform-publiek | Streaming- of batchpubliek | Schema voor zakelijke gebeurtenissen |
+| **Vereisten van Gegevens** | Gebeurtenisschema met triggergegevens | [!DNL Adobe Experience Platform] publiek | Streaming- of batchpubliek | Schema voor zakelijke gebeurtenissen |
 
 ## Compatibiliteit van kenmerken per type transport {#feature-compatibility}
 
@@ -134,7 +134,7 @@ Niet alle functies zijn beschikbaar voor alle soorten reizen. Gebruik deze matri
 | Gebeurtenisgestuurde vermelding | ✅ | ❌ | ❌ | ✅ |
 | Gepland item | ❌ | ✅ | ❌ | ❌ |
 | Publiek-gebaseerd item | ❌ | ✅ | ✅ | ❌ |
-| **de eigenschappen van 0&rbrace; Orchestration** |
+| **de eigenschappen van 0} Orchestration** |
 | Wachten op activiteiten | ✅ | ✅ | ✅ | ✅ |
 | Conditioneringsactiviteiten | ✅ | ✅ | ✅ | ✅ |
 | Aangepaste acties | ✅ | ✅ | ✅ | ✅ |
@@ -178,5 +178,4 @@ Nu je reistypes begrijpt, ben je klaar om:
 
 **Behoefte met campagnes te vergelijken?**
 
-* [&#x200B; Reizen vs Campagnes vergelijkingsgids &#x200B;](../start/journeys-vs-campaigns.md) - kies tussen reizen, acties/API campagnes, en Geordende campagnes
-
+* [ Reizen vs Campagnes vergelijkingsgids ](../start/journeys-vs-campaigns.md) - kies tussen reizen, acties/API campagnes, en Geordende campagnes

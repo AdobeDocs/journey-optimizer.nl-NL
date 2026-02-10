@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Een publiek gebruiken voor een reis
-description: Leer hoe u de activiteit van het leespubliek configureert en gebruikt om personen van het Adobe Experience Platform-publiek de mogelijkheid te bieden een reis te maken.
+description: Leer hoe te om de Gelezen activiteit van het Publiek te vormen en te gebruiken om individuen van  [!DNL Adobe Experience Platform]  publiek te maken reizen ingaan.
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
@@ -10,14 +10,16 @@ level: Intermediate
 keywords: activiteit, reis, lezen, publiek, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 846a831077680e1654041b05b59233c138b559fb
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '2984'
+source-wordcount: '2975'
 ht-degree: 0%
 
 ---
 
 # Een publiek gebruiken voor een reis {#segment-trigger-activity}
+
+Gebruik de activiteit van het publiek lezen om reizen met bepaald publiek te beginnen.
 
 ## Informatie over de activiteit van het leespubliek {#about-segment-trigger-actvitiy}
 
@@ -28,17 +30,17 @@ ht-degree: 0%
 
 Gebruik de **Gelezen activiteit van het Publiek** om alle individuen van een publiek te maken de reis ingaan. Het betreden van een reis kan één keer of op regelmatige basis plaatsvinden.
 
-Neem als voorbeeld het &quot;toepassings het openen en controle van de Luma&quot;publiek dat in [&#x200B; wordt gecreeerd bouwt publiek &#x200B;](../audience/about-audiences.md) gebruiksgeval. Met de activiteit van het Leespubliek, kunt u alle individuen die tot dit publiek behoren tot een reis maken. Zij zullen in geïndividualiseerde reizen stromen die alle reisfuncties gebruiken: voorwaarden, timers, gebeurtenissen, acties.
+Neem als voorbeeld het &quot;toepassings het openen en controle van de Luma&quot;publiek dat in [ wordt gecreeerd bouwt publiek ](../audience/about-audiences.md) gebruiksgeval. Met de activiteit van het Leespubliek, kunt u alle individuen die tot dit publiek behoren tot een reis maken. Zij zullen in geïndividualiseerde reizen stromen die alle reisfuncties gebruiken: voorwaarden, timers, gebeurtenissen, acties.
 
 ➡️ [Ontdek deze functie in video](#video)
 
 >[!NOTE]
 >
->Wanneer een activiteit van het publiek lezen uitvoert, produceert het systeem interne gebeurtenissen (genoemd `segmentExportJob` gebeurtenissen) om de levenscyclus van de publieksuitvoer verrichting te volgen. Deze gebeurtenissen worden geregistreerd op het activiteitsniveau, niet per individueel profiel, en kunnen voor controle en het oplossen van problemendoeleinden worden gevraagd. Leer meer over [&#x200B; het vragen Gelezen gebeurtenissen van het Publiek &#x200B;](../reports/query-examples.md#read-segment-queries).
+>Wanneer een activiteit van het publiek lezen uitvoert, produceert het systeem interne gebeurtenissen (genoemd `segmentExportJob` gebeurtenissen) om de levenscyclus van de publieksuitvoer verrichting te volgen. Deze gebeurtenissen worden geregistreerd op het activiteitsniveau, niet per individueel profiel, en kunnen voor controle en het oplossen van problemendoeleinden worden gevraagd. Leer meer over [ het vragen Gelezen gebeurtenissen van het Publiek ](../reports/query-examples.md#read-segment-queries).
 
 >[!CAUTION]
 >
->* Alvorens de Gelezen publieksactiviteit te gebruiken, [&#x200B; lees de Grafieken en Beperkingen &#x200B;](#must-read).
+>* Alvorens de Gelezen publieksactiviteit te gebruiken, [ lees de Grafieken en Beperkingen ](#must-read).
 
 ## De activiteit configureren {#configuring-segment-trigger-activity}
 
@@ -52,27 +54,29 @@ De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt.
 
 1. Voeg een **[!UICONTROL Label]** toe aan de activiteit (optioneel).
 
-1. Kies in het veld **[!UICONTROL Audience]** het [!DNL Adobe Experience Platform] -publiek dat de rit zal betreden en klik vervolgens op **[!UICONTROL Save]** . U kunt om het even welk [!DNL Adobe Experience Platform] publiek selecteren dat gebruikend [&#x200B; segmentdefinities &#x200B;](../audience/creating-a-segment-definition.md) wordt geproduceerd.
+1. Kies in het veld **[!UICONTROL Audience]** het [!DNL Adobe Experience Platform] -publiek dat de rit zal betreden en klik vervolgens op **[!UICONTROL Save]** . U kunt om het even welk [!DNL Adobe Experience Platform] publiek selecteren dat gebruikend [ segmentdefinities ](../audience/creating-a-segment-definition.md) wordt geproduceerd.
 
    >[!NOTE]
    >
-   >Bovendien kunt u [!DNL Adobe Experience Platform] publiek ook richten dat gebruikend [&#x200B; wordt gecreeerd publiekssamenstellingen &#x200B;](../audience/get-started-audience-orchestration.md) of [&#x200B; van een Csv- dossier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=nl-NL#import-audience){target="_blank"} wordt geupload. [&#x200B; Leer meer over hoe te om publiek in Journey Optimizer te produceren en te richten &#x200B;](../audience/about-audiences.md).
+   >Bovendien kunt u [!DNL Adobe Experience Platform] publiek richten dat gebruikend [ wordt gecreeerd publiekssamenstellingen ](../audience/get-started-audience-orchestration.md).
+   >U kunt publiek ook richten [ geupload van een Csv- dossier ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
+   >[ Leer meer over hoe te om publiek in Journey Optimizer te produceren en te richten ](../audience/about-audiences.md).
 
    U kunt de kolommen in de lijst aanpassen en sorteren.
 
-   ![&#x200B; de selectieinterface die van het publiek beschikbare publiek van Adobe Experience Platform toont &#x200B;](assets/read-segment-selection.png)
+   ![ de selectieinterface die van het publiek beschikbaar [!DNL Adobe Experience Platform] publiek toont ](assets/read-segment-selection.png)
 
    Nadat het publiek is toegevoegd, kunt u met de knop **[!UICONTROL Copy]** de naam en de id van het publiek kopiëren:
 
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![&#x200B; knoop van het Exemplaar om publieksnaam en identiteitskaart in formaat te kopiëren JSON &#x200B;](assets/read-segment-copy.png)
+   ![ knoop van het Exemplaar om publieksnaam en identiteitskaart in formaat te kopiëren JSON ](assets/read-segment-copy.png)
 
    >[!NOTE]
    >
-   >Slechts zullen de individuen met de **Realized** status van de publieksparticipatie de reis ingaan. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results){target="_blank"}.
+   >Slechts zullen de individuen met de **Realized** status van de publieksparticipatie de reis ingaan. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
-1. Kies in het veld **[!UICONTROL Namespace]** de naamruimte die u wilt gebruiken om de personen te identificeren. Het veld wordt standaard voorgevuld met de laatst gebruikte naamruimte. [&#x200B; Leer meer over namespaces &#x200B;](../event/about-creating.md#select-the-namespace).
+1. Kies in het veld **[!UICONTROL Namespace]** de naamruimte die u wilt gebruiken om de personen te identificeren. Het veld wordt standaard voorgevuld met de laatst gebruikte naamruimte. [ Leer meer over namespaces ](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >
@@ -82,7 +86,7 @@ De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt.
 
 * Er kan slechts één **[!UICONTROL Read Audience]** -activiteit worden gebruikt tijdens een rit en dit moet de eerste activiteit op het canvas zijn.
 
-* De **[!UICONTROL Read audience]** -activiteit kan zich richten op slechts één publiek. Als er meerdere soorten publiek nodig zijn, kunt u die soorten publiek vóór gebruik samenvoegen tot één publiek. [&#x200B; leer hoe te om publiek te combineren gebruikend samenstellingswerkschema&#39;s &#x200B;](../audience/get-started-audience-orchestration.md)
+* De **[!UICONTROL Read audience]** -activiteit kan zich richten op slechts één publiek. Als er meerdere soorten publiek nodig zijn, kunt u die soorten publiek vóór gebruik samenvoegen tot één publiek. [ leer hoe te om publiek te combineren gebruikend samenstellingswerkschema&#39;s ](../audience/get-started-audience-orchestration.md)
 
 * Voor reizen die a **gebruiken Gelezen de activiteit van het publiek**, is er een maximumaantal reizen dat precies tezelfdertijd kan beginnen. Het systeem voert opnieuw tests uit. Nochtans, vermijd het hebben van meer dan vijf reizen (met **Gelezen Publiek**, gepland of die &quot;zo snel mogelijk&quot;beginnen) tezelfdertijd. De beste manier is om ze over een tijdsverloop te verspreiden, bijvoorbeeld 5 tot 10 minuten na elkaar.
 
@@ -90,7 +94,7 @@ De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt.
 
 * Als beste praktijken, adviseren wij u slechts partijpubliek in a **Gelezen publiek** activiteit. Dit zal een betrouwbare en consistente telling van de tijdens de reis gebruikte doelgroepen opleveren. Lees het publiek wordt ontworpen voor partijgebruik gevallen. Als uw gebruiksgeval gegevens in real time gelieve vereist te gebruiken {de kwalificatieactiviteit van 0} Audience **[.](audience-qualification-events.md)**
 
-* Het publiek [&#x200B; werd ingevoerd uit een Csv- dossier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=nl-NL#import-audience) of resulterend uit [&#x200B; samenstellingswerkschema&#39;s &#x200B;](../audience/get-started-audience-orchestration.md) kan in de **Gelezen activiteit van het Publiek** worden geselecteerd. Deze doelgroepen zijn niet beschikbaar in de **activiteit van de Kwalificatie van het publiek 0&rbrace;.**
+* Het publiek [ werd ingevoerd uit een Csv- dossier ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) of resulterend uit [ samenstellingswerkschema&#39;s ](../audience/get-started-audience-orchestration.md) kan in de **Gelezen activiteit van het Publiek** worden geselecteerd. Deze doelgroepen zijn niet beschikbaar in de **activiteit van de Kwalificatie van het publiek 0}.**
 
 * Gelijktijdige leeslimiet per organisatie: elke organisatie kan maximaal vijf instanties van het type Audience lezen tegelijk uitvoeren. Dit omvat zowel geplande looppas als die teweeggebracht door bedrijfsgebeurtenissen. De limiet geldt voor alle sandboxen en reizen. Deze limiet wordt gehandhaafd om te zorgen voor een eerlijke en evenwichtige toewijzing van middelen in alle organisaties.
 
@@ -100,21 +104,21 @@ De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt.
 
 * Wanneer het gebruiken van partijsegmenten, verzeker uw opname en dagelijkse momentopname werkt ruim vóór de reis begint. Overweeg een extra wachttijdperiode als de segmenten op gegevens moeten wijzen die de zelfde dag worden opgenomen. Als onmiddellijke profielversheid kritiek is, gebruik een gebeurtenis-gebaseerde of het stromen benadering in plaats van een dagelijkse partijbenadering. Alternatief, neem een wachtend mechanisme op om bijgewerkte gegevens toe te staan om vóór de reisevaluatie te verspreiden.
 
-De begeleiding met betrekking tot **Gelezen de activiteit van het publiek** wordt vermeld in [&#x200B; deze pagina &#x200B;](../start/guardrails.md#read-segment-g).
+De begeleiding met betrekking tot **Gelezen de activiteit van het publiek** wordt vermeld in [ deze pagina ](../start/guardrails.md#read-segment-g).
 
 >[!CAUTION]
 >
->[&#x200B; Guardrails voor gegevens en segmentatie van het Profiel van de Klant in real time &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL){target="_blank"} zijn ook op [!DNL Adobe Journey Optimizer] van toepassing.
+>[ Guardrails voor gegevens en segmentatie van het Profiel van de Klant in real time ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html){target="_blank"} zijn ook op [!DNL Adobe Journey Optimizer] van toepassing.
 
 ### Profielinvoer op reis beheren
 
-Stel de **[!UICONTROL Reading rate]** in. Dit is het maximumaantal profielen dat de reis per seconde kan ingaan. Dit tarief geldt alleen voor deze activiteit en niet voor andere activiteiten op de reis. Als u bijvoorbeeld een vertragingsfactor voor aangepaste handelingen wilt definiëren, moet u de vertragings-API gebruiken. Verwijs naar deze [&#x200B; pagina &#x200B;](../configuration/throttling.md).
+Stel de **[!UICONTROL Reading rate]** in. Dit is het maximumaantal profielen dat de reis per seconde kan ingaan. Dit tarief geldt alleen voor deze activiteit en niet voor andere activiteiten op de reis. Als u bijvoorbeeld een vertragingsfactor voor aangepaste handelingen wilt definiëren, moet u de vertragings-API gebruiken. Verwijs naar deze [ pagina ](../configuration/throttling.md).
 
 Deze waarde wordt opgeslagen in de lading van de reisversie. De standaardwaarde is 5.000 profielen per seconde. U kunt deze waarde wijzigen van 500 tot 20.000 profielen per seconde.
 
 >[!NOTE]
 >
->De algemene leessnelheid per sandbox is ingesteld op 20.000 profielen per seconde. De leessnelheid van alle leessoorten die tegelijkertijd in dezelfde sandbox worden uitgevoerd, kan daarom maximaal 20.000 profielen per seconde bedragen. U kunt dit uiteinde niet wijzigen. Leer meer over de tarieven van de reisverwerking en productie in [&#x200B; deze sectie &#x200B;](entry-management.md#journey-processing-rate).
+>De algemene leessnelheid per sandbox is ingesteld op 20.000 profielen per seconde. De leessnelheid van alle leessoorten die tegelijkertijd in dezelfde sandbox worden uitgevoerd, kan daarom maximaal 20.000 profielen per seconde bedragen. U kunt dit uiteinde niet wijzigen. Leer meer over de tarieven van de reisverwerking en productie in [ deze sectie ](entry-management.md#journey-processing-rate).
 
 ### Reizen plannen {#schedule}
 
@@ -157,19 +161,19 @@ Door gebrek, worden de reizen gevormd om eens te lopen. Om een specifieke datum/
 
 >[!NOTE]
 >
->Één-schot Gelezen publiekstrajecten bewegen zich aan de **Voltooide** status 91 dagen ([&#x200B; reis globale onderbreking &#x200B;](journey-properties.md#global_timeout)) na de reisuitvoering. Voor een gepland publiek van Lees, is het 91 dagen na de uitvoering van het laatste voorkomen.
+>Één-schot Gelezen publiekstrajecten bewegen zich aan de **Voltooide** status 91 dagen ([ reis globale onderbreking ](journey-properties.md#global_timeout)) na de reisuitvoering. Voor een gepland publiek van Lees, is het 91 dagen na de uitvoering van het laatste voorkomen.
 
 1. Selecteer **[!UICONTROL Read audience]** in de eigenschappen van de **[!UICONTROL Edit journey schedule]** -activiteit.
 
-   ![&#x200B; geeft de knoop van het reisschema in Gelezen eigenschappen van de publieksactiviteit uit &#x200B;](assets/read-segment-schedule.png)
+   ![ geeft de knoop van het reisschema in Gelezen eigenschappen van de publieksactiviteit uit ](assets/read-segment-schedule.png)
 
 1. De eigendommen van de reis worden weergegeven. Selecteer in de vervolgkeuzelijst **[!UICONTROL Scheduler type]** de frequentie waarmee u de reis wilt uitvoeren.
 
-   ![&#x200B; het type dropdown van de Planner met frequentieopties: eens, dagelijks, wekelijks, maandelijks &#x200B;](assets/read-segment-schedule-list.png)
+   ![ het type dropdown van de Planner met frequentieopties: eens, dagelijks, wekelijks, maandelijks ](assets/read-segment-schedule-list.png)
 
 Voor terugkerende reizen zijn specifieke opties beschikbaar om u te helpen de toegang van profielen tot de reis beheren. Vouw de onderstaande secties uit voor meer informatie over elke optie.
 
-![&#x200B; leest publiek terugkomende opties: Incrementele gelezen, Ingang van de Kracht, Trekker na partij &#x200B;](assets/read-audience-options.png)
+![ leest publiek terugkomende opties: Incrementele gelezen, Ingang van de Kracht, Trekker na partij ](assets/read-audience-options.png)
 
 +++**[!UICONTROL Incremental read]**
 
@@ -182,11 +186,11 @@ Nadat de segmentatie is voltooid, wordt een uitvoertaak voor een profielmomentop
 U minimaliseert het risico van ontbrekende profielen door:
 * Schakel de optie **[!UICONTROL Trigger after batch audience evaluation]** in om de terugkijkperiode uit te breiden naar het tijdstip van de laatste geslaagde uitvoering van de reis, ongeacht hoelang deze zich heeft voorgedaan
 * Reizen plannen die lang moeten duren nadat de dagelijkse batchsegmentatietaken zijn voltooid (doorgaans 2-3 uur buffer)
-* Voor tijd-kritieke gebruiksgevallen die directe profielopname vereisen, denk na gebruikend [&#x200B; activiteiten van de Kwalificatie van het publiek 0&rbrace; &lbrace;met het stromen publiek in plaats daarvan](audience-qualification-events.md)
+* Voor tijd-kritieke gebruiksgevallen die directe profielopname vereisen, denk na gebruikend [ activiteiten van de Kwalificatie van het publiek 0} {met het stromen publiek in plaats daarvan](audience-qualification-events.md)
 
 >[!CAUTION]
 >
->Als u a [&#x200B; douane richt uploadt publiek &#x200B;](../audience/about-audiences.md#about-segments) in uw reis, worden de profielen slechts teruggewonnen op de eerste herhaling als deze optie in een terugkomende reis wordt toegelaten, aangezien deze doelgroepen vast zijn.
+>Als u a [ douane richt uploadt publiek ](../audience/about-audiences.md#about-segments) in uw reis, worden de profielen slechts teruggewonnen op de eerste herhaling wanneer deze optie in een terugkomende reis wordt toegelaten. Deze doelgroepen zijn vast.
 
 +++
 
@@ -194,7 +198,7 @@ U minimaliseert het risico van ontbrekende profielen door:
 
 Met deze optie kunt u alle profielen die nog aanwezig zijn op de reis automatisch laten afsluiten bij de volgende uitvoering.
 
-Als u bijvoorbeeld een wachttijd van twee dagen hebt op een dagelijkse terugkerende reis door deze optie in te schakelen, worden profielen altijd verplaatst bij de volgende uitvoering van de reis (dus de dag erna), ongeacht of ze zich in het volgende publiek bevinden of niet.
+Als u bijvoorbeeld een wachttijd van twee dagen hebt tijdens een dagelijkse terugkerende reis, worden bij het activeren van deze optie de profielen verplaatst naar de volgende uitvoering van de reis. Dit gebeurt de dag erna, of ze al dan niet in het volgende publiek zitten.
 
 Als de levensduur van uw profielen tijdens deze reis langer kan zijn dan de herhalingsfrequentie, activeer deze optie niet om ervoor te zorgen dat profielen hun reis kunnen voltooien.
 
@@ -233,15 +237,15 @@ Met de **[!UICONTROL Read Audience]** -activiteit kunt u de rit testen op een un
 
 Activeer de testmodus om dit te doen.
 
-![&#x200B; de modusinterface van de Test voor Gelezen activiteit van het Publiek met de selectie van het testprofiel &#x200B;](assets/read-segment-test-mode.png)
+![ de modusinterface van de Test voor Gelezen activiteit van het Publiek met de selectie van het testprofiel ](assets/read-segment-test-mode.png)
 
-Vorm en stel de testwijze in werking zoals gebruikelijk. [&#x200B; leer hoe te om een reis &#x200B;](testing-the-journey.md) te testen.
+Vorm en stel de testwijze in werking zoals gebruikelijk. [ leer hoe te om een reis ](testing-the-journey.md) te testen.
 
-Wanneer de test is uitgevoerd, kunt u de testresultaten zien met de knop **[!UICONTROL Show logs]** . Voor meer op dit, verwijs naar [&#x200B; deze sectie &#x200B;](testing-the-journey.md#viewing_logs)
+Wanneer de test is uitgevoerd, kunt u de testresultaten zien met de knop **[!UICONTROL Show logs]** . Voor meer op dit, verwijs naar [ deze sectie ](testing-the-journey.md#viewing_logs)
 
-![&#x200B; Logboeken van de Test die de resultaten van de publieksuitvoering en profielstroom tonen &#x200B;](assets/read-segment-log.png)
+![ Logboeken van de Test die de resultaten van de publieksuitvoering en profielstroom tonen ](assets/read-segment-log.png)
 
-Zodra de tests succesvol zijn, kunt u uw reis publiceren (zie [&#x200B; het Publiceren van de reis &#x200B;](../building-journeys/publish-journey.md)). Personen die tot het publiek behoren, nemen de reis op de datum/tijd in die is opgegeven in de sectie Eigenschappen van de reis **[!UICONTROL Scheduler]** .
+Zodra de tests succesvol zijn, kunt u uw reis publiceren (zie [ het Publiceren van de reis ](../building-journeys/publish-journey.md)). Personen die tot het publiek behoren, nemen de reis op de datum/tijd in die is opgegeven in de sectie Eigenschappen van de reis **[!UICONTROL Scheduler]** .
 
 >[!NOTE]
 >
@@ -267,19 +271,19 @@ De segmentatie kan worden gebaseerd op:
 * een tijd , bijvoorbeeld : is het &#39; s morgens in de tijdzone van de betrokkene ?
 * een algoritme waarin het publiek dat de reis volgt wordt gesplitst op basis van een percentage , bijvoorbeeld : 90 % - 10 % om een controlegroep uit te sluiten
 
-![&#x200B; de activiteit van de Voorwaarde voor publiekssegmentatie in de wegen van VIP en niet-VIP &#x200B;](assets/read-segment-audience1.png)
+![ de activiteit van de Voorwaarde voor publiekssegmentatie in de wegen van VIP en niet-VIP ](assets/read-segment-audience1.png)
 
 >[!NOTE]
 >
->Wanneer u het plannertype ‘Dagelijks’ gebruikt met een **[!UICONTROL Read Audience]** -activiteit, kunt u een tijdvenster voor de reis definiëren om te wachten op nieuwe publieksgegevens. Dit zorgt ervoor dat u zich nauwkeurig kunt richten en voorkomt problemen die worden veroorzaakt door vertragingen in batchsegmentatietaken. [&#x200B; leer hoe te om een reis &#x200B;](#schedule) te plannen
+>Wanneer u het plannertype ‘Dagelijks’ gebruikt met een **[!UICONTROL Read Audience]** -activiteit, kunt u een tijdvenster voor de reis definiëren om te wachten op nieuwe publieksgegevens. Dit zorgt ervoor dat u zich nauwkeurig kunt richten en voorkomt problemen die worden veroorzaakt door vertragingen in batchsegmentatietaken. [ leer hoe te om een reis ](#schedule) te plannen
 
 **Uitsluiting**
 
-De zelfde **activiteit van de Voorwaarde 0&rbrace; &lbrace;die voor segmentatie (zie hierboven) wordt gebruikt staat u ook toe om een deel van de bevolking uit te sluiten.** U kunt bijvoorbeeld VIP-personen uitsluiten door deze naar een vertakking te laten gaan met een eindstap direct erna.
+De zelfde **activiteit van de Voorwaarde 0} {die voor segmentatie (zie hierboven) wordt gebruikt staat u ook toe om een deel van de bevolking uit te sluiten.** U kunt bijvoorbeeld VIP-personen uitsluiten door deze naar een vertakking te laten gaan met een eindstap direct erna.
 
 Deze uitsluiting kan direct na het opvragen van het publiek gebeuren, voor het tellen van de bevolking of langs een reis in meerdere stappen.
 
-![&#x200B; weg van de Reis met uitsluitingstak gebruikend de activiteit van het Eind &#x200B;](assets/read-segment-audience2.png)
+![ weg van de Reis met uitsluitingstak gebruikend de activiteit van het Eind ](assets/read-segment-audience2.png)
 
 **Samenvoeging**
 
@@ -287,7 +291,7 @@ Met ritten kunt u N-vertakkingen maken en deze na een segmentatie samenvoegen. H
 
 Zo kunnen VIP- en niet-VIP-klanten na een andere ervaring gedurende tien dagen op reis terugkeren naar hetzelfde pad. Na een vereniging, kunt u het publiek opnieuw verdelen door een segmentatie of een uitsluiting uit te voeren.
 
-![&#x200B; wegen van de Reis die samen achter na segmentatie samenvoegen gebruikend unie &#x200B;](assets/read-segment-audience3.png)
+![ wegen van de Reis die samen achter na segmentatie samenvoegen gebruikend unie ](assets/read-segment-audience3.png)
 
 ## Problemen met het aantal deelnemers oplossen {#audience-count-mismatch}
 
@@ -295,36 +299,36 @@ Houd rekening met het volgende als u discrepanties opmerkt tussen het geschatte 
 
 ### Tijdstip en gegevensdoorgave
 
-* **de baanvoltooiing van de segmentatie van de partij**: Voor partijpubliek, zorg ervoor dat de dagelijkse baan van de partijsegmentatie heeft voltooid en de momentopnamen worden bijgewerkt alvorens de reis loopt. Het publiek van de partij wordt klaar voor gebruik ongeveer **2 uren** na de voltooiing van de segmentatietaak. Leer meer over [&#x200B; methodes van de publieksevaluatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL#evaluate-segments){target="_blank"}.
+* **de baanvoltooiing van de segmentatie van de partij**: Voor partijpubliek, zorg ervoor dat de dagelijkse baan van de partijsegmentatie heeft voltooid en de momentopnamen worden bijgewerkt alvorens de reis loopt. Het publiek van de partij wordt klaar voor gebruik ongeveer **2 uren** na de voltooiing van de segmentatietaak. Leer meer over [ methodes van de publieksevaluatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}.
 
-* **de ingangstijdstip van Gegevens**: Verifieer dat de opname van profielgegevens volledig vóór de reisuitvoering heeft voltooid. Als profielen kort voor het begin van de rit werden opgenomen, worden ze mogelijk nog niet in het publiek weergegeven. Leer meer over [&#x200B; gegevensopname in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=nl-NL){target="_blank"}.
+* **de ingangstijdstip van Gegevens**: Verifieer dat de opname van profielgegevens volledig vóór de reisuitvoering heeft voltooid. Als profielen kort voor het begin van de rit werden opgenomen, worden ze mogelijk nog niet in het publiek weergegeven. Leer meer over [ gegevensopname in  [!DNL Adobe Experience Platform] ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target="_blank"}.
 
-* **Gebruik &quot;Trekker na de optie van de partijpublieksevaluatie&quot;**: Voor dagelijkse geplande reizen die partijpubliek gebruiken, denk na toelatend de **[!UICONTROL Trigger after batch audience evaluation]** optie. Dit zorgt ervoor dat de reis op nieuwe publieksgegevens (tot 6 uur) alvorens uit te voeren wacht. [&#x200B; Leer meer over het plannen &#x200B;](#schedule)
+* **Gebruik &quot;Trekker na de optie van de partijpublieksevaluatie&quot;**: Voor dagelijkse geplande reizen die partijpubliek gebruiken, denk na toelatend de **[!UICONTROL Trigger after batch audience evaluation]** optie. Dit zorgt ervoor dat de reis op nieuwe publieksgegevens (tot 6 uur) alvorens uit te voeren wacht. [ Leer meer over het plannen ](#schedule)
 
-* **voeg een Wacht activiteit** toe: Voor het stromen publiek met onlangs opgenomen gegevens, denk na toevoegend a **wacht** activiteit aan het begin van de reis om tijd voor gegevenspropagatie en profielkwalificatie toe te staan. [&#x200B; Leer meer over de Wacht activiteit &#x200B;](wait-activity.md)
+* **voeg een Wacht activiteit** toe: Voor het stromen publiek met onlangs opgenomen gegevens, denk na toevoegend a **wacht** activiteit aan het begin van de reis om tijd voor gegevenspropagatie en profielkwalificatie toe te staan. [ Leer meer over de Wacht activiteit ](wait-activity.md)
 
 ### Validatie en bewaking van gegevens
 
-* **de status van de segmentatietaak van de Controle**: De tijden van de taakvoltooiing van de batch van de batch in Adobe Experience Platform [&#x200B; controledashboard &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=nl-NL){target="_blank"} om te verifiëren wanneer de publieksgegevens klaar zijn.
+* **de status van de segmentatietaak van de Controle**: De tijden van de taakvoltooiing van de partijsegmentatie in [!DNL Adobe Experience Platform] [ controledashboard ](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"}. Gebruik het om te verifiëren wanneer de publieksgegevens klaar zijn.
 
-* **verifieer samenvoegbeleid**: Zorg ervoor dat het fusiebeleid voor uw publiek wordt gevormd het verwachte gedrag aanpast om profielgegevens van verschillende bronnen te combineren. Leer meer over [&#x200B; samenvoegbeleid in Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=nl-NL){target="_blank"}.
+* **verifieer samenvoegbeleid**: Zorg ervoor dat het fusiebeleid voor uw publiek wordt gevormd het verwachte gedrag aanpast om profielgegevens van verschillende bronnen te combineren. Leer meer over [ samenvoegbeleid in  [!DNL Adobe Experience Platform] ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}.
 
-* **de segmentdefinities van het Overzicht**: Bevestig dat de segmentdefinities correct worden gevormd en alle verwachte kwalificatiecriteria omvatten. Leer meer over [&#x200B; bouwend publiek &#x200B;](../audience/creating-a-segment-definition.md). Let vooral op:
+* **de segmentdefinities van het Overzicht**: Bevestig dat de segmentdefinities correct worden gevormd en alle verwachte kwalificatiecriteria omvatten. Leer meer over [ bouwend publiek ](../audience/creating-a-segment-definition.md). Let vooral op:
    * Op tijd gebaseerde voorwaarden die profielen op tijdstempels van gebeurtenissen kunnen uitsluiten
    * Kenmerkkwalificaties die afhankelijk zijn van recent bijgewerkte gegevens
    * Streaming versus batchevaluatiemethoden
 
-* **bevestigt namespace configuratie**: Verzeker namespace die in **wordt geselecteerd gelezen de activiteit van het publiek** past de primaire identiteit aan die door profielen in uw publiek wordt gebruikt. Profielen zonder de geselecteerde naamruimte worden niet meegenomen. Leer meer over [&#x200B; identiteitsnaamruimten &#x200B;](../event/about-creating.md#select-the-namespace).
+* **bevestigt namespace configuratie**: Verzeker namespace die in **wordt geselecteerd gelezen de activiteit van het publiek** past de primaire identiteit aan die door profielen in uw publiek wordt gebruikt. Profielen zonder de geselecteerde naamruimte worden niet meegenomen. Leer meer over [ identiteitsnaamruimten ](../event/about-creating.md#select-the-namespace).
 
 ### Aanbevolen procedures om problemen te voorkomen
 
-* **ritten van het Programma na segmentatie**: Voor partijpubliek, de uitvoering van de planningsreis minstens 2-3 uur na de typische tijd van de baanvoltooiing van de partijsegmentatie. [&#x200B; leer meer over reis het plannen &#x200B;](#schedule)
+* **ritten van het Programma na segmentatie**: Voor partijpubliek, de uitvoering van de planningsreis minstens 2-3 uur na de typische tijd van de baanvoltooiing van de partijsegmentatie. [ leer meer over reis het plannen ](#schedule)
 
-* **het stromen publiek van het Gebruik voor gebruiksgevallen in real time**: Als u directe profielkwalificatie en reisingang nodig hebt, gebruik [&#x200B; de activiteiten van de Kwalificatie van het Publiek &#x200B;](audience-qualification-events.md) met het stromen publiek in plaats van **Gelezen Publiek** met partijpubliek.
+* **het stromen publiek van het Gebruik voor gebruiksgevallen in real time**: Als u directe profielkwalificatie en reisingang nodig hebt, gebruik [ de activiteiten van de Kwalificatie van het Publiek ](audience-qualification-events.md) met het stromen publiek in plaats van **Gelezen Publiek** met partijpubliek.
 
-* **Test met kleiner publiek eerst**: Alvorens grote reizen te lanceren, test met een kleinere ondergroep om te bevestigen dat de tellingen gelijke verwachtingen aanpassen. [&#x200B; leer hoe te om een reis &#x200B;](testing-the-journey.md) te testen
+* **Test met kleiner publiek eerst**: Alvorens grote reizen te lanceren, test met een kleinere ondergroep om te bevestigen dat de tellingen gelijke verwachtingen aanpassen. [ leer hoe te om een reis ](testing-the-journey.md) te testen
 
-* **Monitor regelmatig**: Opstelling regelmatig toezicht op publieksgrootte en de metriek van de reisingang om discrepanties vroeg te ontdekken. Leer meer over [&#x200B; tarieven van de reisverwerking en ingangsbeheer &#x200B;](entry-management.md).
+* **Monitor regelmatig**: Opstelling regelmatig toezicht op publieksgrootte en de metriek van de reisingang om discrepanties vroeg te ontdekken. Leer meer over [ tarieven van de reisverwerking en ingangsbeheer ](entry-management.md).
 
 Als het aantal wanverhoudingen na het volgen van deze stappen aanhoudt, contacteer de steun van Adobe met details over uw publiek, reisconfiguratie, en waargenomen discrepanties.
 
@@ -332,7 +336,7 @@ Als het aantal wanverhoudingen na het volgen van deze stappen aanhoudt, contacte
 
 De pogingen worden toegepast door gebrek op publiek-getriggerde reizen (die met a **Gelezen Publiek** of a **BedrijfsGebeurtenis** beginnen) terwijl het terugwinnen van de uitvoerbaan. Als er een fout optreedt tijdens het maken van de exporttaak, worden de pogingen om de 10mn opnieuw uitgevoerd, tot maximaal 1 uur. Daarna zullen we het als een mislukking beschouwen. Deze soorten reizen kunnen daarom tot 1 uur na de geplande tijd worden uitgevoerd.
 
-De onsuccesvolle **Gelezen trekkers van het publiek** worden gevangen en getoond in **Alarm**. Het **Gelezen alarm van het Publiek** waarschuwt u als de a **gelezen activiteit van het Publiek** geen profiel 10 min na geplande tijd van uitvoering heeft verwerkt. Deze fout kan worden veroorzaakt door technische problemen, of omdat het publiek leeg is. Als deze fout door technische problemen wordt veroorzaakt, moet u er rekening mee houden dat er nog steeds pogingen kunnen worden gedaan, afhankelijk van het type probleem (bijvoorbeeld: als het aanmaken van exportarbeidsplaatsen is mislukt, proberen we elke 10 miljoen opnieuw gedurende maximaal 1 uur). [Meer informatie](../reports/alerts.md#alert-read-audiences)
+De onsuccesvolle **Gelezen trekkers van het publiek** worden gevangen en getoond in **Alarm**. Het **Gelezen alarm van het Publiek** waarschuwt u als de a **gelezen activiteit van het Publiek** geen profiel 10 minuten na de geplande uitvoeringstijd heeft verwerkt. Deze fout kan worden veroorzaakt door technische problemen of een leeg publiek. Als de fout te wijten is aan technische problemen, kunnen er nog steeds nieuwe pogingen worden uitgevoerd, afhankelijk van het type uitgave. Als het maken van een exporttaak mislukt, proberen we elke 10 minuten opnieuw gedurende maximaal 1 uur. [Meer informatie](../reports/alerts.md#alert-read-audiences)
 
 ## Verwante onderwerpen
 
@@ -346,4 +350,4 @@ De onsuccesvolle **Gelezen trekkers van het publiek** worden gevangen en getoond
 
 Begrijp de toepasselijke gebruiksgevallen voor een reis die door de gelezen publieksactiviteit wordt teweeggebracht. Leer hoe u op batches gebaseerde journeys kunt bouwen en welke aanbevolen procedures u kunt toepassen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430368?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

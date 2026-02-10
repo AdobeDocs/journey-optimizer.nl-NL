@@ -10,9 +10,9 @@ level: Intermediate
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '529'
 ht-degree: 1%
 
 ---
@@ -23,17 +23,17 @@ Verbeter duidelijk zicht in de doeltreffendheid van uw klantenreizen met reismet
 
 ## Vereisten {#prerequisites}
 
-Alvorens uw reismetriek te gebruiken, moet u een dataset toevoegen die `Commerce Details`, `Web`, en `Mobile` [&#x200B; gebiedsgroepen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL#field-group){target="_blank"} onder Configuratie > het Melden in Adobe Experience Platform omvat.
+Alvorens uw reismetriek te gebruiken, moet u een dataset toevoegen die `Commerce Details`, `Web`, en `Mobile` [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"} onder Configuratie > het Melden in [!DNL Adobe Experience Platform] omvat.
 
-Deze veldgroepen moeten uit de ingebouwde opties worden geselecteerd, niet uit aangepaste groepen. Verwijs naar [&#x200B; datasets &#x200B;](../reports/reporting-configuration.md#add-datasets) sectie toevoegen.
+Deze veldgroepen moeten uit de ingebouwde opties worden geselecteerd, niet uit aangepaste groepen. Verwijs naar [ datasets ](../reports/reporting-configuration.md#add-datasets) sectie toevoegen.
 
 ## Beschikbare cijfers {#metrics}
 
-De lijst van metriek varieert afhankelijk van de [&#x200B; gebiedsgroepen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=nl-NL#field-group){target="_blank"} inbegrepen aan uw dataset.
+De lijst van metriek varieert afhankelijk van de [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"} inbegrepen aan uw dataset.
 
 Als uw dataset niet wordt gevormd, slechts zullen de volgende metriek beschikbaar zijn: **[!UICONTROL Click]**, **[!UICONTROL Unique Click]**, **[!UICONTROL Clickthrough Rate]** en **[!UICONTROL Open Rate]**.
 
-Met een Customer Journey Analytics-licentie kunt u aangepaste succeswaarden maken. [Meer informatie](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+Met een Customer Journey Analytics-licentie kunt u aangepaste succeswaarden maken. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | Metrics | Verwante veldgroep |
@@ -70,7 +70,7 @@ Elke metrisch komt met een vastgestelde attributie die bepaalt welke aanraakpunt
 
   Met Journey Optimizer- en Customer Journey Analytics-licenties kunt u aangepaste metriek maken met specifieke attributie-instellingen of de kenmerken van de ingebouwde metriek wijzigen.
 
-  Leer meer over [&#x200B; modellen van de Attributie &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
+  Leer meer over [ modellen van de Attributie ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## Uw reismetriek toewijzen {#assign}
 
@@ -82,13 +82,13 @@ Volg de onderstaande stappen om de gegevens van uw reis te volgen:
 
 1. Klik in het menu **[!UICONTROL Journeys]** op **[!UICONTROL Create Journey]** .
 
-1. Bewerk het configuratievenster van de rit om de naam van de rit te definiëren en de eigenschappen ervan in te stellen. Leer hoe te om de eigenschappen van uw reis op [&#x200B; te plaatsen deze pagina &#x200B;](../building-journeys/journey-properties.md).
+1. Bewerk het configuratievenster van de rit om de naam van de rit te definiëren en de eigenschappen ervan in te stellen. Leer hoe te om de eigenschappen van uw reis op [ te plaatsen deze pagina ](../building-journeys/journey-properties.md).
 
 1. Kies de **[!UICONTROL Journey metrics]** die wordt gebruikt om de effectiviteit van uw reis te meten.
 
    Merk op dat de meetgegevens van toepassing zijn op de reis zelf en van toepassing zijn op alle onderdelen van de reis.
 
-   ![&#x200B; de configuratievenster van de Metriek van het Succes in reiseigenschappen &#x200B;](assets/success_metric.png)
+   ![ de configuratievenster van de Metriek van het Succes in reiseigenschappen ](assets/success_metric.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -100,5 +100,5 @@ Volg de onderstaande stappen om de gegevens van uw reis te volgen:
 
    Uw gekozen metriek worden getoond in de lijst van KPIs en van de Stats van de Reis van het rapport.
 
-   ![&#x200B; de metriek van het Succes dropdown die beschikbare gebeurtenissen voor doel het volgen tonen &#x200B;](assets/success_metric_2.png)
+   ![ de metriek van het Succes dropdown die beschikbare gebeurtenissen voor doel het volgen tonen ](assets/success_metric_2.png)
 

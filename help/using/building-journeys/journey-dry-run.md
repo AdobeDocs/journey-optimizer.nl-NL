@@ -9,9 +9,9 @@ level: Intermediate
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -21,17 +21,17 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
 >title="Droge uitvoermodus"
->abstract="Deze reis is in Dry run. Reis Dry run is een speciale publicatiemodus in Adobe Journey Optimizer die reisartsen in staat stelt een reis te testen met behulp van echte productiegegevens zonder contact op te nemen met echte klanten of profielinformatie bij te werken.  Deze functie helpt reisartsen vertrouwen te winnen in hun reisontwerp en doelgroep voordat ze het live publiceren."
+>abstract="Deze reis is in Dry run. Reis Dry run is een speciale publicatiemodus in [!DNL Adobe Journey Optimizer] waarmee reisartsen een reis kunnen testen met behulp van echte productiegegevens zonder contact op te nemen met echte klanten of profielinformatie bij te werken.  Deze functie helpt reisartsen vertrouwen te winnen in hun reisontwerp en doelgroep voordat ze het live publiceren."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="Een rit publiceren in de modus Droog"
->abstract="De Reizen van de Reizen is een speciale wijze van de reispublicatie in Adobe Journey Optimizer die reisartsen toestaat om een reis te testen gebruikend echte productiegegevens. Nadat u de reis hebt ontworpen, voert u een droge run uit om te bevestigen dat deze functioneel is en dat de stappen correct zijn. Met deze publicatiemodus kunt u een reis roken zonder dat u de communicatie naar een profiel hoeft te sturen."
+>abstract="Journey Dry run is een speciale publicatiemodus in [!DNL Adobe Journey Optimizer] waarmee reisartsen een reis kunnen testen met behulp van echte productiegegevens. Nadat u de reis hebt ontworpen, voert u een droge run uit om te bevestigen dat deze functioneel is en dat de stappen correct zijn. Met deze publicatiemodus kunt u een reis roken zonder dat u de communicatie naar een profiel hoeft te sturen."
 
-Reis Dry run is een speciale publicatiemodus in Adobe Journey Optimizer die reisartsen in staat stelt een reis te testen met behulp van echte productiegegevens zonder contact op te nemen met echte klanten of profielinformatie bij te werken.  Deze functie helpt reisartsen vertrouwen te winnen in hun reisontwerp en doelgroep voordat ze het live publiceren.
+Reis Dry run is een speciale publicatiemodus in [!DNL Adobe Journey Optimizer] waarmee reisartsen een reis kunnen testen met behulp van echte productiegegevens zonder contact op te nemen met echte klanten of profielinformatie bij te werken.  Deze functie helpt reisartsen vertrouwen te winnen in hun reisontwerp en doelgroep voordat ze het live publiceren.
 
-➡️ [&#x200B; Leer meer over reis droog looppas in deze video &#x200B;](#dry-run-video)
+➡️ [ Leer meer over reis droog looppas in deze video ](#dry-run-video)
 
 ## Belangrijkste voordelen {#journey-dry-run-benefits}
 
@@ -56,19 +56,19 @@ Tijdens de Droge Looppas, loopt de reis op simulatiemodus, die het volgende spec
 
   Om de leesbaarheid te verbeteren, worden aangepaste handelingen en kanaalactiviteiten tijdens de uitvoering van een droog programma grijs weergegeven.
 
-  ![&#x200B; Grijze uit actieactiviteiten in een Droge looppas reis &#x200B;](assets/dry-run-greyed-activities.png){width="80%" align="left"}
+  ![ Grijze uit actieactiviteiten in een Droge looppas reis ](assets/dry-run-greyed-activities.png){width="80%" align="left"}
 
-* **Gegevensbronnen**, met inbegrip van externe gegevensbronnen, en **wacht** activiteiten worden onbruikbaar gemaakt door gebrek tijdens de Droog looppas. Nochtans kunt u dit gedrag [&#x200B; veranderen wanneer het activeren van de Dry looppaswijze &#x200B;](#journey-dry-run-start).
+* **Gegevensbronnen**, met inbegrip van externe gegevensbronnen, en **wacht** activiteiten worden onbruikbaar gemaakt door gebrek tijdens de Droog looppas. Nochtans kunt u dit gedrag [ veranderen wanneer het activeren van de Dry looppaswijze ](#journey-dry-run-start).
 
 * **de knopen van de Reactie** worden niet uitgevoerd: alle profielen die het ingaan zullen met succes weggaan. De volgende prioriteitsregels zijn echter van toepassing:
-   * Als de knoop van de Reactie van de a **&#x200B;**&#x200B;met één of veelvoudige **unitaire gebeurtenisknopen** parallel wordt gebruikt, zullen de profielen altijd door de reactiegebeurtenis gaan.
-   * Als de knoop van de Reactie van de a **&#x200B;**&#x200B;met één of veelvoudige **3&rbrace; knopen van de reactiegebeurtenis &lbrace;parallel wordt gebruikt, zullen de profielen altijd door eerste op het canvas (bij de bovenkant) gaan.**
+   * Als de knoop van de Reactie van de a **** met één of veelvoudige **unitaire gebeurtenisknopen** parallel wordt gebruikt, zullen de profielen altijd door de reactiegebeurtenis gaan.
+   * Als de knoop van de Reactie van de a **** met één of veelvoudige **3} knopen van de reactiegebeurtenis {parallel wordt gebruikt, zullen de profielen altijd door eerste op het canvas (bij de bovenkant) gaan.**
 
 >[!CAUTION]
 >
->* Machtigingen voor het starten van een droge runtime zijn beperkt tot gebruikers met de machtiging op hoog niveau van **[!DNL Publish journeys]** . Machtigingen om een droog programma te stoppen zijn beperkt tot gebruikers met de machtiging op hoog niveau van **[!DNL Manage journeys]** . Leer meer over het beheren van [!DNL Journey Optimizer] de toegangsrechten van gebruikers in [&#x200B; deze sectie &#x200B;](../administration/permissions-overview.md).
+>* Machtigingen voor het starten van een droge runtime zijn beperkt tot gebruikers met de machtiging op hoog niveau van **[!DNL Publish journeys]** . Machtigingen om een droog programma te stoppen zijn beperkt tot gebruikers met de machtiging op hoog niveau van **[!DNL Manage journeys]** . Leer meer over het beheren van [!DNL Journey Optimizer] de toegangsrechten van gebruikers in [ deze sectie ](../administration/permissions-overview.md).
 >
->* Alvorens het beginnen gebruiken van het Droge looppas vermogen, [&#x200B; lees uit de Grafieken en Beperkingen &#x200B;](#journey-dry-run-limitations).
+>* Alvorens het beginnen gebruiken van het Droge looppas vermogen, [ lees uit de Grafieken en Beperkingen ](#journey-dry-run-limitations).
 
 ## Een droge run starten {#journey-dry-run-start}
 
@@ -79,11 +79,11 @@ Voer de volgende stappen uit om de droog-uitvoering te activeren:
 1. Open de reis die u wilt testen.
 1. Selecteer de knop **[!UICONTROL Dry run]**.
 
-   ![&#x200B; Begin de reis droge looppas &#x200B;](assets/dry-run-button.png)
+   ![ Begin de reis droge looppas ](assets/dry-run-button.png)
 
 1. Selecteer als u **wilt toelaten of onbruikbaar maken** activiteiten en **Externe gegevensbronnen** vraag, wachten en de Dry looppas publicatie bevestigen.
 
-   ![&#x200B; bevestigt de reis droge looppaspublicatie &#x200B;](assets/dry-run-publish.png){width="50%" align="left"}
+   ![ bevestigt de reis droge looppaspublicatie ](assets/dry-run-publish.png){width="50%" align="left"}
 
    Er wordt een statusbericht **[!UICONTROL Activating Dry run]** weergegeven terwijl de overgang plaatsvindt.
 
@@ -94,13 +94,13 @@ Voer de volgende stappen uit om de droog-uitvoering te activeren:
 
 Zodra de publicatie van de modus Dry is gestart, kunt u de uitvoering van de reis visualiseren en bepalen hoe profielen door de vertakkingen en knooppunten van de rit worden doorlopen.
 
-Metrische gegevens worden direct op het canvas van de reis weergegeven. Leer meer over reis levende rapportering en metriek, in [&#x200B; Levend rapport in het wegcanvas &#x200B;](report-journey.md).
+Metrische gegevens worden direct op het canvas van de reis weergegeven. Leer meer over reis levende rapportering en metriek, in [ Levend rapport in het wegcanvas ](report-journey.md).
 
-![&#x200B; Monitor de runtime van de reisdroge uitvoering &#x200B;](assets/dry-run-metrics.png)
+![ Monitor de runtime van de reisdroge uitvoering ](assets/dry-run-metrics.png)
 
 U kunt tot de **Laatste rapporten van 24 uren** en **Al-tijdrapporten** voor de Dry looppas ook toegang hebben. Om tot deze rapporten toegang te hebben, klik het **rapport van de Mening** knoop op de hoger-juiste hoek van het wegcanvas.
 
-![&#x200B; heb toegang tot de rapporten voor de runtime van de reisdroge uitvoering &#x200B;](assets/dry-run-report.png)
+![ heb toegang tot de rapporten voor de runtime van de reisdroge uitvoering ](assets/dry-run-report.png)
 
 >[!CAUTION]
 >
@@ -117,14 +117,14 @@ Droge ritten kunnen ook handmatig worden gestopt. Voer de volgende stappen uit o
 1. Selecteer de knop **[!UICONTROL Close]** om de test te beëindigen.
 Koppelingen naar laatste 24 uur en alle tijdrapporten zijn beschikbaar in het bevestigingsscherm.
 
-   ![&#x200B; Einde de de runtime van de reisdroge uitvoering &#x200B;](assets/dry-run-stop.png){width="50%" align="left"}
+   ![ Einde de de runtime van de reisdroge uitvoering ](assets/dry-run-stop.png){width="50%" align="left"}
 
 1. Klik op **[!UICONTROL Back to Draft]** om te bevestigen.
 
 
 ## Afvoerkanalen en beperkingen {#journey-dry-run-limitations}
 
-* De profielen op Dry lopen wijze worden geteld naar [&#x200B; toe te laten Profielen &#x200B;](../audience/license-usage.md)
+* De profielen op Dry lopen wijze worden geteld naar [ toe te laten Profielen ](../audience/license-usage.md)
 * Reizen in de droge-uitvoeringsmodus worden meegeteld voor de live-reisquota
 * Droge ritten hebben geen invloed op de bedrijfsregels
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
@@ -135,7 +135,7 @@ Wanneer een bronreis a **Jump** gebeurtenis aan een bestemming teweegbrengt, zou
 
 De looppas van de Droog van de reis produceert **stepEvents**. Deze stepEvents hebben een specifieke markering en een droog uitvoerings-id: `inDryRun` en `dryRunID` .
 
-![&#x200B; de droge looppasschemakenattributen van de Reis &#x200B;](assets/dry-run-attributes.png)
+![ de droge looppasschemakenattributen van de Reis ](assets/dry-run-attributes.png)
 
 * `_experience.journeyOrchestration.stepEvents.inDryRun` retourneert `true` als de droog-uitvoering is geactiveerd, anders `false`
 * `_experience.journeyOrchestration.stepEvents.dryRunID` retourneert de id van een droge runtime-instantie
@@ -143,10 +143,10 @@ De looppas van de Droog van de reis produceert **stepEvents**. Deze stepEvents h
 
 Als u stepEvent gegevens naar **externe systemen** uitvoert, kunt u de looppas Dry uitvoeren uitvoeren gebruikend de `inDryRun` vlag.
 
-Wanneer het analyseren van **reis meldend metriek** gebruikend de dienst van de Vraag van Adobe Experience Platform, moeten de Dry looppas-geproduceerde step gebeurtenissen worden uitgesloten. Stel hiervoor de markering `inDryRun` in op `false` .
+Wanneer het analyseren van **reis meldend metriek** gebruikend [!DNL Adobe Experience Platform] de dienst van de Vraag, moeten de droge looppas-geproduceerde stapgebeurtenissen worden uitgesloten. Stel hiervoor de markering `inDryRun` in op `false` .
 
 ## Hoe kan ik-video {#dry-run-video}
 
 In deze video ziet u hoe u uw reizen droog kunt uitvoeren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464688/?captions=dut&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
