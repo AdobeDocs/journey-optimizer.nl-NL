@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '668'
 ht-degree: 4%
 
 ---
@@ -25,15 +25,15 @@ ht-degree: 4%
 
 Beslissing vereenvoudigt personalisering met een gecentraliseerde catalogus van marketingaanbiedingen die gelden als &#39;beslissingspunten&#39; en een geavanceerde besluitvormingsengine. Deze motor hanteert regels en rangschikkingscriteria om de meest relevante beslissingsitems te selecteren en aan elk individu voor te leggen.
 
-Deze besluitpunten zijn naadloos geïntegreerd in een brede waaier van binnenkomende oppervlakten door het [&#x200B; op code-gebaseerde ervaringskanaal &#x200B;](../code-based/get-started-code-based.md), toegankelijk binnen [!DNL Adobe Journey Optimizer] campagnes.
+Deze besluitpunten zijn naadloos geïntegreerd in berichten en ervaringen over [!DNL Adobe Journey Optimizer] kanalen: [ code-gebaseerde ervaring ](../code-based/get-started-code-based.md), e-mail, SMS, en dupberichten.
 
 >[!IMPORTANT]
 >
->Beslissingsbeleid is alleen beschikbaar voor gebruik in code-gebaseerde ervaring- en e-mailcampagnes.
+>Het beleid van het besluit is beschikbaar aan alle klanten voor de **op code-gebaseerde Ervaring**, **Push bericht**, en **SMS** kanalen. Het besluit voor het **E-mail** kanaal is beschikbaar in Beperkte Beschikbaarheid slechts. Neem contact op met uw Adobe-vertegenwoordiger als u toegang wilt aanvragen. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
 
 ➡️ [Ontdek deze functie in video](#video)
 
-➡️ Een gebruiksgeval dat van begin tot eind toont hoe te om besluiten tot stand te brengen en hen te gebruiken in inhoudsexperimenten met het op code-gebaseerde ervaringskanaal wordt voorgesteld in [&#x200B; deze sectie &#x200B;](experience-decisioning-uc.md).
+➡️ Een gebruiksgeval dat van begin tot eind toont hoe te om besluiten tot stand te brengen en hen te gebruiken in inhoudsexperimenten met het op code-gebaseerde ervaringskanaal wordt voorgesteld in [ deze sectie ](experience-decisioning-uc.md).
 
 ## Belangrijke stappen voor besluitvorming {#steps}
 
@@ -53,7 +53,7 @@ De belangrijkste stappen om met Beslissing te werken zijn als volgt:
 
    1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
 
-      Als de gebruiker niet eerder werd gecreeerd, verwijs naar [&#x200B; gebruikersdocumentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/users) toevoegen.
+      Als de gebruiker niet eerder werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users) toevoegen.
 
       ![](assets/decision_permission_3.png)
 
@@ -63,32 +63,32 @@ De belangrijkste stappen om met Beslissing te werken zijn als volgt:
 
 1. **vorm douanekenmerken**: Tailor de puntcatalogus aan uw specifieke vereisten door opstellingsdouaneattributen in het schema van de catalogus.
 
-   ➡️ [&#x200B; Leer hoe te om de puntcatalogus &#x200B;](catalogs.md) te vormen
+   ➡️ [ Leer hoe te om de puntcatalogus ](catalogs.md) te vormen
 
 1. **creeer besluitpunten** om aan uw gericht publiek te tonen.
 
-   ➡️ [&#x200B; Leer hoe te om besluitvormingspunten &#x200B;](items.md) in het gebruikersinterface (en in de [&#x200B; API documentatie &#x200B;](api-reference/decisions-items/create.md) tot stand te brengen)
+   ➡️ [ Leer hoe te om besluitvormingspunten ](items.md) in het gebruikersinterface (en in de [ API documentatie ](api-reference/decisions-items/create.md) tot stand te brengen)
 
 1. **organiseert zich met inzamelingen**: De inzamelingen van het gebruik om besluitpunten te categoriseren die op op attribuut-gebaseerde regels worden gebaseerd. Neem inzamelingen in uw selectiestrategieën op om te bepalen welke inzameling van besluitvormingspunten zou moeten worden overwogen.
 
-   ➡️ [&#x200B; Leer hoe te om puntinzamelingen &#x200B;](collections.md) in het gebruikersinterface (en in de [&#x200B; API documentatie &#x200B;](api-reference/items-collections/create.md) te beheren)
+   ➡️ [ Leer hoe te om puntinzamelingen ](collections.md) in het gebruikersinterface (en in de [ API documentatie ](api-reference/items-collections/create.md) te beheren)
 
 1. **creeer besluitvormingsregels**: De regels van het besluit worden gebruikt in besluitvormingspunten en/of selectiestrategieën om te bepalen aan wie een besluitpunt kan worden getoond.
 
-   ➡️ [&#x200B; Leer hoe te om besluitvormingsregels tot stand te brengen &#x200B;](rules.md)
+   ➡️ [ Leer hoe te om besluitvormingsregels tot stand te brengen ](rules.md)
 
 1. **voert het rangschikken methodes** uit: Creeer het rangschikken methodes en pas hen binnen selectiestrategieën toe om de prioritaire orde te bepalen om besluitpunten te selecteren.
 
-   ➡️ [&#x200B; Leer hoe te om het rangschikken methodes &#x200B;](ranking/ranking.md) tot stand te brengen
+   ➡️ [ Leer hoe te om het rangschikken methodes ](ranking/ranking.md) tot stand te brengen
 
 1. **creeer selectiestrategieën**: Bouw selectiestrategieën die hefboominzamelingen, besluitvormingsregels, en het rangschikken methodes om de besluitpunten te identificeren geschikt voor het tonen aan profielen.
 
-   ➡️ [&#x200B; Leer hoe te om selectiestrategieën in het gebruikersinterface &#x200B;](selection-strategies.md) in het gebruikersinterface (en in de [&#x200B; API documentatie &#x200B;](api-reference/selection-strategies/create.md) tot stand te brengen)
+   ➡️ [ Leer hoe te om selectiestrategieën in het gebruikersinterface ](selection-strategies.md) in het gebruikersinterface (en in de [ API documentatie ](api-reference/selection-strategies/create.md) tot stand te brengen)
 
-1. **creeer een besluitvormingsbeleid en bedt het in uw op code-gebaseerde of e-mailreis/campagne** in: Het beleid van het besluit combineert veelvoudige selectiestrategieën om de in aanmerking komende besluitpunten te bepalen aan vertoning aan het voorgenomen publiek.
+1. **creeer een besluitvormingsbeleid en bedt het in uw reis of campagne** (code-gebaseerde ervaring, e-mail, SMS, of duw) in: Het beleid van het besluit combineert veelvoudige selectiestrategieën om de in aanmerking komende besluitpunten te bepalen aan vertoning aan het voorgenomen publiek.
 
-   ➡️ [&#x200B; Leer hoe te met besluitvormingsbeleid &#x200B;](create-decision.md) te werken
-➡️ om de aanbieding via op code-gebaseerd ervaringskanaal met succes te leveren, volg de implementatiestappen in [&#x200B; deze sectie &#x200B;](../code-based/code-based-implementation-samples.md).
+   ➡️ [ Leer hoe te met besluitvormingsbeleid ](create-decision.md) te werken
+➡️ om de aanbieding via op code-gebaseerd ervaringskanaal met succes te leveren, volg de implementatiestappen in [ deze sectie ](../code-based/code-based-implementation-samples.md).
 
 ## Aanvullende bronnen
 
@@ -99,10 +99,10 @@ De belangrijkste stappen om met Beslissing te werken zijn als volgt:
 * **[Rangschikkend en AI modellen](ranking/ranking.md)** - de Hoofd rangschikkende formules en AI modellen voor gepersonaliseerd besluit.
 * **[Migreer van het beheer van Besluit](migrate-to-decisioning.md)** - begrijp de voordelen van het migreren aan Beslissing en gebruik migrerende tooling APIs.
 * **[Beslissende gidsen](decisioning-guardrails.md)** - herzie belangrijke beperkingen en beste praktijken voor beslissingsimplementatie.
-* **[het Beslissen leerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op besluitvormingseigenschappen en beste praktijken.
+* **[het Beslissen leerprogramma&#39;s ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op besluitvormingseigenschappen en beste praktijken.
 
 ## Hoe kan ik-video {#video}
 
 Meer informatie over beslissingsmogelijkheden in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475869?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
