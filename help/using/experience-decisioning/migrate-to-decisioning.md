@@ -27,7 +27,7 @@ Beslissing biedt aanzienlijke mogelijkheden en voordelen ten opzichte van het be
 
 ### Leermogelijkheden voor AI en machines
 
-* **metriek van de Douane**: Mogelijkheid om de metriek van de douaneverbetering voor AI modellen te gebruiken. Dit verstrekt het melden van interoperabiliteit met [ Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, normaliseert het melden over beide platforms, en verbetert gegevensconsistentie en betrouwbaarheid. De naadloze integratie biedt een duidelijkere weergave van prestatiegegevens en voegt nieuwe functies toe, zoals het maken van eenvoudige meetgegevens, het publiceren van doelgroepen, het stellen van ad-hocvragen met Insight Builder en het plannen van rapporten.
+* **metriek van de Douane**: Mogelijkheid om de metriek van de douaneverbetering voor AI modellen te gebruiken. Dit verstrekt het melden van interoperabiliteit met [&#x200B; Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, normaliseert het melden over beide platforms, en verbetert gegevensconsistentie en betrouwbaarheid. De naadloze integratie biedt een duidelijkere weergave van prestatiegegevens en voegt nieuwe functies toe, zoals het maken van eenvoudige meetgegevens, het publiceren van doelgroepen, het stellen van ad-hocvragen met Insight Builder en het plannen van rapporten.
 
 * **de meting van het optillen**: Mogelijkheid om onderzoek te visualiseren vs verkeer in AI modellen te exploiteren. Op deze manier kunnen marketeers en data wetenschappers kwantificeren hoe AI-exploratie de prestaties van het langetermijnmodel en de ontdekkingsmogelijkheden van nieuwe winnende aanbiedingen verbetert. De transparantie in verkeerstoewijzing bouwt vertrouwen in besluiten AI en machtigt teams om voor zowel het leren als prestaties in tijd te optimaliseren. [Meer informatie](ranking/auto-optimization-model.md#lift)
 
@@ -63,11 +63,11 @@ Het dashboard documenteert de prestaties van beslissingsitems en selectiestrateg
 
 ### Extra functies
 
-* **de handhaving van het Beleid**: De empowerment van de Bedrijfs gebruiker om eigenschappen als [ de Etikettering en de Handhaving van het Gebruik van Gegevens te gebruiken (DULE) ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"} en [ Toestemming ](../action/consent.md) binnen Beslissing, toelatend privacyschildbescherming over het besluitvormingswerkschema. Dit verzekert besluiten automatisch het beleid van het gegevensgebruik en de voorkeur van de klantentoestemming respecteren.
+* **de handhaving van het Beleid**: De empowerment van de Bedrijfs gebruiker om eigenschappen als [&#x200B; de Etikettering en de Handhaving van het Gebruik van Gegevens te gebruiken (DULE) &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"} en [&#x200B; Toestemming &#x200B;](../action/consent.md) binnen Beslissing, toelatend privacyschildbescherming over het besluitvormingswerkschema. Dit verzekert besluiten automatisch het beleid van het gegevensgebruik en de voorkeur van de klantentoestemming respecteren.
 
-* **de inheemse steun van het overseinenkanaal**: Geïntegreerd overseinen en besluit binnen één enkel kader over veelvoudige kanalen: [ op code-gebaseerde ervaring ](../code-based/get-started-code-based.md), [ E-mail ](../email/get-started-email.md) (Beperkte Beschikbaarheid), [ SMS ](../sms/get-started-sms.md), en [ Push berichten ](../push/get-started-push.md). Dankzij de intuïtieve UI-ondersteuning kunnen gebruikers rechtstreeks beslissingscomponenten invoegen in workflows voor het schrijven van berichten.
+* **de inheemse steun van het overseinenkanaal**: Geïntegreerd overseinen en besluit binnen één enkel kader over veelvoudige kanalen: [&#x200B; op code-gebaseerde ervaring &#x200B;](../code-based/get-started-code-based.md), [&#x200B; E-mail &#x200B;](../email/get-started-email.md) (Beperkte Beschikbaarheid), [&#x200B; SMS &#x200B;](../sms/get-started-sms.md), en [&#x200B; Push berichten &#x200B;](../push/get-started-push.md). Dankzij de intuïtieve UI-ondersteuning kunnen gebruikers rechtstreeks beslissingscomponenten invoegen in workflows voor het schrijven van berichten.
 
-* **de datasetraadpleging van Experience Platform**: Mogelijkheid om [ datasets van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"} te uploaden en van verwijzingen te voorzien direct binnen de regels van de aanbiedingsselectie, rangschikkend, en gepersonaliseerde aanbiedingsinhoud. Dit breidt flexibiliteit voor verpersoonlijking en het richten door besluitvormingslogica toe te staan om dynamische externe gegevensbronnen te gebruiken. [Meer informatie](../data/lookup-aep-data.md)
+* **de datasetraadpleging van Experience Platform**: Mogelijkheid om [&#x200B; datasets van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"} te uploaden en van verwijzingen te voorzien direct binnen de regels van de aanbiedingsselectie, rangschikkend, en gepersonaliseerde aanbiedingsinhoud. Dit breidt flexibiliteit voor verpersoonlijking en het richten door besluitvormingslogica toe te staan om dynamische externe gegevensbronnen te gebruiken. [Meer informatie](../data/lookup-aep-data.md)
 
 * **Schaalbaarheid &amp; prestaties**: De verhoging van de architectuur die besluitvormingsberekening van de hub aan de rand beweegt, beduidend verminderend latentie en verbeterend productie voor de gevallen van het hoog-verkeersgebruik.
 
@@ -96,7 +96,7 @@ Met de API&#39;s voor migratiebeheer kunt u:
 * **Migreer bij verschillende werkingsgebied** - zandbak, aanbieding, of besluitvormingsniveau
 * **Terugdraaimigratie** als de kwesties worden ontdekt
 
-Voor volledige API documentatie, met inbegrip van authentificatie, eindpunten, verzoek/reactievoorbeelden, en geleidelijke werkschema&#39;s, verwijs naar [ deze pagina ](decisioning-migration-api.md).
+Voor volledige API documentatie, met inbegrip van authentificatie, eindpunten, verzoek/reactievoorbeelden, en geleidelijke werkschema&#39;s, verwijs naar [&#x200B; deze pagina &#x200B;](decisioning-migration-api.md).
 
 ## Verwante onderwerpen {#related-topics}
 
