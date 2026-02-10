@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: '[!DNL Adobe Campaign] Handelingen voor v7/v8'
-description: Meer informatie over  [!DNL Adobe Campaign]  v7/v8-acties
+title: Handelingen voor Adobe Campaign v7/v8
+description: Meer informatie over Adobe Campaign v7/v8-acties
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: reis, integratie, campagne, v7, v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 version: Journey Orchestration
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -35,17 +35,17 @@ De verbinding tussen de Journey Optimizer- en Campagneinstanties wordt door Adob
 * Uw [!DNL Adobe Campaign] v7/v8-exemplaar wordt geleverd en verbonden met Journey Optimizer door Adobe.
 * U hebt toegang tot het Transactioneel Overseinen van de Campagne en de vereiste toestemmingen.
 
-Om dit te werken, moet u een specifieke actie vormen. Verwijs naar deze [&#x200B; sectie &#x200B;](../action/acc-action.md).
+Om dit te werken, moet u een specifieke actie vormen. Verwijs naar deze [ sectie ](../action/acc-action.md).
 
-Een gebruiksgeval van begin tot eind wordt voorgesteld in deze [&#x200B; sectie &#x200B;](../building-journeys/ajo-ac.md).
+Een gebruiksgeval van begin tot eind wordt voorgesteld in deze [ sectie ](../building-journeys/ajo-ac.md).
 
-1. Ontwerp uw reis, te beginnen met een gebeurtenis. Zie deze [&#x200B; sectie &#x200B;](../building-journeys/journey.md).
+1. Ontwerp uw reis, te beginnen met een gebeurtenis. Zie deze [ sectie ](../building-journeys/journey.md).
 1. In de **sectie van de Actie** van het palet, selecteer een actie van de Campagne en voeg het aan uw reis toe.
-1. In de **parameters van de Actie**, worden alle gebieden die in de berichtlading worden verwacht getoond. U moet elk van deze gebieden met het gebied in kaart brengen u, of van de gebeurtenis of van de gegevensbron wilt gebruiken. Dit is vergelijkbaar met aangepaste handelingen. Verwijs naar deze [&#x200B; sectie &#x200B;](../building-journeys/using-custom-actions.md).
+1. In de **parameters van de Actie**, worden alle gebieden die in de berichtlading worden verwacht getoond. U moet elk van deze gebieden met het gebied in kaart brengen u, of van de gebeurtenis of van de gegevensbron wilt gebruiken. Dit is vergelijkbaar met aangepaste handelingen. Verwijs naar deze [ sectie ](../building-journeys/using-custom-actions.md).
 
 >[!NOTE]
 >
->* Campagne v7/v8-acties kunnen samen met native kanaalacties op dezelfde reis worden gebruikt. Dit geldt niet voor Campaign Standard-acties. Zie [&#x200B; de activiteitenbegeleiding van de Campagne &#x200B;](../start/guardrails.md#ac-g).
+>* Campagne v7/v8-acties kunnen samen met native kanaalacties op dezelfde reis worden gebruikt. Dit geldt niet voor Campaign Standard-acties. Zie [ de activiteitenbegeleiding van de Campagne ](../start/guardrails.md#ac-g).
 >* De acties van de campagne v7/v8 kunnen niet met de activiteiten van de Erkenning van het publiek of van het Publiek worden gebruikt. Zie de handleidingen bij Audience Read and Audience Qualification op de pagina Guardrails.
 
-![[!DNL Adobe Campaign] Configuratie en integratie-instellingen voor v7/v8-acties &#x200B;](assets/accintegration2.png)
+![[!DNL Adobe Campaign] Configuratie en integratie-instellingen voor v7/v8-acties ](assets/accintegration2.png)
