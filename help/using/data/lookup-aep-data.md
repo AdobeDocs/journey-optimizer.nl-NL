@@ -29,9 +29,9 @@ Met [!DNL Journey Optimizer] kunt u gegevens uit [!DNL Adobe Experience Platform
 
 >[!NOTE]
 >
->De mogelijkheid voor het opzoeken van gegevens is alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
+>De mogelijkheid voor het opzoeken van gegevens is alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
 
-Leer meer op hoe te om met datasets in deze sectie toegang te hebben en te werken: [ wordt begonnen met datasets ](../data/get-started-datasets.md)
+Leer meer op hoe te om met datasets in deze sectie toegang te hebben en te werken: [&#x200B; wordt begonnen met datasets &#x200B;](../data/get-started-datasets.md)
 
 ## Meer lezen
 
@@ -111,7 +111,7 @@ In het gegevenssetbeheer gebruikersinterface, gebruik de knevel om de dataset vo
 
 ### API-methode
 
-Volg de richtingen die in [ worden gedetailleerd deze documentatie ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) om uw milieu te vormen om API bevelen te verzenden.
+Volg de richtingen die in [&#x200B; worden gedetailleerd deze documentatie &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) om uw milieu te vormen om API bevelen te verzenden.
 
 #### Vereisten
 
