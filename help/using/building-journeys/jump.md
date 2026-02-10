@@ -62,8 +62,8 @@ Gebruik deze richtlijnen om het gedrag van de pompactiviteit voorspelbaar en vei
 
 * De **[!UICONTROL Jump]** -activiteit is alleen beschikbaar voor reizen die een naamruimte gebruiken.
 * U kunt alleen naar een reis springen die dezelfde naamruimte gebruikt als de oorspronkelijke reis.
-* U kunt niet aan een reis springen die met een **gebeurtenis van de Kwalificatie van het publiek 0} {of** Gelezen Publiek **begint.**
-* U kunt geen a **[!UICONTROL Jump]** activiteit en a **2} gebeurtenis van de Kwalificatie van het Publiek of** Gelezen Publiek **in de zelfde reis hebben.**
+* U kunt niet aan een reis springen die met een **gebeurtenis van de Kwalificatie van het publiek 0&rbrace; &lbrace;of** Gelezen Publiek **begint.**
+* U kunt geen a **[!UICONTROL Jump]** activiteit en a **2&rbrace; gebeurtenis van de Kwalificatie van het Publiek of** Gelezen Publiek **in de zelfde reis hebben.**
 * U kunt zoveel **[!UICONTROL Jump]** activiteiten opnemen als u nodig hebt voor een reis. Na een **[!UICONTROL Jump]** kunt u alle benodigde activiteiten toevoegen.
 * U kunt zo veel sprongniveaus hebben zoals nodig. Zo springt een A naar reis B, die naar reis C gaat, enzovoort.
 * De doeltocht kan ook zoveel **[!UICONTROL Jump]** activiteiten omvatten als nodig is.
@@ -78,16 +78,16 @@ Gebruik deze richtlijnen om het gedrag van de pompactiviteit voorspelbaar en vei
 
 1. Ontwerp uw **originele reis**.
 
-   ![ activiteit van de sprongbeweging in wegpalet voor het overgaan tussen reizen ](assets/jump1.png)
+   ![&#x200B; activiteit van de sprongbeweging in wegpalet voor het overgaan tussen reizen &#x200B;](assets/jump1.png)
 
 1. Voeg bij elke stap van de rit een **[!UICONTROL Jump]** activiteit toe vanuit de categorie **[!UICONTROL ACTIONS]** . Voeg een label en beschrijving toe.
 
-   ![ drop-down van de de reisselectie van het Doel in de configuratie van de sprongreactiviteit ](assets/jump2.png)
+   ![&#x200B; drop-down van de de reisselectie van het Doel in de configuratie van de sprongreactiviteit &#x200B;](assets/jump2.png)
 
 1. Klik binnen het **reis van het Doel** gebied.
-In de lijst worden alle reisversies weergegeven die concept, live of in de testmodus zijn. De reizen die een verschillende namespace gebruiken of die met een **gebeurtenis van de Kwalificatie van het publiek 0} beginnen zijn niet beschikbaar.** Doeltrajecten die een luspatroon zouden maken, worden ook uitgefilterd.
+In de lijst worden alle reisversies weergegeven die concept, live of in de testmodus zijn. De reizen die een verschillende namespace gebruiken of die met een **gebeurtenis van de Kwalificatie van het publiek 0&rbrace; beginnen zijn niet beschikbaar.** Doeltrajecten die een luspatroon zouden maken, worden ook uitgefilterd.
 
-   ![ activiteit die van de hefboom doelreis en actieparameters tonen ](assets/jump3.png)
+   ![&#x200B; activiteit die van de hefboom doelreis en actieparameters tonen &#x200B;](assets/jump3.png)
 
    >[!NOTE]
    >
@@ -96,12 +96,12 @@ In de lijst worden alle reisversies weergegeven die concept, live of in de testm
 1. Selecteer de doelreis waarnaar u wilt springen.
 Het **Eerste gebeurtenis** gebied wordt voorgevuld met de naam van de eerste gebeurtenis van de doelreis. Als uw doelreis meerdere gebeurtenissen bevat, is **[!UICONTROL Jump]** alleen toegestaan voor de eerste gebeurtenis.
 
-   ![ de kaartconfiguratie van de Parameter voor sprongactiviteit met uitdrukkingsredacteur ](assets/jump4.png)
+   ![&#x200B; de kaartconfiguratie van de Parameter voor sprongactiviteit met uitdrukkingsredacteur &#x200B;](assets/jump4.png)
 
 1. De **parameters van de Actie** sectie toont alle gebieden van de doelgebeurtenis. Elk veld toewijzen met velden uit de gebeurtenis of gegevensbron, net als met andere typen acties. Deze informatie wordt tijdens runtime doorgegeven aan de doelroute.
 1. Voeg de volgende activiteiten toe om uw oorspronkelijke reis te voltooien.
 
-   ![ de wijzeinterface van de Test voor het testen van sprongactiviteit tussen reizen ](assets/jump5.png)
+   ![&#x200B; de wijzeinterface van de Test voor het testen van sprongactiviteit tussen reizen &#x200B;](assets/jump5.png)
 
 
    >[!NOTE]
@@ -112,7 +112,7 @@ Uw **[!UICONTROL Jump]** activiteit wordt gevormd. Zodra uw reis live is of in d
 
 Wanneer een **[!UICONTROL Jump]** activiteit in een reis wordt gevormd, wordt een **[!UICONTROL Jump]** ingangspictogram automatisch toegevoegd aan het begin van de doelreis. Dit helpt u identificeren dat de reis extern maar ook intern van een **[!UICONTROL Jump]** activiteit kan worden teweeggebracht.
 
-![ de stroom die van de Reis van bronreis toont aan doelreis ](assets/jump7.png)
+![&#x200B; de stroom die van de Reis van bronreis toont aan doelreis &#x200B;](assets/jump7.png)
 
 ## Problemen oplossen {#jump-troubleshoot}
 
@@ -122,4 +122,4 @@ Er treden fouten op als:
 * De doelreis is een concept, gesloten of gestopt
 * De eerste gebeurtenis van de doelreis is veranderd, en de afbeelding is gebroken
 
-![ Analyses van de Reis die de metriek van de sprongactiviteit tonen ](assets/jump6.png)
+![&#x200B; Analyses van de Reis die de metriek van de sprongactiviteit tonen &#x200B;](assets/jump6.png)

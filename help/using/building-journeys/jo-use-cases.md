@@ -24,7 +24,7 @@ Gebruik deze bibliotheek als referentiepunt bij het ontwerpen van reizen, het mo
 
 >[!TIP]
 >
->Nieuwe criteria voor toegang tot en uitreis? Begin met onze [ uitvoerige gids aan reis ingang en uitgangscriteria ](entry-exit-criteria-guide.md), die real-world gebruiksgevallen, beste praktijken, en geleidelijke configuratiebegeleiding omvat.
+>Nieuwe criteria voor toegang tot en uitreis? Begin met onze [&#x200B; uitvoerige gids aan reis ingang en uitgangscriteria &#x200B;](entry-exit-criteria-guide.md), die real-world gebruiksgevallen, beste praktijken, en geleidelijke configuratiebegeleiding omvat.
 
 
 ## Werken met ervaringsgebeurtenissen
@@ -62,7 +62,7 @@ Gebruik deze bibliotheek als referentiepunt bij het ontwerpen van reizen, het mo
 </tr>
 </table>
 
-Zie ook verscheidene algemeen gebruikte [ voorbeelden aan de Gebeurtenissen van de Stap van de Vraag ](../reports/query-examples.md).
+Zie ook verscheidene algemeen gebruikte [&#x200B; voorbeelden aan de Gebeurtenissen van de Stap van de Vraag &#x200B;](../reports/query-examples.md).
 
 
 ## Kwesties voor zakelijk gebruik
@@ -181,7 +181,7 @@ Blader naar videozelfstudies om belangrijke stappen te leren om veelgebruikte ge
   </tr>
 </table>
 
-Zie ook het videoleerprogramma voor [ Schaalend orchestratie aan omnichannel overeenkomst in  [!DNL Adobe Journey Optimizer] ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"}: Over de cursus van zes lessen, leert u hoe te om bedrijfsmededelingen van eenvoudig uitgaand overseinen aan verfijnde omnichannel ervaringen op te heffen. Aan de hand van praktische voorbeelden krijgt u inzicht in het maken van klantritten die een naadloze combinatie vormen van proactieve outreach en responsieve betrokkenheid.
+Zie ook het videoleerprogramma voor [&#x200B; Schaalend orchestratie aan omnichannel overeenkomst in  [!DNL Adobe Journey Optimizer] &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"}: Over de cursus van zes lessen, leert u hoe te om bedrijfsmededelingen van eenvoudig uitgaand overseinen aan verfijnde omnichannel ervaringen op te heffen. Aan de hand van praktische voorbeelden krijgt u inzicht in het maken van klantritten die een naadloze combinatie vormen van proactieve outreach en responsieve betrokkenheid.
 
 
 

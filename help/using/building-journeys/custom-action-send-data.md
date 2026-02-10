@@ -18,9 +18,9 @@ ht-degree: 2%
 
 # Hoofdlettergebruik: een aangepaste handeling maken om gegevens naar [!DNL Adobe Experience Platform] te verzenden{#send-data-to-aep}
 
-Als u onlangs naar een andere e-mailserviceprovider, een IP-adres of een e-maildomein of subdomein bent verhuisd, kunt u uw reputatie als afzender vaststellen. Anders kunnen leveringen worden geblokkeerd of naar de spammappen van de ontvangers worden verplaatst. Voor begeleiding, zie de [ Gids van de Beste praktijken van de Levering Beste ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target="_blank"}.
+Als u onlangs naar een andere e-mailserviceprovider, een IP-adres of een e-maildomein of subdomein bent verhuisd, kunt u uw reputatie als afzender vaststellen. Anders kunnen leveringen worden geblokkeerd of naar de spammappen van de ontvangers worden verplaatst. Voor begeleiding, zie de [&#x200B; Gids van de Beste praktijken van de Levering Beste &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target="_blank"}.
 
-Om uw IP op te warmen, kunt u geleidelijk het aantal van uw leveringen opvoeren. Lees meer over [ optimaliserend leverbaarheid in Journey Optimizer ](../reports/deliverability.md).
+Om uw IP op te warmen, kunt u geleidelijk het aantal van uw leveringen opvoeren. Lees meer over [&#x200B; optimaliserend leverbaarheid in Journey Optimizer &#x200B;](../reports/deliverability.md).
 
 Het doel van deze gebruikszaak is een reis te maken om uw e-mailleveringen op te voeren. Om deze reis te vormen, volg deze stappen:
 
@@ -34,13 +34,13 @@ Het doel van deze gebruikszaak is een reis te maken om uw e-mailleveringen op te
 
    1. Stel het veld **[!UICONTROL Limit]** in op het maximum aantal ontvangers voor deze levering.
 
-   ![ het GLB van het Profiel voorwaarde om het volume van de douaneactie te controleren uitvoerde ](assets/profile-cap-condition.png)
+   ![&#x200B; het GLB van het Profiel voorwaarde om het volume van de douaneactie te controleren uitvoerde &#x200B;](assets/profile-cap-condition.png)
 
    U kunt deze limiet geleidelijk verhogen tot het totale aantal abonnees.
 
 1. Voeg een handeling **[!UICONTROL Email]** toe aan het nominale pad na de handeling **[!UICONTROL Condition]** .
 
-   ![ Weg met douaneactie voor het verzenden van gegevens naar extern systeem ](assets/ramp-up-deliveries-message.png)
+   ![&#x200B; Weg met douaneactie voor het verzenden van gegevens naar extern systeem &#x200B;](assets/ramp-up-deliveries-message.png)
 
    Wanneer de reis loopt, wordt het bericht verzonden de het ingaan profielen, tot het maximumaantal profielen dat u hebt gespecificeerd. Wanneer deze limiet is bereikt, nemen de ingevoerde profielen het alternatieve pad aan.
 
