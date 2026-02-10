@@ -52,9 +52,9 @@ Als u profielen wilt onderdrukken die bepaalde gedragingen hebben aangetoond, ge
 
 Meer informatie:
 
-* [!DNL Adobe Experience Platform] [&#x200B; de bouwer van het Segment - Gebeurtenissen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [&#x200B; de bouwer van het Segment - Gebeurtenissen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [&#x200B; de bouwer van het Segment - de beperkingen van de Tijd &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [&#x200B; de bouwer van het Segment - de beperkingen van de Tijd &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Gebruik van soorten publiek in omstandigheden](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -71,9 +71,9 @@ Om het verzenden van berichten naar profielen te verhinderen die om het even wel
 
 Meer informatie met doelgroepen:
 
-* [!DNL Adobe Experience Platform] [&#x200B; de bouwer van het Segment - Gebeurtenissen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [&#x200B; de bouwer van het Segment - Gebeurtenissen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [&#x200B; de bouwer van het Segment - de beperkingen van de Tijd &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [&#x200B; de bouwer van het Segment - de beperkingen van de Tijd &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Gebruik van soorten publiek in omstandigheden](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -93,9 +93,9 @@ Als u profielen wilt opnemen of uitsluiten op basis van het feit of ze een bepaa
 
 Meer informatie:
 
-* [!DNL Adobe Experience Platform] [&#x200B; de bouwer van het Segment - Gebeurtenissen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [&#x200B; de bouwer van het Segment - Gebeurtenissen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [&#x200B; de bouwer van het Segment - de beperkingen van de Tijd &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [&#x200B; de bouwer van het Segment - de beperkingen van de Tijd &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Gebruik van soorten publiek in omstandigheden](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -105,8 +105,8 @@ Meer informatie:
 
 Om mededelingen te personaliseren die op de recentste kar worden gebaseerd of gebeurtenissen over veelvoudige karttypes of productmeningen te doorbladeren:
 
-* Als u toegang tot [[!DNL Adobe Experience Platform]  Gegevens Distiller &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"} hebt, vorm geautomatiseerde vragen om de vereiste gegevens uit de gebeurtenis te halen, het te manipuleren om het gebruiksgeval te passen, en het terug naar een profiel-toegelaten dataset voor activering te schrijven.
-* Als de gegevens van het verlaten van de plaats op het profiel met scalaire attributen kunnen worden gemodelleerd, denk na gebruikend Berekende attributen om de recentste informatie te vangen en dan naar deze attributen in de reis te verwijzen om de mededeling te construeren. [&#x200B; leer meer in  [!DNL Adobe Experience Platform]  documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Als u toegang tot [[!DNL Adobe Experience Platform]  Gegevens Distiller &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/data-distiller/overview){target="_blank"} hebt, vorm geautomatiseerde vragen om de vereiste gegevens uit de gebeurtenis te halen, het te manipuleren om het gebruiksgeval te passen, en het terug naar een profiel-toegelaten dataset voor activering te schrijven.
+* Als de gegevens van het verlaten van de plaats op het profiel met scalaire attributen kunnen worden gemodelleerd, denk na gebruikend Berekende attributen om de recentste informatie te vangen en dan naar deze attributen in de reis te verwijzen om de mededeling te construeren. [&#x200B; leer meer in  [!DNL Adobe Experience Platform]  documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## Reizen op basis van gedrag
@@ -123,7 +123,7 @@ Om ritten op aankopen te activeren en onderdrukken als de waarde boven of onder 
 
 Meer informatie:
 
-* [!DNL Adobe Experience Platform] [&#x200B; Berekend attributenoverzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* [!DNL Adobe Experience Platform] [&#x200B; Berekend attributenoverzicht &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
@@ -131,7 +131,7 @@ Meer informatie:
 
 Hieronder vindt u Veelgestelde vragen over het opzoeken van gebeurtenissen Experience tijdens reizen.
 
-Wilt u meer details? Gebruik terugkoppelt opties bij de bodem van deze pagina om uw vraag op te heffen, of met [[!DNL Adobe Journey Optimizer]  gemeenschap &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
+Wilt u meer details? Gebruik terugkoppelt opties bij de bodem van deze pagina om uw vraag op te heffen, of met [[!DNL Adobe Journey Optimizer]  gemeenschap &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=nl){target="_blank"} te verbinden.
 
 +++Welke specifieke mogelijkheden worden beïnvloed? 
 

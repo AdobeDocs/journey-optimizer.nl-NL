@@ -149,24 +149,24 @@ Blader naar videozelfstudies om belangrijke stappen te leren om veelgebruikte ge
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px">
     <br/>
-      <strong> Klant onboarding </strong><br/><p>Leer hoe u een instapreis van klanten in Journey Optimizer implementeert.</p> - <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank"> bekijk de case video van het Gebruik </a>
+      <strong> Klant onboarding </strong><br/><p>Leer hoe u een instapreis van klanten in Journey Optimizer implementeert.</p> - <a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank"> bekijk de case video van het Gebruik </a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px">
     <br/>
-      <strong> Verlaten kar </strong><br/><p>Leer hoe u het niet-gebruikte draagtas voor winkelwagentjes kunt implementeren met de functie Afspelen in [!DNL Adobe Journey Optimizer] .</p><a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank"> bekijk de gevalvideo van het Gebruik </a>
+      <strong> Verlaten kar </strong><br/><p>Leer hoe u het niet-gebruikte draagtas voor winkelwagentjes kunt implementeren met de functie Afspelen in [!DNL Adobe Journey Optimizer] .</p><a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank"> bekijk de gevalvideo van het Gebruik </a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-content.svg" width="35px">
     <br/>
-      <strong> re-engagement </strong><br/><p>Leer hoe Adobe de Intelligent Re-engagement gebruikscase heeft aangepast om met de Luma demo-site te werken, voortbouwend op de stichtingsimplementatie die is gedocumenteerd in de zelfstudie van de Architect van Gegevens en van de Ingenieur van Gegevens en de zelfstudie van Experience Platform Web SDK.</p><a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma" target="_blank"> bekijk de gevalvideo's van het Gebruik </a> 
+      <strong> re-engagement </strong><br/><p>Leer hoe Adobe de Intelligent Re-engagement gebruikscase heeft aangepast om met de Luma demo-site te werken, voortbouwend op de stichtingsimplementatie die is gedocumenteerd in de zelfstudie van de Architect van Gegevens en van de Ingenieur van Gegevens en de zelfstudie van Experience Platform Web SDK.</p><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma" target="_blank"> bekijk de gevalvideo's van het Gebruik </a> 
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong> Aanbieding in real time verpersoonlijking </strong><br/><p>Met aan het weer gerelateerde gegevens in [!DNL Adobe Journey Optimizer] kunnen bedrijven hun eigen ervaringen van klanten aanpassen op basis van real-time omgevingen.</p><a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction" target="_blank"> volg het geleidelijke leerprogramma </a>
+      <strong> Aanbieding in real time verpersoonlijking </strong><br/><p>Met aan het weer gerelateerde gegevens in [!DNL Adobe Journey Optimizer] kunnen bedrijven hun eigen ervaringen van klanten aanpassen op basis van real-time omgevingen.</p><a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction" target="_blank"> volg het geleidelijke leerprogramma </a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-configure.svg" width="35px">
@@ -176,12 +176,12 @@ Blader naar videozelfstudies om belangrijke stappen te leren om veelgebruikte ge
     <td>
       <img src="../assets/do-not-localize/icon_profile-audience.svg" width="35px">
     <br/>
-      <strong> Personaliseer aanbiedingen met rangschikkende formules </strong><br/><p>Leer hoe u persoonlijke financiële aanbiedingen kunt aanbieden door gebruikerskenmerken als postcode en jaarinkomen binnen [!DNL Adobe Journey Optimizer] te gebruiken. Door rangschikkingsformules te gebruiken, worden aanbiedingen intelligent gescoord en geprioriteerd gebaseerd op locatiespecifieke promoties en op inkomen-gebaseerde subsidiabiliteit.</p><a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction" target="_blank"> volg het geleidelijke leerprogramma </a> 
+      <strong> Personaliseer aanbiedingen met rangschikkende formules </strong><br/><p>Leer hoe u persoonlijke financiële aanbiedingen kunt aanbieden door gebruikerskenmerken als postcode en jaarinkomen binnen [!DNL Adobe Journey Optimizer] te gebruiken. Door rangschikkingsformules te gebruiken, worden aanbiedingen intelligent gescoord en geprioriteerd gebaseerd op locatiespecifieke promoties en op inkomen-gebaseerde subsidiabiliteit.</p><a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction" target="_blank"> volg het geleidelijke leerprogramma </a> 
     </td>
   </tr>
 </table>
 
-Zie ook het videoleerprogramma voor [&#x200B; Schaalend orchestratie aan omnichannel overeenkomst in  [!DNL Adobe Journey Optimizer] &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"}: Over de cursus van zes lessen, leert u hoe te om bedrijfsmededelingen van eenvoudig uitgaand overseinen aan verfijnde omnichannel ervaringen op te heffen. Aan de hand van praktische voorbeelden krijgt u inzicht in het maken van klantritten die een naadloze combinatie vormen van proactieve outreach en responsieve betrokkenheid.
+Zie ook het videoleerprogramma voor [&#x200B; Schaalend orchestratie aan omnichannel overeenkomst in  [!DNL Adobe Journey Optimizer] &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"}: Over de cursus van zes lessen, leert u hoe te om bedrijfsmededelingen van eenvoudig uitgaand overseinen aan verfijnde omnichannel ervaringen op te heffen. Aan de hand van praktische voorbeelden krijgt u inzicht in het maken van klantritten die een naadloze combinatie vormen van proactieve outreach en responsieve betrokkenheid.
 
 
 
@@ -193,41 +193,41 @@ Blader in de volgende blogberichten naar meer instructies en tips voor het maken
 <td>
 <img alt="Blogberichten" src="../assets/do-not-localize/community.jpeg">
 <div>
-<p><a href="weekday-email-uc.md"> Geval van het Gebruik: Hoe te om E-mail slechts op Weekdagen in [!DNL Adobe Journey Optimizer]</a> - ook beschikbaar als a <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400" target="_blank"> communautaire blogpost </a> te verzenden</p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396" target="_blank">Hoofdlettergebruik: geavanceerde goedkeuringsstrategieën</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510" target="_blank">Hoofdlettergebruik: dagelijkse frequentiecapping</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">Tips en trucs: Reizen publiek lezen</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270" target="_blank">Hoofdletters gebruiken: Uw reizen testen</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900" target="_blank">Hoofdlettergebruik: goedkeuringswerkstromen</a></p>
+<p><a href="weekday-email-uc.md"> Geval van het Gebruik: Hoe te om E-mail slechts op Weekdagen in [!DNL Adobe Journey Optimizer]</a> - ook beschikbaar als a <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=nl" target="_blank"> communautaire blogpost </a> te verzenden</p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396?profile.language=nl" target="_blank">Hoofdlettergebruik: geavanceerde goedkeuringsstrategieën</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=nl" target="_blank">Hoofdlettergebruik: dagelijkse frequentiecapping</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=nl" target="_blank">Tips en trucs: Reizen publiek lezen</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270?profile.language=nl" target="_blank">Hoofdletters gebruiken: Uw reizen testen</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900?profile.language=nl" target="_blank">Hoofdlettergebruik: goedkeuringswerkstromen</a></p>
 </div>
 <p>
 </td>
 <td>
 <img alt="Stap gebeurtenissen in uw reizen" src="../assets/do-not-localize/list.jpeg">
 <div>
-<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024" target="_blank"> Mastering de Gebeurtenissen van de Stap in [!DNL Adobe Journey Optimizer]: Grondbeginselen, Schema, en Essentiële Vragen voor gegevens-gedreven Campagnes
+<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024?profile.language=nl" target="_blank"> Mastering de Gebeurtenissen van de Stap in [!DNL Adobe Journey Optimizer]: Grondbeginselen, Schema, en Essentiële Vragen voor gegevens-gedreven Campagnes
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">Hoofdlettergebruik: snelle externe Audience Activation met aangepaste upload</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225" target="_blank">Hoofdlettergebruik: Personalization buiten het profiel
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658?profile.language=nl" target="_blank">Hoofdlettergebruik: snelle externe Audience Activation met aangepaste upload</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225?profile.language=nl" target="_blank">Hoofdlettergebruik: Personalization buiten het profiel
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513" target="_blank">Ga naar Personalization: Hoe luchtvaartmaatschappijen aanbiedingen kunnen verhogen met [!DNL Adobe Journey Optimizer]
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513?profile.language=nl" target="_blank">Ga naar Personalization: Hoe luchtvaartmaatschappijen aanbiedingen kunnen verhogen met [!DNL Adobe Journey Optimizer]
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606" target="_blank">Personalization in real time beheren: een gids van de Markering aan de Fragments van de Inhoud van AEM en [!DNL Adobe Journey Optimizer]
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606?profile.language=nl" target="_blank">Personalization in real time beheren: een gids van de Markering aan de Fragments van de Inhoud van AEM en [!DNL Adobe Journey Optimizer]
 </a></p>
 </div>
 <p></td>
 <td>
 <img alt="Aangepaste acties" src="../assets/do-not-localize/step-event.jpeg">
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">[!DNL Adobe Journey Optimizer] uitbreiden met aangepaste handelingen: integratievoorbeelden
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323?profile.language=nl" target="_blank">[!DNL Adobe Journey Optimizer] uitbreiden met aangepaste handelingen: integratievoorbeelden
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223" target="_blank">[!DNL Adobe Journey Optimizer]De functie Aangepaste delegatie lost uitdagingen op het gebied van naleving van de Enterprise-regels op
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223?profile.language=nl" target="_blank">[!DNL Adobe Journey Optimizer]De functie Aangepaste delegatie lost uitdagingen op het gebied van naleving van de Enterprise-regels op
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048" target="_blank">REGEL in Journey Optimizer: Van eerste campagne tot Geavanceerde voorbeelden voor expressiefragment en aangepaste handelingen
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048?profile.language=nl" target="_blank">REGEL in Journey Optimizer: Van eerste campagne tot Geavanceerde voorbeelden voor expressiefragment en aangepaste handelingen
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669" target="_blank">Journey Optimizer Universal Link Integration Guide voor iOS
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669?profile.language=nl" target="_blank">Journey Optimizer Universal Link Integration Guide voor iOS
 </a></p>
 </div>
 </td>
