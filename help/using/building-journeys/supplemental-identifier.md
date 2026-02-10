@@ -248,4 +248,4 @@ Deze voorbeelden tonen hoe de supplementaire herkenningstekens veelvoudige verwa
 
 Leer hoe u een aanvullende id in [!DNL Adobe Journey Optimizer] kunt inschakelen en toepassen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464798?captions=dut&quality=12)

@@ -190,4 +190,4 @@ Volg de instructies en aanbevelingen hieronder om de reizen van de Kwalificatie 
 
 Begrijp de toepasselijke gebruiksgevallen voor reizen van de Kwalificatie van het Publiek in deze video. Leer hoe u een reis maakt met de kwalificatie &#39;Audience Qualification&#39; en welke best practices u kunt toepassen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3446210?captions=dut&quality=12)
