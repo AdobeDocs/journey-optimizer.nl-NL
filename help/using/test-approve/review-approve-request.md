@@ -49,4 +49,4 @@ Nadat de aanvraag is verzonden, wordt de maker van de reis/campagne via e-mail o
 
 >[!NOTE]
 >
-> Als u geen goedkeuringsmelding ontvangt via een e-mail, moet u uw abonnementsvoorkeuren bijwerken in uw Experience Cloud-profielen. [Meer informatie](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)
+> Als u geen goedkeuringsmelding ontvangt via een e-mail, moet u uw abonnementsvoorkeuren bijwerken in uw Experience Cloud-profielen. [Meer informatie](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences)
