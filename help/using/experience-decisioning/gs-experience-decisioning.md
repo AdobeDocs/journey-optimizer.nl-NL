@@ -53,7 +53,7 @@ De belangrijkste stappen om met Beslissing te werken zijn als volgt:
 
    1. Typ de naam of het e-mailadres van de gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]** .
 
-      Als de gebruiker niet eerder werd gecreeerd, verwijs naar [&#x200B; gebruikersdocumentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users) toevoegen.
+      Als de gebruiker niet eerder werd gecreeerd, verwijs naar [&#x200B; gebruikersdocumentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/ui/users) toevoegen.
 
       ![](assets/decision_permission_3.png)
 
@@ -99,7 +99,7 @@ De belangrijkste stappen om met Beslissing te werken zijn als volgt:
 * **[Rangschikkend en AI modellen](ranking/ranking.md)** - de Hoofd rangschikkende formules en AI modellen voor gepersonaliseerd besluit.
 * **[Migreer van het beheer van Besluit](migrate-to-decisioning.md)** - begrijp de voordelen van het migreren aan Beslissing en gebruik migrerende tooling APIs.
 * **[Beslissende gidsen](decisioning-guardrails.md)** - herzie belangrijke beperkingen en beste praktijken voor beslissingsimplementatie.
-* **[het Beslissen leerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op besluitvormingseigenschappen en beste praktijken.
+* **[het Beslissen leerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op besluitvormingseigenschappen en beste praktijken.
 
 ## Hoe kan ik-video {#video}
 
