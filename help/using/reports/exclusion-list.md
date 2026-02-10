@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
+source-git-commit: 8ced9477edf8a7129e974d007755e132f3079943
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '891'
 ht-degree: 7%
 
 ---
@@ -60,6 +60,7 @@ Zie de tabel hieronder voor meer informatie over de specifieke redenen voor uits
 | EmailNoVariantDefined | 050026 | Email | Er wordt een uitsluitingsgebeurtenis gegenereerd wanneer er geen variant in het e-mailbericht is gedefinieerd. |
 | EmailNoMessageFoundForTreatment | 050027 | Email | Er wordt een uitsluitingsgebeurtenis gegenereerd wanneer het experiment is ingeschakeld voor het bericht en er geen bericht wordt gevonden voor de gekwalificeerde behandeling. |
 | EmailMalformedAddress | 050024 | Email | Er wordt een uitsluitingsgebeurtenis gegenereerd wanneer de e-mail een onjuist adres bevat. |
+| UnsubscribeLinkNotValid | 050081 | Email | Er wordt een uitsluitingsgebeurtenis gegenereerd wanneer de lengte van het onderwerp List-Unsubscribe mailTo groter is dan de RFC-limiet van 998 tekens. |
 | InAppNoVariantDefined | 050041 | InApp | Er wordt een uitsluitingsgebeurtenis gegenereerd wanneer geen variant wordt gedefinieerd voor InApp-bericht. |
 | InAppNoMessageFoundForTreatment | 050042 | InApp | Er wordt een uitsluitingsgebeurtenis gegenereerd wanneer het experiment is ingeschakeld voor het bericht en er geen bericht wordt gevonden voor de gekwalificeerde behandeling. |
 | PushNoTokenFoundInProfile | 050030 | Push | Er wordt een uitsluitingsgebeurtenis gegenereerd wanneer het profiel geen pushtokens heeft. |
