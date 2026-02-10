@@ -11,9 +11,9 @@ badge: label="Private bèta" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: 9b7fbd43-3d90-458b-8a2f-0bf0ac5437c3
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '273'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,11 @@ Ga als volgt te werk om variaties voor uw inhoud te genereren en deze voor te ve
 
 1. Open de inhoud en selecteer **[!UICONTROL Simulate content]** / **[!UICONTROL Simulate content variations]** .
 
-   ![](assets/simulate-sample.png)
+   ![ Simuleer de optie van inhoudsvariaties ](assets/simulate-sample.png)
 
 2. Klik op de knop **[!UICONTROL Generate]**.
 
-   ![](assets/simulate-generate-variant.png)
+   ![ produceer veranderingenknoop ](assets/simulate-generate-variant.png)
 
 3. [!DNL Journey Optimizer] genereert automatisch varianten op basis van gedetecteerde kenmerken.
 
@@ -48,4 +48,4 @@ Ga als volgt te werk om variaties voor uw inhoud te genereren en deze voor te ve
 
 >[!NOTE]
 >
->Deze functie werkt op dezelfde manier als de standaardfunctie voor het simuleren van inhoudsvariaties. Voor meer informatie over de simulaties van inhoudsvariaties en de bijbehorende guardrails en beperkingen, verwijs naar deze sectie: [&#x200B; simuleer inhoudsvariaties &#x200B;](../test-approve/simulate-sample-input.md)
+>Deze functie werkt op dezelfde manier als de standaardfunctie voor het simuleren van inhoudsvariaties. Voor meer informatie over de simulaties van inhoudsvariaties en de bijbehorende guardrails en beperkingen, verwijs naar deze sectie: [ simuleer inhoudsvariaties ](../test-approve/simulate-sample-input.md)

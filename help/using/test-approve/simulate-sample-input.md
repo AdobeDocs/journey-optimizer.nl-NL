@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
-source-git-commit: de1a8f0136dad476b1bd0e2cb3468da9271e66d0
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >title="Simuleren met behulp van voorbeeldinvoer"
 >abstract="In dit scherm kunt u verschillende varianten van uw inhoud testen door waarden voor verpersoonlijkingsgebieden door een malplaatje CSV of JSON te verstrekken, of door de waarden manueel in te gaan."
 
-Met Reis optimizer kunt u verschillende variaties van uw inhoud voorvertonen met voorbeeldinvoergegevens die vanuit een CSV- of JSON-bestand zijn geüpload of handmatig zijn toegevoegd.
+In [!DNL Journey Optimizer] kunt u verschillende variaties van uw inhoud voorvertonen met voorbeeldinvoergegevens die zijn geüpload vanuit een CSV- of JSON-bestand of die handmatig zijn toegevoegd.
 
 Alle kenmerken die in de inhoud voor personalisatie worden gebruikt, worden automatisch door het systeem gedetecteerd en kunnen voor uw tests worden gebruikt om meerdere varianten te maken. Een variant verwijst naar een versie van de inhoud met verschillende waarden voor de kenmerken ervan.
 
@@ -57,13 +57,13 @@ Overweeg de volgende instructies en voorwaarden voordat u begint met het testen 
 
 Als u variaties voor uw inhoud wilt maken en deze wilt voorvertonen, klikt u op de knop **[!UICONTROL Simulate content]** en kiest u **[!UICONTROL Simulate content variations]** .
 
-![](assets/simulate-sample.png)
+![ Simuleer de optie van inhoudsvariaties ](assets/simulate-sample.png)
 
 De belangrijkste stappen om uw inhoud te testen zijn als volgt:
 
-1. **voegt Varianten** toe - voeg tot 30 varianten met steekproefinputgegevens toe, of door een dossier te uploaden, of door gegevens manueel toe te voegen. [&#x200B; Leer hoe te om variabelen toe te voegen &#x200B;](#profiles)
-1. **de inhoudsvariaties van de Voorproef** - controleer de voorproef van uw inhoud gebruikend de verschillende varianten. [&#x200B; Leer hoe te om uw inhoud &#x200B;](#preview) voor te vertonen
-1. **verzend e-mailproefdrukken** - voor e-mailinhoud, verzend tot 10 proefdrukken naar e-mailadressen gebruikend de verschillende varianten. [&#x200B; Leer hoe te om proefdrukken &#x200B;](#proofs) te verzenden
+1. **voegt Varianten** toe - voeg tot 30 varianten met steekproefinputgegevens toe, of door een dossier te uploaden, of door gegevens manueel toe te voegen. [ Leer hoe te om variabelen toe te voegen ](#profiles)
+1. **de inhoudsvariaties van de Voorproef** - controleer de voorproef van uw inhoud gebruikend de verschillende varianten. [ Leer hoe te om uw inhoud ](#preview) voor te vertonen
+1. **verzend e-mailproefdrukken** - voor e-mailinhoud, verzend tot 10 proefdrukken naar e-mailadressen gebruikend de verschillende varianten. [ Leer hoe te om proefdrukken ](#proofs) te verzenden
 
 ### Varianten toevoegen {#profiles}
 
@@ -71,7 +71,7 @@ Wanneer u de ervaring met inhoudvariaties opent, worden alle aanpassingsvelden d
 
 Als uw e-mail bijvoorbeeld twee verpersoonlijkingsvelden &#39;Stad&#39; en &#39;Balans programmapunten&#39; bevat, worden deze weergegeven in de lijst. In eerste instantie worden geen waarden ingevoerd en wordt er geen gepersonaliseerde inhoud weergegeven in het voorvertoningsvenster.
 
-![](assets/simulate-custom-variants-list.png)
+![ de lijst van de inputvarianten van de Steekproef ](assets/simulate-custom-variants-list.png)
 
 De waarde van een variant bewerken:
 
@@ -85,7 +85,7 @@ Een nieuwe variant toevoegen:
 1. Er wordt een nieuwe, lege variant weergegeven die alle gedetecteerde personalisatievelden bevat.
 1. Bewerk indien nodig de nieuwe variant.
 
-![](assets/simulate-custom-add.png)
+![ creeer steekproefinputknoop ](assets/simulate-custom-add.png)
 
 U kunt ook een bestand met vooraf gedefinieerde varianten en waarden uploaden om het proces te versnellen.
 
@@ -113,7 +113,7 @@ U kunt ook een bestand met vooraf gedefinieerde varianten en waarden uploaden om
 1. Wanneer het bestand gereed is, klikt u op **[!UICONTROL Upload Input Data]** om het te laden.
 1. Na het uploaden wordt een nieuwe variant toegevoegd aan de lijst voor elk item in het bestand.
 
-   ![](assets/simulate-custom-variants.png)
+   ![ Geüploade varianten van de steekproefinput ](assets/simulate-custom-variants.png)
 
 Nadat u varianten hebt toegevoegd, kunt u deze gebruiken om een voorvertoning van de inhoud weer te geven in het rechterdeelvenster en om e-mailproefdrukken te verzenden.
 
@@ -125,11 +125,11 @@ In het onderstaande voorbeeld hebben we twee varianten toegevoegd voor de onderw
 
 | Selectie van variant 1 | Selectie van variant 2 |
 |----------|-------------|
-| ![](assets/simulate-custom-boxes.png) | ![](assets/simulate-custom-boxes2.png) |
+| ![ Variant 1 selectie ](assets/simulate-custom-boxes.png) | ![ Variant 2 selectie ](assets/simulate-custom-boxes2.png) |
 
 Voor meertalige inhoud en experimenten is een vervolgkeuzelijst beschikbaar voor het schakelen tussen de verschillende taalvarianten of behandelingen.
 
-![](assets/simulate-custom-experiment.png)
+![ Taal of behandelingsselecteur ](assets/simulate-custom-experiment.png)
 
 U kunt een variant op elk gewenst moment verwijderen met de ellipknop in de rechterbovenhoek en door **[!UICONTROL Remove]** te selecteren. Als u informatie voor een variant wilt bewerken, klikt u op de knop voor weglatingsteken en selecteert u **[!UICONTROL Edit]** .
 
@@ -145,10 +145,10 @@ Met Journey Optimizer kunt u proefdrukken naar e-mailadressen verzenden en tegel
 
    Selecteer de koppeling **[!UICONTROL View profile details]** voor meer informatie over een variant. Op deze manier kunt u de informatie die u in het vorige scherm hebt ingevoerd, weergeven voor de verschillende varianten.
 
-   ![](assets/simulate-custom-proofs.png)
+   ![ Ontvangers van het proef en variantselectie ](assets/simulate-custom-proofs.png)
 
 1. Klik op de knop **[!UICONTROL Send Proof]** om de proefdruk te verzenden.
 
 1. Klik op de knop **[!UICONTROL View proofs]** in het scherm Inhoud simuleren om het verzenden van de proefdrukken bij te houden.
 
-![](assets/simulate-custom-sent-proofs.png)
+![ Verzonden lijst van proef ](assets/simulate-custom-sent-proofs.png)

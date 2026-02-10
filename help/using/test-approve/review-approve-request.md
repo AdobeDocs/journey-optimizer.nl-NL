@@ -5,23 +5,23 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 8f4260b5-98df-4350-bd9b-680c3986ffe6
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
 
 # Een aanvraag bekijken en goedkeuren {#approve-requests}
 
-Als een goedkeuringsbeleid van toepassing is op een reis of campagne, moet het ter goedkeuring worden voorgelegd om te worden gepubliceerd. Hiervoor stuurt de maker van de reis/campagne een aanvraag naar de fiatteur(s) die in het goedkeuringsbeleid is gedefinieerd en krijgt de reis/campagne de status **[!UICONTROL In review]** .
+Als een goedkeuringsbeleid van toepassing is op een reis of campagne, moet het ter goedkeuring worden voorgelegd om te worden gepubliceerd. Hiervoor stuurt de maker van de reis/campagne een aanvraag naar de fiatteur(s) die in het goedkeuringsbeleid is gedefinieerd en krijgt de reis/campagne een **[!UICONTROL In review]** status.
 
 Als u als fiatteur bent geselecteerd, ontvangt u een melding via e-mail en een Journey Optimizer-waarschuwing. Deze waarschuwing is toegankelijk wanneer u in het tabblad **[!UICONTROL Requests]** op het belpictogram rechtsboven in het scherm klikt.
 
-![](assets/request-notification.png)
+![ het verzoekbericht van het Goedkeuringsverzoek ](assets/request-notification.png)
 
 Als u de reis/campagne wilt bekijken, opent u deze vanuit de e-mail of waarschuwing en controleert u de instellingen zoals het publiek, de inhoud of de instellingen.
-Zodra gedaan, kunt u of [&#x200B; goedkeuren en de reis/de campagne &#x200B;](#approve) publiceren, of [&#x200B; verzoekveranderingen alvorens het &#x200B;](#changes) te activeren.
+Zodra gedaan, kunt u of [ goedkeuren en de reis/de campagne ](#approve) publiceren, of [ verzoekveranderingen alvorens het ](#changes) te activeren.
 
 >[!NOTE]
 >
@@ -35,18 +35,18 @@ Als een reis of campagne klaar is om live te gaan, kunt u deze goedkeuren door o
 
 Klik in het venster dat wordt weergegeven op **[!UICONTROL Approve and activate]** om de rit/campagne live te zetten.
 
-![](assets/approve-request.png)
+![ keur verzoekdialoog ](assets/approve-request.png) goed
 
 ## Wijzigingen in een reis/campagne aanvragen {#changes}
 
 Als er wijzigingen nodig zijn in een reis of campagne die ter goedkeuring is verzonden, kunt u een verzoek naar de maker sturen zodat deze de noodzakelijke wijzigingen aanbrengt.
 
-Klik hiertoe op de knop **[!UICONTROL Request changes]** . Geef in de deelvensters die worden geopend een bericht met uw verzoek op en klik op **[!UICONTROL Send]** om uw verzoek in te dienen.
+Klik hiertoe op de knop **[!UICONTROL Request changes]** . Geef in het deelvenster dat wordt geopend een bericht op met uw verzoek en klik op **[!UICONTROL Send]** om uw verzoek in te dienen.
 
-![](assets/request-changes.png)
+![ de veranderingen van het Verzoek dialoog ](assets/request-changes.png)
 
 Nadat de aanvraag is verzonden, wordt de maker van de reis/campagne via e-mail op de hoogte gebracht en wordt een Journey Optimizer-waarschuwing weergegeven. De campagne keert terug naar de status &quot;Concept&quot;. Nadat de wijzigingen zijn geïntegreerd, kan de maker van de reis/campagne deze opnieuw ter goedkeuring voorleggen.
 
 >[!NOTE]
 >
-> Als u geen goedkeuringsmelding ontvangt via een e-mail, moet u uw abonnementsvoorkeuren bijwerken in uw Experience Cloud-profielen. [Meer informatie](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/account-preferences)
+> Als u geen goedkeuringsmelding ontvangt via een e-mail, moet u uw abonnementsvoorkeuren bijwerken in uw Experience Cloud-profielen. [Meer informatie](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: transport, integratie, standaard, campagne, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 1%
@@ -30,13 +30,13 @@ Als u [!DNL Adobe Campaign] Standard hebt, zijn de volgende ingebouwde handeling
 >
 >Hiervoor moet u de ingebouwde actie configureren. Zie [deze pagina](../action/acs-action.md).
 
-Voor elk van deze kanalen, selecteert u een [!DNL Adobe Campaign] Standaard Transactioneel Overseinen **malplaatje**. Voor de ingebouwde e-mail, sms en duw kanalen, vertrouwen wij op Transactieoverseinen om bericht uit te voeren die verzenden. Dit betekent dat als u een bepaalde berichtsjabloon wilt gebruiken voor uw reizen, u deze moet publiceren in [!DNL Adobe Campaign] Standard. Verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl) om te leren hoe te om deze eigenschap te gebruiken.
+Voor elk van deze kanalen, selecteert u een [!DNL Adobe Campaign] Standaard Transactioneel Overseinen **malplaatje**. Voor de ingebouwde e-mail, sms en duw kanalen, vertrouwen wij op Transactieoverseinen om bericht uit te voeren die verzenden. Dit betekent dat als u een bepaalde berichtsjabloon wilt gebruiken voor uw reizen, u deze moet publiceren in [!DNL Adobe Campaign] Standard. Verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl) om te leren hoe te om deze eigenschap te gebruiken.
 
 >[!NOTE]
 >
 >Het Campaign Standard-transactiebericht en de bijbehorende gebeurtenis moeten worden gepubliceerd om in Journey Optimizer te kunnen worden gebruikt. Als de gebeurtenis wordt gepubliceerd maar het bericht niet is, is het niet zichtbaar in de interface van Journey Optimizer. Als het bericht wordt gepubliceerd maar zijn bijbehorende gebeurtenis niet, zal het in de interface van Journey Optimizer zichtbaar zijn maar het zal niet bruikbaar zijn.
 
-![[!DNL Adobe Campaign] Standaardactieconfiguratie tijdens de rit &#x200B;](assets/journey59.png)
+![[!DNL Adobe Campaign] Standaardactieconfiguratie tijdens de rit ](assets/journey59.png)
 
 U kunt een gebeurtenis (die ook als Real-Time wordt bekend) of een malplaatje van het profieltransactie gebruiken.
 
@@ -46,7 +46,7 @@ U kunt een gebeurtenis (die ook als Real-Time wordt bekend) of een malplaatje va
 
 Wanneer u een sjabloon selecteert, worden alle velden die in de berichtlading worden verwacht, weergegeven in het deelvenster Activiteitsconfiguratie onder **[!UICONTROL Address]** en **[!UICONTROL Personalization Data]** . U moet elk van deze gebieden met het gebied in kaart brengen u, of van de gebeurtenis of van de gegevensbron wilt gebruiken. U kunt de geavanceerde uitdrukkingsredacteur ook gebruiken om een waarde manueel over te gaan, gegevensmanipulatie op teruggewonnen informatie (bijvoorbeeld om een koord in hoofdletters om te zetten) uit te voeren of functies zoals &quot;als, toen, anders&quot;te gebruiken. Zie [deze pagina](expression/expressionadvanced.md).
 
-![&#x200B; de selectieinterface van het het berichtmalplaatje van Campaign Standard &#x200B;](assets/journey60.png)
+![ de selectieinterface van het het berichtmalplaatje van Campaign Standard ](assets/journey60.png)
 
 ## E-mail en sms {#section_asc_51g_nhb}
 
@@ -55,7 +55,7 @@ Voor **[!UICONTROL Email]** en **[!UICONTROL SMS]** zijn de parameters identiek.
 >[!NOTE]
 >
 >Als u de transactiesjabloon van een profiel gebruikt voor e-mail, wordt het mechanisme voor het opzeggen van abonnementen automatisch afgehandeld door [!DNL Adobe Campaign] Standard.
->Omvat een **[!UICONTROL Unsubscription link]** inhoudsblok binnen [&#x200B; het transactionele e-mailmalplaatje &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl).
+>Omvat een **[!UICONTROL Unsubscription link]** inhoudsblok binnen [ het transactionele e-mailmalplaatje ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl).
 >Als u een op een gebeurtenis gebaseerde sjabloon (rtEvent) gebruikt, neemt u een koppeling op in het bericht die de e-mail van de ontvanger doorgeeft als een URL-parameter en stuurt u deze naar een bestemmingspagina zonder abonnement.
 >Maak de landingspagina en zorg ervoor dat het afwijzingsbesluit van de ontvanger naar Adobe wordt gezonden.
 
@@ -73,7 +73,7 @@ Met de interface kunt u eenvoudig bepalen waar de **[!UICONTROL Address]** - of 
 
 Dit zijn de gebieden het systeem vereist om te weten waar te om het bericht te verzenden. Voor een e-mailsjabloon is dit het e-mailadres. Voor een SMS is het het mobiele telefoonnummer.
 
-![&#x200B; de parameterconfiguratie van het Bericht voor de integratie van Campaign Standard &#x200B;](assets/journey61.png)
+![ de parameterconfiguratie van het Bericht voor de integratie van Campaign Standard ](assets/journey61.png)
 
 **[!UICONTROL Personalization Data]**
 
@@ -83,15 +83,15 @@ Dit zijn de gebieden het systeem vereist om te weten waar te om het bericht te v
 
 Dit zijn de velden die worden verwacht door het standaardbericht van [!DNL Adobe Campaign] . Deze velden kunnen worden gebruikt om het bericht aan te passen, voorwaardelijke opmaak toe te passen of een specifieke berichtvariant te kiezen.
 
-![&#x200B; afbeelding van het Gebied tussen Journey Optimizer en Campaign Standard &#x200B;](assets/journey62.png)
+![ afbeelding van het Gebied tussen Journey Optimizer en Campaign Standard ](assets/journey62.png)
 
 ## Push {#section_im3_hvf_nhb}
 
-Voordat u de pushactiviteit kunt gebruiken, moet uw mobiele app samen met Campaign Standard worden geconfigureerd om pushberichten te verzenden. Gebruik dit [&#x200B; artikel &#x200B;](https://helpx.adobe.com/nl/campaign/kb/integrate-mobile-sdk.html) om de noodzakelijke implementatiestappen voor mobiel te nemen.
+Voordat u de pushactiviteit kunt gebruiken, moet uw mobiele app samen met Campaign Standard worden geconfigureerd om pushberichten te verzenden. Gebruik dit [ artikel ](https://helpx.adobe.com/nl/campaign/kb/integrate-mobile-sdk.html) om de noodzakelijke implementatiestappen voor mobiel te nemen.
 
 Eerst moet u een mobiele app kiezen in de vervolgkeuzelijst en een transactiebericht.
 
-![&#x200B; Geavanceerde uitdrukkingsredacteur voor de parameterafbeelding van Campaign Standard &#x200B;](assets/journey62bis.png)
+![ Geavanceerde uitdrukkingsredacteur voor de parameterafbeelding van Campaign Standard ](assets/journey62bis.png)
 
 Er zijn twee categorieën beschikbaar: **[!UICONTROL Target]** en **[!UICONTROL Personalization Data]** .
 
