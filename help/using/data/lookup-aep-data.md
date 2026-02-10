@@ -9,10 +9,11 @@ role: Developer
 level: Intermediate
 keywords: expression, editor
 mini-toc-levels: 1
+badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 41364a89289f0657a2b7646c5daa45a369936e57
+source-git-commit: c5fe9a17bc0ddcffb1af63bf040a9c84d995fdba
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,11 @@ ht-degree: 0%
 
 Met [!DNL Journey Optimizer] kunt u gegevens uit [!DNL Adobe Experience Platform] -gegevens benutten met mogelijkheden voor personalisatie, besluitvorming en reisorchestratie. Om dit te doen, op verslag-gebaseerde datasets nodig voor raadplegingsverpersoonlijking moet eerst voor de raadplegingsdienst worden toegelaten zoals hieronder beschreven.
 
-Leer meer op hoe te om met datasets in deze sectie toegang te hebben en te werken: [&#x200B; wordt begonnen met datasets &#x200B;](../data/get-started-datasets.md)
+>[!NOTE]
+>
+>De mogelijkheid voor het opzoeken van gegevens is alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
+
+Leer meer op hoe te om met datasets in deze sectie toegang te hebben en te werken: [ wordt begonnen met datasets ](../data/get-started-datasets.md)
 
 ## Meer lezen
 
@@ -106,7 +111,7 @@ In het gegevenssetbeheer gebruikersinterface, gebruik de knevel om de dataset vo
 
 ### API-methode
 
-Volg de richtingen die in [&#x200B; worden gedetailleerd deze documentatie &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) om uw milieu te vormen om API bevelen te verzenden.
+Volg de richtingen die in [ worden gedetailleerd deze documentatie ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) om uw milieu te vormen om API bevelen te verzenden.
 
 #### Vereisten
 
