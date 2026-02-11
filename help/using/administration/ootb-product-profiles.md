@@ -18,7 +18,7 @@ ht-degree: 5%
 
 # Ingebouwde rollen {#ootb-product-profiles}
 
-Ingebouwde rollen zijn een reeks eenheidrechten die gebruikers toegang tot bepaalde functies of objecten in de interface biedt. Verwijs naar [ deze pagina ](ootb-permissions.md) voor de lijst van beschikbare toestemmingen om uw rol te bouwen.
+Ingebouwde rollen zijn een reeks eenheidrechten die gebruikers toegang tot bepaalde functies of objecten in de interface biedt. Verwijs naar [&#x200B; deze pagina &#x200B;](ootb-permissions.md) voor de lijst van beschikbare toestemmingen om uw rol te bouwen.
 
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
