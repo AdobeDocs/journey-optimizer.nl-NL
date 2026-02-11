@@ -7,23 +7,236 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: e89d861a55985e84fa2640de94d7a776c75defa2
+source-git-commit: c42aa41ed0d5d688840cf06512a04c22d74c828c
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
 
 # Opmerkingen voorafgaand aan de release {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [&#x200B; versienota&#39;s &#x200B;](release-notes.md).
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
+
+## Opmerkingen voorafgaand aan de release van februari &#39;26 {#feb-26-01-rn}
+
+**de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
+
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+
+**de datum van de Versie**: 17 februari, 2026
+
+### Nieuwe functies {#feb-26-01-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Golf die uitgaande berichten verzendt</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt uitgaande berichten van campagnes of reizen plannen die in <strong> gecontroleerde partijen </strong> in tijd moeten worden geleverd. <strong> Golf die </strong> verzendt biedt de volgende voordelen aan:</p>
+<ul>
+<li>Betere leverbaarheid - Spread verzendt in tijd om te helpen een sterke sender reputatie handhaven en het risico verminderen om als spam worden gemarkeerd.</li>
+<li>Controle van de lading - vermijd overweldigende stroomafwaartse systemen (bijvoorbeeld, callcenters of landende pagina's) door te beperken hoeveel berichten in één keer uitgaan.</li>
+<li>Gebruiksgevallen met veel volume en tijdgevoeligheid - Geschikt voor grote doelgroepen of wanneer u de timing moet bepalen (bijvoorbeeld capaciteit van het callcenter, opwaardering of tijdgebonden aanbiedingen).</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Beslissingsactiviteit inhoud</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Een nieuwe <strong> activiteit van het besluit van de Inhoud </strong> is nu beschikbaar in het wegcanvas voor het integreren <strong> gepersonaliseerde aanbiedingen </strong> direct in uw klantenreizen. Deze activiteit laat u toe om op besluit-gebaseerde inhoud te leveren en die aanbiedingen door uw reis te verwijzen - in voorwaarden om op geschiktheid-gebaseerde vertakking tot stand te brengen, in douaneacties voor het overgaan van aanbiedingsgegevens aan externe systemen, en in andere activiteiten om volledig gepersonaliseerde klantenervaringen op te bouwen.</p>
+<p>Deze mogelijkheid is nu beschikbaar voor alle omgevingen (algemene beschikbaarheid).</p>
+<p>Beschikbaarheidsdatum: 9 februari 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Actie tijdens reizen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer steunt een nieuwe generische <strong> activiteit van de Actie </strong> die u toelaat om zowel enige acties als <strong> multi-action binnenkomende actiegroepen </strong> te vormen, die voor gestroomlijnde actieconfiguratie binnen het wegcanvas toestaan. Met deze nieuwe functie kunt u met name:</p>
+<ul>
+<li>Een vereenvoudigde native actieconfiguratie binnen het reiscanvas.</li>
+<li>De capaciteit om multi-actie binnenkomende actiegroepen te creëren.</li>
+<li>De mogelijkheid om optimalisatie toe te voegen aan ingebouwde kanaalacties.</li>
+<li>De mogelijkheid om zowel experimentele als meertalige opties aan een actie toe te voegen.</li>
+</ul>
+<p>Deze mogelijkheid is nu beschikbaar voor alle omgevingen (algemene beschikbaarheid).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent: ritten maken</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De reis creeert Agent laat de gebruikers van Journey Optimizer toe om marketing reizen te bouwen en te vormen gebruikend a <strong> natuurlijke taal </strong> interface. Met Reis creeert Agent, kunnen de artsen reizen snel tot stand brengen door hun vereisten in <strong> gespreksafhankelijke herinneringen </strong> te beschrijven. De agent stroomlijnt de verwezenlijking van de reis, toestaand marketers om zich op strategie eerder dan technische configuratie te concentreren.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Reisarbitrage</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt formules en de modellen van AI nu gebruiken om <strong> de prioritaire scores van de reis </strong> automatisch op te voeren die op de attributen van het klantenprofiel en contextafhankelijke factoren worden gebaseerd, die klanten verzekeren gaan de meest relevante reizen in.</p>
+<p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent-inhoud genereren</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Agent is met Adobe Experience Platform Agent Orchestrator verkrijgbaar en biedt u de mogelijkheid reizen te analyseren via een natuurlijke taalinterface. U kunt kanaal-specifieke inhoud nu ook direct in Journey Agent produceren en beheren, creërend inhoud voor kanalen zoals e-mail en duw, het toepassen van en het voorvertonen van malplaatjes, het verfijnen van toon en stijl door herinneringen, en het openen van inhoud in <strong> Inhoud Designer </strong> voor in-context het uitgeven.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>CC in configuratie e-mailkanaal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt een facultatief <strong> CC (het exemplaar van koolstof) </strong> gebied aan uw configuraties van het e-mailkanaal nu toevoegen. In tegenstelling tot BCC, is het adres van CC zichtbaar aan de primaire ontvanger, zodat kunt u een exemplaar naar de juiste persoon per bericht - bijvoorbeeld een relatiemanager - verzenden terwijl de klant ziet wie in CC is en hen voor follow-up kan contacteren. Het gebied van CC steunt <strong> verpersoonlijking </strong> zodat kan één configuratie vele scenario's dienen.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Experience Platform-gegevens gebruiken in besluitvorming</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Het gebruiken van <strong> gegevens van Adobe Experience Platform </strong> in Beslissing is nu beschikbaar voor <strong> alle kanalen </strong>. Voorheen was deze mogelijkheid beperkt tot e-mail en aangepaste handelingen tijdens reizen.</p>
+<p>Deze mogelijkheid is nu beschikbaar voor alle omgevingen (algemene beschikbaarheid).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Web Push-berichtkanaal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer steunt nu <strong> Push berichten van het Web </strong>, uitbreidend het duw kanaal voorbij mobiel. U kunt naadloos berichten leveren aan zowel mobiele als desktopbrowsers, zodat u klanten rechtstreeks op hun apparaten kunt bereiken zonder een app te hoeven gebruiken. Dankzij deze verbetering kunt u gebruikers in real-time en op maat gesneden berichten laten zien, zodat u dezelfde ontwerpworkflows kunt gebruiken en de functies kunt kiezen die al beschikbaar zijn voor mobiele push.</p>
+<p>Eerder in bèta is deze mogelijkheid nu beschikbaar voor alle omgevingen (algemene beschikbaarheid).</p>
+<p>Beschikbaarheidsdatum: 11 februari 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbeteringen {#feb-26-01-improv}
+
+De verbeteringen die bij deze release worden geleverd, worden hieronder weergegeven.
+
+#### AI
+
+* **de brandjes van de Update met nieuw kleurenlusje** - de hulp van de Merk zorgt ervoor uw merk constant over alle touchpoints wordt voorgesteld. De nieuwe <strong> sectie van Kleuren </strong> bepaalt de normen voor het de kleurensysteem van uw merk, die schetsen hoe de kleuren worden geselecteerd, georganiseerd, en toegepast over ervaringen. Het zorgt voor consistent gebruik van primaire, secundaire, accenten en neutrale kleuren ter ondersteuning van een consistente, toegankelijke en herkenbare merkidentiteit.
+
+* **Integratie van de modellen van douaneFirefly en derdebeeldgeneratie** - laat naadloze integratie van standaard en <strong> modellen van douaneFirefly </strong>, samen met goedgekeurde <strong> modellen van het derdebeeld </strong> (bijvoorbeeld, NanoBanana) toe, om grotere flexibiliteit, controle, en merkgroepering te verstrekken wanneer het produceren van beelden. Op deze manier kunt u het beste model voor elk geval van gebruik selecteren: standaard Firefly voor algemene behoeften, aangepaste Firefly voor on-brand-productie of goedgekeurde modellen van derden voor gespecialiseerde of experimentele scenario&#39;s.
+
+#### Campagnes
+
+* **Omslagen voor reizen en campagnes** - u kunt uw reizen en campagnes in <strong> omslagen </strong> nu organiseren om navigatie en beheer in de interface te verbeteren.
+
+#### Kanalen
+
+* **Mobiele Levende Activiteiten** - <strong> Levende Activiteiten </strong> verstrekken updates in real time en interactieve ervaringen binnen mobiele apps, toestaand gebruikers om over aan de gang zijnde gebeurtenissen of taken direct op het scherm van hun apparaat te blijven. Deze functie verbetert de betrokkenheid door live-informatie te leveren, zoals voortgangscontrole, updates van gebeurtenissen of interactieve inhoud, zonder dat gebruikers de app hoeven te openen.
+
+  **Nota**: Eerder vrijgegeven in bèta, is dit vermogen nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid).
+
+#### Configuratie
+
+* **Subdomain de omschakeling van de delegatiemethode** - u kunt nu van één <strong> subdomain delegatie </strong> methode aan een andere schakelen. Dit laat u toe om domeinen te migreren gebruikend de de delegatiemodus van de NAAM aan de methode van de douanedelegatie om aan het veiligheidsbeleid van uw bedrijf te voldoen.
+
+#### Email Designer
+
+* **gebruik een merkthema om een beeld in een e-mailmalplaatje** om te zetten - wanneer het omzetten van een beeld in een e-mailmalplaatje in Journey Optimizer, kunt u a <strong> merkthema </strong> nu als input gebruiken zodat geproduceerde HTML uw merkparameters volgt. Stijlen zoals achtergrondkleur, knopkleur, lettertypen, regelafstand, marges en opvulling worden automatisch toegepast, waardoor het handmatig ontwerpen minder wordt en een sjabloon ontstaat die klaar is voor gebruik met minimale bewerkingen.
+
+#### Ervaar beslissingsvermogen
+
+* **maak fragmenten** vast - Journey Optimizer verstrekt nu de capaciteit om <strong> fragmenten </strong> aan <strong> besluitvormingspunten </strong> vast te maken die in code-gebaseerde ervaringscampagnes door besluitvormingsbeleid kunnen worden leveraged.
+
+  **Nota**: Deze verbetering is nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid).
+
+  Beschikbaarheidsdatum: 9 februari 2026.
+
+* **Aanbieding Rangschikt AI ModelWaarneming** - Journey Optimizer staat u nu toe om de gezondheid, de opleidingsstatus, en de prestaties van uw <strong> AI modellen </strong> in Beslissing te controleren zodat kunt u opleidingssucces verifiëren, mislukkingen problemen oplossen, en effect op uw resultaten begrijpen. Deze mogelijkheid is alleen beschikbaar voor gepersonaliseerde optimalisatiemodellen (niet voor automatische optimalisatie).
+
+* **de Voorproef van het Beslissen van de Ervaring in het op code-gebaseerde kanaal van de Ervaring** - u kunt <strong> voorproefbesluitpunten </strong> wanneer het vormen van Ervaring Beslissing met het <strong> op code-Gebaseerde kanaal van de Ervaring </strong>. Voorvertoning is rechtstreeks beschikbaar in de ontwerpinterface voordat u live gaat.
+
+#### Journeys
+
+* **Veelvoudige binnenkomende acties in reizen** - om uw reisorchestratie te vereenvoudigen, kunt u <strong> veelvoudige binnenkomende acties </strong> in één enkele reis nu bepalen. Eerder beschikbaar in campagnes, laat dit vermogen u toe om veelvoudige code-gebaseerde ervaringen, in-app berichten, inhoudskaarten, of Webacties aan verschillende plaatsen tezelfdertijd te leveren, elke actie die specifieke inhoud bevat.
+
+  **Nota**: Deze verbetering is nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid).
+
+#### Geordende campagnes
+
+* **activiteit van de Test in georkestreerde campagnes** - de <strong> activiteit van de Test </strong> is nu beschikbaar in georkestreerde campagnes. Deze de controleactiviteit van de Stroom laat <strong> voorwaardelijk vertakkend </strong> met veelvoudige die outputovergangen toe op gespecificeerde voorwaarden worden gebaseerd, zodat kunt u dynamische campagnestromen tot stand brengen die aan verschillende scenario&#39;s aanpassen.
 
 <!--
 ## January '26 pre-release notes {#jan-26-01-rn}
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -201,7 +414,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
