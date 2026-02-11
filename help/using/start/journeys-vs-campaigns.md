@@ -9,13 +9,13 @@ level: Beginner
 keywords: reis, campagne, georkestreerd, vergelijking, keuze, beslissing, workflow, realtime, batch, orchestratie, meerdere stappen, gepland, API-geactiveerd, gebeurtenisgestuurd
 hide: true
 hidefromtoc: true
-source-git-commit: c1efa56fc3f3c93bdc4b9c7a9f4e81b58cbcff72
+exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 1%
 
 ---
-
 
 # Reizen en campagnes: kies de juiste aanpak {#journeys-vs-campaigns}
 
@@ -207,7 +207,7 @@ Combineert werkstroomcomplexiteit met het uitvoeren van batchcampagnes.
 | Web | ✅ | ✅ | ❌ | ❌ |
 | Op code gebaseerd | ✅ | ✅ | ❌ | ❌ |
 | Inhoudskaarten | ✅ | ✅ | ❌ | ❌ |
-| Direct mail | ✅ | ✅ | ❌ | ❌ |
+| Direct mail | ✅ | ✅ | ❌ | ✅ |
 
 ### Geavanceerde mogelijkheden
 
@@ -280,4 +280,3 @@ Klaar om te beginnen met bouwen? Bekijk de gedetailleerde documentatie voor uw g
 * [Vergelijking van campagne-typen](../campaigns/get-started-with-campaigns.md#campaign-types)
 * [Veelgestelde vragen over reizen](../building-journeys/journey-faq.md)
 * [Veelgestelde vragen over geordende campagnes](../orchestrated/orchestrated-campaigns-faq.md)
-
