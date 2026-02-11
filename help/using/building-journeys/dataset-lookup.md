@@ -42,7 +42,7 @@ Herzie deze vereisten alvorens u datasetraadplegingen vormt.
 
 ### Gegevensset inschakelen
 
-De dataset moet voor raadpleging in [!DNL Adobe Experience Platform] worden toegelaten. De gedetailleerde informatie is beschikbaar in deze sectie: [ gegevens van het 1} Gebruik  [!DNL Adobe Experience Platform] .](../data/lookup-aep-data.md)
+De dataset moet voor raadpleging in [!DNL Adobe Experience Platform] worden toegelaten. De gedetailleerde informatie is beschikbaar in deze sectie: [&#x200B; gegevens van het 1&rbrace; Gebruik  [!DNL Adobe Experience Platform] .](../data/lookup-aep-data.md)
 
 ### Beperkingen en beperkingen
 
@@ -66,7 +66,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Dataset lookup]** -activiteit t
 
 1. Ontgrendel de categorie **[!UICONTROL Orchestration]** en zet een **[!UICONTROL Dataset lookup]** -activiteit neer op uw canvas.
 
-   ![[!DNL Adobe Experience Platform] activiteit van de datasetraadpleging in reis ](assets/aep-data-activity.png)
+   ![[!DNL Adobe Experience Platform] activiteit van de datasetraadpleging in reis &#x200B;](assets/aep-data-activity.png)
 
 1. Voeg een label en beschrijving toe.
 
@@ -74,7 +74,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Dataset lookup]** -activiteit t
 
    >[!NOTE]
    >
-   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten. Voor meer details, verwijs naar [ ](#must-read) sectie moet lezen.
+   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten. Voor meer details, verwijs naar [&#x200B; &#x200B;](#must-read) sectie moet lezen.
 
 1. Selecteer de specifieke gebieden u van de dataset wilt halen.
 
@@ -84,7 +84,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Dataset lookup]** -activiteit t
 
    +++Voorbeeld
 
-   ![ het gebiedsselectie van de Dataset die primitieve gegevenstypes en structuur tonen ](assets/aep-data-leaf-primitive.png)
+   ![&#x200B; het gebiedsselectie van de Dataset die primitieve gegevenstypes en structuur tonen &#x200B;](assets/aep-data-leaf-primitive.png)
 
    +++
 
@@ -96,7 +96,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Dataset lookup]** -activiteit t
 
    +++Voorbeeld
 
-   ![ de redacteur van de Uitdrukking met de raadpleging van het gegevenssetgebied en koordfuncties ](assets/aep-data-strings.png)
+   ![&#x200B; de redacteur van de Uitdrukking met de raadpleging van het gegevenssetgebied en koordfuncties &#x200B;](assets/aep-data-strings.png)
 
    +++
 
@@ -106,7 +106,7 @@ De gegevens die door de **[!UICONTROL Dataset lookup]** -activiteit worden opgeh
 
 * **Redacteur van de Uitdrukking van de Reis**:
 
-  Open de editor van **[!UICONTROL Advanced mode]** en gebruik de syntaxis: `@datasetLookup{MyDatasetLookUpActivity1.entities}` . [ Leer hoe te met de geavanceerde uitdrukkingsredacteur te werken ](../building-journeys/expression/expressionadvanced.md)
+  Open de editor van **[!UICONTROL Advanced mode]** en gebruik de syntaxis: `@datasetLookup{MyDatasetLookUpActivity1.entities}` . [&#x200B; Leer hoe te met de geavanceerde uitdrukkingsredacteur te werken &#x200B;](../building-journeys/expression/expressionadvanced.md)
 
 * **Redacteur van Personalization**:
 
@@ -126,7 +126,7 @@ De gegevens die door de **[!UICONTROL Dataset lookup]** -activiteit worden opgeh
 
 1. **Gebeurtenis van de Aankoop**: Vang SKUs van de kar van de gebruiker.
 
-1. **de opzoekactiviteit van 0} Dataset:**
+1. **de opzoekactiviteit van 0&rbrace; Dataset:**
 
    * Gegevensset: `products-dataset` (SKU als primaire sleutel).
    * Opzoektoetsen: `list(@event{purchase_event.products.sku})`.
@@ -171,7 +171,7 @@ De gegevens die door de **[!UICONTROL Dataset lookup]** -activiteit worden opgeh
 
 1. **Trigger van de Gebeurtenis van het Profiel**: Leg e-mail IDs van het profiel of gebeurteniscontext vast.
 
-1. **de activiteit van de Opzoeken van de Dataset van 0}:**
+1. **de activiteit van de Opzoeken van de Dataset van 0&rbrace;:**
    * Gegevensset: `loyalty-member-dataset` (e-mail als primaire sleutel).
    * Opzoektoetsen: `@profile.email`.
    * Te retourneren velden: `["email", "loyaltyTier"]`.
