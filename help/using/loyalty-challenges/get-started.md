@@ -29,13 +29,13 @@ ht-degree: 0%
 * [Toegang tot en beheer uitdagingen en taken](access-loyalty-challenges.md)
 * [Uitdagingen maken](create-challenges.md)
 * [Taken maken](create-tasks.md)
-* [ Loyalty Uitdagingen API verwijzing ](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [&#x200B; Loyalty Uitdagingen API verwijzing &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta**. Leer meer over [ beschikbaarheidslabels ](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta**. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
 
 ## Overzicht {#overview}
 
@@ -78,7 +78,7 @@ Het creëren en lanceren van een loyaliteitsuitdaging volgt deze werkschema:
 
 1. **Lancering de uitdaging** - publiceer de uitdaging, dan produceer een reis. Journey Optimizer maakt automatisch de reis voor je uitdaging. Publiceer de auto-geproduceerde reis om de uitdaging voor klanten ter beschikking te stellen.
 
-Voor gedetailleerde geleidelijke instructies, zie [ uitdagingen ](create-challenges.md) creëren.
+Voor gedetailleerde geleidelijke instructies, zie [&#x200B; uitdagingen &#x200B;](create-challenges.md) creëren.
 
 ## Vereisten {#prerequisites}
 
@@ -113,7 +113,7 @@ Neem contact op met de beheerder als u geen toegang hebt tot de functie of aanvu
 
 +++Doelgroep
 
-Zorg ervoor dat het doelpubliek dat u nodig hebt, bestaat in Adobe Experience Platform voordat u de uitdaging aanbrengt. Tijdens uitdagingsconfiguratie, zult u het publiek selecteren dat bepaalt welke klanten verkiesbaar zijn om deel te nemen. [ Leer hoe te met publiek ](../audience/about-audiences.md) te werken.
+Zorg ervoor dat het doelpubliek dat u nodig hebt, bestaat in Adobe Experience Platform voordat u de uitdaging aanbrengt. Tijdens uitdagingsconfiguratie, zult u het publiek selecteren dat bepaalt welke klanten verkiesbaar zijn om deel te nemen. [&#x200B; Leer hoe te met publiek &#x200B;](../audience/about-audiences.md) te werken.
 
 +++
 
@@ -161,4 +161,4 @@ Nu je weet wat Loyalty Challenges zijn en hoe ze werken, is het tijd om in de de
 
 ## API-referentie {#api-reference}
 
-Om loyaliteitsuitdagingen programmatically te beheren, gebruik [ Uitdagingen API van de Loyalty ](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}. Met de API kunt u uitdagingen en taken maken, bijwerken en beheren via REST-eindpunten.
+Om loyaliteitsuitdagingen programmatically te beheren, gebruik [&#x200B; Uitdagingen API van de Loyalty &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}. Met de API kunt u uitdagingen en taken maken, bijwerken en beheren via REST-eindpunten.
