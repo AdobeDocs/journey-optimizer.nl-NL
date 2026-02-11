@@ -29,18 +29,18 @@ ht-degree: 3%
 >title="Journeys"
 >abstract="Ontwerpen van klantritten om persoonlijke, contextuele ervaringen te bieden. Met Journey Optimizer kunt u gebruiksscenario&#39;s voor realtime orchestratie maken met contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen. Het **Overzicht** lusje toont een dashboard met zeer belangrijke metriek met betrekking tot uw reizen. Het **doorbladert** lusje toont de lijst van bestaande reizen."
 
-[!DNL Adobe Journey Optimizer] bevat een omnichannel orchestration canvas dat marketers in staat stelt marketingactiviteiten te harmoniseren met een-op-een-klantenservice. Met de gebruikersinterface kunt u activiteiten van het palet naar het canvas slepen om uw reis te maken. Het interface van de reisgebruiker is gedetailleerd op [&#x200B; deze pagina &#x200B;](journey-ui.md).
+[!DNL Adobe Journey Optimizer] bevat een omnichannel orchestration canvas dat marketers in staat stelt marketingactiviteiten te harmoniseren met een-op-een-klantenservice. Met de gebruikersinterface kunt u activiteiten van het palet naar het canvas slepen om uw reis te maken. Het interface van de reisgebruiker is gedetailleerd op [ deze pagina ](journey-ui.md).
 
-![&#x200B; steekproef van wegcanvas &#x200B;](assets/journey38.png)
+![ steekproef van wegcanvas ](assets/journey38.png)
 
 De belangrijkste stappen om een reis tot stand te brengen zijn gedetailleerd op deze pagina. Zij worden als volgt gestroomlijnd:
 
-![&#x200B; stappen van de reisverwezenlijking: creeer, ontwerp, test, en publiceer &#x200B;](assets/journey-creation-process.png)
+![ stappen van de reisverwezenlijking: creeer, ontwerp, test, en publiceer ](assets/journey-creation-process.png)
 
 
-Bouw uit meerdere stappen klantenreizen om een opeenvolging van interactie, aanbiedingen, en berichten over kanalen in real time in werking te stellen. Deze benadering zorgt ervoor dat klanten op de optimale momenten worden betrokken die op hun acties en relevante bedrijfssignalen worden gebaseerd. Het doelpubliek wordt gedefinieerd op basis van gedrag, contextuele gegevens en bedrijfsgebeurtenissen. De vereisten hangen van uw gebruiksgeval en het [&#x200B; type van reis &#x200B;](entry-management.md#types-of-journeys) af u bouwt.
+Bouw uit meerdere stappen klantenreizen om een opeenvolging van interactie, aanbiedingen, en berichten over kanalen in real time in werking te stellen. Deze benadering zorgt ervoor dat klanten op de optimale momenten worden betrokken die op hun acties en relevante bedrijfssignalen worden gebaseerd. Het doelpubliek wordt gedefinieerd op basis van gedrag, contextuele gegevens en bedrijfsgebeurtenissen. De vereisten hangen van uw gebruiksgeval en het [ type van reis ](entry-management.md#types-of-journeys) af u bouwt.
 
-Leer meer over hoe de profielen door reizen en de tarieven van de reisverwerking in [&#x200B; deze sectie &#x200B;](entry-management.md#journey-processing-rate) stromen.
+Leer meer over hoe de profielen door reizen en de tarieven van de reisverwerking in [ deze sectie ](entry-management.md#journey-processing-rate) stromen.
 
 Voordat u begint met het bouwen van uw reis, dient u ervoor te zorgen dat de relevante configuratiestappen zijn voltooid:
 
