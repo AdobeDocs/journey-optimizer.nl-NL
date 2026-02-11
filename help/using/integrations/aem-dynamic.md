@@ -22,7 +22,7 @@ De Asset-kiezer ondersteunt nu Dynamische media waarmee u goedgekeurde dynamisch
 
 Deze integratie is alleen beschikbaar voor klanten die Dynamic Media Manager as a Cloud Service gebruiken.
 
-Meer over Dynamische Media in Adobe Experience Manager as a Cloud Service leren, verwijs naar [&#x200B; documentatie van Experience Manager &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}.
+Meer over Dynamische Media in Adobe Experience Manager as a Cloud Service leren, verwijs naar [&#x200B; documentatie van Experience Manager &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media){target="_blank"}.
 
 >[!AVAILABILITY]
 >
@@ -37,9 +37,9 @@ Verbeter en optimaliseer uw inhoud voor om het even welk scherm of browser door 
 
 >[!IMPORTANT]
 >
->Zorg ervoor dat Dynamic Media met OpenAPI is ingeschakeld in Adobe Experience Manager as a Cloud Service. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}.
+>Zorg ervoor dat Dynamic Media met OpenAPI is ingeschakeld in Adobe Experience Manager as a Cloud Service. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}.
 
-De dynamische media integratie met Adobe Journey Optimizer is beschikbaar voor zowel Dynamische Media [&#x200B; wijze Scene7 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} als [&#x200B; met OpenAPI &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}.
+De dynamische media integratie met Adobe Journey Optimizer is beschikbaar voor zowel Dynamische Media [&#x200B; wijze Scene7 &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} als [&#x200B; met OpenAPI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}.
 
 <!--
 >[!AVAILABILITY]
@@ -70,7 +70,7 @@ Voer de volgende stappen uit om een Adobe Experience Manager-element toe te voeg
 
 1. Pas de afbeeldingsparameters (bijv. hoogte, breedte, roteren, spiegelen, helderheid, kleurtoon, enz.) naar wens aan de vereisten voor het element aan.
 
-   Voor een uitvoerige lijst van beeldparameters die aan URL kunnen worden toegevoegd, verwijs naar [&#x200B; documentatie van Experience Manager &#x200B;](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference){target="_blank"}.
+   Voor een uitvoerige lijst van beeldparameters die aan URL kunnen worden toegevoegd, verwijs naar [&#x200B; documentatie van Experience Manager &#x200B;](https://experienceleague.adobe.com/nl/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference){target="_blank"}.
 
    ![](assets/dynamic-media-3.png)
 
@@ -88,7 +88,7 @@ Met de experimentatiefunctionaliteit kunt u bijvoorbeeld de bestaande tekstbedek
 
 >[!AVAILABILITY]
 >
->**de bedekking van de Tekst verpersoonlijking** is beschikbaar uitsluitend op Dynamische Media [&#x200B; wijze Scene7 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}. Aangezien de wijze Scene7 niet toegankelijk voor klanten van de Gezondheid is, wordt de inhoud teruggegeven gebruikend een binaire kopie van Journey Optimizer van het beeld. Neem voor alle uitzonderingen contact op met uw Adobe-vertegenwoordiger.
+>**de bedekking van de Tekst verpersoonlijking** is beschikbaar uitsluitend op Dynamische Media [&#x200B; wijze Scene7 &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}. Aangezien de wijze Scene7 niet toegankelijk voor klanten van de Gezondheid is, wordt de inhoud teruggegeven gebruikend een binaire kopie van Journey Optimizer van het beeld. Neem voor alle uitzonderingen contact op met uw Adobe-vertegenwoordiger.
 
 Voer de volgende stappen uit om uw tekstbedekking aan te passen:
 
@@ -129,12 +129,12 @@ Uw inhoud bevat nu uw bijgewerkte tekstbedekking.
 
 Voeg uw Dynamic Media-sjabloon eenvoudig toe in Journey Optimizer en werk uw media-inhoud waar nodig bij. U kunt nu aanpassingsvelden opnemen in uw media, zodat u in Journey Optimizer meer aangepaste en aantrekkelijke inhoud kunt maken.
 
-Leer meer over [&#x200B; Dynamische media malplaatje &#x200B;](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics){target="_blank"}.
+Leer meer over [&#x200B; Dynamische media malplaatje &#x200B;](https://experienceleague.adobe.com/nl/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics){target="_blank"}.
 
 
 >[!AVAILABILITY]
 >
->**Dynamisch media malplaatje** is beschikbaar uitsluitend op Dynamische Media [&#x200B; wijze Scene7 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7). Aangezien de wijze Scene7 niet toegankelijk voor klanten van de Gezondheidszorg is, zal de inhoud niet worden teruggegeven. Neem voor alle uitzonderingen contact op met de ondersteuning van Experience Manager.
+>**Dynamisch media malplaatje** is beschikbaar uitsluitend op Dynamische Media [&#x200B; wijze Scene7 &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/dynamic/config-dms7). Aangezien de wijze Scene7 niet toegankelijk voor klanten van de Gezondheidszorg is, zal de inhoud niet worden teruggegeven. Neem voor alle uitzonderingen contact op met de ondersteuning van Experience Manager.
 
 
 ### Met afbeeldingscomponent {#image-component}
@@ -155,7 +155,7 @@ U kunt de dynamische sjabloon rechtstreeks in de inhoud invoegen met behulp van 
 
 1. In de **montages van het Beeld**, navigeer om tot de parameters van uw dynamisch media malplaatje toegang te hebben.
 
-   De beschikbare gebieden hangen van de parameters af die tijdens de [&#x200B; malplaatjeverwezenlijking &#x200B;](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters){target="_blank"} in Adobe Experience Manager worden toegevoegd.
+   De beschikbare gebieden hangen van de parameters af die tijdens de [&#x200B; malplaatjeverwezenlijking &#x200B;](https://experienceleague.adobe.com/nl/docs/dynamic-media-classic/using/template-basics/creating-template-parameters#creating_template_parameters){target="_blank"} in Adobe Experience Manager worden toegevoegd.
 
    ![](assets/dynamic-media-template-3.png)
 
