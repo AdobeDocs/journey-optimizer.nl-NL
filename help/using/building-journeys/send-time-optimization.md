@@ -101,7 +101,7 @@ De exploratie verzendt tijden wordt geselecteerd in willekeurige volgorde van ve
 
 U vindt hieronder Veelgestelde vragen over Send-Time Optimization.
 
-Wilt u meer details? Gebruik terugkoppelt opties bij de bodem van deze pagina om uw vraag op te heffen, of met [[!DNL Adobe Journey Optimizer]  gemeenschap &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
+Wilt u meer details? Gebruik terugkoppelt opties bij de bodem van deze pagina om uw vraag op te heffen, of met [[!DNL Adobe Journey Optimizer]  gemeenschap &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=nl){target="_blank"} te verbinden.
 
 +++Hoe lang moet ik wachten alvorens Send-Time Optimalisering te gebruiken?
 
