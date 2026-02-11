@@ -149,4 +149,4 @@ Wanneer het analyseren van **reis meldend metriek** gebruikend [!DNL Adobe Exper
 
 In deze video ziet u hoe u uw reizen droog kunt uitvoeren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464688/?captions=dut&learn=on&enablevpops)
