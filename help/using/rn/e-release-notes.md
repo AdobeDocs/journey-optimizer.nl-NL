@@ -7,22 +7,22 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1b21dc3355ebbfe16dd145de929a87eeb26db826
+source-git-commit: 7b32d38ab5ac3790342b64df4ac0db46d1acf444
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1494'
 ht-degree: 2%
 
 ---
 
 # Opmerkingen voorafgaand aan de release {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [&#x200B; versienota&#39;s &#x200B;](release-notes.md).
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
 
 ## Opmerkingen voorafgaand aan de release van februari &#39;26 {#feb-26-01-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 17 februari, 2026
 
@@ -228,11 +228,11 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 #### Configuratie
 
-* **Van de de gebeurtenisraadpleging van de 1&rbrace; Ervaring - Beginnend 1 April, 2026,** de opzoekopdracht van de ervaringsgebeurtenis <strong> in de de uitdrukkingsredacteur van de reisvoorwaarde zal voor organisaties worden gepensioneerd die geen opzoektijd van de ervaringsgebeurtenis in de laatste 90 dagen hebben gebruikt. </strong> Deze mogelijkheid is al sinds 8 juli 2025 niet meer beschikbaar voor nieuwe klantenorganisaties. Voor alternatieven, zie [&#x200B; de gebeurtenisraadpleging van de Ervaring in reizen &#x200B;](../building-journeys/exp-event-lookup.md).
+* **Van de de gebeurtenisraadpleging van de 1} Ervaring - Beginnend 1 April, 2026,** de opzoekopdracht van de ervaringsgebeurtenis <strong> in de de uitdrukkingsredacteur van de reisvoorwaarde zal voor organisaties worden gepensioneerd die geen opzoektijd van de ervaringsgebeurtenis in de laatste 90 dagen hebben gebruikt. </strong> Deze mogelijkheid is al sinds 8 juli 2025 niet meer beschikbaar voor nieuwe klantenorganisaties. Voor alternatieven, zie [ de gebeurtenisraadpleging van de Ervaring in reizen ](../building-journeys/exp-event-lookup.md).
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14136"> Verbinding aan de taak van DOCAC JIRA </a>
 
-* **Subdomain de omschakeling van de delegatiemethode** - u kunt nu van één <strong> subdomain delegatie </strong> methode aan een andere schakelen. Dit laat u toe om domeinen te migreren gebruikend de <strong> wijze van de delegatie van de NAAM 0&rbrace; &lbrace;aan de </strong> douane delegatie <strong> methode om aan het veiligheidsbeleid van uw bedrijf te voldoen.</strong>
+* **Subdomain de omschakeling van de delegatiemethode** - u kunt nu van één <strong> subdomain delegatie </strong> methode aan een andere schakelen. Dit laat u toe om domeinen te migreren gebruikend de <strong> wijze van de delegatie van de NAAM 0} {aan de </strong> douane delegatie <strong> methode om aan het veiligheidsbeleid van uw bedrijf te voldoen.</strong>
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13610"> Verbinding aan de taak van DOCAC JIRA </a>
 
@@ -251,10 +251,6 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 * **Integratie van de modellen van douaneFirefly en derdebeeldgeneratie** - laat naadloze integratie van standaard en douane <strong> modellen van Firefly </strong>, samen met goedgekeurde <strong> modellen van het derdebeeld </strong> (b.v., NanoBanana) toe, om grotere flexibiliteit, controle, en merkgroepering te verstrekken wanneer het produceren van beelden. Op deze manier kunt u het beste model voor elk geval van gebruik selecteren: standaard Firefly voor algemene behoeften, aangepaste Firefly voor on-brand-productie of goedgekeurde modellen van derden voor gespecialiseerde of experimentele scenario&#39;s.
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13918"> Verbinding aan de taak van DOCAC JIRA </a>
-
-* **Firefly 3P modelsteun voor de generatie van het derdebeeld** - u kunt <strong> modellen van de derdebeeldgeneratie </strong> (zoals OpenAI en Gemini) naast Firefly nu gebruiken voor het creëren van beelden in Journey Optimizer. Dit geeft u meer flexibiliteit om het juiste model voor elk gebruiksgeval te kiezen en goedgekeurde externe leveranciers door de <strong> Firefly 3P gateway </strong> te integreren.
-
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14145"> Verbinding aan de taak van DOCAC JIRA </a>
 
 #### Campagnes
 
@@ -299,7 +295,7 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -477,7 +473,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
