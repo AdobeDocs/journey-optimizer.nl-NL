@@ -5,13 +5,13 @@ feature: Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
-source-git-commit: 398d4c2ab3a2312a0af5b8ac835f7d1f49a61b5b
+exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
+source-git-commit: 7b1b79e9263aa2512cf69cb130f322a1558eecff
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 0%
 
 ---
-
 
 # Migratie-API voor besluitvorming {#decisioning-migration-api}
 
@@ -19,7 +19,7 @@ Met de API voor beslissingsmigratieservice kunt u beslissingsbeheerobjecten migr
 
 Met deze API kunt u uw beslissingsinhoud naadloos overbrengen tussen omgevingen (bijvoorbeeld van ontwikkeling naar staging of staging naar productie) en tegelijk de integriteit en relaties van de gegevens behouden.
 
-Om over de voordelen en de mogelijkheden van Beslissing in vergelijking met het beheer van het Besluit te leren, verwijs naar [&#x200B; deze pagina &#x200B;](migrate-to-decisioning.md).
+Om over de voordelen en de mogelijkheden van Beslissing in vergelijking met het beheer van het Besluit te leren, verwijs naar [ deze pagina ](migrate-to-decisioning.md).
 
 ## Mogelijkheden {#capabilities}
 
@@ -51,7 +51,7 @@ Tot de gebruikelijke machtigingen behoren:
 
 >[!NOTE]
 >
->Leer hoe te om de toestemmingen van Beslissing in [&#x200B; toe te wijzen deze sectie &#x200B;](gs-experience-decisioning.md#steps). Voor de volledige lijst van toestemmingen, verwijs naar de [&#x200B; Ingebouwde toestemmingen &#x200B;](../administration/ootb-permissions.md#ootb-permissions) pagina.
+>Leer hoe te om de toestemmingen van Beslissing in [ toe te wijzen deze sectie ](gs-experience-decisioning.md#steps). Voor de volledige lijst van toestemmingen, verwijs naar de [ Ingebouwde toestemmingen ](../administration/ootb-permissions.md#ootb-permissions) pagina.
 
 ### De doelsandbox voorbereiden {#target-sandbox-preparation}
 
@@ -62,7 +62,7 @@ Controleer voordat u een migratie uitvoert of de doelsandbox correct is geconfig
 * **Dataset** - identificeer een datasetnaam voor de migratie (`dependency.datasetName`) te gebruiken.
 * **DataStream** - besluit of de migratie een gegevensstroom (`createDataStream`) zou moeten tot stand brengen.
 
-Voor meer informatie over zandbakbeheer, verwijs naar [&#x200B; Gebruik en wijs zandbakken &#x200B;](../administration/sandboxes.md) toe.
+Voor meer informatie over zandbakbeheer, verwijs naar [ Gebruik en wijs zandbakken ](../administration/sandboxes.md) toe.
 
 ## Basisprincipes van API&#39;s {#api-basics}
 
@@ -70,8 +70,8 @@ Voor meer informatie over zandbakbeheer, verwijs naar [&#x200B; Gebruik en wijs 
 
 Gebruik de volgende basis-URL&#39;s, afhankelijk van uw omgeving:
 
-* **Productie**: `https://platform.adobe.io`
-* **het Staging**: `https://platform-stage.adobe.io`
+* **Productie**: `https://decisioning-migration.adobe.io`
+* **het Staging**: `https://decisioning-migration-stage.adobe.io`
 
 ### Verificatie {#authentication}
 
@@ -79,10 +79,9 @@ Voor alle API-aanvragen zijn de volgende headers vereist:
 
 * `Authorization: Bearer <IMS_ACCESS_TOKEN>`
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
-* `x-api-key: <CLIENT_API_KEY>`
 * `Content-Type: application/json`
 
-Voor gedetailleerde instructies bij vestiging authentificatie, verwijs naar de [&#x200B; de authentificatiegids van Journey Optimizer &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
+Voor gedetailleerde instructies bij vestiging authentificatie, verwijs naar de [ de authentificatiegids van Journey Optimizer ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
 
 ### Workflowmodel {#workflow-model}
 
@@ -91,7 +90,7 @@ Elke API-aanroep maakt of haalt een bron van een workflow op. Workflows zijn asy
 Een werkstroom heeft de volgende eigenschappen:
 
 * `id` - Unieke workflow-id (UUID)
-* `status` - Huidige workflowstatus: `New`, `Running`, `Completed`, `Failed` of `Cancelled`
+* `status` - Huidige workflowstatus: `New`, `Running`, `Completed` of `Failed`
 * `result` - Workflowuitvoer na voltooiing (inclusief migratieresultaten en waarschuwingen)
 * `errors` - Gestructureerde foutdetails wanneer mislukt
 * `_etag` - Versie-id die wordt gebruikt voor verwijderbewerkingen (alleen voor servicegebruikers)
@@ -112,7 +111,7 @@ Gebruik de volgende API-aanroep om een workflow voor afhankelijkheidsanalyse te 
 **API formaat**
 
 ```http
-POST /migration/service/dependency
+POST /workflows/generate-dependencies
 ```
 
 **zandbak-vlakke gebiedsdeel (geadviseerd eerst)**
@@ -121,10 +120,9 @@ Begin met een zandbak-vlakke analyse om een volledige mening van alle gebiedsdel
 
 ```shell
 curl --request POST \
-  --url "https://platform.adobe.io/migration/service/dependency" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
@@ -149,24 +147,23 @@ Opiniepeilen de afhankelijkheidsworkflow om te controleren of de analyse is volt
 **API formaat**
 
 ```http
-GET /migration/service/dependency/{id}
+GET /workflows/generate-dependencies/{id}
 ```
 
 **Verzoek**
 
 ```shell
 curl --request GET \
-  --url "https://platform.adobe.io/migration/service/dependency/<WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies/<WORKFLOW_ID>" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
 Wanneer het veld `status` `Completed` weergeeft, is de afhankelijkheidsanalyse gereed. Gebruik de workflowuitvoer om uw migratie-afhankelijkheidstoewijzingen te maken:
 
-* **profileAttributeDependency** - de attributen van het bronprofiel van Kaarten aan de attributen van het doelprofiel
-* **contextAttributeDependency** - de attributen van de broncontext van Kaarten aan de attributen van de doelcontext
-* **segmentsDependency** - Kaarten bronsegmentsleutels aan doelsegmentherkenningstekens (`{segmentNamespace, segmentId}`)
+* **profileAttributes** - de attributen van het bronprofiel van Kaarten aan de attributen van het doelprofiel
+* **contextAttributes** - de attributen van de broncontext van Kaarten aan de attributen van de doelcontext
+* **segmenten** - Kaarten bronsegmentsleutels aan doelsegmentherkenningstekens (`{namespace, id}`)
 * **datasetName** - specificeert de naam van de doeldataset voor de migratie
 
 ### Stap 2: De migratie uitvoeren {#execute-migration}
@@ -180,7 +177,7 @@ Gebruik de gebiedsafhankelijkheidstoewijzingen van Stap 1 om uw migratie te vorm
 **API formaat**
 
 ```http
-POST /migration/service/migrations
+POST /workflows/migration
 ```
 
 **zandbak-vlakke migratie**
@@ -189,10 +186,9 @@ Alle beslissingsobjecten migreren van de ene naar de andere sandbox:
 
 ```shell
 curl --request POST \
-  --url "https://platform.adobe.io/migration/service/migrations" \
+  --url "https://decisioning-migration.adobe.io/workflows/migration" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
@@ -200,16 +196,16 @@ curl --request POST \
     "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" },
     "createDataStream": true,
     "dependency": {
-      "profileAttributeDependency": {
+      "profileAttributes": {
         "sourceAttr1": "targetAttr1"
       },
-      "segmentsDependency": {
+      "segments": {
         "sourceSegmentKey1": {
-          "segmentNamespace": "<TARGET_SEGMENT_NAMESPACE>",
-          "segmentId": "<TARGET_SEGMENT_ID>"
+          "namespace": "<TARGET_SEGMENT_NAMESPACE>",
+          "id": "<TARGET_SEGMENT_ID>"
         }
       },
-      "contextAttributeDependency": {
+      "contextAttributes": {
         "sourceCtx1": "targetCtx1"
       },
       "datasetName": "<TARGET_DATASET_NAME>"
@@ -241,17 +237,16 @@ Opiniepeiling de migratieworkflow om de voortgang ervan te volgen.
 **API formaat**
 
 ```http
-GET /migration/service/migrations/{id}
+GET /workflows/migration/{id}
 ```
 
 **Verzoek**
 
 ```shell
 curl --request GET \
-  --url "https://platform.adobe.io/migration/service/migrations/<WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/migration/<WORKFLOW_ID>" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
 **de resultaten van de Migratie**
@@ -301,20 +296,21 @@ Start een terugdraaiactie door een terugdraaiworkflow te maken die verwijst naar
 **API formaat**
 
 ```http
-POST /migration/service/rollbacks/{migrationWorkflowId}
+POST /workflows/rollback
 ```
-
-Vervang `{migrationWorkflowId}` door de id van de migratieworkflow die u wilt terugdraaien.
 
 **Verzoek**
 
 ```shell
 curl --request POST \
-  --url "https://platform.adobe.io/migration/service/rollbacks/<MIGRATION_WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/rollback" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "Content-Type: application/json" \
+  --data '{ "rollbackWorkflowId": "<MIGRATION_WORKFLOW_ID>" }'
 ```
+
+Vervang `<MIGRATION_WORKFLOW_ID>` door de id van de migratieworkflow die u wilt terugdraaien.
 
 ### Terugdraaistatus van monitor {#poll-rollback-status}
 
@@ -323,17 +319,16 @@ Opiniepeiling de terugdraaiworkflow om de voortgang te volgen.
 **API formaat**
 
 ```http
-GET /migration/service/rollbacks/{rollbackWorkflowId}
+GET /workflows/rollback/{rollbackWorkflowId}
 ```
 
 **Verzoek**
 
 ```shell
 curl --request GET \
-  --url "https://platform.adobe.io/migration/service/rollbacks/<ROLLBACK_WORKFLOW_ID>" \
+  --url "https://decisioning-migration.adobe.io/workflows/rollback/<ROLLBACK_WORKFLOW_ID>" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "x-api-key: <CLIENT_API_KEY>"
+  --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
 ## Gelijktijdige workflows verwerken {#handle-concurrency}
@@ -363,9 +358,9 @@ De middelen van het werkschema kunnen door de dienstgebruikers slechts worden ge
 
 **Beschikbare schrappingsverrichtingen:**
 
-* `DELETE /migration/service/dependency/{id}`
-* `DELETE /migration/service/migrations/{id}`
-* `DELETE /migration/service/rollbacks/{id}`
+* `DELETE /workflows/generate-dependencies/{id}`
+* `DELETE /workflows/migration/{id}`
+* `DELETE /workflows/rollback/{id}`
 
 >[!NOTE]
 >
@@ -373,7 +368,7 @@ De middelen van het werkschema kunnen door de dienstgebruikers slechts worden ge
 
 ## Verwante onderwerpen {#related-topics}
 
-* [&#x200B; Migreer van het beheer van Besluit aan Beslissing &#x200B;](migrate-to-decisioning.md) - begrijp de voordelen en de mogelijkheden van het migreren aan Beslissing
+* [ Migreer van het beheer van Besluit aan Beslissing ](migrate-to-decisioning.md) - begrijp de voordelen en de mogelijkheden van het migreren aan Beslissing
 * [Aan de slag met beslissing](gs-experience-decisioning.md)
 * [Beslissingsinstructies en beperkingen](decisioning-guardrails.md)
 * [Aan de slag met beslissing-API&#39;s](api-reference/getting-started.md)
