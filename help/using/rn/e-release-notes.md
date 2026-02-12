@@ -16,13 +16,13 @@ ht-degree: 2%
 
 # Opmerkingen voorafgaand aan de release {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [&#x200B; versienota&#39;s &#x200B;](release-notes.md).
 
 ## Opmerkingen voorafgaand aan de release van februari &#39;26 {#feb-26-01-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 17 februari, 2026
 
@@ -228,11 +228,11 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 #### Configuratie
 
-* **Van de de gebeurtenisraadpleging van de 1} Ervaring - Beginnend 1 April, 2026,** de opzoekopdracht van de ervaringsgebeurtenis <strong> in de de uitdrukkingsredacteur van de reisvoorwaarde zal voor organisaties worden gepensioneerd die geen opzoektijd van de ervaringsgebeurtenis in de laatste 90 dagen hebben gebruikt. </strong> Deze mogelijkheid is al sinds 8 juli 2025 niet meer beschikbaar voor nieuwe klantenorganisaties. Voor alternatieven, zie [ de gebeurtenisraadpleging van de Ervaring in reizen ](../building-journeys/exp-event-lookup.md).
+* **Van de de gebeurtenisraadpleging van de 1&rbrace; Ervaring - Beginnend 1 April, 2026,** de opzoekopdracht van de ervaringsgebeurtenis <strong> in de de uitdrukkingsredacteur van de reisvoorwaarde zal voor organisaties worden gepensioneerd die geen opzoektijd van de ervaringsgebeurtenis in de laatste 90 dagen hebben gebruikt. </strong> Deze mogelijkheid is al sinds 8 juli 2025 niet meer beschikbaar voor nieuwe klantenorganisaties. Voor alternatieven, zie [&#x200B; de gebeurtenisraadpleging van de Ervaring in reizen &#x200B;](../building-journeys/exp-event-lookup.md).
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14136"> Verbinding aan de taak van DOCAC JIRA </a>
 
-* **Subdomain de omschakeling van de delegatiemethode** - u kunt nu van één <strong> subdomain delegatie </strong> methode aan een andere schakelen. Dit laat u toe om domeinen te migreren gebruikend de <strong> wijze van de delegatie van de NAAM 0} {aan de </strong> douane delegatie <strong> methode om aan het veiligheidsbeleid van uw bedrijf te voldoen.</strong>
+* **Subdomain de omschakeling van de delegatiemethode** - u kunt nu van één <strong> subdomain delegatie </strong> methode aan een andere schakelen. Dit laat u toe om domeinen te migreren gebruikend de <strong> wijze van de delegatie van de NAAM 0&rbrace; &lbrace;aan de </strong> douane delegatie <strong> methode om aan het veiligheidsbeleid van uw bedrijf te voldoen.</strong>
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13610"> Verbinding aan de taak van DOCAC JIRA </a>
 
