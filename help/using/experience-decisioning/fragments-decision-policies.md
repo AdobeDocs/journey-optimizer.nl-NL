@@ -5,23 +5,23 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
+source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 1%
+source-wordcount: '422'
+ht-degree: 0%
 
 ---
 
-
 # Hefboomfragmenten in besluitvormingsbeleid {#fragments}
 
-Als uw besluitvormingsbeleid besluitpunten met inbegrip van fragmenten bevat, kunt u deze fragmenten in de code van het besluitvormingsbeleid hefboomwerking. [&#x200B; Leer meer op fragmenten &#x200B;](../content-management/fragments.md)
+Als uw besluitvormingsbeleid besluitpunten met inbegrip van fragmenten bevat, kunt u deze fragmenten in de code van het besluitvormingsbeleid hefboomwerking. [ Leer meer op fragmenten ](../content-management/fragments.md)
 
 >[!AVAILABILITY]
 >
->Dit vermogen is momenteel slechts beschikbaar voor het **op code-Gebaseerde ervarings** kanaal en voor een reeks organisaties (Beperkte Beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>Dit vermogen is momenteel slechts beschikbaar voor het **op code-gebaseerde ervarings** kanaal.
 
-Stel bijvoorbeeld dat u verschillende inhoud wilt weergeven voor verschillende modellen van mobiele apparaten. Zorg ervoor u fragmenten die aan die apparaten beantwoorden aan het besluitvormingspunt toevoegde dat u in het besluitvormingsbeleid gebruikt. [&#x200B; leer hoe &#x200B;](items.md#attributes).
+Stel bijvoorbeeld dat u verschillende inhoud wilt weergeven voor verschillende modellen van mobiele apparaten. Zorg ervoor u fragmenten die aan die apparaten beantwoorden aan het besluitvormingspunt toevoegde dat u in het besluitvormingsbeleid gebruikt. [ leer hoe ](items.md#attributes).
 
 ![](assets/item-fragments.png){width=70%}
 
@@ -29,7 +29,7 @@ Nadat u dit hebt gedaan, kunt u een van de volgende methoden gebruiken:
 
 >[!BEGINTABS]
 
->[!TAB neemt direct de code  op]
+>[!TAB  neemt direct de code ] op
 
 U plakt gewoon het codeblok hieronder in de code voor het beslissingsbeleid. Vervang `variable` door de fragment-id en `placement` door de fragmentverwijzingssleutel:
 
@@ -40,7 +40,7 @@ U plakt gewoon het codeblok hieronder in de code voor het beslissingsbeleid. Ver
 
 >[!TAB  volg de gedetailleerde stappen ]
 
-1. Navigeer aan **[!UICONTROL Helper functions]** en voeg **&#x200B;**&#x200B;functie `{% let variable = expression %} {{variable}}` aan de coderuit toe, waar u de variabele voor uw fragment kunt verklaren.
+1. Navigeer aan **[!UICONTROL Helper functions]** en voeg **** functie `{% let variable = expression %} {{variable}}` aan de coderuit toe, waar u de variabele voor uw fragment kunt verklaren.
 
    ![](assets/decision-let-function.png)
 
@@ -93,6 +93,6 @@ Laten wij zeggen u de *sport* variabele in uw fragment wilt gebruiken.
 
 * De validatie van de fragmentinhoud vindt alleen plaats tijdens het maken en publiceren van het fragment.
 
-* In het geval van JSON-fragmenten is de geldigheid van het JSON-object niet gegarandeerd. Zorg ervoor dat de inhoud van het uitdrukkingsfragment een geldige JSON is zodat het in besluitvormingspunten kan worden gebruikt.
+* Voor JSON-expressiefragmenten wordt de inhoud syntactisch gevalideerd bij het opslaan van het fragment. Validatiefouten worden weergegeven als waarschuwingen.
 
 Tijdens runtime wordt de inhoud van de campagne (inclusief fragmentinhoud van besluitvormingsitems) gevalideerd. Als de validatie mislukt, wordt de campagne niet weergegeven.
