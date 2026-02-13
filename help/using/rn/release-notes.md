@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
+source-git-commit: b53f9279a8698e99683cd6e75a7e746102e3e094
 workflow-type: tm+mt
-source-wordcount: '1884'
-ht-degree: 8%
+source-wordcount: '1534'
+ht-degree: 3%
 
 ---
 
@@ -23,13 +23,126 @@ ht-degree: 8%
 
 [!DNL Adobe Journey Optimizer] volgt een doorlopend leveringsmodel, dat Adobe in staat stelt voortdurend nieuwe functies, verbeteringen en correcties te leveren. Deze benadering maakt een schaalbare, gefaseerde implementatie van mogelijkheden mogelijk om prestaties en stabiliteit in alle omgevingen te garanderen.
 
-Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [&#x200B; de versiecyclus van Journey Optimizer &#x200B;](releases.md).
+Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [ de versiecyclus van Journey Optimizer ](releases.md).
 
-[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
-## Updates van februari 1926 {#feb-26-updates}
+## Opmerkingen bij de release van februari &#39;26 {#feb-26-01-rn}
 
-### Nieuwe functies {#feb-26-01-updates-features}
+**de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
+
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+
+**de datum van de Versie**: 17 februari, 2026
+
+### Nieuwe functies {#feb-26-01-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Golf die uitgaande berichten verzendt</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt uitgaande berichten van <strong> campagnes </strong> plannen of <strong> reizen </strong> om in gecontroleerde <strong> partijen </strong> in tijd worden geleverd.</p>
+<p>Wave-verzending biedt de volgende voordelen:</p>
+<ul>
+<li>Betere <strong> leverability </strong> - de spread verzendt in tijd helpen een sterke <strong> afzenderreputatie </strong> handhaven en het risico verminderen om als spam worden gemarkeerd.</li>
+<li><strong> controle van de Lading </strong> - vermijd overweldigende stroomafwaartse systemen (b.v. callcenters, landende pagina's) door te beperken hoeveel berichten uit in één keer gaan.</li>
+<li>Gebruiksscenario's met veel volume en veel tijd - Geschikt voor grote doelgroepen of wanneer u de timing moet bepalen (bijvoorbeeld capaciteit van het callcenter, opwaardering of tijdgebonden aanbiedingen).</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Reisarbitrage</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt <strong> formules </strong> en <strong> modellen van AI </strong> nu gebruiken om <strong> de prioritaire scores van de reis </strong> automatisch op te voeren die op de attributen van het klantenprofiel en contextafhankelijke factoren worden gebaseerd, die klanten verzekeren gaan de meest relevante reizen in.</p>
+<p>Dit vermogen is slechts beschikbaar voor een reeks organisaties (<strong> Beperkte Beschikbaarheid </strong>). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent: Kanaalinhoud maken</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Aangedreven door <strong> Adobe Experience Platform Agent Orchestrator </strong>, <strong> Journey Agent </strong> is beschikbaar in Journey Optimizer en laat u toe om reizen door de interface van de a <strong> natuurlijke taal </strong> te analyseren. U kunt kanaal-specifieke inhoud nu ook direct in Journey Agent produceren en beheren, creërend inhoud voor kanalen zoals e-mail en duw, het toepassen van en het voorvertonen van malplaatjes, het verfijnen van toon en stijl door herinneringen, en het openen van inhoud in <strong> Inhoud Designer </strong> voor in-context het uitgeven.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Live activiteiten op mobiele apparatuur</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong> Levende Activiteiten </strong> verstrekken <strong> updates in real time </strong> en interactieve ervaringen binnen mobiele apps, toestaand gebruikers om over aan de gang zijnde gebeurtenissen of taken direct op het scherm van hun apparaat te blijven. Deze functie verbetert de betrokkenheid door live-informatie te leveren, zoals voortgangscontrole, updates van gebeurtenissen of interactieve inhoud, zonder dat gebruikers de app hoeven te openen.</p>
+<p>Eerder vrijgegeven in bèta, is dit vermogen nu beschikbaar aan alle milieu's (<strong> Algemene Beschikbaarheid </strong>).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Actie tijdens reizen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer steunt een nieuwe generische <strong> activiteit van de Actie </strong> die u toelaat om zowel enige acties als <strong> multi-action binnenkomende actiegroepen </strong> te vormen, die voor gestroomlijnde actieconfiguratie binnen het <strong> wegcanvas </strong> toestaan. Met deze nieuwe functie kunt u met name:</p>
+<ul>
+<li>Een vereenvoudigde native actieconfiguratie binnen het reiscanvas.</li>
+<li>De capaciteit om multi-actie binnenkomende actiegroepen te creëren.</li>
+<li>De capaciteit om <strong> optimalisering </strong> aan om het even welke ingebouwde kanaalactie toe te voegen.</li>
+<li>De capaciteit om zowel <strong> experimenteren </strong> als <strong> meertalige </strong> opties aan om het even welke actie toe te voegen.</li>
+</ul>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Web Push-berichtkanaal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer steunt nu <strong> Push berichten van het Web </strong>, uitbreidend het duw kanaal voorbij mobiel. U kunt naadloos berichten leveren aan zowel mobiele als desktopbrowsers, zodat u klanten rechtstreeks op hun apparaten kunt bereiken zonder een app te hoeven gebruiken. Deze verhoging staat u toe om gebruikers met geschikte, gepersonaliseerde berichten in real time in dienst te nemen, leveraging de zelfde <strong> auteurswerkschema's </strong> en <strong> richtend mogelijkheden </strong> reeds beschikbaar voor mobiele duw.</p>
+<p>Eerder vrijgegeven in bèta, is dit vermogen nu beschikbaar aan alle milieu's (<strong> Algemene Beschikbaarheid </strong>).</p>
+<p>Beschikbaarheidsdatum: 13 februari 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -40,8 +153,8 @@ Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse relea
 <tbody>
 <tr>
 <td>
-<p>Een nieuwe <strong> activiteit van het besluit van de Inhoud </strong> is nu beschikbaar in het wegcanvas voor het integreren <strong> gepersonaliseerde aanbiedingen </strong> direct in uw klantenreizen. Deze activiteit laat u toe om op besluit-gebaseerde inhoud te leveren en die aanbiedingen door uw reis te verwijzen - in voorwaarden om op geschiktheid-gebaseerde vertakking tot stand te brengen, in douaneacties voor het overgaan van aanbiedingsgegevens aan externe systemen, en in andere activiteiten om volledig gepersonaliseerde klantenervaringen op te bouwen.</p>
-<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+<p>Een nieuwe <strong> activiteit van het besluit van de Inhoud </strong> is nu beschikbaar in het <strong> wegcanvas </strong> voor het integreren van <strong> gepersonaliseerde aanbiedingen </strong> direct in uw klantenreizen. Deze activiteit laat u toe om op besluit-gebaseerde inhoud te leveren en die aanbiedingen door uw reis-in voorwaarden voor het creëren van op geschiktheid-gebaseerde vertakking, in douaneacties voor het overgaan van aanbiedingsgegevens aan externe systemen, en in andere activiteiten voor de bouw van volledig gepersonaliseerde klantenervaringen van verwijzingen te voorzien.</p>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is dit vermogen nu beschikbaar aan alle milieu's (<strong> Algemene Beschikbaarheid </strong>).</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>Raadpleeg de <a href="../building-journeys/content-decision.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <p>Beschikbaarheidsdatum: 11 februari 2026</p>
@@ -59,11 +172,11 @@ Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse relea
 <tbody>
 <tr>
 <td>
-<p><strong> het tooling APIs van de Migratie </strong> is nu beschikbaar om besluitvormingsentiteiten programmatically te migreren aan Beslissing, kenmerkend:</p>
+<p><strong> het hulpmiddel van de Migratie APIs </strong> is nu beschikbaar om <strong> het beheer van het Besluit </strong> entiteiten aan <strong> Beslissing </strong> programmatically te migreren, kenmerkend:</p>
 <ul>
-<li>Flexibele migratieruimten (sandbox-, bied- of beslissingsniveau)</li>
-<li>Geautomatiseerde afhankelijkheidsanalyse en -validatie</li>
-<li>Ondersteuning voor terugdraaien van voltooide migraties</li>
+<li>Flexibele migratiewerkingsgebied (<strong> zandbak </strong>, <strong> aanbieding </strong>, of <strong> besluit </strong> niveau)</li>
+<li>Geautomatiseerde <strong> gebiedsdeelanalyse </strong> en bevestiging</li>
+<li><strong> de steun van het Terugschroeven van prijzen </strong> voor voltooide migraties</li>
 <li>Gedetailleerde migratierapporten met objecttoewijzingen</li>
 </ul>
 <p>Raadpleeg de <a href="../experience-decisioning/decisioning-migration-api.md">gedetailleerde documentatie</a> voor meer informatie.</p>
@@ -82,8 +195,8 @@ Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse relea
 <tbody>
 <tr>
 <td>
-<p>Versterken dieper insight in de gezondheid en de prestaties van uw <strong> eindpunten van de douaneactie </strong> met een nieuw controledashboard en verrijkte gegevens van de de de gebeurtenisgebeurtenis van de reisstap. Spoor succesvolle vraag, fouten, productie, reactietijden, en rij wacht tijden om snel te begrijpen wanneer, waar, en waarom anomalieën voorkomen.</p>
-<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+<p>Versterking dieper insight in de gezondheid en de prestaties van uw <strong> eindpunten van de douaneactie </strong> met een nieuw <strong> controledashboard </strong> en verrijkte <strong> gegevens van de de gebeurtenisstap van de reisstap </strong>. Spoor succesvolle vraag, fouten, productie, reactietijden, en rij wacht tijden om snel te begrijpen wanneer, waar, en waarom anomalieën voorkomen.</p>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is dit vermogen nu beschikbaar aan alle milieu's (<strong> Algemene Beschikbaarheid </strong>).</p>
 <p>Raadpleeg de <a href="../action/reporting.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <p>Beschikbaarheidsdatum: 3 februari 2026</p>
 </td>
@@ -100,7 +213,7 @@ Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse relea
 <tbody>
 <tr>
 <td>
-<p>U kunt de inhoud van uw <strong> berichten van SMS </strong> met <strong> Beslissing </strong> nu personaliseren en optimaliseren. Gebruik Prioritaire scores, Formulas of AI-modellen om de beste inhoud weer te geven aan uw klanten.</p>
+<p>U kunt de inhoud van uw <strong> berichten van SMS </strong> met <strong> Beslissing </strong> nu personaliseren en optimaliseren. De Scores van de Prioriteit van het gebruik <strong>, </strong> Formulas <strong>, of </strong> AI Modellen <strong> om de beste inhoud aan uw klanten te tonen.</strong></p>
 <p>Raadpleeg de <a href="../experience-decisioning/create-decision.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <p>Beschikbaarheidsdatum: 2 februari 2026</p>
 </td>
@@ -108,280 +221,60 @@ Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse relea
 </tbody>
 </table>
 
-### Verbeteringen {#feb-26-01-updates-improv}
+### Verbeteringen {#feb-26-01-improv}
 
-* **maak fragmenten** vast - Journey Optimizer verstrekt nu de capaciteit om <strong> fragmenten </strong> aan <strong> besluitvormingspunten </strong> vast te maken die in code-gebaseerde ervaringscampagnes door besluitvormingsbeleid kunnen worden leveraged. Eerder uitgebracht in Beperkte Beschikbaarheid, is deze verbetering nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid). [Meer informatie](../experience-decisioning/fragments-decision-policies.md)
+De verbeteringen die bij deze release worden geleverd, worden hieronder weergegeven.
 
-  Beschikbaarheidsdatum: 12 februari 2026.
+#### Configuratie
 
-* **JSON-Type de bevestiging van het uitdrukkingsfragment** - JSON-Type uitdrukkingsfragmenten worden nu syntactisch bevestigd wanneer bewaard. Validatiefouten worden beschouwd als waarschuwingen en worden na het opslaan weergegeven als waarschuwingen. [Meer informatie](../content-management/create-fragments.md#content)
-
-  Beschikbaarheidsdatum: 12 februari 2026.
-
-* **Webhooks van SMS** - Webhooks worden nu gesteund over alle leveranciers van SMS. U kunt elke WebHaak vormen die op zijn voorgenomen doel, binnenkomende webhooks wordt gebaseerd om inkomende berichten en terugkoppelen webhooks te vangen om leveringsontvangstbewijzen, statusupdates, en andere bericht-gerelateerde gebeurtenissen te ontvangen. [Meer informatie](../sms/sms-webhook.md)
-
-  Beschikbaarheidsdatum: 2 februari 2026.
-
-## Opmerkingen bij de release van januari &#39;26 {#latest-rn}
-
-<!--**Release date**: January 27-28, 2026-->
-
-De [&#x200B; Eigenschappen &#x200B;](#jan-26-01-features) en [&#x200B; Verbeteringen &#x200B;](#jan-26-01-improv) secties behandelen reeds beschikbare mogelijkheden, terwijl [&#x200B; komende spoedig &#x200B;](#jan-26-01-coming-soon) punten die voor een recentere beschikbaarheidsdatum worden gepland.
-
-<!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
-
-### Nieuwe functies {#jan-26-01-features}
+* **het gebeurtenisgebruik van de Ervaring in reisuitdrukkingen** - Beginnend 1 April, 2026, zal het gebruik van de attributen van de ervaringsgebeurtenis in reisuitdrukkingen niet meer gesteund worden voor organisaties die dit vermogen in de laatste 90 dagen niet hebben gebruikt. Deze mogelijkheid is al sinds 8 juli 2025 niet meer beschikbaar voor nieuwe klantenorganisaties. Voor alternatieven, zie [ de gebeurtenisraadpleging van de Ervaring in reizen ](../building-journeys/exp-event-lookup.md).
 
 
-<table>
-<thead>
-<tr>
-<th><strong>Ondersteuning voor beslissingen in het pushkanaal</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt de inhoud van uw <strong> Push berichten </strong> met <strong> Beslissing </strong> nu personaliseren en optimaliseren. Gebruik Prioritaire scores, Formulas of AI-modellen om de beste inhoud weer te geven aan uw klanten.</p>
-<p>Voor het bepalen van de ervaring met pushmeldingen is een specifieke versie van de Mobile SDK vereist. Alvorens deze eigenschap uit te voeren, controleer de <a href="https://developer.adobe.com/client-sdks/home/release-notes/" target="_blank"> versienota's </a> om de vereiste versie te identificeren en u te verzekeren dienovereenkomstig hebt bevorderd. U kunt alle beschikbare versies van SDK voor uw platform in <a href="https://developer.adobe.com/client-sdks/home/current-sdk-versions/" target="_blank"> ook bekijken deze sectie </a>.</p>
-<p>Raadpleeg de <a href="../experience-decisioning/create-decision.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p>Beschikbaarheidsdatum: 30 januari 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
+* **Subdomain de omschakeling van de delegatiemethode** - u kunt nu van één <strong> subdomain delegatie </strong> methode aan een andere schakelen. Dit laat u toe om domeinen te migreren gebruikend de <strong> wijze van de delegatie van de NAAM 0} {aan de </strong> douane delegatie <strong> methode om aan het veiligheidsbeleid van uw bedrijf te voldoen.</strong>
 
-<table>
-<thead>
-<tr>
-<th><strong>Directe post voor reizen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Eerder beperkt tot Campagnes, <strong> is het kanaal van 0&rbrace; Directe Post &lbrace;nu beschikbaar op het wegcanvas, toelatend u om Directe Post in uw reizen op te nemen. </strong> De directe Post kan nu in zowel <strong> partij en 1:1 reisscenario's </strong>, met steun voor de configuratie van de dossierextractie en op tijd-gebaseerde frequentiemontages worden gebruikt.</p>
-<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
-<p><img src="assets/do-not-localize/dm-journey.gif"/></p>
-<p>Raadpleeg de <a href="../direct-mail/get-started-direct-mail.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p>Beschikbaarheidsdatum: 29 januari 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
+  **Nota**: Dit vermogen is slechts beschikbaar voor een reeks organisaties (<strong> Beperkte Beschikbaarheid </strong>). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
-<table>
-<thead>
-<tr>
-<th><strong>Quiet uren (op tijd gebaseerde uitsluitingen)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong> Stil uren </strong> laat u op tijd-gebaseerde uitsluitingen voor E-mail, SMS, Duw, en kanalen WhatsApp bepalen. Zij zorgen ervoor dat geen berichten tijdens specifieke periodes worden verzonden, die u helpen klantenvoorkeur en nalevingsvereisten respecteren. U kunt stille uren door <strong> regelreeksen </strong> toepassen, die aan individuele acties in campagnes of reizen voor nauwkeurige controle kunnen worden toegewezen.</p>
-<p>Eerder uitgebracht in Beperkte Beschikbaarheid, is deze eigenschap nu beschikbaar aan alle milieu's. Met deze algemene beschikbaarheidsrelease biedt deze functie nu de mogelijkheid voor de klant om een campagneactie in de wachtrij te plaatsen tot de voltooiing van Quiet Hours en de mogelijkheid om een voorvertoning van de geactiveerde Quiet Hours-regel weer te geven.</p>
-<p><img src="assets/do-not-localize/quiet-hour-ga.gif"/></p>
-<p>Raadpleeg de <a href="../conflict-prioritization/quiet-hours.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p>Beschikbaarheidsdatum: 29 januari 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Bericht exporteren</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Een nieuw <strong> vermogen van de Uitvoer van het 0&rbrace; Bericht is nu beschikbaar voor e-mail en de kanalen van SMS. </strong> Met deze functie kunt u automatisch verzonden berichtinhoud exporteren naar een speciale Experience Platform-gegevensset, zodat u:</p>
-<ul>
-<li>Voldoen aan wettelijke nalevingsvereisten (zoals HIPAA)</li>
-<li>Berichten archiveren voor juridische claims en vragen over klantenservice</li>
-<li>Kopieën behouden van persoonlijke inhoud die naar individuen is verzonden</li>
-</ul>
-<p>De verslagen worden bewaard in de Dataset van de Uitvoer van het Bericht van AJO voor 7 kalenderdagen vanaf opneming. Tijdens deze bewaarperiode kunt u ze naar uw eigen opslagruimte exporteren via Experience Platform-bestemmingen. De eigenschap wordt toegelaten op het niveau van de kanaalconfiguratie, die u <strong> korrelige controle </strong> geven waarover de berichten worden uitgevoerd.</p>
-<p>Deze mogelijkheid is alleen beschikbaar voor het e-mail- en sms-kanaal, voor organisaties die de add-on service Message Export hebben aangeschaft. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.</p>
-<p><img src="assets/do-not-localize/message-export.gif"/></p>
-<p>Raadpleeg de <a href="../configuration/message-export.md#message-export">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p>Beschikbaarheidsdatum: 28 januari 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
+#### Email Designer
 
-<table>
-<thead>
-<tr>
-<th><strong>Direct mail kanaal in georkestreerde campagnes</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Direct mail kanaal is nu beschikbaar in georkestreerde campagnes. De <strong> Directe postactiviteit </strong> vergemakkelijkt direct mail die binnen uw Geordende campagne, voor zowel eenmalige als terugkomende berichten verzendt. Het dient om het proces te automatiseren om het <strong> extractiedossier </strong> te produceren dat door directe postleveranciers wordt vereist. U kunt kanaalactiviteiten in het Geordende campagnecanvas combineren om kanaalcampagnes tot stand te brengen die acties kunnen teweegbrengen die op klantengedrag en gegevens worden gebaseerd.</p>
-<p><img src="assets/do-not-localize/dm-oc.gif"/></p>
-<p>Raadpleeg de <a href="../orchestrated/activities/channels.md#channel">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p>Beschikbaarheidsdatum: 28 januari 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
+* **gebruik een merkthema om een beeld in een e-mailmalplaatje** om te zetten - wanneer het omzetten van een beeld in een e-mailmalplaatje in Journey Optimizer, kunt u a <strong> thema </strong> nu als input gebruiken zodat de geproduceerde HTML uw <strong> merkparameters </strong> volgt. Stijlen zoals achtergrondkleur, knopkleur, lettertypen, regelafstand, marges en opvulling worden automatisch toegepast, waardoor het handmatig ontwerpen minder wordt en een sjabloon ontstaat die klaar is voor gebruik met minimale bewerkingen.
 
-<table>
-<thead>
-<tr>
-<th><strong>Journey Agent - Een reis maken</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Agent biedt nu creatieve mogelijkheden aan, toelatend de gebruikers van Journey Optimizer om marketing reizen door a <strong> natuurlijke taalinterface </strong> te bouwen en te vormen. Met deze nieuwe vaardigheden, kunnen de artsen reizen snel tot stand brengen door hun vereisten in <strong> gespreksherinneringen </strong> eenvoudig te beschrijven. Deze innovatie stroomlijnt het proces van het creëren van de reis, waardoor de marketeers zich op strategie eerder dan technische configuratie kunnen concentreren.</p>
-<p>Raadpleeg de <a href="../start/ai-features.md#journey-agent">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p>Beschikbaarheidsdatum: 12 januari 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
-<table>
-<thead>
-<tr>
-<th><strong>OphaalAPI voor handelingencampagne</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Een nieuwe Journey Optimizer API is nu beschikbaar, toelatend u om programmatically <strong> op campagne betrekking hebbende gegevens </strong> zoals details, versies, en configuraties terug te winnen en te inspecteren.</p>
-<p>Raadpleeg de <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/" target="_blank">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p>Beschikbaarheidsdatum: 24 november 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
+* {de merken van 0} Update met nieuw kleurenlusje **-** de hulp van de Richtlijnen van het Merk <strong> zorgt ervoor dat uw merk constant over alle touchpoints wordt voorgesteld. </strong> De nieuwe <strong> sectie van Kleuren </strong> bepaalt de normen voor het de kleurensysteem van uw merk, die schetsen hoe de kleuren worden geselecteerd, georganiseerd, en toegepast over ervaringen. Het zorgt voor consistent gebruik van primaire, secundaire, accenten en neutrale kleuren ter ondersteuning van een consistente, toegankelijke en herkenbare merkidentiteit.
 
-<table>
-<thead>
-<tr>
-<th><strong>Designer-thema's e-mailen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt <strong> vooraf goedgekeurde thema's </strong> nu snel toepassen om <strong> merkconsistentie </strong> over alle e-mails te verzekeren, uw proces van de campagneverwezenlijking te versnellen, en onafhankelijk e-mails van hoge kwaliteit te produceren terwijl het verminderen van afhankelijkheid van ontwerpteams.</p>
-<p><img src="assets/do-not-localize/themes.gif"/></p>
-<p>Eerder in bètaversie is deze mogelijkheid nu beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
-<p>Raadpleeg de <a href="../email/apply-email-themes.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p>Beschikbaarheidsdatum: 5 november 2025</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Verbeteringen {#jan-26-01-improv}
 
 #### AI
 
-* **AI de Controles van de Kwaliteit van de Inhoud van de Inhoud &lbrace;** - Naast merkgroepering, kunt u algemene <strong> inhoudskwaliteit </strong> nu evalueren om potentiële kwesties met <strong> leesbaarheid </strong>, samenhang, en doeltreffendheid, onafhankelijk van uw merkrichtlijnen te ontdekken. Deze geautomatiseerde controles helpen onduidelijk overseinen, inconsistente toon, of structurele hiaten identificeren. [Meer informatie](../content-management/brands-score.md#validate-quality).
+* **Integratie van de modellen van douaneFirefly en derdebeeldgeneratie** - laat naadloze integratie van standaard en douane <strong> modellen van Firefly </strong>, samen met goedgekeurde <strong> modellen van het derdebeeld </strong> (b.v., NanoBanana) toe, om grotere flexibiliteit, controle, en merkgroepering te verstrekken wanneer het produceren van beelden. Op deze manier kunt u het beste model voor elk geval van gebruik selecteren: standaard Firefly voor algemene behoeften, aangepaste Firefly voor on-brand-productie of goedgekeurde modellen van derden voor gespecialiseerde of experimentele scenario&#39;s.
 
-  [&#x200B; ontdekt deze eigenschap in video &#x200B;](https://video.tv.adobe.com/v/3470552/?captions=dut&learn=on).
+
+#### Ervaar beslissingsvermogen
+
+* **Edge binnenkomende steun voor het gebruiken van de gegevens van Adobe Experience Platform in Beslissing** - Beslissende steun van <strong> de gegevensraadpleging van Experience Platform </strong> omvat nu <strong> rand binnenkomende </strong> de gevallen van het kanaalgebruik. De capaciteit blijft in Beperkte Beschikbaarheid; Algemene Beschikbaarheid van de onderliggende eigenschap van de gegevensraadpleging wordt nog niet aangekondigd (AEP/productafhankelijkheid).
+
+  **Nota**: Dit vermogen is slechts beschikbaar voor een reeks organisaties (<strong> Beperkte Beschikbaarheid </strong>). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+
+
+* **de Voorproef van het Beslissen van de Ervaring in op code-gebaseerd kanaal van de Ervaring** - u kunt <strong> besluitvormingspunten </strong> nu voorproef wanneer het vormen van <strong> Ervaring die </strong> met het <strong> op code-Gebaseerde kanaal van de Ervaring </strong> bepaalt. Voorvertoning is rechtstreeks beschikbaar in de ontwerpinterface voordat u live gaat.
+
+
+* **Aanbieding die AI ModelWaarneming** rangschikt - Journey Optimizer staat u nu toe om de <strong> gezondheid </strong>, <strong> opleidingsstatus </strong> te controleren, en <strong> prestaties </strong> van uw <strong> AI modellen </strong> in besluit-zodat kunt u opleidingssucces verifiëren, mislukkingen problemen oplossen, en effect op uw resultaten begrijpen. Deze mogelijkheid is alleen beschikbaar voor gepersonaliseerde optimalisatiemodellen (niet voor automatische optimalisatie).
+
+
+* **maak fragmenten** vast - Journey Optimizer verstrekt nu de capaciteit om <strong> fragmenten </strong> aan <strong> besluitvormingspunten </strong> vast te maken die in code-gebaseerde ervaringscampagnes door <strong> besluitvormingsbeleid </strong> kunnen worden leveraged.
+
+  **Nota**: Eerder vrijgegeven in Beperkte Beschikbaarheid, is dit vermogen nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid).
+
+  Beschikbaarheidsdatum: 12 februari 2026.
+
 
 #### Journeys
 
-* **combineer inheemse en het berichtacties van Adobe Campaign** - Journey Optimizer laat u nu <strong> Adobe Campaign v7/v8 </strong> berichtacties met <strong> inheemse kanaalacties </strong> in de zelfde reis combineren. [Meer informatie](../building-journeys/using-adobe-campaign-v7-v8.md)
+* **Veelvoudige binnenkomende acties in reizen** - om uw reisorganisatie te vereenvoudigen, kunt u verscheidene <strong> binnenkomende acties </strong> in één enkele reis nu bepalen. Eerder beschikbaar in campagnes, laat dit vermogen u toe om veelvoudige <strong> code-gebaseerde ervaringen </strong>, <strong> in-app berichten </strong>, <strong> inhoudskaarten </strong>, of <strong> Webacties </strong> aan verschillende plaatsen tezelfdertijd te leveren, elke actie die specifieke inhoud bevat.
 
-  Beschikbaarheidsdatum: 27 januari 2026.
-
-* **de antwoordlading van de actiefout van de Actie van de Douane** - u kunt een facultatieve <strong> nuttige lading van de foutenreactie </strong> voor douaneacties nu bepalen. Wanneer een vraag ontbreekt, wordt de foutenlading blootgesteld in de reiscontext (onder de knoop van errorResponse van de actie) en is beschikbaar in de <strong> onderbreking/foutentak </strong>, naast `jo_status_code`, om rijkere fallback logica en het zuiveren te steunen. [Meer informatie](../action/about-custom-action-configuration.md#define-the-message-parameters)
-
-  Beschikbaarheidsdatum: 27 januari 2026.
-
-* **de bevestiging van de grootte van de ladingsgrootte van de Reis in reizen** - Journey Optimizer bevestigt nu <strong> ladingsgrootte </strong> helpen optimale prestaties en systeemstabiliteit verzekeren. Wanneer het bouwen van of het publiceren van reizen, ontvangt u duidelijke <strong> waarschuwingen en fouten </strong> als de grootte van de nuttige lading de geadviseerde grenzen, samen met actioneerbare begeleiding benadert om uw reisconfiguratie te optimaliseren. Deze proactieve validatie helpt u potentiële problemen vroegtijdig te identificeren en de reisprestaties te handhaven. [Meer informatie](../start/guardrails.md#journey-payload-size)
-
-  Beschikbaarheidsdatum: 27 januari 2026.
+  **Nota**: Eerder vrijgegeven in Beperkte Beschikbaarheid, is dit vermogen nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid).
 
 
-* **het alarm van de Reis** - Nieuw <strong> pre-gevormde alarm </strong> is beschikbaar voor reizen.
-   * <strong> Profiel verwerpt Tarief dat </strong> wordt overschreden - Verhouding van profielteruggooi naar ingegaan profielen over de laatste 5 minuten overschrijdt drempel
-   * <strong> het Tarief van de Fout van de Actie van de Douane overtrok </strong> - Verhouding van de fouten van de douaneactie aan succesvolle vraag van HTTP over de laatste 5 minuten overschrijdt drempel
-   * <strong> het Tarief van de Fout van het Profiel overtrok </strong> - Verhouding van profielen-in-fout aan ingegaan profielen over de laatste 5 minuten overschrijdt drempel
+* **Webhooks van SMS** - <strong> Webhooks </strong> worden nu gesteund over alle leveranciers van SMS. U kunt elke webhaak vormen die op zijn voorgenomen doel wordt gebaseerd: <strong> Binnenkomende webhooks </strong> om inkomende berichten en <strong> Terugkoppeling webhooks </strong> te vangen om leveringsontvangstbewijzen, statusupdates, en andere op bericht betrekking hebbende gebeurtenissen te ontvangen. [Meer informatie](../sms/sms-webhook.md)
 
-  Raadpleeg de [gedetailleerde documentatie](../reports/alerts.md) voor meer informatie.
-
-  Beschikbaarheidsdatum: 14 oktober 2025.
-
-#### Geordende campagnes
-
-* **de overerving van het het gebruiksetiket van gegevens voor publiek** - de Etiketten die in Adobe Experience Platform worden toegepast dragen nu automatisch over wanneer het bewaren van <strong> publiek </strong> in georkestreerde campagnes, die handmatige <strong> DULE etiketteren </strong> verminderen. [Meer informatie](../orchestrated/activities/save-audience.md)
-
-* **vooraf bepaalde filters met parameters** - u kunt <strong> vooraf bepaalde filters </strong> met <strong> parameters </strong> in georkestreerde campagnes voor herbruikbare, editable regels nu tot stand brengen. [Meer informatie](../orchestrated/predefined-filters.md)
-
-* **Uitgezochte attributen en de waarden van de exemplaardistributie** - u kunt <strong> waarden </strong> van de <strong> distributie van waarden </strong> mening in georkestreerde campagnes nu selecteren of kopiëren. [Meer informatie](../orchestrated/build-query.md)
-
-* **bevestiging van het Bericht alvorens** te verzenden - A <strong> bevestigingsstap </strong> wordt nu toegelaten door gebrek alvorens georkestreerde campagnes te verzenden om toevallig te verminderen verzendt. [Meer informatie](../orchestrated/activities/channels.md#confirm-message-sending)
-
-* **vooraf bepaalde het opnieuw richten filters** - om het gemakkelijkere opnieuw richten voor de geordende gevallen van het campagnegebruik te steunen, introduceert deze versie nieuwe <strong> campagne terugkoppelt filters </strong>. Deze filters laten u rechtstreeks doelpubliek richten dat op <strong> wordt gebaseerd berichtovereenkomst </strong>, zoals verzonden, geopend slechts, geopend of geklikt, of geopend en geklikt, en de specifieke campagne of in-overgangscampagne selecteren u wilt opnieuw richten. [Meer informatie](../orchestrated/retarget.md)
-
-* **de controlesteun van het Tarief** - Geordende campagnes steunen nu <strong> tariefcontrole </strong> om u te helpen leveringen plaatsen en zich met <strong> volumebeperkingen </strong> richten. [Meer informatie](../orchestrated/activities/channels.md#rate-control)
-
-* **knoop van het Begin** - Geordende campagnes omvatten nu a <strong> herstart knoop </strong> zodat kunt u snel <strong> looppas </strong> herlanceren wanneer nodig alvorens de campagne te publiceren. [Meer informatie](../orchestrated/start-monitor-campaigns.md)
-
-* **gebruiker-geproduceerde meta-gegevenssteun** - de <strong> executeMetadata helperfunctie </strong> is nu beschikbaar in de verpersoonlijkingsredacteur voor Geordende campagnes, toelatend u om contextafhankelijke informatie aan om het even welke inheemse actie vast te maken en het op te slaan in een dataset voor de uitvoer naar externe systemen. [Meer informatie](../personalization/functions/helpers.md#execution-metadata)
-
-  Beschikbaarheidsdatum: 27 januari 2026.
-
-* **Keer levende campagnes aan ontwerp status** terug - u kunt levende georkestreerde campagnes aan ontwerp status nu terugkeren wanneer zij uitvoeringsfouten ontmoeten of wanneer u geplande campagnes moet wijzigen alvorens zij beginnen uit te voeren. Deze optie is beschikbaar tot het eerste bericht wordt verzonden. [Meer informatie](../orchestrated/start-monitor-campaigns.md#back-to-draft)
-
-#### Campagnes
-
-* **Campagne van het Programma die de Zone van de Tijd van het Profiel** gebruikt - het plannen van de Campagne kan de 2&rbrace; tijdzone van elk profiel <strong> nu gebruiken om berichten bij de voorgenomen lokale tijd te leveren. </strong> [Meer informatie](../campaigns/campaign-schedule.md)
-
-  **Nota**: Deze verbetering is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid).
-
-  Beschikbaarheidsdatum: 27 januari 2026.
-
-#### Machtigingen
-
-* **verhindert zelfgoedkeuring voor reizen en campagnes** - voegde een optie toe wanneer het creëren van of het plaatsen van <strong> Beleid van de Goedkeuring </strong> om reis of campagnescheppers te verhinderen van <strong> goedkeurend hun eigen voorwerpen </strong>. [Meer informatie](../test-approve/approval-policies.md)
-
-  Beschikbaarheidsdatum: 27 januari 2026.
-
-<!--
-## Coming soon {#jan-26-01-coming-soon}
-
-In the next few days, the following capabilities and enhancements are scheduled for release. **Information is subject to change**. Updated links, screens, and documentation will be shared once these updates are live in production.
-
-### Features
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Web Push notifications channel</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer now supports <strong>Web Push notifications</strong>, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both <strong>mobile and desktop browsers</strong>, enabling you to reach customers directly on their devices without requiring an app. This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
-<p><img src="assets/do-not-localize/web-push.gif"/></p>
-<p>Previously released in Beta, this capability will be available to all environments (General Availability).</p>
-<p>Availability date: February 11, 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Improvements
-
-
--->
+  Beschikbaarheidsdatum: 2 februari 2026.
