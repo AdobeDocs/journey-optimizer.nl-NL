@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f50cc244f6d5ec8b38844e8240e72502ddfe3ae0
+source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
 workflow-type: tm+mt
-source-wordcount: '3091'
+source-wordcount: '3086'
 ht-degree: 15%
 
 ---
@@ -315,13 +315,12 @@ ht-degree: 15%
       + [Aan de slag met pushmeldingen](using/push/get-started-push.md)
       + [Een pushmelding maken](using/push/create-push.md)
       + [Uw pushmelding ontwerpen](using/push/design-push.md)
-      + [Uw webpushmelding ontwerpen](using/push/design-push-web.md)
       + [Uw pushmelding controleren en verzenden](using/push/send-push.md)
       + Pushmeldingen configureren {#push-config}
          + [Pushmeldingen configureren](/help/rp_landing_pages/push-config-landing-page.md)
          + [Pushmeldingsstroom](using/push/push-gs.md)
          + [Pushmeldingskanaal configureren](using/push/push-configuration.md)
-         + [Webpushmeldingskanaal configureren](using/push/push-configuration-web.md)
+         + [Meldingskanaal voor webpushmeldingen configureren](using/push/push-configuration-web.md)
          + [Snelstartworkflow voor mobiele instaptoegang](using/push/mobile-onboarding-wf.md)
    + SMS/MMS/RCS-kanaal {#sms}
       + [SMS/MMS/RCS-kanaal](/help/rp_landing_pages/sms-landing-page.md)
@@ -850,7 +849,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
