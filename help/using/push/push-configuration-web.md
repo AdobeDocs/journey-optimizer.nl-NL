@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # Meldingskanaal voor webpushmeldingen configureren {#push-notification-configuration}
 
-Met [!DNL Journey Optimizer] kunt u uw reizen maken en berichten verzenden naar een doelgroep. Voordat u webpushmeldingen begint te verzenden met [!DNL Journey Optimizer] , moet u ervoor zorgen dat er configuraties en integratie zijn in Adobe Experience Platform. Om de de gegevensstroom van de Berichten van de Duw in [!DNL Adobe Journey Optimizer] te begrijpen gelieve te verwijzen naar [ deze pagina ](push-gs.md).
+Met [!DNL Journey Optimizer] kunt u uw reizen maken en berichten verzenden naar een doelgroep. Voordat u webpushmeldingen begint te verzenden met [!DNL Journey Optimizer] , moet u ervoor zorgen dat er configuraties en integratie zijn in Adobe Experience Platform. Om de de gegevensstroom van de Berichten van de Duw in [!DNL Adobe Journey Optimizer] te begrijpen gelieve te verwijzen naar [&#x200B; deze pagina &#x200B;](push-gs.md).
 
 >[!AVAILABILITY]
 >
@@ -27,11 +27,11 @@ Met [!DNL Journey Optimizer] kunt u uw reizen maken en berichten verzenden naar 
 
 ### Machtigingen instellen {#setup-permissions}
 
-Voordat u een mobiele toepassing maakt, moet u er eerst voor zorgen dat u over de juiste gebruikersmachtigingen voor tags in Adobe Experience Platform beschikt of deze toewijst. Leer meer in [ documentatie van Markeringen ](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
+Voordat u een mobiele toepassing maakt, moet u er eerst voor zorgen dat u over de juiste gebruikersmachtigingen voor tags in Adobe Experience Platform beschikt of deze toewijst. Leer meer in [&#x200B; documentatie van Markeringen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 >[!CAUTION]
 >
->De duimconfiguratie moet door een deskundige gebruiker worden uitgevoerd. Afhankelijk van uw implementatiemodel en persona&#39;s betrokken bij deze implementatie, zou u de volledige reeks toestemmingen aan één enkel productprofiel kunnen moeten toewijzen of toestemmingen tussen de app ontwikkelaar en **Adobe Journey Optimizer** beheerder delen. Leer meer over **toestemmingen van Markeringen** in [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
+>De duimconfiguratie moet door een deskundige gebruiker worden uitgevoerd. Afhankelijk van uw implementatiemodel en persona&#39;s betrokken bij deze implementatie, zou u de volledige reeks toestemmingen aan één enkel productprofiel kunnen moeten toewijzen of toestemmingen tussen de app ontwikkelaar en **Adobe Journey Optimizer** beheerder delen. Leer meer over **toestemmingen van Markeringen** in [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 <!--ou need to your have access to perform following roles :
 
@@ -48,7 +48,7 @@ Om **Bezit** en **bedrijf** rechten toe te wijzen, volg hieronder de stappen:
 
    ![](assets/push_product_1.png)
 
-1. Selecteer een bestaande **[!UICONTROL Product Profile]** of maak een nieuwe **[!UICONTROL New profile]** met de knop. Leer hoe te om een nieuw **[!UICONTROL New profile]** in de [ Admin consoledocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"} tot stand te brengen.
+1. Selecteer een bestaande **[!UICONTROL Product Profile]** of maak een nieuwe **[!UICONTROL New profile]** met de knop. Leer hoe te om een nieuw **[!UICONTROL New profile]** in de [&#x200B; Admin consoledocumentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"} tot stand te brengen.
 
 1. Selecteer op het tabblad **[!UICONTROL Permissions]** de optie **[!UICONTROL Property rights]**.
 
@@ -94,7 +94,7 @@ Volg onderstaande stappen om deze **[!UICONTROL Product profile]** aan gebruiker
 
    >[!NOTE]
    >
-   >Als de gebruiker niet eerder in de console Admin werd gecreeerd, verwijs naar [ gebruikersdocumentatie ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users) toevoegen.
+   >Als de gebruiker niet eerder in de console Admin werd gecreeerd, verwijs naar [&#x200B; gebruikersdocumentatie &#x200B;](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users) toevoegen.
 
    ![](assets/push_product_7.png)
 
@@ -113,13 +113,13 @@ De volgende schema&#39;s en datasets zijn beschikbaar met het kanaal van de dupm
 >
 >Wanneer gebeurtenissen voor het bijhouden van push-gegevens worden opgenomen in de CJM-gegevensset voor het bijhouden van push-ervaringen, kunnen er fouten optreden, ook al worden gegevens gedeeltelijk met succes opgenomen. Dit kan voorkomen als sommige gebieden in uw afbeelding niet in inkomende gebeurtenissen bestaan: het systeem registreert waarschuwingen maar verhindert niet inname van geldige gedeelten van de gegevens. Deze waarschuwingen worden in batch-status weergegeven als &#39;mislukt&#39;, maar geven gedeeltelijk succes bij inname aan.
 >
->Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+>Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [&#x200B; het schemawoordenboek van Journey Optimizer &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 ### De eigenschap pushNotification configureren {#push-property}
 
-Om **Push berichten van het Web** toe te laten, moet u eerst ervoor zorgen dat het [ pushNotifications bezit ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications) behoorlijk binnen het Web SDK wordt gevormd. Deze eigenschap bepaalt hoe pushmeldingen worden verwerkt door uw webtoepassing.
+Om **Push berichten van het Web** toe te laten, moet u eerst ervoor zorgen dat het [&#x200B; pushNotifications bezit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications) behoorlijk binnen het Web SDK wordt gevormd. Deze eigenschap bepaalt hoe pushmeldingen worden verwerkt door uw webtoepassing.
 
-Bovendien, moet u sleutels produceren VAPID, die worden vereist om [ uw geloofsbrieven van de toepassingsduw ](#push-credentials-launch) in Journey Optimizer te vormen.
+Bovendien, moet u sleutels produceren VAPID, die worden vereist om [&#x200B; uw geloofsbrieven van de toepassingsduw &#x200B;](#push-credentials-launch) in Journey Optimizer te vormen.
 
 ## Stap 1: Voeg uw pushreferenties voor de app toe in Journey Optimizer {#push-credentials-launch}
 
@@ -156,7 +156,7 @@ Wanneer u uw pushreferenties hebt gemaakt, moet u een configuratie maken om push
    > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook onderstrepingsteken `_` -, punt `.` - en afbreekstreepjes `-` gebruiken.
 
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [&#x200B; leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) &#x200B;](../administration/object-based-access.md).
 
 1. Selecteer **kanaal van de Duw**.
 
@@ -166,7 +166,7 @@ Wanneer u uw pushreferenties hebt gemaakt, moet u een configuratie maken om push
 
 1. Kies uw **[!UICONTROL Platform]**: Android, iOS en/of Web.
 
-1. Selecteer het zelfde **[!UICONTROL App id]** zoals voor uw [ hierboven gevormde dupreferentie ](#push-credentials-launch).
+1. Selecteer het zelfde **[!UICONTROL App id]** zoals voor uw [&#x200B; hierboven gevormde dupreferentie &#x200B;](#push-credentials-launch).
 
 1. Sla uw wijzigingen op.
 
@@ -174,10 +174,10 @@ U kunt nu uw configuratie selecteren wanneer u pushmeldingen maakt.
 
 ## Stap 3: Vorm het sendPushSubscription bezit {#sendPushSubscription-property}
 
-Zodra uw pushgeloofsbrieven en kanaalconfiguratie opstelling zijn, moet u [ het sendPushSubscription bevel ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription) in uw Webtoepassing uitvoeren. Met deze opdracht registreert u pushabonnementen van gebruikers bij Adobe Experience Platform, zodat het systeem kan bijhouden welke gebruikers zich hebben aangemeld voor het ontvangen van pushberichten en hun abonnementsstatus kunnen behouden. Deze registratie is essentieel voor Journey Optimizer om gerichte pushberichten naar uw gebruikers te sturen.
+Zodra uw pushgeloofsbrieven en kanaalconfiguratie opstelling zijn, moet u [&#x200B; het sendPushSubscription bevel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription) in uw Webtoepassing uitvoeren. Met deze opdracht registreert u pushabonnementen van gebruikers bij Adobe Experience Platform, zodat het systeem kan bijhouden welke gebruikers zich hebben aangemeld voor het ontvangen van pushberichten en hun abonnementsstatus kunnen behouden. Deze registratie is essentieel voor Journey Optimizer om gerichte pushberichten naar uw gebruikers te sturen.
 
 ## Stap 4: Test uw mobiele app met een gebeurtenis {#mobile-app-test}
 
 Nadat u de webpushconfiguratie in zowel Adobe Experience Platform als [!DNL Adobe Experience Platform Data Collection] hebt voltooid, kunt u uw implementatie testen voordat u pushberichten naar uw profielen verzendt. Door te testen zorgt u ervoor dat abonnementen correct zijn geregistreerd en dat meldingen correct worden verzonden naar de browsers van uw gebruikers.
 
-Voor gedetailleerde instructies bij het creëren van een testreis met gebeurtenissen om uw opstelling van de Webduw te bevestigen, verwijs naar de [ mobiele documentatie van de het berichtconfiguratie van de app duw ](push-configuration.md), die een uitvoerige testende werkschema toepasselijk op zowel mobiele als Webdrukkanalen verstrekt.
+Voor gedetailleerde instructies bij het creëren van een testreis met gebeurtenissen om uw opstelling van de Webduw te bevestigen, verwijs naar de [&#x200B; mobiele documentatie van de het berichtconfiguratie van de app duw &#x200B;](push-configuration.md), die een uitvoerige testende werkschema toepasselijk op zowel mobiele als Webdrukkanalen verstrekt.
