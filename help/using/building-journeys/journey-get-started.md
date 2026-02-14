@@ -49,7 +49,7 @@ Verzend in real time **unitaire levering** teweeggebracht wanneer een gebeurteni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=nl-NL)
 
 **Contextafhankelijke gegevens**
 
@@ -130,7 +130,7 @@ Verzend een persoonlijke welkomstreis wanneer klanten zich abonneren op uw servi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=nl-NL)
 
 **optimaliseer e-mail verzendt tijden**
 
@@ -140,7 +140,7 @@ Gebruik door AI aangedreven send-time optimalisering om e-mail te leveren wannee
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 **Ramp omhoog leveranties**
 
@@ -178,7 +178,7 @@ Vind antwoorden op vaak gestelde vragen over het bouwen van de reis, het oplosse
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 **creeer en beheer reizen**
 

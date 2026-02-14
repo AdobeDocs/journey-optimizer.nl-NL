@@ -73,7 +73,7 @@ De **[reisontwerper](using-the-journey-designer.md)** is uw visueel canvas voor 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 **bepaalt ingangspunten**
 
@@ -93,7 +93,7 @@ Gebruik ingebouwde kanaalacties voor e-mail, push, SMS/MMS, in-app, web en meer,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 **voeg logica &amp; voorwaarden** toe
 
