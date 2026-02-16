@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 70cac01cf79d7de66667e6fd786caf9df5499dd7
+source-git-commit: bae446ea38a0cb97487201f7dcf4df751578ad0a
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Met deze functie stroomlijnt u het test- en validatieproces en zorgt u ervoor da
 
 >[!NOTE]
 >
->Als de IP-proxy (egress) voor uw organisatie is ingeschakeld, wordt deze door de aanroep van **[!UICONTROL Send test request]** overgeslagen. Om volmacht het verpletteren te bevestigen, stel een test of een levende reis in werking. Leer meer over IP (egress) volmacht en enablement in [&#x200B; integreren met externe systemen &#x200B;](../configuration/external-systems.md#faq).
+>Als de IP-proxy (egress) voor uw organisatie is ingeschakeld, wordt deze door de aanroep van **[!UICONTROL Send test request]** overgeslagen. Om volmacht het verpletteren te bevestigen, stel een test of een levende reis in werking. Leer meer over IP (egress) volmacht en enablement in [ integreren met externe systemen ](../configuration/external-systems.md#faq).
 
 
 ## Vereisten {#troubleshoot-custom-action-prereq}
@@ -41,7 +41,7 @@ De beheerders kunnen deze mogelijkheid alleen gebruiken als ze beschikken over d
 * Deze toestemming is inbegrepen in de *rol van de Beheerders van de Reis*.
 * De machtiging **[!DNL View journeys events]** alleen is niet voldoende.
 
-Leer meer over reistoestemmingen in [&#x200B; deze sectie &#x200B;](../administration/high-low-permissions.md#journey-capability).
+Leer meer over reistoestemmingen in [ deze sectie ](../administration/high-low-permissions.md#journey-capability).
 
 ## Hoe te om de Send eigenschap van het testverzoek te gebruiken {#troubleshoot-custom-action-use}
 
@@ -49,7 +49,7 @@ Voer de volgende stappen uit om een aangepaste handeling te testen:
 
 1. Navigeer aan het **scherm van de Acties** configuratie, en selecteer een douaneactie.
 1. Klik op de knop **[!UICONTROL Send test request]** onder aan het actieconfiguratiescherm.
-   ![&#x200B; verzendt de knoop van het testverzoek in het paneel van de Configuratie van de Actie &#x200B;](assets/test-request.png){width="70%" align="left"}
+   ![ verzendt de knoop van het testverzoek in het paneel van de Configuratie van de Actie ](assets/test-request.png){width="70%" align="left"}
 1. In het pop-upvenster kunt u aanvraagparameters opgeven:
 
    * Als de **methode van de douaneactie GET** is, wordt geen nuttige lading vereist.
@@ -94,12 +94,26 @@ Als de aanvraag mislukt, kunt u controleren:
 * Het API eindpunt en de kopballen die in de douaneactie worden bepaald.
 * Gebruik de reactiegegevens om potentiële misconfiguraties te identificeren.
 
+## Gebeurtenissen negeren en inactieve time-outs afhandelen {#handling-discard-events-and-idle-timeouts}
+
+Wanneer een douaneactie in één reis een gebeurtenis teweegbrengt die bedoeld is om a **tweede reis** te beginnen, zorg de tweede reis in een geldige staat is en de gebeurtenis wordt erkend. Als de gebeurtenis niet aan de de ingangsvoorwaarden van de tweede reis voldoet, kan de gebeurtenis **worden verworpen** en in logboeken met codes zoals `notSuitableInitialEvent` verschijnen. De inactieve onderbrekingen kunnen voorkomen als de tweede reis niet klaar is, die tot gebeurtenissen in de logboeken leiden te verwerpen.
+
+**Gemeenschappelijke oorzaken:**
+
+* **de kwalificatie van de Gebeurtenis niet voldaan aan** - de tweede reis gebruikt een op regel-gebaseerde gebeurtenis met een kwalificatievoorwaarde (bijvoorbeeld, moet een vereist gebied niet-leeg zijn, zoals `isNotEmpty` op een specifiek gebied). Als de gebeurtenislading niet aan die voorwaarde (bijvoorbeeld, is het gebied leeg of mist) voldoet, wordt de gebeurtenis ontvangen maar verworpen **en de tweede reis wordt niet teweeggebracht.** Dit wordt verwacht gedrag; de documentatie en het logboek bevestigen dat als de kwalificatievoorwaarde niet wordt voldaan aan, de gebeurtenis zal worden verworpen en de reis niet voor dat profiel zal teweeggebracht. Verifieer dat de lading die door de douaneactie wordt verzonden alle gebieden en waarden omvat die door de de gebeurtenisconfiguratie van de tweede reis worden vereist. Leer hoe te [ regel-gebaseerde gebeurtenissen ](../event/about-creating.md) vormen en [ gebeurtenisontvangst ](../building-journeys/troubleshooting-execution.md#checking-if-people-enter-the-journey) in reisuitvoering problemen oplossen.
+
+* **Tweede reis niet klaar** - De nutteloze onderbrekingen kunnen voorkomen als de tweede reis (bijvoorbeeld, niet op testwijze of niet levend) nog niet actief is, of als er een tijdhiaat tussen de douaneactie die en de tweede reis klaar is te ontvangen is. Zorg ervoor dat de doelreis wordt gepubliceerd of in de testmodus voordat de aangepaste handeling wordt geactiveerd.
+
+* **het Diagnose verwerpen gebeurtenissen** - als u gebeurtenissen in logboeken ziet verwerpen, de logboeken van de controlereis en de sporen van het Splunk om te bevestigen of de gebeurtenis werd ontvangen maar wegens kwalificatie (lading voldeed niet aan de regel) of timing werd verworpen. Zorg ervoor dat de begindatum en configuratie van de tweede reis correct zijn en dat de reis binnen zijn actieve datumvenster is.
+
+Om gebeurtenissen te vermijden die tijdens het ketenen van reizen via douaneacties worden verworpen, bevestig de gebeurtenislading tegen de tweede de gebeurtenisregel van de reis en bevestig de doelreis levend of in test en binnen zijn actief datumvenster is.
+
 ## Aanvullende bronnen
 
 Blader in de onderstaande secties voor meer informatie over het configureren en gebruiken van aangepaste handelingen:
 
-* [&#x200B; worden begonnen met douaneacties &#x200B;](../action/action.md) - leer wat een douaneactie is en hoe zij u met uw derdesystemen helpen verbinden
-* [&#x200B; vorm uw douaneacties &#x200B;](../action/about-custom-action-configuration.md) - leer hoe te om een douaneactie tot stand te brengen en te vormen
-* [&#x200B; de douaneacties van het Gebruik &#x200B;](../building-journeys/using-custom-actions.md) - leer hoe te om douaneacties in uw reizen te gebruiken
-* [&#x200B; de inzamelingen van de pas in de parameters van de douaneactie &#x200B;](../building-journeys/collections.md) - leer hoe te om een inzameling in de parameters van de douaneactie over te gaan die dynamisch bevolkt bij runtime is
+* [ worden begonnen met douaneacties ](../action/action.md) - leer wat een douaneactie is en hoe zij u met uw derdesystemen helpen verbinden
+* [ vorm uw douaneacties ](../action/about-custom-action-configuration.md) - leer hoe te om een douaneactie tot stand te brengen en te vormen
+* [ de douaneacties van het Gebruik ](../building-journeys/using-custom-actions.md) - leer hoe te om douaneacties in uw reizen te gebruiken
+* [ de inzamelingen van de pas in de parameters van de douaneactie ](../building-journeys/collections.md) - leer hoe te om een inzameling in de parameters van de douaneactie over te gaan die dynamisch bevolkt bij runtime is
 
