@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 7ec41e5b1aa51991847ef8cf9dad428b06dfcaef
+exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
+source-git-commit: 2ba8aecf9f9665d00f553a281ad365e3535b5efe
 workflow-type: tm+mt
-source-wordcount: '1676'
-ht-degree: 0%
+source-wordcount: '1755'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +31,7 @@ Klik op het pictogram AI-assistent in de bovenste balk om het hulpdeelvenster aa
 
 >[!IMPORTANT]
 >
->U moet met de [&#x200B; Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home){target="_blank"} akkoord gaan alvorens AI Medewerker te gebruiken.
+>U moet met de [ Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"} akkoord gaan alvorens AI Medewerker te gebruiken.
 
 ### Wat kan AI Assistant doen
 
@@ -60,7 +61,7 @@ Klik op het pictogram AI-assistent in de bovenste balk om het hulpdeelvenster aa
 
 ![](assets/do-not-localize/ai-assistant-answer.png){width="40%" align="left"}
 
-[&#x200B; Leer meer over AI Medewerker in Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ai-assistant/home){target="_blank"}
+[ Leer meer over AI Medewerker in Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}
 
 ## Geavanceerde AI-agents voor optimalisatie van reizen {#ai-agents}
 
@@ -82,7 +83,7 @@ Journey Agent beschikt over twee vaardigheden in AI Assistant: Analyseren en mak
 
 #### Journey Analyse Skill {#journey-analyze-skill}
 
-De [&#x200B; Reis analyseert Agent &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"} helpt u vervoersprestaties door natuurlijke taalanalyse optimaliseren:
+De [ Reis analyseert Agent ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"} helpt u vervoersprestaties door natuurlijke taalanalyse optimaliseren:
 
 +++**Zeer belangrijke Mogelijkheden**
 
@@ -105,7 +106,7 @@ De [&#x200B; Reis analyseert Agent &#x200B;](https://experienceleague.adobe.com/
 
 #### Reis maken Vaardigheid {#journey-create-skill}
 
-De [&#x200B; Reis leidt Agent &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} hulp u reizen van natuurlijke taalherinneringen bouwt, die uw doelstellingen in gestructureerde reisconfiguraties vertalen:
+De [ Reis leidt Agent ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} hulp u reizen van natuurlijke taalherinneringen bouwt, die uw doelstellingen in gestructureerde reisconfiguraties vertalen:
 
 +++**Zeer belangrijke Mogelijkheden**
 
@@ -127,7 +128,7 @@ De [&#x200B; Reis leidt Agent &#x200B;](https://experienceleague.adobe.com/nl/do
 
 ### Experimentatieagent {#experimentation-agent}
 
-De [&#x200B; Agent van de Experimentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"} moderniseert hoe u digitale experimenten over websites, e-mail, duwberichten, en toepassingen in werking stelt en beheert:
+De [ Agent van de Experimentatie ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"} moderniseert hoe u digitale experimenten over websites, e-mail, duwberichten, en toepassingen in werking stelt en beheert:
 
 +++**Zeer belangrijke Mogelijkheden**
 
@@ -160,25 +161,26 @@ De [&#x200B; Agent van de Experimentatie &#x200B;](https://experienceleague.adob
 
 ### Aanvullende AI-agents
 
-**Audience Agent** - voor gesprekspublieksonderzoek en beheer over Adobe Experience Platform, met inbegrip van dubbele opsporing en grootte het volgen. [&#x200B; leer meer over Audience Agent &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
+**Audience Agent** - voor gesprekspublieksonderzoek en beheer over Adobe Experience Platform, met inbegrip van dubbele opsporing en grootte het volgen. [ leer meer over Audience Agent ](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
 
-**Agent Orchestrator** - coördineert veelvoudige gespecialiseerde agenten om complexe, multi-step marketing uitdagingen op te lossen. Het orchestrator bepaalt automatisch welke agenten om hun werk efficiënt te impliceren en te rangschikken. [&#x200B; leer meer over Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
+**Agent Orchestrator** - coördineert veelvoudige gespecialiseerde agenten om complexe, multi-step marketing uitdagingen op te lossen. Het orchestrator bepaalt automatisch welke agenten om hun werk efficiënt te impliceren en te rangschikken. [ leer meer over Agent Orchestrator ](https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
 ## Genereren van inhoud op basis van AI {#content-generation}
 
-Gebruik generatieve AI om inhoud op meerdere kanalen te maken en aan te passen, zodat uw content sneller wordt gemaakt en de consistentie van uw merk behouden blijft. AI Medewerker voor inhoudsgeneratie is beschikbaar voor [&#x200B; e-mail &#x200B;](../email/get-started-email.md), [&#x200B; duw berichten &#x200B;](../push/get-started-push.md), [&#x200B; SMS &#x200B;](../sms/get-started-sms.md), en [&#x200B; Web &#x200B;](../web/get-started-web.md) ervaringen - het helpen u onderwerplijnen, lichaamstekst, beelden, en volledige berichtvariaties produceren.
+Gebruik generatieve AI om inhoud op meerdere kanalen te maken en aan te passen, zodat uw content sneller wordt gemaakt en de consistentie van uw merk behouden blijft. AI Medewerker voor inhoudsgeneratie is beschikbaar voor [ e-mail ](../email/get-started-email.md), [ duw berichten ](../push/get-started-push.md), [ SMS ](../sms/get-started-sms.md), en [ Web ](../web/get-started-web.md) ervaringen - het helpen u onderwerplijnen, lichaamstekst, beelden, en volledige berichtvariaties produceren.
 
 ### Belangrijkste kenmerken
 
-* **Generatie van de Tekst** - creeer het dwingende exemplaar dat op uw merkstem en doelstellingen wordt gebaseerd. [&#x200B; produceer tekst met AI &#x200B;](../content-management/generative-text.md)
-* **de Generatie van het Beeld** - produceer douanebeelden gebruikend Adobe Firefly. [&#x200B; produceer beelden met AI &#x200B;](../content-management/generative-image.md)
-* **de Variaties van de Inhoud** - produceer veelvoudige variaties voor het testen A/B. [&#x200B; experiment van de Inhoud met AI &#x200B;](../content-management/generative-experimentation.md)
-* **de Uitlijning van het Merk** - verzekert geproduceerde inhoud uw merkrichtlijnen aanpast. [&#x200B; evalueer brandgroepering &#x200B;](../content-management/brands-score.md)
-* **de Steun van het Malplaatje** - hefboomwerking uw bestaande e-mailmalplaatjes. [&#x200B; Werk met inhoudsmalplaatjes &#x200B;](../content-management/content-templates.md)
+* **Volledige Generatie van de Inhoud** - produceer volledige inhoudservaringen (tekst en beelden) in één stroom voor e-mail, Web, landende pagina&#39;s, en duw. [ produceer volledige inhoud met Medewerker AI ](../content-management/generative-full-content.md)
+* **Generatie van de Tekst** - creeer het dwingende exemplaar dat op uw merkstem en doelstellingen wordt gebaseerd. [ produceer tekst met AI ](../content-management/generative-text.md)
+* **de Generatie van het Beeld** - produceer douanebeelden gebruikend Adobe Firefly. [ produceer beelden met AI ](../content-management/generative-image.md)
+* **de Variaties van de Inhoud** - produceer veelvoudige variaties voor het testen A/B. [ experiment van de Inhoud met AI ](../content-management/generative-experimentation.md)
+* **de Uitlijning van het Merk** - verzekert geproduceerde inhoud uw merkrichtlijnen aanpast. [ evalueer brandgroepering ](../content-management/brands-score.md)
+* **de Steun van het Malplaatje** - hefboomwerking uw bestaande e-mailmalplaatjes. [ Werk met inhoudsmalplaatjes ](../content-management/content-templates.md)
 
 ### Aanbevolen procedures
 
-* **ben specifiek** - verstrek duidelijke, gedetailleerde herinneringen voor betere resultaten
+* **ben specifiek** - verstrek duidelijke, gedetailleerde herinneringen voor betere resultaten. [ leer snelle beste praktijken ](../content-management/ai-assistant-prompting-guide.md)
 * **uploadt merkactiva** - Gebruik PDFs, beelden, of de dossiers van het PIT (maximum 50MB) om merkconsistentie te handhaven
 * **de douanesjablonen van het Gebruik** - de merkspecifieke malplaatjes van de hefboomwerking met maximaal 8-10 beelden
 * **verstrekken terugkoppel** - de output van het Tarief helpen de modellen AI verbeteren
@@ -223,7 +225,7 @@ Creeer intelligente rangschikkingsmodellen die automatisch optimaliseren welke a
    * Within the last 14 days
 * Maximaal 5 AI-classificatiemodellen per organisatie
 
-[&#x200B; Leer meer over AI modellen voor besluit &#x200B;](../experience-decisioning/ranking/ai-models.md) | [&#x200B; creeer AI het rangschikken modellen &#x200B;](../experience-decisioning/ranking/create-ai-models.md)
+[ Leer meer over AI modellen voor besluit ](../experience-decisioning/ranking/ai-models.md) | [ creeer AI het rangschikken modellen ](../experience-decisioning/ranking/create-ai-models.md)
 
 ## Experimenteer met inhoud met AI {#experimentation}
 
@@ -242,7 +244,7 @@ Belangrijkste mogelijkheden:
 
 De Playbooks van het Geval van het gebruik zijn vooraf gebouwde werkschema&#39;s die u helpen gemeenschappelijke marketing scenario&#39;s snel uitvoeren. Elk playbook omvat gebruiksklare reizen, berichten, schema&#39;s, en segmenten.
 
-![&#x200B; interface van de Playbooks van het Geval van het Gebruik &#x200B;](assets/playbooks-filter.png)
+![ interface van de Playbooks van het Geval van het Gebruik ](assets/playbooks-filter.png)
 
 ### Hoe Playbooks werken
 
@@ -269,7 +271,7 @@ Blader in Journey Optimizer naar veelgebruikte scenario&#39;s, zoals:
 
 +++
 
-[&#x200B; Mening alle beschikbare playbooks &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=nl-NL){target="_blank"} | [&#x200B; Leer meer in de documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=nl-NL){target="_blank"}
+[ Mening alle beschikbare playbooks ](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html){target="_blank"} | [ Leer meer in de documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Aanvullende AI-mogelijkheden {#additional-capabilities}
 
@@ -278,6 +280,12 @@ Blader in Journey Optimizer naar veelgebruikte scenario&#39;s, zoals:
 Transformeer statische afbeeldingsontwerpen (JPEG, PNG) in bewerkbare HTML-e-mailsjablonen met behulp van AI-omzettingstechnologie.
 
 [Meer informatie over Afbeelding naar HTML](../email/image-to-html.md)
+
+### GenStudio for Performance Marketing
+
+Integreer met Adobe GenStudio for Performance Marketing voor het maken van e-mailinhoud voor AI en het importeren van sjablonen naar Journey Optimizer voor orchestratie. Exporteer Journey Optimizer-sjablonen naar GenStudio, genereer variaties met AI en breng ze terug voor implementatie. (Beperkte beschikbaarheid, alleen e-mailkanaal.)
+
+[Meer informatie over GenStudio](../integrations/genstudio.md)
 
 ### Scorebord voor uitlijning van merk
 
@@ -303,7 +311,7 @@ Alle AI-agents hebben toegang tot AI Assistant en toestemming voor Adobe Experie
 
 +++**is AI-Gegenereerde inhoud altijd nauwkeurig?**
 
-Nee. Herzie altijd [&#x200B; AI-Gegenereerde inhoud &#x200B;](#content-generation) voor nauwkeurigheid en merkgeschiktheid. Gebruik de feedbackgereedschappen (duimen omhoog/omlaag) om de modellen te helpen verbeteren.
+Nee. Herzie altijd [ AI-Gegenereerde inhoud ](#content-generation) voor nauwkeurigheid en merkgeschiktheid. Gebruik de feedbackgereedschappen (duimen omhoog/omlaag) om de modellen te helpen verbeteren.
 
 +++
 
@@ -317,6 +325,6 @@ Nee. Herzie altijd [&#x200B; AI-Gegenereerde inhoud &#x200B;](#content-generatio
 
 +++**hoe ik toegang tot deze eigenschappen krijg?**
 
-De meeste AI-functies worden opgenomen in Adobe Journey Optimizer. Sommige mogelijkheden zoals [&#x200B; Send-Time Optimalisering &#x200B;](#send-time-optimization) of [&#x200B; AI Agenten &#x200B;](#ai-agents) kunnen enablement door Adobe vereisen. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie over uw specifieke licentie en beschikbare functies.
+De meeste AI-functies worden opgenomen in Adobe Journey Optimizer. Sommige mogelijkheden zoals [ Send-Time Optimalisering ](#send-time-optimization) of [ AI Agenten ](#ai-agents) kunnen enablement door Adobe vereisen. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie over uw specifieke licentie en beschikbare functies.
 
 +++
