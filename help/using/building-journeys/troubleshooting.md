@@ -19,11 +19,11 @@ ht-degree: 38%
 
 # Los fouten op alvorens uw reis te testen {#troubleshooting}
 
-Leer in deze sectie hoe u problemen met reizen kunt oplossen voordat u gaat testen of publiceren. Alle hieronder vermelde controles kunnen worden uitgevoerd in de testmodus van de journey of wanneer de journey live is. De aanbeveling is om alle onderstaande controles in de testmodus uit te voeren en vervolgens tot publicatie over te gaan. Leer meer over de testwijze op [ deze pagina ](../building-journeys/testing-the-journey.md).
+Leer in deze sectie hoe u problemen met reizen kunt oplossen voordat u gaat testen of publiceren. Alle hieronder vermelde controles kunnen worden uitgevoerd in de testmodus van de journey of wanneer de journey live is. De aanbeveling is om alle onderstaande controles in de testmodus uit te voeren en vervolgens tot publicatie over te gaan. Leer meer over de testwijze op [&#x200B; deze pagina &#x200B;](../building-journeys/testing-the-journey.md).
 
-Leer hoe te om reisgebeurtenissen problemen op te lossen, controleer als de profielen uw reis ingegaan, hoe zij door het navigeren, en als de berichten [ op deze pagina ](troubleshooting-execution.md) worden verzonden. Als geen profielen uw op gebeurtenis-gebaseerde reis ondanks gebeurtenissen ingaan die worden opgenomen, verzeker de [ gegevenstypes van de gebeurtenisvoorwaarde het gebeurtenisschema ](troubleshooting-execution.md#verify-event-identity-and-rule-data-types) aanpassen.
+Leer hoe te om reisgebeurtenissen problemen op te lossen, controleer als de profielen uw reis ingegaan, hoe zij door het navigeren, en als de berichten [&#x200B; op deze pagina &#x200B;](troubleshooting-execution.md) worden verzonden. Als geen profielen uw op gebeurtenis-gebaseerde reis ondanks gebeurtenissen ingaan die worden opgenomen, verzeker de [&#x200B; gegevenstypes van de gebeurtenisvoorwaarde het gebeurtenisschema &#x200B;](troubleshooting-execution.md#verify-event-identity-and-rule-data-types) aanpassen.
 
-Als u binnenkomende acties gebruikt, leer hoe te om hen [ op deze pagina ](troubleshooting-inbound.md) problemen op te lossen.
+Als u binnenkomende acties gebruikt, leer hoe te om hen [&#x200B; op deze pagina &#x200B;](troubleshooting-inbound.md) problemen op te lossen.
 
 ## Fouten in activiteiten {#activity-errors}
 
@@ -33,11 +33,11 @@ Fouten worden weergegeven met een waarschuwingssymbool dat wordt weergegeven op 
 
 * als een verplicht veld leeg is, wordt een fout weergegeven
 
-  ![ de bevestigingsfouten van de Reis die in canvas met foutenindicatoren worden getoond ](assets/journey63.png)
+  ![&#x200B; de bevestigingsfouten van de Reis die in canvas met foutenindicatoren worden getoond &#x200B;](assets/journey63.png)
 
 * op het canvas, wanneer twee activiteiten worden losgekoppeld, wordt een waarschuwing weergegeven
 
-  ![ het pictogram van de Waarschuwing die losgemaakte activiteiten op het wegcanvas tonen ](assets/canvas-disconnected.png)
+  ![&#x200B; het pictogram van de Waarschuwing die losgemaakte activiteiten op het wegcanvas tonen &#x200B;](assets/canvas-disconnected.png)
 
 ## Fouten in de reis {#canvas-errors}
 
@@ -45,7 +45,7 @@ Fouten zijn ook zichtbaar vanaf de knop **[!UICONTROL Alerts]** boven het canvas
 
 Het systeem ontdekt twee soorten kwesties: **fouten** en **waarschuwingen**. Fouten blokkeren publicatie en testactivering. Waarschuwingen geven mogelijke problemen aan die testactivering of publicatie niet blokkeren. U ziet een beschrijving van het probleem en een probleemlog-id van het type ERR_XXX_XXX. Dit kan helpen de kwestie identificeren.
 
-![ Fout en waarschuwingsindicatoren in reis met beschrijvingshulpstukken ](assets/journey-error-and-warning.png)
+![&#x200B; Fout en waarschuwingsindicatoren in reis met beschrijvingshulpstukken &#x200B;](assets/journey-error-and-warning.png)
 
 <!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
 
