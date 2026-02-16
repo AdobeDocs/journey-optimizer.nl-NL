@@ -11,9 +11,9 @@ hidefromtoc: true
 keywords: expressie, voorwaarde, use-case, gebeurtenissen
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: bc89e88baf2adfbb9bb33a60a67b74bc37f31984
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '573'
 ht-degree: 1%
 
 ---
@@ -115,6 +115,16 @@ Deze expressie retourneert een Booleaanse waarde.
 
 Vanaf dat punt kunt u een ander pad in uw reis toevoegen voor wanneer het product niet in voorraad is en meldingen verzenden met een serviceaanbieding. Vorm dienovereenkomstig berichten en gebruik verpersoonlijkingsgegevens om het berichtdoel te verbeteren.
 
+## Tijdstempel filteren in expressies
+
+Wanneer u verwijst naar meerdere gebeurtenissen met betrekking tot tekenspatiëring, geeft u zowel een begin- als een eindtijdstempelvenster op om te voorkomen dat historische gegevens worden opgehaald. Bijvoorbeeld:
+
+```json
+toDateTimeOnly(currentDataPackField.timestamp) >= toDateTimeOnly(@event{poc_UDXCartAddSavedCheckOutEv.timestamp})
+AND
+toDateTimeOnly(currentDataPackField.timestamp) < toDateTimeOnly(nowWithDelta(4, "hours"))
+```
+
 ## Voorbeelden van tekenreeksbewerkingen met de geavanceerde expressie-editor
 
 **In voorwaarden**
@@ -165,4 +175,4 @@ substr(
 Uitleg: in dit voorbeeld worden `substr` - en `lastIndexOf` -functies gebruikt om accolades te verwijderen die de CRM-id omsluiten die is doorgegeven met een mobiele startgebeurtenis van de app.
 
 
-Voor meer op hoe te om de geavanceerde uitdrukkingsredacteur te gebruiken, let op [&#x200B; deze video &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=nl-NL).
+Voor meer op hoe te om de geavanceerde uitdrukkingsredacteur te gebruiken, let op [ deze video ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html).
