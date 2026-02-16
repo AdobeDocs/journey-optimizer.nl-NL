@@ -110,7 +110,7 @@ Laten we een voorbeeld nemen voor een time-out van 5 seconden.
 
 Hieronder vindt u Veelgestelde vragen over de integratie van Journey Optimizer met externe systemen.
 
-Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [&#x200B; gemeenschap van Adobe Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
+Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [&#x200B; gemeenschap van Adobe Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=nl){target="_blank"} te verbinden.
 
 +++ Hoe kan ik een het in kaart brengen of throttling regel vormen? Is er een standaardregel?
 
