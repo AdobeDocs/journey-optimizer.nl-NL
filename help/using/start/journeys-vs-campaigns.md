@@ -2,26 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Reizen en campagnes - Kies de juiste aanpak
-description: Vergelijk reizen, campagnes en georkestreerde campagnes om de juiste aanpak te kiezen voor uw marketingbehoeften in Adobe Journey Optimizer
+description: Vergelijk de Reizen, de Campagnes van de Actie, API-teweeggebrachte Campagnes, en Geordende Campagnes om de juiste benadering voor uw marketing behoeften in Adobe Journey Optimizer te kiezen.
 feature: Journeys, Campaigns, Get Started, Overview
+topic: Content Management
 role: User
 level: Beginner
 keywords: reis, campagne, georkestreerd, vergelijking, keuze, beslissing, workflow, realtime, batch, orchestratie, meerdere stappen, gepland, API-geactiveerd, gebeurtenisgestuurd
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: 241202021c4e634e3fd1a6d67f734142c3c87c34
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1602'
 ht-degree: 1%
 
 ---
 
 # Reizen en campagnes: kies de juiste aanpak {#journeys-vs-campaigns}
 
-Adobe Journey Optimizer biedt drie krachtige benaderingen om uw klanten te bereiken en erbij te betrekken. Begrijpen wanneer elk moet worden gebruikt is essentieel voor het opbouwen van effectieve marketingervaringen.
+[!DNL Adobe Journey Optimizer] biedt vier belangrijkste manieren aan om uw klanten te bereiken en in dienst te nemen: **Reizen**, **Campagnes van de Actie**, **API-teweeggebrachte Campagnes**, en **Geordende Campagnes**. Het schoppen van juiste hangt van af of u 1 :1 organisatie in real time, geplande uitzendingen, gebeurtenis-gedreven berichten, of complexe partijwerkschema&#39;s nodig hebt.
 
-Deze gids helpt u tussen **Schavens**, **Campagnes van de Actie**, **API-teweeggebrachte Campagnes** kiezen, en **Orchestrated Campaigns** gebaseerd op uw specifieke marketing behoeften.
+Deze gids helpt u kiezen gebaseerd op uitvoeringsstijl, gegevensbehoeften, en gebruik geval-met een snelle vergelijking, beslissingsboom, en concrete voorbeelden.
 
 ## Snelle vergelijkingsoverzicht {#quick-overview}
 
@@ -31,6 +32,10 @@ Deze gids helpt u tussen **Schavens**, **Campagnes van de Actie**, **API-teweegg
 | **Campagnes van de Actie** | Geplande of terugkerende uitzendingen aan publiek | Batchuitvoering - publiek samen verwerkt tijdens verzending |
 | **API-teweeggebrachte Campagnes** | Gebeurtenisgestuurde of transactionele berichten van externe systemen | Uitvoering op aanvraag - geactiveerd door API-aanroep met payload |
 | **Geordende Campagnes** | Complexe batchworkflows met segmentatie van meerdere entiteiten | Batchcanvas - alle profielen samen verwerkt |
+
+>[!TIP]
+>
+>**Snelle regel van duim:** heb elke klant nodig om bij hun eigen tempo met logica in real time te bewegen? De Reizen van het gebruik ****. Eén bericht verzenden naar een publiek volgens een planning? De Campagnes van de Actie van het gebruik ****. Triggerend vanaf een extern systeem via API? Gebruik **API-teweeggebrachte Campagnes**. Gegevens van meerdere entiteiten, exacte aantallen of een batchcanvas nodig? Het gebruik **Orchestrated Campaigns**.
 
 ## Gedetailleerde vergelijking {#detailed-comparison}
 
@@ -55,7 +60,7 @@ Gebruik deze uitgebreide tabel om de belangrijkste verschillen te begrijpen:
 
 ## Beslissingsgids {#decision-guide}
 
-Volg deze beslisboom om de juiste benadering te kiezen:
+Volg deze beslisboom om de juiste benadering te kiezen. Veel merken gebruiken meer dan één type; kies de beste pasvorm voor elk gebruiksgeval.
 
 ### Stap 1: Wat is uw uitvoeringsvereiste?
 
@@ -88,14 +93,14 @@ Volg deze beslisboom om de juiste benadering te kiezen:
 | Uw behoeften | Aanbevolen aanpak | Waarom |
 |-----------|---------------------|-----|
 | Welkom nieuwe klanten met meerdere stappen aan boord | Journeys | Real-time invoer, meerdere aanraakpunten, voorwaardelijke paden |
-| Maandelijkse nieuwsbrief naar abonnees sturen | Handelscampagne | Eenvoudig gepland bericht voor publiek |
+| Maandelijkse nieuwsbrief naar abonnees sturen | Handelingscampagnes | Eenvoudig gepland bericht voor publiek |
 | Afmelden starten met herinneringsreeks | Journeys | Realtime trigger, wachttijden, voorwaardelijke follow-up |
-| Aankondiging van promoties aan alle klanten | Handelscampagne | Eenmalig bericht, directe levering |
+| Aankondiging van promoties aan alle klanten | Handelingscampagnes | Eenmalig bericht, directe levering |
 | Inactieve gebruikers opnieuw inschakelen op basis van gedrag | Journeys | Geïnactiveerd door kwalificatie van het publiek, gepersonaliseerd pad |
 | Flash-verkoop geactiveerd door een bedrijfsgebeurtenis | Reizen (Business Event) | Realtime trigger die meerdere klanten beïnvloedt |
-| Seizoensgebonden promotie met integratie van productcatalogus | Geordende campagne | Gegevens over meerdere entiteiten, complexe segmentatie, exacte aantallen |
-| API-geactiveerd transactiebericht | API-activering | Externe systeemtrigger, directe levering |
-| Verzenden op meerdere niveaus per boeking | Geordende campagne | Relaties tussen meerdere entiteiten, één bericht per boeking |
+| Seizoensgebonden promotie met integratie van productcatalogus | Geordende campagnes | Gegevens over meerdere entiteiten, complexe segmentatie, exacte aantallen |
+| API-geactiveerd transactiebericht | API-geactiveerde campagnes | Externe systeemtrigger, directe levering |
+| Verzenden op meerdere niveaus per boeking | Geordende campagnes | Relaties tussen meerdere entiteiten, één bericht per boeking |
 
 ## Belangrijkste uitleg {#key-distinctions}
 
@@ -230,12 +235,14 @@ Combineert werkstroomcomplexiteit met het uitvoeren van batchcampagnes.
 
 +++ Kan ik reizen en campagnes combineren in mijn marketingstrategie?
 
-Absoluut! De meeste organisaties gebruiken alle drie benaderingen voor verschillende scenario&#39;s:
+Ja. De meeste organisaties gebruiken alle vier benaderingen voor verschillende scenario&#39;s:
 
-* Reizen voor gedragsbetrokkenheid, realtime betrokkenheid
-* Actie-campagnes voor geplande uitzendingen
-* API-getriggerde campagnes voor transactieberichten
-* Geordende campagnes voor complexe, gegevensintensieve batchcampagnes
+* **Reizen** voor gedrag, in real time overeenkomst
+* **Campagnes van de Actie** voor geplande uitzendingsmededelingen
+* **API-teweeggebrachte Campagnes** voor transactionele berichten
+* **Geordende Campagnes** voor complexe, gegevens-intensieve partijcampagnes
+
+Gebruik het juiste gereedschap voor elk gebruiksgeval in plaats van voor alles één aanpak te forceren.
 
 +++
 
@@ -253,17 +260,17 @@ De Campagnes van de actie zijn typisch het eenvoudigste (enig bericht aan publie
 
 +++ Welke schaal is beter voor grote doelgroepen?
 
-Alle drie kunnen goed schalen, maar:
+Alle vier kunnen goed schalen; de juiste keuze hangt af van uw patroon:
 
-* **gelezen de Reizen van het publiek** en **Campagnes van de Actie** worden geoptimaliseerd voor grote partijpubliek
-* **Orchestrated Campaigns** excel bij complexe segmentatie met grote datasets
-* **de procesprofielen van de Eenheid van de Reizen** individueel, zodat hangt de schaal van gebeurtenisvolume af
+* **lees de Reizen van het publiek** en **Campagnes van de Actie** worden geoptimaliseerd voor grote partijpubliek (één bericht of stroom aan vele profielen tegelijkertijd).
+* **Orchestrated Campaigns** excel bij complexe segmentatie met grote datasets en multi-entiteitsgegevens.
+* **Eenheid (gebeurtenis-gebaseerde) de procesprofielen van de Schavens** individueel aangezien de gebeurtenissen voorkomen, zodat hangt de schaal van gebeurtenisvolume en productie af.
 
 +++
 
 +++ Kan ik hetzelfde publiek gebruiken voor reizen en campagnes?
 
-Ja, in Adobe Experience Platform gecreëerd publiek kan in alle drie benaderingen worden gebruikt.
+Ja. Soorten publiek die zijn gemaakt in [!DNL Adobe Experience Platform] , kunnen worden gebruikt in Journalen, Handelingcampagnes en Geordende campagnes (waarbij de logica van het publiek ook op aanvraag kan worden opgebouwd in het canvas). API-getriggerde campagnes worden aangedreven door de lading en gebruiken niet op dezelfde manier vooraf gebouwde soorten publiek.
 
 +++
 
@@ -271,12 +278,14 @@ Ja, in Adobe Experience Platform gecreëerd publiek kan in alle drie benaderinge
 
 Klaar om te beginnen met bouwen? Bekijk de gedetailleerde documentatie voor uw gekozen aanpak:
 
-* **[wordt begonnen met Reizen](../building-journeys/journey.md)** - leer over reistypes, ontwerper, en werkschema
-* **[worden begonnen met Campagnes](../campaigns/get-started-with-campaigns.md)** - onderzoek Actie en API-teweeggebrachte campagnes
-* **[worden begonnen met Geordende Campagnes](../orchestrated/gs-orchestrated-campaigns.md)** - ontdekt de werkschema&#39;s van het partijcanvas
+* **[wordt begonnen met Reizen](../building-journeys/journey.md)** - de types van Reis, ontwerper, en werkschema
+* **[worden begonnen met Campagnes](../campaigns/get-started-with-campaigns.md)** - actie en API-teweeggebrachte campagnes
+* **[wordt begonnen met Geordende Campagnes](../orchestrated/gs-orchestrated-campaigns.md)** - de werkschema&#39;s van het canvas van de partij
 
-**heb meer hulp nodig bepalend?**
-* [Vergelijking van reistypes](../building-journeys/journey.md#journey-types-comparison)
-* [Vergelijking van campagne-typen](../campaigns/get-started-with-campaigns.md#campaign-types)
-* [Veelgestelde vragen over reizen](../building-journeys/journey-faq.md)
-* [Veelgestelde vragen over geordende campagnes](../orchestrated/orchestrated-campaigns-faq.md)
+>[!MORELIKETHIS]
+>
+>* [ de types van Reis vergelijking ](../building-journeys/journey.md#journey-types-comparison)
+>* [ de types van Campagne vergelijking ](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [ Veelgestelde vragen van de Reis ](../building-journeys/journey-faq.md)
+>* [ Orchestrated FAQ van Campagnes ](../orchestrated/orchestrated-campaigns-faq.md)
+>* [ Beste praktijken ](best-practices.md) - gebruiksgevallen in real time en het schrapen met gidsen
