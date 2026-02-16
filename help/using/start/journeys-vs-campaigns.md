@@ -11,9 +11,9 @@ keywords: reis, campagne, georkestreerd, vergelijking, keuze, beslissing, workfl
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 4cf2b850561ef99dc8dc8300c41eeedd0cecfe32
+source-git-commit: fc2dc5924f4998d1285dee9c19a0d7e71a1e5722
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1593'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Deze gids helpt u kiezen gebaseerd op uitvoeringsstijl, gegevensbehoeften, en ge
 
 >[!TIP]
 >
->**Snelle regel van duim:** heb elke klant nodig om bij hun eigen tempo met logica in real time te bewegen? De Reizen van het gebruik **&#x200B;**. Eén bericht verzenden naar een publiek volgens een planning? De Campagnes van de Actie van het gebruik **&#x200B;**. Triggerend vanaf een extern systeem via API? Gebruik **API-teweeggebrachte Campagnes**. Gegevens van meerdere entiteiten, exacte aantallen of een batchcanvas nodig? Het gebruik **Orchestrated Campaigns**.
+>**Snelle regel van duim:** heb elke klant nodig om bij hun eigen tempo met logica in real time te bewegen? De Reizen van het gebruik ****. Eén bericht verzenden naar een publiek volgens een planning? De Campagnes van de Actie van het gebruik ****. Triggerend vanaf een extern systeem via API? Gebruik **API-teweeggebrachte Campagnes**. Gegevens van meerdere entiteiten, exacte aantallen of een batchcanvas nodig? Het gebruik **Orchestrated Campaigns**.
 
 ## Gedetailleerde vergelijking {#detailed-comparison}
 
@@ -284,8 +284,7 @@ Klaar om te beginnen met bouwen? Bekijk de gedetailleerde documentatie voor uw g
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; de types van Reis vergelijking &#x200B;](../building-journeys/journey.md#journey-types-comparison)
->* [&#x200B; de types van Campagne vergelijking &#x200B;](../campaigns/get-started-with-campaigns.md#campaign-types)
->* [&#x200B; Veelgestelde vragen van de Reis &#x200B;](../building-journeys/journey-faq.md)
->* [&#x200B; Orchestrated FAQ van Campagnes &#x200B;](../orchestrated/orchestrated-campaigns-faq.md)
->* [&#x200B; Beste praktijken &#x200B;](best-practices.md) - gebruiksgevallen in real time en het schrapen met gidsen
+>* [ de types van Reis vergelijking ](../building-journeys/journey.md#journey-types-comparison)
+>* [ de types van Campagne vergelijking ](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [ Veelgestelde vragen van de Reis ](../building-journeys/journey-faq.md)
+>* [ Orchestrated FAQ van Campagnes ](../orchestrated/orchestrated-campaigns-faq.md)
