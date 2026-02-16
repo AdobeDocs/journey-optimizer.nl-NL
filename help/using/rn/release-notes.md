@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9dbe9c4f6073f68bc7d01b2a72dc89c927870dcf
+source-git-commit: d3e361c6b7a91a1fd3b72d12a8aa6fefc295837a
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1549'
 ht-degree: 3%
 
 ---
@@ -23,15 +23,15 @@ ht-degree: 3%
 
 [!DNL Adobe Journey Optimizer] volgt een doorlopend leveringsmodel, dat Adobe in staat stelt voortdurend nieuwe functies, verbeteringen en correcties te leveren. Deze benadering maakt een schaalbare, gefaseerde implementatie van mogelijkheden mogelijk om prestaties en stabiliteit in alle omgevingen te garanderen.
 
-Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [&#x200B; de versiecyclus van Journey Optimizer &#x200B;](releases.md).
+Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [ de versiecyclus van Journey Optimizer ](releases.md).
 
-[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Opmerkingen voorafgaand aan de release van februari &#39;26 {#feb-26-01-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 17-18 februari, 2026
 
@@ -46,11 +46,11 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <tbody>
 <tr>
 <td>
-<p>U kunt uitgaande berichten van <strong> campagnes </strong> plannen of <strong> reizen </strong> om in gecontroleerde <strong> partijen </strong> in tijd worden geleverd.</p>
+<p>U kunt uitgaande berichten van campagnes of reizen plannen die in gecontroleerde partijen in tijd moeten worden geleverd.</p>
 <p>Wave-verzending biedt de volgende voordelen:</p>
 <ul>
-<li>Betere <strong> leverability </strong> - de Spread verzendt in tijd helpen een sterke afzenderreputatie handhaven en het risico verminderen om als spam worden gemarkeerd.</li>
-<li><strong> controle van de Lading </strong> - vermijd overweldigende stroomafwaartse systemen (b.v. callcenters, landende pagina's) door te beperken hoeveel berichten uit in één keer gaan.</li>
+<li>Betere leverbaarheid - Spread verzendt in tijd om te helpen een sterke sender reputatie handhaven en het risico verminderen om als spam worden gemarkeerd.</li>
+<li>Controle van de lading - vermijd overweldigende stroomafwaartse systemen (b.v. callcenters, landende pagina's) door te beperken hoeveel berichten tegelijk uitgaan.</li>
 <li>Gebruiksscenario's met veel volume en veel tijd - Geschikt voor grote doelgroepen of wanneer u de timing moet bepalen (bijvoorbeeld capaciteit van het callcenter, opwaardering of tijdgebonden aanbiedingen).</li>
 </ul>
 </td>
@@ -67,7 +67,7 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <tbody>
 <tr>
 <td>
-<p>U kunt <strong> formules </strong> en <strong> modellen nu gebruiken AI </strong> om de scores van de reisprioriteit automatisch op te voeren die op de attributen van het klantenprofiel en contextafhankelijke factoren worden gebaseerd, die klanten verzekeren gaan de meest relevante reizen in.</p>
+<p>U kunt <strong> rangschikkende formules </strong> <!--and <strong>AI models</strong> --> nu gebruiken om de scores van de reisprioriteit automatisch op te voeren die op de attributen van het klantenprofiel en contextafhankelijke factoren worden gebaseerd, die klanten verzekeren gaan de meest relevante reizen in.</p>
 <p>Dit vermogen is slechts beschikbaar voor een reeks organisaties (<strong> Beperkte Beschikbaarheid </strong>). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
 </td>
 </tr>
@@ -110,6 +110,22 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <table>
 <thead>
 <tr>
+<th><strong>Bewaking van AI-modellen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met Journey Optimizer kunt u nu de status van uw AI-modellen op het gebied van gezondheid, training en prestaties controleren. Zo kunt u het succes van de training controleren, fouten oplossen en het effect op uw resultaten begrijpen.</p>
+<p>Dit vermogen is momenteel beschikbaar voor <strong> gepersonaliseerde optimalisering </strong> slechts modellen (niet auto-optimalisering).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Actie tijdens reizen</strong><br/></th>
 </tr>
 </thead>
@@ -120,8 +136,8 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <ul>
 <li>Een vereenvoudigde native actieconfiguratie binnen het reiscanvas.</li>
 <li>De capaciteit om multi-actie binnenkomende actiegroepen te creëren.</li>
-<li>De capaciteit om <strong> optimalisering </strong> aan om het even welke ingebouwde kanaalactie toe te voegen.</li>
-<li>De capaciteit om zowel <strong> experimenteren </strong> als <strong> meertalige </strong> opties aan om het even welke actie toe te voegen.</li>
+<li>De mogelijkheid om optimalisatie toe te voegen aan ingebouwde kanaalacties.</li>
+<li>De mogelijkheid om zowel experimenteeropties als meertalige&gt; opties aan een actie toe te voegen.</li>
 </ul>
 <p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
 </td>
@@ -193,11 +209,11 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <tbody>
 <tr>
 <td>
-<p><strong> het hulpmiddel van de Migratie APIs </strong> is nu beschikbaar om <strong> het beheer van het Besluit </strong> entiteiten aan <strong> Beslissing </strong> programmatically te migreren, kenmerkend:</p>
+<p>Het hulpmiddel van de migratie APIs is nu beschikbaar om <strong> het beheer van het Besluit </strong> entiteiten aan <strong> Beslissing </strong> programmatically te migreren, kenmerkend:</p>
 <ul>
-<li>Flexibele migratiewerkingsgebied (<strong> zandbak </strong>, <strong> aanbieding </strong>, of <strong> besluit </strong> niveau)</li>
-<li>Geautomatiseerde <strong> gebiedsdeelanalyse </strong> en bevestiging</li>
-<li><strong> de steun van het Terugschroeven van prijzen </strong> voor voltooide migraties</li>
+<li>Flexibele migratieruimten (sandbox-, bied- of beslissingsniveau)</li>
+<li>Geautomatiseerde afhankelijkheidsanalyse en -validatie</li>
+<li>Ondersteuning voor terugdraaien van voltooide migraties</li>
 <li>Gedetailleerde migratierapporten met objecttoewijzingen</li>
 </ul>
 <p>Raadpleeg de <a href="../experience-decisioning/decisioning-migration-api.md">gedetailleerde documentatie</a> voor meer informatie.</p>
@@ -248,7 +264,7 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 #### Configuratie
 
-* **het gebeurtenisgebruik van de Ervaring in reisuitdrukkingen** - Beginnend 1 April, 2026, zal het gebruik van de attributen van de ervaringsgebeurtenis in reisuitdrukkingen niet meer gesteund worden voor organisaties die dit vermogen in de laatste 90 dagen niet hebben gebruikt. Deze mogelijkheid is al sinds 8 juli 2025 niet meer beschikbaar voor nieuwe klantenorganisaties. Voor alternatieven, zie [&#x200B; de gebeurtenisraadpleging van de Ervaring in reizen &#x200B;](../building-journeys/exp-event-lookup.md).
+* **het gebeurtenisgebruik van de Ervaring in reisuitdrukkingen** - Beginnend 1 April, 2026, zal het gebruik van de attributen van de ervaringsgebeurtenis in reisuitdrukkingen niet meer gesteund worden voor organisaties die dit vermogen in de laatste 90 dagen niet hebben gebruikt. Deze mogelijkheid is al sinds 8 juli 2025 niet meer beschikbaar voor nieuwe klantenorganisaties. Voor alternatieven, zie [ de gebeurtenisraadpleging van de Ervaring in reizen ](../building-journeys/exp-event-lookup.md).
 
 
 * **Migreer subdomeinen aan douanedelegatie** - u kunt subdomeinen nu migreren gebruikend de de delegatiemodus van de NAAM aan douanedelegatie direct van de interface, zodat kunt u strenger veiligheidsbeleid in overeenstemming met de richtlijnen van uw bedrijf ontmoeten zonder kanaalconfiguraties opnieuw te creëren.
@@ -277,9 +293,6 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 
 * **de Voorproef van het Beslissen van de Ervaring in op code-gebaseerd kanaal van de Ervaring** - u kunt de punten van de voorproef bij het vormen van Ervaring Beslissing met het op code-Gebaseerde kanaal van de Ervaring nu vormen. Voorvertoning is rechtstreeks beschikbaar in de ontwerpinterface voordat u live gaat.
-
-
-* **Aanbieding Rangschikt AI ModelWaarneming** - Journey Optimizer staat u nu toe om de gezondheid, de opleidingsstatus, en de prestaties van uw modellen AI in besluit-zodat kunt u opleidingssucces verifiëren, mislukkingen problemen oplossen, en effect op uw resultaten begrijpen. Deze mogelijkheid is alleen beschikbaar voor gepersonaliseerde optimalisatiemodellen (niet voor automatische optimalisatie).
 
 
 * **de fragmenten van de Band aan besluitvormingspunten** - Journey Optimizer verstrekt nu de capaciteit om fragmenten aan besluitvormingspunten vast te maken die in code-gebaseerde ervaringscampagnes door besluitvormingsbeleid kunnen worden leveraged.
