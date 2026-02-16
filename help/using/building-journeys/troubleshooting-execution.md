@@ -10,10 +10,10 @@ level: Intermediate
 keywords: problemen oplossen, problemen oplossen, reis, controle, fouten
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: dd8fd1099344257a72e9f7f18ef433d35def6689
 workflow-type: tm+mt
-source-wordcount: '1592'
-ht-degree: 16%
+source-wordcount: '1754'
+ht-degree: 14%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 16%
 
 In deze sectie, leer hoe te om reisgebeurtenissen problemen op te lossen, controleer als de profielen uw reis inging, hoe zij door het navigeren, en als de berichten worden verzonden.
 
-U kunt fouten ook oplossen voordat u een reis test of publiceert. Leer hoe [&#x200B; op deze pagina &#x200B;](troubleshooting.md).
+U kunt fouten ook oplossen voordat u een reis test of publiceert. Leer hoe [ op deze pagina ](troubleshooting.md).
 
-Als u binnenkomende acties gebruikt, leer hoe te om hen [&#x200B; op deze pagina &#x200B;](troubleshooting-inbound.md) problemen op te lossen.
+Als u binnenkomende acties gebruikt, leer hoe te om hen [ op deze pagina ](troubleshooting-inbound.md) problemen op te lossen.
 
 ## Controleren of gebeurtenissen correct zijn verzonden {#checking-that-events-are-properly-sent}
 
@@ -31,9 +31,9 @@ Het startpunt van een journey is altijd een gebeurtenis. U kunt tests uitvoeren 
 
 U kunt controleren of de API-aanroep die u via deze tools verzendt, correct is verzonden of niet. Als een fout wordt geretourneerd, betekent dit dat er een probleem is met uw aanroep. Controleer opnieuw de payload, de koptekst (vooral de organisatie-id) en de bestemmings-URL. U kunt de beheerder vragen wat de juiste URL is.
 
-Gebeurtenissen worden niet rechtstreeks van de bron naar de ritten verplaatst. Reizen vertrouwen inderdaad op de streaming opname-API&#39;s van [!DNL Adobe Experience Platform] . Dientengevolge, in het geval van gebeurtenis verwante kwesties, kunt u naar [[!DNL Adobe Experience Platform]  documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=nl-NL){target="_blank"} voor het Streamen van opname APIs het oplossen van problemen verwijzen.
+Gebeurtenissen worden niet rechtstreeks van de bron naar de ritten verplaatst. Reizen vertrouwen inderdaad op de streaming opname-API&#39;s van [!DNL Adobe Experience Platform] . Dientengevolge, in het geval van gebeurtenis verwante kwesties, kunt u naar [[!DNL Adobe Experience Platform]  documentatie ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} voor het Streamen van opname APIs het oplossen van problemen verwijzen.
 
-Als uw reis er niet in slaagt testwijze met fout `ERR_MODEL_RULES_16` toe te laten, zorg ervoor de gebruikte gebeurtenis een [&#x200B; identiteit namespace &#x200B;](../audience/get-started-identity.md) omvat wanneer het gebruiken van een kanaalactie.
+Als uw reis er niet in slaagt testwijze met fout `ERR_MODEL_RULES_16` toe te laten, zorg ervoor de gebruikte gebeurtenis een [ identiteit namespace ](../audience/get-started-identity.md) omvat wanneer het gebruiken van een kanaalactie.
 
 De naamruimte identity wordt gebruikt om de testprofielen op unieke wijze te identificeren. Bijvoorbeeld, als e-mail wordt gebruikt om de testprofielen te identificeren, zou de identiteit namespace **E-mail** moeten worden geselecteerd. Als het unieke herkenningsteken het telefoonaantal is, dan zou de identiteit namespace **Telefoon** moeten worden geselecteerd.
 
@@ -57,8 +57,16 @@ U kunt het oplossen van problemen met de hieronder vragen beginnen:
   Content-type - application/json
   ```
 
-&#x200B;>>
-**voor de reizen van de Kwalificatie van het Publiek met het stromen publiek**: Als u een activiteit van de Kwalificatie van het Publiek als het punt van de reisingang gebruikt, ben zich ervan bewust dat niet alle profielen die voor het publiek worden gekwalificeerd noodzakelijkerwijs de reis wegens tijdsfactoren, snelle uitgang van het publiek zullen ingaan, of als de profielen reeds in het publiek alvorens te publiceren waren. Leer meer over [&#x200B; het stromen overwegingen van de publiekskwalificatie timing &#x200B;](audience-qualification-events.md#streaming-entry-caveats).
+* **de voorwaarde en het schemagegevenstypes van de Gebeurtenis** - verzeker de gegevenstypes die in uw gebeurtenisvoorwaarde (regel) worden gebruikt het gebeurtenisschema aanpassen. Bij niet-overeenkomende typen (bijvoorbeeld tekenreeks versus geheel getal) mislukt de regelevaluatie en gaan gebeurtenissen verloren. Zie [ de identiteit van de gebeurtenisidentiteit ](#verify-event-identity-and-rule-data-types) verifiëren.
+
+>>
+**voor de reizen van de Kwalificatie van het Publiek met het stromen publiek**: Als u een activiteit van de Kwalificatie van het Publiek als het punt van de reisingang gebruikt, ben zich ervan bewust dat niet alle profielen die voor het publiek worden gekwalificeerd noodzakelijkerwijs de reis wegens tijdsfactoren, snelle uitgang van het publiek zullen ingaan, of als de profielen reeds in het publiek alvorens te publiceren waren. Leer meer over [ het stromen overwegingen van de publiekskwalificatie timing ](audience-qualification-events.md#streaming-entry-caveats).
+
+### Identiteit van gebeurtenis verifiëren {#verify-event-identity-and-rule-data-types}
+
+Wanneer het vormen van een op gebeurtenis-gebaseerde reis, bevestig dat het de identiteitsgebied van de lading [ namespace in de gebeurtenis ](../event/about-creating.md#select-the-namespace) wordt geselecteerd aanpast. Als de gebeurtenis gebieden voor profiel aanpassing omvat, verifieer het **brievengeval** en **gegevenstype** in de gebeurtenisvoorwaarde precies de binnenkomende gegevens. Als het gebeurtenisschema `roStatus` bijvoorbeeld definieert als een tekenreeks, moet de reisregel deze ook als een tekenreeks evalueren. Niet-overeenkomende gegevenstypen (bijvoorbeeld tekenreeks versus geheel getal) zorgen ervoor dat regelevaluatie mislukt en dat geldige gebeurtenissen worden neergezet.
+
+Als u de voorwaarde van de gebeurtenis wilt valideren in [!DNL Journey Optimizer] , gebruikt u de voorvertoning van de lading in de gebeurtenisconfiguratie en zorgt u ervoor dat de typen en waarden in de regel overeenkomen met de laadstructuur. Leer hoe te [ voorproef de nuttige lading ](../event/about-creating.md#preview-the-payload) en [ regel-gebaseerde gebeurtenissen ](../event/about-creating.md) vormen.
 
 ## Problemen met overgangen in testmodi oplossen {#troubleshooting-test-transitions}
 
@@ -68,12 +76,12 @@ Als testprofielen uw reis in testmodus niet doorlopen of als de visuele stroom g
 
 Als testprofielen de reis ingaan maar niet voorbij de aanvankelijke stap vooruit, controleer het volgende:
 
-* **de begindatum van de Reis** - de gemeenschappelijkste oorzaak is wanneer de de begindatum van de reis in de toekomst wordt geplaatst. De profielen van de test worden onmiddellijk verworpen als de huidige tijd buiten de gevormde reis [&#x200B; begin en einddata/tijd &#x200B;](journey-properties.md#dates) venster valt. Oplossen:
+* **de begindatum van de Reis** - de gemeenschappelijkste oorzaak is wanneer de de begindatum van de reis in de toekomst wordt geplaatst. De profielen van de test worden onmiddellijk verworpen als de huidige tijd buiten de gevormde reis [ begin en einddata/tijd ](journey-properties.md#dates) venster valt. Oplossen:
    * Controleren of de begindatum van de reis in de toekomst niet is ingesteld
    * Zorg ervoor dat de huidige tijd binnen het actieve datumvenster van de reis valt
    * Werk indien nodig de eigenschappen van de reis bij om de begindatum aan te passen
 
-* **het profielconfiguratie van de Test** - bevestig dat het profiel correct als testprofiel in [!DNL Adobe Experience Platform] wordt gemarkeerd. Zie [&#x200B; hoe te om testprofielen &#x200B;](../audience/creating-test-profiles.md) voor meer informatie tot stand te brengen.
+* **het profielconfiguratie van de Test** - bevestig dat het profiel correct als testprofiel in [!DNL Adobe Experience Platform] wordt gemarkeerd. Zie [ hoe te om testprofielen ](../audience/creating-test-profiles.md) voor meer informatie tot stand te brengen.
 
 * **Identiteit namespace** - verzeker de identiteit namespace die in de gebeurtenisconfiguratie wordt gebruikt aanpast namespace van uw testprofiel.
 
@@ -189,7 +197,7 @@ Als u rapporten of analyses bouwt die op de Gebeurtenissen van de Stap van de Re
 * Kruisverwijzing met bericht terugkoppelt datasets wanneer het analyseren van berichtlevering
 * Houd er rekening mee dat timinganalyse items kan weergeven die binnen een paar seconden van elkaar zijn geclusterd
 
-Voor meer informatie over het vragen van de Gebeurtenissen van de Stap van de Reis, zie [&#x200B; Voorbeelden van vragen &#x200B;](../reports/query-examples.md).
+Voor meer informatie over het vragen van de Gebeurtenissen van de Stap van de Reis, zie [ Voorbeelden van vragen ](../reports/query-examples.md).
 
 ## Metrische verschillen in dashboard oplossen {#dashboard-metrics}
 
