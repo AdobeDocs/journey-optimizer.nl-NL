@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '3086'
 ht-degree: 15%
@@ -273,7 +273,6 @@ ht-degree: 15%
             + [Uw inhoud importeren](using/email/existing-content.md)
             + [Uw eigen inhoud coderen](using/email/code-content.md)
             + [E-mailsjablonen gebruiken](using/email/use-email-templates.md)
-            + [Afbeeldingen converteren naar HTML-sjablonen](using/email/image-to-html.md)
             + [E-mailthema&#39;s gebruiken](using/email/apply-email-themes.md)
             + [PDF-bestanden bijvoegen bij uw e-mails](using/email/pdf-attachments.md)
          + Uw inhoud ontwerpen {#add-content}
@@ -457,6 +456,7 @@ ht-degree: 15%
       + [Aan de slag met inhoudssjablonen](using/content-management/content-templates.md)
       + [Sjablonen openen en beheren](using/content-management/access-content-templates.md)
       + [Inhoudssjablonen maken](using/content-management/create-content-templates.md)
+      + [Afbeeldingen converteren naar HTML-sjablonen](using/content-management/image-to-html.md)
       + [Inhoud in e-mailsjablonen vergrendelen](using/content-management/content-locking.md)
       + [Inhoudssjablonen testen](using/content-management/test-content-templates.md)
       + [Inhoudssjablonen gebruiken](using/content-management/use-content-templates.md)
@@ -849,7 +849,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}

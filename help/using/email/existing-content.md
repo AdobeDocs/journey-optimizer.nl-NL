@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: email, import, content, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 9%
@@ -30,7 +30,7 @@ Met [!DNL Journey Optimizer] kunt u bestaande HTML-inhoud importeren om uw e-mai
 
 >[!TIP]
 >
->Als u beeldontwerpen (JPEG of PNG) in plaats van de dossiers van HTML hebt, kunt u het [&#x200B; beeld aan de omzetter van HTML &#x200B;](image-to-html.md) gebruiken om hen automatisch om te zetten in editable HTML e-mailmalplaatjes gebruikend AI.
+>Als u beeldontwerpen (JPEG of PNG) in plaats van de dossiers van HTML hebt, kunt u het [ beeld aan de omzetter van HTML ](../content-management/image-to-html.md) gebruiken om hen automatisch om te zetten in editable HTML e-mailmalplaatjes gebruikend AI.
 
 Voer de onderstaande stappen uit om een bestand met HTML-inhoud te importeren:
 
