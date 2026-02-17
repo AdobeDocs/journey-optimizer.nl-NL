@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0472c9bb9decc49e5da392003027df23ec528ac9
+source-git-commit: 1bcd30022ea2360d44f5519e156129f603cdf149
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1525'
 ht-degree: 3%
 
 ---
@@ -23,15 +23,15 @@ ht-degree: 3%
 
 [!DNL Adobe Journey Optimizer] volgt een doorlopend leveringsmodel, dat Adobe in staat stelt voortdurend nieuwe functies, verbeteringen en correcties te leveren. Deze benadering maakt een schaalbare, gefaseerde implementatie van mogelijkheden mogelijk om prestaties en stabiliteit in alle omgevingen te garanderen.
 
-Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [&#x200B; de versiecyclus van Journey Optimizer &#x200B;](releases.md).
+Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [ de versiecyclus van Journey Optimizer ](releases.md).
 
-[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Opmerkingen voorafgaand aan de release van februari &#39;26 {#feb-26-01-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 17-18 februari, 2026
 
@@ -46,12 +46,13 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <tbody>
 <tr>
 <td>
-<p>U kunt uitgaande berichten van campagnes of reizen plannen die in gecontroleerde partijen in tijd moeten worden geleverd.</p>
+<p>U kunt nu uitgaande berichten van Journey Optimizer-campagnes plannen of reizen die in gecontroleerde batches in de loop van de tijd worden geleverd.</p>
 <p>Wave-verzending biedt de volgende voordelen:</p>
 <ul>
 <li>Betere leverbaarheid - Spread verzendt in tijd om te helpen een sterke sender reputatie handhaven en het risico verminderen om als spam worden gemarkeerd.</li>
 <li>Controle van de lading - vermijd overweldigende stroomafwaartse systemen (b.v. callcenters, landende pagina's) door te beperken hoeveel berichten tegelijk uitgaan.</li>
 <li>Gebruiksscenario's met veel volume en veel tijd - Geschikt voor grote doelgroepen of wanneer u de timing moet bepalen (bijvoorbeeld capaciteit van het callcenter, opwaardering of tijdgebonden aanbiedingen).</li>
+<p>In campagnes, is dit vermogen beschikbaar aan alle milieu's (Algemene Beschikbaarheid). Bij reizen is deze mogelijkheid alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
 </ul>
 </td>
 </tr>
@@ -263,7 +264,7 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 #### Configuratie
 
-* **het gebeurtenisgebruik van de Ervaring in reisuitdrukkingen** - Beginnend 1 April, 2026, zal het gebruik van de attributen van de ervaringsgebeurtenis in reisuitdrukkingen niet meer gesteund worden voor organisaties die dit vermogen in de laatste 90 dagen niet hebben gebruikt. Deze mogelijkheid is al sinds 8 juli 2025 niet meer beschikbaar voor nieuwe klantenorganisaties. Voor alternatieven, zie [&#x200B; de gebeurtenisraadpleging van de Ervaring in reizen &#x200B;](../building-journeys/exp-event-lookup.md).
+* **het gebeurtenisgebruik van de Ervaring in reisuitdrukkingen** - Beginnend 1 April, 2026, zal het gebruik van de attributen van de ervaringsgebeurtenis in reisuitdrukkingen niet meer gesteund worden voor organisaties die dit vermogen in de laatste 90 dagen niet hebben gebruikt. Deze mogelijkheid is al sinds 8 juli 2025 niet meer beschikbaar voor nieuwe klantenorganisaties. Voor alternatieven, zie [ de gebeurtenisraadpleging van de Ervaring in reizen ](../building-journeys/exp-event-lookup.md).
 
 
 #### Email Designer
