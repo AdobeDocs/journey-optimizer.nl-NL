@@ -6,9 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 7b1b79e9263aa2512cf69cb130f322a1558eecff
+source-git-commit: aca4e62faa7aa09a60eef661c0732a8b0b1fa36e
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 Met de API voor beslissingsmigratieservice kunt u beslissingsbeheerobjecten migreren van de ene naar de andere sandbox. Het migratieproces wordt uitgevoerd als asynchrone workflows die afhankelijkheidsanalyse, uitvoering en optionele terugdraaimogelijkheden omvatten.
 
-Met deze API kunt u uw beslissingsinhoud naadloos overbrengen tussen omgevingen (bijvoorbeeld van ontwikkeling naar staging of staging naar productie) en tegelijk de integriteit en relaties van de gegevens behouden.
+Deze API staat u toe om uw beslissingsinhoud tussen milieu&#39;s <!--(e.g., from development to staging, or staging to production) --> foutloos over te brengen terwijl het handhaven van gegevensintegriteit en verhoudingen.
 
-Om over de voordelen en de mogelijkheden van Beslissing in vergelijking met het beheer van het Besluit te leren, verwijs naar [&#x200B; deze pagina &#x200B;](migrate-to-decisioning.md).
+Om over de voordelen en de mogelijkheden van Beslissing in vergelijking met het beheer van het Besluit te leren, verwijs naar [ deze pagina ](migrate-to-decisioning.md).
 
 ## Mogelijkheden {#capabilities}
 
@@ -51,7 +51,7 @@ Tot de gebruikelijke machtigingen behoren:
 
 >[!NOTE]
 >
->Leer hoe te om de toestemmingen van Beslissing in [&#x200B; toe te wijzen deze sectie &#x200B;](gs-experience-decisioning.md#steps). Voor de volledige lijst van toestemmingen, verwijs naar de [&#x200B; Ingebouwde toestemmingen &#x200B;](../administration/ootb-permissions.md#ootb-permissions) pagina.
+>Leer hoe te om de toestemmingen van Beslissing in [ toe te wijzen deze sectie ](gs-experience-decisioning.md#steps). Voor de volledige lijst van toestemmingen, verwijs naar de [ Ingebouwde toestemmingen ](../administration/ootb-permissions.md#ootb-permissions) pagina.
 
 ### De doelsandbox voorbereiden {#target-sandbox-preparation}
 
@@ -62,16 +62,16 @@ Controleer voordat u een migratie uitvoert of de doelsandbox correct is geconfig
 * **Dataset** - identificeer een datasetnaam voor de migratie (`dependency.datasetName`) te gebruiken.
 * **DataStream** - besluit of de migratie een gegevensstroom (`createDataStream`) zou moeten tot stand brengen.
 
-Voor meer informatie over zandbakbeheer, verwijs naar [&#x200B; Gebruik en wijs zandbakken &#x200B;](../administration/sandboxes.md) toe.
+Voor meer informatie over zandbakbeheer, verwijs naar [ Gebruik en wijs zandbakken ](../administration/sandboxes.md) toe.
 
 ## Basisprincipes van API&#39;s {#api-basics}
 
-### Basis-URL&#39;s {#base-urls}
+### Basis-URL {#base-url}
 
-Gebruik de volgende basis-URL&#39;s, afhankelijk van uw omgeving:
+Gebruik de volgende basis-URL:
 
 * **Productie**: `https://decisioning-migration.adobe.io`
-* **het Staging**: `https://decisioning-migration-stage.adobe.io`
+  <!--* **Staging**: `https://decisioning-migration-stage.adobe.io`-->
 
 ### Verificatie {#authentication}
 
@@ -81,7 +81,7 @@ Voor alle API-aanvragen zijn de volgende headers vereist:
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-Voor gedetailleerde instructies bij vestiging authentificatie, verwijs naar de [&#x200B; de authentificatiegids van Journey Optimizer &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
+Voor gedetailleerde instructies bij vestiging authentificatie, verwijs naar de [ de authentificatiegids van Journey Optimizer ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
 
 ### Workflowmodel {#workflow-model}
 
@@ -93,8 +93,8 @@ Een werkstroom heeft de volgende eigenschappen:
 * `status` - Huidige workflowstatus: `New`, `Running`, `Completed` of `Failed`
 * `result` - Workflowuitvoer na voltooiing (inclusief migratieresultaten en waarschuwingen)
 * `errors` - Gestructureerde foutdetails wanneer mislukt
-* `_etag` - Versie-id die wordt gebruikt voor verwijderbewerkingen (alleen voor servicegebruikers)
 * `_links.self` - Workflow URL voor het ophalen van status
+  <!--* `_etag` - Version identifier used for delete operations (service users only)-->
 
 ## Migratieworkflow {#migration-workflow}
 
@@ -354,21 +354,19 @@ Bij de migratie van beslissingsbeheer naar besluitvorming worden de entiteiten a
 
 ## Opschonen van workflow {#cleanup}
 
-De middelen van het werkschema kunnen door de dienstgebruikers slechts worden geschrapt. Voor verwijderingsbewerkingen is een `If-Match` header met de `_etag` -waarde van de workflow vereist.
+<!--Workflow resources can be deleted by service users only. Delete operations require an `If-Match` header with the workflow's `_etag` value.
 
-**Beschikbare schrappingsverrichtingen:**
+**Available delete operations:**
 
 * `DELETE /workflows/generate-dependencies/{id}`
 * `DELETE /workflows/migration/{id}`
-* `DELETE /workflows/rollback/{id}`
+* `DELETE /workflows/rollback/{id}`-->
 
->[!NOTE]
->
->De schrapping van het werkschema is slechts beschikbaar aan de dienstrekeningen met aangewezen toestemmingen. Als u een werkschemabron moet schrappen, contacteer uw systeembeheerder.
+De schrapping van het werkschema is niet openbaar beschikbaar. Als u een werkschemabron moet schrappen, contacteer uw systeembeheerder.
 
 ## Verwante onderwerpen {#related-topics}
 
-* [&#x200B; Migreer van het beheer van Besluit aan Beslissing &#x200B;](migrate-to-decisioning.md) - begrijp de voordelen en de mogelijkheden van het migreren aan Beslissing
+* [ Migreer van het beheer van Besluit aan Beslissing ](migrate-to-decisioning.md) - begrijp de voordelen en de mogelijkheden van het migreren aan Beslissing
 * [Aan de slag met beslissing](gs-experience-decisioning.md)
 * [Beslissingsinstructies en beperkingen](decisioning-guardrails.md)
 * [Aan de slag met beslissing-API&#39;s](api-reference/getting-started.md)
