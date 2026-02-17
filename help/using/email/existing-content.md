@@ -30,7 +30,7 @@ Met [!DNL Journey Optimizer] kunt u bestaande HTML-inhoud importeren om uw e-mai
 
 >[!TIP]
 >
->Als u beeldontwerpen (JPEG of PNG) in plaats van de dossiers van HTML hebt, kunt u het [ beeld aan de omzetter van HTML ](../content-management/image-to-html.md) gebruiken om hen automatisch om te zetten in editable HTML e-mailmalplaatjes gebruikend AI.
+>Als u beeldontwerpen (JPEG of PNG) in plaats van de dossiers van HTML hebt, kunt u het [&#x200B; beeld aan de omzetter van HTML &#x200B;](../content-management/image-to-html.md) gebruiken om hen automatisch om te zetten in editable HTML e-mailmalplaatjes gebruikend AI.
 
 Voer de onderstaande stappen uit om een bestand met HTML-inhoud te importeren:
 
