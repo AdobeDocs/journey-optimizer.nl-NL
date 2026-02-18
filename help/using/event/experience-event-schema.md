@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: schema's, XDM, platform, streaming, opname, reis
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 18067694878761f3b37277dfee6f7e43987a1d42
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Daarom is een belangrijke voorwaarde voor het instellen van gebeurtenissen voor 
 
 >[!CAUTION]
 >
->Opzoekingen naar ervaringsgebeurtenissen in reisomstandigheden worden niet meer ondersteund. Zoek hier naar alternatieve best practices. Neem contact op met uw Adobe-vertegenwoordiger als u een kwestie hebt die aanleiding geeft tot het gebruik van een reis en die nog steeds zoekopdrachten voor Experience Events nodig heeft en die niet door de vermelde alternatieven kan worden ondersteund. Wij helpen u bij het bereiken van uw doel.
+>Vanaf 8 juli 2025 kunnen nieuwe klantenorganisaties geen expressies maken met behulp van ervaringskenmerken in reisomstandigheden. Vanaf 1 april 2026 hebben organisaties die de afgelopen 90 dagen geen toegang hebben gehad tot gebeurtenissen via reisexpressies, geen toegang meer tot deze mogelijkheid. De alternatieve benaderingen en de beste praktijken zijn vermeld in [ de gebeurtenisraadpleging van de Ervaring in reizen ](../building-journeys/exp-event-lookup.md).
 >
 >De toegang tot de context vanaf het begin van een reis wordt niet beïnvloed.
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=nl-NL).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 
