@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7dac7dbdb6a84455dc97828884027cfed39f3995
+source-git-commit: 029f91599f0be6d30d1e7d73cac7390a6fb05f1f
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1461'
 ht-degree: 4%
 
 ---
@@ -23,15 +23,15 @@ ht-degree: 4%
 
 [!DNL Adobe Journey Optimizer] volgt een doorlopend leveringsmodel, dat Adobe in staat stelt voortdurend nieuwe functies, verbeteringen en correcties te leveren. Deze benadering maakt een schaalbare, gefaseerde implementatie van mogelijkheden mogelijk om prestaties en stabiliteit in alle omgevingen te garanderen.
 
-Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [&#x200B; de versiecyclus van Journey Optimizer &#x200B;](releases.md).
+Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [ de versiecyclus van Journey Optimizer ](releases.md).
 
-[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Opmerkingen voorafgaand aan de release van februari &#39;26 {#feb-26-01-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: 17-18 februari, 2026
 
@@ -265,14 +265,17 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 #### Configuratie
 
-* **het gebeurtenisgebruik van de Ervaring in reisuitdrukkingen** - Beginnend 1 April, 2026, zal het gebruik van de attributen van de ervaringsgebeurtenis in reisuitdrukkingen niet meer gesteund worden voor organisaties die dit vermogen in de laatste 90 dagen niet hebben gebruikt. Deze mogelijkheid is al sinds 8 juli 2025 niet meer beschikbaar voor nieuwe klantenorganisaties. Voor alternatieven, zie [&#x200B; de gebeurtenisraadpleging van de Ervaring in reizen &#x200B;](../building-journeys/exp-event-lookup.md).
+* **het gebeurtenisgebruik van de Ervaring in reisuitdrukkingen** - Beginnend 1 April, 2026, zal het gebruik van de attributen van de ervaringsgebeurtenis in reisuitdrukkingen niet meer gesteund worden voor organisaties die dit vermogen in de laatste 90 dagen niet hebben gebruikt. Deze mogelijkheid is al sinds 8 juli 2025 niet meer beschikbaar voor nieuwe klantenorganisaties. Voor alternatieven, zie [ de gebeurtenisraadpleging van de Ervaring in reizen ](../building-journeys/exp-event-lookup.md).
 
 
-#### Email Designer
+#### Inhoudssjablonen
 
 * **thema&#39;s van het Gebruik om beelden in e-mailmalplaatjes** om te zetten - wanneer het omzetten van een beeld in een e-mailmalplaatje in Journey Optimizer, kunt u een thema nu gebruiken als input zodat geproduceerde HTML uw merkparameters volgt. Stijlen zoals achtergrondkleur, knopkleur, lettertypen, regelafstand, marges en opvulling worden automatisch toegepast, waardoor het handmatig ontwerpen minder wordt en een sjabloon ontstaat die klaar is voor gebruik met minimale bewerkingen. [Meer informatie](../content-management/image-to-html.md)
 
   Beschikbaarheidsdatum: 13 februari 2026.
+
+
+#### Email Designer
 
 * **de brandjes van de Update met nieuw kleurenlusje** - de hulp van de Merk zorgt ervoor uw merk constant over alle touchpoints wordt voorgesteld. De nieuwe sectie van Kleuren bepaalt de normen voor het kleurensysteem van uw merk, die hoe de kleuren worden geselecteerd, georganiseerd, en toegepast over ervaringen schetst. Het zorgt voor consistent gebruik van primaire, secundaire, accenten en neutrale kleuren ter ondersteuning van een consistente, toegankelijke en herkenbare merkidentiteit.
 
@@ -288,7 +291,6 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
   **Nota**: Dit vermogen is slechts beschikbaar voor een reeks organisaties (<strong> Beperkte Beschikbaarheid </strong>). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
-
 * **de Voorproef van het Beslissen van de Ervaring in op code-gebaseerd kanaal van de Ervaring** - u kunt de punten van de voorproef bij het vormen van Ervaring Beslissing met het op code-Gebaseerde kanaal van de Ervaring nu vormen. Voorvertoning is rechtstreeks beschikbaar in de ontwerpinterface voordat u live gaat.
 
 
@@ -298,12 +300,6 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
   Beschikbaarheidsdatum: 12 februari 2026.
 
-
-#### Journeys
-
-* **Veelvoudige binnenkomende acties in reizen** - om uw reisorchestratie te vereenvoudigen, kunt u verscheidene binnenkomende acties in één enkele reis nu bepalen. Eerder beschikbaar in campagnes, laat dit vermogen u toe om veelvoudige code-gebaseerde ervaringen, in-app berichten, inhoudskaarten, of Webacties aan verschillende plaatsen tezelfdertijd te leveren, elke actie die specifieke inhoud bevat.
-
-  **Nota**: Eerder vrijgegeven in Beperkte Beschikbaarheid, is dit vermogen nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid).
 
 #### Sms
 
