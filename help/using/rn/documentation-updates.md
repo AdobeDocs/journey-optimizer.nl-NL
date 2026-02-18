@@ -91,7 +91,7 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 * Er is een nieuwe sectie toegevoegd aan de documentatie van de verpersoonlijkingssyntaxis om te verduidelijken hoe u gereserveerde trefwoorden in verpersoonlijkingsexpressies kunt gebruiken. Bepaalde PQL-trefwoorden zoals `next` , `last` en `this` moeten met backtiks worden beschermd wanneer ze als veldnamen in uw XDM-schema worden gebruikt. [Meer informatie](../personalization/personalization-syntax.md#reserved-keywords)
 
-* [ krijgt begonnen met campagnes ](../campaigns/get-started-with-campaigns.md) en [ leidt campagnes ](../campaigns/manage-campaigns.md) pagina&#39;s zijn geherstructureerd met betere informatiearchitectuur, met inbegrip van een uitvoerig werkschema met type-specifieke gidsen, verbeterde vergelijkingen van het campagnetype, en geconsolideerde statuslijst.
+* [&#x200B; krijgt begonnen met campagnes &#x200B;](../campaigns/get-started-with-campaigns.md) en [&#x200B; leidt campagnes &#x200B;](../campaigns/manage-campaigns.md) pagina&#39;s zijn geherstructureerd met betere informatiearchitectuur, met inbegrip van een uitvoerig werkschema met type-specifieke gidsen, verbeterde vergelijkingen van het campagnetype, en geconsolideerde statuslijst.
 
 * De landingspagina voor reizen is opnieuw ontworpen om het instappen te vergemakkelijken met een nieuwe werkstroom in zes stappen, verbeterde vergelijkingen van het type van reizen en verbeterde navigatie door de documentatie. [Meer informatie](../building-journeys/journey.md)
 
@@ -133,7 +133,7 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 * Een nieuwe pagina is nu beschikbaar in de sectie Beslissing over hoe te om gegevensinzameling voor het volgen van beelden, kliks, en douanegebeurtenissen te vormen. [Meer informatie](../experience-decisioning/data-collection/schema-requirement.md)
 
-* De productie van Inhoud met AI hulpdocumentatie is gereorganiseerd voor betere duidelijkheid en bruikbaarheid. De vorige vijf kanaal-specifieke pagina&#39;s (E-mail, Duw, SMS, Web, en het Landing Pagina) zijn geconsolideerd in drie generatie-type pagina&#39;s: [ produceer volledige inhoud ](../content-management/generative-full-content.md), [ produceert tekst ](../content-management/generative-text.md), en [ produceert beelden ](../content-management/generative-image.md).
+* De productie van Inhoud met AI hulpdocumentatie is gereorganiseerd voor betere duidelijkheid en bruikbaarheid. De vorige vijf kanaal-specifieke pagina&#39;s (E-mail, Duw, SMS, Web, en het Landing Pagina) zijn geconsolideerd in drie generatie-type pagina&#39;s: [&#x200B; produceer volledige inhoud &#x200B;](../content-management/generative-full-content.md), [&#x200B; produceert tekst &#x200B;](../content-management/generative-text.md), en [&#x200B; produceert beelden &#x200B;](../content-management/generative-image.md).
 
 ## November 2025 {#november-2025}
 
@@ -208,13 +208,13 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 * Journey Optimizer Experimentation Accelerator-documentatie is nu beschikbaar. [Meer informatie](../content-management/experiment-accelerator-gs.md)
 
-* Een nieuwe sectie is toegevoegd aan **formatDate** hulpdocumentatie van de hulpfunctie. Deze sectie verduidelijkt de betekenis van zeer belangrijke patroonsymbolen zoals y, Y, M, d, en D. [ las meer ](../personalization/functions/dates.md#pattern-characters)
+* Een nieuwe sectie is toegevoegd aan **formatDate** hulpdocumentatie van de hulpfunctie. Deze sectie verduidelijkt de betekenis van zeer belangrijke patroonsymbolen zoals y, Y, M, d, en D. [&#x200B; las meer &#x200B;](../personalization/functions/dates.md#pattern-characters)
 
 * Een PQL-voorbeeld is toegevoegd aan de sectie met rangschikkingsformules voor besluiten om te laten zien hoe aanbiedingen kunnen worden verhoogd op basis van de postcode en het jaarinkomen van een profiel. [Meer informatie](../experience-decisioning/ranking/ranking-formulas.md#ranking-formula-examples)
 
 * Er is een beperking toegevoegd aan de sectie over de testmodus voor reizen om aan te geven dat de testmodus geen ondersteuning biedt voor de verrijking van aangepaste upload-publiekskenmerken. [Meer informatie](../building-journeys/testing-the-journey.md#important_notes)
 
-* Een nieuwe sectie werd toegevoegd aan de [ het beheersbegeleiding &amp; de beperkingen van het Besluit ](../offers/decision-management-guardrails.md#configurations) en [ Beslissende guardrails &amp; de beperkingen ](../experience-decisioning/decisioning-guardrails.md#configurations) pagina&#39;s om het maximumaantal gesteunde configuraties (20.000) te specificeren, die aan het totale aantal het begrenzen regels beantwoorden die in uw zandbak bestaan.
+* Een nieuwe sectie werd toegevoegd aan de [&#x200B; het beheersbegeleiding &amp; de beperkingen van het Besluit &#x200B;](../offers/decision-management-guardrails.md#configurations) en [&#x200B; Beslissende guardrails &amp; de beperkingen &#x200B;](../experience-decisioning/decisioning-guardrails.md#configurations) pagina&#39;s om het maximumaantal gesteunde configuraties (20.000) te specificeren, die aan het totale aantal het begrenzen regels beantwoorden die in uw zandbak bestaan.
 
 * Een opmerking toegevoegd in het gedeelte Condition Activity van de reis om te documenteren dat de evaluatie van de voorwaarde zal mislukken voor profielen die meer dan twee apparaatidentiteiten bevatten. [Meer informatie](../building-journeys/condition-activity.md)
 
@@ -246,7 +246,7 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 * De informatie is toegevoegd in de schemaoverzichtsdocumentatie om standaard en relationele schema&#39;s te onderscheiden die voor Geordende campagnes worden gebruikt. [Meer informatie](../data/gs-data.md)
 
-* De informatie is toegevoegd in de Beslissing en de documentatie van het Beslissingsbeheer over de vereisten om [ auto-optimalisering ](../experience-decisioning/ranking/auto-optimization-model.md) en [ met succes te trainen gepersonaliseerde optimalisering ](../experience-decisioning/ranking/personalized-optimization-model.md) modellen.
+* De informatie is toegevoegd in de Beslissing en de documentatie van het Beslissingsbeheer over de vereisten om [&#x200B; auto-optimalisering &#x200B;](../experience-decisioning/ranking/auto-optimization-model.md) en [&#x200B; met succes te trainen gepersonaliseerde optimalisering &#x200B;](../experience-decisioning/ranking/personalized-optimization-model.md) modellen.
 
 * Verduidelijkt dat de Interactieve vraag van de Uitvoering van het Bericht REST API een 60 tweede onderbreking heeft, met interne pogingen om levering te verzekeren. [Meer informatie](../campaigns/trigger-campaigns.md)
 

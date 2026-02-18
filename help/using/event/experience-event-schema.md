@@ -25,7 +25,7 @@ Daarom is een belangrijke voorwaarde voor het instellen van gebeurtenissen voor 
 
 >[!CAUTION]
 >
->Vanaf 8 juli 2025 kunnen nieuwe klantenorganisaties geen expressies maken met behulp van ervaringskenmerken in reisomstandigheden. Vanaf 1 april 2026 hebben organisaties die de afgelopen 90 dagen geen toegang hebben gehad tot gebeurtenissen via reisexpressies, geen toegang meer tot deze mogelijkheid. De alternatieve benaderingen en de beste praktijken zijn vermeld in [ de gebeurtenisraadpleging van de Ervaring in reizen ](../building-journeys/exp-event-lookup.md).
+>Vanaf 8 juli 2025 kunnen nieuwe klantenorganisaties geen expressies maken met behulp van ervaringskenmerken in reisomstandigheden. Vanaf 1 april 2026 hebben organisaties die de afgelopen 90 dagen geen toegang hebben gehad tot gebeurtenissen via reisexpressies, geen toegang meer tot deze mogelijkheid. De alternatieve benaderingen en de beste praktijken zijn vermeld in [&#x200B; de gebeurtenisraadpleging van de Ervaring in reizen &#x200B;](../building-journeys/exp-event-lookup.md).
 >
 >De toegang tot de context vanaf het begin van een reis wordt niet beïnvloed.
 

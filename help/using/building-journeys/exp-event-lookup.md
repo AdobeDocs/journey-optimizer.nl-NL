@@ -16,11 +16,11 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Vanaf 8 juli 2025 wordt in nieuwe klantenorganisaties het maken van expressies met behulp van ervaringsgebeurtenissen niet langer ondersteund in de expressie-editor die wordt gebruikt in reisomstandigheden. Dientengevolge, kan de ervaringsgebeurtenissen in de [ gegevensbron van Experience Platform ](../datasource/adobe-experience-platform-data-source.md) niet voor het creëren van uitdrukkingen worden gebruikt.
+>Vanaf 8 juli 2025 wordt in nieuwe klantenorganisaties het maken van expressies met behulp van ervaringsgebeurtenissen niet langer ondersteund in de expressie-editor die wordt gebruikt in reisomstandigheden. Dientengevolge, kan de ervaringsgebeurtenissen in de [&#x200B; gegevensbron van Experience Platform &#x200B;](../datasource/adobe-experience-platform-data-source.md) niet voor het creëren van uitdrukkingen worden gebruikt.
 >
 >Vanaf 1 april 2026 wordt het gebruik van ervaringskenmerken in reisexpressies niet langer ondersteund voor organisaties die deze mogelijkheid de afgelopen 90 dagen niet hebben gebruikt. Hieronder wordt verwezen naar alternatieve benaderingen en aanbevolen methoden voor het maken van expressies/logica met ervaringsgebeurtenissen.
 >
->Wilt u meer details? [ las uit Veelgestelde vragen ](#faq-ee).
+>Wilt u meer details? [&#x200B; las uit Veelgestelde vragen &#x200B;](#faq-ee).
 
 Deze pagina bevat een overzicht van gebruikelijke patronen en schaalbare benaderingen, zodat u de ervaringsgebeurtenissen in [!DNL Adobe Journey Optimizer] optimaal kunt benutten. Deze gebruiksgevallen zijn ontworpen om u te helpen veelvoorkomende uitdagingen op te lossen, zoals het beheren van opt-outs, het controleren van berichtfrequentie, het personaliseren van inhoud die op gebruikersgedrag wordt gebaseerd, en het reageren op signalen in real time.
 
@@ -35,7 +35,7 @@ Om profielen te onderdrukken die uit marketing mededelingen hebben verkozen, geb
 Meer informatie:
 
 * [Toestemming beheren](../privacy/opt-out.md)
-* [ e-mail opt-out beheer ](../email/email-opt-out.md)
+* [&#x200B; e-mail opt-out beheer &#x200B;](../email/email-opt-out.md)
 * [Uitschakelen van beheer voor tekstberichten](../sms/sms-opt-out.md)
 
 
@@ -54,9 +54,9 @@ Als u profielen wilt onderdrukken die bepaalde gedragingen hebben aangetoond, ge
 
 Meer informatie:
 
-* [!DNL Adobe Experience Platform] [ de bouwer van het Segment - Gebeurtenissen ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [&#x200B; de bouwer van het Segment - Gebeurtenissen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [ de bouwer van het Segment - de beperkingen van de Tijd ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [&#x200B; de bouwer van het Segment - de beperkingen van de Tijd &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Gebruik van soorten publiek in omstandigheden](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -73,9 +73,9 @@ Om het verzenden van berichten naar profielen te verhinderen die om het even wel
 
 Meer informatie met doelgroepen:
 
-* [!DNL Adobe Experience Platform] [ de bouwer van het Segment - Gebeurtenissen ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [&#x200B; de bouwer van het Segment - Gebeurtenissen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [ de bouwer van het Segment - de beperkingen van de Tijd ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [&#x200B; de bouwer van het Segment - de beperkingen van de Tijd &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Gebruik van soorten publiek in omstandigheden](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -95,9 +95,9 @@ Als u profielen wilt opnemen of uitsluiten op basis van het feit of ze een bepaa
 
 Meer informatie:
 
-* [!DNL Adobe Experience Platform] [ de bouwer van het Segment - Gebeurtenissen ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [&#x200B; de bouwer van het Segment - Gebeurtenissen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [ de bouwer van het Segment - de beperkingen van de Tijd ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [&#x200B; de bouwer van het Segment - de beperkingen van de Tijd &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [Gebruik van soorten publiek in omstandigheden](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -107,8 +107,8 @@ Meer informatie:
 
 Om mededelingen te personaliseren die op de recentste kar worden gebaseerd of gebeurtenissen over veelvoudige karttypes of productmeningen te doorbladeren:
 
-* Als u toegang tot [[!DNL Adobe Experience Platform]  Gegevens Distiller ](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"} hebt, vorm geautomatiseerde vragen om de vereiste gegevens uit de gebeurtenis te halen, het te manipuleren om het gebruiksgeval te passen, en het terug naar een profiel-toegelaten dataset voor activering te schrijven.
-* Als de gegevens van het verlaten van de plaats op het profiel met scalaire attributen kunnen worden gemodelleerd, denk na gebruikend Berekende attributen om de recentste informatie te vangen en dan naar deze attributen in de reis te verwijzen om de mededeling te construeren. [ leer meer in  [!DNL Adobe Experience Platform]  documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Als u toegang tot [[!DNL Adobe Experience Platform]  Gegevens Distiller &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"} hebt, vorm geautomatiseerde vragen om de vereiste gegevens uit de gebeurtenis te halen, het te manipuleren om het gebruiksgeval te passen, en het terug naar een profiel-toegelaten dataset voor activering te schrijven.
+* Als de gegevens van het verlaten van de plaats op het profiel met scalaire attributen kunnen worden gemodelleerd, denk na gebruikend Berekende attributen om de recentste informatie te vangen en dan naar deze attributen in de reis te verwijzen om de mededeling te construeren. [&#x200B; leer meer in  [!DNL Adobe Experience Platform]  documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## Reizen op basis van gedrag
@@ -125,7 +125,7 @@ Om ritten op aankopen te activeren en onderdrukken als de waarde boven of onder 
 
 Meer informatie:
 
-* [!DNL Adobe Experience Platform] [ Berekend attributenoverzicht ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* [!DNL Adobe Experience Platform] [&#x200B; Berekend attributenoverzicht &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
@@ -133,7 +133,7 @@ Meer informatie:
 
 In deze veelgestelde vragen wordt vooral ingegaan op de tijdlijn voor het afschaffen van het gebruik van gebeurtenissen in reisexpressies en op wie dit effect heeft. Zie de bovenstaande gebruiksgevallen en best practices voor richtsnoeren voor alternatieve benaderingen.
 
-Wilt u meer details? Gebruik terugkoppelt opties bij de bodem van deze pagina om uw vraag op te heffen, of met de [[!DNL Adobe Journey Optimizer]  gemeenschap ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
+Wilt u meer details? Gebruik terugkoppelt opties bij de bodem van deze pagina om uw vraag op te heffen, of met de [[!DNL Adobe Journey Optimizer]  gemeenschap &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
 
 +++Welke specifieke mogelijkheden worden beïnvloed? 
 
