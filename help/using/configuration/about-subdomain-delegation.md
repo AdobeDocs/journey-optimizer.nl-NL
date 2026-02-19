@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomein, optimaliseren, delegeren
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: ab29af6861e8fc1137fbbffd99b9576afa7e04f5
+source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '996'
 ht-degree: 17%
 
 ---
@@ -48,9 +48,9 @@ Hoewel deze vereisten worden beheerd via componenten die door zowel Adobe als de
 
 **Meer informatie**
 
-* Leer hoe te [&#x200B; uw subdomeinen &#x200B;](delegate-subdomain.md) direct van de interface afvaardigen
-* Leer hoe te [&#x200B; om de verslagen van Google TXT &#x200B;](google-txt.md) aan uw subdomeinen toe te voegen om de succesvolle levering van e-mails aan de adressen van Gmail te verzekeren
-* Leer hoe te [&#x200B; tot de PTR- verslagen &#x200B;](ptr-records.md) toegang te hebben die voor uw subdomeinen worden geproduceerd, hen toestaat om door postservers te verzenden
+* Leer hoe te [ uw subdomeinen ](delegate-subdomain.md) direct van de interface afvaardigen
+* Leer hoe te [ om de verslagen van Google TXT ](google-txt.md) aan uw subdomeinen toe te voegen om de succesvolle levering van e-mails aan de adressen van Gmail te verzekeren
+* Leer hoe te [ tot de PTR- verslagen ](ptr-records.md) toegang te hebben die voor uw subdomeinen worden geproduceerd, hen toestaat om door postservers te verzenden
 
 ## Methoden voor subdomeinconfiguratie {#subdomain-delegation-methods}
 
@@ -70,7 +70,7 @@ U kunt op Adobe vertrouwen om de DNS-infrastructuur te onderhouden die nodig is 
 >
 >De volledige subdomeindelegatie heeft de voorkeur.
 
-Leer hoe te om een subdomain volledig aan Adobe in [&#x200B; te delegeren deze sectie &#x200B;](delegate-subdomain.md#set-up-subdomain).
+Leer hoe te om een subdomain volledig aan Adobe in [ te delegeren deze sectie ](delegate-subdomain.md#set-up-subdomain).
 
 ### Een subdomein instellen met CNAME&#39;s {#cname-subdomain-setup}
 
@@ -84,7 +84,7 @@ Met de CNAME-subdomeinset kunt u een subdomein maken en CNAME&#39;s gebruiken om
 >
 >Adobe zal niet in het veranderen van, het handhaven van of het beheren van DNS voor subdomain kunnen bijwonen die door de methode CNAME wordt gevormd.
 
-Leer hoe te om subdomain tot stand te brengen gebruikend CNAMEs om aan Adobe-specifieke verslagen in [&#x200B; te richten deze sectie &#x200B;](delegate-subdomain.md#cname-subdomain-setup).
+Leer hoe te om subdomain tot stand te brengen gebruikend CNAMEs om aan Adobe-specifieke verslagen in [ te richten deze sectie ](delegate-subdomain.md#cname-subdomain-setup).
 
 ### Een aangepast subdomein gebruiken {#custom-subdomain-delegation}
 
@@ -92,7 +92,7 @@ De methode van de douanedelegatie laat u toe om volledig het controleren en het 
 
 In dit geval hebt u volledig eigenaar en beheert u onze eigen subdomeinen en hebt u volledige controle over de certificaten die als onderdeel van dit proces worden gegenereerd.
 
-Leer hoe te opstelling een douanedomein in [&#x200B; deze sectie &#x200B;](delegate-custom-subdomain.md).
+Leer hoe te [ opstelling een douane subdomain ](delegate-custom-subdomain.md). Als uw subdomain momenteel CNAME gebruikt, kunt u [ van CNAME aan douanedelegatie ](custom-subdomain-migration.md) ook migreren.
 
 ## De configuratiemethoden vergelijken
 
@@ -110,7 +110,7 @@ In de onderstaande tabel wordt een overzicht gegeven van de werking van deze met
 | **methode CNAME** | Maak het subdomein en de naamruimterecord. Adobe zal dan de verslagen verstrekken die in uw DNS servers moeten worden geplaatst en zal de overeenkomstige waarden in de servers van Adobe Journey Optimizer DNS vormen.<br/><br/>In deze configuratie delen u en Adobe de verantwoordelijkheid voor het onderhoud van DNS. | Hoog |
 | **de delegatiemethode van de Douane** | Creeer subdomain en namespace verslag - Adobe zal dan de verslagen verstrekken die in uw DNS servers moeten worden geplaatst. Upload het SSL-certificaat dat u van de Certificate Authority (certificeringsinstantie) hebt gekregen en voltooi de stappen voor het herhalen van feedback door de eigendom van het domein te controleren en het e-mailadres te melden.<br/><br/> In deze opstelling, hebt u volledige verantwoordelijkheid voor het handhaven van DNS. | Zeer hoog |
 
-De extra informatie over domeinconfiguratie is beschikbaar in [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=nl-NL){target="_blank"}.
+De extra informatie over domeinconfiguratie is beschikbaar in [ deze documentatie ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html){target="_blank"}.
 
 Als u een vraag hebt over configuratiemethoden voor subdomeinen, kunt u contact opnemen met Adobe of contact opnemen met de klantenservice om advies in te winnen over de leveringsmogelijkheden.
 
