@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Met [!DNL Journey Optimizer] kunt u het maken van e-mailberichten aanzienlijk versnellen door statische afbeeldingsontwerpen om te zetten in volledig aanpasbare, modulaire HTML-sjablonen voor e-mailinhoud.
 
-Door generatieve AI technologie leveraging, analyseert een geïntegreerd hulpmiddel de lay-out, typografie, kleuren, en visuele elementen in uw beeld en produceert schone, modulaire code van HTML die ontwerpwaarachtigheid terwijl het verzekeren van volledige editability met [ e-mail Designer ](../email/get-started-email-design.md) handhaaft.
+Door generatieve AI technologie leveraging, analyseert een geïntegreerd hulpmiddel de lay-out, typografie, kleuren, en visuele elementen in uw beeld en produceert schone, modulaire code van HTML die ontwerpwaarachtigheid terwijl het verzekeren van volledige editability met [&#x200B; e-mail Designer &#x200B;](../email/get-started-email-design.md) handhaaft.
 
 Dankzij deze codeerfunctie kunnen marketers visuele elementen van grafische ontwerpers of ontwerpgereedschappen transformeren in responsieve, bewerkbare e-mailsjablonen die kunnen worden opgeslagen en hergebruikt voor meerdere reizen en campagnes, zonder dat hiervoor technische expertise vereist is.
 
@@ -89,7 +89,7 @@ Volg onderstaande stappen om een afbeeldingsontwerp om te zetten in een volledig
 
 1. Voer in de sectie **[!UICONTROL Convert image to template]** de volgende stappen uit:
 
-   * (Optioneel) Als in uw organisatie merkthema&#39;s zijn gedefinieerd in Journey Optimizer, kunt u een thema als invoer selecteren zodat de gegenereerde HTML wordt opgemaakt volgens de themaparameters van uw merk. [ leer meer over thema&#39;s ](../email/apply-email-themes.md)
+   * (Optioneel) Als in uw organisatie merkthema&#39;s zijn gedefinieerd in Journey Optimizer, kunt u een thema als invoer selecteren zodat de gegenereerde HTML wordt opgemaakt volgens de themaparameters van uw merk. [&#x200B; leer meer over thema&#39;s &#x200B;](../email/apply-email-themes.md)
 
      Stijlen zoals achtergrondkleur, knopkleur, lettertypen, regelafstand, marges en opvulling worden toegepast op de gegenereerde sjabloon, waardoor extra ontwerpwerkzaamheden worden verminderd en een sjabloon wordt gemaakt die klaar is voor gebruik met minimale bewerkingen.
 
@@ -114,7 +114,7 @@ Volg onderstaande stappen om een afbeeldingsontwerp om te zetten in een volledig
 
    ![](../email/assets/email_designer_converted_img.png)
 
-1. Klik op **[!UICONTROL Edit email body]**. Het omgezette malplaatje opent in [ E-mail Designer ](../email/get-started-email-design.md) met volledige het uitgeven mogelijkheden. U kunt nu het volgende:
+1. Klik op **[!UICONTROL Edit email body]**. Het omgezette malplaatje opent in [&#x200B; E-mail Designer &#x200B;](../email/get-started-email-design.md) met volledige het uitgeven mogelijkheden. U kunt nu het volgende:
 
    * Tekstinhoud controleren, bewerken en personalisatie toepassen
    * Afbeeldingen wijzigen en koppelingen toevoegen
@@ -128,7 +128,7 @@ Volg onderstaande stappen om een afbeeldingsontwerp om te zetten in een volledig
 
 1. Klik op **[!UICONTROL Save]** als u tevreden bent met de sjabloon.
 
-Uw sjabloon is nu beschikbaar in de inhoudssjabloonbibliotheek en kan worden gebruikt bij het maken van e-mails tijdens reizen of campagnes. [ leer hoe te om inhoudsmalplaatjes ](../email/use-email-templates.md) te gebruiken
+Uw sjabloon is nu beschikbaar in de inhoudssjabloonbibliotheek en kan worden gebruikt bij het maken van e-mails tijdens reizen of campagnes. [&#x200B; leer hoe te om inhoudsmalplaatjes &#x200B;](../email/use-email-templates.md) te gebruiken
 
 ## Best practices {#best-practices}
 
