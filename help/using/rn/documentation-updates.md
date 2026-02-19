@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 99c65643dc029514f452b6ad34a957280a59fe9d
+source-git-commit: 8d1de57221e73e8ffeea71377e1e9cd8e5ff6f0e
 workflow-type: tm+mt
-source-wordcount: '3464'
-ht-degree: 6%
+source-wordcount: '5456'
+ht-degree: 7%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 6%
 Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documentatie van [!DNL Journey Optimizer] , naast de updates die betrekking hebben op de functies en verbeteringen van de maandelijkse release.
 
 ## Februari 2026 {#february-2026}
+
+* De pagina met beslissingsitems is bijgewerkt met informatie over het uitlijnen van het pushkanaal en de gebeurtenis Custom. [Meer informatie](../experience-decisioning/items.md#capping)
 
 * De **de gebeurtenisraadpleging van de Ervaring in reizen** documentatie is bijgewerkt met de afgekeuringschronologie: beginnend 1 April, 2026, organisaties die geen eigenschappen van de ervaringsgebeurtenis in reisuitdrukkingen in de laatste 90 dagen hebben gebruikt zullen geen toegang meer tot dit vermogen hebben. De FAQ concentreert zich nu op de ouderdomschronologie en wie wordt beïnvloed, en de pagina van het de gebeurtenisschema van de Ervaring is gericht met een directe verbinding aan alternatieve benaderingen. [Meer informatie](../building-journeys/exp-event-lookup.md)
 
@@ -55,13 +57,13 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 * De documentatie van e-mailberichten voor tekstversies is uitgebreid met uitgebreide instructies voor het gebruik van hoofdletters en kleine letters, waaronder beslissingscriteria voor het gebruik van gewone tekst in plaats van automatische synchronisatie, praktische voorbeelden met realistische scenario&#39;s en een sectie met veelgestelde vragen. [Meer informatie](../email/text-version-email.md#when-to-use)
 
+* De documentatie over Designer-thema&#39;s via e-mail is bijgewerkt met informatie over de ondersteuningsbeperkingen voor weblettertypen en het belang van fallback-lettertypen. [Meer informatie](../email/apply-email-themes.md#themes-guardrails)
+
 * Er is een beperking toegevoegd aan de documentatie van de hulpmiddel Metagegevens van de Uitvoering om te verduidelijken dat de meta-gegevens niet voor profielen worden gevangen die van de actie worden uitgesloten. [Meer informatie](../personalization/functions/helpers.md#execution-metadata)
 
 * De op code-gebaseerde documentatie van implementatiemonsters is bijgewerkt om het tokens gebied in propositionAction voor nauwkeurige het volgen en attributie in Beslissing te omvatten. [Meer informatie](../code-based/code-based-implementation-samples.md#client-side-how)
 
 * Er is een opmerking toegevoegd aan de URL-tracking en de documentatie voor het opzeggen van lijsten om te verduidelijken dat de volgorde van URL-volgparameters die aan URL&#39;s zijn toegevoegd, willekeurig is en niet kan worden gecontroleerd. [Meer informatie](../email/url-tracking.md)
-
-* De documentatie over Designer-thema&#39;s via e-mail is bijgewerkt met informatie over de ondersteuningsbeperkingen voor weblettertypen en het belang van fallback-lettertypen. [Meer informatie](../email/apply-email-themes.md#themes-guardrails)
 
 ## Januari 2026 {#january-2026}
 
@@ -91,7 +93,7 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 * Er is een nieuwe sectie toegevoegd aan de documentatie van de verpersoonlijkingssyntaxis om te verduidelijken hoe u gereserveerde trefwoorden in verpersoonlijkingsexpressies kunt gebruiken. Bepaalde PQL-trefwoorden zoals `next` , `last` en `this` moeten met backtiks worden beschermd wanneer ze als veldnamen in uw XDM-schema worden gebruikt. [Meer informatie](../personalization/personalization-syntax.md#reserved-keywords)
 
-* [&#x200B; krijgt begonnen met campagnes &#x200B;](../campaigns/get-started-with-campaigns.md) en [&#x200B; leidt campagnes &#x200B;](../campaigns/manage-campaigns.md) pagina&#39;s zijn geherstructureerd met betere informatiearchitectuur, met inbegrip van een uitvoerig werkschema met type-specifieke gidsen, verbeterde vergelijkingen van het campagnetype, en geconsolideerde statuslijst.
+* [ krijgt begonnen met campagnes ](../campaigns/get-started-with-campaigns.md) en [ leidt campagnes ](../campaigns/manage-campaigns.md) pagina&#39;s zijn geherstructureerd met betere informatiearchitectuur, met inbegrip van een uitvoerig werkschema met type-specifieke gidsen, verbeterde vergelijkingen van het campagnetype, en geconsolideerde statuslijst.
 
 * De landingspagina voor reizen is opnieuw ontworpen om het instappen te vergemakkelijken met een nieuwe werkstroom in zes stappen, verbeterde vergelijkingen van het type van reizen en verbeterde navigatie door de documentatie. [Meer informatie](../building-journeys/journey.md)
 
@@ -133,7 +135,7 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 * Een nieuwe pagina is nu beschikbaar in de sectie Beslissing over hoe te om gegevensinzameling voor het volgen van beelden, kliks, en douanegebeurtenissen te vormen. [Meer informatie](../experience-decisioning/data-collection/schema-requirement.md)
 
-* De productie van Inhoud met AI hulpdocumentatie is gereorganiseerd voor betere duidelijkheid en bruikbaarheid. De vorige vijf kanaal-specifieke pagina&#39;s (E-mail, Duw, SMS, Web, en het Landing Pagina) zijn geconsolideerd in drie generatie-type pagina&#39;s: [&#x200B; produceer volledige inhoud &#x200B;](../content-management/generative-full-content.md), [&#x200B; produceert tekst &#x200B;](../content-management/generative-text.md), en [&#x200B; produceert beelden &#x200B;](../content-management/generative-image.md).
+* De productie van Inhoud met AI hulpdocumentatie is gereorganiseerd voor betere duidelijkheid en bruikbaarheid. De vorige vijf kanaal-specifieke pagina&#39;s (E-mail, Duw, SMS, Web, en het Landing Pagina) zijn geconsolideerd in drie generatie-type pagina&#39;s: [ produceer volledige inhoud ](../content-management/generative-full-content.md), [ produceert tekst ](../content-management/generative-text.md), en [ produceert beelden ](../content-management/generative-image.md).
 
 ## November 2025 {#november-2025}
 
@@ -194,7 +196,7 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 ## Oktober 2025 {#october-2025}
 
-* U kunt afbeeldingen nu omzetten naar HTML-sjablonen met de afbeelding naar HTML-converter. [Meer informatie](../content-management/image-to-html.md)
+* U kunt afbeeldingen nu omzetten naar HTML-sjablonen met de afbeelding naar HTML-converter. [Meer informatie](../email/image-to-html.md)
 
 * Informatie over de Adobe Journey Optimizer-releasecyclus is nu beschikbaar. [Meer informatie](releases.md)
 
@@ -208,13 +210,13 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 * Journey Optimizer Experimentation Accelerator-documentatie is nu beschikbaar. [Meer informatie](../content-management/experiment-accelerator-gs.md)
 
-* Een nieuwe sectie is toegevoegd aan **formatDate** hulpdocumentatie van de hulpfunctie. Deze sectie verduidelijkt de betekenis van zeer belangrijke patroonsymbolen zoals y, Y, M, d, en D. [&#x200B; las meer &#x200B;](../personalization/functions/dates.md#pattern-characters)
+* Een nieuwe sectie is toegevoegd aan **formatDate** hulpdocumentatie van de hulpfunctie. Deze sectie verduidelijkt de betekenis van zeer belangrijke patroonsymbolen zoals y, Y, M, d, en D. [ las meer ](../personalization/functions/dates.md#pattern-characters)
 
 * Een PQL-voorbeeld is toegevoegd aan de sectie met rangschikkingsformules voor besluiten om te laten zien hoe aanbiedingen kunnen worden verhoogd op basis van de postcode en het jaarinkomen van een profiel. [Meer informatie](../experience-decisioning/ranking/ranking-formulas.md#ranking-formula-examples)
 
 * Er is een beperking toegevoegd aan de sectie over de testmodus voor reizen om aan te geven dat de testmodus geen ondersteuning biedt voor de verrijking van aangepaste upload-publiekskenmerken. [Meer informatie](../building-journeys/testing-the-journey.md#important_notes)
 
-* Een nieuwe sectie werd toegevoegd aan de [&#x200B; het beheersbegeleiding &amp; de beperkingen van het Besluit &#x200B;](../offers/decision-management-guardrails.md#configurations) en [&#x200B; Beslissende guardrails &amp; de beperkingen &#x200B;](../experience-decisioning/decisioning-guardrails.md#configurations) pagina&#39;s om het maximumaantal gesteunde configuraties (20.000) te specificeren, die aan het totale aantal het begrenzen regels beantwoorden die in uw zandbak bestaan.
+* Een nieuwe sectie werd toegevoegd aan de [ het beheersbegeleiding &amp; de beperkingen van het Besluit ](../offers/decision-management-guardrails.md#configurations) en [ Beslissende guardrails &amp; de beperkingen ](../experience-decisioning/decisioning-guardrails.md#configurations) pagina&#39;s om het maximumaantal gesteunde configuraties (20.000) te specificeren, die aan het totale aantal het begrenzen regels beantwoorden die in uw zandbak bestaan.
 
 * Een opmerking toegevoegd in het gedeelte Condition Activity van de reis om te documenteren dat de evaluatie van de voorwaarde zal mislukken voor profielen die meer dan twee apparaatidentiteiten bevatten. [Meer informatie](../building-journeys/condition-activity.md)
 
@@ -230,7 +232,7 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 * Er is een beperking toegevoegd die aangeeft dat alleen het Unified Profile Service-publiek wordt ondersteund bij het gebruik van Read-publiekstrajecten met aanvullende id&#39;s. [Meer informatie](../building-journeys/supplemental-identifier.md#guardrails)
 
-* Documentatie voor de Experimentation Accelerator is verplaatst naar een aparte collectie. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experimentation-accelerator/using/overview)
+* Documentatie voor de Experimentation Accelerator is verplaatst naar een aparte collectie. [Meer informatie](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview)
 
 ## September 2025 {#september-2025}
 
@@ -246,7 +248,7 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 * De informatie is toegevoegd in de schemaoverzichtsdocumentatie om standaard en relationele schema&#39;s te onderscheiden die voor Geordende campagnes worden gebruikt. [Meer informatie](../data/gs-data.md)
 
-* De informatie is toegevoegd in de Beslissing en de documentatie van het Beslissingsbeheer over de vereisten om [&#x200B; auto-optimalisering &#x200B;](../experience-decisioning/ranking/auto-optimization-model.md) en [&#x200B; met succes te trainen gepersonaliseerde optimalisering &#x200B;](../experience-decisioning/ranking/personalized-optimization-model.md) modellen.
+* De informatie is toegevoegd in de Beslissing en de documentatie van het Beslissingsbeheer over de vereisten om [ auto-optimalisering ](../experience-decisioning/ranking/auto-optimization-model.md) en [ met succes te trainen gepersonaliseerde optimalisering ](../experience-decisioning/ranking/personalized-optimization-model.md) modellen.
 
 * Verduidelijkt dat de Interactieve vraag van de Uitvoering van het Bericht REST API een 60 tweede onderbreking heeft, met interne pogingen om levering te verzekeren. [Meer informatie](../campaigns/trigger-campaigns.md)
 
@@ -254,177 +256,174 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 * De Assign prioritaire scores pagina werd bijgewerkt met de specifieke stappen om een prioritaire score voor binnenkomende kanaalacties binnen de **Actie** activiteit te bepalen. [Meer informatie](../conflict-prioritization/priority-scores.md#priority-action)
 
-<!--
-## August 2025 {#august-2025}
+## Augustus 2025 {#august-2025}
 
-* A new page listing the best practices for designing accessible email and landing page content with [!DNL Journey Optimizer] was added. [Read more](../email/accessible-content.md)
+* Er is een nieuwe pagina toegevoegd met de aanbevolen procedures voor het ontwerpen van toegankelijke e-mail en het plaatsen van pagina-inhoud met [!DNL Journey Optimizer] . [Meer informatie](../email/accessible-content.md)
 
-* The documentation for supplemental identifiers in journeys has been updated with the following clarifications:
+* De documentatie voor aanvullende identificatiemiddelen voor reizen is met de volgende verduidelijkingen bijgewerkt:
 
-    * After adding a supplemental identifier to a schema, a new event (for event-triggered journeys) or a new field group (for Read audience journeys) must be created. Existing entities do not refresh automatically and will not recognize the new identifier.
+   * Nadat u een aanvullende id aan een schema hebt toegevoegd, moet er een nieuwe gebeurtenis (voor door gebeurtenissen geïnitieerde reizen) of een nieuwe veldgroep (voor publiekstrajecten Lezen) worden gemaakt. Bestaande entiteiten worden niet automatisch vernieuwd en herkennen de nieuwe id niet.
 
-    * Supplemental identifiers are not validated against Data Usage Labeling & Enforcement (DULE) policies and are not considered during data governance checks in journeys.
+   * Aanvullende id&#39;s worden niet gevalideerd op basis van het beleid voor etikettering en handhaving van gegevensgebruik (DULE) en worden niet meegenomen tijdens controles van gegevensbeheer op reizen.
 
-        [Read more](../building-journeys/supplemental-identifier.md)
+[Meer informatie](../building-journeys/supplemental-identifier.md)
 
-* The Optimization in campaigns page was updated to reflect the fact that optimization is now also available in journeys. [Read more](../content-management/gs-message-optimization.md)
+* De pagina Optimalisatie in campagnes werd bijgewerkt om aan te geven dat optimalisatie nu ook beschikbaar is voor reizen. [Meer informatie](../content-management/gs-message-optimization.md)
 
-* A link to the tutorial video describing how to leverage message optimization in a campaign was added. [Read more](../content-management/gs-message-optimization.md)
+* Er is een koppeling toegevoegd naar de zelfstudie-video waarin wordt beschreven hoe berichten in een campagne kunnen worden geoptimaliseerd. [Meer informatie](../content-management/gs-message-optimization.md)
 
-## July 2025 {#july-2025}
+## Juli 2025 {#july-2025}
 
-* The campaigns interface now features two separate tabs: **Action** and **API Triggered**. The documentation has been updated accordingly, with information for each campaign type organized into dedicated sections to improve clarity and usability. [Read more](../campaigns/get-started-with-campaigns.md)
+* De campagneinterface kenmerkt nu twee afzonderlijke lusjes: **Actie** en **API teweeggebracht**. De documentatie is dienovereenkomstig bijgewerkt, met informatie voor elk campagneretype dat in specifieke secties wordt georganiseerd om duidelijkheid en bruikbaarheid te verbeteren. [Meer informatie](../campaigns/get-started-with-campaigns.md)
 
-* The [Get started with subdomain delegation](../configuration/about-subdomain-delegation.md) and [Delegate a subdomain](../configuration/delegate-subdomain.md) pages have been updated to better present the different delegation methods and the steps to set them up.
+* [ wordt begonnen met subdomain delegatie ](../configuration/about-subdomain-delegation.md) en [ delegeer een subdomain ](../configuration/delegate-subdomain.md) pagina&#39;s zijn bijgewerkt om de verschillende delegatiemethodes en de stappen beter voor te stellen om hen op te zetten.
 
-* A note has been added to the Fragments section, specifying that when tracking is enabled in a journey or a campaign, if links are present in a fragment and if this fragment is used in a message, these links are tracked such as all other links included in the message. [Learn more](../content-management/create-fragments.md#content)
+* Er is een notitie toegevoegd aan de sectie Fragments, waarin wordt aangegeven dat wanneer het bijhouden is ingeschakeld in een reis of een campagne, als er koppelingen aanwezig zijn in een fragment en als dit fragment wordt gebruikt in een bericht, deze koppelingen worden bijgehouden, zoals alle andere koppelingen in het bericht. [Meer informatie](../content-management/create-fragments.md#content)
 
-* The guardrails and limitations applying to subdomain delegation in Journey Optimizer have been enriched and consolidated into one dedicated section. [Read more](../configuration/delegate-subdomain.md#guardrails)
+* De instructies en beperkingen die van toepassing zijn op subdomeindelegatie in Journey Optimizer zijn verrijkt en geconsolideerd in één specifieke sectie. [Meer informatie](../configuration/delegate-subdomain.md#guardrails)
 
-* A note has been added to the Create fallback offers and Create decision pages to mention that fallback offers should contain all representations used within a decision. [Read more](../offers/offer-library/creating-fallback-offers.md)
+* Er is een notitie toegevoegd aan de keuzelijsten voor het maken van fallback en het maken van beslissingspagina&#39;s om aan te geven dat fallback-aanbiedingen alle voorstellingen moeten bevatten die in een beslissing worden gebruikt. [Meer informatie](../offers/offer-library/creating-fallback-offers.md)
 
-* The guardrails applying to fragments have been enriched. [Read more](../start/guardrails.md#fragments-guardrails).
+* De voor fragmenten geldende hulplijnen zijn verrijkt. [Meer informatie](../start/guardrails.md#fragments-guardrails).
 
-* A note has been added to specify that links added to messages expire after 25 months and links to mirror pages after 90 days. [Read more](../email/message-tracking.md)
+* Er is een opmerking toegevoegd om op te geven dat koppelingen die aan berichten zijn toegevoegd, na 25 maanden verlopen en koppelingen naar spiegel-pagina&#39;s na 90 dagen. [Meer informatie](../email/message-tracking.md)
 
 <!--* The possible email error types that could happen upon sending email deliveries with are now listed in a dedicated section. [Read more](../configuration/email-error-types.md)-->
 
-<!--
-## June 2025 {#june-2025}
+## Juni 2025 {#june-2025}
 
-* Added a new section on how to add and use rich text such as line breaks, bold, italics etc., to customizable fragments by using HTML components. [Read more](../content-management/customizable-fragments.md#rich-text)
+* Er is een nieuwe sectie toegevoegd over het toevoegen en gebruiken van RTF-tekst (regeleinden, vet, cursief, enz.) aan aanpasbare fragmenten met HTML-componenten. [Meer informatie](../content-management/customizable-fragments.md#rich-text)
 
-* The Decisioning part has been updated with a specific section dedicated to building AI models. [Read more](../experience-decisioning/ranking/ai-models.md)
+* Het beslissingsonderdeel is bijgewerkt met een specifieke sectie die is gewijd aan het samenstellen van AI-modellen. [Meer informatie](../experience-decisioning/ranking/ai-models.md)
 
-* Added a recommendation about the usage of the `actionExecutionTime` field in the journeyStep events action. [Read more](../reports/sharing-execution-fields.md#actionexecutiontime-field)
+* Er is een aanbeveling toegevoegd over het gebruik van het veld `actionExecutionTime` in de handeling voor de gebeurtenis tripStep. [Meer informatie](../reports/sharing-execution-fields.md#actionexecutiontime-field)
 
-* Added a note about the `messageID` which may not be unique for each individual delivery. [Read more](../data/datasets-query-examples.md)
+* Er is een notitie toegevoegd over de `messageID` die mogelijk niet uniek is voor elke afzonderlijke levering. [Meer informatie](../data/datasets-query-examples.md)
 
-* Added a recommendation about historical events management in data hygiene operations. [Read more](../privacy/data-hygiene.md#data-hygiene-recommendations)
+* Er is een aanbeveling toegevoegd over het beheer van historische gebeurtenissen in gegevenshygiënische activiteiten. [Meer informatie](../privacy/data-hygiene.md#data-hygiene-recommendations)
 
-* Added a guardrail about landing pages not being supported for migration between sandboxes. [Read more](../configuration/copy-objects-to-sandbox.md#global)
+* Er is een hulplijn toegevoegd over het plaatsen van pagina&#39;s die niet worden ondersteund voor migratie tussen sandboxen. [Meer informatie](../configuration/copy-objects-to-sandbox.md#global)
 
-* Added a caution note about nested JSON objects not supported in custom authentication for custom actions. [Read more](../datasource/external-data-sources.md)
+* Er is een waarschuwing toegevoegd over geneste JSON-objecten die niet worden ondersteund in aangepaste verificatie voor aangepaste handelingen. [Meer informatie](../datasource/external-data-sources.md)
 
-* Added a caution note about conditional content variant naming in the Email designer. [Read more](../personalization/create-conditions.md)
+* Er is een waarschuwing toegevoegd over de naamgeving van voorwaardelijke inhoudvarianten in de e-mailontwerper. [Meer informatie](../personalization/create-conditions.md)
 
-* Updated the "Undelegate a landing page subdomain" section. [Read more](../landing-pages/lp-subdomains.md#undelegate-subdomain)
+* De sectie &quot;Undelegate a landing page subdomain&quot; is bijgewerkt. [Meer informatie](../landing-pages/lp-subdomains.md#undelegate-subdomain)
 
-* Clarified journey reentrance rules when using supplemental identifiers. [Read more](../building-journeys/supplemental-identifier.md#guardrails)
+* Verduidelijkt de regels van de reisterugkeer wanneer het gebruiken van extra herkenningstekens. [Meer informatie](../building-journeys/supplemental-identifier.md#guardrails)
 
-* Added a new note to clarify that you must use the expression editor in Advanced mode when selecting the supplemental identifier attribute during event configuration. [Learn more](../building-journeys/supplemental-identifier.md#add)
+* Er is een nieuwe notitie toegevoegd om te verduidelijken dat u de expressie-editor in de modus Geavanceerd moet gebruiken wanneer u het extra kenmerk Id selecteert tijdens de gebeurtenisconfiguratie. [Meer informatie](../building-journeys/supplemental-identifier.md#add)
 
-* Added clarification on how journey reentrance works with supplemental identifiers. [Learn more](../building-journeys/supplemental-identifier.md#guardrails)
+* Opheldering toegevoegd over de manier waarop de aansluiting van de reis werkt met aanvullende identificatiecodes. [Meer informatie](../building-journeys/supplemental-identifier.md#guardrails)
 
-## May 2025 {#may-2025}
+## Mei 2025 {#may-2025}
 
-* Adobe integrations available with Journey Optimizer are now listed in the "Connect your systems and environments" section. [Read more](../integrations/ajo-integrations.md)
+* Adobe-integratie die beschikbaar is met Journey Optimizer wordt nu vermeld in de sectie &quot;Connect your systems and environment&quot;. [Meer informatie](../integrations/ajo-integrations.md)
 
-* The content integrations are now grouped in the Content Management section. [Read more](../integrations/content-integrations.md)
+* De integratie van de inhoud wordt nu gegroepeerd in de sectie Inhoudsbeheer. [Meer informatie](../integrations/content-integrations.md)
 
-* Architecture diagrams for Adobe Experience Platform and Journey Optimizer have been updated. [Read more](../start/get-started.md#architecture)
+* Architectuurdiagrammen voor Adobe Experience Platform en Journey Optimizer zijn bijgewerkt. [Meer informatie](../start/get-started.md#architecture)
 
-* Added a video about the personalization editor playground to help you learn how to write and test personalization code using sample data. [Read more](../personalization/personalize.md#video-perso)
+* Er is een video toegevoegd over de afspeellocatie van de verpersoonlijkingseditor om u te helpen bij het schrijven en testen van verpersoonlijkingscode met behulp van voorbeeldgegevens. [Meer informatie](../personalization/personalize.md#video-perso)
 
-* The maximum number of addresses in a seed list has been increased from 50 to 300. [Read more](../configuration/seed-lists.md#create-seed-list)
+* Het maximumaantal adressen in een zaadlijst is verhoogd van 50 tot 300. [Meer informatie](../configuration/seed-lists.md#create-seed-list)
 
-* A new step detailing how to wrap code when using decision policies in the code-based experience editor has been added to the Create decision policies page. [Read more](../experience-decisioning/create-decision.md#create-decision)
+* Een nieuwe stap die detailleert hoe te om code te verpakken wanneer het gebruiken van besluitvormingsbeleid in de op code-gebaseerde ervaringsredacteur is toegevoegd aan de Create pagina van besluitvormingsbeleid. [Meer informatie](../experience-decisioning/create-decision.md#create-decision)
 
-* A note has been added to the Code-based experiences documentation to specify that when you have multiple code-based experience actions running on the same surface, the campaign or journey's priority score determines what is delivered to the end-user if they qualify for more than one action. [Read more](../code-based/code-based-surface.md#surface-definition)
+* Een nota is toegevoegd aan de op code-gebaseerde ervaringsdocumentatie om te specificeren dat wanneer u veelvoudige code-gebaseerde ervaringsacties hebt die op de zelfde oppervlakte lopen, de campagne of de prioritaire score van de reis bepaalt wat aan de eindgebruiker wordt geleverd als zij voor meer dan één actie kwalificeren. [Meer informatie](../code-based/code-based-surface.md#surface-definition)
 
-* A new page on troubleshooting inbound actions in journeys provides a step-by-step guide to identify and resolve issues independently before reaching out to support. [Read more](../building-journeys/troubleshooting-inbound.md)
+* Een nieuwe pagina over het oplossen van problemen binnenkomende acties in reizen verstrekt een geleidelijke gids om kwesties onafhankelijk te identificeren en op te lossen alvorens uit te gaan om te steunen. [Meer informatie](../building-journeys/troubleshooting-inbound.md)
 
-* A new [page](../code-based/code-based-decisioning-implementations.md) has been added to describe how to add the following flags to your client implementation when using decisioning in code-based experiences:
+* Een nieuwe [ pagina ](../code-based/code-based-decisioning-implementations.md) is toegevoegd om te beschrijven hoe te om de volgende vlaggen aan uw cliëntimplementatie toe te voegen wanneer het gebruiken van besluit in op code-gebaseerde ervaringen:
 
-    * Adding the `dryRun` flag to test decisioning in code-based experiences. [Read more](../code-based/code-based-decisioning-implementations.md#code-based-test-decisions)
+   * De markering `dryRun` toevoegen om de besluitvorming in op code gebaseerde ervaringen te testen. [Meer informatie](../code-based/code-based-decisioning-implementations.md#code-based-test-decisions)
 
-    * Apply deduplication to decisioning requests in code-based experiences. [Read more](../code-based/code-based-decisioning-implementations.md#code-based-decisioning-deduplication)
+   * Pas deduplicatie toe op besluitvormingsverzoeken in op code-gebaseerde ervaringen. [Meer informatie](../code-based/code-based-decisioning-implementations.md#code-based-decisioning-deduplication)
 
 ## April 2025 {#apr-2025}
 
-* The Configuration chapter is now split into three chapters: [Channel configuration](../configuration/get-started-configuration.md), [Journey configuration](../configuration/about-data-sources-events-actions.md), and [Connect your systems](../configuration/ajo-apis.md).
-* Added a caution note about using experience events in journey expressions and conditions. [Read more](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
-* Added a note on the Direct mail configuration page about temporary storage of the output file. [Read more](../direct-mail/direct-mail-configuration.md)
-* Added a tip in the journey advanced expression editor section about the condition format guidelines. [Read more](../building-journeys/expression/expressionadvanced.md)
-* Added a caution note in the `inAudience` function section about impacts and best practices when renaming an audience. [Read more](../building-journeys/functions/functioninaudience.md)
-* Added a recommendation about the native keywords usage when using two-way SMS. [Read more](../sms/sms-opt-out.md)
-* Updated the journey test page with a note about the need for including an identity namespace in the event used. [Read more](../building-journeys/testing-the-journey.md)
-* Currently, you cannot undelegate subdomains through the [!UICONTROL Journey Optimizer] user interface - you must reach out to your Adobe representative. Steps to undelegate a subdomain are now detailed for [Emails](../configuration/delegate-subdomain.md#undelegate-subdomain), [SMS](../sms/sms-subdomains.md#undelegate-subdomain), [Web experiences](../web/web-delegated-subdomains.md#undelegate-subdomain), and [Landing pages](../landing-pages/lp-subdomains.md#undelegate-subdomain).<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
-<!--
-* Added clarification about the optional `maxHttpConnections` parameter in the journeys Capping API, including guidance on how to use it alongside throttling configurations for the same endpoint. [Read more](../configuration/throttling.md)
-* In the Decisioning section, added guidance explaining that approved offer items cannot be deleted if they are used in a collection or a decision. Included steps to change their status to "Draft" using the **[!UICONTROL Undo approve]** option. [Read more](../experience-decisioning/items.md#manage)
-* Information on sandboxes have been grouped together into a new "Sandboxes management" section. This new section provides information on how to use and assign sandboxes, and how to use package export and import capabilitie to copy objects such as journeys, content templates, or fragments, across multiple sandboxes. [Read more](../administration/sandboxes.md)
+* Het hoofdstuk van de Configuratie is nu gesplitst in drie hoofdstukken: [ de configuratie van het Kanaal ](../configuration/get-started-configuration.md), [ configuratie van de Reis ](../configuration/about-data-sources-events-actions.md), en [ verbindt uw systemen ](../configuration/ajo-apis.md).
+* Er is een waarschuwende opmerking toegevoegd over het gebruik van ervaringsgebeurtenissen in reisexpressies en -omstandigheden. [Meer informatie](../building-journeys/expression/expressionadvanced.md#discovering-the-interface)
+* Er is een opmerking toegevoegd op de pagina voor Direct-mailconfiguratie over tijdelijke opslag van het uitvoerbestand. [Meer informatie](../direct-mail/direct-mail-configuration.md)
+* Er is een tip toegevoegd in de sectie met de editor voor geavanceerde expressies voor de reis over de richtlijnen voor de indeling van voorwaarden. [Meer informatie](../building-journeys/expression/expressionadvanced.md)
+* In de functiesectie `inAudience` is een waarschuwing toegevoegd over de effecten en aanbevolen procedures bij het wijzigen van de naam van een publiek. [Meer informatie](../building-journeys/functions/functioninaudience.md)
+* Een aanbeveling toegevoegd over het gebruik van native trefwoorden bij het gebruik van 2-wegs-SMS. [Meer informatie](../sms/sms-opt-out.md)
+* De testpagina voor de reis is bijgewerkt met een opmerking over de noodzaak om een naamruimte voor identiteit op te nemen in de gebruikte gebeurtenis. [Meer informatie](../building-journeys/testing-the-journey.md)
+* U kunt subdomeinen momenteel niet dedelegeren via de gebruikersinterface van [!UICONTROL Journey Optimizer] . Dit moet u doorgeven aan uw Adobe-vertegenwoordiger. De stappen om een subdomain niet langer te delegeren zijn nu gedetailleerd voor [ E-mail ](../configuration/delegate-subdomain.md#undelegate-subdomain), [ SMS ](../sms/sms-subdomains.md#undelegate-subdomain), [ de ervaringen van het Web ](../web/web-delegated-subdomains.md#undelegate-subdomain), en [ het Bestaan pagina&#39;s ](../landing-pages/lp-subdomains.md#undelegate-subdomain).<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+* Meer informatie over de optionele parameter `maxHttpConnections` in de API voor afdekritten, inclusief instructies voor het gebruik van deze parameter naast configuraties voor het vertragen van hetzelfde eindpunt. [Meer informatie](../configuration/throttling.md)
+* In de sectie Beslissing kunnen toegevoegde richtlijnen waarin wordt uitgelegd dat goedgekeurde aanbiedingspunten niet kunnen worden verwijderd als zij in een verzameling of een beslissing worden gebruikt. Opgenomen stappen om de status te wijzigen in Concept met de optie **[!UICONTROL Undo approve]** . [Meer informatie](../experience-decisioning/items.md#manage)
+* Informatie over sandboxen is gegroepeerd in een nieuwe sectie voor &quot;Sandboxbeheer&quot;. Deze nieuwe sectie biedt informatie over het gebruik en toewijzen van sandboxen en over het gebruik van de functie voor exporteren en importeren van pakketten om objecten zoals reizen, inhoudssjablonen of fragmenten over meerdere sandboxen te kopiëren. [Meer informatie](../administration/sandboxes.md)
 
-## March 2025 {#mar-2025}
+## Maart 2025 {#mar-2025}
 
-* The page about Audience Qualification events has been updated with new recommendations. [Read more](../building-journeys/audience-qualification-events.md)
-* Custom action troubleshooting capability is now available to all customers (GA). [Read more](../action/troubleshoot-custom-action.md)
-* Data Hygiene is now Data Lifecycle in the product user interface. The documentation has been updated to reflect this change. [Read more](../privacy/data-hygiene.md)
-* The missing Landing Page built-in permissions have been added to the documentation. [Read more](../administration/ootb-permissions.md)
-* A note has been added about scheduling recurring campaigns. [Read more](../campaigns/create-campaign.md)
-* The section about inserting links and enabling tracking in an email message has been updated and reorganized. [Read more](../email/message-tracking.md)
-* The section about personalization capabilities into Adobe Journey Optimizer has been reorganized and improved. [Read more](../personalization/personalize.md)
-* Decision management API to list personalized offers has been updated with a sample to perform pagination if multiple personalized offers are missing from the response. [Read more](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
-* A new page gathering all information regarding the List unsubscribe feature has been created for improved clarity. [Read more](../email/list-unsubscribe.md)
-* The Frequency capping section has been updated with information on how the frequency capping counter is updated for the Decisioning and Batch Decisioning APIs, in addition to the Edge Decisioning API. [Read more](../offers/offer-library/add-constraints.md#frequency-capping)
+* De pagina over de gebeurtenissen van de Kwalificatie van het Publiek is bijgewerkt met nieuwe aanbevelingen. [Meer informatie](../building-journeys/audience-qualification-events.md)
+* Aangepaste oplossingen voor acties zijn nu beschikbaar voor alle klanten (GA). [Meer informatie](../action/troubleshoot-custom-action.md)
+* Gegevenshygiëne is nu de levenscyclus van gegevens in de gebruikersinterface van het product. De documentatie is bijgewerkt met deze wijziging. [Meer informatie](../privacy/data-hygiene.md)
+* De ontbrekende ingebouwde bevoegdheden voor de bestemmingspagina zijn toegevoegd aan de documentatie. [Meer informatie](../administration/ootb-permissions.md)
+* Er is een opmerking toegevoegd over het plannen van terugkerende campagnes. [Meer informatie](../campaigns/create-campaign.md)
+* De sectie over het invoegen van koppelingen en het inschakelen van tracering in een e-mailbericht is bijgewerkt en opnieuw ingedeeld. [Meer informatie](../email/message-tracking.md)
+* Het gedeelte over personalisatiemogelijkheden in Adobe Journey Optimizer is gereorganiseerd en verbeterd. [Meer informatie](../personalization/personalize.md)
+* De Beslissingsbeheer-API voor het weergeven van gepersonaliseerde aanbiedingen is bijgewerkt met een voorbeeld om paginering uit te voeren als er in de reactie meerdere gepersonaliseerde aanbiedingen ontbreken. [Meer informatie](../offers/api-reference/offers-api/personalized-offers/offers-list.md)
+* Voor meer duidelijkheid is er een nieuwe pagina gemaakt met alle informatie over de functie voor afmelden bij lijst. [Meer informatie](../email/list-unsubscribe.md)
+* De sectie Frequency Capping is bijgewerkt met informatie over hoe de teller voor het afluisteren van frequenties wordt bijgewerkt voor de API&#39;s voor het bepalen van beslissingen en het bepalen van batch, in aanvulling op de Edge-API voor besluitvorming. [Meer informatie](../offers/offer-library/add-constraints.md#frequency-capping)
 
-## February 2025 {#feb-2025}
+## Februari 2025 {#feb-2025}
 
-* The Read Audience activity guardrails have been updated to specify that only one activity can be used in a journey and that it can target only one audience. [Read more](../building-journeys/read-audience.md)
-* Journey guardrails when using Adobe Campaign activities have been updated. [Read more](../start/guardrails.md#ac-g)
-* Steps to create your first journeys have been detailed, and links to documentation section have been added. [Read more](../building-journeys/journey-gs.md)
-* A new page is now available to detail the journey dashboard and filtering user interface. [Read more](../building-journeys/journey-ui.md)
-* Documentation for **[!UICONTROL Send-Time optimization]** and its related FAQ have been updated, improved and moved to a new dedicated page. [Read more](../building-journeys/send-time-optimization.md)
-* New guardrails have been added for journey events. [Read more](../start/guardrails.md#events-g)
-* The built-in channel actions page has been reorganized. [Read more](../building-journeys/journeys-message.md)
-* Guardrails & limitations have been added in the Decisioning and Decision management sections.
-    * [Decisioning guardrails & limitations](../experience-decisioning/decisioning-guardrails.md)
-    * [Decision management guardrails & limitations](../offers/decision-management-guardrails.md)
-* A new section on context data has been added in the Decision management documentation. It provides information on how to leverage context data in the decisioning engine, for example to design a decision rule that requires the current weather to be ≥80 degrees at the time the decision request is made. [Read more](../offers/context-data.md)
+* De activiteitenhandleidingen voor het lezen van doelgroepen zijn bijgewerkt om aan te geven dat slechts één activiteit kan worden gebruikt in een reis en dat deze slechts voor één doelgroep kan worden gebruikt. [Meer informatie](../building-journeys/read-audience.md)
+* Reisinstructies bij het gebruik van Adobe Campaign-activiteiten zijn bijgewerkt. [Meer informatie](../start/guardrails.md#ac-g)
+* De stappen voor het maken van uw eerste ritten zijn in detail beschreven en er zijn koppelingen naar de sectie documentatie toegevoegd. [Meer informatie](../building-journeys/journey-gs.md)
+* Er is nu een nieuwe pagina beschikbaar waarin het dashboard voor de reis en de gebruikersinterface worden gefilterd. [Meer informatie](../building-journeys/journey-ui.md)
+* De documentatie voor **[!UICONTROL Send-Time optimization]** en de bijbehorende veelgestelde vragen zijn bijgewerkt, verbeterd en naar een nieuwe, speciale pagina verplaatst. [Meer informatie](../building-journeys/send-time-optimization.md)
+* Er zijn nieuwe instructies toegevoegd voor reisevenementen. [Meer informatie](../start/guardrails.md#events-g)
+* De ingebouwde pagina met kanaalacties is opnieuw ingedeeld. [Meer informatie](../building-journeys/journeys-message.md)
+* In de afdelingen Beslissingen en Beslissingsbeheer zijn instructies en beperkingen toegevoegd.
+   * [Afbakening en beperkingen](../experience-decisioning/decisioning-guardrails.md)
+   * [Beheersbeheerinstructies en beperkingen](../offers/decision-management-guardrails.md)
+* Er is een nieuw hoofdstuk over contextgegevens toegevoegd aan de documentatie over het beheer van besluiten. Het verstrekt informatie over hoe te om contextgegevens in de beslissingsmotor te hefboomwerking, bijvoorbeeld om een beslissingsregel te ontwerpen die het huidige weer om 80 graden op het tijdstip vereist het beslissingsverzoek wordt gemaakt. [Meer informatie](../offers/context-data.md)
 
-## January 2025 {#jan-2025}
+## Januari 2025 {#jan-2025}
 
-* A new section on the **[!UICONTROL Execution address]** option in the email configuration has been added. The primary address is defined at the sandbox level, but the default setting can be overidden for a specific email configuration. [Read more](../email/email-settings.md#execution-address)
+* Er is een nieuwe sectie over de optie **[!UICONTROL Execution address]** in de e-mailconfiguratie toegevoegd. Het primaire adres wordt gedefinieerd op sandboxniveau, maar de standaardinstelling kan worden oververborgen voor een specifieke e-mailconfiguratie. [Meer informatie](../email/email-settings.md#execution-address)
 
-* The **Get started with deliverability** page has been updated with the possibility to create IP warmup workflows directly from the user interface. [Read more](../reports/deliverability.md#reputation)
+* **wordt begonnen met leverability** pagina is bijgewerkt met de mogelijkheid om IP warmteopwerkschema&#39;s van het gebruikersinterface direct tot stand te brengen. [Meer informatie](../reports/deliverability.md#reputation)
 
-* The **Header parameters** section has been updated to reflect the new labels and changes in the user interface. [Read more](../email/email-settings.md#email-header)
+* De **sectie van de Parameters van de Kopbal** is bijgewerkt om op de nieuwe etiketten en de veranderingen in het gebruikersinterface te wijzen. [Meer informatie](../email/email-settings.md#email-header)
 
-* The **Forward email** section has been updated to specify that all emails sent to the **From email** address are forwarded to the forward email address. If no forward email is specified, these emails are discarded. [Read more](../email/email-settings.md#email-settings)
+* De **voorwaartse e-mail** sectie is bijgewerkt om te specificeren dat alle e-mails die naar **van e-mail** adres worden verzonden door:sturen aan het voorwaartse e-mailadres. Als er geen e-mailbericht naar voren is opgegeven, worden deze e-mails verwijderd. [Meer informatie](../email/email-settings.md#email-settings)
 
-* The maximum size of contextual attributes passed into an API-triggered campaign request has been updated to 200kb. [Read more](../campaigns/api-triggered-campaigns.md#contextual)
+* De maximumgrootte van contextafhankelijke kenmerken die worden doorgegeven aan een door de API geactiveerd campagneverzoek is bijgewerkt naar 200 kb. [Meer informatie](../campaigns/api-triggered-campaigns.md#contextual)
 
-* A new section has been added to the **Manage fragments** page to describe how to add new attributes to a live fragment. The whole page has also been improved. [Read more](../content-management/manage-fragments.md#adding-new-attributes)
+* Een nieuwe sectie is toegevoegd aan **Manage fragments** pagina om te beschrijven hoe te om nieuwe attributen aan een levend fragment toe te voegen. De hele pagina is ook verbeterd. [Meer informatie](../content-management/manage-fragments.md#adding-new-attributes)
 
-* A "Guardrails & limitations" section has been added to the conflict management & prioritizations tools documentation. [Read more](../conflict-prioritization/gs-conflict-prioritization.md)
+* Er is een sectie ‘Hulplijnen en beperkingen’ toegevoegd aan de documentatie met betrekking tot conflictenbeheer en -prioriteiten. [Meer informatie](../conflict-prioritization/gs-conflict-prioritization.md)
 
-* A new end-to-end use case has been added to present all the steps needed to use Decisioning in content experiments with the [!DNL Journey Optimizer] code-based experience channel. [Read more](../experience-decisioning/experience-decisioning-uc.md)
+* Er is een nieuw gebruiksgeval van begin tot eind toegevoegd om alle stappen voor te stellen die nodig zijn om het Beslissen in inhoudexperimenten met het [!DNL Journey Optimizer] op code-gebaseerde ervaringskanaal te gebruiken. [Meer informatie](../experience-decisioning/experience-decisioning-uc.md)
 
-* The **Configure email settings** page has been divided into several sub-pages for improved readability, including new standalone pages dedicated to [List unsubscribe](../email/list-unsubscribe.md), [Header parameters](../email/header-parameters.md) and [URL tracking](../email/url-tracking.md).
+* **vormt e-mailmontages** pagina is verdeeld in verscheidene subpagina&#39;s voor betere leesbaarheid, met inbegrip van nieuwe standalone pagina&#39;s gewijd aan [ Lijst unsubscribe ](../email/list-unsubscribe.md), [ parameters van de Kopbal ](../email/header-parameters.md) en [ URL het volgen ](../email/url-tracking.md).
 
 ## December 2024 {#nov-2024}
 
-* A note has been added to help troubleshoot a potential error message when making an API call to enable datasets for personalization using Adobe Experience Platform data. [Read more](../personalization/aep-data-perso.md)
+* Er is een notitie toegevoegd om een mogelijk foutbericht op te lossen wanneer u een API-aanroep maakt om gegevenssets voor personalisatie met Adobe Experience Platform-gegevens in te schakelen. [Meer informatie](../personalization/aep-data-perso.md)
 
-## October 2024 {#oct-2024}
+## Oktober 2024 {#oct-2024}
 
-* All new features and improvements coming with [!DNL Journey Optimizer] October '24 release have been detailed in the documentation. [Read more](release-notes.md)
-* All communication channels available in [!DNL Journey Optimizer] are now grouped in a dedicated section of the documentation. [Read more](../channels/gs-channels.md)
-* The **Configure your code-based experience** page has been improved to make the process clearer, including the section explaining what a surface URI is. [Read more](../code-based/code-based-configuration.md)
-* The **Create web channel configuration** page has been updated to clarify the steps when creating a pages matching rule, which also apply to Code-based experience configuration. [Read more](../web/web-configuration.md#web-page-matching-rule)
-* A note about the upcoming time-to-live (TTL) guardrail for system-generated datasets has been added. [Read more](../data/get-started-datasets.md)
-* A new section has been added to describe how to preview your code-based personalized experiences right on your browser or on your mobile devices, using the **Preview on device** option when simulating content in a journey or a campaign. [Read more](../code-based/test-code-based.md#preview-on-device)
-* A new page has been added on how to leverage Custom upload audiences for decisioning. [Read more](../offers/custom-upload-decisioning.md)
-* A new page has been added to introduce the decision capabilities available in Journey Optimizer. [Read more](../experience-decisioning/gs-decision.md)
-* Guardrails and limitations have been added to the Decisioning documentation. [Read more](../experience-decisioning/gs-experience-decisioning.md#guardrails)
+* Alle nieuwe functies en verbeteringen die worden geïntroduceerd in de release van [!DNL Journey Optimizer] oktober 24 zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
+* Alle communicatiekanalen die beschikbaar zijn in [!DNL Journey Optimizer] worden nu gegroepeerd in een specifieke sectie van de documentatie. [Meer informatie](../channels/gs-channels.md)
+* **vorm uw code-gebaseerde ervaring** pagina is verbeterd om het proces helderder te maken, met inbegrip van de sectie die verklaart wat een oppervlakte URI is. [Meer informatie](../code-based/code-based-configuration.md)
+* **creeer de configuratie van het Webkanaal** pagina is bijgewerkt om de stappen te verduidelijken wanneer het creëren van een pagina passende regel, die ook op code-gebaseerde ervaringsconfiguratie van toepassing is. [Meer informatie](../web/web-configuration.md#web-page-matching-rule)
+* Er is een notitie toegevoegd over de aanstaande time-to-live (TTL) guardrail voor door het systeem gegenereerde gegevenssets. [Meer informatie](../data/get-started-datasets.md)
+* Een nieuwe sectie is toegevoegd om te beschrijven hoe te om uw code-gebaseerde gepersonaliseerde ervaringen op uw browser of op uw mobiele apparaten voor te vertonen, gebruikend de **Voorproef op apparaat** optie wanneer het simuleren van inhoud in een reis of een campagne. [Meer informatie](../code-based/test-code-based.md#preview-on-device)
+* Er is een nieuwe pagina toegevoegd over het gebruik van Aangepast uploadpubliek voor besluitvorming. [Meer informatie](../offers/custom-upload-decisioning.md)
+* Er is een nieuwe pagina toegevoegd om de beslissingsmogelijkheden van Journey Optimizer te introduceren. [Meer informatie](../experience-decisioning/gs-decision.md)
+* Er zijn instructies en beperkingen toegevoegd aan de beslissingsdocumentatie. [Meer informatie](../experience-decisioning/gs-experience-decisioning.md#guardrails)
 
 ## September 2024 {#sept-2024}
 
-* All new features and improvements coming with [!DNL Journey Optimizer] Sept '24 release have been detailed in the documentation. [Read more](release-notes.md)
-* Added a section about journey retry management. [Read more](../building-journeys/read-audience.md#read-audience-retry)
-* The FAQ about Capping/throttling rule for custom actions has been updated to mention the default capping rule. [Read more](../configuration/external-systems.md#faq)
-* The Control access section has been updated with permissions related to AI Assistant Content Generator. [Read more](../administration/high-low-permissions.md#ai-orchestrated-campaign)
-* A video about AI Assistant Content Generator for email generation has been added. [Read more](../content-management/generative-full-content.md#video)
+* Alle nieuwe functies en verbeteringen die worden geïntroduceerd in de release [!DNL Journey Optimizer] Sept &#39;24 zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
+* Er is een gedeelte toegevoegd over het beheer van de reistijd. [Meer informatie](../building-journeys/read-audience.md#read-audience-retry)
+* Veelgestelde vragen over het Afbakenen/vertragen van regel voor douaneacties zijn bijgewerkt om de standaard het afschilderen regel te vermelden. [Meer informatie](../configuration/external-systems.md#faq)
+* Het gedeelte Toegang tot besturingselement is bijgewerkt met machtigingen voor de AI Assistant Content Generator. [Meer informatie](../administration/high-low-permissions.md#ai-orchestrated-campaign)
+* Er is een video toegevoegd over de AI Assistant Content Generator voor het genereren van e-mail. [Meer informatie](../content-management/generative-full-content.md#video)
 
 <!--
 
@@ -510,7 +509,7 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -518,7 +517,7 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 * An note has been added to notify users that events cannot be fired from external systems using an API. [Read more](../building-journeys/testing-the-journey.md#important_notes)
 * Information on the **currentActionField** function has been added to the list of [collection management functions](../building-journeys/expression/collection-management-functions.md). An expression sample leveraging the function has been added in the [Use API call reponses in custom actions](../action/action-response.md) page.
 * Update custom authentication doc regarding cache duration. [Read more] (../datasource/external-data-sources.md)
-* Support of `listObject` has been modified in multiple functions.
+* Support of `<listObject>` has been modified in multiple functions.
 * Update the **duration** parameter in the `toString` function. [Read more](../building-journeys/functions/conversion-functions.md#toString)
 * For some external data sources use-cases, usage of custom actions is recommended.
 * Event field syntax has been updated. The following syntax is deprecated `@(my_event.myfield}` and replaced by `@event{my_event.myfield}`. [Read more](../building-journeys/expression/field-references.md)
@@ -540,7 +539,7 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=nl-NL){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -615,7 +614,7 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -743,7 +742,7 @@ Deze pagina bevat een overzicht van alle meest recente wijzigingen in de documen
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=nl-NL)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
