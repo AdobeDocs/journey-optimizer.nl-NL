@@ -7,9 +7,10 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
+source-git-commit: eb1056b57e72ab1cff5e32bff31b9cba5604f695
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1371'
 ht-degree: 8%
 
 ---
@@ -21,8 +22,6 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 ## Opmerkingen bij de release van januari &#39;26 {#jan-26-rn}
 
 <!--**Release date**: January 27-28, 2026-->
-
-De [&#x200B; Eigenschappen &#x200B;](#jan-26-01-features) en [&#x200B; Verbeteringen &#x200B;](#jan-26-01-improv) secties behandelen reeds beschikbare mogelijkheden, terwijl [&#x200B; komende spoedig &#x200B;](#jan-26-01-coming-soon) punten die voor een recentere beschikbaarheidsdatum worden gepland.
 
 ### Nieuwe functies {#jan-26-01-features}
 
@@ -54,7 +53,7 @@ De [&#x200B; Eigenschappen &#x200B;](#jan-26-01-features) en [&#x200B; Verbeteri
 <tbody>
 <tr>
 <td>
-<p>Eerder beperkt tot Campagnes, <strong> is het kanaal van 0&rbrace; Directe Post &lbrace;nu beschikbaar op het wegcanvas, toelatend u om Directe Post in uw reizen op te nemen. </strong> De directe Post kan nu in zowel <strong> partij en 1:1 reisscenario's </strong>, met steun voor de configuratie van de dossierextractie en op tijd-gebaseerde frequentiemontages worden gebruikt.</p>
+<p>Eerder beperkt tot Campagnes, <strong> is het kanaal van 0} Directe Post {nu beschikbaar op het wegcanvas, toelatend u om Directe Post in uw reizen op te nemen. </strong> De directe Post kan nu in zowel <strong> partij en 1:1 reisscenario's </strong>, met steun voor de configuratie van de dossierextractie en op tijd-gebaseerde frequentiemontages worden gebruikt.</p>
 <p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
 <p><img src="assets/do-not-localize/dm-journey.gif"/></p>
 <p>Raadpleeg de <a href="../direct-mail/get-started-direct-mail.md">gedetailleerde documentatie</a> voor meer informatie.</p>
@@ -92,7 +91,7 @@ De [&#x200B; Eigenschappen &#x200B;](#jan-26-01-features) en [&#x200B; Verbeteri
 <tbody>
 <tr>
 <td>
-<p>Een nieuw <strong> vermogen van de Uitvoer van het 0&rbrace; Bericht is nu beschikbaar voor e-mail en de kanalen van SMS. </strong> Met deze functie kunt u automatisch verzonden berichtinhoud exporteren naar een speciale Experience Platform-gegevensset, zodat u:</p>
+<p>Een nieuw <strong> vermogen van de Uitvoer van het 0} Bericht is nu beschikbaar voor e-mail en de kanalen van SMS. </strong> Met deze functie kunt u automatisch verzonden berichtinhoud exporteren naar een speciale Experience Platform-gegevensset, zodat u:</p>
 <ul>
 <li>Voldoen aan wettelijke nalevingsvereisten (zoals HIPAA)</li>
 <li>Berichten archiveren voor juridische claims en vragen over klantenservice</li>
@@ -183,9 +182,9 @@ De [&#x200B; Eigenschappen &#x200B;](#jan-26-01-features) en [&#x200B; Verbeteri
 
 #### AI
 
-* **AI de Controles van de Kwaliteit van de Inhoud van de Inhoud &lbrace;** - Naast merkgroepering, kunt u algemene <strong> inhoudskwaliteit </strong> nu evalueren om potentiële kwesties met <strong> leesbaarheid </strong>, samenhang, en doeltreffendheid, onafhankelijk van uw merkrichtlijnen te ontdekken. Deze geautomatiseerde controles helpen onduidelijk overseinen, inconsistente toon, of structurele hiaten identificeren. [Meer informatie](../content-management/brands-score.md#validate-quality).
+* **AI de Controles van de Kwaliteit van de Inhoud van de Inhoud {** - Naast merkgroepering, kunt u algemene <strong> inhoudskwaliteit </strong> nu evalueren om potentiële kwesties met <strong> leesbaarheid </strong>, samenhang, en doeltreffendheid, onafhankelijk van uw merkrichtlijnen te ontdekken. Deze geautomatiseerde controles helpen onduidelijk overseinen, inconsistente toon, of structurele hiaten identificeren. [Meer informatie](../content-management/brands-score.md#validate-quality).
 
-  [&#x200B; ontdekt deze eigenschap in video &#x200B;](https://video.tv.adobe.com/v/3470552/?captions=dut&learn=on).
+  [ ontdekt deze eigenschap in video ](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Journeys
 
@@ -235,7 +234,7 @@ De [&#x200B; Eigenschappen &#x200B;](#jan-26-01-features) en [&#x200B; Verbeteri
 
 #### Campagnes
 
-* **Campagne van het Programma die de Zone van de Tijd van het Profiel** gebruikt - het plannen van de Campagne kan de 2&rbrace; tijdzone van elk profiel <strong> nu gebruiken om berichten bij de voorgenomen lokale tijd te leveren. </strong> [Meer informatie](../campaigns/campaign-schedule.md)
+* **Campagne van het Programma die de Zone van de Tijd van het Profiel** gebruikt - het plannen van de Campagne kan de 2} tijdzone van elk profiel <strong> nu gebruiken om berichten bij de voorgenomen lokale tijd te leveren. </strong> [Meer informatie](../campaigns/campaign-schedule.md)
 
   **Nota**: Deze verbetering is slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid).
 
