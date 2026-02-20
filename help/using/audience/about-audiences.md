@@ -38,9 +38,9 @@ Naarmate gegevensstromen in real time of batchuploads plaatsvinden, worden gegev
 
 Deze documentatie biedt informatie over het werken met het publiek in [!DNL Adobe Journey Optimizer] . Gedetailleerde informatie over de portal Publiek en het publiek is beschikbaar in de documentatie van de Adobe Experience Platform Segmentation-service. Raadpleeg de volgende secties voor meer informatie:
 
-* {de gids van de Dienst UI van de Segmentatie 0} [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* {de gids van de Dienst UI van de Segmentatie 0} [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
-* [&#x200B; de Dienst van de Segmentatie - Veelgestelde Vragen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}
+* [&#x200B; de Dienst van de Segmentatie - Veelgestelde Vragen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/faq){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +54,7 @@ Een dashboard toont visueel overlappingen tussen belangrijke doelgroepen en onde
 
 Via het Poortpubliek van het publiek kunt u eenvoudig het publiek beheren, zoeken en verkennen met gestandaardiseerde labels, beheerbesturingselementen, doorzoekbare mappen en tags.
 
-Voor meer informatie over hoe te met publiek in het Portaal van het Publiek te werken, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
+Voor meer informatie over hoe te met publiek in het Portaal van het Publiek te werken, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"}.
 
 ## Typen soorten publiek {#types}
 
