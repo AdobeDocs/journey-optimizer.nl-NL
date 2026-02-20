@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: e6aa361229f068c475732c715160b7c644189e51
+source-git-commit: 2458a0f84aa0318f956a0a7edff20aff711159a5
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -42,8 +42,6 @@ Bijvoorbeeld, als u een campagne plant om op 9 AM te verzenden gebruikend profie
 
 >[!AVAILABILITY]
 >
->Deze functie bevindt zich in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
->
 >De planning die de streken van de profieltijd gebruikt is beschikbaar voor deze uitgaande kanalen slechts: E-mail, Duw, SMS, WhatsApp, en LIJN.
 
 Tijdzoneplanning voor profielen inschakelen:
@@ -62,7 +60,9 @@ De campagne blijft in **Levende** status terwijl de berichten over alle tijdzone
 
 **Gesteunde herkenningstekens van de tijdzone:**
 
-Journey Optimizer valideert de `profile.timeZone` -waarde aan de hand van standaard-IANA-tijdzone-id&#39;s. Identificatoren zijn hoofdlettergevoelig en moeten overeenkomen met de officiële IANA-naamgeving. Verschuivingen kunnen na verloop van tijd veranderen als gevolg van zomertijd en historische updates. Verwijs naar het [&#x200B; Gegevensbestand van de Tijdzone van 0&rbrace; IANA &lbrace;voor de officiële lijst van herkenningstekens.](https://www.iana.org/time-zones){_blank}
+De `profile.timeZone` -indeling kan IANA-naamgeving zijn of worden gedefinieerd als UTC-verschuivingen. De naamgeving van IANA heeft de voorkeur, aangezien deze automatisch wordt aangepast voor zomerse regels.
+
+Voor IANA-naamgeving zijn de id&#39;s hoofdlettergevoelig en moeten ze overeenkomen met de officiële IANA-naamgeving. Verschuivingen kunnen na verloop van tijd veranderen als gevolg van zomertijd en historische updates. Verwijs naar het [ Gegevensbestand van de Tijdzone van 0} IANA {voor de officiële lijst van herkenningstekens.](https://www.iana.org/time-zones){_blank}
 
 ## Een uitvoeringsfrequentie instellen
 
@@ -72,7 +72,7 @@ Voor **E-mail**, **SMS**, en **Push bericht** acties, kunt u een frequentie bepa
 
 >[!NOTE]
 >
->Voor **e-mail** acties, kunt u specifieke IP campagnes van de opwarmingsPlan tot stand brengen. Het campagneschema zal door het IP warmup plan worden gedreven het zal worden geassocieerd met, betekenend dat het programma niet meer in de campagne zelf wordt bepaald. [&#x200B; Leer hoe te om IP warmup campagnes &#x200B;](../configuration/ip-warmup-campaign.md) tot stand te brengen.
+>Voor **e-mail** acties, kunt u specifieke IP campagnes van de opwarmingsPlan tot stand brengen. Het campagneschema zal door het IP warmup plan worden gedreven het zal worden geassocieerd met, betekenend dat het programma niet meer in de campagne zelf wordt bepaald. [ Leer hoe te om IP warmup campagnes ](../configuration/ip-warmup-campaign.md) tot stand te brengen.
 
 ## Einddatum instellen
 
