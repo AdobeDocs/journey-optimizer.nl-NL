@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: 74a817e01765d2909e9dc3c396c5513b1c9b54b2
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1645'
 ht-degree: 5%
 
 ---
@@ -23,17 +23,17 @@ ht-degree: 5%
 
 [!DNL Adobe Journey Optimizer] volgt een doorlopend leveringsmodel, dat Adobe in staat stelt voortdurend nieuwe functies, verbeteringen en correcties te leveren. Deze benadering maakt een schaalbare, gefaseerde implementatie van mogelijkheden mogelijk om prestaties en stabiliteit in alle omgevingen te garanderen.
 
-Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [&#x200B; de versiecyclus van Journey Optimizer &#x200B;](releases.md).
+Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [ de versiecyclus van Journey Optimizer ](releases.md).
 
-[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Opmerkingen bij de release van februari &#39;26 {#feb-26-01-rn}
 
-De [&#x200B; Nieuwe mogelijkheden &#x200B;](#feb-26-01-features) en [&#x200B; secties van Verbeteringen &#x200B;](#feb-26-01-improv) behandelen reeds beschikbare mogelijkheden. De [&#x200B; komende spoedig &#x200B;](#coming-soon) sectie maakt een lijst van eigenschappen en verbeteringen die voor versie later in Februari worden gepland.
+De [ Nieuwe mogelijkheden ](#feb-26-01-features) en [ secties van Verbeteringen ](#feb-26-01-improv) behandelen reeds beschikbare mogelijkheden. De [ komende spoedig ](#coming-soon) sectie maakt een lijst van eigenschappen en verbeteringen die voor versie later in Februari worden gepland.
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -164,13 +164,58 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Aangepaste actiecontrole</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Verbeter insight dieper in de gezondheid en prestaties van uw eindpunten van de douaneactie met een nieuw controledashboard en verrijkte gegevens van de reisstap. Spoor succesvolle vraag, fouten, productie, reactietijden, en rij wacht tijden om snel te begrijpen wanneer, waar, en waarom anomalieën voorkomen.</p>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+<p>Raadpleeg de <a href="../action/reporting.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 3 februari 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Ondersteuning voor besluitvorming in SMS-kanaal</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt de inhoud van uw SMS-berichten nu personaliseren en optimaliseren met Beslissing. Gebruik Prioritaire scores, Formulas of AI-modellen om de beste inhoud weer te geven aan uw klanten.</p>
+<p>Raadpleeg de <a href="../experience-decisioning/create-decision.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 2 februari 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Verbeteringen {#feb-26-01-improv}
 
 De verbeteringen die bij deze release worden geleverd, worden hieronder weergegeven.
 
 #### Configuratie
 
-* **het gebeurtenisgebruik van de Ervaring in reisuitdrukkingen** - Beginnend 1 April, 2026, zal het gebruik van de attributen van de ervaringsgebeurtenis in reisuitdrukkingen niet meer gesteund worden voor organisaties die dit vermogen in de laatste 90 dagen niet hebben gebruikt. Deze mogelijkheid is al sinds 8 juli 2025 niet meer beschikbaar voor nieuwe klantenorganisaties. Voor alternatieven, zie [&#x200B; de gebeurtenisraadpleging van de Ervaring in reizen &#x200B;](../building-journeys/exp-event-lookup.md).
+* **het gebeurtenisgebruik van de Ervaring in reisuitdrukkingen** - Beginnend 1 April, 2026, zal het gebruik van de attributen van de ervaringsgebeurtenis in reisuitdrukkingen niet meer gesteund worden voor organisaties die dit vermogen in de laatste 90 dagen niet hebben gebruikt. Deze mogelijkheid is al sinds 8 juli 2025 niet meer beschikbaar voor nieuwe klantenorganisaties. Voor alternatieven, zie [ de gebeurtenisraadpleging van de Ervaring in reizen ](../building-journeys/exp-event-lookup.md).
+
+#### Contentmanagement
+
+* **de brandjes van de Update met nieuw kleurenlusje** - de hulp van de Merk zorgt ervoor uw merk constant over alle touchpoints wordt voorgesteld. De nieuwe <strong> sectie van Kleuren </strong> bepaalt de normen voor het de kleurensysteem van uw merk, die schetsen hoe de kleuren worden geselecteerd, georganiseerd, en toegepast over ervaringen. Het zorgt voor consistent gebruik van primaire, secundaire, accenten en neutrale kleuren ter ondersteuning van een consistente, toegankelijke en herkenbare merkidentiteit. [Meer informatie](../content-management/brands.md)
+
+* **thema&#39;s van het Gebruik om beelden in e-mailmalplaatjes** om te zetten - wanneer het omzetten van een beeld in een e-mailmalplaatje in Journey Optimizer, kunt u een thema nu gebruiken als input zodat geproduceerde HTML uw merkparameters volgt. Stijlen zoals achtergrondkleur, knopkleur, lettertypen, regelafstand, marges en opvulling worden automatisch toegepast, waardoor het handmatig ontwerpen minder wordt en een sjabloon ontstaat die klaar is voor gebruik met minimale bewerkingen. [Meer informatie](../content-management/image-to-html.md)
+
+  Beschikbaarheidsdatum: 17 februari 2026.
+
+* **wijze van de Tekst voor fragmenten** - u kunt tekstversies van uw fragmenten nu tot stand brengen en beheren, ondersteunend werkschema&#39;s die op gewone tekstinhoud vertrouwen en de zelfde flexibiliteit verstrekken zoals in e-mailinhoud. <!--[Read more](../content-management/create-fragments.md)-->
 
 #### Email Designer
 
@@ -178,25 +223,32 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
   Beschikbaarheidsdatum: 18 februari 2026.
 
-#### Inhoudssjablonen
-
-* **thema&#39;s van het Gebruik om beelden in e-mailmalplaatjes** om te zetten - wanneer het omzetten van een beeld in een e-mailmalplaatje in Journey Optimizer, kunt u een thema nu gebruiken als input zodat geproduceerde HTML uw merkparameters volgt. Stijlen zoals achtergrondkleur, knopkleur, lettertypen, regelafstand, marges en opvulling worden automatisch toegepast, waardoor het handmatig ontwerpen minder wordt en een sjabloon ontstaat die klaar is voor gebruik met minimale bewerkingen. [Meer informatie](../content-management/image-to-html.md)
-
-  Beschikbaarheidsdatum: 17 februari 2026.
-
-
 #### Ervaar beslissingsvermogen
 
 * **Edge binnenkomende steun voor het gebruiken van de gegevens van Adobe Experience Platform in Beslissing** - het gebruiken van de gegevens van Adobe Experience Platform in Beslissing steunt nu rand binnenkomende gebruiksgevallen, naast e-mail en douaneacties in reizen. [Meer informatie](../experience-decisioning/aep-data-exd.md)
 
-  **Nota**: Dit vermogen is slechts beschikbaar voor een reeks organisaties (<strong> Beperkte Beschikbaarheid </strong>). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+  Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 
 * **de fragmenten van de Band aan besluitvormingspunten** - Journey Optimizer verstrekt nu de capaciteit om fragmenten aan besluitvormingspunten vast te maken die in code-gebaseerde ervaringscampagnes door besluitvormingsbeleid kunnen worden leveraged. [Meer informatie](../experience-decisioning/fragments-decision-policies.md)
 
-  **Nota**: Eerder vrijgegeven in Beperkte Beschikbaarheid, is dit vermogen nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid).
+  Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid).
 
   Beschikbaarheidsdatum: 12 februari 2026.
+
+#### Personalisatie
+
+* **hulp van Metagegevens van de Uitvoering** - de `executionMetadata` hulpfunctie is nu beschikbaar aan alle klanten van Journey Optimizer. Gebruik dit schema om contextuele informatie dynamisch toe te voegen aan elke native handeling en deze vast te leggen in een gegevensset voor export naar externe systemen. [Meer informatie](../personalization/functions/helpers.md#execution-metadata)
+
+  Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid).
+
+  Beschikbaarheidsdatum: 20 februari 2026.
+
+#### Sms
+
+* **Webhooks van SMS** - Webhooks worden nu gesteund over alle leveranciers van SMS. U kunt elke WebHaak vormen die op zijn voorgenomen doel wordt gebaseerd: Binnenkomende webhooks om inkomende berichten en Terugkoppeling webhooks te vangen om leveringsontvangstbewijzen, statusupdates, en andere bericht-gerelateerde gebeurtenissen te ontvangen. [Meer informatie](../sms/sms-webhook.md)
+
+  Beschikbaarheidsdatum: 2 februari 2026.
 
 ## Binnenkort beschikbaar {#coming-soon}
 
@@ -212,7 +264,7 @@ De volgende functies en verbeteringen zijn gepland voor release later in februar
 <tr>
 <td>
 <p>Aangedreven door <strong> Adobe Experience Platform Agent Orchestrator </strong>, <strong> Journey Agent </strong> is beschikbaar in Journey Optimizer en laat u toe om reizen door een natuurlijke taalinterface te analyseren. U kunt kanaal-specifieke inhoud nu ook direct in Journey Agent produceren en beheren, creërend inhoud voor kanalen zoals e-mail en duw, het toepassen van en het voorvertonen van malplaatjes, het verfijnen van toon en stijl door herinneringen, en het openen van inhoud in <strong> Inhoud Designer </strong> voor in-context het uitgeven.</p>
-<p>Beschikbaarheidsdatum: 20 februari 2026</p>
+<p>Beschikbaarheidsdatum: begin maart 2026</p>
 </td>
 </tr>
 </tbody>
@@ -284,5 +336,5 @@ De volgende functies en verbeteringen zijn gepland voor release later in februar
 
 * **Integratie van de modellen van douaneFirefly en derdebeeldgeneratie** - laat naadloze integratie van standaard en douanemodellen van Firefly, samen met goedgekeurde derdebeeldmodellen (b.v., NanoBanana) toe, om grotere flexibiliteit, controle, en merkgroepering te verstrekken wanneer het produceren van beelden. Op deze manier kunt u het beste model voor elk geval van gebruik selecteren: standaard Firefly voor algemene behoeften, aangepaste Firefly voor on-brand-productie of goedgekeurde modellen van derden voor gespecialiseerde of experimentele scenario&#39;s.
 
-  Beschikbaarheidsdatum: 20 februari 2026.
+  Beschikbaarheidsdatum: begin maart 2026.
 
