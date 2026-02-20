@@ -34,22 +34,22 @@ De campagnes van de actie (of Geplande campagnes) staan voor eenvoudige ad hoc p
 
 >[!NOTE]
 >
->Voor meer informatie over de gesteunde kanalen, verwijs naar de lijst in deze sectie: [ Kanalen in reizen &amp; campagnes ](../channels/gs-channels.md#channels).
+>Voor meer informatie over de gesteunde kanalen, verwijs naar de lijst in deze sectie: [&#x200B; Kanalen in reizen &amp; campagnes &#x200B;](../channels/gs-channels.md#channels).
 >
 >Welke kanalen beschikbaar zijn, is afhankelijk van uw licentiemodel en invoegtoepassingen.
 
 ## Belangrijkste stappen voor het maken van handelscampagnes {#steps}
 
-Alvorens met campagnes te beginnen, controleer de volgende eerste vereisten die [ in deze sectie ](get-started-with-campaigns.md#prerequisites) worden vermeld. Als aan deze voorwaarden is voldaan, kunt u uw campagne starten:
+Alvorens met campagnes te beginnen, controleer de volgende eerste vereisten die [&#x200B; in deze sectie &#x200B;](get-started-with-campaigns.md#prerequisites) worden vermeld. Als aan deze voorwaarden is voldaan, kunt u uw campagne starten:
 
 1. [De campagneeigenschappen voor Actie definiëren](campaign-properties.md)
 1. [Campagne configureren](campaign-action.md)
 1. [De inhoud van de handelingscampagne bewerken](campaign-content.md)
 1. [Het publiek van de campagne definiëren](campaign-audience.md)
-1. [ Plan de campagne van de Actie ](campaign-schedule.md). Naar keuze, [ verzendt het gebruiken golven ](send-using-waves.md) om het bericht in partijen in tijd te leveren.
+1. [&#x200B; Plan de campagne van de Actie &#x200B;](campaign-schedule.md). Naar keuze, [&#x200B; verzendt het gebruiken golven &#x200B;](send-using-waves.md) om het bericht in partijen in tijd te leveren.
 1. [De campagne van de Actie bekijken en activeren](review-activate-campaign.md)
 
-Leer meer over het [ volledige werkschema van de campagneverwezenlijking met type-specifieke gidsen → ](get-started-with-campaigns.md#workflow)
+Leer meer over het [&#x200B; volledige werkschema van de campagneverwezenlijking met type-specifieke gidsen → &#x200B;](get-started-with-campaigns.md#workflow)
 
 ## Hoe kan ik-video&#39;s {#video}
 

@@ -37,7 +37,7 @@ Met Journey Optimizer kunt u het aantal golven, de grootte ervan (als percentage
 
 Volg de onderstaande stappen om te configureren hoe en wanneer u golven wilt verzenden in een campagne.
 
-1. Creeer of open een [ campagne van de Actie ](create-campaign.md) die een uitgaande actie (bijvoorbeeld, E-mail, SMS, Duw) bevat.
+1. Creeer of open een [&#x200B; campagne van de Actie &#x200B;](create-campaign.md) die een uitgaande actie (bijvoorbeeld, E-mail, SMS, Duw) bevat.
 
 1. Selecteer **[!UICONTROL Schedule]** op het tabblad **[!UICONTROL Deliver campaign actions in waves]** van uw campagne.
 
@@ -83,7 +83,7 @@ Selecteer **[!UICONTROL Numbers]** om de grootte van elke golf als een absoluut 
 
 >[!NOTE]
 >
->Wanneer het gebruiken van aantallen, bevestigt het systeem niet dat de som het volledige publiek-u moet ervoor zorgen dat uw golfgrootte het publiek behandelt u van plan bent te verzenden naar. Leer meer in de [ Veelgestelde vragen ](#faq).
+>Wanneer het gebruiken van aantallen, bevestigt het systeem niet dat de som het volledige publiek-u moet ervoor zorgen dat uw golfgrootte het publiek behandelt u van plan bent te verzenden naar. Leer meer in de [&#x200B; Veelgestelde vragen &#x200B;](#faq).
 
 ### Aangepast schema {#custom-schedule}
 
@@ -115,7 +115,7 @@ Golf die hulp verzendt u controleert wanneer en hoeveel berichten uit gaan, die 
 
 +++ Wat gebeurt er als de som van de golfgrootten niet overeenkomt met uw totale publiek?
 
-* Als de som van uw golfgrootte **** het publiek overschrijdt (bijvoorbeeld, plant u 100.000 in de eerste golf voor een publiek van 100.000), zal de eerste golf naar het volledige publiek verzenden en de resterende golven zullen geen één verlaten hebben naar-zij niet uitvoeren.
+* Als de som van uw golfgrootte **&#x200B;**&#x200B;het publiek overschrijdt (bijvoorbeeld, plant u 100.000 in de eerste golf voor een publiek van 100.000), zal de eerste golf naar het volledige publiek verzenden en de resterende golven zullen geen één verlaten hebben naar-zij niet uitvoeren.
 * Als de som **minder** dan het publiek is (bijvoorbeeld, bepaalt u vier golven in totaal 40.000 profielen voor een publiek van 100.000), slechts de profielen inbegrepen in die golven zullen het bericht ontvangen. De rest van het publiek zal niet de mededeling ontvangen en zal niet in recentere golven opnieuw worden geprobeerd.
 
 +++
@@ -128,5 +128,5 @@ U kunt alleen de grootte en de timing van golven definiëren. De selectie van on
 
 ## Volgende stappen {#next}
 
-* [ Plan de campagne van de Actie ](campaign-schedule.md) - vastgestelde begindatum, einddatum, frequentie, en tariefcontrole.
-* [ Overzicht en activeer de campagne ](review-activate-campaign.md) - controleer de campagne en ga levend.
+* [&#x200B; Plan de campagne van de Actie &#x200B;](campaign-schedule.md) - vastgestelde begindatum, einddatum, frequentie, en tariefcontrole.
+* [&#x200B; Overzicht en activeer de campagne &#x200B;](review-activate-campaign.md) - controleer de campagne en ga levend.
