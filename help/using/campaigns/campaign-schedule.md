@@ -62,7 +62,7 @@ De campagne blijft in **Levende** status terwijl de berichten over alle tijdzone
 
 De `profile.timeZone` -indeling kan IANA-naamgeving zijn of worden gedefinieerd als UTC-verschuivingen. De naamgeving van IANA heeft de voorkeur, aangezien deze automatisch wordt aangepast voor zomerse regels.
 
-Voor IANA-naamgeving zijn de id&#39;s hoofdlettergevoelig en moeten ze overeenkomen met de officiële IANA-naamgeving. Verschuivingen kunnen na verloop van tijd veranderen als gevolg van zomertijd en historische updates. Verwijs naar het [ Gegevensbestand van de Tijdzone van 0} IANA {voor de officiële lijst van herkenningstekens.](https://www.iana.org/time-zones){_blank}
+Voor IANA-naamgeving zijn de id&#39;s hoofdlettergevoelig en moeten ze overeenkomen met de officiële IANA-naamgeving. Verschuivingen kunnen na verloop van tijd veranderen als gevolg van zomertijd en historische updates. Verwijs naar het [&#x200B; Gegevensbestand van de Tijdzone van 0&rbrace; IANA &lbrace;voor de officiële lijst van herkenningstekens.](https://www.iana.org/time-zones){_blank}
 
 ## Een uitvoeringsfrequentie instellen
 
@@ -72,7 +72,7 @@ Voor **E-mail**, **SMS**, en **Push bericht** acties, kunt u een frequentie bepa
 
 >[!NOTE]
 >
->Voor **e-mail** acties, kunt u specifieke IP campagnes van de opwarmingsPlan tot stand brengen. Het campagneschema zal door het IP warmup plan worden gedreven het zal worden geassocieerd met, betekenend dat het programma niet meer in de campagne zelf wordt bepaald. [ Leer hoe te om IP warmup campagnes ](../configuration/ip-warmup-campaign.md) tot stand te brengen.
+>Voor **e-mail** acties, kunt u specifieke IP campagnes van de opwarmingsPlan tot stand brengen. Het campagneschema zal door het IP warmup plan worden gedreven het zal worden geassocieerd met, betekenend dat het programma niet meer in de campagne zelf wordt bepaald. [&#x200B; Leer hoe te om IP warmup campagnes &#x200B;](../configuration/ip-warmup-campaign.md) tot stand te brengen.
 
 ## Einddatum instellen
 
