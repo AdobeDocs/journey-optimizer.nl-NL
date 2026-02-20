@@ -10,9 +10,9 @@ level: Intermediate
 keywords: reis, configuratie, eigenschappen
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2865'
 ht-degree: 0%
 
 ---
@@ -32,16 +32,16 @@ Definieer in deze sectie de naam van de reis, voeg een beschrijving toe en stel 
 
 U kunt:
 
-* Wijs [!DNL Adobe Experience Platform] Verenigde Markeringen aan uw reis toe, om hen gemakkelijk te classificeren en onderzoek van de campagnemelijst te verbeteren. [&#x200B; leer hoe te met markeringen &#x200B;](../start/search-filter-categorize.md#tags) werken
-* Selecteer uw reismetriek. [&#x200B; leer hoe te om uw reismetriek te vormen en te volgen &#x200B;](success-metrics.md)
-* Beheer [&#x200B; ingang en ingang &#x200B;](#entrance). Profielbeheer is afhankelijk van het type reis. De details zijn beschikbaar op [&#x200B; deze pagina &#x200B;](entry-management.md)
-* Beheer [&#x200B; toegang tot gegevens &#x200B;](#manage-access)
-* Selecteer de reis en profiel [&#x200B; tijdzones &#x200B;](#timezone)
-* Kies douane [&#x200B; begin en einddata &#x200B;](#dates)
-* Bepaal a [&#x200B; onderbrekingsduur &#x200B;](#timeout) in reisactiviteiten (voor slechts Admin gebruikers)
-* De conflicten van de monitor en geven voorrang aan uw reizen gebruikend [&#x200B; hulpmiddelen van het conflictenbeheer &#x200B;](#conflict)
+* Wijs [!DNL Adobe Experience Platform] Verenigde Markeringen aan uw reis toe, om hen gemakkelijk te classificeren en onderzoek van de campagnemelijst te verbeteren. [ leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) werken
+* Selecteer uw reismetriek. [ leer hoe te om uw reismetriek te vormen en te volgen ](success-metrics.md)
+* Beheer [ ingang en ingang ](#entrance). Profielbeheer is afhankelijk van het type reis. De details zijn beschikbaar op [ deze pagina ](entry-management.md)
+* Beheer [ toegang tot gegevens ](#manage-access)
+* Selecteer de reis en profiel [ tijdzones ](#timezone)
+* Kies douane [ begin en einddata ](#dates)
+* Bepaal a [ onderbrekingsduur ](#timeout) in reisactiviteiten (voor slechts Admin gebruikers)
+* De conflicten van de monitor en geven voorrang aan uw reizen gebruikend [ hulpmiddelen van het conflictenbeheer ](#conflict)
 
-![&#x200B; de eigenschappen van de Reis configuratieruit met algemene montages en geavanceerde opties &#x200B;](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
+![ de eigenschappen van de Reis configuratieruit met algemene montages en geavanceerde opties ](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
 >[!NOTE]
 >
@@ -49,13 +49,13 @@ U kunt:
 
 De **technische details van het Exemplaar** optie staat u toe om technische informatie over de reis te kopiëren die het steunteam kan gebruiken om problemen op te lossen. De volgende informatie wordt gekopieerd: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
-Leer meer over technische gebieden met betrekking tot een reis voor een bepaald profiel, en hoe te om hen [&#x200B; op deze pagina &#x200B;](expression/journey-properties.md) te gebruiken.
+Leer meer over technische gebieden met betrekking tot een reis voor een bepaald profiel, en hoe te om hen [ op deze pagina ](expression/journey-properties.md) te gebruiken.
 
 ## Entrance en reentrance {#entrance}
 
 De modus voor profielinvoer wordt gedefinieerd op het niveau van het transport, in het configuratievenster rechts. De instellingen worden hieronder beschreven.
 
-Profielbeheer is afhankelijk van het type reis. Leer meer over profielingang en terugkeerbeheer, op [&#x200B; deze pagina &#x200B;](entry-management.md). Leer meer over de tarieven van de reisverwerking en hoe de profielen door reizen in [&#x200B; stromen deze sectie &#x200B;](entry-management.md#journey-processing-rate).
+Profielbeheer is afhankelijk van het type reis. Leer meer over profielingang en terugkeerbeheer, op [ deze pagina ](entry-management.md). Leer meer over de tarieven van de reisverwerking en hoe de profielen door reizen in [ stromen deze sectie ](entry-management.md#journey-processing-rate).
 
 ### Ingang toestaan  {#allow-reentrance}
 
@@ -63,7 +63,7 @@ Profielbeheer is afhankelijk van het type reis. Leer meer over profielingang en 
 >id="ajo_journey_properties_entrance"
 >title="Ingang toestaan"
 >abstract="Nieuwe reizen maken standaard terugkeer mogelijk. U kunt uncheck **toestaan ingang** optie bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel ingaat."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profieltoegangsbeheer"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profieltoegangsbeheer"
 
 Nieuwe reizen maken standaard terugkeer mogelijk. U kunt uncheck **toestaan terugkeer** optie voor &quot;één schot&quot;reizen, bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel ingaat.
 
@@ -73,7 +73,7 @@ Nieuwe reizen maken standaard terugkeer mogelijk. U kunt uncheck **toestaan teru
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Reentrale wachttijd"
 >abstract="Stel de tijd in die moet worden gewacht voordat een profiel de reis weer kan betreden tijdens een enkele reis. Hierdoor kunnen gebruikers de reis niet opnieuw betreden voor een bepaalde duur. Maximale duur: 90 dagen."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profieltoegangsbeheer"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profieltoegangsbeheer"
 
 Wanneer **toe staat terugkeer** optie wordt geactiveerd, **de ingang wacht periode** gebied wordt getoond. In dit veld kunt u de tijd definiëren die u moet wachten voordat u een profiel toestaat om de reis opnieuw te betreden tijdens een enkele reis (te beginnen met een evenement of een publiekskwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. De maximale duur is 90 dagen.
 
@@ -103,7 +103,7 @@ De tijdzone wordt gedefinieerd op het niveau van de reis. U kunt een vaste tijdz
 >title="Einddatum"
 >abstract="Stel de datum in waarop de reis eindigt. Op deze datum wordt de reis automatisch verlaten door actieve profielen, en geen nieuwe ingang wordt toegestaan."
 
-Door gebrek, kunnen de profielen uw reis ingaan zodra het wordt gepubliceerd, en kunnen blijven tot de [&#x200B; globale reisonderbreking &#x200B;](#global_timeout) wordt bereikt. De enige uitzondering is terugkerende lees publiekstrajecten met **geactiveerde ingang van de Kracht op herhaling**, die op de begindatum van het volgende voorkomen beëindigen.
+Door gebrek, kunnen de profielen uw reis ingaan zodra het wordt gepubliceerd, en kunnen blijven tot de [ globale reisonderbreking ](#global_timeout) wordt bereikt. De enige uitzondering is terugkerende lees publiekstrajecten met **geactiveerde ingang van de Kracht op herhaling**, die op de begindatum van het volgende voorkomen beëindigen.
 
 Indien nodig, kunt u de datum van het douane **Begin** en **Eind** bepalen. Hiermee kunnen profielen op een bepaalde datum uw reis betreden en automatisch afsluiten wanneer de einddatum is bereikt.
 
@@ -128,13 +128,13 @@ Reizen gebruiken ook een wereldwijde time-out, zoals hieronder wordt beschreven.
 
 ### Globale time-out voor transport {#global_timeout}
 
-Naast [&#x200B; timeout &#x200B;](#timeout_and_error) gebruikt in reisactiviteiten, wordt een globale reisonderbreking toegepast. Het wordt niet getoond in de interface en kan niet worden veranderd.
+Naast [ timeout ](#timeout_and_error) gebruikt in reisactiviteiten, wordt een globale reisonderbreking toegepast. Het wordt niet getoond in de interface en kan niet worden veranderd.
 
 Deze globale onderbreking houdt de vooruitgang van individuen in de reis **91 dagen** nadat zij ingaan. Dit betekent dat de reis van een individu niet langer mag duren dan 91 dagen. Na deze time-outperiode worden de gegevens van de persoon verwijderd. Personen die aan het einde van de time-outperiode nog onderweg zijn, worden gestopt en er wordt geen rekening mee gehouden bij de rapportage. Je zou dus meer mensen op de reis zien komen dan vertrekken.
 
 >[!NOTE]
 >
->De exacte definitie van wanneer een reis als &quot;voltooid&quot;wordt beschouwd varieert per vervoerstype. [&#x200B; zie gedetailleerde criteria &#x200B;](end-journey.md#journey-finished-definition).
+>De exacte definitie van wanneer een reis als &quot;voltooid&quot;wordt beschouwd varieert per vervoerstype. [ zie gedetailleerde criteria ](end-journey.md#journey-finished-definition).
 
 Vanwege de reistijd van 91 dagen, wanneer het niet is toegestaan om de reis opnieuw te betreden, kunnen we er niet voor zorgen dat de toegangsblokkering langer dan 91 dagen werkt. Aangezien we alle informatie over personen die 91 dagen na hun binnenkomst de reis hebben betreden, verwijderen, kunnen we niet weten dat de persoon eerder, meer dan 91 dagen geleden, is binnengekomen.
 
@@ -258,9 +258,9 @@ Vanaf de release van [!DNL Adobe Journey Optimizer] juni 2024 is de wereldwijde 
 * Bij Eenheidstijdvluchten wordt het standaard samenvoegbeleid gebruikt
 * Bij zakenreizen: het samenvoegbeleid van het doelpubliek in de volgende Lees-publieksactiviteit wordt gebruikt
 
-[!DNL Adobe Journey Optimizer] past het samenvoegbeleid toe dat gedurende de hele rit wordt gebruikt. Daarom als de veelvoudige publiek in een reis (bijvoorbeeld het gebruiken van binnen [`inAudience` functies &#x200B;](functions/functioninaudience.md)) wordt gebruikt, leidt dit tot inconsistenties met het fusiebeleid dat door de reis wordt gebruikt, wordt een fout opgeheven en de publicatie wordt geblokkeerd. Nochtans, als een inconsistent publiek in berichtverpersoonlijking wordt gebruikt, wordt een alarm niet opgeheven, ondanks de inconsistentie. Om deze reden, wordt het hoogst geadviseerd om het samenvoegbeleid te controleren verbonden aan uw publiek, wanneer dit publiek in berichtverpersoonlijking wordt gebruikt.
+[!DNL Adobe Journey Optimizer] past het samenvoegbeleid toe dat gedurende de hele rit wordt gebruikt. Daarom als de veelvoudige publiek in een reis (bijvoorbeeld het gebruiken van binnen [`inAudience` functies ](functions/functioninaudience.md)) wordt gebruikt, leidt dit tot inconsistenties met het fusiebeleid dat door de reis wordt gebruikt, wordt een fout opgeheven en de publicatie wordt geblokkeerd. Nochtans, als een inconsistent publiek in berichtverpersoonlijking wordt gebruikt, wordt een alarm niet opgeheven, ondanks de inconsistentie. Om deze reden, wordt het hoogst geadviseerd om het samenvoegbeleid te controleren verbonden aan uw publiek, wanneer dit publiek in berichtverpersoonlijking wordt gebruikt.
 
-Meer over samenvoegingsbeleid leren, verwijs naar [[!DNL Adobe Experience Platform]  documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Meer over samenvoegingsbeleid leren, verwijs naar [[!DNL Adobe Experience Platform]  documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >
@@ -281,7 +281,7 @@ U wilt misschien profielen van een reis verwijderen als zij niet meer aan het do
 
 >[!TIP]
 >
->Op zoek naar praktische begeleiding met echte voorbeelden? Zie onze [&#x200B; uitvoerige gids aan de criteria van de reisingang en van de uitgang &#x200B;](entry-exit-criteria-guide.md), die volledige gebruiksgevallen met zowel ingang als uitgangsconfiguraties, beste praktijken, en optimaliseringsstrategieën omvat.
+>Op zoek naar praktische begeleiding met echte voorbeelden? Zie onze [ uitvoerige gids aan de criteria van de reisingang en van de uitgang ](entry-exit-criteria-guide.md), die volledige gebruiksgevallen met zowel ingang als uitgangsconfiguraties, beste praktijken, en optimaliseringsstrategieën omvat.
 
 **het gebruiksgeval van de Steekproef**
 
@@ -295,7 +295,7 @@ Om **te creëren** een uitgangscriteria, volg deze stappen:
 
 1. Open je reis.
 
-1. Klik het ![&#x200B; pictogram van de Criteria van de Uitgang van de Show &#x200B;](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Show Exit Criteria]** pictogram dat in de hoger-juiste sectie van het wegcanvas wordt gevestigd.
+1. Klik het ![ pictogram van de Criteria van de Uitgang van de Show ](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL Show Exit Criteria]** pictogram dat in de hoger-juiste sectie van het wegcanvas wordt gevestigd.
 
 1. Selecteer **[!UICONTROL Add exit criteria]**.
 
@@ -306,27 +306,27 @@ Om **te creëren** een uitgangscriteria, volg deze stappen:
 
 U kunt meerdere afsluitcriteria toevoegen.
 
-![&#x200B; Uitgang criteria paneel die publieksvoorwaarden voor reisbeëindiging tonen &#x200B;](assets/exitcriteria-sample.png){width="40%" align="left"}
+![ Uitgang criteria paneel die publieksvoorwaarden voor reisbeëindiging tonen ](assets/exitcriteria-sample.png){width="40%" align="left"}
 
 
 ### Afsluitcriteria op basis van profielkenmerken {#profile-exit-criteria}
 
 De op kenmerk-Gebaseerde Criteria van de Uitgang van het profiel geeft u grotere controle over gepauzeerde reizen door u toe te staan om regels te bepalen die specifieke profielen automatisch verwijderen alvorens de reis hervat. U kunt afsluitvoorwaarden instellen op basis van profielkenmerken, zoals locatie, status of voorkeuren, om ervoor te zorgen dat alleen de relevante profielen worden voortgezet in de rit nadat deze is hervat.
 
-Bijvoorbeeld, kunt u [&#x200B; een reis &#x200B;](journey-pause.md) pauzeren, een uitgangsvoorwaarde toevoegen om alle profielen te verwijderen die in Frankrijk worden gevestigd, en de reis hervatten wetend dat die profielen bij de volgende actiestap zullen worden uitgesloten. Deze logica geldt zowel voor profielen die al tijdens de reis worden gebruikt als voor nieuwe profielen die na de hervatting van de reis in aanmerking komen.
+Bijvoorbeeld, kunt u [ een reis ](journey-pause.md) pauzeren, een uitgangsvoorwaarde toevoegen om alle profielen te verwijderen die in Frankrijk worden gevestigd, en de reis hervatten wetend dat die profielen bij de volgende actiestap zullen worden uitgesloten. Deze logica geldt zowel voor profielen die al tijdens de reis worden gebruikt als voor nieuwe profielen die na de hervatting van de reis in aanmerking komen.
 
 Deze functie werkt naast de functie Pauzeren/Hervatten, zodat u reizen veiliger en flexibeler kunt beheren. Het minimaliseert handinterventie, vermindert het risico om irrelevante of niet-volgzame mededelingen te verzenden, en houdt uw reislogica gericht aan huidige bedrijfsvereisten.
 
-Verwijs naar deze sectie om te leren hoe te [&#x200B; de criteria van de de uitgang van het gebruiksprofielattribuut in gepauzeerde reizen &#x200B;](journey-pause.md#journey-pause-sample).
+Verwijs naar deze sectie om te leren hoe te [ de criteria van de de uitgang van het gebruiksprofielattribuut in gepauzeerde reizen ](journey-pause.md#journey-pause-sample).
 
 ### Afvoerkanalen en beperkingen {#exit-criteria-guardrails}
 
-De volgende guardrails en de beperkingen zijn op het [&#x200B; vermogen van de Criteria van de Uitgang 0&rbrace; van de Reis &lbrace;van toepassing:](#exit-criteria-desc)
+De volgende guardrails en de beperkingen zijn op het [ vermogen van de Criteria van de Uitgang 0} van de Reis {van toepassing:](#exit-criteria-desc)
 
 * Afsluitingscriteria worden alleen in de ontwerpstatus gedefinieerd
 * Reis namespace coherentie tussen gebeurtenissen en op gebeurtenis-gebaseerde uitgangscriteria
 
-De volgende gidsen zijn van toepassing wanneer het gebruiken van het [&#x200B; Attribuut-Gebaseerde vermogen van de Uitgang van het Profiel &#x200B;](#profile-exit-criteria):
+De volgende gidsen zijn van toepassing wanneer het gebruiken van het [ Attribuut-Gebaseerde vermogen van de Uitgang van het Profiel ](#profile-exit-criteria):
 
 * **de criteria van de Uitgang zijn van toepassing op het actieniveau**\
   De afsluitcriteria voor &quot;Profielkenmerk&quot; worden alleen geëvalueerd bij handelingen. In tegenstelling tot andere soorten uitstapcriteria gelden deze niet over de hele reis.\
@@ -344,23 +344,28 @@ De volgende gidsen zijn van toepassing wanneer het gebruiken van het [&#x200B; A
 
 ### Verwante onderwerpen {#exit-criteria-related}
 
-* [&#x200B; de ingang van de Reis en de criteria van de uitgang gids &#x200B;](entry-exit-criteria-guide.md) - Volledige gids met echte voorbeelden en beste praktijken
-* [&#x200B; de ingangsbeheer van het Profiel &#x200B;](entry-management.md) - vorm hoe de profielen reizen ingaan
-* [&#x200B; hoe de reizen &#x200B;](end-journey.md) beëindigen - begrijp natuurlijke reis voltooiing
-* [&#x200B; Pauzeer een reis met de criteria van de de uitgang van profielattributen &#x200B;](journey-pause.md#journey-exit-criteria) - de criteria van de Uitgang van het gebruik wanneer het pauzeren van reizen
+* [ de ingang van de Reis en de criteria van de uitgang gids ](entry-exit-criteria-guide.md) - Volledige gids met echte voorbeelden en beste praktijken
+* [ de ingangsbeheer van het Profiel ](entry-management.md) - vorm hoe de profielen reizen ingaan
+* [ hoe de reizen ](end-journey.md) beëindigen - begrijp natuurlijke reis voltooiing
+* [ Pauzeer een reis met de criteria van de de uitgang van profielattributen ](journey-pause.md#journey-exit-criteria) - de criteria van de Uitgang van het gebruik wanneer het pauzeren van reizen
 
 ## Reisschema {#schedule}
 
-De sectie **[!UICONTROL Schedule]** is alleen beschikbaar wanneer een **[!UICONTROL Read Audience]** -activiteit op het canvas is neergezet. Hiermee kunt u een specifieke datum/tijd en frequentie voor de rit definiëren. [&#x200B; Leer hoe te om een Lezen-publiek reis &#x200B;](../building-journeys/read-audience.md) te plannen
+De sectie **[!UICONTROL Schedule]** is alleen beschikbaar wanneer een **[!UICONTROL Read Audience]** -activiteit op het canvas is neergezet. Hiermee kunt u een specifieke datum/tijd en frequentie voor de rit definiëren. [ Leer hoe te om een Lezen-publiek reis ](read-audience.md#schedule) te plannen
+
+>[!TIP]
+>
+>Wanneer het plannen van de reis, kunt u golf ook vormen die verzendt om reisacties in partijen in tijd te leveren. [ leer hoe te om het gebruiken golven in reizen te verzenden ](send-using-waves.md)
+
 
 ## Conflictbeheer {#conflict}
 
 Met de sectie **[!UICONTROL Conflict management]** in de eigenschappen van de reis kunt u conflicten volgen en prioriteiten stellen voor uw reizen. U kunt:
 
-* Pas de Reeks van de a **Regel** toe om deze reis aan een deel van uw publiek uit te sluiten dat op het begrenzen van regels wordt gebaseerd. [&#x200B; leer hoe te met regelreeksen &#x200B;](../conflict-prioritization/rule-sets.md) werken
+* Pas de Reeks van de a **Regel** toe om deze reis aan een deel van uw publiek uit te sluiten dat op het begrenzen van regels wordt gebaseerd. [ leer hoe te met regelreeksen ](../conflict-prioritization/rule-sets.md) werken
 
-* Wijs a **prioritaire score** aan de reis toe, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. De hier ingevoegde prioriteitswaarde wordt overgeërfd door binnenkomende acties (zoals In-App) die zich in deze reis bevinden. [&#x200B; leren hoe te met prioritaire scores &#x200B;](../conflict-prioritization/priority-scores.md) te werken
+* Wijs a **prioritaire score** aan de reis toe, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. De hier ingevoegde prioriteitswaarde wordt overgeërfd door binnenkomende acties (zoals In-App) die zich in deze reis bevinden. [ leren hoe te met prioritaire scores ](../conflict-prioritization/priority-scores.md) te werken
 
   Voor situaties waar deze zelfde binnenkomende kanaalconfiguratie in andere campagnes of reizen wordt gebruikt, wordt de binnenkomende actie met de hoogste prioritaire score getoond aan de ontvanger. Als meerdere reizen of campagnes dezelfde score hebben, wordt het element gekozen dat het laatst is gewijzigd.
 
-* **de conflicten van de Mening** met andere reizen, campagnes, of kanaalconfiguraties. Als u overlappingen op publiek wilt identificeren, begin en einddatum, kanaalconfiguratie, kanaal, of regelreeks kunt u potentiële conflicten hier bekijken. [&#x200B; Leer hoe te om potentiële conflicten in reis te identificeren &#x200B;](../conflict-prioritization/conflicts.md)
+* **de conflicten van de Mening** met andere reizen, campagnes, of kanaalconfiguraties. Als u overlappingen op publiek wilt identificeren, begin en einddatum, kanaalconfiguratie, kanaal, of regelreeks kunt u potentiële conflicten hier bekijken. [ Leer hoe te om potentiële conflicten in reis te identificeren ](../conflict-prioritization/conflicts.md)

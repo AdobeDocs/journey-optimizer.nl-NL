@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 2458a0f84aa0318f956a0a7edff20aff711159a5
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ De campagne blijft in **Levende** status terwijl de berichten over alle tijdzone
 
 De `profile.timeZone` -indeling kan IANA-naamgeving zijn of worden gedefinieerd als UTC-verschuivingen. De naamgeving van IANA heeft de voorkeur, aangezien deze automatisch wordt aangepast voor zomerse regels.
 
-Voor IANA-naamgeving zijn de id&#39;s hoofdlettergevoelig en moeten ze overeenkomen met de officiële IANA-naamgeving. Verschuivingen kunnen na verloop van tijd veranderen als gevolg van zomertijd en historische updates. Verwijs naar het [&#x200B; Gegevensbestand van de Tijdzone van 0&rbrace; IANA &lbrace;voor de officiële lijst van herkenningstekens.](https://www.iana.org/time-zones){_blank}
+Voor IANA-naamgeving zijn de id&#39;s hoofdlettergevoelig en moeten ze overeenkomen met de officiële IANA-naamgeving. Verschuivingen kunnen na verloop van tijd veranderen als gevolg van zomertijd en historische updates. Verwijs naar het [ Gegevensbestand van de Tijdzone van 0} IANA {voor de officiële lijst van herkenningstekens.](https://www.iana.org/time-zones){_blank}
 
 ## Een uitvoeringsfrequentie instellen
 
@@ -72,7 +72,7 @@ Voor **E-mail**, **SMS**, en **Push bericht** acties, kunt u een frequentie bepa
 
 >[!NOTE]
 >
->Voor **e-mail** acties, kunt u specifieke IP campagnes van de opwarmingsPlan tot stand brengen. Het campagneschema zal door het IP warmup plan worden gedreven het zal worden geassocieerd met, betekenend dat het programma niet meer in de campagne zelf wordt bepaald. [&#x200B; Leer hoe te om IP warmup campagnes &#x200B;](../configuration/ip-warmup-campaign.md) tot stand te brengen.
+>Voor **e-mail** acties, kunt u specifieke IP campagnes van de opwarmingsPlan tot stand brengen. Het campagneschema zal door het IP warmup plan worden gedreven het zal worden geassocieerd met, betekenend dat het programma niet meer in de campagne zelf wordt bepaald. [ Leer hoe te om IP warmup campagnes ](../configuration/ip-warmup-campaign.md) tot stand te brengen.
 
 ## Einddatum instellen
 
@@ -96,6 +96,12 @@ Als u de snelheidsregeling wilt instellen, schakelt u de optie **[!UICONTROL Thr
 >[!IMPORTANT]
 >
 >Bij het instellen van een leveringstarief is de maximale tijdlijn waarvoor het campagnepubliek kan worden uitgevoerd 12 uur. Als de leveringstarief aan een waarde wordt geplaatst die niet alle publiek toestaat om het bericht in het 12 uurstijdsbestek te worden verzonden, dan zouden de resterende profielen van de campagne worden uitgesloten. U kunt de telling van deze uitgesloten profielen in het campagnerapport zien.
+
+## Verzenden met gebruik van golven
+
+Om uw campagnebericht in tijd in plaats van allen in één keer te leveren, kunt u golfverzendend gebruiken. Dit helpt lading, steunleverbaarheid in evenwicht brengen, en vermijden overweldigend stroomafwaartse systemen (bijvoorbeeld, callcenters of landingspagina&#39;s). U bepaalt het aantal golven, hun grootte (door percentage of absoluut aantal), en het programma voor elke golf.
+
+[ Leer hoe te om het gebruiken van golven ](send-using-waves.md) te verzenden.
 
 ## Volgende stappen {#next}
 
