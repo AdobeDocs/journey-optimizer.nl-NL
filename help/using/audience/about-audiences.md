@@ -26,7 +26,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
 >title="Selecteer het campagnepubliek"
->abstract="In deze lijst worden alle beschikbare Adobe Experience Platform-soorten publiek weergegeven. Selecteer het publiek voor uw campagne. Het bericht dat in de campagne wordt gevormd zal naar alle individuen worden verzonden die tot het geselecteerde publiek behoren. [&#x200B; leer meer over publiek &#x200B;](../audience/about-audiences.md)"
+>abstract="In deze lijst worden alle beschikbare Adobe Experience Platform-soorten publiek weergegeven. Selecteer het publiek voor uw campagne. Het bericht dat in de campagne wordt gevormd zal naar alle individuen worden verzonden die tot het geselecteerde publiek behoren. [ leer meer over publiek ](../audience/about-audiences.md)"
 
 Soorten publiek zijn verzamelingen van mensen met een vergelijkbaar gedrag en/of vergelijkbare kenmerken. Ze worden centraal geconfigureerd en onderhouden op Adobe Experience Platform met behulp van de Adobe Experience Platform Segmentation Service en zijn gemakkelijk toegankelijk binnen Journey Optimizer om te worden geactiveerd tijdens uw reizen en campagnes.
 
@@ -38,9 +38,9 @@ Naarmate gegevensstromen in real time of batchuploads plaatsvinden, worden gegev
 
 Deze documentatie biedt informatie over het werken met het publiek in [!DNL Adobe Journey Optimizer] . Gedetailleerde informatie over de portal Publiek en het publiek is beschikbaar in de documentatie van de Adobe Experience Platform Segmentation-service. Raadpleeg de volgende secties voor meer informatie:
 
-* {de gids van de Dienst UI van de Segmentatie 0} [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* {de gids van de Dienst UI van de Segmentatie 0} [](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
-* [&#x200B; de Dienst van de Segmentatie - Veelgestelde Vragen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/faq){target="_blank"}
+* [ de Dienst van de Segmentatie - Veelgestelde Vragen ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +54,7 @@ Een dashboard toont visueel overlappingen tussen belangrijke doelgroepen en onde
 
 Via het Poortpubliek van het publiek kunt u eenvoudig het publiek beheren, zoeken en verkennen met gestandaardiseerde labels, beheerbesturingselementen, doorzoekbare mappen en tags.
 
-Voor meer informatie over hoe te met publiek in het Portaal van het Publiek te werken, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"}.
+Voor meer informatie over hoe te met publiek in het Portaal van het Publiek te werken, verwijs naar de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
 
 ## Typen soorten publiek {#types}
 
@@ -66,17 +66,17 @@ Soorten publiek kan op verschillende manieren worden gegenereerd:
    * Batchsegmentatie: het publiek wordt elke 24 uur vernieuwd en legt een momentopname van profielen vast met een vast interval.
    * Edge-segmentatie: publiek wordt direct aan de rand geëvalueerd, zodat u in real-time kunt personaliseren.
 
-  [&#x200B; leer hoe te om segmentdefinities te bouwen &#x200B;](creating-a-segment-definition.md)
+  [ leer hoe te om segmentdefinities te bouwen ](creating-a-segment-definition.md)
 
-* **Douane uploadt**: Invoer een publiek gebruikend een Csv- dossier. [&#x200B; leer hoe te om tot Douane te leiden uploadt publiek &#x200B;](custom-upload.md)
+* **Douane uploadt**: Invoer een publiek gebruikend een Csv- dossier. [ leer hoe te om tot Douane te leiden uploadt publiek ](custom-upload.md)
 
-* **compositie van het publiek**: Creeer een samenstellingswerkschema om bestaand publiek in een visueel canvas te combineren en acties zoals rang toe te passen, te verdelen, samen te voegen om nieuw publiek tot stand te brengen. [&#x200B; Leer hoe te met publiekssamenstelling &#x200B;](get-started-audience-orchestration.md) te werken
+* **compositie van het publiek**: Creeer een samenstellingswerkschema om bestaand publiek in een visueel canvas te combineren en acties zoals rang toe te passen, te verdelen, samen te voegen om nieuw publiek tot stand te brengen. [ Leer hoe te met publiekssamenstelling ](get-started-audience-orchestration.md) te werken
 
-* **Federated Audience Composition**: De datasets van de federatie direct van uw bestaand gegevenspakhuis om het publiek en de attributen van Adobe Experience Platform allen in één systeem te bouwen en te verrijken. [&#x200B; Leer hoe te met de Federatieve Samenstelling van het Publiek &#x200B;](federated-audience-composition.md) te werken.
+* **Federated Audience Composition**: De datasets van de federatie direct van uw bestaand gegevenspakhuis om het publiek en de attributen van Adobe Experience Platform allen in één systeem te bouwen en te verrijken. [ Leer hoe te met de Federatieve Samenstelling van het Publiek ](federated-audience-composition.md) te werken.
 
 ## Doelpubliek in reizen en campagnes {#target-audiences}
 
-Zodra uw publiek klaar is, kunt u hen selecteren wanneer het bouwen van reizen of het creëren van campagnes, toelatend u om de juiste mensen op het juiste ogenblik met relevante berichten te bereiken. [&#x200B; Leer meer over de activering van het Publiek in Journey Optimizer &#x200B;](target-audiences.md).
+Zodra uw publiek klaar is, kunt u hen selecteren wanneer het bouwen van reizen of het creëren van campagnes, toelatend u om de juiste mensen op het juiste ogenblik met relevante berichten te bereiken. [ Leer meer over de activering van het Publiek in Journey Optimizer ](target-audiences.md).
 
 ## Hoe kan ik-video {#video}
 

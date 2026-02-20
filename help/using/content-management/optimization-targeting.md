@@ -6,7 +6,8 @@ description: Leer hoe u regels kunt gebruiken om gepersonaliseerde inhoud te lev
 role: User
 level: Intermediate
 keywords: doelgericht, optimaliseren, publiek, personalisatie, regels
-source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
+exl-id: ced2248a-e0fb-4fc5-b00b-13972618eeb9
+source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -34,7 +35,7 @@ Met betrekking tot doelgerichtheid kunnen specifieke regels worden vastgesteld o
 
 Volg de onderstaande stappen om doelframes in te stellen.
 
-1. Creeer a [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md#jo-build) of a [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md).
+1. Creeer a [ reis ](../building-journeys/journey-gs.md#jo-build) of a [ campagne ](../campaigns/create-campaign.md).
 
    >[!NOTE]
    >
@@ -62,7 +63,7 @@ Volg de onderstaande stappen om doelframes in te stellen.
 
    >[!AVAILABILITY]
    >
-   >[&#x200B; Creërend het richten van regels &#x200B;](../experience-decisioning/rules.md#create) van het specifieke [!DNL Journey Optimizer] menu is momenteel beschikbaar aan organisaties die het Besluit toe:voegen-op aanbieden hebben gekocht, en zij zijn beschikbaar op bestelling voor de andere organisaties (Beperkte Beschikbaarheid).
+   >[ Creërend het richten van regels ](../experience-decisioning/rules.md#create) van het specifieke [!DNL Journey Optimizer] menu is momenteel beschikbaar aan organisaties die het Besluit toe:voegen-op aanbieden hebben gekocht, en zij zijn beschikbaar op bestelling voor de andere organisaties (Beperkte Beschikbaarheid).
    >
    >Deze capaciteit zal geleidelijk aan aan alle klanten worden uitgebreid. Neem in de tussentijd contact op met uw Adobe-vertegenwoordiger voor toegang.
 
@@ -90,7 +91,7 @@ Volg de onderstaande stappen om doelframes in te stellen.
 
    In dit voorbeeld, ontwerp een specifieke inhoud voor inwoners van de V.S., een verschillende inhoud voor Franse ingezetenen en een andere inhoud voor inwoners van India.
 
-1. [&#x200B; activeer &#x200B;](../campaigns/review-activate-campaign.md) uw reis of campagne.
+1. [ activeer ](../campaigns/review-activate-campaign.md) uw reis of campagne.
 
 Zodra de reis/campagne live is, wordt inhoud die voor elk doel is ontworpen, verzonden zodat inwoners van de VS een specifieke boodschap krijgen, inwoners van Frankrijk een andere boodschap, enzovoort.
 
@@ -99,4 +100,3 @@ Zodra de reis/campagne live is, wordt inhoud die voor elk doel is ontworpen, ver
 * If no targeting rules match, default content can be delivered.
 
 * If default content is not enabled, passthrough behavior ensures lower-priority campaigns are evaluated.-->
-

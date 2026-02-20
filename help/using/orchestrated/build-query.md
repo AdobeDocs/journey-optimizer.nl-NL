@@ -34,19 +34,19 @@ Ga als volgt te werk om voorwaarden aan uw query toe te voegen:
 
 1. Klik **toevoegen voorwaarde** knoop om een eerste voorwaarde voor uw vraag tot stand te brengen.
 
-   U kunt de query ook starten met een vooraf gedefinieerd filter. Klik hiertoe op de knop **[!UICONTROL Select or save filter]** en kies **[!UICONTROL Select predefined filter]** . Voor meer details, zie [&#x200B; Werk met vooraf bepaalde filters &#x200B;](predefined-filters.md).
+   U kunt de query ook starten met een vooraf gedefinieerd filter. Klik hiertoe op de knop **[!UICONTROL Select or save filter]** en kies **[!UICONTROL Select predefined filter]** . Voor meer details, zie [ Werk met vooraf bepaalde filters ](predefined-filters.md).
 
-   ![&#x200B; beeld dat de regelbouwer &#x200B;](assets/rule-builder-add.png) toont
+   ![ beeld dat de regelbouwer ](assets/rule-builder-add.png) toont
 
 1. Identificeer het attribuut van de dabatase als criteria voor uw voorwaarde te gebruiken. Het pictogram &quot;i&quot; naast een kenmerk bevat informatie over de tabel waarin het wordt opgeslagen en het gegevenstype van het kenmerk.
 
-   ![&#x200B; beeld dat de selectie van een attribuut &#x200B;](assets/rule-builder-select-attribute.png) toont
+   ![ beeld dat de selectie van een attribuut ](assets/rule-builder-select-attribute.png) toont
 
    >[!NOTE]
    >
-   >De **geeft uitdrukking** knoop uit staat u toe om de uitdrukkingsredacteur te gebruiken om een uitdrukking manueel te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. [&#x200B; Leer hoe te om uitdrukkingen uit te geven &#x200B;](../orchestrated/edit-expressions.md)
+   >De **geeft uitdrukking** knoop uit staat u toe om de uitdrukkingsredacteur te gebruiken om een uitdrukking manueel te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. [ Leer hoe te om uitdrukkingen uit te geven ](../orchestrated/edit-expressions.md)
 
-1. Klik het ![&#x200B; beeld dat de Meer actieknoop &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) naast een attribuut toont om tot deze extra opties toegang te hebben:
+1. Klik het ![ beeld dat de Meer actieknoop ](assets/do-not-localize/rule-builder-icon-more.svg) naast een attribuut toont om tot deze extra opties toegang te hebben:
 
    +++ Verdeling van waarden
 
@@ -56,9 +56,9 @@ Ga als volgt te werk om voorwaarden aan uw query toe te voegen:
 
    Als u de voorwaarde sneller wilt samenstellen, selecteert u een waarde en klikt u op **[!UICONTROL Select attribute and value]** om het kenmerk en de waarde in de huidige voorwaarde te vullen.
 
-   U kunt een waarde op uw klembord ook kopiëren gebruikend het ![&#x200B; beeld dat het pictogram van de uitdrukkingsredacteur &#x200B;](assets/do-not-localize/activity-copy.svg) toont, bijvoorbeeld om het in de uitdrukkingsredacteur te kleven.
+   U kunt een waarde op uw klembord ook kopiëren gebruikend het ![ beeld dat het pictogram van de uitdrukkingsredacteur ](assets/do-not-localize/activity-copy.svg) toont, bijvoorbeeld om het in de uitdrukkingsredacteur te kleven.
 
-   ![&#x200B; beeld dat de Distributie van waardeinterface toont &#x200B;](assets/rule-builder-distribution-values.png)
+   ![ beeld dat de Distributie van waardeinterface toont ](assets/rule-builder-distribution-values.png)
 
    +++
 
@@ -68,7 +68,7 @@ Ga als volgt te werk om voorwaarden aan uw query toe te voegen:
 
    Gebruik het menu **[!UICONTROL Favorites and recents]** voor toegang tot de gewenste kenmerken. Favoriete kenmerken worden als eerste weergegeven, gevolgd door recent gebruikte kenmerken, zodat u gemakkelijk de vereiste kenmerken kunt vinden. Als u een kenmerk uit de favorieten wilt verwijderen, selecteert u het sterpictogram opnieuw.
 
-   ![&#x200B; beeld dat de favoriete interface &#x200B;](assets/rule-builder-favorites.png) toont
+   ![ beeld dat de favoriete interface ](assets/rule-builder-favorites.png) toont
 
    +++
 
@@ -76,7 +76,7 @@ Ga als volgt te werk om voorwaarden aan uw query toe te voegen:
 
 1. Er wordt een deelvenster met eigenschappen weergegeven waarin u de gewenste waarde voor het kenmerk kunt configureren.
 
-   ![&#x200B; beeld dat de regelbouwer met een toegevoegde voorwaarde toont &#x200B;](assets/rule-builder-condition.png)
+   ![ beeld dat de regelbouwer met een toegevoegde voorwaarde toont ](assets/rule-builder-condition.png)
 
 1. Selecteer de **[!UICONTROL Operator]** die u wilt toepassen in de vervolgkeuzelijst. Er zijn verschillende operatoren beschikbaar voor gebruik. Operatoren die beschikbaar zijn in de vervolgkeuzelijst, zijn afhankelijk van het gegevenstype van het kenmerk.
 
@@ -94,7 +94,7 @@ Ga als volgt te werk om voorwaarden aan uw query toe te voegen:
    | Niet in | Werkt zoals is opgenomen in operator. Hier worden ontvangers uitgesloten op basis van de ingevoerde waarden. | Geboortedatum (@geboortedatum) is niet opgenomen in &quot;10-12-1979,12-10-1984&quot;. Ontvangers die binnen deze datums zijn geboren, worden niet geretourneerd. |
    | Is leeg | Retourneert resultaten die overeenkomen met een lege waarde in de tweede kolom Waarde. | Mobiele (@mobilePhone) is leeg en retourneert alle ontvangers die geen mobiel nummer hebben. |
    | Is niet leeg | Werkt in omgekeerde volgorde naar de operator Is leeg. Het is niet nodig gegevens in te voeren in de tweede kolom Waarde. | E-mail (@email) is niet leeg. |
-   | Begint met | Retourneert resultaten die beginnen met de ingevoerde waarde. | Account # (@account) begint met &#39;32010&#39;. |
+   | Starts with (Begint met) | Retourneert resultaten die beginnen met de ingevoerde waarde. | Account # (@account) begint met &#39;32010&#39;. |
    | Begint niet met | Retourneert resultaten die niet beginnen met de ingevoerde waarde. | Account # (@account) begint niet met &#39;20&#39;. |
    | Bevat | Retourneert resultaten die ten minste de ingevoerde waarde bevatten. | Het e-maildomein (@domain) bevat &#39;mail&#39; en retourneert alle domeinnamen die &#39;mail&#39; bevatten, zoals &#39;gmail.com&#39;. |
    | Bevat niet | Retourneert resultaten die niet de ingevoerde waarde bevatten. | E-maildomein (@domein) bevat geen &#39;vo&#39;. Domeinnamen die &#39;vo&#39; bevatten, zoals &#39;voila.fr&#39;, worden niet weergegeven in de resultaten. |
@@ -103,13 +103,13 @@ Ga als volgt te werk om voorwaarden aan uw query toe te voegen:
 
    +++
 
-1. Op het **gebied van de Waarde**, bepaal de verwachte waarde. U kunt de uitdrukkingsredacteur ook gebruiken om een uitdrukking manueel te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. Om dit te doen, klik het ![&#x200B; beeld dat het pictogram van de uitdrukkingsredacteur &#x200B;](assets/do-not-localize/rule-builder-icon-editor.svg) toont. [&#x200B; Leer hoe te om uitdrukkingen uit te geven &#x200B;](../orchestrated/edit-expressions.md)
+1. Op het **gebied van de Waarde**, bepaal de verwachte waarde. U kunt de uitdrukkingsredacteur ook gebruiken om een uitdrukking manueel te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. Om dit te doen, klik het ![ beeld dat het pictogram van de uitdrukkingsredacteur ](assets/do-not-localize/rule-builder-icon-editor.svg) toont. [ Leer hoe te om uitdrukkingen uit te geven ](../orchestrated/edit-expressions.md)
 
    Voor datumtekstkenmerken zijn vooraf gedefinieerde waarden beschikbaar met de optie **[!UICONTROL Presets]** .
 
    +++Zie voorbeeld
 
-   ![&#x200B; beeld dat de vooraf ingestelde optie &#x200B;](assets/rule-builder-attribute-preset.png) toont
+   ![ beeld dat de vooraf ingestelde optie ](assets/rule-builder-attribute-preset.png) toont
 
    +++
 
@@ -125,17 +125,17 @@ U kunt een lijstverbinding in de **plukker van de Waarde** ook direct selecteren
 
 Hier, richt de vraag zich merken het waarvan etiket &quot;loopt&quot;.
 
-1. Navigeer binnen de **Merk** lijst en selecteer het **3&rbrace; attribuut van het Etiket &lbrace;.**
+1. Navigeer binnen de **Merk** lijst en selecteer het **3} attribuut van het Etiket {.**
 
-   ![&#x200B; Schermafbeelding van de lijst van het Merk &#x200B;](assets/rule-builder-1-1-attribute.png)
+   ![ Schermafbeelding van de lijst van het Merk ](assets/rule-builder-1-1-attribute.png)
 
 1. Definieer de verwachte waarde voor het kenmerk.
 
-   ![&#x200B; Schermafbeelding van de lijst van het Merk &#x200B;](assets/rule-builder-1-1-attribute-value.png)
+   ![ Schermafbeelding van de lijst van het Merk ](assets/rule-builder-1-1-attribute-value.png)
 
 Hier volgt een queryvoorbeeld waarin een tabelkoppeling rechtstreeks is geselecteerd. Beschikbare waarden voor deze tabel moeten worden geselecteerd in een speciale kiezer.
 
-![&#x200B; Schermafbeelding van de lijst van het Merk &#x200B;](assets/rule-builder-1-1-attribute-table.png)
+![ Schermafbeelding van de lijst van het Merk ](assets/rule-builder-1-1-attribute-table.png)
 
 +++ 
 
@@ -149,11 +149,11 @@ Hier richt de vraag zich op ontvangers die aankopen hebben gedaan met betrekking
 
 1. Klik op **[!UICONTROL Add condition]** om de subvoorwaarden te definiëren die op de geselecteerde tabel moeten worden toegepast.
 
-   ![&#x200B; Schermafbeelding van de lijst van de Aankoop &#x200B;](assets/rule-builder-1-n-purchase.png)
+   ![ Schermafbeelding van de lijst van de Aankoop ](assets/rule-builder-1-n-purchase.png)
 
 1. Voeg subvoorwaarden toe die aan uw behoeften voldoen.
 
-   ![&#x200B; Schermafbeelding van de lijst van de Aankoop &#x200B;](assets/rule-builder-1-n-collection.png)
+   ![ Schermafbeelding van de lijst van de Aankoop ](assets/rule-builder-1-n-collection.png)
 
 +++ 
 
@@ -165,7 +165,7 @@ Met aangepaste omstandigheden kunt u gezamenlijke bewerkingen uitvoeren. Hiervoo
 
 1. In de eigenschappen ruit, knevel op de **Samengevoegde gegevens** optie en selecteer de gewenste gezamenlijke functie.
 
-   ![&#x200B; Schermafbeelding van de Samengevoegde gegevensoptie &#x200B;](assets/rule-builder-aggregate.png)
+   ![ Schermafbeelding van de Samengevoegde gegevensoptie ](assets/rule-builder-aggregate.png)
 
 ## Voorwaarden combineren met operatoren {#operators}
 
@@ -173,7 +173,7 @@ Telkens als u een nieuwe voorwaarde in uw regel toevoegt, wordt het automatisch 
 
 Als u de operator tussen voorwaarden wilt wijzigen, klikt u erop en selecteert u de gewenste operator.
 
-![&#x200B; Voorbeeld van een vraag &#x200B;](assets/rule-builder-change-operator.png)
+![ Voorbeeld van een vraag ](assets/rule-builder-change-operator.png)
 
 Beschikbare operatoren zijn:
 
@@ -187,19 +187,19 @@ De werkbalk van het canvas van de regelbouwer biedt opties voor het eenvoudig ma
 
 | Werkbalkpictogram | Beschrijving |
 |--- |--- |
-| ![&#x200B; Beweging omhoog selectiepictogram &#x200B;](assets/do-not-localize/rule-builder-icon-up.svg) | Verplaats de component omhoog een rij. |
-| ![&#x200B; Beweging onderaan selectiepictogram &#x200B;](assets/do-not-localize/rule-builder-icon-down.svg) | Verplaats de component een rij omlaag. |
-| ![&#x200B; het selectiepictogram van de Groep &#x200B;](assets/do-not-localize/rule-builder-icon-group.svg) | Plaats twee componenten in een groep. |
-| ![&#x200B; Ungroup selectiepictogram &#x200B;](assets/do-not-localize/rule-builder-icon-ungroup.svg) | Scheid de componenten van één groep. |
-| ![&#x200B; breid al pictogram &#x200B;](assets/do-not-localize/rule-builder-icon-expand.svg) uit | Vouw alle groepen uit. |
-| ![&#x200B; Vouw al pictogram &#x200B;](assets/do-not-localize/rule-builder-icon-collapse.svg) samen | Vouw alle groepen samen. |
-| ![&#x200B; verwijder al pictogram &#x200B;](assets/do-not-localize/rule-builder-icon-delete.svg) | Alle groepen en componenten verwijderen. |
+| ![ Beweging omhoog selectiepictogram ](assets/do-not-localize/rule-builder-icon-up.svg) | Verplaats de component omhoog een rij. |
+| ![ Beweging onderaan selectiepictogram ](assets/do-not-localize/rule-builder-icon-down.svg) | Verplaats de component een rij omlaag. |
+| ![ het selectiepictogram van de Groep ](assets/do-not-localize/rule-builder-icon-group.svg) | Plaats twee componenten in een groep. |
+| ![ Ungroup selectiepictogram ](assets/do-not-localize/rule-builder-icon-ungroup.svg) | Scheid de componenten van één groep. |
+| ![ breid al pictogram ](assets/do-not-localize/rule-builder-icon-expand.svg) uit | Vouw alle groepen uit. |
+| ![ Vouw al pictogram ](assets/do-not-localize/rule-builder-icon-collapse.svg) samen | Vouw alle groepen samen. |
+| ![ verwijder al pictogram ](assets/do-not-localize/rule-builder-icon-delete.svg) | Alle groepen en componenten verwijderen. |
 
 Afhankelijk van uw behoeften, kunt u tussenliggende groepen componenten moeten tot stand brengen door componenten in een zelfde groep te groeperen en hen te verbinden samen.
 
-* Om twee bestaande voorwaarden te groeperen, selecteer één van de twee voorwaarden en klik de ![&#x200B; Beweging omhoog selectiepictogram &#x200B;](assets/do-not-localize/rule-builder-icon-up.svg) of ![&#x200B; Beweging onderaan selectiepictogram &#x200B;](assets/do-not-localize/rule-builder-icon-down.svg) knoop om het met de voorwaarde hierboven of onder te groeperen.
+* Om twee bestaande voorwaarden te groeperen, selecteer één van de twee voorwaarden en klik de ![ Beweging omhoog selectiepictogram ](assets/do-not-localize/rule-builder-icon-up.svg) of ![ Beweging onderaan selectiepictogram ](assets/do-not-localize/rule-builder-icon-down.svg) knoop om het met de voorwaarde hierboven of onder te groeperen.
 
-* Om een bestaande voorwaarde met nieuwe te groeperen, selecteer de voorwaarde, klik het ![&#x200B; beeld dat de Meer actieknoop &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) toont en **[!UICONTROL Add group]** selecteert. Selecteer het nieuwe kenmerk dat u aan de groep wilt toevoegen en bevestig het vervolgens.
+* Om een bestaande voorwaarde met nieuwe te groeperen, selecteer de voorwaarde, klik het ![ beeld dat de Meer actieknoop ](assets/do-not-localize/rule-builder-icon-more.svg) toont en **[!UICONTROL Add group]** selecteert. Selecteer het nieuwe kenmerk dat u aan de groep wilt toevoegen en bevestig het vervolgens.
 
   ![](assets/rule-builder-edit-groups.png)
 
@@ -219,7 +219,7 @@ Zodra u uw vraag in het canvas hebt gebouwd, kunt u het controleren gebruikend d
 * **resultaten van de Mening:** toont de gegevens die uit uw vraag voortvloeien.
 * **mening van de Code**: Toont een op code-gebaseerde versie van de vraag in SQL.
 * **berekent**: Updates en toont het aantal verslagen die door uw regel worden gericht.
-* **Uitgezocht of sparen filter**: Kies een bestaand vooraf bepaald filter om in het canvas te gebruiken, of sparen uw vraag als vooraf bepaald filter voor toekomstig hergebruik. Als het filter parameters bevat, geeft u waarden op voordat u het filter toepast. Voor details, zie [&#x200B; Werk met vooraf bepaalde filters &#x200B;](predefined-filters.md).
+* **Uitgezocht of sparen filter**: Kies een bestaand vooraf bepaald filter om in het canvas te gebruiken, of sparen uw vraag als vooraf bepaald filter voor toekomstig hergebruik. Als het filter parameters bevat, geeft u waarden op voordat u het filter toepast. Voor details, zie [ Werk met vooraf bepaalde filters ](predefined-filters.md).
 
 <br/>
 
