@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Regels voor het toewijzen van berichten en reizen instellen{#section-overview}
 
-De het in kaart brengen regels maken deel uit van [ conflictbeheer &amp; prioritering ](../using/conflict-prioritization/gs-conflict-prioritization.md) — zij helpen klanten de juiste hoeveelheid mededeling verzekeren zonder overweldigd gevoel te voelen. Alvorens regels toe te passen, gebruik het [ hulpmiddel van de conflictopsporing ](../using/conflict-prioritization/conflicts.md) om overlappende reizen en campagnes te identificeren. Wanneer de veelvoudige mededelingen voor het zelfde profiel kwalificeren, [ prioritaire scores ](../using/conflict-prioritization/priority-scores.md) bepalen welk bericht eerst wordt geleverd.
+De het in kaart brengen regels maken deel uit van [&#x200B; conflictbeheer &amp; prioritering &#x200B;](../using/conflict-prioritization/gs-conflict-prioritization.md) — zij helpen klanten de juiste hoeveelheid mededeling verzekeren zonder overweldigd gevoel te voelen. Alvorens regels toe te passen, gebruik het [&#x200B; hulpmiddel van de conflictopsporing &#x200B;](../using/conflict-prioritization/conflicts.md) om overlappende reizen en campagnes te identificeren. Wanneer de veelvoudige mededelingen voor het zelfde profiel kwalificeren, [&#x200B; prioritaire scores &#x200B;](../using/conflict-prioritization/priority-scores.md) bepalen welk bericht eerst wordt geleverd.
 
-U kunt limieten instellen voor het aantal keren dat berichten worden verzonden (frequentiekoppeling), het aantal reizen dat een profiel kan invoeren (aftopping van de reis) en het aantal keren dat berichten worden geblokkeerd (stille uren). De regels worden gegroepeerd in **regelreeksen** en toegepast op campagnes of reizen. Voor programmatic controle van externe systemen, zie [ Capping API ](../using/configuration/capping.md).
+U kunt limieten instellen voor het aantal keren dat berichten worden verzonden (frequentiekoppeling), het aantal reizen dat een profiel kan invoeren (aftopping van de reis) en het aantal keren dat berichten worden geblokkeerd (stille uren). De regels worden gegroepeerd in **regelreeksen** en toegepast op campagnes of reizen. Voor programmatic controle van externe systemen, zie [&#x200B; Capping API &#x200B;](../using/configuration/capping.md).
 
 ## Regels voor berichten en reizen uitlijnen instellen
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Werken met regelsets
 
@@ -32,7 +32,7 @@ Leer hoe u regelsets maakt, beheert en activeert om berichtfrequentie en toegang
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Afdekkingen en arbitrages voor reizen
 
@@ -42,7 +42,7 @@ Ontdek hoe u de toegangs- en corresponderingsplafonds voor reizen kunt instellen
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Frequentiecorrectie per kanaal
 
@@ -52,7 +52,7 @@ Begrijp hoe u kanaalspecifieke regels voor frequentietoewijzing maakt en toepast
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Quiet-uren instellen
 
