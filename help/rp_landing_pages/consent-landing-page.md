@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Toestemming beheren{#section-overview}
 
-Het beheren van toestemming is essentieel voor het opbouwen van vertrouwen met uw publiek en het waarborgen van naleving van privacyregels zoals GDPR. De toestemming in Adobe Journey Optimizer werkt naast [ privacybeheer ](../using/privacy/get-started-privacy.md) - met inbegrip van [ gegevensverzoeken ](../using/privacy/requests.md) en [ controlelogboeken ](../using/privacy/audit-logs.md) - en [ het beleid van het Beheer van Gegevens ](../using/action/action-privacy.md) dat gevoelige gebieden tegen wordt uitgevoerd naar derdesystemen beschermt.
+Het beheren van toestemming is essentieel voor het opbouwen van vertrouwen met uw publiek en het waarborgen van naleving van privacyregels zoals GDPR. De toestemming in Adobe Journey Optimizer werkt naast [&#x200B; privacybeheer &#x200B;](../using/privacy/get-started-privacy.md) - met inbegrip van [&#x200B; gegevensverzoeken &#x200B;](../using/privacy/requests.md) en [&#x200B; controlelogboeken &#x200B;](../using/privacy/audit-logs.md) - en [&#x200B; het beleid van het Beheer van Gegevens &#x200B;](../using/action/action-privacy.md) dat gevoelige gebieden tegen wordt uitgevoerd naar derdesystemen beschermt.
 
 U kunt toestemming op drie manieren behandelen: **opt-out voorkeur** voor abonnementen over e-mail, SMS, en duw; **toestemmingsbeleid** was van toepassing op uw campagnes en reizen om gegevensgebruik en marketing acties te controleren; en **voorkeurenbeheer** aan doelklanten die op de abonnementonderwerpen en de kanalen worden gebaseerd zij kiezen. De onderwerpen hieronder begeleiden u door elke stap.
 
@@ -22,7 +22,7 @@ U kunt toestemming op drie manieren behandelen: **opt-out voorkeur** voor abonne
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Uitschakelen en Personalization-toestemming beheren
 
@@ -32,7 +32,7 @@ Leer hoe u de voorkeuren voor opt-out beheert en toestemming voor personalisatie
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Werken met beleid voor goedkeuring
 
@@ -42,7 +42,7 @@ Begrijp hoe te om toestemmingsbeleid tot stand te brengen en toe te passen om ge
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Voorkeuren van uw klanten beheren
 
