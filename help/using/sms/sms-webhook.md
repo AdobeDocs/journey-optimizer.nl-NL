@@ -7,14 +7,25 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 2bd0048c356c668ce2611b923f126e2a4e2c8630
+source-git-commit: 6859847ad700a471dd43b2cb9b0c486e31d91c78
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # Webhaak maken {#webhook}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_sms_webhook_settings_create"
+>title="Een SMS-webhaak maken"
+>abstract="U kunt Webhooks configureren om binnenkomende reacties vast te leggen voor het beheer van de toestemming om te weigeren of te weigeren en om leveringsrapporten te ontvangen, inclusief leesontvangstbewijzen indien beschikbaar."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_flow_type"
+>title="Kies het type WebHaak"
+>abstract="Wanneer vestiging een webhaak, kies **Binnenkomend** om toestemmingsreacties en gebruikersvoorkeur te vangen, of **[!UICONTROL Feedback]** om levering en betrokkenheidsgebeurtenissen voor het melden en analyse te volgen."
 
 >[!BEGINSHADEBOX]
 
@@ -54,7 +65,7 @@ Blader door de onderstaande tabbladen, afhankelijk van uw SMS-providers:
 
    * **[!UICONTROL Type]**: Binnenkomend.
 
-   * **[!UICONTROL API credentials]**: Kies van drop-down u [&#x200B; eerder gevormde API geloofsbrieven &#x200B;](sms-configuration-custom.md#api-credential).
+   * **[!UICONTROL API credentials]**: Kies van drop-down u [ eerder gevormde API geloofsbrieven ](sms-configuration-custom.md#api-credential).
 
    * **[!UICONTROL Sender Phone Number &#x200B;]**: ga het de telefoonaantal van de Afzender in &#x200B; u voor uw mededelingen wilt gebruiken.
 
@@ -88,7 +99,7 @@ Blader door de onderstaande tabbladen, afhankelijk van uw SMS-providers:
 
    ![](assets/sms_byo_7.png){zoomable="yes"}
 
-Na het creëren van en het vormen van de montages voor Webhaak, moet u nu a [&#x200B; kanaalconfiguratie &#x200B;](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
+Na het creëren van en het vormen van de montages voor Webhaak, moet u nu a [ kanaalconfiguratie ](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
 
 Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zoals bericht creatie, verpersoonlijking, verbinding het volgen, en rapportering.
 
@@ -106,7 +117,7 @@ Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zo
 
    * **[!UICONTROL Type]**: Binnenkomend.
 
-   * **[!UICONTROL API credentials]**: Kies van drop-down u [&#x200B; eerder gevormde API geloofsbrieven &#x200B;](sms-configuration-infobip.md#api-credential).
+   * **[!UICONTROL API credentials]**: Kies van drop-down u [ eerder gevormde API geloofsbrieven ](sms-configuration-infobip.md#api-credential).
 
    * **[!UICONTROL Sender Phone Number &#x200B;]**: ga het de telefoonaantal van de Afzender in &#x200B; u voor uw mededelingen wilt gebruiken.
 
@@ -136,7 +147,7 @@ Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zo
 
    ![](assets/sms_byo_7.png){zoomable="yes"}
 
-Na het creëren van en het vormen van de binnenkomende montages voor Webhaak, moet u nu a [&#x200B; kanaalconfiguratie &#x200B;](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
+Na het creëren van en het vormen van de binnenkomende montages voor Webhaak, moet u nu a [ kanaalconfiguratie ](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
 
 Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zoals bericht creatie, verpersoonlijking, verbinding het volgen, en rapportering.
 
@@ -154,7 +165,7 @@ Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zo
 
    * **[!UICONTROL Type]**: Binnenkomend.
 
-   * **[!UICONTROL API credentials]**: Kies van drop-down u [&#x200B; eerder gevormde API geloofsbrieven &#x200B;](sms-configuration-sinch.md#create-api).
+   * **[!UICONTROL API credentials]**: Kies van drop-down u [ eerder gevormde API geloofsbrieven ](sms-configuration-sinch.md#create-api).
 
    * **[!UICONTROL Sender Phone Number &#x200B;]**: ga het de telefoonaantal van de Afzender in &#x200B; u voor uw mededelingen wilt gebruiken.
 
@@ -178,7 +189,7 @@ Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zo
 
 1. Klik **[!UICONTROL Submit]** wanneer u de configuratie van uw Webhaak voltooide.
 
-1. In het **[!UICONTROL Webhooks]** menu, klik het ![&#x200B; bakpictogram &#x200B;](assets/do-not-localize/Smock_Delete_18_N.svg) om uw Webhaak te schrappen.
+1. In het **[!UICONTROL Webhooks]** menu, klik het ![ bakpictogram ](assets/do-not-localize/Smock_Delete_18_N.svg) om uw Webhaak te schrappen.
 
 1. Als u de bestaande configuratie wilt wijzigen, zoekt u de gewenste Webhaak en klikt u op de optie **[!UICONTROL Edit]** om de gewenste wijzigingen aan te brengen.
 
@@ -186,7 +197,7 @@ Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zo
 
    ![](assets/sms_byo_7.png){zoomable="yes"}
 
-Na het creëren van en het vormen van de binnenkomende montages voor Webhaak, moet u nu a [&#x200B; kanaalconfiguratie &#x200B;](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
+Na het creëren van en het vormen van de binnenkomende montages voor Webhaak, moet u nu a [ kanaalconfiguratie ](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
 
 Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zoals bericht creatie, verpersoonlijking, verbinding het volgen, en rapportering.
 
