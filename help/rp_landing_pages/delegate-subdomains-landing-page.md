@@ -5,22 +5,24 @@ title: E-mailsubdomeinen delegeren
 description: E-mailsubdomeinen delegeren
 redpen-status: CREATED_||_2025-08-11_21-07-51
 exl-id: 7df9b8e2-136a-4ffc-9243-53c7be026d81
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: bb50d06e86f9399dfd295b8091aa637abcaea4a8
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
 # E-mailsubdomeinen delegeren{#section-overview}
 
-Het delegeren van e-mailsubdomeinen in Adobe Journey Optimizer stelt beheerders in staat om e-maillevering te verbeteren, domeinreputatie te beschermen, en campagnebeheer te stroomlijnen. Door subdomeinen op te zetten, kunt u verschillende soorten e-mailverkeer, zoals marketing en transactionele berichten isoleren, terwijl het verzekeren van naleving van de industrienormen. Deze sectie introduceert zeer belangrijke configuratiemethodes, zoals volledige delegatie en montages CNAME, en verkent hoe zij in inspanning en controle verschillen. U zult ook leren om essentiële DNS verslagen zoals DMARC en PTR te beheren, Gmail te verbeteren leverability met de verslagen van Google TXT, en IPs te groeperen gebruikend IP pools. Of u veiligheid of reputatie optimaliseert, maakt deze gids het proces geschikt en efficiënt.
+Het delegeren van e-mailsubdomeinen is een kernstap in [ kanaalconfiguratie ](../using/configuration/get-started-configuration.md) - vereist alvorens u e-mails van Journey Optimizer kunt verzenden. Subdomeinen laten u verkeerstypes (b.v., marketing versus transactie) isoleren, de reputatie van uw belangrijkste domein beschermen, en versnellen [ IP warmup ](../using/configuration/ip-warmup-gs.md). Zij werken naast [ configuratie van het e-mailkanaal ](../using/email/get-started-email-config.md) en [ leverbaarheidscontrole ](../using/reports/deliverability.md) om berichten te verzekeren bereiken inboxes.
+
+U kunt van verscheidene opstellingsmethodes kiezen: **volledige delegatie** (Adobe beheert DNS), **opstelling van de NAAM**, of **douanedelegatie** (u hebt certificaten en DNS). Als u met CNAME begint, kunt u later [ aan douanedelegatie ](../using/configuration/custom-subdomain-migration.md) voor striktere veiligheid migreren. Deze sectie gaat ook over DMARC- en PTR-records, Google TXT-records voor Gmail en IP-pools. Voor breder te leveren hulp, zie [ begonnen met bevrediging ](../using/reports/deliverability.md) en [ de e-mailadressen van de Monitor ](monitor-reputation-landing-page.md).
 
 ## E-mailsubdomeinen delegeren
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met subdomeindelegatie
 
@@ -30,7 +32,7 @@ Leer de voordelen, de configuratiemethodes, en de overwegingen voor het delegere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Een subdomein delegeren
 
@@ -40,7 +42,27 @@ De geleidelijke begeleiding voor het delegeren van subdomeinen aan Adobe, met in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+
+Een aangepast subdomein instellen
+
+Neem volledig eigendom van uw subdomeinen met douane delegatie-upload uw eigen SSL certificaten en handhaaf volledige controle over domeinconfiguratie.
+
+[Een aangepast subdomein instellen](../using/configuration/delegate-custom-subdomain.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+Migreren van CNAME naar aangepaste delegatie
+
+Migreer bestaande CNAME-gevormde subdomeinen aan douanedelegatie om veiligheidsbeleid te ontmoeten en volledige controle over certificaten te verkrijgen.
+
+[Uw subdomein migreren](../using/configuration/custom-subdomain-migration.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 DMARC-records instellen
 
@@ -50,7 +72,7 @@ Configureer DMARC-records om de e-mailbeveiliging en de leverbaarheid voor gedel
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Een Google TXT-record toevoegen
 
@@ -60,7 +82,7 @@ Verifieer subdomeinen voor Gmail leverability door Google TXT- verslagen in Adob
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 PTR-records openen en bewerken
 
@@ -70,7 +92,7 @@ PTR-records beheren voor gedelegeerde subdomeinen, waaronder het bewerken en beg
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 IP-pools maken
 
@@ -80,3 +102,9 @@ IP van de groep adressen voor betere e-mailleverbaarheid en beheer effectief sub
 :::
 
 ::::
+
+## Aanvullende bronnen
+
+- **[vormt het landen van pagina subdomeinen](../using/landing-pages/lp-subdomains.md)** - opstelling subdomeinen voor het landen van pagina&#39;s en abonnementvormen.
+- **[vorm Websubdomeinen](../using/web/web-delegated-subdomains.md)** - Afgevaardigde subdomeinen voor Webervaringen en het volgen.
+- **[wordt begonnen met kanaalconfiguratie](../using/configuration/get-started-configuration.md)** - Overzicht van alle stappen van de kanaalopstelling, met inbegrip van subdomain delegatie.
