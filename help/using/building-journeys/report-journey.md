@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # Live melding op de reiscanvas {#report-journey}
 
-Nadat uw reis wordt gepubliceerd, zodra de [ Dry looppas wijze ](journey-dry-run.md) wordt geactiveerd, **Levende Rapportering** metriek van de laatste 24 uren, direct binnen het wegcanvas verstrekt.
+Nadat uw reis wordt gepubliceerd, zodra de [&#x200B; Dry looppas wijze &#x200B;](journey-dry-run.md) wordt geactiveerd, **Levende Rapportering** metriek van de laatste 24 uren, direct binnen het wegcanvas verstrekt.
 
 
 >[!AVAILABILITY]
@@ -29,9 +29,9 @@ Nadat uw reis wordt gepubliceerd, zodra de [ Dry looppas wijze ](journey-dry-run
 
 De weergegeven gebeurtenissen hebben zich in de afgelopen 24 uur voorgedaan, met een minimuminterval van twee minuten tussen de gebeurtenis en de weergave, meestal binnen vijf minuten.
 
-![ Reis levende rapportdashboard die prestaties metriek in real time toont ](assets/journey_live_report.png)
+![&#x200B; Reis levende rapportdashboard die prestaties metriek in real time toont &#x200B;](assets/journey_live_report.png)
 
-Voor uw reizen op Levende of [ Droog looppaswijze ](journey-dry-run.md), kunt u controleren:
+Voor uw reizen op Levende of [&#x200B; Droog looppaswijze &#x200B;](journey-dry-run.md), kunt u controleren:
 
 * **[!UICONTROL Entered profiles]**: Het totale aantal personen dat de reis heeft betreden.
 * **[!UICONTROL Exited profiles]**: Het totale aantal personen dat de reis heeft verlaten (inclusief fouten).
@@ -43,7 +43,7 @@ Voor uw reizen op Levende of [ Droog looppaswijze ](journey-dry-run.md), kunt u 
    * Op **terugkomende** reizen, wordt een teruggooi geteld op elke herhaling als het individu reeds in de reis is en het terugkeerbeleid niet aan &quot;forceer terugkeer&quot;wordt geplaatst.
    * Op **Gelezen de activiteiten van het Publiek**, komt een verwerpen voor als geen identiteit voor het uitgevoerde individu wordt geplaatst, of als ontvangen identiteitsnaamruimte niet verwachte voor de reis aanpast.
 
-Voor elke activiteit binnen elke reis in Levende of [ Droge looppas wijze ](journey-dry-run.md), hebt u toegang tot:
+Voor elke activiteit binnen elke reis in Levende of [&#x200B; Droge looppas wijze &#x200B;](journey-dry-run.md), hebt u toegang tot:
 
 * **[!UICONTROL Entered]**: Het totale aantal personen dat deze activiteit heeft ingevoerd. Voor **de activiteiten van de Actie**, aangezien zij niet op Droog looppas wijze worden uitgevoerd, wijst metrisch op profielen die door overgaan.
 * **[!UICONTROL Exited (met exit criteria)]**: Het totale aantal personen dat de reis heeft verlaten van die activiteit, als gevolg van een exit-criterium (inclusief fouten).
@@ -58,16 +58,16 @@ Als u de verwachte gegevens niet ziet in uw reisrapporten, overweeg het volgende
 
 * **Gegevens verfrissen timing**: Na het bijwerken van een reisnaam of configuratie, sta voldoende tijd voor de gegevens toe om zich te verfrissen. Gegevens worden meestal binnen een paar minuten gerapporteerd, maar in sommige gevallen kan het langer duren.
 
-* **toestemmingen van de Toegang**: Zorg u de noodzakelijke toestemmingen hebt om reisrapporten te bekijken. Als er geen gegevens worden weergegeven, controleert u met de beheerder of u de machtiging **[!UICONTROL View journeys report]** hebt ingeschakeld. [ leer meer over toestemmingen ](../administration/permissions.md)
+* **toestemmingen van de Toegang**: Zorg u de noodzakelijke toestemmingen hebt om reisrapporten te bekijken. Als er geen gegevens worden weergegeven, controleert u met de beheerder of u de machtiging **[!UICONTROL View journeys report]** hebt ingeschakeld. [&#x200B; leer meer over toestemmingen &#x200B;](../administration/permissions.md)
 
-* **status van de Reis**: Het melden van gegevens is slechts beschikbaar voor gepubliceerde reizen of reizen die op [ lopen Droog looppaswijze ](journey-dry-run.md). Met een conceptrit worden geen rapportgegevens gegenereerd.
+* **status van de Reis**: Het melden van gegevens is slechts beschikbaar voor gepubliceerde reizen of reizen die op [&#x200B; lopen Droog looppaswijze &#x200B;](journey-dry-run.md). Met een conceptrit worden geen rapportgegevens gegenereerd.
 
-Als de kwesties na het verifiëren van deze punten blijven, contacteer uw beheerder van Adobe of [ steun van Adobe ](../start/user-interface.md#support-ticket-guidelines) voor hulp.
+Als de kwesties na het verifiëren van deze punten blijven, contacteer uw beheerder van Adobe of [&#x200B; steun van Adobe &#x200B;](../start/user-interface.md#support-ticket-guidelines) voor hulp.
 
 >[!MORELIKETHIS]
 >
 >* [Aan de slag met rapportage](../reports/gs-reports.md)
->* [ publiceer uw reis ](publish-journey.md)
->* [ Droog van de Reis ](journey-dry-run.md)
->* [ vormt en volgt uw reismetriek ](success-metrics.md)
->* [ de reisrapporten van de Douane ](../reports/sharing-overview.md)
+>* [&#x200B; publiceer uw reis &#x200B;](publish-journey.md)
+>* [&#x200B; Droog van de Reis &#x200B;](journey-dry-run.md)
+>* [&#x200B; vormt en volgt uw reismetriek &#x200B;](success-metrics.md)
+>* [&#x200B; de reisrapporten van de Douane &#x200B;](../reports/sharing-overview.md)
