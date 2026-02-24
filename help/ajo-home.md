@@ -5,7 +5,7 @@ title: Documentatie voor Adobe Journey Optimizer
 description: Documentatie voor Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 8%
@@ -26,27 +26,27 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 Ontdek de nieuwste Journey Optimizer-functies en verbeteringen in de Opmerkingen bij de release.
 
-[![&#x200B; leer meer &#x200B;](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 
 >[!TAB  Interactief over contextuele gegevens ]
 
 Leer hoe u de iteratiesyntaxis kunt gebruiken om dynamische lijsten met gegevens uit verschillende bronnen in uw berichten weer te geven, zoals gebeurtenissen, reacties op aangepaste handelingen en andere contextuele gegevens.
 
-[![&#x200B; leer meer &#x200B;](using/assets/do-not-localize/learn-more-button.svg)](using/personalization/iterate-contextual-data.md)
+[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/personalization/iterate-contextual-data.md)
 
 
 >[!TAB  Campagne Orchestration ]
 
 Journey Optimizer omvat nu **Organiseren van de Campagne**, een nieuw vermogen doelgericht-gebouwd voor merk-in werking gestelde, partijcampagnes.
 
-[![&#x200B; leer meer &#x200B;](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
+[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
 
 >[!TAB  Quiet Uren ]
 
 Met stille uren kunt u op tijd gebaseerde uitsluitingen definiëren voor e-mail-, SMS-, push- en WhatsApp-kanalen.
 
-[![&#x200B; leer meer &#x200B;](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/quiet-hours.md)
+[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/quiet-hours.md)
 
 
 >[!ENDTABS]
@@ -56,7 +56,7 @@ Met stille uren kunt u op tijd gebaseerde uitsluitingen definiëren voor e-mail-
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Nieuwste aanvullende informatie
 
@@ -66,7 +66,7 @@ Blijf up-to-date met de nieuwste opmerkingen over releases, nieuwe functies en v
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag
 
@@ -76,7 +76,7 @@ Leer de basisbeginselen van Journey Optimizer, inclusief zijn mogelijkheden, arc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Uitgebreide gids voor reizen
 
@@ -86,7 +86,7 @@ Met deze uitgebreide handleiding kunt u persoonlijke reizen van klanten ontwerpe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Campagnes begrijpen en beheren
 
@@ -96,7 +96,7 @@ Gedetailleerde richtlijnen voor het maken, beheren en optimaliseren van verschil
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Communicatiekanalen
 
@@ -106,13 +106,13 @@ Configureer en beheer e-mail, SMS, pushberichten en andere kanalen voor persoonl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Conflictbeheer en -prioritering
 
 Leer hoe u communicatieconflicten tussen campagnes en reizen op effectieve wijze kunt prioriteren en beheren.
 
-[Meer informatie over conflictbeheer](./rp_landing_pages/conflict-prioritization-landing-page.md)
+[Meer informatie over conflictbeheer](./using/conflict-prioritization/gs-conflict-prioritization.md)
 :::
 
 ::::
@@ -135,11 +135,11 @@ Leer hoe u communicatieconflicten tussen campagnes en reizen op effectieve wijze
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong> Adobe Journey Optimizer </strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=nl-NL" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank"> Beschrijving van het Product </a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank"> Overzicht van de Veiligheid (PDF) </a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank"> APIs verwijzing </a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL" target="_blank"> het Woordenboek van het Schema van Journey Optimizer </a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html" target="_blank"> Leerprogramma's </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank"> Beschrijving van het Product </a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank"> Overzicht van de Veiligheid (PDF) </a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank"> APIs verwijzing </a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank"> het Woordenboek van het Schema van Journey Optimizer </a>
 
 </td>
 <td><strong> Adobe Experience Platform </strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=nl-NL" target="_blank"> Documentatie </a> - <a href="https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van Ontwikkelaars </a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank"> Documentatie </a> - <a href="https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html" target="_blank"> middelen van Ontwikkelaars </a>
 </td>
 </tr></table>
 

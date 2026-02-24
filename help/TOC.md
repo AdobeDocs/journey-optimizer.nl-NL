@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
 workflow-type: tm+mt
-source-wordcount: '3101'
+source-wordcount: '3090'
 ht-degree: 15%
 
 ---
@@ -215,8 +215,7 @@ ht-degree: 15%
          + [Klanten inschakelen door te bladeren](using/orchestrated/engage-customers-uc.md)
          + [Gebruikers op de hoogte stellen van de beschikbaarheid van producten](using/orchestrated/product-availability-uc.md)
 + Conflict en prioriteit {#conflict-prioritization}
-   + [Conflictbeheer en prioritering](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
-   + [Aan de slag met conflictbeheer en -prioriteiten](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [Conflictbeheer en prioritering](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Mogelijke conflicten identificeren](using/conflict-prioritization/conflicts.md)
    + [Prioriteitsscores toewijzen](using/conflict-prioritization/priority-scores.md)
    + Regels voor het toewijzen van berichten en reizen instellen {#capping-rules}
@@ -852,7 +851,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
@@ -861,7 +860,6 @@ ht-degree: 15%
    + [Kanaalconfiguraties instellen](using/configuration/channel-surfaces.md)
    + [Inhoud van berichten exporteren](using/configuration/message-export.md)
    + Kanaalinstellingen met instructies {#guided-setup}
-      + [Kanaalinstellingen met instructies](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [Aan de slag met de instelling van het kanaal met instructies](using/configuration/set-mobile-config.md)
       + [Een kanaalinstelling maken](using/configuration/create-channel-set-up.md)
    + E-mailsubdomeinen delegeren {#delegate-subdomains}
@@ -930,7 +928,6 @@ ht-degree: 15%
       + [Campagne v7/v8 - actie tijdens reizen](using/action/acc-action.md)
       + [Marketo Engage-actie tijdens reizen](using/action/marketo-engage.md)
    + Sandboxbeheer {#sandbox}
-      + [Sandboxbeheer](/help/rp_landing_pages/sandbox-landing-page.md)
       + [Sandboxen gebruiken en toewijzen](using/administration/sandboxes.md)
       + [Objecten exporteren naar een andere sandbox](using/configuration/copy-objects-to-sandbox.md)
    + [Vorm de Bronschakelaar](using/start/get-started-sources.md)

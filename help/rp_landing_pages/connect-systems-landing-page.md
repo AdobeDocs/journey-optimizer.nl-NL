@@ -5,7 +5,7 @@ title: Sluit uw systemen en omgevingen aan
 description: Sluit uw systemen en omgevingen aan
 redpen-status: CREATED_||_2025-08-11_21-18-12
 exl-id: fe784f79-f8a2-4091-a5f0-3e44a1838c1c
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Met Adobe Journey Optimizer kunt u uw systemen en omgevingen naadloos verbinden,
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer integreren met andere oplossingen
 
@@ -30,7 +30,7 @@ Begrijp hoe Adobe Journey Optimizer verbinding maakt met andere Adobe-oplossinge
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Werken met Adobe Journey Optimizer API&#39;s
 
@@ -40,7 +40,7 @@ Ontdek hoe u API&#39;s kunt gebruiken om persoonlijke ervaringen op verschillend
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Uw reizen integreren met externe systemen
 
@@ -50,7 +50,7 @@ Leer de beste praktijken voor de integratie van Adobe Journey Optimizer met exte
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Verzenden met Adobe-oplossingen
 
@@ -60,17 +60,17 @@ Configureer Adobe Journey Optimizer voor integratie met Adobe Campaign, Marketo 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Sandboxbeheer in Adobe Journey Optimizer
 
 Virtuele omgevingen, rollen en workflows effectief beheren met sandboxen in Adobe Journey Optimizer.
 
-[Uw sandboxen beheren](sandbox-landing-page.md)
+[Uw sandboxen beheren](../using/administration/sandboxes.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met Bronconnectors
 
