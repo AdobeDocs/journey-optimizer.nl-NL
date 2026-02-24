@@ -22,7 +22,7 @@ U kunt toestemming op drie manieren behandelen: **opt-out voorkeur** voor abonne
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
 
 Uitschakelen en Personalization-toestemming beheren
 
@@ -32,7 +32,7 @@ Leer hoe u de voorkeuren voor opt-out beheert en toestemming voor personalisatie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Werken met beleid voor goedkeuring
 
@@ -42,7 +42,7 @@ Begrijp hoe te om toestemmingsbeleid tot stand te brengen en toe te passen om ge
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 Voorkeuren van uw klanten beheren
 
