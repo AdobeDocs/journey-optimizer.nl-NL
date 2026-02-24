@@ -28,28 +28,28 @@ Deze pagina brengt essentiële middelen samen om u te helpen het volgen uitvoere
 
 Alvorens in controle en het oplossen van problemen te duiken, zorg ervoor u een stevige stichting in het volgen hebt. Journey Optimizer biedt uitgebreide mogelijkheden voor het bijhouden van gegevens die de interactie van de klant, de leveringsprestaties en de systeemstatus in alle kanalen vastleggen.
 
-Leer hoe u tracering voor e-mails, webervaringen, pushberichten, in-app berichten en meer implementeert, inclusief hoe u aangepaste metriek instelt, URL-parameters configureert en toegang krijgt tot volggegevens via ingebouwde rapporten. [ worden begonnen met het volgen ](../using/start/get-started-tracking.md)
+Leer hoe u tracering voor e-mails, webervaringen, pushberichten, in-app berichten en meer implementeert, inclusief hoe u aangepaste metriek instelt, URL-parameters configureert en toegang krijgt tot volggegevens via ingebouwde rapporten. [&#x200B; worden begonnen met het volgen &#x200B;](../using/start/get-started-tracking.md)
 
 ## Rapportage en toezicht
 
 De belangrijkste rapporten van de toegang om reisprestaties te controleren, metriek te analyseren, en kwesties te identificeren:
 
-* [ de globale rapporten van de Reis ](../using/reports/journey-global-report-cja.md) - de uitvoerige metriek en de analyses van de vervoersprestaties over alle kanalen bekijken.
+* [&#x200B; de globale rapporten van de Reis &#x200B;](../using/reports/journey-global-report-cja.md) - de uitvoerige metriek en de analyses van de vervoersprestaties over alle kanalen bekijken.
 
-* [ de levende rapporten van de Reis ](../using/reports/journey-live-report.md) - de gegevens van de reisuitvoering in real time van de monitor en spoor actieve klanteninteractie.
+* [&#x200B; de levende rapporten van de Reis &#x200B;](../using/reports/journey-live-report.md) - de gegevens van de reisuitvoering in real time van de monitor en spoor actieve klanteninteractie.
 
-* [ de stapgebeurtenissen van de Reis ](../using/reports/journey-step-events-overview.md) - Analyseer gedetailleerde geleidelijke gebeurtenissen van de reisuitvoering voor het oplossen van problemen en optimalisering.
+* [&#x200B; de stapgebeurtenissen van de Reis &#x200B;](../using/reports/journey-step-events-overview.md) - Analyseer gedetailleerde geleidelijke gebeurtenissen van de reisuitvoering voor het oplossen van problemen en optimalisering.
 
-* [ krijg begonnen met rapporten ](../using/reports/report-gs-cja.md) - Leer over het melden van mogelijkheden, metriek, en hoe te om tot reisinzichten toegang te hebben.
+* [&#x200B; krijg begonnen met rapporten &#x200B;](../using/reports/report-gs-cja.md) - Leer over het melden van mogelijkheden, metriek, en hoe te om tot reisinzichten toegang te hebben.
 
-* [ de controle van de Leverbaarheid ](../using/reports/deliverability.md) - de tarieven van de berichtlevering van het spoor en identificeer potentiële leveringskwesties over kanalen.
+* [&#x200B; de controle van de Leverbaarheid &#x200B;](../using/reports/deliverability.md) - de tarieven van de berichtlevering van het spoor en identificeer potentiële leveringskwesties over kanalen.
 
 ## Problemen oplossen
 
 :::: landing-cards-container
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Toegang tot en abonnement op systeemwaarschuwingen
 
@@ -59,7 +59,7 @@ Leer hoe u systeemwaarschuwingen kunt openen, meldingen kunt abonneren en kritie
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Referentie voor foutcodes
 
@@ -69,7 +69,7 @@ Begrijp gemeenschappelijke foutencodes in Adobe Journey Optimizer en vind snelle
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Fouten oplossen voordat u uw reis gaat testen of publiceren
 
@@ -79,7 +79,7 @@ Fouten, activiteitenproblemen en back-upacties voor de hele reis opsporen en opl
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Problemen met Live Journey-uitvoering oplossen
 
@@ -89,7 +89,7 @@ Diagnose van problemen met gebeurtenisvalidatie, profielinvoer, reisnavigatie en
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Problemen met binnenkomende handelingen in reizen oplossen
 
@@ -99,7 +99,7 @@ Fouten opsporen in binnenkomende actiekwesties, zoals ontbrekende inhoud of door
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Aangepaste acties oplossen
 
@@ -109,7 +109,7 @@ Valideer en zuivert douaneacties gebruikend **verzenden de eigenschap van het te
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 Richtlijnen voor ondersteuningsticket
 
@@ -122,6 +122,6 @@ Leer wat te omvatten wanneer het contacteren van Adobe steun-milieu details, be�
 
 ## Aanvullende bronnen
 
-* [ Veelgestelde vragen van de Reis ](../using/building-journeys/journey-faq.md) - Uitgebreide antwoorden op gemeenschappelijke vragen over reizen, die vervoerstypes, uitvoering, configuratie, en het oplossen van problemenbeste praktijken behandelen.
+* [&#x200B; Veelgestelde vragen van de Reis &#x200B;](../using/building-journeys/journey-faq.md) - Uitgebreide antwoorden op gemeenschappelijke vragen over reizen, die vervoerstypes, uitvoering, configuratie, en het oplossen van problemenbeste praktijken behandelen.
 
-* [ Grafieken en beperkingen ](../using/start/guardrails.md) - Leer over de gidsen van Journey Optimizer, productbeperkingen, prestatiesoverwegingen, en gesteunde browsers om optimaal gebruik te verzekeren.
+* [&#x200B; Grafieken en beperkingen &#x200B;](../using/start/guardrails.md) - Leer over de gidsen van Journey Optimizer, productbeperkingen, prestatiesoverwegingen, en gesteunde browsers om optimaal gebruik te verzekeren.
