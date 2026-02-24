@@ -22,7 +22,7 @@ U kunt limieten instellen voor het aantal keren dat berichten worden verzonden (
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Werken met regelsets
 
@@ -32,7 +32,7 @@ Leer hoe u regelsets maakt, beheert en activeert om berichtfrequentie en toegang
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Afdekkingen en arbitrages voor reizen
 
@@ -42,7 +42,7 @@ Ontdek hoe u de toegangs- en corresponderingsplafonds voor reizen kunt instellen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Frequentiecorrectie per kanaal
 
@@ -52,7 +52,7 @@ Begrijp hoe u kanaalspecifieke regels voor frequentietoewijzing maakt en toepast
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=nl-NL)
 
 Quiet-uren instellen
 
