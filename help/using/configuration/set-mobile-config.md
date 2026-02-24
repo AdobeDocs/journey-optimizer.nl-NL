@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: d793d9eccde3b0b548e778040bdcd8817e80c90a
+source-git-commit: 6b7fe02136a4ac7ca8012576ad8671cf70da6aeb
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 3%
@@ -27,7 +27,7 @@ ht-degree: 3%
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Valideren met Assurance"
 >abstract="Adobe Experience Platform Assurance is ingesloten in deze workflow om u te helpen uw SDK-implementatie te controleren en toepassingsgebeurtenissen te simuleren en te valideren."
->additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance - Overzicht"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance - Overzicht"
 
 **Geleide Opstelling van het Kanaal** is een gestroomlijnde werkschema in Adobe Journey Optimizer die u snel mobiele en Web marketing kanalen helpt vormen. Het leeft onder **Beleid** > **Kanalen** > **configuratie van het Kanaal** en automatiseert de verwezenlijking van essentiële middelen-zulke zoals markeringseigenschappen, gegevensstromen, en kanaal configuratie-over Adobe Experience Platform, Journey Optimizer, en de Inzameling van Gegevens. In plaats van elke component handmatig te configureren, volgt u een geleide workflow die alles voor u instelt, zodat uw marketingteam zonder vertraging In-app-berichten, pushmeldingen en webervaringen kan gaan maken.
 
@@ -114,17 +114,22 @@ Merk op dat voor elk platform dat u zou willen opstelling, het wordt vereist om 
 
   +++
 
-* Als u de bestaande configuratieoptie gebruikt, moet u ervoor zorgen dat u de volgende Adobe Experience Platform Mobile SDK extensieversies gebruikt. Voor meer details op de opstelling van SDK met inbegrip van de vereiste gebiedsdelen en initialisatiecode, gelieve te verwijzen naar [&#x200B; volgende documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks).
+* Als u de bestaande configuratieoptie gebruikt, moet u ervoor zorgen dat u de volgende Adobe Experience Platform Mobile SDK extensieversies gebruikt. Voor meer details op de opstelling van SDK met inbegrip van de vereiste gebiedsdelen en initialisatiecode, gelieve te verwijzen naar [ volgende documentatie ](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks).
 
-  Voor Android
+>[!BEGINTABS]
 
-   * Mobile Core v3.1.0 of hoger
-   * Adobe Journey Optimizer v3.1.0 of hoger
+>[!TAB  voor iOS ]
 
-  Voor iOS
+* Mobile Core v5.2.0 of hoger
+* Adobe Journey Optimizer v5.1.1 of hoger
 
-   * Mobile Core v5.2.0 of hoger
-   * Adobe Journey Optimizer v5.1.1 of hoger
+>[!TAB  voor Android ]
+
+* Mobile Core v3.1.0 of hoger
+* Adobe Journey Optimizer v3.1.0 of hoger
+
+>[!ENDTABS]
+
 
 ## Automatisch gemaakte bronnen {#auto-create-resources}
 
