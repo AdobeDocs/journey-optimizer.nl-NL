@@ -22,7 +22,7 @@ Sandboxen in Adobe Journey Optimizer zijn vergelijkbaar met virtuele werkruimten
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Sandboxen beheren en toewijzen
 
@@ -32,7 +32,7 @@ Leer hoe u sandboxen voor partitioneringsomgevingen kunt beheren en toewijzen, r
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Objecten kopiëren tussen sandboxen
 
