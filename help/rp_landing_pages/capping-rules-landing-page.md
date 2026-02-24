@@ -5,22 +5,24 @@ title: Regels voor het toewijzen van berichten en reizen instellen
 description: Regels voor het toewijzen van berichten en reizen instellen
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 9e23162373564e7866af115ee2cd706527336e4a
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
 # Regels voor het toewijzen van berichten en reizen instellen{#section-overview}
 
-Door de regels voor het afluisteren van berichten en reizen in Adobe Journey Optimizer te beheren, kunt u ervoor zorgen dat uw klanten de juiste hoeveelheid communicatie ontvangen zonder dat ze zich overweldigd voelen. Door limieten in te stellen voor de frequentie waarmee berichten worden verzonden of het aantal reizen dat een profiel kan binnenkomen, kunt u de betrokkenheid van klanten behouden en overcommunicatie voorkomen. Deze sectie introduceert krachtige hulpmiddelen zoals frequentie het in kaart brengen door kanaal, de grenzen van de reistoegang, en prioriteitenstrategieën, die duidelijke begeleiding bieden op hoe te om deze regels tot stand te brengen en effectief toe te passen. Of u nu afzonderlijke campagnes verfijnt of algemene regels toepast, u leert hoe u de outreach en de klantervaring naadloos in evenwicht brengt.
+De het in kaart brengen regels maken deel uit van [ conflictbeheer &amp; prioritering ](../using/conflict-prioritization/gs-conflict-prioritization.md) — zij helpen klanten de juiste hoeveelheid mededeling verzekeren zonder overweldigd gevoel te voelen. Alvorens regels toe te passen, gebruik het [ hulpmiddel van de conflictopsporing ](../using/conflict-prioritization/conflicts.md) om overlappende reizen en campagnes te identificeren. Wanneer de veelvoudige mededelingen voor het zelfde profiel kwalificeren, [ prioritaire scores ](../using/conflict-prioritization/priority-scores.md) bepalen welk bericht eerst wordt geleverd.
+
+U kunt limieten instellen voor het aantal keren dat berichten worden verzonden (frequentiekoppeling), het aantal reizen dat een profiel kan invoeren (aftopping van de reis) en het aantal keren dat berichten worden geblokkeerd (stille uren). De regels worden gegroepeerd in **regelreeksen** en toegepast op campagnes of reizen. Voor programmatic controle van externe systemen, zie [ Capping API ](../using/configuration/capping.md).
 
 ## Regels voor berichten en reizen uitlijnen instellen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Werken met regelsets
 
@@ -30,7 +32,7 @@ Leer hoe u regelsets maakt, beheert en activeert om berichtfrequentie en toegang
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Afdekkingen en arbitrages voor reizen
 
@@ -40,7 +42,7 @@ Ontdek hoe u de toegangs- en corresponderingsplafonds voor reizen kunt instellen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Frequentiecorrectie per kanaal
 
@@ -49,4 +51,20 @@ Begrijp hoe u kanaalspecifieke regels voor frequentietoewijzing maakt en toepast
 [Frequentiecapping instellen](../using/conflict-prioritization/channel-capping.md)
 :::
 
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/clock.svg)
+
+Quiet-uren instellen
+
+Definieer op tijd gebaseerde uitsluitingen voor e-mail, SMS, Push en WhatsApp, zodat er tijdens specifieke perioden geen berichten worden verzonden. Hierbij worden de voorkeuren en compatibiliteit van de klant gerespecteerd.
+
+[Stille uren instellen](../using/conflict-prioritization/quiet-hours.md)
+:::
+
 ::::
+
+## Aanvullende bronnen
+
+- **[krijg begonnen met conflictbeheer &amp; rangschikking](../using/conflict-prioritization/gs-conflict-prioritization.md)** - Overzicht van conflictopsporing, prioritaire scores, en regelreeksen.
+- **[identificeer potentiële conflicten](../using/conflict-prioritization/conflicts.md)** - ontdek overlappende reizen en campagnes alvorens het begrenzen van regels toe te passen.
+- **[wijs prioritaire scores](../using/conflict-prioritization/priority-scores.md)** toe - de controle welke reis of de campagne belangrijkheid neemt wanneer een profiel voor veelvoudige mededelingen kwalificeert.
