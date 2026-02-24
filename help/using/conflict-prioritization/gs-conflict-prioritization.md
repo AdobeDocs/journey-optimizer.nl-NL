@@ -71,4 +71,4 @@ De reeksen van de regel staan u toe om **samen veelvoudige regels** te groeperen
 * **[Reis het in kaart brengen &amp; arbitrage](journey-capping.md)** - de de afschilderingsregels en arbitrage van het de reis-niveau van de opstelling.
 * **[het In kaart brengen van de Frequentie door kanaal](channel-capping.md)** - plaats kanaal-vlakke frequentiecappen om over-overseinen te verhinderen.
 * **[plaats stille uren](quiet-hours.md)** - bepaal op tijd-gebaseerde uitsluitingen voor berichtlevering.
-* **[het beheersleerprogramma&#39;s van het Conflict &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - geleidelijke videoleerprogramma&#39;s.
+* **[het beheersleerprogramma&#39;s van het Conflict &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - geleidelijke videoleerprogramma&#39;s.
