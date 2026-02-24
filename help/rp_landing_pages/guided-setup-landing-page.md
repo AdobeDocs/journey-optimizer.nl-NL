@@ -22,7 +22,7 @@ De Begeleidde Opstelling van het Kanaal in Adobe Journey Optimizer vereenvoudigt
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Mobiele en webkanalen instellen
 
@@ -32,7 +32,7 @@ Leer hoe u snel mobiele en webkanalen kunt configureren met de instelling voor g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Kanaalconfiguraties maken en wijzigen
 
