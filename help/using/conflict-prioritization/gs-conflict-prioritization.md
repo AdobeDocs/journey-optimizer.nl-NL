@@ -21,9 +21,9 @@ Deze hulpmiddelen zijn beschikbaar voor campagnes en voor unitary, de Kwalificat
 
 | Uw doel | Tool | Actie |
 |-----------|------|--------|
-| Controleren of reizen of campagnes elkaar overlappen (tijdlijn, publiek, kanaal) | **de opsporing van het Conflict** | [ identificeer potentiële conflicten ](conflicts.md) |
-| Bepaal welk bericht wint wanneer een profiel voor verscheidene kwalificeert | **Prioriteitsscores** | [ wijs prioritaire scores toe ](priority-scores.md) |
-| Beperken hoe vaak of hoeveel berichten een profiel ontvangt | {de reeksen van de 0} Regel **(frequentie die, reis die, stille uren afschilderen) aftappen** | [ plaats bericht &amp; reis het begrenzen regels ](../../rp_landing_pages/capping-rules-landing-page.md) |
+| Controleren of reizen of campagnes elkaar overlappen (tijdlijn, publiek, kanaal) | **de opsporing van het Conflict** | [&#x200B; identificeer potentiële conflicten &#x200B;](conflicts.md) |
+| Bepaal welk bericht wint wanneer een profiel voor verscheidene kwalificeert | **Prioriteitsscores** | [&#x200B; wijs prioritaire scores toe &#x200B;](priority-scores.md) |
+| Beperken hoe vaak of hoeveel berichten een profiel ontvangt | {de reeksen van de 0} Regel **(frequentie die, reis die, stille uren afschilderen) aftappen** | [&#x200B; plaats bericht &amp; reis het begrenzen regels &#x200B;](../../rp_landing_pages/capping-rules-landing-page.md) |
 
 **Typische stroom:** de conflictopsporing van het Gebruik aan vlek overlapt, dan past prioritaire scores en regelreeksen toe om te controleren welke berichten worden verzonden en hoe vaak.
 
@@ -45,11 +45,11 @@ Met het **hulpmiddel van de conflictopsporing**, kunt u potentiële overlappinge
 
 De reeksen van de regel staan u toe om **samen veelvoudige regels** te groeperen en hen op de reizen en de campagnes van uw keus toe te passen. Dit verstrekt betere granulariteit om te beperken hoe vaak en hoeveel reizen een klant binnen een bepaald tijdkader kan ingaan, of om te controleren hoe vaak de gebruikers berichten afhankelijk van het type van mededeling ontvangen.
 
-* **Reis het in kaart brengen &amp; arbitrage** - Beperk hoe vaak en hoeveel reizen een klant binnen een bepaald tijdkader kan ingaan. U kunt het aantal reisingangen voor een profiel begrenzen of het aantal reizen beperken een klant kan tezelfdertijd worden ingeschreven. Gebruik arbitrageinstellingen om te bepalen welke reis een klant moet invoeren als hij of zij in aanmerking komt voor meerdere reizen, waarbij gebruik wordt gemaakt van prioriteitsscores om te bepalen wat het beste past. [ Leer hoe te met reis het afschilderen &amp; arbitrage te werken ](journey-capping.md)
+* **Reis het in kaart brengen &amp; arbitrage** - Beperk hoe vaak en hoeveel reizen een klant binnen een bepaald tijdkader kan ingaan. U kunt het aantal reisingangen voor een profiel begrenzen of het aantal reizen beperken een klant kan tezelfdertijd worden ingeschreven. Gebruik arbitrageinstellingen om te bepalen welke reis een klant moet invoeren als hij of zij in aanmerking komt voor meerdere reizen, waarbij gebruik wordt gemaakt van prioriteitsscores om te bepalen wat het beste past. [&#x200B; Leer hoe te met reis het afschilderen &amp; arbitrage te werken &#x200B;](journey-capping.md)
 
-* **het Afbakenen van de Frequentie door kanaal en communicatietype** - vastgestelde frequentie die door communicatie type (b.v., Verkoop, Bevordering) wordt begrensd om het overbelasten van klanten met gelijkaardige berichten te verhinderen. Regelfrequentie over meerdere kanalen, automatisch met uitzondering van al te gevraagde profielen. [ Leer hoe te om frequentie het in kaart brengen door kanaal en communicatietype te plaatsen ](channel-capping.md)
+* **het Afbakenen van de Frequentie door kanaal en communicatietype** - vastgestelde frequentie die door communicatie type (b.v., Verkoop, Bevordering) wordt begrensd om het overbelasten van klanten met gelijkaardige berichten te verhinderen. Regelfrequentie over meerdere kanalen, automatisch met uitzondering van al te gevraagde profielen. [&#x200B; Leer hoe te om frequentie het in kaart brengen door kanaal en communicatietype te plaatsen &#x200B;](channel-capping.md)
 
-* **Stil uren** - bepaal op tijd-gebaseerde uitsluitingen zodat worden geen berichten verzonden tijdens specifieke periodes (E-mail, SMS, Duw, WhatsApp). [ Leer hoe te om stille uren ](quiet-hours.md) te plaatsen
+* **Stil uren** - bepaal op tijd-gebaseerde uitsluitingen zodat worden geen berichten verzonden tijdens specifieke periodes (E-mail, SMS, Duw, WhatsApp). [&#x200B; Leer hoe te om stille uren &#x200B;](quiet-hours.md) te plaatsen
 
 [Leer hoe u met regelsets werkt](rule-sets.md)
 
@@ -71,4 +71,4 @@ De reeksen van de regel staan u toe om **samen veelvoudige regels** te groeperen
 * **[Reis het in kaart brengen &amp; arbitrage](journey-capping.md)** - de de afschilderingsregels en arbitrage van het de reis-niveau van de opstelling.
 * **[het In kaart brengen van de Frequentie door kanaal](channel-capping.md)** - plaats kanaal-vlakke frequentiecappen om over-overseinen te verhinderen.
 * **[plaats stille uren](quiet-hours.md)** - bepaal op tijd-gebaseerde uitsluitingen voor berichtlevering.
-* **[het beheersleerprogramma&#39;s van het Conflict ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - geleidelijke videoleerprogramma&#39;s.
+* **[het beheersleerprogramma&#39;s van het Conflict &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - geleidelijke videoleerprogramma&#39;s.
