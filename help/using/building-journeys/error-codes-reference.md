@@ -182,15 +182,15 @@ Als u blijvende fouten tegenkomt die niet kunnen worden opgelost met behulp van 
 
 1. **verzamel informatie**: Verzamel de foutencode, verzoek identiteitskaart, timestamps, en stappen om te reproduceren
 2. **het systeemstatus van de Controle**: Bezoek [&#x200B; Status van Adobe &#x200B;](https://status.adobe.com/){target="_blank"} voor bekende de dienstkwesties
-3. **documentatie van het Onderzoek**: Het overzicht [&#x200B; Liga van de Ervaring van Adobe &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer.html){target="_blank"} voor oplossingen
-4. **gemeenschap van de Mogenschap**: De vragen van het post in de [[!DNL Adobe Journey Optimizer]  Gemeenschap &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
+3. **documentatie van het Onderzoek**: Het overzicht [&#x200B; Liga van de Ervaring van Adobe &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=nl-NL){target="_blank"} voor oplossingen
+4. **gemeenschap van de Mogenschap**: De vragen van het post in de [[!DNL Adobe Journey Optimizer]  Gemeenschap &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=nl){target="_blank"}
 5. **de Steun van Adobe van het Contact**: [&#x200B; legt een steunkaartje &#x200B;](../start/user-interface.md#support-ticket-guidelines) met alle relevante details voor
 
 >[!NOTE]
 >
->Deze foutcodeverwijzing wordt voortdurend bijgewerkt naarmate nieuwe codes worden geïdentificeerd en gedocumenteerd. Voor de huidigste informatie, controleer regelmatig de [[!DNL Adobe Journey Optimizer]  Communautaire blogs &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}.
+>Deze foutcodeverwijzing wordt voortdurend bijgewerkt naarmate nieuwe codes worden geïdentificeerd en gedocumenteerd. Voor de huidigste informatie, controleer regelmatig de [[!DNL Adobe Journey Optimizer]  Communautaire blogs &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=nl){target="_blank"}.
 
 **Verwante onderwerpen**
 
-* [&#x200B; demystifying  [!DNL Adobe Journey Optimizer]  Codes van de Fout: Deel 1 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
-* [&#x200B; demystifying  [!DNL Adobe Journey Optimizer]  Codes van de Fout: Deel 2 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
+* [&#x200B; demystifying  [!DNL Adobe Journey Optimizer]  Codes van de Fout: Deel 1 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=nl){target="_blank"}
+* [&#x200B; demystifying  [!DNL Adobe Journey Optimizer]  Codes van de Fout: Deel 2 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=nl){target="_blank"}
