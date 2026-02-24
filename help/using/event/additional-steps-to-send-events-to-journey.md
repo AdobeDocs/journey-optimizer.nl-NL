@@ -94,4 +94,4 @@ Hier volgt een voorbeeld van een gebeurtenis Streaming ingestie-API&#39;s:
 
 Om de identificatie van de plaats te vergemakkelijken waar te om het &quot;gegevens&quot;deel te kleven, kunt u een JSON visualisatiehulpmiddel zoals [&#x200B; JSON formatter &#x200B;](https://jsonformatter.curiousconcept.com){target="_blank"} gebruiken.
 
-Om het stromen Ingestie APIs problemen op te lossen, verwijs naar [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.
+Om het stromen Ingestie APIs problemen op te lossen, verwijs naar [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=nl-NL){target="_blank"}.
