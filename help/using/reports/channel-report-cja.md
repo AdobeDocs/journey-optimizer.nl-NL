@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,9 @@ De rapportpagina wordt getoond met de volgende lusjes:
 * [Journeys](#journey)
 * [Campagnes](#campaign)
 * [Kanalen](#channel)
+* [Regelsets](#rule-sets)
 
-Meer over Customer Journey Analytics Workspace leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home).
+Meer over Customer Journey Analytics Workspace leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Hooglichten {#highlights}
 
@@ -132,3 +133,27 @@ In de tabel **[!UICONTROL Outbound errors]** kunt u precies aangeven welke foute
 ![](assets/cja-channels-outbound-excluded.png)
 
 De tabel **[!UICONTROL Outbound exclusions]** bevat een uitgebreide weergave van de verschillende factoren die ertoe hebben geleid dat gebruikersprofielen zijn uitgesloten van het doelpubliek, waardoor het bericht niet is ontvangen.
+
+## Afdekkingen van reizen en conflicten {#rule-sets}
+
+De tabel van **[!UICONTROL Journey Capping and Conflicts]** biedt inzicht in de manier waarop sets met regels voor reisarbitrage presteren. In deze tabel ziet u de ingangen en uitsluitingen van reizen op basis van de aftopping-regels en de prioriteitsscores die op uw reizen worden toegepast.
+
++++ Meer informatie over de metriek van regelsets
+
+De kolom **[!UICONTROL Journey Entries by Rule Set]** toont het aantal profielen dat de reis inging. Er zijn drie typen ingangen:
+
+* ****[!UICONTROL No conflict]****: Het profiel is de reis binnengegaan zonder conflicten die door regels zijn ingesteld. Geen actieve regelreeksen verhinderde deze toegang, en de reis kwam ongeacht arbitrageregels voor.
+
+* **Hogere prioriteit**: Het profiel ging de reis wegens zijn hogere prioriteit dan andere concurrerende reizen binnen. Hoewel er sprake was van een conflict (het profiel was geschikt voor meerdere reizen), werd deze reis gekozen vanwege de hogere prioriteitsscore.
+
+* **niet afgedwongen**: Het profiel ging de reis in, maar de regelreeks was niet actief of niet toegepast op deze reisingang op het tijdstip van ingang.
+
+In de kolom **[!UICONTROL Exclusions]** wordt het aantal profielen weergegeven dat is uitgesloten van het betreden van de reis. Profielen kunnen om twee redenen worden uitgesloten:
+
+* **Gebereikte Uiteinde**: Het profiel heeft het maximumaantal reisingangen of gezamenlijke reizen bereikt die door de het plafonneren regel worden toegestaan.
+
+* **Lagere prioriteit**: Het GLB is niet bereikt, maar andere hogere prioritaire reizen voldoen aan de beperkingen. Het profiel werd van deze reis uitgesloten en ging in plaats daarvan een hogere prioriteit af.
+
++++
+
+➡️ [ Leer meer over reis het afschilderen &amp; arbitrage ](../conflict-prioritization/journey-capping.md)
