@@ -28,7 +28,7 @@ De rapportpagina wordt getoond met de volgende lusjes:
 * [Kanalen](#channel)
 * [Regelsets](#rule-sets)
 
-Meer over Customer Journey Analytics Workspace leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Meer over Customer Journey Analytics Workspace leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Hooglichten {#highlights}
 
@@ -142,7 +142,7 @@ De tabel van **[!UICONTROL Journey Capping and Conflicts]** biedt inzicht in de 
 
 De kolom **[!UICONTROL Journey Entries by Rule Set]** toont het aantal profielen dat de reis inging. Er zijn drie typen ingangen:
 
-* ****[!UICONTROL No conflict]****: Het profiel is de reis binnengegaan zonder conflicten die door regels zijn ingesteld. Geen actieve regelreeksen verhinderde deze toegang, en de reis kwam ongeacht arbitrageregels voor.
+* **&#x200B;**&#x200B;[!UICONTROL No conflict]&#x200B;**&#x200B;**: Het profiel is de reis binnengegaan zonder conflicten die door regels zijn ingesteld. Geen actieve regelreeksen verhinderde deze toegang, en de reis kwam ongeacht arbitrageregels voor.
 
 * **Hogere prioriteit**: Het profiel ging de reis wegens zijn hogere prioriteit dan andere concurrerende reizen binnen. Hoewel er sprake was van een conflict (het profiel was geschikt voor meerdere reizen), werd deze reis gekozen vanwege de hogere prioriteitsscore.
 
@@ -156,4 +156,4 @@ In de kolom **[!UICONTROL Exclusions]** wordt het aantal profielen weergegeven d
 
 +++
 
-➡️ [ Leer meer over reis het afschilderen &amp; arbitrage ](../conflict-prioritization/journey-capping.md)
+➡️ [&#x200B; Leer meer over reis het afschilderen &amp; arbitrage &#x200B;](../conflict-prioritization/journey-capping.md)
