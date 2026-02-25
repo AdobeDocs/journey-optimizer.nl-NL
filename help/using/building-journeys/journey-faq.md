@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Zoek antwoorden op veelgestelde vragen over Journey Orchestration in [!DNL Adobe Journey Optimizer] .
 
-Wilt u meer details? Gebruik de feedbackopties onder aan deze pagina om je vraag te stellen. U kunt ook met de [[!DNL Adobe Journey Optimizer]  gemeenschap &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} verbinden.
+Wilt u meer details? Gebruik de feedbackopties onder aan deze pagina om je vraag te stellen. U kunt ook met de [[!DNL Adobe Journey Optimizer]  gemeenschap &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=nl){target="_blank"} verbinden.
 
 ## Algemene beginselen
 
@@ -946,4 +946,4 @@ Raadpleeg de volgende bronnen voor meer informatie en updates:
 * [Uw eerste journey maken](journey-gs.md)
 * [Problemen met hulplijnen oplossen](troubleshooting.md)
 * [Gebruiksgevallen voor reizen](jo-use-cases.md)
-* [&#x200B; de Beschrijving van het Product van Journey Optimizer &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [&#x200B; de Beschrijving van het Product van Journey Optimizer &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

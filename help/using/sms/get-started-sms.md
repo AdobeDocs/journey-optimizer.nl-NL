@@ -231,4 +231,4 @@ Leer hoe u merkgebonden, interactieve RCS-berichten in Adobe Journey Optimizer c
 * [Berichten toevoegen tijdens reizen](../building-journeys/journey-action.md)
 * [Marketingscampagnes maken](../campaigns/create-campaign.md)
 * [Afvoerkanalen en beperkingen](../start/guardrails.md#sms-guardrails)
-* [&#x200B; SMS en mobiele overseinenleerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/sms-channel/sms-mms-messages-overview){target="_blank"}
+* [&#x200B; SMS en mobiele overseinenleerprogramma&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/channels/sms-channel/sms-mms-messages-overview){target="_blank"}

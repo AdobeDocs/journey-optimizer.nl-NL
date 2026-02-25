@@ -105,7 +105,7 @@ Voor meer informatie over om een campagne tot stand te brengen te vormen en te a
 >id="ajo_code_based_experience"
 >title="De personalisatie-editor gebruiken"
 >abstract="Voeg de code die u wilt leveren in en bewerk deze als onderdeel van deze op code gebaseerde ervaringsactie."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Werken met de verpersoonlijkingseditor"
+>additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Werken met de verpersoonlijkingseditor"
 
 Volg onderstaande stappen om de inhoud van uw op code gebaseerde ervaring te bewerken.
 
