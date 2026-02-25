@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 71b12ea083d72597c65e8fb2dc3424ffafa77462
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '2087'
 ht-degree: 1%
 
 ---
@@ -31,23 +31,31 @@ In-app-berichten worden niet beïnvloed door de keuze van de gebruiker om zich a
 
 Ga als volgt te werk om een bericht in de app toe te voegen:
 
-1. Open uw reis en sleep vervolgens een **[!UICONTROL In-app]** -activiteit vanuit de **[!UICONTROL Actions]** -sectie van het palet.
+1. Open uw [ reis ](../building-journeys/journey-gs.md), dan belemmering en laat vallen een **[!UICONTROL Action]** activiteit van de **[!UICONTROL Actions]** sectie van het palet. Leer meer over de [ activiteit van de Actie ](../building-journeys/journey-action.md).
 
-   Wanneer een profiel het einde van de rit bereikt, verlopen alle berichten in de app die aan hen worden weergegeven, automatisch. Daarom wordt er automatisch een wachtbewerking toegevoegd na uw activiteiten in de app om de juiste timing te garanderen.
+   >[!IMPORTANT]
+   >
+   >Alle native kanalen die nu toegankelijk zijn via de activiteit Handeling, verouderde native kanaalactiviteiten zijn vervangen door de release van maart. Bestaande reizen die oudere handelingen bevatten, blijven functioneren zoals ze zijn: er is geen migratie vereist.
+
+1. Selecteer **[!UICONTROL In-app]** als actietype.
 
    ![](assets/in_app_journey_1.png)
 
-1. Voer een **[!UICONTROL Label]** en **[!UICONTROL Description]** in voor uw bericht.
+   >[!NOTE]
+   >
+   >Wanneer een profiel het einde van de rit bereikt, verlopen alle berichten in de app die aan hen worden weergegeven, automatisch. Om die reden, wacht een 3 dagen **** activiteit automatisch na uw in-app actie wordt toegevoegd om juiste timing te verzekeren. [Meer informatie](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Kies uw [&#x200B; in-app configuratie &#x200B;](inapp-configuration.md#channel-prerequisites) aan gebruik.
+1. Voer een **[!UICONTROL Label]** in om uw handeling op het canvas van de reis te identificeren.
+
+1. Klik op de knop **[!UICONTROL Configure action]**.
+
+1. U wordt naar het tabblad **[!UICONTROL Actions]** geleid. Selecteer of maak van daaruit de configuratie in de app die u wilt gebruiken. [Meer informatie](inapp-configuration.md#channel-prerequisites)
 
    ![](assets/in_app_journey_2.png)
 
-1. U kunt nu beginnen met het ontwerpen van uw inhoud met de knop **[!UICONTROL Edit content]** . [Meer informatie](design-in-app.md)
+1. Selecteer de knop **[!UICONTROL Edit content]** en maak de gewenste inhoud. [Meer informatie](design-in-app.md)
 
-1. Klik op **[!UICONTROL Edit triggers]** om de gebeurtenis(sen) en criteria te kiezen die het bericht activeren. Met regelbuilders kunnen gebruikers criteria en waarden opgeven die, wanneer ze voldoen, een set handelingen activeren, zoals het verzenden van een bericht in de app.
-
-   ![](assets/in_app_journey_4.png)
+1. Klik op **[!UICONTROL Edit triggers]** om de gebeurtenis(sen) en criteria te kiezen die het bericht activeren. Met regelbuilders kunnen gebruikers criteria en waarden opgeven die, wanneer ze voldoen, een set handelingen activeren, zoals het verzenden van een bericht in de app. [Meer informatie](design-in-app.md)
 
    1. Klik op de vervolgkeuzelijst Gebeurtenis om de trigger zo nodig te wijzigen.
 
@@ -55,10 +63,10 @@ Ga als volgt te werk om een bericht in de app toe te voegen:
 
       | Pakket | Trigger | Definitie |
       |---|---|---|
-      | Gegevens verzenden naar platform | Gegevens verzonden naar platform | Wordt geactiveerd wanneer de mobiele app een Edge Experience-gebeurtenis uitgeeft om gegevens naar Adobe Experience Platform te verzenden. Gewoonlijk de API vraag [&#x200B; sendEvent &#x200B;](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) van de uitbreiding van AEP Edge. |
-      | Core tracking | Handeling track | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [&#x200B; wordt aangeboden trackAction &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) wordt geroepen. |
-      | Core tracking | Status track | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [&#x200B; wordt aangeboden trackState &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) wordt geroepen. |
-      | Core tracking | PII verzamelen | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [&#x200B; wordt aangeboden collectPII &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) wordt geroepen. |
+      | Gegevens verzenden naar platform | Gegevens verzonden naar platform | Wordt geactiveerd wanneer de mobiele app een Edge Experience-gebeurtenis uitgeeft om gegevens naar Adobe Experience Platform te verzenden. Gewoonlijk de API vraag [ sendEvent ](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) van de uitbreiding van AEP Edge. |
+      | Core tracking | Handeling track | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [ wordt aangeboden trackAction ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) wordt geroepen. |
+      | Core tracking | Status track | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [ wordt aangeboden trackState ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) wordt geroepen. |
+      | Core tracking | PII verzamelen | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [ wordt aangeboden collectPII ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) wordt geroepen. |
       | Levenscyclus toepassing | Toepassing starten | Teweeggebracht bij elke looppas, met inbegrip van neerstortingen en installaties. Wordt ook geactiveerd op een hervat vanaf de achtergrond wanneer de time-out van de levenscyclussessie is overschreden. |
       | Levenscyclus toepassing | Toepassing installeren | Wordt geactiveerd bij de eerste run na installatie of herinstallatie. |
       | Levenscyclus toepassing | Toepassingsupdate | Teweeggebracht bij de eerste looppas na een verbetering of wanneer het versieaantal verandert. |
@@ -113,11 +121,11 @@ Ga als volgt te werk om een bericht in de app toe te voegen:
       * **[!UICONTROL Show once]**: Dit bericht wordt slechts eenmaal per gebruikerssessie weergegeven en blijft zichtbaar in alle vensters of activiteiten totdat het wordt gesloten. Om het tot een bepaald scherm te beperken of het automatisch te maken sluiten, gebruik douanelogica met de overseinenafgevaardigde.
       * **[!UICONTROL Show until click through]**: dit bericht weergeven wanneer de gebeurtenissen die zijn geselecteerd in de vervolgkeuzelijst **[!UICONTROL Mobile app trigger]** , plaatsvinden totdat de SDK een interactieve gebeurtenis heeft verzonden met de actie &quot;Kliked&quot;.
 
-1. Indien nodig voltooit u de reisflow door extra handelingen of gebeurtenissen te slepen en neer te zetten. [Meer informatie](../building-journeys/about-journey-activities.md)
+1. U kunt een of meer binnenkomende acties toevoegen aan uw in-app-bericht door op de knop **[!UICONTROL Add action]** te klikken. [Meer informatie](../building-journeys/journey-action.md#multi-action)
 
-1. Zodra uw bericht in de app klaar is, voltooit u de configuratie en publiceert u uw reis om het te activeren.
+1. Ga terug naar het reiscanvas. Indien nodig voltooit u de reisflow door extra handelingen of gebeurtenissen te slepen en neer te zetten. [Meer informatie](../building-journeys/about-journey-activities.md)
 
-Voor meer informatie over hoe te om een reis te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../building-journeys/journey-gs.md).
+Voor meer informatie over om een reis tot stand te brengen te vormen en te publiceren, verwijs naar [ deze pagina ](../building-journeys/journey-gs.md).
 
 >[!NOTE]
 >
@@ -137,17 +145,17 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
 
 1. Voer in de sectie **[!UICONTROL Properties]** de beschrijving **[!UICONTROL Title]** en **[!UICONTROL Description]** in.
 
-1. Selecteer **[!UICONTROL Manage access]** als u aangepaste labels of basislabels voor gegevensgebruik wilt toewijzen aan het bericht in de app. [Meer informatie](../administration/object-based-access.md).
+1. Selecteer **[!UICONTROL Manage access]** als u aangepaste labels of basislabels voor gegevensgebruik wilt toewijzen aan het bericht in de app. [Meer info](../administration/object-based-access.md).
 
-1. Klik op de knop **[!UICONTROL Select audience]** om het doelpubliek in de lijst met beschikbare Adobe Experience Platform-soorten publiek te definiëren. [Meer informatie](../audience/about-audiences.md).
+1. Klik op de knop **[!UICONTROL Select audience]** om het doelpubliek in de lijst met beschikbare Adobe Experience Platform-soorten publiek te definiëren. [Meer info](../audience/about-audiences.md).
 
    ![](assets/in_app_create_2.png)
 
-1. Kies in het veld **[!UICONTROL Identity namespace]** de naamruimte die u wilt gebruiken om de personen van het geselecteerde publiek te identificeren. [Meer informatie](../event/about-creating.md#select-the-namespace).
+1. Kies in het veld **[!UICONTROL Identity namespace]** de naamruimte die u wilt gebruiken om de personen van het geselecteerde publiek te identificeren. [Meer info](../event/about-creating.md#select-the-namespace).
 
 1. Kies in de sectie **[!UICONTROL Actions]** de **[!UICONTROL In-app message]** en selecteer of maak een nieuwe configuratie.
 
-   Leer meer over in-app configuratie op [&#x200B; deze pagina &#x200B;](inapp-configuration.md).
+   Leer meer over in-app configuratie op [ deze pagina ](inapp-configuration.md).
 
    ![](assets/in_app_create_1.png)
 
@@ -161,10 +169,10 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
 
       | Pakket | Trigger | Definitie |
       |---|---|---|
-      | Gegevens verzenden naar platform | Gegevens verzonden naar platform | Wordt geactiveerd wanneer de mobiele app een Edge Experience-gebeurtenis uitgeeft om gegevens naar Adobe Experience Platform te verzenden. Gewoonlijk de API vraag [&#x200B; sendEvent &#x200B;](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) van de uitbreiding van AEP Edge. |
-      | Core tracking | Handeling track | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [&#x200B; wordt aangeboden trackAction &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) wordt geroepen. |
-      | Core tracking | Status track | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [&#x200B; wordt aangeboden trackState &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) wordt geroepen. |
-      | Core tracking | PII verzamelen | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [&#x200B; wordt aangeboden collectPII &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) wordt geroepen. |
+      | Gegevens verzenden naar platform | Gegevens verzonden naar platform | Wordt geactiveerd wanneer de mobiele app een Edge Experience-gebeurtenis uitgeeft om gegevens naar Adobe Experience Platform te verzenden. Gewoonlijk de API vraag [ sendEvent ](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) van de uitbreiding van AEP Edge. |
+      | Core tracking | Handeling track | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [ wordt aangeboden trackAction ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) wordt geroepen. |
+      | Core tracking | Status track | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [ wordt aangeboden trackState ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) wordt geroepen. |
+      | Core tracking | PII verzamelen | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [ wordt aangeboden collectPII ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) wordt geroepen. |
       | Levenscyclus toepassing | Toepassing starten | Teweeggebracht bij elke looppas, met inbegrip van neerstortingen en installaties. Wordt ook geactiveerd op een hervat vanaf de achtergrond wanneer de time-out van de levenscyclussessie is overschreden. |
       | Levenscyclus toepassing | Toepassing installeren | Wordt geactiveerd bij de eerste run na installatie of herinstallatie. |
       | Levenscyclus toepassing | Toepassingsupdate | Teweeggebracht bij de eerste looppas na een verbetering of wanneer het versieaantal verandert. |
@@ -220,13 +228,15 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
 
 1. Kies zo nodig welke **[!UICONTROL Day of the week]** of **[!UICONTROL Time of day]** het bericht in de app wordt weergegeven.
 
-1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [&#x200B; te vormen deze sectie &#x200B;](../campaigns/create-campaign.md#schedule).
+1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [ te vormen deze sectie ](../campaigns/create-campaign.md#schedule).
 
    ![](assets/in-app-schedule.png)
 
 1. U kunt nu beginnen met het ontwerpen van uw inhoud met de knop **[!UICONTROL Edit content]** . [Meer informatie](design-in-app.md)
 
    ![](assets/in_app_create_4.png)
+
+Voor meer informatie over om een campagne tot stand te brengen te vormen en te activeren, verwijs naar [ deze pagina ](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 
@@ -244,7 +254,7 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
 
   +++Zie video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445294/?captions=dut&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 

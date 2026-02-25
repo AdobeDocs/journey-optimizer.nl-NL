@@ -10,7 +10,7 @@ level: Intermediate
 keywords: reizen, beperking
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 1%
@@ -25,13 +25,13 @@ Hier zijn beperkingen met betrekking tot het gebruik van reizen.
 
 * Er is geen verzendvertraging.
 * In het geval van een fout worden drie pogingen systematisch opnieuw uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht.
-* De ingebouwde **gebeurtenis van de Reactie** staat u toe om op uit-van-de-doos acties (zie deze [&#x200B; pagina &#x200B;](../building-journeys/reaction-events.md)) te reageren. Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen.
+* De ingebouwde **gebeurtenis van de Reactie** staat u toe om op uit-van-de-doos acties (zie deze [ pagina ](../building-journeys/reaction-events.md)) te reageren. Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen.
 * U kunt geen twee acties parallel plaatsen, u moet hen één na andere toevoegen.
 
 
 ## Beperkingen van reisversies {#journey-versions-limitations}
 
-* Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis met een **gebeurtenis beginnen van de Kwalificatie van het publiek 0&rbrace;.**
+* Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis met een **gebeurtenis beginnen van de Kwalificatie van het publiek 0}.**
 * Een reis die met een **activiteit begint van de Kwalificatie van het Publiek** in v1 moet altijd met een **Kwalificatie van het Publiek** in verdere versies beginnen.
 * Het publiek en namespace die in **de Kwalificatie van het Publiek** (eerste knoop) worden gekozen kunnen niet in nieuwe versies worden veranderd.
 * De regel van de terugkeer moet het zelfde in alle reisversies zijn.
@@ -51,7 +51,7 @@ Hier zijn beperkingen met betrekking tot het gebruik van reizen.
 
 ## Beperkingen van reactiegebeurtenissen {#reaction-limitations}
 
-* **[!UICONTROL Reaction]** de activiteiten moeten onmiddellijk na de activiteit van de a [&#x200B; kanaalactie &#x200B;](../building-journeys/journeys-message.md) in het wegcanvas worden geplaatst. Het plaatsen van een **[!UICONTROL Wait]** -activiteit of enige andere activiteit tussen de kanaalactie en de **[!UICONTROL Reaction]** -activiteit wordt niet ondersteund en kan ertoe leiden dat de reactie niet naar behoren werkt. Lees meer in [deze sectie](../building-journeys/reaction-events.md).
+* **[!UICONTROL Reaction]** de activiteiten moeten onmiddellijk na de activiteit van de a [ kanaalactie ](../building-journeys/journey-action.md) in het wegcanvas worden geplaatst. Het plaatsen van een **[!UICONTROL Wait]** -activiteit of enige andere activiteit tussen de kanaalactie en de **[!UICONTROL Reaction]** -activiteit wordt niet ondersteund en kan ertoe leiden dat de reactie niet naar behoren werkt. Lees meer in [deze sectie](../building-journeys/reaction-events.md).
 
 ## Beperkingen op gegevensbronnen {#data-sources-limitations}
 

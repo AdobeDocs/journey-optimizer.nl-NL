@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '835'
 ht-degree: 2%
 
 ---
@@ -23,15 +23,21 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
 
 >[!BEGINTABS]
 
->[!TAB voeg een op code-gebaseerde ervaring aan een reis  toe]
+>[!TAB  voeg een op code-gebaseerde ervaring aan een reis ] toe
 
 Om a **code-gebaseerde ervaring** activiteit aan een reis toe te voegen, volg deze stappen:
 
-1. [&#x200B; creeer een reis &#x200B;](../building-journeys/journey-gs.md).
+1. [ creeer een reis ](../building-journeys/journey-gs.md).
 
-1. Begin uw reis met een [&#x200B; Gebeurtenis &#x200B;](../building-journeys/general-events.md) of a [&#x200B; gelezen activiteit van het publiek &#x200B;](../building-journeys/read-audience.md).
+1. Begin uw reis met een [ Gebeurtenis ](../building-journeys/general-events.md) of a [ gelezen activiteit van het publiek ](../building-journeys/read-audience.md).
 
-1. Sleep een **[!UICONTROL Code-based experience]** -activiteit vanuit de **[!UICONTROL Actions]** -sectie van het palet.
+1. Sleep een **[!UICONTROL Action]** -activiteit vanuit de **[!UICONTROL Actions]** -sectie van het palet. Leer meer over de [ activiteit van de Actie ](../building-journeys/journey-action.md).
+
+   >[!IMPORTANT]
+   >
+   >Alle native kanalen die nu toegankelijk zijn via de activiteit Handeling, verouderde native kanaalactiviteiten zijn vervangen door de release van maart. Bestaande reizen die oudere handelingen bevatten, blijven functioneren zoals ze zijn: er is geen migratie vereist.
+
+1. Selecteer **[!UICONTROL Code-based experience]** als actietype.
 
    ![](assets/code-based-activity-journey.png)
 
@@ -39,25 +45,27 @@ Om a **code-gebaseerde ervaring** activiteit aan een reis toe te voegen, volg de
    >
    >Aangezien **op code-gebaseerde ervaring** een binnenkomende ervaringsactiviteit is, komt het met een 3 dagen **wachten** activiteit. [Meer informatie](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Voer een **[!UICONTROL Label]** en **[!UICONTROL Description]** in voor uw bericht.
+1. Voer een **[!UICONTROL Label]** in om uw handeling op het canvas van de reis te identificeren.
 
-1. Selecteer of creeer de op code-gebaseerde ervaringsconfiguratie aan gebruik. [Meer informatie](code-based-configuration.md)
+1. Klik op de knop **[!UICONTROL Configure action]**.
+
+1. U wordt naar het tabblad **[!UICONTROL Actions]** geleid. Van daar, selecteer of creeer de op code-gebaseerde ervaringsconfiguratie aan gebruik. [Meer informatie](code-based-configuration.md)
 
    ![](assets/code-based-activity-config.png)
 
    >[!NOTE]
    >
-   >Wanneer u veelvoudige code-gebaseerde ervaringsacties gebruikend de zelfde kanaalconfiguratie hebt, bepaalt de reis **[!UICONTROL Priority score]** wat aan de eindgebruiker wordt geleverd als zij voor meer dan één actie kwalificeren. [&#x200B; leer meer op prioritaire scores &#x200B;](../conflict-prioritization/priority-scores.md)
+   >Wanneer u veelvoudige code-gebaseerde ervaringsacties gebruikend de zelfde kanaalconfiguratie hebt, bepaalt de reis **[!UICONTROL Priority score]** wat aan de eindgebruiker wordt geleverd als zij voor meer dan één actie kwalificeren. [ leer meer op prioritaire scores ](../conflict-prioritization/priority-scores.md)
 
 1. Selecteer de knop **[!UICONTROL Edit content]** en bewerk de inhoud naar wens met de verpersoonlijkingseditor. [Meer informatie](#edit-code)
 
-   U kunt ook een bestaande inhoudssjabloon gebruiken als basis voor uw code-inhoud. Merk op dat de malplaatjes beschikbaar om te kiezen zijn werkingsgebied aan of HTML of JSON gebaseerd op de kanaalconfiguratie die vooraf is gekozen. [&#x200B; leer hoe te om inhoudsmalplaatjes &#x200B;](../content-management/use-content-templates.md) te gebruiken
+   U kunt ook een bestaande inhoudssjabloon gebruiken als basis voor uw code-inhoud. Merk op dat de malplaatjes beschikbaar om te kiezen zijn werkingsgebied aan of HTML of JSON gebaseerd op de kanaalconfiguratie die vooraf is gekozen. [ leer hoe te om inhoudsmalplaatjes ](../content-management/use-content-templates.md) te gebruiken
 
-1. Indien nodig voltooit u de reisflow door extra handelingen of gebeurtenissen te slepen en neer te zetten. [Meer informatie](../building-journeys/about-journey-activities.md)
+1. U kunt een of meer binnenkomende acties toevoegen aan uw op code gebaseerde ervaring door op de knop **[!UICONTROL Add action]** te klikken. [Meer informatie](../building-journeys/journey-action.md#multi-action)
 
-1. Zodra uw op code-gebaseerde ervaring klaar is, voltooi de configuratie en publiceer uw reis om het te activeren. [Meer informatie](../building-journeys/publish-journey.md)
+1. Ga terug naar het reiscanvas. Indien nodig voltooit u de reisflow door extra handelingen of gebeurtenissen te slepen en neer te zetten. [Meer informatie](../building-journeys/about-journey-activities.md)
 
-Voor meer informatie over hoe te om een reis te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../building-journeys/journey-gs.md).
+Voor meer informatie over om een reis tot stand te brengen te vormen en te publiceren, verwijs naar [ deze pagina ](../building-journeys/journey-gs.md).
 
 >[!TAB  creeer een op code-gebaseerde ervaringscampagne ]
 
@@ -67,7 +75,7 @@ Begin bouwend uw **code-gebaseerde ervaring** door een campagne, volg hieronder 
 
 1. Selecteer het **Gepland - marketing** campagneretype.
 
-1. Voltooi de stappen om een campagne, zoals de campagneeigenschappen, [&#x200B; publiek &#x200B;](../audience/about-audiences.md), en [&#x200B; programma &#x200B;](../campaigns/create-campaign.md#schedule) tot stand te brengen. Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../campaigns/get-started-with-campaigns.md).
+1. Voltooi de stappen om een campagne, zoals de campagneeigenschappen, [ publiek ](../audience/about-audiences.md), en [ programma ](../campaigns/create-campaign.md#schedule) tot stand te brengen. Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze pagina ](../campaigns/get-started-with-campaigns.md).
 
 1. Selecteer de handeling **[!UICONTROL Code-based experience]** .
 
@@ -77,17 +85,17 @@ Begin bouwend uw **code-gebaseerde ervaring** door een campagne, volg hieronder 
 
    >[!NOTE]
    >
-   >Wanneer u veelvoudige code-gebaseerde ervaringsacties gebruikend de zelfde kanaalconfiguratie hebt, bepaalt de campagne **[!UICONTROL Priority score]** wat aan de eindgebruiker wordt geleverd als zij voor meer dan één actie kwalificeren. [&#x200B; leer meer op prioritaire scores &#x200B;](../conflict-prioritization/priority-scores.md)
+   >Wanneer u veelvoudige code-gebaseerde ervaringsacties gebruikend de zelfde kanaalconfiguratie hebt, bepaalt de campagne **[!UICONTROL Priority score]** wat aan de eindgebruiker wordt geleverd als zij voor meer dan één actie kwalificeren. [ leer meer op prioritaire scores ](../conflict-prioritization/priority-scores.md)
 
 1. Bewerk de inhoud naar wens met behulp van de verpersoonlijkingseditor. [Meer informatie](#edit-code)
 
-   U kunt ook een bestaande inhoudssjabloon gebruiken als basis voor uw code-inhoud. Merk op dat de malplaatjes beschikbaar om te kiezen zijn werkingsgebied aan of HTML of JSON gebaseerd op de kanaalconfiguratie die vooraf is gekozen. [&#x200B; leer hoe te om inhoudsmalplaatjes &#x200B;](../content-management/use-content-templates.md) te gebruiken
+   U kunt ook een bestaande inhoudssjabloon gebruiken als basis voor uw code-inhoud. Merk op dat de malplaatjes beschikbaar om te kiezen zijn werkingsgebied aan of HTML of JSON gebaseerd op de kanaalconfiguratie die vooraf is gekozen. [ leer hoe te om inhoudsmalplaatjes ](../content-management/use-content-templates.md) te gebruiken
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 
-Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../campaigns/get-started-with-campaigns.md).
+Voor meer informatie over om een campagne tot stand te brengen te vormen en te activeren, verwijs naar [ deze pagina ](../campaigns/get-started-with-campaigns.md).
 
-➡️ [&#x200B; Leer hoe te om een code-gebaseerde ervaringscampagne in deze video &#x200B;](#video) tot stand te brengen
+➡️ [ Leer hoe te om een code-gebaseerde ervaringscampagne in deze video ](#video) tot stand te brengen
 
 >[!ENDTABS]
 
@@ -97,7 +105,7 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [&#x200
 >id="ajo_code_based_experience"
 >title="De personalisatie-editor gebruiken"
 >abstract="Voeg de code die u wilt leveren in en bewerk deze als onderdeel van deze op code gebaseerde ervaringsactie."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Werken met de verpersoonlijkingseditor"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="Werken met de verpersoonlijkingseditor"
 
 Volg onderstaande stappen om de inhoud van uw op code gebaseerde ervaring te bewerken.
 
@@ -109,7 +117,7 @@ Volg onderstaande stappen om de inhoud van uw op code gebaseerde ervaring te bew
    >
    >Als u een op code-gebaseerde sjabloon van de ervaringsinhoud met vooraf bepaalde editable vormgebieden gebruikt, kunt u de inhoud van deze gebieden beheren zonder de verpersoonlijkingsredacteur te openen. [Meer informatie](code-based-form-fields.md)
 
-1. De [&#x200B; verpersoonlijkingsredacteur &#x200B;](../personalization/personalization-build-expressions.md) opent. Het is een niet-visuele interface van de ervaringsverwezenlijking die u toestaat om uw code te ontwerpen.
+1. De [ verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md) opent. Het is een niet-visuele interface van de ervaringsverwezenlijking die u toestaat om uw code te ontwerpen.
 
 1. U kunt de ontwerpmodus wijzigen van HTML in JSON en andersom.
 
@@ -121,9 +129,9 @@ Volg onderstaande stappen om de inhoud van uw op code gebaseerde ervaring te bew
 
 1. Voer de gewenste code in. U kunt de personalisatie-editor van [!DNL Journey Optimizer] gebruiken met al zijn personalisatie- en ontwerpmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
 
-1. U kunt desgewenst HTML- of JSON-uitdrukkingsfragmenten toevoegen. [&#x200B; leer hoe &#x200B;](../personalization/use-expression-fragments.md)
+1. U kunt desgewenst HTML- of JSON-uitdrukkingsfragmenten toevoegen. [ leer hoe ](../personalization/use-expression-fragments.md)
 
-   U kunt ook een deel van de code-inhoud opslaan als een fragment. [&#x200B; leer hoe &#x200B;](../content-management/fragments.md#visual-expression)
+   U kunt ook een deel van de code-inhoud opslaan als een fragment. [ leer hoe ](../content-management/fragments.md#visual-expression)
 
 1. Met code-gebaseerde ervaringen, kunt u de eigenschap van het Beslissen gebruiken. Selecteer het pictogram **[!UICONTROL Decision policy]** op de linkerbalk en klik op **[!UICONTROL Add decision policy]** . [Meer informatie](../experience-decisioning/create-decision.md#create-decision)
 
@@ -135,7 +143,7 @@ Volg onderstaande stappen om de inhoud van uw op code gebaseerde ervaring te bew
 
    <!--![](assets/code-based-campaign-show-decisioning.png)-->
 
-   De gedetailleerde stappen om een besluitvormingsbeleid tot stand te brengen worden voorgesteld in [&#x200B; deze sectie &#x200B;](../experience-decisioning/create-decision.md#create-decision).
+   De gedetailleerde stappen om een besluitvormingsbeleid tot stand te brengen worden voorgesteld in [ deze sectie ](../experience-decisioning/create-decision.md#create-decision).
 
 1. Klik op **[!UICONTROL Save and close]** om uw wijzigingen te bevestigen.
 
@@ -145,4 +153,4 @@ Zodra uw ontwikkelaar een API- of SDK-aanroep maakt om inhoud op te halen voor h
 
 In de onderstaande video ziet u hoe u een op code gebaseerde ervaringscampagne kunt maken, de eigenschappen ervan kunt configureren, testen en publiceren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449459/?captions=dut&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

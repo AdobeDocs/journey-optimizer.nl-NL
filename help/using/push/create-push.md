@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 1%
+source-wordcount: '914'
+ht-degree: 2%
 
 ---
 
@@ -30,29 +30,45 @@ Voer de onderstaande stappen uit om een pushmelding te maken:
 
 >[!BEGINTABS]
 
->[!TAB voeg een Duw aan een Reis  toe]
+>[!TAB  voeg een Duw aan een Reis ] toe
 
-1. Open de reis en sleep een duwactiviteit van de sectie van Acties van het palet.
+1. Open uw reis en sleep een **[!UICONTROL Action]** activiteit van de **[!UICONTROL Actions]** sectie van het palet. Leer meer over de [ activiteit van de Actie ](../building-journeys/journey-action.md).
+
+   >[!IMPORTANT]
+   >
+   >Alle native kanalen die nu toegankelijk zijn via de activiteit Handeling, verouderde native kanaalactiviteiten zijn vervangen door de release van maart. Bestaande reizen die oudere handelingen bevatten, blijven functioneren zoals ze zijn: er is geen migratie vereist.
+
+1. Selecteer **[!UICONTROL Push]** als actietype.
 
    ![](assets/push_create_1.png)
 
-1. Verstrek basisinformatie over uw bericht (etiket, beschrijving, categorie), dan kies de berichtconfiguratie aan gebruik.
+1. Voer een **[!UICONTROL Label]** in om uw handeling op het canvas van de reis te identificeren.
+
+1. Klik op de knop **[!UICONTROL Configure action]**.
+
+1. U wordt naar het tabblad **[!UICONTROL Actions]** geleid. Selecteer of maak van daaruit de pushconfiguratie die u wilt gebruiken. [Meer informatie](push-configuration.md)
 
    ![](assets/push_create_2.png)
 
+1. Daarnaast:
+
+   * U kunt afkapregels toepassen op uw pushactie door een regel te selecteren die is ingesteld in de vervolgkeuzelijst **[!UICONTROL Business rules]** . [Meer informatie](../conflict-prioritization/channel-capping.md)
+
+   * Met de optie **[!DNL Send time optimization]** kunt u het beste tijdstip voorspellen waarop het bericht wordt verzonden om de betrokkenheid te maximaliseren op basis van geopende historie en kliksnelheden. [ leer hoe ](../building-journeys/send-time-optimization.md)
+
+1. Gebruik **[!UICONTROL Rapid delivery mode]** om uw pushmelding in grote hoeveelheden te verzenden. [ leer hoe ](#rapid-delivery)
+
+1. Selecteer de knop **[!UICONTROL Edit content]** en maak de gewenste inhoud. [Meer informatie](design-push.md)
+
+1. Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken of monsters nemen van invoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of die u handmatig hebt toegevoegd om een voorvertoning van de inhoud weer te geven. [ leer hoe ](send-push.md)
+
+1. Ga terug naar het reiscanvas. Indien nodig voltooit u de reisflow door extra handelingen of gebeurtenissen te slepen en neer te zetten. [Meer informatie](../building-journeys/about-journey-activities.md)
+
    >[!NOTE]
    >
-   >Als u een pushmelding verzendt van een reis, kunt u de functie voor Send-Time optimalisatie voor Adobe Journey Optimizer gebruiken om de beste tijd te voorspellen voor het verzenden van het bericht om de betrokkenheid te maximaliseren op basis van de historische open en kliksnelheden. [&#x200B; Leer hoe te met Optimalisering Send-Time &#x200B;](../building-journeys/send-time-optimization.md) te werken
+   >Om het gedrag van uw ontvangers door duw openingen en/of interactie te volgen, zorg ervoor dat de specifieke opties in de volgende sectie in de [ e-mailactiviteit ](../building-journeys/journey-action.md) worden toegelaten.
 
-   Voor meer informatie over hoe te om een reis te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../building-journeys/journey-gs.md)
-
-1. Klik in het scherm met de reisconfiguratie op de knop **[!UICONTROL Edit content]** om de pushinhoud te configureren. [&#x200B; Ontwerp een duw- bericht &#x200B;](design-push.md)
-
-1. Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken of monsters nemen van invoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of die u handmatig hebt toegevoegd om een voorvertoning van de inhoud weer te geven.
-
-1. Wanneer uw duw klaar is, voltooi de configuratie van uw [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md) om het te verzenden.
-
-   Om het gedrag van uw ontvangers door duw openingen en/of interactie te volgen, zorg ervoor dat de specifieke opties in de volgende sectie in de [&#x200B; e-mailactiviteit &#x200B;](../building-journeys/journeys-message.md) worden toegelaten.
+Voor meer informatie over om een reis tot stand te brengen te vormen en te publiceren, verwijs naar [ deze pagina ](../building-journeys/journey-gs.md).
 
 >[!TAB  voeg een Duw aan een Campagne toe ]
 
@@ -66,19 +82,19 @@ Voer de onderstaande stappen uit om een pushmelding te maken:
 
 1. Bewerk in de sectie **[!UICONTROL Properties]** de items **[!UICONTROL Title]** en **[!UICONTROL Description]** van uw campagne.
 
-1. Klik op de knop **[!UICONTROL Select audience]** om het doelpubliek in de lijst met beschikbare Adobe Experience Platform-soorten publiek te definiëren. [Meer informatie](../audience/about-audiences.md).
+1. Klik op de knop **[!UICONTROL Select audience]** om het doelpubliek in de lijst met beschikbare Adobe Experience Platform-soorten publiek te definiëren. [Meer info](../audience/about-audiences.md).
 
-1. Kies in het veld **[!UICONTROL Identity namespace]** de naamruimte die u wilt gebruiken om de personen van het geselecteerde publiek te identificeren. [Meer informatie](../event/about-creating.md#select-the-namespace).
+1. Kies in het veld **[!UICONTROL Identity namespace]** de naamruimte die u wilt gebruiken om de personen van het geselecteerde publiek te identificeren. [Meer info](../event/about-creating.md#select-the-namespace).
 
 1. Kies in de sectie **[!UICONTROL Actions]** de **[!UICONTROL Push notification]** en selecteer of maak een nieuwe configuratie.
 
-   Leer meer over de Duw configuratie voor mobiel op [&#x200B; deze pagina &#x200B;](push-configuration.md) en voor Web op [&#x200B; deze pagina &#x200B;](push-configuration-web.md).
+   Leer meer over de Duw configuratie voor mobiel op [ deze pagina ](push-configuration.md) en voor Web op [ deze pagina ](push-configuration-web.md).
 
    ![](assets/push_create_3.png)
 
 1. Klik op **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren en behandelingen te maken om de prestaties te meten en de beste optie voor uw doelgroep te identificeren. [Meer informatie](../content-management/content-experiment.md)
 
-1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [&#x200B; te vormen deze sectie &#x200B;](../campaigns/create-campaign.md#schedule).
+1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [ te vormen deze sectie ](../campaigns/create-campaign.md#schedule).
 
 1. Kies in het menu **[!UICONTROL Action triggers]** de **[!UICONTROL Frequency]** van uw pushmelding:
 
@@ -87,20 +103,22 @@ Voer de onderstaande stappen uit om een pushmelding te maken:
    * Wekelijks
    * Maandelijks
 
-1. Klik in het scherm Campagneconfiguratie op de knop **[!UICONTROL Edit content]** om de inhoud van de push te configureren. [&#x200B; Ontwerp een duw- bericht &#x200B;](design-push.md)
+1. Klik in het scherm Campagneconfiguratie op de knop **[!UICONTROL Edit content]** om de inhoud van de push te configureren. [ Ontwerp een duw- bericht ](design-push.md)
 
-1. Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken of monsters nemen van invoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of die u handmatig hebt toegevoegd om een voorvertoning van de inhoud weer te geven.
+1. Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken of monsters nemen van invoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of die u handmatig hebt toegevoegd om een voorvertoning van de inhoud weer te geven. [ leer hoe ](send-push.md)
 
-1. Wanneer uw duw klaar is, voltooi de configuratie van uw [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md) om het te verzenden.
+1. Wanneer uw duw klaar is, voltooi de configuratie van uw [ campagne ](../campaigns/create-campaign.md) om het te verzenden.
 
-   Om het gedrag van uw ontvangers door duw openingen en/of interactie te volgen, zorg ervoor dat de specifieke opties in de volgende sectie in de [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md) worden toegelaten.
+   Om het gedrag van uw ontvangers door duw openingen en/of interactie te volgen, zorg ervoor dat de specifieke opties in de volgende sectie in de [ campagne ](../campaigns/create-campaign.md) worden toegelaten.
+
+Voor meer informatie over om een campagne tot stand te brengen te vormen en te activeren, verwijs naar [ deze pagina ](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 
 **Verwante onderwerpen**
 
 * [Pushkanaal configureren](push-gs.md)
-* [Een bericht toevoegen tijdens een rit](../building-journeys/journeys-message.md)
+* [Een bericht toevoegen tijdens een rit](../building-journeys/journey-action.md)
 
 ## Snelle leveringsmodus {#rapid-delivery}
 
@@ -113,7 +131,7 @@ De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer 
 
 Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd.
 
-Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [&#x200B; het productbeschrijving van Adobe Journey Optimizer &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [ het productbeschrijving van Adobe Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ### Vereisten {#prerequisites}
 
@@ -130,7 +148,7 @@ Snelle levering overseinen komt met de volgende vereisten:
 
    ![](assets/create-campaign-burst.png)
 
-1. Vorm de berichtinhoud en selecteer het publiek om te richten. [&#x200B; Leer hoe te om een campagne &#x200B;](#create) tot stand te brengen
+1. Vorm de berichtinhoud en selecteer het publiek om te richten. [ Leer hoe te om een campagne ](#create) tot stand te brengen
 
    >[!IMPORTANT]
    >

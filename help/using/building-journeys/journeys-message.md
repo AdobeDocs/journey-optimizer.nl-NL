@@ -10,9 +10,9 @@ level: Intermediate
 keywords: reis, bericht, push, sms, e-mail, in-app, web, inhoudskaart, op code gebaseerde ervaring
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '611'
 ht-degree: 2%
 
 ---
@@ -24,25 +24,27 @@ ht-degree: 2%
 >title="Ingebouwde kanaalactie"
 >abstract="Journey Optimizer wordt geleverd met ingebouwde kanaalactiemogelijkheden. U kunt eenvoudig aan uw reis een bericht (e-mail, tekstbericht (SMS/MMS), duw, direct mail) of een binnenkomende ervaring (In-app, Web, code-gebaseerde ervaring, inhoudskaart) activiteit toevoegen, en montages en inhoud bepalen. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis."
 
-[!DNL Journey Optimizer] wordt geleverd met ingebouwde kanaalactiemogelijkheden die worden gebruikt om berichten te verzenden: wanneer een profiel deze activiteit ingaat, wordt een bericht naar hen verzonden.
+[!DNL Journey Optimizer] wordt geleverd met ingebouwde kanaalactiemogelijkheden die worden gebruikt om berichten te verzenden. Als u een ingebouwde kanaalactie aan uw reis wilt toevoegen, sleept u een kanaalactiviteit en zet u de instellingen en inhoud van de activiteit neer. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis.
 
-Als u een ingebouwde kanaalactie aan uw reis wilt toevoegen, sleept u een kanaalactiviteit en zet u de instellingen en inhoud van de activiteit neer. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis.
+Alle inheemse kanalen zijn nu ook toegankelijk door de **activiteit van de Actie**, die de geadviseerde manier is om een ingebouwde kanaalactie aan uw reis toe te voegen. [Meer informatie](journey-action.md)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->U kunt ook aangepaste handelingen instellen om uw berichten te verzenden in [!DNL Journey Optimizer] . [Meer informatie](#recommendation)
+>Oudere native kanaalactiviteiten worden vervangen door de release van maart. Bestaande reizen die oudere handelingen bevatten, blijven functioneren zoals ze zijn: er is geen migratie vereist.
+
+U kunt ook aangepaste handelingen instellen om uw berichten te verzenden in [!DNL Journey Optimizer] . [Meer informatie](#recommendation)
 
 ## Een bericht toevoegen tijdens een rit  {#add-msg-in-journey}
 
-Met ingebouwde kanaalacties, kunt u uitgaande of binnenkomende berichten vormen. Voor meer informatie over de kanalen beschikbaar in reizen, verwijs naar de lijst in deze sectie: [&#x200B; Kanalen in reizen &amp; campagnes &#x200B;](../channels/gs-channels.md#channels).
+Met ingebouwde kanaalacties, kunt u uitgaande of binnenkomende berichten vormen. Voor meer informatie over de kanalen beschikbaar in reizen, verwijs naar de lijst in deze sectie: [ Kanalen in reizen &amp; campagnes ](../channels/gs-channels.md#channels).
 
 Volg onderstaande stappen om een ingebouwde kanaalactie aan een reis toe te voegen.
 
-1. Begin uw reis met een [&#x200B; Gebeurtenis &#x200B;](general-events.md) of a [&#x200B; gelezen activiteit van het publiek &#x200B;](read-audience.md).
+1. Begin uw reis met een [ Gebeurtenis ](general-events.md) of a [ gelezen activiteit van het publiek ](read-audience.md).
 
 1. Van de **sectie van Acties** van het palet, sleep en laat vallen een kanaalactiviteit in het canvas.
 
-   ![&#x200B; de actiesactiviteit van het kanaal van het Web in wegcanvas &#x200B;](assets/journey-web-activity.png)
+   ![ de actiesactiviteit van het kanaal van het Web in wegcanvas ](assets/journey-web-activity.png)
 
 1. U kunt ook de **[!UICONTROL Action]** -activiteit selecteren, zodat u meerdere binnenkomende acties kunt selecteren. [Meer informatie](journey-action.md)
 
@@ -148,7 +150,7 @@ U kunt de inhoud van een ingebouwde kanaalactie tijdens een live reis bijwerken.
 
 Om dit te doen, open uw levende reis, selecteer de kanaalactiviteit en klik **geef inhoud** uit.
 
-![&#x200B; voeg dropdown actieactiviteit toe die beschikbare kanaalopties tonen &#x200B;](assets/add-a-message2.png)
+![ voeg dropdown actieactiviteit toe die beschikbare kanaalopties tonen ](assets/add-a-message2.png)
 
 U kunt de kenmerken die worden gebruikt in personalisatie echter niet wijzigen, ongeacht of het profielkenmerken of contextafhankelijke gegevens (van gebeurtenis- of reiseigenschappen) zijn.
 

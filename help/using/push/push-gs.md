@@ -8,7 +8,7 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 5758c9db8b1b12367126f4adb8bd1c0bac766514
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 1%
@@ -25,9 +25,9 @@ Deze pagina helpt u bij het instellen en begrijpen van de belangrijkste services
 >Het nieuwe **Mobiele onboarding snelle beginwerkschema** is nu beschikbaar. Met deze nieuwe productfunctie kunt u de Mobile SDK snel configureren om gegevens van mobiele gebeurtenissen te verzamelen en te valideren en om mobiele pushberichten te verzenden. Dit vermogen is toegankelijk via de homepage van de Inzameling van Gegevens als openbare bèta. [Meer informatie](mobile-onboarding-wf.md)
 >
 
-Leer hoe te om pushberichten op [&#x200B; tot stand te brengen deze pagina &#x200B;](create-push.md).
+Leer hoe te om pushberichten op [ tot stand te brengen deze pagina ](create-push.md).
 
-De stappen om drukkanaal in [!DNL Adobe Journey Optimizer] te vormen zijn gedetailleerd op [&#x200B; deze pagina &#x200B;](push-configuration.md).
+De stappen om drukkanaal in [!DNL Adobe Journey Optimizer] te vormen zijn gedetailleerd op [ deze pagina ](push-configuration.md).
 
 De volgende afbeelding toont de systemen en services die bij de bijbehorende gegevensstromen betrokken zijn en geeft aan hoe pushberichten vanuit een end-to-end servicestandpunt worden geleverd.
 
@@ -56,18 +56,18 @@ De volgende afbeelding toont de systemen en services die bij de bijbehorende geg
 * **de dienstverleners van het pushbericht** zijn de diensten van het kerncomponentenWeb die berichten van verre servers aan mobiele apps leveren.
 
   [!DNL Adobe Journey Optimizer] ondersteunt zowel Android- als iOS-platforms en kan daarom worden geïntegreerd met:
-   * [&#x200B; het Overseinen van de Wolk van de Vuurbasis (FCM) &#x200B;](https://firebase.google.com/docs/cloud-messaging) - om berichten naar Android mobiele app te verzenden
-   * [&#x200B; de Dienst van het Push Bericht van Apple (APNs) &#x200B;](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) - om berichten naar mobiele app van iOS te verzenden
+   * [ het Overseinen van de Wolk van de Vuurbasis (FCM) ](https://firebase.google.com/docs/cloud-messaging) - om berichten naar Android mobiele app te verzenden
+   * [ de Dienst van het Push Bericht van Apple (APNs) ](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) - om berichten naar mobiele app van iOS te verzenden
 
 * **Adobe Experience Platform Mobile SDK** die cliënt-zijintegratie APIs voor uw mobiles via Android en iOS compatibele SDKs verstrekt. De SDK biedt een [!DNL Adobe Journey Optimizer] -extensie die een aantal specifieke API&#39;s voor pushberichten toegankelijk maakt en gegevensstroom mogelijk maakt, zoals het registreren van het pushtoken of het verzenden van push-tracking-gebeurtenissen of andere aangepaste ervaringsgebeurtenissen naar Adobe Experience Platform. De SDK biedt ook diverse andere extensies die andere Adobe Experience Cloud en andere partnermogelijkheden van derden mogelijk maken.
 
-  De integratie van SDK vereist ook opstelling van de [&#x200B; diensten van de Inzameling van Gegevens van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl){target="_blank"} zoals:
+  De integratie van SDK vereist ook opstelling van de [ diensten van de Inzameling van Gegevens van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl){target="_blank"} zoals:
 
    * Een gegevensstroom maken om het profiel te configureren en de gegevenssets met gebeurtenissen te ervaren op basis waarvan de gegevens in Adobe Experience Platform stromen
    * Mobiele eigenschap aan de clientzijde maken en extensies toevoegen. De SDK is nauw geïntegreerd met deze extensies voor een naadloze ervaring bij het verzamelen van gegevens.
    * De bundle-id en toepassingsgegevens van de mobiele app registreren
 
-* **Adobe Experience Platform Real-time het Profiel van de Klant** handhaaft een holistische mening van elke individuele klant door gegevens van veelvoudige kanalen, met inbegrip van Web, mobiel, CRM, en derde te combineren. Het profiel staat u toe om uw klantengegevens in een verenigde mening te consolideren die een actionable, timestamped rekening van elke klanteninteractie aanbiedt. Het pushtoken voor een bepaalde gebruiker van de app wordt als recordgegevens opgeslagen ten opzichte van het profiel van de gebruiker, terwijl de interactie die de gebruiker met pushberichten onderneemt, als gebeurtenisgegevens uit de tijdreeks wordt bijgehouden. [&#x200B; Leer meer over het Profiel van de Klant in real time van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}.
+* **Adobe Experience Platform Real-time het Profiel van de Klant** handhaaft een holistische mening van elke individuele klant door gegevens van veelvoudige kanalen, met inbegrip van Web, mobiel, CRM, en derde te combineren. Het profiel staat u toe om uw klantengegevens in een verenigde mening te consolideren die een actionable, timestamped rekening van elke klanteninteractie aanbiedt. Het pushtoken voor een bepaalde gebruiker van de app wordt als recordgegevens opgeslagen ten opzichte van het profiel van de gebruiker, terwijl de interactie die de gebruiker met pushberichten onderneemt, als gebeurtenisgegevens uit de tijdreeks wordt bijgehouden. [ Leer meer over het Profiel van de Klant in real time van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}.
 
 * **[!DNL Adobe Journey Optimizer]** : zodra uw mobiele app is geïntegreerd met de hierboven vermelde componenten en uw klantprofielen in Adobe Experience Platform, kunt u pushberichten ontwerpen en ordenen in [!DNL Adobe Journey Optimizer] om contact op te nemen met uw gebruikers.
 
@@ -82,5 +82,5 @@ In de volgende afbeelding ziet u de verschillende stappen van begin tot eind die
 * [Pushkanaal configureren](push-configuration.md)
 * [Pushmeldingenrapport](../reports/journey-global-report-cja-push.md)
 * [Een pushmelding maken](create-push.md)
-* [Een bericht toevoegen tijdens een rit](../building-journeys/journeys-message.md)
+* [Een bericht toevoegen tijdens een rit](../building-journeys/journey-action.md)
 * [Een bericht toevoegen aan een campagne](../campaigns/create-campaign.md)

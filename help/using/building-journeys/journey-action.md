@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: De transportactiviteit Handelingen gebruiken
-description: Leer hoe te om een generische activiteit van de Actie toe te voegen om enige acties en multi-actie binnenkomende actiegroepen binnen het reiscanvas te vormen.
+title: De activiteit Handeling gebruiken
+description: Leer hoe te om een generische activiteit van de Actie toe te voegen om enige acties en multi-actie binnenkomende actiegroepen binnen het reiscanvas te vormen, en hoe te om ingebouwde kanaalacties toe te voegen.
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: reis, bericht, push, sms, e-mail, in-app, web, inhoudskaart, op code gebaseerde ervaring
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -22,55 +22,144 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
 >title="Actie"
->abstract="De generische **activiteit van de Actie** laat u één enkele inheemse kanaalactie en veelvoudige binnenkomende activiteiten met de capaciteit vormen om optimalisering aan om het even welke ingebouwde kanaalactie toe te voegen."
+>abstract="De **activiteit van de Actie** laat u één enkele inheemse kanaalactie en veelvoudige binnenkomende activiteiten met de capaciteit vormen om optimalisering aan om het even welke ingebouwde kanaalactie toe te voegen."
 
 [!DNL Journey Optimizer] komt met een nieuwe generische **actie** activiteit die toestaat om één enkele ingebouwde kanaalactie, en ook veelvoudige binnenkomende activiteiten te vormen.
 
-Het maakt het mogelijk:
+De Actie-activiteit biedt:
 
 * Een vereenvoudigde native actieconfiguratie binnen het reiscanvas.
 * De capaciteit om multi-actie binnenkomende actiegroepen te creëren.
 * De mogelijkheid om optimalisatie toe te voegen aan ingebouwde kanaalacties.
 
->[!NOTE]
+Om een ingebouwde kanaalactie aan uw reis toe te voegen, gebruik de **activiteit van de Actie**. Deze verenigde activiteit consolideert alle kanaalacties (E-mail, Duw, SMS, In-app, Web, Code-based ervaring, en de Kaart van de Inhoud) in één enkel activiteitstype, die de vorige individuele kanaalactiviteiten vervangen.
+
+>[!IMPORTANT]
 >
->Alle native kanalen zijn nu toegankelijk via de actie-transportactiviteit. Oudere native kanaalactiviteiten worden vervangen door de release van maart. Bestaande reizen die oudere handelingen bevatten, blijven functioneren zoals ze zijn: er is geen migratie vereist.
+>Alle native kanalen die nu toegankelijk zijn via de activiteit Handeling, verouderde native kanaalactiviteiten zijn vervangen door de release van maart. Bestaande reizen die oudere handelingen bevatten, blijven functioneren zoals ze zijn: er is geen migratie vereist.
 
 U kunt ook aangepaste handelingen instellen om uw berichten te verzenden in [!DNL Journey Optimizer] . [Meer informatie](#recommendation)
 
-## Een actie toevoegen aan een reis  {#add-action}
+## Voeg een ingebouwde kanaalactie aan een reis toe  {#add-action}
 
-Volg onderstaande stappen om een ingebouwde kanaalactie aan een reis toe te voegen.
+Volg onderstaande stappen om een ingebouwde kanaalactie toe te voegen aan uw reis met behulp van de **[!UICONTROL Action]** -activiteit.
 
-1. Begin uw reis met een [&#x200B; Gebeurtenis &#x200B;](general-events.md) of a [&#x200B; gelezen activiteit van het publiek &#x200B;](read-audience.md).
+Voor meer informatie over de kanalen beschikbaar in reizen, verwijs naar de lijst in deze sectie: [ Kanalen in reizen &amp; campagnes ](../channels/gs-channels.md#channels).
+
+1. Begin uw reis met een [ Gebeurtenis ](general-events.md) of a [ gelezen activiteit van het publiek ](read-audience.md).
 
 1. Sleep vanuit de sectie **[!UICONTROL Actions]** van het palet een **[!UICONTROL Action]** -activiteit naar het canvas.
 
 1. Selecteer de ingebouwde kanaalactiviteit u in uw reis wilt gebruiken.
 
-   ![&#x200B; het type van Handeling dropdown die kanaalactie en de opties van de douaneactie tonen &#x200B;](assets/journey-action-type-cbe.png)
+   ![ het type van Handeling dropdown die kanaalactie en de opties van de douaneactie tonen ](assets/journey-action-type-cbe.png)
 
 1. Voeg een label toe aan de handeling en selecteer **[!UICONTROL Configure action]** .
 
-   ![&#x200B; de configuratievenster van de Actie met etiket en beschrijvingsgebieden &#x200B;](assets/journey-action-configure.png){width="80%"}
+   ![ de configuratievenster van de Actie met etiket en beschrijvingsgebieden ](assets/journey-action-configure.png){width="80%"}
 
 1. U wordt geleid aan het **[!UICONTROL Actions]** lusje van het de configuratiescherm van de reisactie.
 
    Selecteer de configuratie die u voor het geselecteerde kanaal wilt gebruiken.
 
-   ![&#x200B; het lusje van Acties in het menu van het Beleid dat douane en de acties van Adobe toont &#x200B;](assets/journey-action-actions-tab.png)
+   ![ het lusje van Acties in het menu van het Beleid dat douane en de acties van Adobe toont ](assets/journey-action-actions-tab.png)
 
 1. Als u een binnenkomend kanaal hebt geselecteerd, kunt u meerdere acties toevoegen. [Meer informatie](#multi-action)
 
-1. Configureer uw activiteit volgens het geselecteerde kanaal. Leer hoe te om ingebouwde kanaalacties in [&#x200B; te vormen deze sectie &#x200B;](journeys-message.md).
+1. Configureer uw activiteit volgens het geselecteerde kanaal. De gedetailleerde configuratierichtlijnen zijn beschikbaar in de hieronder verbindingen.
+
+   * Leer de gedetailleerde stappen om uw uitgaande actie tot stand te brengen als volgt:
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../email/create-email.md">
+      <img alt="Lood" src="../assets/do-not-localize/email.jpg">
+      </a>
+      <div><a href="../email/create-email.md"><strong> creeer e-mails </strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../push/create-push.md">
+      <img alt="Onfrequent" src="../assets/do-not-localize/push.jpg">
+      </a>
+      <div>
+      <a href="../push/create-push.md"><strong> creeer dupberichten <strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../sms/create-sms.md">
+      <img alt="Validatie" src="../assets/do-not-localize/sms.jpg">
+      </a>
+      <div>
+      <a href="../sms/create-sms.md"><strong> creeer tekstberichten (SMS/MMS) </strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   * Leer de gedetailleerde stappen om uw binnenkomende actie tot stand te brengen als volgt:
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../in-app/create-in-app.md">
+      <img alt="Lood" src="../assets/do-not-localize/in-app.jpg">
+      </a>
+      <div><a href="../in-app/create-in-app.md"><strong> creeer in-app berichten </strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../web/create-web.md">
+      <img alt="Lood" src="../assets/do-not-localize/web-create.jpg">
+      </a>
+      <div><a href="../web/create-web.md"><strong> creeer Webervaringen </strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../content-card/create-content-card.md">
+      <img alt="Lood" src="../assets/do-not-localize/sms-config.jpg">
+      </a>
+      <div><a href="../content-card/create-content-card.md"><strong> creeer inhoudskaarten </strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../code-based/create-code-based.md">
+      <img alt="Onfrequent" src="../assets/do-not-localize/web-design.jpg">
+      </a>
+      <div>
+      <a href="../code-based/create-code-based.md"><strong> creeer op code-gebaseerde ervaringen <strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   >[!NOTE]
+   >
+   >* Elke binnenkomende ervaringsactie komt met een 3 dagen **wacht** activiteit. [Meer informatie](wait-activity.md#auto-wait-node)
+   >
+   >* Voor e-mails en pushmeldingen kunt u Send-Time optimaliseren inschakelen. [Meer informatie](send-time-optimization.md)
+
+1. Afhankelijk van de activiteit, kunt u geavanceerde parameters tonen specifiek voor het geselecteerde kanaal, en sommige standaardwaarden zoals het uitvoeringsadres met voeten treden. [Meer informatie](about-journey-activities.md#advanced-parameters)
+
+   >[!NOTE]
+   >
+   >Als de geavanceerde parameters verborgen zijn, klikt u op de knop **[!UICONTROL Show read-only fields]** boven in het rechterdeelvenster.
 
 1. Gebruik de sectie **[!UICONTROL Optimization]** om inhoudexperimenten uit te voeren, of hefboomwerking het richten van regels, of geavanceerde combinaties van zowel experimenteren als richten te gebruiken.
 
-   Deze verschillende opties en de te volgen stappen zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](../content-management/gs-message-optimization.md).
+   Deze verschillende opties en de te volgen stappen zijn gedetailleerd in [ deze sectie ](../content-management/gs-message-optimization.md).
 
 1. Gebruik de sectie **[!UICONTROL Languages]** om inhoud in meerdere talen te maken binnen de actie. Klik hiertoe op de knop **[!UICONTROL Add languages]** en selecteer de gewenste **[!UICONTROL Language settings]** .
 
-   De gedetailleerde informatie over hoe te opstelling en gebruik meertalige mogelijkheden zijn beschikbaar in [&#x200B; deze sectie &#x200B;](../content-management/multilingual-gs.md).
+   De gedetailleerde informatie over hoe te opstelling en gebruik meertalige mogelijkheden zijn beschikbaar in [ deze sectie ](../content-management/multilingual-gs.md).
 
 Afhankelijk van het geselecteerde communicatiekanaal zijn aanvullende instellingen beschikbaar. Vouw de onderstaande secties uit voor meer informatie.
 
@@ -100,9 +189,9 @@ De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer 
 
 Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd.
 
-Leer hoe te om Snelle leveringswijze voor de Duw berichten [&#x200B; op deze pagina &#x200B;](../push/create-push.md#rapid-delivery) toe te laten.
+Leer hoe te om Snelle leveringswijze voor de Duw berichten [ op deze pagina ](../push/create-push.md#rapid-delivery) toe te laten.
 
-Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [[!DNL Adobe Journey Optimizer]  productbeschrijving &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [[!DNL Adobe Journey Optimizer]  productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 +++
 
@@ -151,21 +240,21 @@ U kunt bijvoorbeeld een op code gebaseerde ervaring naar meerdere eindpunten met
 
 Volg de onderstaande stappen om meerdere binnenkomende acties in één knooppunt voor handelingen tijdens de rit te definiëren.
 
-1. Begin uw reis met een [&#x200B; Gebeurtenis &#x200B;](general-events.md) of a [&#x200B; gelezen activiteit van het publiek &#x200B;](read-audience.md).
+1. Begin uw reis met een [ Gebeurtenis ](general-events.md) of a [ gelezen activiteit van het publiek ](read-audience.md).
 
 1. Sleep vanuit de sectie **[!UICONTROL Actions]** van het palet een **[!UICONTROL Action]** -activiteit naar het canvas.
 
 1. Selecteer **[!UICONTROL Multi action]** als actietype.
 
-   ![&#x200B; Multi-actieactiviteit in vervoerpalet onder Orchestratie &#x200B;](assets/journey-multi-action.png)
+   ![ Multi-actieactiviteit in vervoerpalet onder Orchestratie ](assets/journey-multi-action.png)
 
 1. Voeg indien nodig een label toe en selecteer **[!UICONTROL Configure action]** .
 
-   ![&#x200B; Multi-actieconfiguratieruit met etiket en beschrijvingsgebieden &#x200B;](assets/journey-multi-action-configure.png){width="60%"}
+   ![ Multi-actieconfiguratieruit met etiket en beschrijvingsgebieden ](assets/journey-multi-action-configure.png){width="60%"}
 
 1. U wordt geleid aan het **[!UICONTROL Actions]** lusje van het de configuratiescherm van de reisactie.
 
-   ![&#x200B; multi-actieconfiguratie die lijst van uit te voeren acties toont &#x200B;](assets/journey-multi-action-configuration.png){width="70%"}
+   ![ multi-actieconfiguratie die lijst van uit te voeren acties toont ](assets/journey-multi-action-configuration.png){width="70%"}
 
 1. Selecteer een binnenkomende actie (**code-Gebaseerde ervaring**, **In-app bericht**, **Kaart van de Inhoud** of **Web**) van de **[!UICONTROL Actions]** sectie.
 
@@ -173,12 +262,37 @@ Volg de onderstaande stappen om meerdere binnenkomende acties in één knooppunt
 
 1. Gebruik de knop **[!UICONTROL Add action]** om een andere binnenkomende actie in de vervolgkeuzelijst te selecteren.
 
-   ![&#x200B; voeg actieknoop toe om extra acties in multi-actieactiviteit &#x200B;](assets/journey-multi-action-add.png){width="80%"} te omvatten
+   ![ voeg actieknoop toe om extra acties in multi-actieactiviteit ](assets/journey-multi-action-add.png){width="80%"} te omvatten
 
 1. Ga op dezelfde manier verder om meer acties toe te voegen. U kunt tot 10 binnenkomende acties in een groep van de reisactie toevoegen.
 
-Zodra de reis [&#x200B; &#x200B;](publish-journey.md) levend is, worden alle acties gelijktijdig geactiveerd.
-<!--
-## Next steps {#next}
+Zodra de reis [ ](publish-journey.md) levend is, worden alle acties gelijktijdig geactiveerd.
 
-Once your action is configured, you can design its content. [Learn more]-->
+## Live-inhoud bijwerken {#update-live-content}
+
+U kunt de inhoud van een ingebouwde kanaalactie tijdens een live reis bijwerken.
+
+Wijzigingen die u aanbrengt in de inhoud, worden pas tijdens de reis doorgevoerd als u de eigenschappen van de handeling opslaat. [Meer informatie](about-journey-activities.md#advanced-parameters)
+
+Om dit te doen, open uw levende reis, selecteer de kanaalactiviteit en klik **geef inhoud** uit.
+
+![ geeft de knoop van de kanaalactiviteit in levende reis uit ](assets/email-action-edit-content.png)
+
+U kunt de kenmerken die worden gebruikt in personalisatie echter niet wijzigen, ongeacht of het profielkenmerken of contextafhankelijke gegevens (van gebeurtenis- of reiseigenschappen) zijn.
+
+* Als u contextafhankelijke gegevens hebt gewijzigd, wordt het volgende foutbericht weergegeven: `ERR_AUTHORING_JOURNEYVERSION_201`
+
+* Als u profielkenmerken hebt gewijzigd, wordt het volgende foutbericht weergegeven: `ERR_AUTHORING_JOURNEYVERSION_202`
+
+Voor de activiteit in de app kunnen wijzigingen in de inhoud worden aangebracht terwijl de reis live is, maar triggers in de app kunnen niet worden gewijzigd.
+
+## Verzenden met aangepaste handelingen {#recommendation}
+
+In plaats van de ingebouwde berichtmogelijkheden te gebruiken, kunt u douaneacties gebruiken om verbinding van een derdesysteem te vormen om berichten of API vraag te verzenden.
+
+* Als u berichten verzendt met een systeem van derden, kunt u een aangepaste handeling maken. [Meer informatie](../action/action.md)
+
+* Raadpleeg de volgende secties als u met Adobe Campaign werkt:
+
+   * [[!DNL Journey Optimizer] en Campagne v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] en Campaign Standard](../action/acs-action.md)

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: d6a46a6db9bcef4def71e915389d725c69d851c3
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Klik hiertoe op **[!UICONTROL Simulate content]** en controleer het bericht met 
 
 ![](assets/sms_preview_2.png)
 
-De gedetailleerde informatie over hoe te voorproef &amp; test inhoud is beschikbaar in de [&#x200B; sectie van het Beheer van de Inhoud &#x200B;](../content-management/preview-test.md).
+De gedetailleerde informatie over hoe te voorproef &amp; test inhoud is beschikbaar in de [ sectie van het Beheer van de Inhoud ](../content-management/preview-test.md).
 
 ### Tekencodering en -beperkingen {#sms-character-limits}
 
@@ -41,7 +41,7 @@ Het aantal tekens weerspiegelt niet de variaties die zijn ontstaan door dynamisc
 >
 >Bij de rapportage van Journey Optimizer SMS-berichten wordt geen rekening gehouden met samengevoegde berichten en dynamische personalisatie, waardoor het mogelijk is dat het werkelijke aantal berichten dat door de provider wordt verzonden niet wordt weerspiegeld. Neem voor gedetailleerde informatie over gebruik en facturering contact op met uw Adobe-vertegenwoordiger.
 >
->Om beste praktijken te leren voor het minimaliseren van SMS het factureren overages, verwijs naar [&#x200B; Beste praktijken van SMS voor de Optimalisering van het Karakter &#x200B;](sms-cost-optimization.md).
+>Om beste praktijken te leren voor het minimaliseren van SMS het factureren overages, verwijs naar [ Beste praktijken van SMS voor de Optimalisering van het Karakter ](sms-cost-optimization.md).
 
 ## Uw inhoud valideren {#sms-validate}
 
@@ -69,11 +69,11 @@ De bevestiging berekent maximumlengte voor alle mogelijke profielgegevens, terwi
 >
 > Als uw campagne onderworpen is aan een goedkeuringsbeleid, zult u goedkeuring moeten vragen om uw tekstberichten te kunnen verzenden. [Meer informatie](../test-approve/gs-approval.md)
 
-Wanneer uw tekstbericht klaar is, voltooi de configuratie van uw [&#x200B; reis &#x200B;](../building-journeys/journey-gs.md) of [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md) om het te verzenden.
+Wanneer uw tekstbericht klaar is, voltooi de configuratie van uw [ reis ](../building-journeys/journey-gs.md) of [ campagne ](../campaigns/create-campaign.md) om het te verzenden.
 
 **Verwante onderwerpen**
 
 * [Sms-kanaal configureren](sms-configuration.md)
 * [SMS/MMS-rapporten](../reports/journey-global-report-cja-sms.md)
 * [Een tekstbericht maken](create-sms.md)
-* [Een bericht toevoegen tijdens een rit](../building-journeys/journeys-message.md)
+* [Een bericht toevoegen tijdens een rit](../building-journeys/journey-action.md)
