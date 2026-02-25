@@ -192,4 +192,4 @@ Zodra uw reis of campagnes zijn geactiveerd en uitgevoerd, kunt u het aantal pro
 
 Leer hoe u de functie voor stille uren in Adobe Journey Optimizer kunt gebruiken.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475858?captions=dut&quality=12)

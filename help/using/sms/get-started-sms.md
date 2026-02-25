@@ -202,7 +202,7 @@ Leer hoe u sms-berichten configureert, opstelt en opneemt in uw klantjourneys.
 
 +++Zie video
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428917?captions=dut&learn=on)
 
 +++
 
@@ -212,7 +212,7 @@ Ontdek de uitgebreide mogelijkheden voor mobiel berichtenverkeer die Adobe Journ
 
 +++Zie video
 
->[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430379?captions=dut&quality=12&learn=on)
 
 +++
 
@@ -222,7 +222,7 @@ Leer hoe u merkgebonden, interactieve RCS-berichten in Adobe Journey Optimizer c
 
 +++Zie video
 
->[!VIDEO](https://video.tv.adobe.com/v/3464755)
+>[!VIDEO](https://video.tv.adobe.com/v/3464761?captions=dut)
 
 +++
 
