@@ -33,7 +33,7 @@ Volg onderstaande stappen om uw webervaring op te bouwen via een campagne of een
 
 >[!NOTE]
 >
->Als dit uw eerste keer is creërend een Webervaring, zorg ervoor u de eerste vereisten volgt die in [ worden beschreven deze sectie ](web-prerequisites.md).
+>Als dit uw eerste keer is creërend een Webervaring, zorg ervoor u de eerste vereisten volgt die in [&#x200B; worden beschreven deze sectie &#x200B;](web-prerequisites.md).
 
 >[!BEGINTABS]
 
@@ -41,11 +41,11 @@ Volg onderstaande stappen om uw webervaring op te bouwen via een campagne of een
 
 Om de activiteit van het a **Web** aan een reis toe te voegen, volg deze stappen:
 
-1. [ creeer een reis ](../building-journeys/journey-gs.md).
+1. [&#x200B; creeer een reis &#x200B;](../building-journeys/journey-gs.md).
 
-1. Begin uw reis met een [ Gebeurtenis ](../building-journeys/general-events.md) of a [ gelezen activiteit van het publiek ](../building-journeys/read-audience.md).
+1. Begin uw reis met een [&#x200B; Gebeurtenis &#x200B;](../building-journeys/general-events.md) of a [&#x200B; gelezen activiteit van het publiek &#x200B;](../building-journeys/read-audience.md).
 
-1. Sleep een **[!UICONTROL Action]** -activiteit vanuit de **[!UICONTROL Actions]** -sectie van het palet. Leer meer over de [ activiteit van de Actie ](../building-journeys/journey-action.md).
+1. Sleep een **[!UICONTROL Action]** -activiteit vanuit de **[!UICONTROL Actions]** -sectie van het palet. Leer meer over de [&#x200B; activiteit van de Actie &#x200B;](../building-journeys/journey-action.md).
 
    >[!IMPORTANT]
    >
@@ -63,7 +63,7 @@ Om de activiteit van het a **Web** aan een reis toe te voegen, volg deze stappen
 
 1. Klik op de knop **[!UICONTROL Configure action]**.
 
-1. U wordt naar het tabblad **[!UICONTROL Actions]** geleid. Van daar, selecteer of creeer de [ configuratie van het Web ](web-configuration.md) aan gebruik.
+1. U wordt naar het tabblad **[!UICONTROL Actions]** geleid. Van daar, selecteer of creeer de [&#x200B; configuratie van het Web &#x200B;](web-configuration.md) aan gebruik.
 
    ![](assets/web-activity-configuration.png)
 
@@ -73,7 +73,7 @@ Om de activiteit van het a **Web** aan een reis toe te voegen, volg deze stappen
 
 1. Selecteer de knop **[!UICONTROL Edit content]** en bewerk de inhoud naar wens. [Meer informatie](#edit-web-content)
 
-Voor meer informatie over om een reis tot stand te brengen te vormen en te publiceren, verwijs naar [ deze pagina ](../building-journeys/journey-gs.md).
+Voor meer informatie over om een reis tot stand te brengen te vormen en te publiceren, verwijs naar [&#x200B; deze pagina &#x200B;](../building-journeys/journey-gs.md).
 
 >[!TAB  creeer een Webcampagne ]
 
@@ -85,13 +85,13 @@ Volg onderstaande stappen om uw webervaring op te bouwen via een campagne.
 
    * **Gepland - Op de markt brengend**: voer onmiddellijk de campagne of op een gespecificeerde datum uit. Geplande campagnes zijn gericht op het verzenden van marketingberichten. Zij worden gevormd en uitgevoerd van het gebruikersinterface.
 
-   * **API-teweeggebracht - Marketing/Transactioneel**: voer de campagne uit gebruikend een API vraag. API-getriggerde campagnes zijn gericht op het verzenden van marketingberichten of transactiemeldingen, d.w.z. berichten die worden verzonden na een actie van een individu: wachtwoordinstelling, winkelwagentje enz. [ Leer hoe te om een campagne teweeg te brengen gebruikend APIs ](../campaigns/api-triggered-campaigns.md)
+   * **API-teweeggebracht - Marketing/Transactioneel**: voer de campagne uit gebruikend een API vraag. API-getriggerde campagnes zijn gericht op het verzenden van marketingberichten of transactiemeldingen, d.w.z. berichten die worden verzonden na een actie van een individu: wachtwoordinstelling, winkelwagentje enz. [&#x200B; Leer hoe te om een campagne teweeg te brengen gebruikend APIs &#x200B;](../campaigns/api-triggered-campaigns.md)
 
-1. Voltooi de stappen om een Webcampagne, zoals de campagneeigenschappen, [ publiek ](../audience/about-audiences.md), en [ programma ](../campaigns/create-campaign.md#schedule) tot stand te brengen.
+1. Voltooi de stappen om een Webcampagne, zoals de campagneeigenschappen, [&#x200B; publiek &#x200B;](../audience/about-audiences.md), en [&#x200B; programma &#x200B;](../campaigns/create-campaign.md#schedule) tot stand te brengen.
 
 1. Selecteer de handeling **[!UICONTROL Web]** .
 
-1. Selecteer of maak de webconfiguratie. [ leer meer over Webconfiguratie ](web-configuration.md)
+1. Selecteer of maak de webconfiguratie. [&#x200B; leer meer over Webconfiguratie &#x200B;](web-configuration.md)
 
    ![](assets/web-campaign-steps.png)
 
@@ -99,9 +99,9 @@ Volg onderstaande stappen om uw webervaring op te bouwen via een campagne.
 
    <!--![](assets/web-campaign-edit-content.png)-->
 
-Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze pagina ](../campaigns/get-started-with-campaigns.md).
+Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../campaigns/get-started-with-campaigns.md).
 
-➡️ [ Leer hoe te om een Webcampagne in deze video ](#video) tot stand te brengen
+➡️ [&#x200B; Leer hoe te om een Webcampagne in deze video &#x200B;](#video) tot stand te brengen
 
 >[!ENDTABS]
 
@@ -119,10 +119,10 @@ Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze 
 >abstract="Voer de URL in van een specifieke webpagina die u wilt gebruiken voor het bewerken van de inhoud die wordt toegepast op alle pagina&#39;s die aan de regel voldoen. De webpagina moet worden geïmplementeerd met Adobe Experience Platform Web SDK."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Meer informatie"
 
-Zodra u [ een Webactie ](#create-web-experience) aan een reis of een campagne toevoegde, kunt u de inhoud van uw plaats uitgeven gebruikend of:
+Zodra u [&#x200B; een Webactie &#x200B;](#create-web-experience) aan een reis of een campagne toevoegde, kunt u de inhoud van uw plaats uitgeven gebruikend of:
 
-* de [ Webontwerper ](web-visual-editor.md), aan auteur uw ervaring gebruikend een visuele redacteur;
-* of de [ niet-visuele redacteur ](web-non-visual-editor.md).
+* de [&#x200B; Webontwerper &#x200B;](web-visual-editor.md), aan auteur uw ervaring gebruikend een visuele redacteur;
+* of de [&#x200B; niet-visuele redacteur &#x200B;](web-non-visual-editor.md).
 
 Volg onderstaande stappen om uw webervaring te ontwerpen.
 
@@ -147,7 +147,7 @@ Volg onderstaande stappen om uw webervaring te ontwerpen.
 >title="Een voorvertoning van uw webbeleving bekijken"
 >abstract="Bekijk een simulatie van hoe uw webervaring eruit zal zien."
 
-Zodra u [ uw Webervaring ](web-visual-editor.md) gebruikend de Webontwerper creeerde, kunt u testprofielen gebruiken om uw gewijzigde Web-pagina&#39;s voor te vertonen. Als u persoonlijke inhoud hebt ingevoegd, kunt u met behulp van de gegevens van het testprofiel controleren hoe deze inhoud wordt weergegeven.
+Zodra u [&#x200B; uw Webervaring &#x200B;](web-visual-editor.md) gebruikend de Webontwerper creeerde, kunt u testprofielen gebruiken om uw gewijzigde Web-pagina&#39;s voor te vertonen. Als u persoonlijke inhoud hebt ingevoegd, kunt u met behulp van de gegevens van het testprofiel controleren hoe deze inhoud wordt weergegeven.
 
 Om dit te doen, klik **[!UICONTROL Simulate content]** van of het reis of campagne geef inhoudsscherm uit, dan voeg een testprofiel toe om uw Web-pagina te controleren gebruikend de gegevens van het testprofiel.
 
@@ -159,7 +159,7 @@ U kunt de URL ook in de standaardbrowser openen of de test-URL kopiëren en in e
 >
 >Wanneer u de test-URL kopieert, wordt de inhoud weergegeven die is gepersonaliseerd voor het testprofiel dat wordt gebruikt toen de inhoudsimulatie werd gegenereerd in [!DNL Journey Optimizer] .
 
-De gedetailleerde informatie over hoe te om testprofielen en voorproef uw inhoud te selecteren is beschikbaar in de [ sectie van het Beheer van de Inhoud ](../content-management/preview-test.md).
+De gedetailleerde informatie over hoe te om testprofielen en voorproef uw inhoud te selecteren is beschikbaar in de [&#x200B; sectie van het Beheer van de Inhoud &#x200B;](../content-management/preview-test.md).
 
 ## Omleiden naar URL {#web-redirect-to-url}
 
@@ -170,7 +170,7 @@ De gedetailleerde informatie over hoe te om testprofielen en voorproef uw inhoud
 
 Wanneer u een webervaring maakt, kunt u bezoekers omleiden naar een andere bestaande URL in plaats van een nieuwe variatie in de webontwerper te ontwerpen.
 
-Gebruikend deze capaciteit, kunt u het experiment van de a [ Inhoud in werking stellen ](../content-management/content-experiment.md) vergelijkend twee verschillende ervaringen in plaats van enkel het veranderen van een paar elementen binnen een pagina.
+Gebruikend deze capaciteit, kunt u het experiment van de a [&#x200B; Inhoud in werking stellen &#x200B;](../content-management/content-experiment.md) vergelijkend twee verschillende ervaringen in plaats van enkel het veranderen van een paar elementen binnen een pagina.
 
 Maak bijvoorbeeld een webcampagne met twee behandelingen:
 
@@ -184,7 +184,7 @@ Maak bijvoorbeeld een webcampagne met twee behandelingen:
   >
   >De voorvertoning van de website wordt niet meer weergegeven en de schakelknop **[!UICONTROL Visual editor]** is uitgeschakeld.
 
-Zodra uw webcampagne live is, kunt u bijhouden hoe de webervaring die u in [!DNL Journey Optimizer] hebt geschreven, functioneert voor de bezoekers van uw pagina ten opzichte van de bezoekers van de externe bestemmingspagina. Leer hoe te met het [ experimenteren campagnerapport ](../reports/campaign-global-report-cja-experimentation.md)
+Zodra uw webcampagne live is, kunt u bijhouden hoe de webervaring die u in [!DNL Journey Optimizer] hebt geschreven, functioneert voor de bezoekers van uw pagina ten opzichte van de bezoekers van de externe bestemmingspagina. Leer hoe te met het [&#x200B; experimenteren campagnerapport &#x200B;](../reports/campaign-global-report-cja-experimentation.md)
 
 ## Uw webbeleving live maken {#web-experience-live}
 
@@ -214,7 +214,7 @@ Volg onderstaande stappen om uw webervaring live te laten gaan vanaf een reis.
 
    >[!NOTE]
    >
-   >Leer meer over het publiceren reizen in [ deze sectie ](../building-journeys/publish-journey.md).
+   >Leer meer over het publiceren reizen in [&#x200B; deze sectie &#x200B;](../building-journeys/publish-journey.md).
 
 Uw webreis heeft de status **[!UICONTROL Live]** en is nu alleen-lezen. Elke ontvanger van uw reis kan de wijzigingen zien u aan uw website toevoegde.
 
@@ -236,15 +236,15 @@ Nadat u de instellingen voor uw webcampagne hebt gedefinieerd en uw inhoud naar 
 
    >[!NOTE]
    >
-   >Leer meer over het activeren van campagnes in [ deze sectie ](../campaigns/review-activate-campaign.md).
+   >Leer meer over het activeren van campagnes in [&#x200B; deze sectie &#x200B;](../campaigns/review-activate-campaign.md).
 
-Uw Webcampagne neemt **[!UICONTROL Live]** [ status ](../campaigns/manage-campaigns.md#statuses) en is nu zichtbaar aan het geselecteerde publiek. Elke ontvanger van de campagne kan de wijzigingen zien die u aan uw website hebt toegevoegd.
+Uw Webcampagne neemt **[!UICONTROL Live]** [&#x200B; status &#x200B;](../campaigns/manage-campaigns.md#statuses) en is nu zichtbaar aan het geselecteerde publiek. Elke ontvanger van de campagne kan de wijzigingen zien die u aan uw website hebt toegevoegd.
 
 >[!NOTE]
 >
 >Nadat u op **[!UICONTROL Activate]** hebt geklikt, kan het maximaal 15 minuten duren voordat wijzigingen in webcampagnes live op uw website beschikbaar zijn.
 >
->Als u een programma voor uw Webcampagne bepaalde, heeft het de **[!UICONTROL Scheduled]** [ status ](../campaigns/manage-campaigns.md#statuses) tot de begindatum en de tijd worden bereikt.
+>Als u een programma voor uw Webcampagne bepaalde, heeft het de **[!UICONTROL Scheduled]** [&#x200B; status &#x200B;](../campaigns/manage-campaigns.md#statuses) tot de begindatum en de tijd worden bereikt.
 
 Zodra uw ervaring levend is, kunt u uw Webreizen en campagnes controleren. [Meer informatie](monitor-web-experiences.md)
 

@@ -42,11 +42,11 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
 ![](assets/content_experiment.png)
 
-➡️ Leer hoe te om inhoudexperimenten te gebruiken om besluiten met het op code-gebaseerde ervaringskanaal in [ te vergelijken dit gebruiksgeval ](../experience-decisioning/experience-decisioning-uc.md).
+➡️ Leer hoe te om inhoudexperimenten te gebruiken om besluiten met het op code-gebaseerde ervaringskanaal in [&#x200B; te vergelijken dit gebruiksgeval &#x200B;](../experience-decisioning/experience-decisioning-uc.md).
 
 ## Uw inhoud maken {#campaign-experiment}
 
-1. Begin door uw [ campagne ](../campaigns/create-campaign.md) of [ reis ](../building-journeys/journey-action.md) volgens uw vereisten te creëren en te vormen.
+1. Begin door uw [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md) of [&#x200B; reis &#x200B;](../building-journeys/journey-action.md) volgens uw vereisten te creëren en te vormen.
 
 1. Start vanuit het venster **[!UICONTROL Edit content]** de aanpassing A.
 
@@ -80,7 +80,7 @@ Bij het experimenteren met de inhoud kunt u kiezen uit drie typen experimenten:
 
 * **[!UICONTROL Bring your own Multi-armed bandit]**: verkeer dat tussen behandelingen wordt opgesplitst, wordt automatisch afgehandeld. U hebt de flexibiliteit om te bepalen wanneer en hoe het zou moeten veranderen door de Experiment APIs te gebruiken om toewijzingen in real time aan te passen.
 
-➡️ [ Leer meer op het verschil tussen A/B en Multi-gewapende bandit experimenten ](mab-vs-ab.md)
+➡️ [&#x200B; Leer meer op het verschil tussen A/B en Multi-gewapende bandit experimenten &#x200B;](mab-vs-ab.md)
 
 >[!BEGINTABS]
 
@@ -128,7 +128,7 @@ Bij het experimenteren met de inhoud kunt u kiezen uit drie typen experimenten:
 
    ![](assets/content_experiment_13.png)
 
-1. Laat het auto-schaalexperiment toe om de winnende variatie van uw experiment automatisch uit te rollen. [ Leer meer op hoe te om winnaar te schrapen ](#scale-winner)
+1. Laat het auto-schaalexperiment toe om de winnende variatie van uw experiment automatisch uit te rollen. [&#x200B; Leer meer op hoe te om winnaar te schrapen &#x200B;](#scale-winner)
 
    ![](assets/content_experiment_14.png)
 
