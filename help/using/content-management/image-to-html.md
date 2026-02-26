@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Afbeeldingen converteren naar HTML-sjablonen
-description: Leer hoe u met de AI-afbeelding naar HTML-converter afbeeldingsontwerpen omzet in bewerkbare HTML-e-mailsjablonen
+title: Afbeeldingen converteren naar sjablonen voor e-mailinhoud
+description: Leer hoe u met de AI-afbeelding naar HTML-converter afbeeldingsontwerpen omzet in bewerkbare sjablonen voor e-mailinhoud
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
@@ -10,28 +10,32 @@ level: Beginner
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: e-mail, sjabloon, afbeelding, HTML, AI, ontwerp, converter
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
-source-git-commit: e5b02fe84f00dec189d4002280e9a69b782cd91f
+source-git-commit: 30eb70f2a96223d7a948bdbd56ca9c002e954d0e
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1592'
 ht-degree: 0%
 
 ---
 
-# Afbeeldingen converteren naar HTML-sjablonen {#image-to-html}
+# Afbeeldingen converteren naar sjablonen voor e-mailinhoud {#image-to-html}
 
 >[!AVAILABILITY]
 >
 >Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
-Met [!DNL Journey Optimizer] kunt u het maken van e-mailberichten aanzienlijk versnellen door statische afbeeldingsontwerpen om te zetten in volledig aanpasbare, modulaire HTML-sjablonen voor e-mailinhoud.
+Met [!DNL Journey Optimizer] kunt u het maken van e-mail aanzienlijk versnellen door statische afbeeldingsontwerpen om te zetten in volledig aanpasbare, modulaire sjablonen voor e-mailinhoud.
 
-Door generatieve AI technologie leveraging, analyseert een geïntegreerd hulpmiddel de lay-out, typografie, kleuren, en visuele elementen in uw beeld en produceert schone, modulaire code van HTML die ontwerpwaarachtigheid terwijl het verzekeren van volledige editability met [&#x200B; e-mail Designer &#x200B;](../email/get-started-email-design.md) handhaaft.
+>[!NOTE]
+>
+>Deze functie is alleen beschikbaar voor het e-mailkanaal.
+
+Door generatieve AI technologie leveraging, analyseert een geïntegreerd hulpmiddel de lay-out, typografie, kleuren, en visuele elementen in uw beeld en produceert schone, modulaire inhoud van HTML die ontwerpwaarachtigheid terwijl het verzekeren van volledige editability met [ e-mail Designer ](../email/get-started-email-design.md) handhaaft.
 
 Dankzij deze codeerfunctie kunnen marketers visuele elementen van grafische ontwerpers of ontwerpgereedschappen transformeren in responsieve, bewerkbare e-mailsjablonen die kunnen worden opgeslagen en hergebruikt voor meerdere reizen en campagnes, zonder dat hiervoor technische expertise vereist is.
 
 De belangrijkste voordelen zijn:
 
-* **sneller dan hand-coderen** - de converter zet beelden in editable HTML in notulen, zodat kunt u het handtijdrovende mockup-aan-HTML werkschema overslaan.
+* **sneller dan hand-coderen** - de converter zet beelden in editable inhoud in notulen, zodat kunt u het handtijdrovende mockup-aan-HTML werkschema overslaan.
 * **Geen technische vaardigheden nodig** - de Marketers kunnen malplaatjes zonder ontwerp of ontwikkelingssteun produceren en aanpassen.
 * **herbruikbaar over campagnes** - sparen malplaatjes aan uw bibliotheek en gebruik hen in om het even welke reis of campagne.
 * **Talen waar aan het ontwerp** - de Output past uw lay-out en het stileren aan terwijl het zijn volledig compatibel met E-mail Designer.
@@ -53,27 +57,21 @@ De afbeelding naar HTML-converter is ideaal voor:
 
 ## Guardrails en aanbevelingen {#limitations}
 
-Houd rekening met de volgende beperkingen wanneer u afbeeldingen omzet in HTML-inhoudssjablonen.
+Houd rekening met de volgende beperkingen wanneer u afbeeldingen omzet in sjablonen voor e-mailinhoud.
 
-* **AI interpretatie**: AI produceert HTML die op visuele interpretatie van uw beeld wordt gebaseerd. Complexe of ongebruikelijke ontwerpen kunnen na conversie handmatig worden aangepast.
+* **AI interpretatie**: AI produceert statische inhoud van HTML die op visuele interpretatie van uw beeld wordt gebaseerd. Het biedt een sterk startpunt voor het maken van e-mails, maar moet worden gecontroleerd en verfijnd met de e-mail Designer om ervoor te zorgen dat deze precies aan uw vereisten voldoet. U dient na conversie indien nodig handmatig personalisatie, dynamische inhoud en tekstspatiëring toe te voegen.
 
 * **de nauwkeurigheid van de Tekst**: Terwijl AI probeert om tekst nauwkeurig te erkennen en te reproduceren, verifieer altijd tekstinhoud en maak correcties zoals nodig.
-
-* **Dynamische inhoud**: Het omzettingsproces leidt tot statische HTML die op uw beeld wordt gebaseerd. U moet na de conversie handmatig personalisatie, dynamische inhoud en tracering toevoegen.
 
 * **Complexe lay-outs**: De hoogst complexe ontwerpen met ingewikkelde het in lagen plaatsen, ongebruikelijke vormen, of niet-standaardelementen kunnen niet perfect omzetten. Eenvoudiger ontwerpen leveren over het algemeen betere resultaten op.
 
 * **Verwerkingstijd**: Het omzettingsproces kan tot 5 minuten afhankelijk van de ingewikkeldheid en de grootte van uw beeld vergen. De AI-verwerking vindt plaats op de achtergrond, zodat u aan andere taken kunt werken zonder het scherm open te houden. De sjabloon wordt automatisch als een concept opgeslagen zodra de conversie is voltooid.
 
-* **Beperkte Beschikbaarheid**: Als Beperkte eigenschap van de Beschikbaarheid, wordt het beeld aan de convertor van HTML onophoudelijk verbeterd. De functionaliteit en nauwkeurigheid kunnen variëren en uw feedback kan de functie verbeteren.
-
->[!NOTE]
->
->De afbeelding naar HTML-converter is ontworpen om een sterk startpunt te bieden voor het maken van e-mail. De gegenereerde HTML moet worden gereviseerd en verfijnd met de e-mail Designer om te controleren of deze aan uw exacte vereisten voldoet.
+* **Beperkte Beschikbaarheid**: Als Beperkte eigenschap van de Beschikbaarheid, wordt deze convertor onophoudelijk verbeterd. De functionaliteit en nauwkeurigheid kunnen variëren en uw feedback kan de functie verbeteren.
 
 ## Een afbeelding converteren naar een HTML-sjabloon {#convert-image}
 
-Volg onderstaande stappen om een afbeeldingsontwerp om te zetten in een volledig aanpasbare HTML-e-mailsjabloon.
+Volg onderstaande stappen om een afbeeldingsontwerp om te zetten in een volledig aanpasbare sjabloon voor e-mailinhoud.
 
 1. Zorg ervoor dat u een afbeeldingsbestand in JPEG- of PNG-indeling hebt dat uw e-mailontwerp bevat.
 
@@ -89,7 +87,7 @@ Volg onderstaande stappen om een afbeeldingsontwerp om te zetten in een volledig
 
 1. Voer in de sectie **[!UICONTROL Convert image to template]** de volgende stappen uit:
 
-   * (Optioneel) Als in uw organisatie merkthema&#39;s zijn gedefinieerd in Journey Optimizer, kunt u een thema als invoer selecteren zodat de gegenereerde HTML wordt opgemaakt volgens de themaparameters van uw merk. [&#x200B; leer meer over thema&#39;s &#x200B;](../email/apply-email-themes.md)
+   * (Optioneel) Als in uw organisatie merkthema&#39;s zijn gedefinieerd in Journey Optimizer, kunt u een thema als invoer selecteren zodat de gegenereerde HTML wordt opgemaakt volgens de themaparameters van uw merk. [ leer meer over thema&#39;s ](../email/apply-email-themes.md)
 
      Stijlen zoals achtergrondkleur, knopkleur, lettertypen, regelafstand, marges en opvulling worden toegepast op de gegenereerde sjabloon, waardoor extra ontwerpwerkzaamheden worden verminderd en een sjabloon wordt gemaakt die klaar is voor gebruik met minimale bewerkingen.
 
@@ -114,7 +112,7 @@ Volg onderstaande stappen om een afbeeldingsontwerp om te zetten in een volledig
 
    ![](../email/assets/email_designer_converted_img.png)
 
-1. Klik op **[!UICONTROL Edit email body]**. Het omgezette malplaatje opent in [&#x200B; E-mail Designer &#x200B;](../email/get-started-email-design.md) met volledige het uitgeven mogelijkheden. U kunt nu het volgende:
+1. Klik op **[!UICONTROL Edit email body]**. Het omgezette malplaatje opent in [ E-mail Designer ](../email/get-started-email-design.md) met volledige het uitgeven mogelijkheden. U kunt nu het volgende:
 
    * Tekstinhoud controleren, bewerken en personalisatie toepassen
    * Afbeeldingen wijzigen en koppelingen toevoegen
@@ -128,16 +126,16 @@ Volg onderstaande stappen om een afbeeldingsontwerp om te zetten in een volledig
 
 1. Klik op **[!UICONTROL Save]** als u tevreden bent met de sjabloon.
 
-Uw sjabloon is nu beschikbaar in de inhoudssjabloonbibliotheek en kan worden gebruikt bij het maken van e-mails tijdens reizen of campagnes. [&#x200B; leer hoe te om inhoudsmalplaatjes &#x200B;](../email/use-email-templates.md) te gebruiken
+Uw sjabloon is nu beschikbaar in de inhoudssjabloonbibliotheek en kan worden gebruikt bij het maken van e-mails tijdens reizen of campagnes. [ leer hoe te om inhoudsmalplaatjes ](../email/use-email-templates.md) te gebruiken
 
 ## Best practices {#best-practices}
 
-Volg deze aanbevelingen om optimale resultaten te bereiken bij het omzetten van afbeeldingen in HTML-inhoudssjablonen.
+Volg deze aanbevelingen om optimale resultaten te bereiken bij het converteren van afbeeldingen naar sjablonen voor e-mailinhoud.
 
 +++Voordat u begint
 
-* **sparen bestaande inhoud**: Het omzetten van een beeld in HTML zal al bestaande inhoud in uw e-mail vervangen. Sla uw huidige werk altijd op voordat u deze functie gebruikt.
-* **Plan uw werkschema**: Gebruik het beeld aan de omzetter van HTML aan het begin van uw e-mailverwezenlijking proces, of zorg ervoor u klaar bent om al huidige inhoud te vervangen.
+* **sparen bestaande inhoud**: Het omzetten van een beeld vervangt al bestaande inhoud in uw e-mailmalplaatje. Sla uw huidige werk altijd op voordat u deze functie gebruikt.
+* **Plan uw werkschema**: Gebruik deze eigenschap aan het begin van uw proces van de e-mailverwezenlijking, of zorg ervoor u klaar bent om al huidige inhoud te vervangen.
 
 +++
 
@@ -163,7 +161,7 @@ Volg deze aanbevelingen om optimale resultaten te bereiken bij het omzetten van 
 
 +++Na conversie
 
-* **herzie uw ontwerp**: Zodra de omzetting volledig is, wordt uw malplaatje automatisch bewaard als ontwerp. Neem de tijd om de gegenereerde HTML zorgvuldig te controleren op nauwkeurigheid
+* **herzie uw ontwerp**: Zodra de omzetting volledig is, wordt uw malplaatje automatisch bewaard als ontwerp. Neem de tijd om de gegenereerde inhoud zorgvuldig te controleren op nauwkeurigheid
 * **Test grondig**: Test e-mail over verschillende e-mailcliënten en apparaten
 * **verfijnen manueel**: Breng aanpassingen aan zoals nodig gebruikend de e-mail Designer volledige het uitgeven mogelijkheden
 * **Merk groepering**: Verifieer kleuren, doopvonten, en het stileren passen uw merkrichtlijnen aan
@@ -174,15 +172,15 @@ Volg deze aanbevelingen om optimale resultaten te bereiken bij het omzetten van 
 
 ## Veelgestelde vragen {#faq}
 
-+++Wat gebeurt er met mijn bestaande e-mailinhoud als ik de afbeelding gebruik voor HTML-converter?
++++Wat gebeurt er met mijn bestaande e-mailinhoud als ik een afbeelding omzet in een inhoudssjabloon?
 
-Alle bestaande inhoud in uw e-mail wordt verwijderd en vervangen door de nieuw gegenereerde sjabloon wanneer u een afbeelding uploadt voor conversie. Sla belangrijke inhoud op voordat u deze functie gebruikt. U kunt de afbeelding het beste naar HTML converter gebruiken aan het begin van het e-mailontwerpproces.
+Alle bestaande inhoud in uw e-mail wordt verwijderd en vervangen door de nieuw gegenereerde sjabloon wanneer u een afbeelding uploadt voor conversie. Sla belangrijke inhoud op voordat u deze functie gebruikt. U kunt deze functie het beste gebruiken aan het begin van het e-mailontwerpproces.
 
 +++
 
 +++Welke bestandsindelingen worden ondersteund?
 
-De afbeelding naar HTML-converter ondersteunt de afbeeldingsindelingen JPEG (.jpg, .jpeg) en PNG (.png).
+De converter ondersteunt de afbeeldingsindelingen JPEG (.jpg, .jpeg) en PNG (.png).
 
 +++
 
@@ -194,7 +192,7 @@ De conversie kan maximaal 5 minuten in beslag nemen, afhankelijk van de complexi
 
 +++Kan ik de gegenereerde sjabloon bewerken?
 
-Ja! De gegenereerde HTML-sjabloon wordt geopend in de E-mail Designer met alle bewerkingsmogelijkheden. U kunt alle aspecten van de sjabloon wijzigen, zoals tekst, afbeeldingen, opmaak, indeling en structuur.
+Ja! De gegenereerde inhoudssjabloon wordt geopend in de e-mail-Designer met volledige bewerkingsmogelijkheden. U kunt alle aspecten van de sjabloon wijzigen, zoals tekst, afbeeldingen, opmaak, indeling en structuur.
 
 +++
 
@@ -206,13 +204,13 @@ De AI doet zijn best om uw ontwerp nauwkeurig te interpreteren, maar wat handmat
 
 +++Kan ik deze functie gebruiken voor het landen van pagina&#39;s of andere inhoudstypen?
 
-De afbeelding naar HTML-converter is momenteel specifiek ontworpen voor e-mailsjablonen. Voor andere inhoudstypen gebruikt u de standaardopties voor ontwerp en importeren die beschikbaar zijn in de E-mail Designer.
+De afbeelding naar HTML-converter is momenteel specifiek ontworpen voor sjablonen voor e-mailinhoud. Voor andere inhoudstypen gebruikt u de standaardopties voor ontwerp en importeren die beschikbaar zijn in de E-mail Designer.
 
 +++
 
 +++Heb ik speciale toestemmingen nodig om deze eigenschap te gebruiken?
 
-De afbeelding naar HTML-converter is beschikbaar in Beperkte beschikbaarheid. U hebt beperkte toegang tot de Beschikbaarheid nodig (neem contact op met uw Adobe-vertegenwoordiger voor toegang) en standaard e-mailrechten voor Designer om deze functie te kunnen gebruiken.
+Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 +++
 
