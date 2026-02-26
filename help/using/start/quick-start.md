@@ -8,9 +8,9 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: d3765f66beff13aaf77cd585c5da5f93c44fa1df
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Een geslaagde Journey Optimizer-implementatie volgt doorgaans deze volgorde, die
    De beheerder vestigt de stichting door zandbakken te vormen, de controles van de opstellingstoegang, en kanaalconfiguraties voor te bereiden. Dit moet eerst gebeuren om andere teams in staat te stellen te werken.
    * Ontwikkeling-, staging- en productiesandboxen configureren
    * De rollen van de opstelling, toestemmingen, en voorwerp-vlakke toegangsbeheer (OLAC)
-   * Kanaalconfiguraties configureren (e-mail, SMS, push, in-app, web, inhoudskaarten)
+   * Kanaalconfiguraties configureren (e-mail, SMS, push, web push, in-app, web, direct mail, inhoudskaarten)
    * Subdomeinen delegeren en IP-pools instellen
    * Onderdrukkingslijsten en toestemmingsbeleid configureren
 
@@ -70,9 +70,10 @@ Een geslaagde Journey Optimizer-implementatie volgt doorgaans deze volgorde, die
 3. **Ontwikkelaar**: Implementeert technische integratie\
    Ontwikkelaars verbinden toepassingen met Journey Optimizer door SDK&#39;s te integreren, gebeurtenissen te verzenden en API-eindpunten te maken. Met deze implementaties kunnen reizen worden gestart en uitgevoerd.
    * Mobiele SDK (iOS/Android) integreren met instellingen voor pushmeldingen
-   * Web SDK voor webervaringen implementeren
+   * Web SDK voor webervaringen en webpushmeldingen implementeren
    * Gebeurtenissen verzenden vanuit toepassingen om reizen te activeren
    * Eindpunten voor aangepaste handelingen maken voor externe systeemintegratie
+   * Gezondheid en prestaties van aangepaste handelingen bewaken
    * Implementaties testen met Adobe Experience Platform Assurance
 
 4. **Marketer**: Ontwerpen en voeren klantenervaringen uit\
@@ -95,15 +96,16 @@ Als Markteur of Bedrijfs Praktijk, ontwerpt u klantenreizen om persoonlijke, con
 
 **Zeer belangrijke mogelijkheden u zult gebruiken:**
 
-* **Journey Orchestration**: Creeer in real time, één-aan-één klantenovereenkomst waar elke persoon zich bij hun eigen tempo beweegt, die door gedrag of gebeurtenissen over kanalen wordt teweeggebracht
-* **Organiseren van de Campagne**: Ontwerp en automatiseer complexe, multi-step partijcampagnes bij schaal gebruikend een visueel canvas. Ideaal voor campagnes met een merk, zoals seizoensgebonden promoties, productlanceringen en communicatie op basis van account. Gebruik segmentering van meerdere entiteiten om een exact publiek te maken door klantgegevens aan te sluiten bij verwante entiteiten (accounts, aankopen, boekingen)
+* **Journey Orchestration**: Creeer in real time, één-aan-één klantenovereenkomst waar elke persoon zich bij hun eigen tempo beweegt, die door gedrag of gebeurtenissen over kanalen wordt teweeggebracht. Gebruik de activiteit van de verenigde Actie voor alle kanaalacties, de activiteit van het besluit van de Inhoud om aanbiedingen in reizen te integreren, en Journey Agent om reizen van natuurlijke taalherinneringen tot stand te brengen
+* **Organiseren van de Campagne**: Ontwerp en automatiseer complexe, multi-step partijcampagnes bij schaal gebruikend een visueel canvas. Ideaal voor campagnes met een merk, zoals seizoensgebonden promoties, productlanceringen en communicatie op basis van account. Gebruik segmentering van meerdere entiteiten om een exact publiek te maken door klantgegevens aan te sluiten bij verwante entiteiten (accounts, aankopen, boekingen). De golfverzending van het gebruik om berichten in gecontroleerde partijen te leveren
 * **Moderne Designer van het Bericht**: Ontwerp en verpersoonseer e-mail en mobiele berichten met een belemmering-en-dalingsinterface. Buiten-de-doosmalplaatjes uitgeven om tijd aan markt te versnellen
-* **Beheer van het Besluit**: Creeer en beheer aanbiedingen, toelatingsregels, en andere componenten in een gecentraliseerde bibliotheek die in e-mail en klantenaanraakpunten kunnen worden ingebed
+* **Beheer van het Besluit**: Creeer en beheer aanbiedingen, toelatingsregels, en andere componenten in een gecentraliseerde bibliotheek die in e-mail en klantenaanraakpunten kunnen worden ingebed. Beslissing gebruiken voor personalisatie via push en SMS
 * **Beheer van Activa**: De Hoofdzaak van de Activa van de Manager van de Ervaring van de Toegang volledig ingebed in Journey Optimizer voor gestroomlijnde elemententoegang en levering
 * **Definitie van het publiek**: Bouw op bestelling publiek met onmiddellijke verfijning gebruikend relationele vragen, met pre-send zicht voor nauwkeurige publiekscijfers
 * **AI/ML de Diensten**: De optimalisering van de gebruiks verzendt-tijd en voorspelbare betrokkenheidsscores om high-value klanten te richten en kanaliseert kanonrisico
+* **Controle van de Levering**: De stille uren van het gebruik (op tijd-gebaseerde uitsluitingen) en conflictbeheer om klantenvoorkeur te respecteren en overmededeling te verhinderen
 
-**Begin met:** de gevalmalplaatjes en tovenaars van het Gebruik om nieuwe klantenreizen gemakkelijk tot stand te brengen en op te stellen.
+**Begin met:** de gevalmalplaatjes en tovenaars van het Gebruik om nieuwe klantenreizen gemakkelijk tot stand te brengen en op te stellen. Met Journey Agent kunt u reizen maken op basis van vragen over natuurlijke talen.
 
 [Aan de slag als een marketeter →](path/marketer.md)
 
@@ -135,8 +137,9 @@ Als beheerder stelt u de Journey Optimizer-omgeving zo in dat uw teams efficiën
 * **Beheer van de Gebruiker**: De groepen van de opstelling gebruikersgroepen en toestemmingen om toegang tot verschillende functionaliteit te controleren
 * **Opstelling van het Kanaal**: Vorm leveringskanalen en berichtvoorinstellingen om verenigbare branding over berichten en activa te verzekeren die door Journey Optimizer worden geleverd
 * **Veiligheid &amp; Governance**: Pas objecten-vlakke toegangscontrole (OLAC) toe, vorm toestemmingsbeleid, en voer gegevensbeleid uit
-* **Leverbaarheid**: De subdomeinen van de Delegatie, creeer IP pools, en beheer suppressielijsten en lijsten van gewenste personen
+* **Leverbaarheid**: De subdomeinen van de delegatie, migreer subdomeinen aan douanedelegatie wanneer nodig, creeer IP pools, en beheer suppressielijsten en lijsten van gewenste personen
 * **Configuratie van de Reis**: De elementen en de configuraties van de opstellingstraject voor uw teams
+* **Configuratie van het Kanaal**: Vorm Web-dupberichten, directe post, en berichtuitvoer (e-mail/SMS) wanneer vereist
 
 **Begin met:** vorm zandbakken en gebruikerstoestemmingen, dan opstelling uw eerste kanaalconfiguraties en berichtvoorinstellingen.
 
@@ -159,7 +162,7 @@ Implementeer technische integratie die Journey Optimizer verbindt met uw toepass
 
 **Begin met:** integreer Mobiele of SDK van het Web, dan voer uw eerste gebeurtenis uit om een reis teweeg te brengen.
 
-[&#x200B; krijgen Begonnen als Ontwikkelaar → &#x200B;](path/developer.md)
+[ krijgen Begonnen als Ontwikkelaar → ](path/developer.md)
 
 ## Cross-Role Collaboration
 
@@ -207,7 +210,7 @@ Succesvolle Journey Optimizer-implementaties vereisen samenwerking voor alle rol
 
 Bekijk de inleidende video voor meer informatie over sleutelmogelijkheden en persona&#39;s van Journey Optimizer. De video doorloopt de gebruikersinterface en markeert belangrijke eigenschappen die op rol-specifieke workflows worden gebaseerd.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430315?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Aanvullende bronnen
 
@@ -217,20 +220,20 @@ Verken de volgende bronnen voor diepgaander leren en updates:
 
 >[!TAB  het Leren &amp; Documentatie ]
 
-* [&#x200B; Video&#39;s van het Leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=nl-NL){target="_blank"} - geleidelijke videoleerprogramma&#39;s voor alle rollen
-* [&#x200B; de Gevallen van het Gebruik van de Reis Bibliotheek &#x200B;](../building-journeys/jo-use-cases.md) - Praktische voorbeelden en implementatiepatronen
-* [&#x200B; AI &amp; Intelligente Eigenschappen &#x200B;](ai-features.md) - leer over Medewerker AI, send-time optimalisering, en inhoudsgeneratie
-* [&#x200B; Gids van het Gebruikersinterface &#x200B;](user-interface.md) - navigeer effectief Journey Optimizer
+* [ Video&#39;s van het Leerprogramma ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html){target="_blank"} - geleidelijke videoleerprogramma&#39;s voor alle rollen
+* [ de Gevallen van het Gebruik van de Reis Bibliotheek ](../building-journeys/jo-use-cases.md) - Praktische voorbeelden en implementatiepatronen
+* [ AI &amp; Intelligente Eigenschappen ](ai-features.md) - leer over Medewerker AI, send-time optimalisering, en inhoudsgeneratie
+* [ Gids van het Gebruikersinterface ](user-interface.md) - navigeer effectief Journey Optimizer
 
 >[!TAB  blijven bijgewerkt ]
 
-* [&#x200B; Nota&#39;s van de Versie &#x200B;](../rn/release-notes.md) - de Meest recente eigenschappen, de verbeteringen, en moeilijke situaties
-* [&#x200B; Updates van de Documentatie &#x200B;](../rn/documentation-updates.md) - de recente documentatieveranderingen van het spoor
-* [&#x200B; Berichten van het Product &#x200B;](../rn/releases.md#staying-informed) - Leer hoe te aan e-mail en in-productalarm voor de updates van Journey Optimizer in te schrijven
+* [ Nota&#39;s van de Versie ](../rn/release-notes.md) - de Meest recente eigenschappen, de verbeteringen, en moeilijke situaties
+* [ Updates van de Documentatie ](../rn/documentation-updates.md) - de recente documentatieveranderingen van het spoor
+* [ Berichten van het Product ](../rn/releases.md#staying-informed) - Leer hoe te aan e-mail en in-productalarm voor de updates van Journey Optimizer in te schrijven
 
 >[!TAB  Gemeenschap &amp; Steun ]
 
-* [&#x200B; Gemeenschap van Experience League &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=nl){target="_blank"} - verbind met andere gebruikers en deskundigen
-* [&#x200B; Forum van het Product &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=nl){target="_blank"} - stel vragen en deel kennis
+* [ Gemeenschap van Experience League ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - verbind met andere gebruikers en deskundigen
+* [ Forum van het Product ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - stel vragen en deel kennis
 
 >[!ENDTABS]

@@ -7,52 +7,54 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 1%
+source-wordcount: '1030'
+ht-degree: 2%
 
 ---
 
 # Aan de slag voor systeembeheerders {#get-started-sys-admins}
 
-Als Beheerder van het a **Systeem**, plaatst u opstelling het milieu van Journey Optimizer en beheert toegang om uw teams toe te laten om efficiënt en veilig te werken. U voert essentiële configuratiestappen uit zodat de [&#x200B; Ingenieur van Gegevens &#x200B;](data-engineer.md), [&#x200B; Ontwikkelaar &#x200B;](developer.md), en [&#x200B; Marketer &#x200B;](marketer.md) kan beginnen met het werken met [!DNL Adobe Journey Optimizer].
+Als Beheerder van het a **Systeem**, plaatst u opstelling het milieu van Journey Optimizer en beheert toegang om uw teams toe te laten om efficiënt en veilig te werken. U voert essentiële configuratiestappen uit zodat de [ Ingenieur van Gegevens ](data-engineer.md), [ Ontwikkelaar ](developer.md), en [ Marketer ](marketer.md) kan beginnen met het werken met [!DNL Adobe Journey Optimizer].
 
 Uw primaire verantwoordelijkheden omvatten het instellen van gebruikersgroepen en machtigingen, het maken en beheren van sandboxen voor het partitioneren van gegevens en reizen voor verschillende gebruikersgroepen, en het configureren van leveringskanalen en voorinstellingen voor berichten om consistente branding te garanderen tussen de verschillende berichten en middelen die via Journey Optimizer worden geleverd. U zorgt ervoor dat de juiste mensen toegang hebben tot de juiste capaciteiten en tegelijkertijd de veiligheid en het bestuur behouden.
 
-Deze functies kunnen worden beheerd door **[!UICONTROL Product administrators]** die toegang hebben tot het product Machtigingen. [&#x200B; leer meer over Toestemmingen &#x200B;](../../administration/permissions.md){target="_blank"}.
+Deze functies kunnen worden beheerd door **[!UICONTROL Product administrators]** die toegang hebben tot het product Machtigingen. [ leer meer over Toestemmingen ](../../administration/permissions.md){target="_blank"}.
 
 ## Toegang en machtigingen instellen
 
 Voer de volgende stappen uit om toegangsbeheer te configureren:
 
-1. **creeer zandbakken** om uw instanties in afzonderlijke, geïsoleerde virtuele milieu&#39;s te verdelen. **Sandboxes** wordt gecreeerd in [!DNL Journey Optimizer]. Leer meer in de [&#x200B; zandbakken &#x200B;](../../administration/sandboxes.md) sectie.
+1. **creeer zandbakken** om uw instanties in afzonderlijke, geïsoleerde virtuele milieu&#39;s te verdelen. **Sandboxes** wordt gecreeerd in [!DNL Journey Optimizer]. Leer meer in de [ zandbakken ](../../administration/sandboxes.md) sectie.
 
    >[!NOTE]
-   >Als a **Beheerder van het Systeem**, als u niet het **[!UICONTROL Sandboxes]** menu in [!DNL Journey Optimizer] kunt zien, moet u uw toestemmingen bijwerken. Leer hoe te om uw rol op [&#x200B; bij te werken deze pagina &#x200B;](../../administration/permissions.md#edit-product-profile).
+   >Als a **Beheerder van het Systeem**, als u niet het **[!UICONTROL Sandboxes]** menu in [!DNL Journey Optimizer] kunt zien, moet u uw toestemmingen bijwerken. Leer hoe te om uw rol op [ bij te werken deze pagina ](../../administration/permissions.md#edit-product-profile).
 
-1. **begrijp rollen**. Rollen zijn een reeks eenheidrechten die gebruikers toegang tot bepaalde functies of objecten in de interface biedt. Leer meer in de [&#x200B; uit-van-de-doos rollen &#x200B;](../../administration/ootb-product-profiles.md) sectie.
+1. **begrijp rollen**. Rollen zijn een reeks eenheidrechten die gebruikers toegang tot bepaalde functies of objecten in de interface biedt. Leer meer in de [ uit-van-de-doos rollen ](../../administration/ootb-product-profiles.md) sectie.
 
-1. **plaats toestemmingen** voor rollen, met inbegrip van **Sandboxes**, en geef toegang tot uw teamleden door hen aan verschillende rollen toe te wijzen. Machtigingen zijn eenheidrechten waarmee u de machtigingen kunt definiëren die aan **[!UICONTROL Role]** zijn toegewezen. Elke toestemming wordt verzameld onder mogelijkheden, bijvoorbeeld Reis of Aanbiedingen, die de verschillende functionaliteiten of voorwerpen in [!DNL Journey Optimizer] vertegenwoordigen. Leer meer in de [&#x200B; niveaus van de Toestemming &#x200B;](../../administration/high-low-permissions.md) sectie.
+1. **plaats toestemmingen** voor rollen, met inbegrip van **Sandboxes**, en geef toegang tot uw teamleden door hen aan verschillende rollen toe te wijzen. Machtigingen zijn eenheidrechten waarmee u de machtigingen kunt definiëren die aan **[!UICONTROL Role]** zijn toegewezen. Elke toestemming wordt verzameld onder mogelijkheden, bijvoorbeeld Reis of Aanbiedingen, die de verschillende functionaliteiten of voorwerpen in [!DNL Journey Optimizer] vertegenwoordigen. Leer meer in de [ niveaus van de Toestemming ](../../administration/high-low-permissions.md) sectie.
 
-1. **voorwerp-vlakke toegangsbeheer van het Gebruik** (facultatief). Pas toegangsetiketten op voorwerpen zoals reizen, campagnes, en kanaalconfiguraties toe om te controleren welke gebruikers tot specifieke middelen kunnen toegang hebben. Leer meer over [&#x200B; voorwerp-vlakke toegangsbeheer (OLAC) &#x200B;](../../administration/object-based-access.md).
+1. **voorwerp-vlakke toegangsbeheer van het Gebruik** (facultatief). Pas toegangsetiketten op voorwerpen zoals reizen, campagnes, en kanaalconfiguraties toe om te controleren welke gebruikers tot specifieke middelen kunnen toegang hebben. Leer meer over [ voorwerp-vlakke toegangsbeheer (OLAC) ](../../administration/object-based-access.md).
 
-Bovendien moet u gebruikers toevoegen die toegang tot de Hoofdzaak van Activa aan de **Hoofdzaak van Activa Consumenten** of/en **de Gebruikers van de Hoofdzaak van Activa** rollen nodig hebben. [&#x200B; las meer in de documentatie van de Hoofdzaak van Activa &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=nl-NL){target="_blank"}.
+Bovendien moet u gebruikers toevoegen die toegang tot de Hoofdzaak van Activa aan de **Hoofdzaak van Activa Consumenten** of/en **de Gebruikers van de Hoofdzaak van Activa** rollen nodig hebben. [ las meer in de documentatie van de Hoofdzaak van Activa ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}.
 
 Wanneer u [!DNL Journey Optimizer] voor het eerst opent, beschikt u over een productiesandbox en kunt u een bepaald aantal IP&#39;s toewijzen, afhankelijk van uw contract.
 
 ## Kanalen en berichten configureren
 
-Om [&#x200B; Marketers &#x200B;](marketer.md) toe te laten om berichten tot stand te brengen en te verzenden, toegang tot het **BEHEERSings** menu. Blader in het menu **[!UICONTROL Channels]** om de kanaalinstellingen te configureren.
+Om [ Marketers ](marketer.md) toe te laten om berichten tot stand te brengen en te verzenden, toegang tot het **BEHEERSings** menu. Blader in het menu **[!UICONTROL Channels]** om de kanaalinstellingen te configureren.
 
 >[!NOTE]
->Als Beheerder van het a **Systeem**, als u niet het **[!UICONTROL Channels]** menu in [!DNL Journey Optimizer] kunt zien, werk uw toestemmingen in het [&#x200B; &#x200B;](../../administration/permissions.md){target="_blank"} product van Toestemmingen bij.
+>Als Beheerder van het a **Systeem**, als u niet het **[!UICONTROL Channels]** menu in [!DNL Journey Optimizer] kunt zien, werk uw toestemmingen in het [ ](../../administration/permissions.md){target="_blank"} product van Toestemmingen bij.
 
 Voer de volgende stappen uit:
 
-1. **de configuraties van het het kanaalconfiguratie van de Opstelling**. Definieer alle technische parameters die vereist zijn voor e-mail, SMS, pushberichten en andere kanalen:
+1. **de configuraties van het het kanaalconfiguratie van de Opstelling**. Definieer alle technische parameters die vereist zijn voor e-mail, SMS, pushberichten, webpush, direct mail en andere kanalen:
 
    * Bepaal **montages van het duw- bericht** in zowel [!DNL Adobe Experience Platform] als de Inzameling van Gegevens van Adobe Experience Platform. [Meer informatie](../../push/push-gs.md)
+
+   * Vorm **Web-dupberichten** om berichten aan mobiele en Desktopbrowsers te leveren. [Meer informatie](../../push/push-configuration-web.md)
 
    * Creeer **kanaalconfiguraties** om alle technische parameters te vormen die voor e-mail, SMS, duw, in-app, Web, en andere kanalen worden vereist. [Meer informatie](../../configuration/channel-surfaces.md)
 
@@ -60,7 +62,9 @@ Voer de volgende stappen uit:
 
    * Beheer het aantal dagen waarin **opnieuw probeert** alvorens e-mailadressen naar de onderdrukkingslijst te verzenden wordt uitgevoerd. [Meer informatie](../../configuration/manage-suppression-list.md)
 
-1. **Afgevaardigde subdomeinen**: voor om het even welk nieuw subdomain dat in Journey Optimizer moet worden gebruikt, zal de eerste stap het moeten afvaardigen. [Meer informatie](../../configuration/about-subdomain-delegation.md)
+   * Laat **berichtuitvoer** op het niveau van de kanaalconfiguratie toe om verzonden e-mail en inhoud van SMS te archiveren wanneer vereist (toe:voegen-op het aanbieden). [Meer informatie](../../configuration/message-export.md)
+
+1. **Afgevaardigde subdomeinen**: voor om het even welk nieuw subdomain dat in Journey Optimizer moet worden gebruikt, zal de eerste stap het moeten afvaardigen. [Meer informatie](../../configuration/about-subdomain-delegation.md). U kunt subdomeinen van CNAME aan douanedelegatie migreren wanneer nodig. [Meer informatie](../../configuration/custom-subdomain-migration.md)
 
    ![](../assets/subdomain.png)
 
@@ -70,13 +74,13 @@ Voer de volgende stappen uit:
 
 1. **beheert de onderdrukking en de lijsten van gewenste personen**: verbeter uw leveringsbaarheid met onderdrukking en lijsten van gewenste personen
 
-   * A [&#x200B; suppressielijst &#x200B;](../../reports/suppression-list.md) bestaat uit e-mailadressen die u van uw leveringen wilt uitsluiten, omdat het verzenden naar deze contacten uw verzendende reputatie en leveringspercentages zou kunnen kwetsen. U kunt alle e-mailadressen controleren die automatisch van het verzenden in een reis, zoals ongeldige adressen worden uitgesloten, adressen die constant elektronische stuiteren, en uw e-mailreputatie, en ontvangers die een spamklacht van één of andere soort tegen één van uw e-mailberichten negatief zouden kunnen beïnvloeden. Leer hoe te om de [&#x200B; suppressielijst &#x200B;](../../configuration/manage-suppression-list.md) te beheren en [&#x200B; opnieuw probeert &#x200B;](../../configuration/retries.md).
+   * A [ suppressielijst ](../../reports/suppression-list.md) bestaat uit e-mailadressen die u van uw leveringen wilt uitsluiten, omdat het verzenden naar deze contacten uw verzendende reputatie en leveringspercentages zou kunnen kwetsen. U kunt alle e-mailadressen controleren die automatisch van het verzenden in een reis, zoals ongeldige adressen worden uitgesloten, adressen die constant elektronische stuiteren, en uw e-mailreputatie, en ontvangers die een spamklacht van één of andere soort tegen één van uw e-mailberichten negatief zouden kunnen beïnvloeden. Leer hoe te om de [ suppressielijst ](../../configuration/manage-suppression-list.md) te beheren en [ opnieuw probeert ](../../configuration/retries.md).
 
    ![](../assets/suppression-list-filtering-example.png)
 
-   * De [&#x200B; lijst van gewenste personen &#x200B;](../../configuration/allow-list.md) laat u toe om individuele e-mailadressen of domeinen te specificeren die de enige ontvangers of domeinen zullen zijn die worden gemachtigd om de e-mails te ontvangen u van een specifieke zandbak verzendt. Dit kan voorkomen dat u per ongeluk e-mailberichten naar de adressen van de echte klant stuurt wanneer u zich in een testomgeving bevindt. Leer hoe te [&#x200B; om de lijst van gewenste personen &#x200B;](../../configuration/allow-list.md) toe te laten.
+   * De [ lijst van gewenste personen ](../../configuration/allow-list.md) laat u toe om individuele e-mailadressen of domeinen te specificeren die de enige ontvangers of domeinen zullen zijn die worden gemachtigd om de e-mails te ontvangen u van een specifieke zandbak verzendt. Dit kan voorkomen dat u per ongeluk e-mailberichten naar de adressen van de echte klant stuurt wanneer u zich in een testomgeving bevindt. Leer hoe te [ om de lijst van gewenste personen ](../../configuration/allow-list.md) toe te laten.
 
-   Leer meer over leveringsbaarheidsbeheer in [!DNL Adobe Journey Optimizer] [&#x200B; op deze pagina &#x200B;](../../reports/deliverability.md).
+   Leer meer over leveringsbaarheidsbeheer in [!DNL Adobe Journey Optimizer] [ op deze pagina ](../../reports/deliverability.md).
 
 ## Aanvullende mogelijkheden
 
@@ -88,6 +92,8 @@ Naarmate de behoeften van uw organisatie toenemen, dient u rekening te houden me
 
 * **IP warmup plannen**: Verhoog geleidelijk het verzenden van e-mail volumes om afzenderreputatie met e-mailleveranciers te bouwen. [Meer informatie](../../configuration/ip-warmup-gs.md)
 
+* **Stil uren**: Vorm regelreeksen voor op tijd-gebaseerde uitsluitingen wanneer de berichten niet tijdens specifieke periodes zouden moeten worden verzonden. [Meer informatie](../../conflict-prioritization/quiet-hours.md)
+
 ## Samenwerken in verschillende rollen
 
 Met uw administratieve werk kunnen alle teams slagen:
@@ -96,16 +102,16 @@ Met uw administratieve werk kunnen alle teams slagen:
 
 >[!TAB  de Ingenieurs van Gegevens van de Steun ]
 
-Werk met [&#x200B; Ingenieurs van Gegevens &#x200B;](data-engineer.md) op gegevensbeheer en toegang samen:
+Werk met [ Ingenieurs van Gegevens ](data-engineer.md) op gegevensbeheer en toegang samen:
 
 * Rechten verlenen voor gegevensbeheer en het maken van schema&#39;s
 * Toegang tot sandbox goedkeuren voor ontwikkeling en testen
 * Coördinatie van het beleid inzake gegevensbewaring en de voorschriften inzake bestuur
 * Toegang tot geavanceerde functies zoals Federatieve Audience Composition inschakelen
 
->[!TAB laat Ontwikkelaars  toe]
+>[!TAB  laat Ontwikkelaars ] toe
 
-Werk met [&#x200B; Ontwikkelaars &#x200B;](developer.md) op API toegang en het testen samen:
+Werk met [ Ontwikkelaars ](developer.md) op API toegang en het testen samen:
 
 * API-referenties opgeven via Adobe Developer Console
 * Sandboxomgevingen instellen voor ontwikkeling en testen
@@ -114,7 +120,7 @@ Werk met [&#x200B; Ontwikkelaars &#x200B;](developer.md) op API toegang en het t
 
 >[!TAB  Empower Marketers ]
 
-Werk met [&#x200B; Marketers &#x200B;](marketer.md) op toestemmingen en kanaalopstelling samen:
+Werk met [ Marketers ](marketer.md) op toestemmingen en kanaalopstelling samen:
 
 * Wijs de juiste machtigingen toe om reizen en campagnes te maken
 * Kanalen configureren die ze zullen gebruiken (e-mail, push, SMS, enz.)
