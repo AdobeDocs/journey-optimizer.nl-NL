@@ -81,9 +81,9 @@ Voor systeemeigen mobiele app-personalisatie met gebruik van op code gebaseerde 
 
 Voor web-based implementaties, is het Web SDK uw belangrijkste integratiepunt:
 
-1. **installeer het Web SDK**: Volg de [&#x200B; de implementatiegids van SDK van het Web &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} aan opstelling SDK op uw website.
+1. **installeer het Web SDK**: Volg de [&#x200B; de implementatiegids van SDK van het Web &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=nl-NL){target="_blank"} aan opstelling SDK op uw website.
 
-1. **vorm gegevensstromen**: creeer en vorm een gegevensstroom in [!DNL Adobe Experience Platform Data Collection] met toegelaten Journey Optimizer. Leer meer in de [&#x200B; documentatie van gegevensstromen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target="_blank"}.
+1. **vorm gegevensstromen**: creeer en vorm een gegevensstroom in [!DNL Adobe Experience Platform Data Collection] met toegelaten Journey Optimizer. Leer meer in de [&#x200B; documentatie van gegevensstromen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=nl-NL){target="_blank"}.
 
 1. **laat Web-dupberichten** (facultatief) toe: De duw- berichten van het Web zijn nu over het algemeen beschikbaar. Vorm het [&#x200B; pushNotifications bezit &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"} in uw configuratie van SDK van het Web en gebruik het [&#x200B; sendPushSubscription bevel &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} om pushabonnementen te registreren. [&#x200B; leer over Web duw configuratie &#x200B;](../../push/push-configuration-web.md).
 
@@ -193,7 +193,7 @@ Journey Optimizer biedt uitgebreide REST API&#39;s voor programmatische toegang:
 
 ## Testen en fouten opsporen {#testing}
 
-1. **zuivert de implementatie van SDK**: Gebruik Adobe Experience Platform Assurance om de gebeurtenissen van SDK te inspecteren, gegevensinzameling te bevestigen, en integratiekwesties in real time problemen op te lossen. [&#x200B; leer meer over Assurance &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
+1. **zuivert de implementatie van SDK**: Gebruik Adobe Experience Platform Assurance om de gebeurtenissen van SDK te inspecteren, gegevensinzameling te bevestigen, en integratiekwesties in real time problemen op te lossen. [&#x200B; leer meer over Assurance &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=nl-NL){target="_blank"}.
 
 1. **de gebeurtenislevering van de Test**: Verifieer dat de gebeurtenissen van uw toepassing correct door Adobe Experience Platform worden ontvangen en reizen zoals verwacht teweegbrengen. De opname van gebeurtenissen controleren en de ladingsstructuur valideren.
 
@@ -237,7 +237,7 @@ Implementeer het beleid voor gegevensbeheer en instemming in uw integratie:
 
 * **Developer Console**: Heb toegang tot [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com){target="_blank"} om integratie tot stand te brengen en API geloofsbrieven te beheren.
 * **code van de Steekproef**: Onderzoek [&#x200B; steekproefimplementaties op GitHub &#x200B;](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"}.
-* **video&#39;s van het Leerprogramma**: Leer door hands-on leerprogramma&#39;s op [&#x200B; Experience League &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html){target="_blank"}.
+* **video&#39;s van het Leerprogramma**: Leer door hands-on leerprogramma&#39;s op [&#x200B; Experience League &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=nl-NL){target="_blank"}.
 * **de gemeenschap van de Ontwikkelaar**: Verbind met andere ontwikkelaars en krijg steun in de de communautaire forums van Adobe.
 
 ## Samenwerken in verschillende rollen {#next-steps}
