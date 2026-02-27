@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Campagnerapport
+title: Rapport Campagne Live-activiteit
 description: Meer informatie over het gebruik van live-activiteitsgegevens in het campagnerapport
 feature: Reporting
 topic: Content Management
@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 58034ec4-62dc-406c-99c4-d6b7aa107140
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 17f86c33f56b9855fa1d0f959aac8740ff2c2c2a
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,11 @@ De tabel **[!UICONTROL Sending Statistics]** bevat een gedetailleerd overzicht v
 
 * **[!UICONTROL Targeted]**: Aantal profielen dat in aanmerking kwam voor het publiek voordat uitsluitingen, onderdrukkingen of toestemmingsverwijderingen werden toegepast.
 
-* **[!UICONTROL Sends]**: Het totale aantal actieve activiteiten dat is geprobeerd naar de doelprofielen te verzenden.
+* **[!UICONTROL Sends]**: Het totale aantal gebeurtenissen met betrekking tot live activiteiten dat naar doelprofielen is verzonden.
 
-* **[!UICONTROL Delivered]**: Aantal live-activiteiten dat correct aan apparaten is geleverd, in verhouding tot het totale aantal pogingen dat is gedaan.
+* **[!UICONTROL Delivered]**: Aantal gebeurtenissen met live-activiteit dat aan apparaten is geleverd, in verhouding tot het totale aantal pogingen dat is gedaan.
 
-* **[!UICONTROL Send errors]**: Het totale aantal actieve activiteiten dat niet kan worden verzonden vanwege fouten (bijvoorbeeld ongeldige tokens of connectiviteitsproblemen).
+* **[!UICONTROL Send errors]**: Het totale aantal gebeurtenissen met betrekking tot live activiteiten dat niet kan worden verzonden vanwege fouten (bijvoorbeeld ongeldige tokens of connectiviteitsproblemen).
 
 * **[!UICONTROL Send exclusions]**: aantal profielen dat door Adobe Journey Optimizer is uitgesloten van verzending (bijvoorbeeld vanwege de status van niet-deelname of de subsidiabiliteitsregels).
 
@@ -79,7 +79,7 @@ Voor de Transactionele campagne, toont het Levende campagnerapport van de Activi
 
 Marketingcampagnes gebruiken Live-activiteit voor het gebruik van uitzendingen, waarbij updates tegelijkertijd naar meerdere apparaten worden verzonden.
 
-Voor iOS Live-activiteiten in marketingcampagnes geeft het rapport alleen **[!UICONTROL Remote Starts]** -gebeurtenissen en **[!UICONTROL Remote starts errors]** aan het begin weer. **[!UICONTROL Updates]** - en **[!UICONTROL Ends]** -gebeurtenissen worden niet bijgehouden, omdat APNs updates naar alle apparaten distribueert zonder feedback te geven. Om **[!UICONTROL Updates]** en **[!UICONTROL Ends]** gebeurtenissen te bekijken, gebruik [&#x200B; de console van het Bericht van de Duw van Apple &#x200B;](https://developer.apple.com/notifications/push-notifications-console/).
+Voor iOS Live-activiteiten in marketingcampagnes geeft het rapport alleen **[!UICONTROL Remote Starts]** -gebeurtenissen en **[!UICONTROL Remote starts errors]** aan het begin weer. **[!UICONTROL Updates]** - en **[!UICONTROL Ends]** -gebeurtenissen worden niet bijgehouden, omdat APNs updates naar alle apparaten distribueert zonder feedback te geven. Om **[!UICONTROL Updates]** en **[!UICONTROL Ends]** gebeurtenissen te bekijken, gebruik [ de console van het Bericht van de Duw van Apple ](https://developer.apple.com/notifications/push-notifications-console/).
 
 +++ Meer informatie over levenscyclusmetriek tijdens de levenscyclus van live activiteiten met marketingcampagnes
 
