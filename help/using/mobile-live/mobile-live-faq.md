@@ -8,25 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1746'
 ht-degree: 0%
 
 ---
 
 # Veelgestelde vragen {#mobile-live-faq}
-
->[!BEGINSHADEBOX]
-
-* [Aan de slag met Live-activiteiten](get-started-mobile-live.md)
-* [Live activity-configuratie](mobile-live-configuration.md)
-* [Integratie van live-activiteiten met Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)
-* [Live-activiteiten maken](create-mobile-live.md)
-* **[Veelgestelde vragen](mobile-live-faq.md)**
-* [Rapport voor live-activiteitencampagne](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 ## Algemene vragen
 
@@ -76,7 +66,7 @@ Apple beperkt Levende Activiteiten tot **8 uren van actieve updates**. Na dat, b
 +++Moet ik een afzonderlijke widgetextensie maken voor Live-activiteiten?
 
 Ja. Live-activiteiten worden weergegeven via WidgetKit, dus u moet een widgetextensie maken in uw Xcode-project en `ActivityConfiguration` implementeren.
-[&#x200B; leer meer over configuratie Widget &#x200B;](mobile-live-configuration-sdk.md)
+[ leer meer over configuratie Widget ](mobile-live-configuration-sdk.md)
 
 +++
 
@@ -123,6 +113,24 @@ Ja. `ActivityConfiguration` heeft afzonderlijke sluitingen voor de inhoud van he
 Nee. Wanneer u een Actieve Type van Activiteit bij `Messaging.registerLiveActivity()` registreert, verzamelt en beheert SDK automatisch duptokens voor u.
 +++
 
++++Zijn er grenzen aan het op afstand starten van live activiteiten?
+
+Ja. Externe start via `ActivityKit` zijn onderworpen aan door het systeem opgelegde beperkingen. Als u snel na elkaar probeert meerdere beginaanvragen te starten, kan iOS verdere start weigeren vanwege quota voor Live-activiteit of budgetbeperkingen. Na ongeveer 5 opeenvolgende beginpogingen, beginnen de verdere verzoeken mislukt tot een korte afkoelingsperiode voorbijgaat.
+
++++
+
++++Wat is het budget voor updates met hoge prioriteit?
+
+Apple geeft geen exact numeriek maximum op voor `(priority: 10)` Live Activity-updates met hoge prioriteit. Het systeem handhaaft een dynamisch intern budget dat beperkt hoe vaak dergelijke updates kunnen worden verzonden. Als er te veel updates met hoge prioriteit worden uitgegeven in een korte periode, kan iOS de daaropvolgende updates vertragen of vertragen.
+
+Vertraging minimaliseren:
+
+* **prioritaire niveaus van het Saldo**: Combineer zowel standaard `(priority: 5)` als hoge `(priority: 10)` updates afhankelijk van belang.
+* **Hoge prioriteit van het Gebruik spaarzaam**: Reserve hoge prioriteit voor tijd-kritieke updates, zoals leveringsvooruitgang, ordestatus, of levende sportscores.
+* **de frequente updates van de Steun**: omvatten `NSSupportsLiveActivitiesFrequentUpdates` in uw app `Info.plist` en plaatsen het aan **JA** als u frequente updates nodig hebt.
+
++++
+
 ### Marktvragen
 
 +++Kan ik de inhoud van Live Activiteit voor elke gebruiker in een uitzendingscampagne personaliseren?
@@ -132,7 +140,7 @@ De campagnes van de uitzending verzenden de zelfde inhoud naar alle gebruikers i
 
 +++Hoe weet ik of mijn Live Activiteit succesvol is uitgevoerd?
 
-[&#x200B; controleert uw campagneanalytica &#x200B;](../reports/campaign-global-report-cja-activity.md) in Adobe Journey Optimizer. U kunt de leveringssnelheden, mislukkingen, en betrokkenheidsmetriek volgen. Overweeg ook aangepaste analytische gebeurtenissen in uw app te implementeren.
+[ controleert uw campagneanalytica ](../reports/campaign-global-report-cja-activity.md) in Adobe Journey Optimizer. U kunt de leveringssnelheden, mislukkingen, en betrokkenheidsmetriek volgen. Overweeg ook aangepaste analytische gebeurtenissen in uw app te implementeren.
 +++
 
 +++Kan ik live-activiteiten vooraf plannen?
@@ -142,7 +150,7 @@ De API-aanroep activeert de Live activiteit direct. U kunt uw API-aanroepen echt
 
 +++Wat gebeurt er als ik een &quot;start&quot;-gebeurtenis verzend voor een Live Activity die al bestaat?
 
-Bij het op afstand starten van Live-activiteiten via de API&#39;s voor uitvoering van Adobe:
+Bij het op afstand starten van Live Activiteiten via API&#39;s voor Adobe-uitvoering:
 
 * U kunt een header `x-request-id` in uw aanvraag opnemen. In het ideale geval moet elke `liveActivityID` een-op-een relatie hebben met de bijbehorende `x-request-id` . Dit zorgt ervoor dat als er meerdere aanvragen worden ingediend met dezelfde combinatie `x-request-id` en `liveActivityID` , er slechts één Live-activiteit wordt gestart op het apparaat en dubbele aanvragen worden genegeerd.
 
@@ -203,7 +211,7 @@ Nee. Elke API-aanvraag moet een uniek bestand `requestId` hebben om te zorgen vo
 
 +++Welke verificatie is vereist voor de Headless API?
 
-Verwijs naar [&#x200B; API teweeggebrachte Documentatie van Campagnes &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) voor authentificatievereisten, met inbegrip van tokens OAuth en API sleutels.
+Verwijs naar [ API teweeggebrachte Documentatie van Campagnes ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) voor authentificatievereisten, met inbegrip van tokens OAuth en API sleutels.
 
 +++
 
@@ -235,12 +243,13 @@ Vaak voorkomende oorzaken:
 * `content-state` -velden komen niet overeen met uw `ContentState` struct.
 * De Live activiteit is al beëindigd.
 * De connectiviteitskwesties van het netwerk op het apparaat.
+* De tijdperktijd die als tijdstempel wordt gebruikt, is niet up-to-date.
 
 +++
 
 +++Het veld `attributes-type` wordt niet herkend. Wat moet ik controleren?
 
-* Verzeker de klassennaam precies **&#x200B;**&#x200B;(case-sensitive) met uw Swift struct naam aanpast
+* Verzeker de klassennaam precies **** (case-sensitive) met uw Swift struct naam aanpast
 * Controleren of de structuur correct is gedefinieerd en geregistreerd
 * Controleren op typos in de JSON-payload
 * Bevestig dat de versie van de app is geïnstalleerd met de implementatie van Live activiteit

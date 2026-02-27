@@ -8,26 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+exl-id: c9766603-df19-4efd-8319-27e9764254b4
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 1%
+source-wordcount: '250'
+ht-degree: 0%
 
 ---
 
-
 # Aan de slag met Live-activiteiten {#get-started-mobile-live}
-
->[!BEGINSHADEBOX]
-
-* **[worden begonnen met Levende activiteit](get-started-mobile-live.md)**
-* [Live activity-configuratie](mobile-live-configuration.md)
-* [Integratie van live-activiteiten met Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)
-* [Live-activiteiten maken](create-mobile-live.md)
-* [Veelgestelde vragen](mobile-live-faq.md)
-* [Rapport voor live-activiteitencampagne](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -67,7 +56,3 @@ Voer de onderstaande stappen uit om Live-activiteiten in uw toepassing te config
 1. **[Spoor uw campagnes](../reports/campaign-global-report-cja-activity.md)**
 
    Begin de impact van uw Live-activiteiten te meten met ingebouwde rapporten.
-
-
-
-

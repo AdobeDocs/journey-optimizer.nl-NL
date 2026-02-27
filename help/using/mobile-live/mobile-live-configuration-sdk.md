@@ -8,27 +8,16 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
 
-
 # Integratie van live-activiteiten met Adobe Experience Platform Mobile SDK {#mobile-live-config-sdk}
 
->[!BEGINSHADEBOX]
-
-* [Aan de slag met Live-activiteiten](get-started-mobile-live.md)
-* [Live activity-configuratie](mobile-live-configuration.md)
-* **[Levende integratie van de Activiteit met Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)**
-* [Live-activiteiten maken](create-mobile-live.md)
-* [Veelgestelde vragen](mobile-live-faq.md)
-* [Rapport voor live-activiteitencampagne](../reports/campaign-global-report-cja-activity.md)
-
-
->[!ENDSHADEBOX]
 
 De Adobe Experience Platform Mobile SDK biedt ingebouwde ondersteuning voor Apple Live-activiteiten. Hierdoor kan uw app realtime, dynamische updates rechtstreeks weergeven op het Lock Screen en Dynamic Island zonder de app te openen.
 
@@ -36,7 +25,7 @@ De Adobe Experience Platform Mobile SDK biedt ingebouwde ondersteuning voor Appl
 
    Importeer de volgende modules: **[!DNL AEPMessaging]**, **[!DNL AEPMessagingLiveActivity]**, **[!DNL ActivityKit]** .
 
-1. [&#x200B; bepalen attributen &#x200B;](#attributes)
+1. [ bepalen attributen ](#attributes)
 
    Omgaan met `LiveActivityAttributes` , neemt u de kenmerken `LiveActivityData` en a `ContentState` op.
 
@@ -242,5 +231,3 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
     }
 }
 ```
-
-

@@ -8,25 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: bfd36dddb5795cd8b6eeb164f70b6cf3fdcb5750
+exl-id: 9864a136-e129-4279-bb09-081b72f584df
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 1%
+source-wordcount: '358'
+ht-degree: 0%
 
 ---
 
 # Live-activiteiten maken {#create-mobile-live}
-
->[!BEGINSHADEBOX]
-
-* [Aan de slag met Live-activiteiten](get-started-mobile-live.md)
-* [Live activity-configuratie](mobile-live-configuration.md)
-* [Integratie van live-activiteiten met Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)
-* **[creeer een Levende activiteit](create-mobile-live.md)**
-* [Veelgestelde vragen](mobile-live-faq.md)
-* [Rapport voor live-activiteitencampagne](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 Nadat u uw mobiele configuratie hebt geconfigureerd en uw mobiele Adobe Experience Platform SDK hebt geïmplementeerd, kunt u uw Live-activiteiten starten in Journey Optimizer:
 
@@ -48,15 +38,19 @@ Nadat u uw mobiele configuratie hebt geconfigureerd en uw mobiele Adobe Experien
 
 1. Kies **[!UICONTROL Actions]** in de sectie **[!UICONTROL Live activity]** en selecteer of maak een nieuwe configuratie.
 
-   Leer meer over Levende activiteitenconfiguratie op [&#x200B; deze pagina &#x200B;](mobile-live-configuration.md).
+   Leer meer over Levende activiteitenconfiguratie op [ deze pagina ](mobile-live-configuration.md).
 
    ![](assets/create-live-2.png)
 
 1. Klik op **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren en behandelingen te maken om de prestaties te meten en de beste optie voor uw doelgroep te identificeren. [Meer informatie](../content-management/content-experiment.md)
 
-1. Van het **[!UICONTROL Audience]** lusje, kies uw **[!UICONTROL Identity type]** [&#x200B; Leer meer &#x200B;](../audience/about-audiences.md).
+1. Van het **[!UICONTROL Audience]** lusje, kies uw **[!UICONTROL Identity type]** [ Leer meer ](../audience/about-audiences.md).
 
-1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [&#x200B; te vormen deze sectie &#x200B;](../campaigns/create-campaign.md#schedule).
+   >[!NOTE]
+   >
+   >Voor **API-teweeggebrachte marketing** campagnes, kunt u een bestaand publiek selecteren dat als eerste segmentatie alvorens het abonnement van APNs channelID van de API nuttige lading te controleren dienst doet.
+
+1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [ te vormen deze sectie ](../campaigns/create-campaign.md#schedule).
 
 1. Klik na configuratie op **[!UICONTROL Review to activate]** en klik vervolgens op **[!UICONTROL Activate]** .
 
@@ -64,13 +58,13 @@ Nadat u uw mobiele configuratie hebt geconfigureerd en uw mobiele Adobe Experien
 
    Zorg ervoor dat u ook de **[!UICONTROL Campaign ID]** -id&#39;s kopieert en in de lading opneemt.
 
-   ➡️ Verwijs naar de [&#x200B; API Verplaatste Documentatie van Campagnes &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) voor authentificatievereisten, met inbegrip van tokens OAuth en API sleutels.
+   ➡️ Verwijs naar de [ API Verplaatste Documentatie van Campagnes ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) voor authentificatievereisten, met inbegrip van tokens OAuth en API sleutels.
 
    ![](assets/create-live-3.png)
 
-   +++ Voorbeeld van een individuele lading
+   +++ Voorbeeld van een Payload for Unitary use cases (door de API geïnitieerde Transactionele campagne)
 
-   De meeste velden in het volgende voorbeeld zijn verplicht, alleen `requestId` , `dismissal-date` en `alert` zijn optioneel.
+   Dit nuttige ladingsvoorbeeld is voor individuele campagnes gebruikend **API-teweeggebrachte Transactionele** campagneretype. De meeste velden in het volgende voorbeeld zijn verplicht, alleen `requestId` , `dismissal-date` en `alert` zijn optioneel.
 
    ```json
    {
@@ -116,4 +110,53 @@ Nadat u uw mobiele configuratie hebt geconfigureerd en uw mobiele Adobe Experien
 
    +++
 
-Na het ontwerpen van uw Levende activiteit, kunt u het meten van het effect van uw Levende activiteit met [&#x200B; ingebouwde rapporten &#x200B;](../reports/campaign-global-report-cja-activity.md) volgen.
+   +++ Voorbeeld van een Payload for Broadcast-gebruiksscenario (API-geactiveerde marketingcampagne)
+
+   Dit payload voorbeeld is voor op publiek-gebaseerde campagnes gebruikend **API-teweeggebrachte marketing** campagneretype.
+
+   ```json
+   {
+       "requestId": "123400000",
+       "campaignId": "d32e6f6c-56df-4a98-a2c0-6db6008f8f32",
+       "audience": {
+           "id": "508f9416-52d0-4898-ba47-08baaa22e9c7"
+       },
+       "context": {
+           "requestPayload": {
+               "aps": {
+                   "input-push-channel": "V+8UslywEfAAAOq9SbTrLg==",  //apns-channel-id
+                   "content-available": 1,
+                   "timestamp": 1770808339,
+                   "event": "update",   // start | update | end
+   
+                   // Fields from GameScoreLiveActivityAttributes
+                   "content-state": {
+                       "homeTeamScore": 33,
+                       "awayTeamScore": 49,
+                       "statusText": "Wingdom keeps scoring!"
+                   },
+                   "attributes-type": "GameScoreLiveActivityAttributes",
+                   "attributes": {
+                       "liveActivityData": {
+                           "channelID": "V+8UslywEfAAAOq9SbTrLg=="   //apns-channel-id, must match the "input-push-channel" value
+                       }
+                   },
+                   "alert": {
+                       "title": "This is the title for game",
+                       "body": "This is the body for body"
+                   }
+               }
+           }
+       }
+   }
+   ```
+
+   +++
+
+Na het ontwerpen van uw Levende activiteit, kunt u het meten van het effect van uw Levende activiteit met [ ingebouwde rapporten ](../reports/campaign-global-report-cja-activity.md) volgen.
+
+## Hoe kan ik-video
+
+Ontdek hoe u iOS Live-activiteiten kunt configureren met Adobe Journey Optimizer om geavanceerde realtime updates te leveren op het iPhone Lock Screen en Dynamic Island.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

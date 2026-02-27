@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 58034ec4-62dc-406c-99c4-d6b7aa107140
-source-git-commit: 7983480646eb49f32716cda19001ef7b9a95ba82
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -49,21 +49,43 @@ De tabel **[!UICONTROL Sending Statistics]** bevat een gedetailleerd overzicht v
 
 ## Levende levenscyclus van activiteiten {#lifecycle}
 
-![](assets/activity-lifecycle.png)
-
 De tabel **[!UICONTROL Live activity lifecycle]** biedt een uitgebreide weergave van de voortgang van uw Live-activiteiten in de loop van de tijd. Het biedt zichtbaarheid in belangrijke gebeurtenissen, zoals wanneer activiteiten worden gestart, bijgewerkt of beëindigd, zodat u een beter inzicht hebt in de betrokkenheid van gebruikers en in de algemene levenscyclus van uw Live-activiteitencampagnes.
 
-+++ Meer informatie over levenscyclusmetriek van Live-activiteit
+De rapportage is afhankelijk van of u transactiecampagnes of marketingcampagnes gebruikt.
 
-* **[!UICONTROL Remote starts]**: Aantal Live-activiteiten dat extern wordt gestart, doorgaans geactiveerd door de server of het back-end systeem.
+### Transactionele Live-activiteiten
 
-* **[!UICONTROL Local starts]**: Het aantal Live-activiteiten dat lokaal op het apparaat van een gebruiker is gestart, is vaak het gevolg van gebruikersinteractie of triggers aan de clientzijde.
+![](assets/activity-lifecycle.png)
 
-**[!UICONTROL Updates]**: Het totale aantal updates van Live-activiteit dat naar apparaten wordt verzonden. Updates kunnen statuswijzigingen, nieuwe inhoud of voortgangsmeldingen bevatten.
+Voor de Transactionele campagne, toont het Levende campagnerapport van Activiteiten alle levenscyclusgebeurtenissen met inbegrip van verre begin, lokale begin, updates, en einden.
 
-**[!UICONTROL Ends]**: Aantal Live-activiteiten dat is beëindigd, automatisch na voltooiing of handmatig via een gedefinieerde trigger of time-out.
++++ Meer informatie over levenscyclusmetriek van Live-activiteit met Transactiecampagnes
 
-**[!UICONTROL Totals count]**: totaal van alle Live activity life-levenscyclusgebeurtenissen, inclusief het starten, bijwerken en beëindigen van de levenscyclus, voor een volledige maat van het volume van de live activiteit.
+* **[!UICONTROL Remote starts]**: Het totale aantal Live-activiteiten start gebeurtenissen die op afstand worden gestart, doorgaans geactiveerd door de server of de back-endsystemen.
+
+* **[!UICONTROL Local starts]**: Het totale aantal Live-activiteiten start gebeurtenissen die lokaal op het apparaat van de gebruiker worden gestart, vaak als gevolg van gebruikersinteractie of triggers aan de clientzijde.
+
+* **[!UICONTROL Updates]**: Het totale aantal updates van Live-activiteit dat naar apparaten wordt verzonden. Updates kunnen statuswijzigingen, nieuwe inhoud of voortgangsmeldingen bevatten.
+
+* **[!UICONTROL Ends]**: Het totale aantal Live-activiteiten dat naar apparaten wordt verzonden.
+
+* **[!UICONTROL Totals count]**: totaal van alle Live activity life-levenscyclusgebeurtenissen, inclusief het starten, bijwerken en beëindigen van de levenscyclus, voor een volledige maat van het volume van de live activiteit.
+
++++
+
+### Handelsactiviteiten
+
+![](assets/activity-lifecycle-broadcast.png)
+
+Marketingcampagnes gebruiken Live-activiteiten voor het gebruik van uitzendingen, waarbij updates tegelijkertijd naar meerdere apparaten worden verzonden.
+
+Voor iOS Live-activiteiten in marketingcampagnes geeft het rapport alleen **[!UICONTROL Remote Starts]** -gebeurtenissen en **[!UICONTROL Remote starts errors]** aan het begin weer. **[!UICONTROL Updates]** - en **[!UICONTROL Ends]** -gebeurtenissen worden niet bijgehouden, omdat APNs updates naar alle apparaten distribueert zonder feedback te geven. Om **[!UICONTROL Updates]** en **[!UICONTROL Ends]** gebeurtenissen te bekijken, gebruik [ de console van het Bericht van de Duw van Apple ](https://developer.apple.com/notifications/push-notifications-console/).
+
++++ Meer informatie over levenscyclusmetriek tijdens de levenscyclus van live activiteiten met marketingcampagnes
+
+* **[!UICONTROL Remote starts]**: Het totale aantal Live-activiteiten start gebeurtenissen die op afstand worden gestart, doorgaans geactiveerd door de server of de back-endsystemen.
+
+* **[!UICONTROL Remote starts errors]**: Het totale aantal fouten dat is opgetreden bij een poging om Live-activiteiten op afstand te starten (bijvoorbeeld ongeldige tokens of connectiviteitsproblemen).
 
 +++
 
