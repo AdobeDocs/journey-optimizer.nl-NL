@@ -31,7 +31,7 @@ Als u profielgegevens wilt vastleggen met uw [!DNL Journey Optimizer] -bestemmin
 >id="ajo_lp_form_connection"
 >title="Selecteer het te gebruiken eindpunt"
 >abstract="Definieer het streamingeindpunt waar gegevens worden verzonden bij het verzenden van het formulier."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Een HTTP API-streamingverbinding maken"
+>additional-url="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Een HTTP API-streamingverbinding maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ Voer de onderstaande stappen uit om een formuliervoorinstelling te maken.
 
 1. Selecteer de **[!UICONTROL Streaming connection]** die u voor dat formulier wilt gebruiken. Dit is het streamingeindpunt waar gegevens worden verzonden bij het verzenden van het formulier.
 
-   Leer meer bij het creëren van een het stromen bronverbinding in de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   Leer meer bij het creëren van een het stromen bronverbinding in de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
    >[!IMPORTANT]
    >
@@ -78,7 +78,7 @@ Voer de onderstaande stappen uit om een formuliervoorinstelling te maken.
    >* **het type van Gegevens** moet aan **XDM** (niet Ruwe gegevens) worden geplaatst
    >* **Authentificatie** moet **&#x200B;**&#x200B;(niet-voor authentiek verklaarde verbinding) worden onbruikbaar gemaakt
    >
-   >Als de streamingverbinding niet in de lijst wordt weergegeven, controleert u of aan beide voorwaarden is voldaan. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Als de streamingverbinding niet in de lijst wordt weergegeven, controleert u of aan beide voorwaarden is voldaan. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Selecteer een **[!UICONTROL Dataset]** die u aan het formulier wilt koppelen. Hier worden de reacties op het formulier opgeslagen en weergegeven. U kunt typen om een specifieke dataset te zoeken of het van de lijst te selecteren.
 
@@ -102,7 +102,7 @@ Alle bestaande formulieren worden weergegeven. U kunt formulieren filteren op ba
 >id="ajo_lp_form_preset"
 >title="Een voorinstelling selecteren"
 >abstract="Kies een vooraf gedefinieerde voorinstelling die de te gebruiken verbinding en een vooraf gedefinieerde gegevensset voor uw formulier bevat."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Een formuliervoorinstelling maken"
+>additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Een formuliervoorinstelling maken"
 
 Voer de onderstaande stappen uit om een formulier te maken.
 
