@@ -159,4 +159,4 @@ Na het ontwerpen van uw Levende activiteit, kunt u het meten van het effect van 
 
 Ontdek hoe u iOS Live-activiteiten met Adobe Journey Optimizer configureert voor geavanceerde realtime updates op het iPhone Lock Screen en Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479864)
+>[!VIDEO](https://video.tv.adobe.com/v/3479870?captions=dut)
