@@ -25,7 +25,7 @@ Bijvoorbeeld, als markator voor een handelsmerk, runt u een flitsverkoop 48 uur.
 * Ontvangers die 24 uur later openen, zien &quot;23 uur resterend&quot;
 * Ontvangers die na afloop van de verkoop openen, zien &quot;Uitverkoop beëindigd&quot;
 
-Voor meer informatie over hoe te om uw Dynamische Media in de manager van de Ervaring van Adobe tot stand te brengen, verwijs [ naar dit document ](assets/do-not-localize/countdown.pdf).
+Voor meer informatie over hoe te om uw Dynamische Media in de manager van de Ervaring van Adobe tot stand te brengen, verwijs [&#x200B; naar dit document &#x200B;](assets/do-not-localize/countdown.pdf).
 
 
 1. Maak in **[!DNL Adobe Experience Manager]** een sjabloon voor dynamische media en voeg er een component voor afteltimer aan toe.
