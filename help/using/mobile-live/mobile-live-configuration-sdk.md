@@ -25,7 +25,7 @@ De Adobe Experience Platform Mobile SDK biedt ingebouwde ondersteuning voor Appl
 
    Importeer de volgende modules: **[!DNL AEPMessaging]**, **[!DNL AEPMessagingLiveActivity]**, **[!DNL ActivityKit]** .
 
-1. [ bepalen attributen ](#attributes)
+1. [&#x200B; bepalen attributen &#x200B;](#attributes)
 
    Omgaan met `LiveActivityAttributes` , neemt u de kenmerken `LiveActivityData` en a `ContentState` op.
 
