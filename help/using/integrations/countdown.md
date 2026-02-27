@@ -8,7 +8,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 1b0b2b5aa8c5b4ea0a101583ee1132574996bd98
+source-git-commit: 707bc4053ee05c275b562e35227e54836e91fa27
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Bijvoorbeeld, als markator voor een handelsmerk, runt u een flitsverkoop 48 uur.
 * Ontvangers die 24 uur later openen, zien &quot;23 uur resterend&quot;
 * Ontvangers die na afloop van de verkoop openen, zien &quot;Uitverkoop beëindigd&quot;
 
-Voor meer informatie over hoe te om uw Dynamische Media in de manager van de Ervaring van Adobe tot stand te brengen, verwijs [&#x200B; naar dit document &#x200B;](assets/do-not-localize/Dynamic%20Media%20Templates.pdf).
+Voor meer informatie over hoe te om uw Dynamische Media in de manager van de Ervaring van Adobe tot stand te brengen, verwijs [ naar dit document ](assets/do-not-localize/countdown.pdf).
 
 
 1. Maak in **[!DNL Adobe Experience Manager]** een sjabloon voor dynamische media en voeg er een component voor afteltimer aan toe.
