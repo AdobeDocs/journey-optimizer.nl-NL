@@ -9,7 +9,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
@@ -38,27 +38,27 @@ Nadat u uw mobiele configuratie hebt geconfigureerd en uw mobiele Adobe Experien
 
 1. Kies **[!UICONTROL Actions]** in de sectie **[!UICONTROL Live activity]** en selecteer of maak een nieuwe configuratie.
 
-   Leer meer over Levende activiteitenconfiguratie op [&#x200B; deze pagina &#x200B;](mobile-live-configuration.md).
+   Leer meer over Levende activiteitenconfiguratie op [ deze pagina ](mobile-live-configuration.md).
 
    ![](assets/create-live-2.png)
 
 1. Klik op **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren en behandelingen te maken om de prestaties te meten en de beste optie voor uw doelgroep te identificeren. [Meer informatie](../content-management/content-experiment.md)
 
-1. Van het **[!UICONTROL Audience]** lusje, kies uw **[!UICONTROL Identity type]** [&#x200B; Leer meer &#x200B;](../audience/about-audiences.md).
+1. Van het **[!UICONTROL Audience]** lusje, kies uw **[!UICONTROL Identity type]** [ Leer meer ](../audience/about-audiences.md).
 
    >[!NOTE]
    >
    >Voor **API-teweeggebrachte marketing** campagnes, kunt u een bestaand publiek selecteren dat als eerste segmentatie alvorens het abonnement van APNs channelID van de API nuttige lading te controleren dienst doet.
 
-1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [&#x200B; te vormen deze sectie &#x200B;](../campaigns/create-campaign.md#schedule).
+1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [ te vormen deze sectie ](../campaigns/create-campaign.md#schedule).
 
 1. Klik na configuratie op **[!UICONTROL Review to activate]** en klik vervolgens op **[!UICONTROL Activate]** .
 
-1. Nadat de campagne wordt geactiveerd, gebruik het verstrekte **cURL- verzoek** als malplaatje om het Levende begin van de Activiteit, update, of eindgebeurtenissen teweeg te brengen. Werk de voorbeeldlading vóór uitvoering bij met uw specifieke gegevens.
+1. Nadat de campagne wordt geactiveerd, gebruik het verstrekte **cURL- verzoek** als malplaatje om Levende activiteitenbegin, update, of eindgebeurtenissen teweeg te brengen. Werk de voorbeeldlading vóór uitvoering bij met uw specifieke gegevens.
 
    Zorg ervoor dat u ook de **[!UICONTROL Campaign ID]** -id&#39;s kopieert en in de lading opneemt.
 
-   ➡️ Verwijs naar de [&#x200B; API Verplaatste Documentatie van Campagnes &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) voor authentificatievereisten, met inbegrip van tokens OAuth en API sleutels.
+   ➡️ Verwijs naar de [ API Verplaatste Documentatie van Campagnes ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) voor authentificatievereisten, met inbegrip van tokens OAuth en API sleutels.
 
    ![](assets/create-live-3.png)
 
@@ -153,10 +153,10 @@ Nadat u uw mobiele configuratie hebt geconfigureerd en uw mobiele Adobe Experien
 
    +++
 
-Na het ontwerpen van uw Levende activiteit, kunt u het meten van het effect van uw Levende activiteit met [&#x200B; ingebouwde rapporten &#x200B;](../reports/campaign-global-report-cja-activity.md) volgen.
+Na het ontwerpen van uw Levende activiteit, kunt u het meten van het effect van uw Levende activiteit met [ ingebouwde rapporten ](../reports/campaign-global-report-cja-activity.md) volgen.
 
 ## Hoe kan ik-video
 
-Ontdek hoe u iOS Live-activiteiten kunt configureren met Adobe Journey Optimizer om geavanceerde realtime updates te leveren op het iPhone Lock Screen en Dynamic Island.
+Ontdek hoe u iOS Live-activiteiten met Adobe Journey Optimizer configureert voor geavanceerde realtime updates op het iPhone Lock Screen en Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479870?captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

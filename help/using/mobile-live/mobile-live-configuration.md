@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '468'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Voordat u uw Live-activiteit kunt verzenden, moet u de Adobe Journey Optimizer-o
 
 De registratie van de pushreferenties voor de mobiele app is vereist om Adobe te machtigen pushberichten namens u te verzenden.
 
-Stap 1 is optioneel als uw pushgegevens al zijn geconfigureerd, omdat deze opnieuw kunnen worden gebruikt voor de configuratie van het kanaal Live activiteit. Als er geen referenties zijn gedefinieerd, moet u nieuwe pushreferenties voor uw app maken. Raadpleeg de onderstaande stappen:
+Stap 1 is optioneel als uw pushgegevens al zijn geconfigureerd, omdat deze opnieuw kunnen worden gebruikt voor de configuratie van het Live-activiteitenkanaal. Als er geen referenties zijn gedefinieerd, moet u nieuwe pushreferenties voor uw app maken. Raadpleeg de onderstaande stappen:
 
 1. Open het menu **[!UICONTROL Channels]** > **[!UICONTROL Push settings]** > **[!UICONTROL Push credentials]**.
 
@@ -56,7 +56,7 @@ Stap 1 is optioneel als uw pushgegevens al zijn geconfigureerd, omdat deze opnie
 
    ![](assets/config-1.png)
 
-1. Voer een naam en beschrijving (optioneel) voor de configuratie in en selecteer vervolgens het WhatsApp-kanaal.
+1. Voer een naam en een beschrijving (optioneel) voor de configuratie in en selecteer vervolgens het kanaal voor Live-activiteit.
 
    >[!NOTE]
    >
@@ -70,7 +70,7 @@ Stap 1 is optioneel als uw pushgegevens al zijn geconfigureerd, omdat deze opnie
 
 1. Kies iOS als uw **[!UICONTROL Platform]** .
 
-1. Selecteer van drop-down het zelfde **[!UICONTROL App id]** zoals voor uw [&#x200B; hierboven gevormde duw credentie &#x200B;](#push-credentials-launch) of kies bestaande.
+1. Selecteer van drop-down het zelfde **[!UICONTROL App id]** zoals voor uw [ hierboven gevormde duw credentie ](#push-credentials-launch) of kies bestaande.
 
    ![](assets/config-3.png)
 
@@ -80,10 +80,10 @@ Stap 1 is optioneel als uw pushgegevens al zijn geconfigureerd, omdat deze opnie
 
    >[!NOTE]
    >
-   >Als de controles niet succesvol zijn, leer meer over de mogelijke mislukkingsredenen in [&#x200B; deze sectie &#x200B;](../configuration/channel-surfaces.md).
+   >Als de controles niet succesvol zijn, leer meer over de mogelijke mislukkingsredenen in [ deze sectie ](../configuration/channel-surfaces.md).
 
 1. Wanneer de controles succesvol zijn, krijgt de kanaalconfiguratie de **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
 U kunt nu de integratie starten met Adobe Experience Platform Mobile SDK om real-time, dynamische updates op het Lock Screen en Dynamic Island in te schakelen.
 
-➡️ [&#x200B; Leer meer op de integratie van Adobe Experience Platform Mobile SDK &#x200B;](mobile-live-configuration-sdk.md)
+➡️ [ Leer meer op de integratie van Adobe Experience Platform Mobile SDK ](mobile-live-configuration-sdk.md)

@@ -9,7 +9,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 >
 >Live-activiteiten in Journey Optimizer zijn alleen compatibel met iOS.
 
-Live activiteiten bieden updates in real time en interactieve ervaringen binnen mobiele apps, zodat gebruikers op de hoogte blijven van lopende gebeurtenissen of taken rechtstreeks op het scherm van hun apparaat.
+Live activiteiten biedt updates in real time en interactieve ervaringen binnen mobiele apps, zodat gebruikers op de hoogte blijven van lopende gebeurtenissen of taken rechtstreeks op het scherm van hun apparaat.
 
 Deze functie verbetert de betrokkenheid door live-informatie te leveren, zoals voortgangscontrole, updates van gebeurtenissen of interactieve inhoud, zonder dat gebruikers de app hoeven te openen.
 
-De actieve Activiteiten kunnen **slechts** via **API-teweeggebrachte** campagnes in werking worden gesteld, toestaand u om douanebetalingen te verstrekken en al verpersoonlijking door uw eigen nuttige lading uit te voeren.
+De actieve activiteit kan **slechts** via **API-teweeggebrachte** campagnes in werking worden gesteld, toestaand u om douanenuttige lasten te verstrekken en al verpersoonlijking door uw eigen nuttige lading uit te voeren.
 Het aangewezen **API-teweeggebrachte** campagneretype moet worden geselecteerd gebaseerd op het voorgenomen Levende geval van het activiteitengebruik:
 
 * Selecteer **API-teweeggebrachte Marketing** voor op publiek-gebaseerde campagnes
@@ -39,7 +39,7 @@ Het aangewezen **API-teweeggebrachte** campagneretype moet worden geselecteerd g
 
 ## Handleiding voor snel starten
 
-Voer de onderstaande stappen uit om Live-activiteiten in uw toepassing te configureren en implementeren:
+Voer de onderstaande stappen uit om Live-activiteit in uw toepassing te configureren en implementeren:
 
 1. **[vorm Adobe Journey Optimizer](mobile-live-configuration.md)**
 
@@ -49,10 +49,10 @@ Voer de onderstaande stappen uit om Live-activiteiten in uw toepassing te config
 
    Integreer met Adobe Experience Platform Mobile SDK om real-time, dynamische updates op het Lock Screen en Dynamic Island in te schakelen.
 
-1. **[creeer Levende activiteiten in Journey Optimizer](create-mobile-live.md)**
+1. **[creeer Levende activiteit in Journey Optimizer](create-mobile-live.md)**
 
-   Gebruik API-getriggerde campagnes in Journey Optimizer om uw Live-activiteiten te starten.
+   Gebruik in Journey Optimizer via API geïnitieerde campagnes om uw Live-activiteit te starten.
 
 1. **[Spoor uw campagnes](../reports/campaign-global-report-cja-activity.md)**
 
-   Begin de impact van uw Live-activiteiten te meten met ingebouwde rapporten.
+   Begin de impact van uw Live-activiteit te meten met ingebouwde rapporten.

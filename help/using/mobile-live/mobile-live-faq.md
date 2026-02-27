@@ -9,9 +9,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1759'
 ht-degree: 0%
 
 ---
@@ -20,86 +20,86 @@ ht-degree: 0%
 
 ## Algemene vragen
 
-+++Wat is het verschil tussen een Live-activiteit en een pushmelding?
++++Wat is het verschil tussen een Levende activiteit en een Duw bericht?
 
-Live-activiteiten bieden permanente updates in real time op het Lock Screen en Dynamic Island zonder dat gebruikers hun apparaat hoeven te ontgrendelen. Pushmeldingen zijn tijdelijke waarschuwingen die verdwijnen als ze eenmaal zijn afgewezen. Live activiteiten blijven zichtbaar en kunnen meerdere keren worden bijgewerkt tot ze expliciet worden beëindigd.
+Live-activiteit biedt permanente updates in real time op het Lock Screen en Dynamic Island zonder dat gebruikers hun apparaat hoeven te ontgrendelen. Pushmeldingen zijn tijdelijke waarschuwingen die verdwijnen als ze eenmaal zijn afgewezen. Live activiteiten blijven zichtbaar en kunnen meerdere keren worden bijgewerkt tot ze expliciet worden beëindigd.
 
 +++
 
-+++Hoeveel Live-activiteiten kunnen tegelijkertijd actief zijn?
++++Hoeveel instanties van Live-activiteit kunnen tegelijkertijd actief zijn?
 
-Een iOS-app kan meerdere Live-activiteiten tegelijk uitvoeren, waaronder meerdere activiteiten die hetzelfde `ActivityAttributes` type gebruiken.
+Een iOS-toepassing kan meerdere instanties van Live-activiteiten tegelijk uitvoeren, waaronder meerdere instanties die hetzelfde `ActivityAttributes` type gebruiken.
 
-Ontwikkelaars hebben geen harde limiet opgelegd voor het aantal actieve activiteiten van een bepaald kenmerktype. U kunt zo veel starten als uw toepassingslogica vereist, bijvoorbeeld één voor doorlopende levering of rit. IOS past echter een systeemlimiet toe op het aantal actieve of zichtbare Live-activiteiten in één keer.
+Ontwikkelaars kunnen geen limiet instellen voor het aantal Live-activiteitinstanties van een bepaald kenmerktype. U kunt zo veel starten als uw toepassingslogica vereist, bijvoorbeeld één voor doorlopende levering of rit. IOS past echter op systeemniveau een limiet toe op het aantal Live activity-instanties dat tegelijk actief of zichtbaar kan zijn.
 
 In de praktijk:
 
-* iOS biedt doorgaans ondersteuning voor maximaal vijf gelijktijdige Live-activiteiten per app.
+* iOS biedt doorgaans ondersteuning voor maximaal vijf gelijktijdige exemplaren van Live-activiteit per app.
 
-* Als u dit aantal overschrijdt, kan het systeem ophouden met het tonen van sommige activiteiten of oudere degenen eindigen om middelen te besparen.
+* Als u dit aantal overschrijdt, kan het systeem ophouden tonend sommige activiteiteninstanties of eindigen oudere degenen om middelen te besparen.
 
-* Elke actieve activiteit heeft een unieke eigenschap `Activity.id` , waarmee u deze afzonderlijk kunt bijwerken of beëindigen.
-
-+++
-
-+++Moeten gebruikers de app hebben geopend om Live Activity-updates te ontvangen?
-
-Nee. Live-activiteiten kunnen worden gestart, bijgewerkt en op afstand worden beëindigd, zelfs wanneer de app volledig is gesloten, een van de belangrijkste voordelen van de functie.
+* Elke instantie van Live-activiteit heeft een unieke `Activity.id` , waarmee u deze afzonderlijk kunt bijwerken of beëindigen.
 
 +++
 
-+++Welke iOS-versies ondersteunen Live Activiteiten?
++++Moeten gebruikers de app hebben geopend om Live activity updates te ontvangen?
 
-* iOS 16.1+: Basic Live Activity Support
+Nee. Live activiteiten kunnen worden gestart, bijgewerkt en op afstand worden beëindigd, zelfs wanneer de app volledig is gesloten, een van de belangrijkste voordelen van de functie.
+
++++
+
++++Welke iOS-versies ondersteunen Live-activiteiten?
+
+* iOS 16.1+: Basic Live activity support
 * iOS 17.2+: Push-to-start-functionaliteit (extern starten zonder app te openen)
-* iOS 18+: Ondersteuning voor kanalen voor op het publiek gebaseerde Live-activiteiten via uitzending
+* iOS 18+: Ondersteuning voor kanalen voor uitzending van op het publiek gebaseerde Live-activiteiten
 +++
 
-+++Hoe lang kan een Live Activiteit actief blijven?
++++Hoe lang kan een Live-activiteit actief blijven?
 
-Apple beperkt Levende Activiteiten tot **8 uren van actieve updates**. Na dat, beëindigt het systeem automatisch de activiteit, hoewel het in een statische staat voor maximaal **12 extra uren** vóór verwijdering zichtbaar kan blijven. U kunt een live activiteit ook eerder beëindigen door een `dismissalDate` in te stellen of `activity.end()` expliciet aan te roepen in uw app.
+Apple beperkt Levende activiteit tot **8 uren van actieve updates**. Na dat, beëindigt het systeem automatisch de activiteit, hoewel het in een statische staat voor maximaal **12 extra uren** vóór verwijdering zichtbaar kan blijven. U kunt een live activiteit ook eerder beëindigen door een `dismissalDate` in te stellen of `activity.end()` expliciet aan te roepen in uw app.
 
 +++
 
 ### Ontwikkelaarsvragen
 
-+++Moet ik een afzonderlijke widgetextensie maken voor Live-activiteiten?
++++Moet ik een aparte widgetextensie maken voor Live-activiteit?
 
-Ja. Live-activiteiten worden weergegeven via WidgetKit, dus u moet een widgetextensie maken in uw Xcode-project en `ActivityConfiguration` implementeren.
-[&#x200B; leer meer over configuratie Widget &#x200B;](mobile-live-configuration-sdk.md)
-
-+++
-
-+++Kan ik dezelfde `LiveActivityAttributes` -klasse gebruiken voor zowel lokale als externe actieve activiteiten?
-
-Ja. Dezelfde kenmerkenklasse werkt voor zowel lokaal opgestarte als extern opgestarte (push-to-start) Live-activiteiten. U dient ervoor te zorgen dat u deze registreert bij `Messaging.registerLiveActivity()` .
+Ja. Live-activiteit wordt weergegeven via WidgetKit, dus u moet een widgetextensie maken in uw Xcode-project en `ActivityConfiguration` implementeren.
+[ leer meer over configuratie Widget ](mobile-live-configuration-sdk.md)
 
 +++
 
-+++Wat gebeurt er als ik een update verzend voor een Live Activiteit die niet bestaat?
++++Kan ik dezelfde `LiveActivityAttributes` -klasse gebruiken voor zowel lokale als externe Live-activiteiten?
 
-Als u een update- of eindgebeurtenis verzendt voor een niet-bestaande `liveActivityID` of `channelID` , mislukt de aanvraag zonder toezicht op het apparaat. Zorg altijd dat u bijhoudt welke Live Activiteiten actief zijn voor elke gebruiker.
+Ja. Dezelfde kenmerkklasse werkt voor zowel lokaal opgestarte als extern opgestarte (push-to-start) Live-activiteit. U dient ervoor te zorgen dat u deze registreert bij `Messaging.registerLiveActivity()` .
 
 +++
 
-+++Kan ik Live Activiteiten testen in de iOS Simulator?
++++Wat gebeurt er als ik een update verzend voor een Live-activiteit die niet bestaat?
 
-Ja, u kunt plaatselijk-begonnen evenals ver-begonnen Levende Activiteiten in de Simulator van iOS testen.
+Als u een update- of eindgebeurtenis verzendt voor een niet-bestaande `liveActivityID` of `channelID` , mislukt de aanvraag zonder toezicht op het apparaat. Zorg altijd dat u bijhoudt welke Live-activiteitsinstanties actief zijn voor elke gebruiker.
 
-* **Lokaal**: Dit omvat het creëren van, het bijwerken van, en het beëindigen van Levende Activiteiten direct van uw app gebruikend **ActivityKit APIs**.
++++
 
-* **Verre**: Om de Levende functionaliteit van de Activiteit ver te testen, integreer ons Overseinen SDK in uw app en gebruik verstrekte uitvoering APIs om verre begin, update en eind naar uw testapparaat of Simulator van iOS te verzenden. Gelijkaardig aan hoe de pushberichten momenteel met de integratie van Adobe SDKs kunnen worden getest.
++++Kan ik Live-activiteit testen in de iOS Simulator?
+
+Ja, u kunt plaatselijk-begonnen evenals ver-begonnen Levende activiteit in de Simulator van iOS testen.
+
+* **Lokaal**: Dit omvat het creëren van, het bijwerken van, en het beëindigen van Levende activiteit direct van uw app gebruikend **ActivityKit APIs**.
+
+* **Verre**: Om Levende functionaliteit van de Activiteiten ver te testen, integreer ons Overseinen SDK in uw app en gebruik verstrekte uitvoering APIs om verre begin, update en eind naar uw testapparaat of de Simulator van iOS te verzenden. Gelijkaardig aan hoe de pushberichten momenteel met de integratie van Adobe SDKs kunnen worden getest.
 
 +++
 
 +++Hoe kan ik updates verwerken wanneer de app op de achtergrond wordt uitgevoerd?
 
-De SDK handelt dit automatisch af. Live Activiteiten die zijn geregistreerd, ontvangen updates, zelfs als de app wordt beëindigd. Er zijn geen extra achtergrondmodi vereist.
+De SDK handelt dit automatisch af. Zodra de app is geregistreerd, ontvangt Live-activiteit updates, zelfs wanneer de app wordt beëindigd. Er zijn geen extra achtergrondmodi vereist.
 +++
 
 +++Wat is het verschil tussen `liveActivityID` en `channelID`?
 
-* `liveActivityID`: wordt gebruikt voor individuele (eenheids) Live-activiteiten die op specifieke gebruikers zijn gericht. Elke id vertegenwoordigt een unieke instantie Live Activiteit.
+* `liveActivityID`: wordt gebruikt voor individuele (eenheids) Levende activiteit gericht op specifieke gebruikers. Elke id vertegenwoordigt een unieke instantie van Live-activiteit.
 * `channelID`: Wordt gebruikt voor het uitzenden van Live-activiteiten die naar het publiek worden verzonden. Alle gebruikers in het publiek ontvangen dezelfde updates op hetzelfde kanaal.
 +++
 
@@ -113,15 +113,15 @@ Ja. `ActivityConfiguration` heeft afzonderlijke sluitingen voor de inhoud van he
 Nee. Wanneer u een Actieve Type van Activiteit bij `Messaging.registerLiveActivity()` registreert, verzamelt en beheert SDK automatisch duptokens voor u.
 +++
 
-+++Zijn er grenzen aan het op afstand starten van live activiteiten?
++++Zijn er grenzen aan het op afstand starten van Live-activiteiten?
 
-Ja. Externe start via `ActivityKit` zijn onderworpen aan door het systeem opgelegde beperkingen. Als u snel na elkaar probeert meerdere beginaanvragen te starten, kan iOS verdere start weigeren vanwege quota voor Live-activiteit of budgetbeperkingen. Na ongeveer 5 opeenvolgende beginpogingen, beginnen de verdere verzoeken mislukt tot een korte afkoelingsperiode voorbijgaat.
+Ja. Externe start via `ActivityKit` zijn onderworpen aan door het systeem opgelegde beperkingen. Als u snel na elkaar probeert meerdere beginaanvragen te starten, kan iOS verdere start weigeren vanwege quota&#39;s voor Live-activiteit of budgetbeperkingen. Na ongeveer 5 opeenvolgende beginpogingen, beginnen de verdere verzoeken mislukt tot een korte afkoelingsperiode voorbijgaat.
 
 +++
 
 +++Wat is het budget voor updates met hoge prioriteit?
 
-Apple geeft geen exact numeriek maximum op voor `(priority: 10)` Live Activity-updates met hoge prioriteit. Het systeem handhaaft een dynamisch intern budget dat beperkt hoe vaak dergelijke updates kunnen worden verzonden. Als er te veel updates met hoge prioriteit worden uitgegeven in een korte periode, kan iOS de daaropvolgende updates vertragen of vertragen.
+Apple geeft geen exact numeriek uiteinde op voor `(priority: 10)` Live-activiteiten-updates met hoge prioriteit. Het systeem handhaaft een dynamisch intern budget dat beperkt hoe vaak dergelijke updates kunnen worden verzonden. Als er te veel updates met hoge prioriteit worden uitgegeven in een korte periode, kan iOS de daaropvolgende updates vertragen of vertragen.
 
 Vertraging minimaliseren:
 
@@ -133,46 +133,46 @@ Vertraging minimaliseren:
 
 ### Marktvragen
 
-+++Kan ik de inhoud van Live Activiteit voor elke gebruiker in een uitzendingscampagne personaliseren?
++++Kan ik inhoud van Live-activiteit voor elke gebruiker in een uitzendingscampagne personaliseren?
 
 De campagnes van de uitzending verzenden de zelfde inhoud naar alle gebruikers in het publiek. Gebruik voor persoonlijke inhoud eenheidscampagnes (transactionele campagnes) die gericht zijn op individuele gebruikers.
 +++
 
-+++Hoe weet ik of mijn Live Activiteit succesvol is uitgevoerd?
++++Hoe weet ik of mijn Live-activiteiten succesvol zijn uitgevoerd?
 
-[&#x200B; controleert uw campagneanalytica &#x200B;](../reports/campaign-global-report-cja-activity.md) in Adobe Journey Optimizer. U kunt de leveringssnelheden, mislukkingen, en betrokkenheidsmetriek volgen. Overweeg ook aangepaste analytische gebeurtenissen in uw app te implementeren.
+[ controleert uw campagneanalytica ](../reports/campaign-global-report-cja-activity.md) in Adobe Journey Optimizer. U kunt de leveringssnelheden, mislukkingen, en betrokkenheidsmetriek volgen. Overweeg ook aangepaste analytische gebeurtenissen in uw app te implementeren.
 +++
 
 +++Kan ik live-activiteiten vooraf plannen?
 
-De API-aanroep activeert de Live activiteit direct. U kunt uw API-aanroepen echter plannen via uw back-endsystemen of de mogelijkheden van de Journey Optimizer-organisatie gebruiken om deze op de juiste manier uit te voeren.
+De API-aanroep activeert de Live-activiteit direct. U kunt uw API-aanroepen echter plannen via uw back-endsystemen of de mogelijkheden van de Journey Optimizer-organisatie gebruiken om deze op de juiste manier uit te voeren.
 +++
 
-+++Wat gebeurt er als ik een &quot;start&quot;-gebeurtenis verzend voor een Live Activity die al bestaat?
++++Wat gebeurt er als ik een &quot;start&quot;-gebeurtenis verzend voor een Live-activiteit die al bestaat?
 
-Bij het op afstand starten van Live Activiteiten via API&#39;s voor Adobe-uitvoering:
+Bij het op afstand starten van Live-activiteiten via API&#39;s voor Adobe-uitvoering:
 
-* U kunt een header `x-request-id` in uw aanvraag opnemen. In het ideale geval moet elke `liveActivityID` een-op-een relatie hebben met de bijbehorende `x-request-id` . Dit zorgt ervoor dat als er meerdere aanvragen worden ingediend met dezelfde combinatie `x-request-id` en `liveActivityID` , er slechts één Live-activiteit wordt gestart op het apparaat en dubbele aanvragen worden genegeerd.
+* U kunt een header `x-request-id` in uw aanvraag opnemen. In het ideale geval moet elke `liveActivityID` een-op-een relatie hebben met de bijbehorende `x-request-id` . Dit zorgt ervoor dat als er meerdere aanvragen worden ingediend met dezelfde combinatie `x-request-id` en `liveActivityID` , er slechts één instantie Live-activiteit wordt gestart op het apparaat en dubbele aanvragen worden genegeerd.
 
-* Als de header `x-request-id` wordt weggelaten, wordt elke aanvraag afzonderlijk behandeld. Dit kan ertoe leiden dat meerdere Live-activiteiten met dezelfde `liveActivityID` worden gemaakt. In dergelijke gevallen kunnen toekomstige updates mislukken of slechts op één van de actieve exemplaren van toepassing zijn.
+* Als de header `x-request-id` wordt weggelaten, wordt elke aanvraag afzonderlijk behandeld. Dit kan ertoe leiden dat meerdere instanties van Live-activiteit met dezelfde `liveActivityID` worden gemaakt. In dergelijke gevallen kunnen toekomstige updates mislukken of slechts op één van de actieve exemplaren van toepassing zijn.
 
 * De waarde `x-request-id` mag niet opnieuw worden gebruikt in verschillende `liveActivityIDs` -API-aanvragen.
 
 +++
 
-+++Kan I A/B verschillende ervaringen met Live Activity testen?
++++Kan ik A/B verschillende ervaringen met Live-activiteit testen?
 
 Ja. Maak meerdere campagnes met verschillende inhoudsstructuren en gebruik Adobe Journey Optimizer-experimentatiefuncties om te testen wat beter presteert. Zorg ervoor dat uw app alle variaties in de inhoudsstatus ondersteunt.
 
 +++
 
-+++Hoe vaak moet ik een live activiteit bijwerken?
++++Hoe vaak moet ik een Live-activiteit bijwerken?
 
 Werk alleen bij wanneer belangrijke wijzigingen in de informatie worden aangebracht omdat updates te vaak worden uitgevoerd, de batterij kunnen leeglopen en de kwaliteit van de gebruikerservaring kan verminderen. Voor scenario&#39;s in real time, zoals levering het volgen, is elke 30-60 seconden typisch aanvaardbaar. Voor langzamere veranderende inhoud, zoals sportscores, dient u alleen de update voor belangrijke gebeurtenissen bij te werken.
 
 +++
 
-+++Kan ik me richten op gebruikers die op of zij Levende Activiteiten toegelaten hebben?
++++Kan ik gebruikers als doel instellen op basis van of ze Live-activiteit hebben ingeschakeld?
 
 U zult met uw ontwikkelingsteam moeten samenwerken om deze voorkeur aan Adobe Experience Platform als gebruikersattribuut te volgen en over te gaan, dan die segment op dat attribuut wordt gebaseerd.
 
@@ -183,7 +183,7 @@ U zult met uw ontwikkelingsteam moeten samenwerken om deze voorkeur aan Adobe Ex
 +++Wat is het verschil tussen `timestamp` en `dismissal-date`?
 
 * `timestamp`: De huidige tijdperk waarin de gebeurtenis plaatsvindt, die voor alle gebeurtenissen is vereist.
-* `dismissal-date`: Een toekomstige tijdperk waarin de live activiteit automatisch wordt afgesloten, alleen vereist voor &quot;end&quot;-gebeurtenissen.
+* `dismissal-date`: Een toekomstige tijdperk waarin de Live-activiteit automatisch wordt beëindigd. Dit is alleen vereist voor &quot;end&quot;-gebeurtenissen.
 
 +++
 
@@ -211,7 +211,7 @@ Nee. Elke API-aanvraag moet een uniek bestand `requestId` hebben om te zorgen vo
 
 +++Welke verificatie is vereist voor de Headless API?
 
-Verwijs naar [&#x200B; API teweeggebrachte Documentatie van Campagnes &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) voor authentificatievereisten, met inbegrip van tokens OAuth en API sleutels.
+Verwijs naar [ API teweeggebrachte Documentatie van Campagnes ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) voor authentificatievereisten, met inbegrip van tokens OAuth en API sleutels.
 
 +++
 
@@ -221,9 +221,9 @@ Implementeer logica voor opnieuw proberen met exponentiële back-up. Controleer 
 
 +++
 
-+++Kan ik updates van Live Activity verzenden vanaf mijn eigen back-endservers?
++++Kan ik updates van Live-activiteit verzenden vanaf mijn eigen back-endservers?
 
-Ja, dat is het bedoelde gedrag. Uw back-end roept de Adobe Journey Optimizer Headless API aan om Live Activity-gebeurtenissen te activeren wanneer dit vereist is voor uw bedrijfslogica.
+Ja, dat is het bedoelde gedrag. Uw back-end roept de Adobe Journey Optimizer Headless API aan om Live activity-gebeurtenissen te activeren wanneer dit vereist is voor uw bedrijfslogica.
 
 +++
 
@@ -235,13 +235,13 @@ Nee. U kunt dezelfde campagne gebruiken en het veld `event` in de payload wijzig
 
 ### Problemen oplossen
 
-+++Mijn actieve activiteiten worden gestart, maar niet bijgewerkt. Wat zou het probleem kunnen zijn?
++++Mijn Live-activiteiten worden gestart, maar niet bijgewerkt. Wat zou het probleem kunnen zijn?
 
 Vaak voorkomende oorzaken:
 
 * Niet-overeenkomende aanroepen `liveActivityID` of `channelID` tussen starten en bijwerken.
 * `content-state` -velden komen niet overeen met uw `ContentState` struct.
-* De Live activiteit is al beëindigd.
+* De Live-activiteit is al beëindigd.
 * De connectiviteitskwesties van het netwerk op het apparaat.
 * De tijdperktijd die als tijdstempel wordt gebruikt, is niet up-to-date.
 
@@ -249,7 +249,7 @@ Vaak voorkomende oorzaken:
 
 +++Het veld `attributes-type` wordt niet herkend. Wat moet ik controleren?
 
-* Verzeker de klassennaam precies **&#x200B;**&#x200B;(case-sensitive) met uw Swift struct naam aanpast
+* Verzeker de klassennaam precies **** (case-sensitive) met uw Swift struct naam aanpast
 * Controleren of de structuur correct is gedefinieerd en geregistreerd
 * Controleren op typos in de JSON-payload
 * Bevestig dat de versie van de app is geïnstalleerd met de implementatie van Live activiteit
@@ -258,13 +258,13 @@ Vaak voorkomende oorzaken:
 
 +++Gebruikers zien alleen de update van Live-activiteit en niet de waarschuwingsmelding. Is dit een bekend probleem?
 
-Nee. Het veld `alert` is optioneel en kan door iOS onder bepaalde omstandigheden worden onderdrukt, bijvoorbeeld in de modus Niet storen. Live Activiteiten kunnen zonder toezicht worden bijgewerkt, wat vaak het beoogde gedrag is. Het waarschuwingsveld is verplicht voor het verzenden van een externe start, anders behandelt appel het als een stille achtergrondmelding.
+Nee. Het veld `alert` is optioneel en kan door iOS onder bepaalde omstandigheden worden onderdrukt, bijvoorbeeld in de modus Niet storen. Live activiteit kan zonder toezicht worden bijgewerkt, wat vaak het bedoelde gedrag is. Het waarschuwingsveld is verplicht voor het verzenden van een externe start, anders behandelt appel het als een stille achtergrondmelding.
 
 +++
 
-+++Kan ik alle actieve activiteiten voor een gebruiker verwijderen of wissen?
++++Kan ik alle exemplaren van Live-activiteit voor een gebruiker verwijderen of wissen?
 
-U moet een &quot;end&quot;gebeurtenis voor elke actieve Levende Activiteit verzenden. Houd bij welke Live-activiteiten actief zijn voor elke gebruiker in uw systeem, zodat u deze op de juiste wijze kunt opschonen.
+U moet een &quot;end&quot;-gebeurtenis verzenden voor elke actieve Live activity-instantie. Houd bij welke instanties van Live-activiteit actief zijn voor elke gebruiker in uw systeem, zodat u deze op de juiste wijze kunt opschonen.
 
 +++
 

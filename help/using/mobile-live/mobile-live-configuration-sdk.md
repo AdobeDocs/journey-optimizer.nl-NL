@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ De Adobe Experience Platform Mobile SDK biedt ingebouwde ondersteuning voor Appl
 
    Importeer de volgende modules: **[!DNL AEPMessaging]**, **[!DNL AEPMessagingLiveActivity]**, **[!DNL ActivityKit]** .
 
-1. [&#x200B; bepalen attributen &#x200B;](#attributes)
+1. [ bepalen attributen ](#attributes)
 
    Omgaan met `LiveActivityAttributes` , neemt u de kenmerken `LiveActivityData` en a `ContentState` op.
 
-1. [Live activiteiten registreren](#register)
+1. [Live activiteit registreren](#register)
 
    Gebruik `Messaging.registerLiveActivity()` na SDK-initialisatie.
 
@@ -58,6 +58,7 @@ Controleer of de volgende minimale versies zijn geïnstalleerd om de juiste conf
 * **Xcode:** 14.0 of later
 * **Swift:** 5.7 of later
 * **Afhankelijkheden:** AEPCore, AEPMessaging, AEPMessagingLiveActivity, ActivityKit
+* **AEP Mobile SDK versie**: Het Overseinen van iOS 5.11.0 of later
 
 >[!ENDSHADEBOX]
 
@@ -85,7 +86,7 @@ De belangrijkste componenten zijn:
 
 * **`ContentState`** definieert dynamische gegevens die kunnen worden bijgewerkt tijdens de levenscyclus van Live-activiteit. De eigenschap moet `Codable` en `Hashable` bevatten.
 
-* Met `LiveActivityOrigin` wordt aangegeven of een activiteit lokaal binnen de app is gestart of op afstand via een pushmelding, ondersteund in iOS 17.2 en hoger. Met deze waarde kan de SDK onderscheid maken tussen lokaal geïnitieerde en extern geactiveerde Live-activiteiten tijdens het verzamelen van gegevens.
+* Met `LiveActivityOrigin` wordt aangegeven of een activiteit lokaal binnen de app is gestart of op afstand via een pushmelding, ondersteund in iOS 17.2 en hoger. Met deze waarde kan de SDK onderscheid maken tussen lokaal geïnitieerde en extern geactiveerde Live-activiteit tijdens het verzamelen van gegevens.
 
 **Voorbeelden**
 
@@ -111,15 +112,15 @@ public struct LiveActivityData: Codable {
     /// Unique identifier for broadcast Live activity channels
     public let channelID: String?
      
-    /// Unique identifier for individual Live activities
+    /// Unique identifier for individual Live activity
     public let liveActivityID: String?
      
     /// Indicates local vs remote creation
     public let origin: LiveActivityOrigin?
      
     // Initializers
-    public init(channelID: String)        // For broadcast Live activities
-    public init(liveActivityID: String)   // For individual Live activities
+    public init(channelID: String)        // For broadcast Live activity
+    public init(liveActivityID: String)   // For individual Live activity
 }
 ```
 
@@ -133,7 +134,7 @@ if #available(iOS 16.1, *) {
 }
 ```
 
-## Stap 3: Live activiteiten registreren {#register}
+## Stap 3: Live-activiteiten registreren {#register}
 
 Registreer de typen Live-activiteiten in uw `AppDelegate` na de SDK-initialisatie. U kunt dan het volgende doen:
 
@@ -151,7 +152,7 @@ if #available(iOS 16.1, *) {
 
 ## Stap 4: Live-activiteiten-widgets maken {#widgets}
 
-Live activiteiten worden via widgets weergegeven. U moet een widgetbundel en -configuratie maken:
+Live-activiteit wordt via widgets weergegeven. U moet een widgetbundel en -configuratie maken:
 
 **Voorbeeld voor een Levende activiteit van de voedsellevering:**
 
