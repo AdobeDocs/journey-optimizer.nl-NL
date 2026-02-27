@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: De tekstversie van een e-mailbericht maken
+title: De tekstversie van een e-mail beheren
 description: Leer hoe u de tekstversie van een e-mailbericht maakt
 feature: Email Design
 topic: Content Management
@@ -9,36 +9,44 @@ role: User
 level: Intermediate
 keywords: text, email, version, plain, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
+source-git-commit: 1a5ce1bf2d98a5de31f1245dee96d24984cb28d9
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
 
-# De tekstversie van een e-mailbericht maken {#text-version-email}
+# De tekstversie van een e-mail beheren {#text-version-email}
 
 U wordt aangeraden een tekstversie van de berichttekst te maken die wordt gebruikt wanneer HTML-inhoud niet kan worden weergegeven.
 
+Vanuit beveiligingsoogpunt is het belangrijk om een gewone tekstversie aan te bieden, omdat e-mails in HTML risico&#39;s kunnen inhouden, zoals kwaadaardige scripts, pixels volgen of phishingpogingen die afhankelijk zijn van rijke opmaak en koppelingen. Onbewerkte tekst verkleint het aanvalsoppervlak en krijgt vaak de voorkeur van beveiligings- of bedrijfs-e-mailsystemen die HTML beperken of verwijderen. Als u beide versies aanbiedt, kunnen ontvangers de indeling kiezen die past bij hun beveiligings- en privacyvereisten.
+
+## De standaardtekstversie openen {#plain-text-default}
+
 Standaard maakt de Designer-e-mail een **[!UICONTROL Plain text]** -versie van uw e-mail, inclusief personalisatievelden. Deze versie wordt automatisch gegenereerd en gesynchroniseerd met de HTML-versie van uw inhoud.
+
+Als u de standaardtekstversie wilt openen, selecteert u het pictogram **[!UICONTROL Plain text]** in de e-mailinhoud.
+
+![](assets/text_version_3.png)
+
+## Een aangepaste tekstversie gebruiken {#plain-text-default-custom}
 
 Als u liever een andere inhoud gebruikt voor de versie zonder opmaak, voert u de onderstaande stappen uit:
 
 1. Selecteer het pictogram **[!UICONTROL Plain text]** in uw e-mail.
 
-   ![](assets/text_version_3.png)
-
 1. Schakel synchronisatie uit met de schakeloptie **[!UICONTROL Sync with HTML]** . Klik op het vinkje om uw keuze te bevestigen.
 
    ![](assets/text_version_2.png)
 
-1. Vervolgens kunt u de versie zonder tekst naar wens bewerken.
+1. Vervolgens kunt u de aangepaste versie voor onbewerkte tekst naar wens bewerken.
 
 >[!CAUTION]
 >
 > * Als synchronisatie is uitgeschakeld, worden wijzigingen die in de weergave **[!UICONTROL Plain text]** zijn aangebracht, niet weerspiegeld in de weergave HTML.
 >
->* Als u de optie **[!UICONTROL Sync with HTML]** weer inschakelt nadat u de normale tekstinhoud hebt bijgewerkt, gaan de wijzigingen verloren en worden deze vervangen door tekstinhoud die uit de HTML-versie is gegenereerd.
+> * Als u de optie **[!UICONTROL Sync with HTML]** weer inschakelt nadat u de normale tekstinhoud hebt bijgewerkt, gaan de wijzigingen verloren en worden deze vervangen door tekstinhoud die uit de HTML-versie is gegenereerd.
 
 ## Wanneer moet u aangepaste standaardtekstversies gebruiken? {#when-to-use}
 
@@ -215,7 +223,7 @@ Your input helps us improve our service.
 Ja, verpersoonlijkingsvelden zoals `{{profile.firstName}}` werken op dezelfde manier in zowel HTML- als normale tekstversies.
 
 **hoe ik mijn gewone tekstversie test?**
-* Schakel over naar de weergave **[!UICONTROL Plain text]** in de Designer-e-mail. [&#x200B; leer hoe &#x200B;](#text-version-email)
+* Schakel over naar de weergave **[!UICONTROL Plain text]** in de Designer-e-mail. [ leer hoe ](#text-version-email)
 * Verzend teste-mailberichten naar e-mailclients met alleen tekst, zoals oude versies van Pine of mobiele e-mailapps met een standaardversie.
 
 **wat gebeurt als ik vergeet om een gewone tekstversie tot stand te brengen?**\
