@@ -79,7 +79,7 @@ Voor de Transactionele campagne, toont het Levende campagnerapport van Activitei
 
 Marketingcampagnes gebruiken Live-activiteiten voor het gebruik van uitzendingen, waarbij updates tegelijkertijd naar meerdere apparaten worden verzonden.
 
-Voor iOS Live-activiteiten in marketingcampagnes geeft het rapport alleen **[!UICONTROL Remote Starts]** -gebeurtenissen en **[!UICONTROL Remote starts errors]** aan het begin weer. **[!UICONTROL Updates]** - en **[!UICONTROL Ends]** -gebeurtenissen worden niet bijgehouden, omdat APNs updates naar alle apparaten distribueert zonder feedback te geven. Om **[!UICONTROL Updates]** en **[!UICONTROL Ends]** gebeurtenissen te bekijken, gebruik [ de console van het Bericht van de Duw van Apple ](https://developer.apple.com/notifications/push-notifications-console/).
+Voor iOS Live-activiteiten in marketingcampagnes geeft het rapport alleen **[!UICONTROL Remote Starts]** -gebeurtenissen en **[!UICONTROL Remote starts errors]** aan het begin weer. **[!UICONTROL Updates]** - en **[!UICONTROL Ends]** -gebeurtenissen worden niet bijgehouden, omdat APNs updates naar alle apparaten distribueert zonder feedback te geven. Om **[!UICONTROL Updates]** en **[!UICONTROL Ends]** gebeurtenissen te bekijken, gebruik [&#x200B; de console van het Bericht van de Duw van Apple &#x200B;](https://developer.apple.com/notifications/push-notifications-console/).
 
 +++ Meer informatie over levenscyclusmetriek tijdens de levenscyclus van live activiteiten met marketingcampagnes
 
