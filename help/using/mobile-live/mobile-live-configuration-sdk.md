@@ -25,7 +25,7 @@ De Adobe Experience Platform Mobile SDK biedt ingebouwde ondersteuning voor Appl
 
    Importeer de volgende modules: **[!DNL AEPMessaging]**, **[!DNL AEPMessagingLiveActivity]**, **[!DNL ActivityKit]** .
 
-1. [ bepalen attributen ](#attributes)
+1. [&#x200B; bepalen attributen &#x200B;](#attributes)
 
    Omgaan met `LiveActivityAttributes` , neemt u de kenmerken `LiveActivityData` en a `ContentState` op.
 
@@ -237,8 +237,8 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
 
 Voor uitgebreide documentatie en implementatiedetails van SDK:
 
-* [ Levende Gids van de Ontwikkelaar van Activiteiten ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
-* [ API Verwijzing ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
-* [ Levende Zelfstudie van de Activiteit ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
-* [ Openbare Klassen ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
+* [&#x200B; Levende Gids van de Ontwikkelaar van Activiteiten &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
+* [&#x200B; API Verwijzing &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
+* [&#x200B; Levende Zelfstudie van de Activiteit &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
+* [&#x200B; Openbare Klassen &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
 s
