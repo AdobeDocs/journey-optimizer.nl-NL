@@ -21,9 +21,9 @@ ht-degree: 5%
 
 In het Beheer van het Besluit, bouwt u uitdrukkingen gebruikend de verpersoonlijkingsredacteur. U gebruikt deze editor met name wanneer:
 
-* **het bepalen van aanbiedingsinhoud** - wanneer u [ vertegenwoordiging ](offer-library/add-representations.md) toevoegt en de aanbiedingsinhoud (beelden, tekst, verbindingen) personaliseert
-* **Creërend besluitvormingsregels** - wanneer u [ verkiesbaarheid ](offer-library/creating-decision-rules.md) voor aanbiedingen bepaalt
-* **de rangschikkende formules van de Bouw** - wanneer u [ het rangschikken formules ](ranking/create-ranking-formulas.md) creeert om aanbiedingen tot stand te brengen
+* **het bepalen van aanbiedingsinhoud** - wanneer u [&#x200B; vertegenwoordiging &#x200B;](offer-library/add-representations.md) toevoegt en de aanbiedingsinhoud (beelden, tekst, verbindingen) personaliseert
+* **Creërend besluitvormingsregels** - wanneer u [&#x200B; verkiesbaarheid &#x200B;](offer-library/creating-decision-rules.md) voor aanbiedingen bepaalt
+* **de rangschikkende formules van de Bouw** - wanneer u [&#x200B; het rangschikken formules &#x200B;](ranking/create-ranking-formulas.md) creeert om aanbiedingen tot stand te brengen
 
 De Offer Decisioning backend steunt slechts a **ondergroep** van de functies beschikbaar in de verpersoonlijkingsredacteur. Deze pagina bevat elke functie die u veilig kunt gebruiken. Breid elke sectie uit om de gesteunde exploitanten, helpers, en functies te zien.
 
@@ -224,4 +224,4 @@ De Offer Decisioning backend steunt slechts a **ondergroep** van de functies bes
 
 >[!NOTE]
 >
->Als u een functie gebruikt die niet in de bovenstaande lijst staat, kan de expressie mislukken bij uitvoering of onverwachte resultaten opleveren. Voor de volledige reeks functies beschikbaar in [!DNL Journey Optimizer] verpersoonlijking, zie [ de functielijst van de Helper ](../personalization/functions/functions.md). Alleen de subset die op deze pagina wordt beschreven, wordt ondersteund in Offer Decisioning.
+>Als u een functie gebruikt die niet in de bovenstaande lijst staat, kan de expressie mislukken bij uitvoering of onverwachte resultaten opleveren. Voor de volledige reeks functies beschikbaar in [!DNL Journey Optimizer] verpersoonlijking, zie [&#x200B; de functielijst van de Helper &#x200B;](../personalization/functions/functions.md). Alleen de subset die op deze pagina wordt beschreven, wordt ondersteund in Offer Decisioning.
