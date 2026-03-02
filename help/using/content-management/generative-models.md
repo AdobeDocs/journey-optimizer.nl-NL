@@ -23,7 +23,7 @@ Kies het juiste model voor uw behoeften:
 - **[!UICONTROL Partner model]**, aangedreven door Gemini 2.5 Flash, biedt gespecialiseerde mogelijkheden voor specifieke gebruiksgevallen.
 - **[!UICONTROL Custom models]** zijn merkspecifieke modellen die op uw eigen middelen zijn getraind en door uw organisatie zijn toegevoegd.
 
-  Leer meer op **[!UICONTROL Custom models]** in [&#x200B; documentatie van Adobe Firefly &#x200B;](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
+  Leer meer op **[!UICONTROL Custom models]** in [&#x200B; documentatie van Adobe Firefly &#x200B;](https://helpx.adobe.com/nl/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
 
 Nadat u de configuratie hebt geconfigureerd, kunt u elk van uw generatieve modellen selecteren wanneer u afbeeldingen maakt in uw inhoud. [&#x200B; Leer meer over het produceren van beelden &#x200B;](generative-image.md).
 
@@ -61,7 +61,7 @@ Aangepaste Firefly-modellen zijn merkspecifieke AI-modellen die zijn getraind op
 
 Door aangepaste Firefly-modelproviders te maken, kunt u uw AI-mogelijkheden uitbreiden tot buiten de standaardmodellen en ervoor zorgen dat de gegenereerde inhoud consistent voldoet aan de unieke esthetische behoeften en behoeften van uw merk.
 
-➡️ [&#x200B; Leer hoe te om uw douanemodel te trainen &#x200B;](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [&#x200B; Leer hoe te om uw douanemodel te trainen &#x200B;](https://helpx.adobe.com/nl/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. Open in het menu **[!UICONTROL Brands]** de tab **[!UICONTROL Generative Models]** en klik op **[!UICONTROL Add model]** .
 
@@ -71,7 +71,7 @@ Door aangepaste Firefly-modelproviders te maken, kunt u uw AI-mogelijkheden uitb
 
 1. Voer uw **[!UICONTROL Model ID]** in.
 
-   Ga naar de Firefly-website en navigeer naar de door u getrainde modellen om uw Firefly-model-id te zoeken. De unieke id is beschikbaar in de beheersectie van het model nadat deze is gepubliceerd. Voor meer informatie, verwijs naar de [&#x200B; documentatie van de douanemodellen van Firefly &#x200B;](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
+   Ga naar de Firefly-website en navigeer naar de door u getrainde modellen om uw Firefly-model-id te zoeken. De unieke id is beschikbaar in de beheersectie van het model nadat deze is gepubliceerd. Voor meer informatie, verwijs naar de [&#x200B; documentatie van de douanemodellen van Firefly &#x200B;](https://helpx.adobe.com/nl/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
 
    ![](assets/gen-model-manage-5.png){zoomable="yes"}
 
