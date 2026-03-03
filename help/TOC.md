@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '3123'
+source-wordcount: '3130'
 ht-degree: 15%
 
 ---
@@ -858,7 +858,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
@@ -894,7 +894,8 @@ ht-degree: 15%
       + [Opnieuw](using/configuration/retries.md)
       + [Lijst van gewenste personen](using/configuration/allow-list.md)
    + [zaadlijsten gebruiken](using/configuration/seed-lists.md)
-   + [Ondersteuning voor archivering](using/configuration/archiving-support.md)
+   + [Ondersteuning voor e-mailarchivering](using/configuration/archiving-support.md)
+   + [Een CC-veld toevoegen aan e-mailberichten](using/configuration/cc-email-field.md)
    + [Uitvoervelden beheren](using/configuration/primary-email-addresses.md)
    + [Feedbackwebhaken maken](using/configuration/feedback-webhooks.md)
 + Reisconfiguratie {#configure-journeys}

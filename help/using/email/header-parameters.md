@@ -9,20 +9,22 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
 
 # Parameters koptekst {#email-header}
 
-Wanneer het vormen van een nieuwe [&#x200B; configuratie van het e-mailkanaal &#x200B;](email-settings.md), in de **[!UICONTROL Header parameters]** sectie, ga de afzendernamen en e-mailadressen verbonden aan het type van e-mail in die configuratie wordt verzonden.
+Wanneer het vormen van een nieuwe [ configuratie van het e-mailkanaal ](email-settings.md), in de **[!UICONTROL Header parameters]** sectie, ga de afzendernamen en e-mailadressen verbonden aan het type van e-mail in die configuratie wordt verzonden.
 
 >[!NOTE]
 >
 >Voor meer controle over de e-mailinstellingen kunt u de headerparameters aanpassen. [Meer informatie](../email/surface-personalization.md#personalize-header)
+>
+>Wanneer [ het uitgeven van een e-mailconfiguratie ](../configuration/channel-surfaces.md#edit-channel-surface), kunt u geen nieuwe [ profielattributen ](../personalization/personalization-build-expressions.md#sources) aan kopbalparameters toevoegen. U moet een nieuwe kanaalconfiguratie tot stand brengen.
 
 * **[!UICONTROL From name]**: De naam van de afzender, zoals de naam van uw merk.
 * **[!UICONTROL From email prefix]**: Het e-mailadres dat u voor uw communicatie wilt gebruiken.
@@ -30,11 +32,11 @@ Wanneer het vormen van een nieuwe [&#x200B; configuratie van het e-mailkanaal &#
 * **[!UICONTROL Reply to email]**: Het e-mailadres dat zal worden gebruikt wanneer de ontvanger de **antwoordknoop** in hun e-mailcliëntsoftware klikt. [Meer informatie](#reply-to-email)
 * **[!UICONTROL Error email prefix]**: Alle fouten die door ISPs na een paar dagen van post worden geproduceerd die (asynchrone stuitingen) worden ontvangen op dit adres. De out-of-office berichten en de uitdagingsreacties worden ook ontvangen op dit adres.
 
-  Als u de uit-van-bureauberichten en uitdagingsreacties op een specifiek e-mailadres wilt ontvangen dat niet aan Adobe wordt gedelegeerd, moet u a [&#x200B; door:sturen proces &#x200B;](#forward-email) opstelling. Zorg er in dat geval voor dat u een handmatige of geautomatiseerde oplossing hebt waarmee de e-mailberichten die in deze Postvak IN worden geplaatst, kunnen worden verwerkt.
+  Als u de uit-van-bureauberichten en uitdagingsreacties op een specifiek e-mailadres wilt ontvangen dat niet aan Adobe wordt gedelegeerd, moet u a [ door:sturen proces ](#forward-email) opstelling. Zorg er in dat geval voor dat u een handmatige of geautomatiseerde oplossing hebt waarmee de e-mailberichten die in deze Postvak IN worden geplaatst, kunnen worden verwerkt.
 
 >[!NOTE]
 >
->De **[!UICONTROL From email prefix]** en **[!UICONTROL Error email prefix]** adressen gebruiken huidige geselecteerde [&#x200B; gedelegeerde subdomain &#x200B;](../configuration/about-subdomain-delegation.md) om e-mail te verzenden. Bijvoorbeeld, als gedelegeerde subdomain *marketing.luma.com* is:
+>De **[!UICONTROL From email prefix]** en **[!UICONTROL Error email prefix]** adressen gebruiken huidige geselecteerde [ gedelegeerde subdomain ](../configuration/about-subdomain-delegation.md) om e-mail te verzenden. Bijvoorbeeld, als gedelegeerde subdomain *marketing.luma.com* is:
 >
 >* Ga *contact* als **[!UICONTROL From email prefix]** in - de afzender e-mail is *contact@marketing.luma.com*.
 >* Ga *fout* als **[!UICONTROL Error email prefix]** in - het foutenadres is *error@marketing.luma.com*.
@@ -65,7 +67,7 @@ Als u een fout bij het voorleggen van de e-mailconfiguratie krijgt, betekent het
 
 >[!NOTE]
 >
->Als subdomain van het adres u inging een domein is dat [&#x200B; volledig &#x200B;](../configuration/delegate-subdomain.md#set-up-subdomain) aan Adobe werd gedelegeerd, contacteer uw vertegenwoordiger van Adobe.
+>Als subdomain van het adres u inging een domein is dat [ volledig ](../configuration/delegate-subdomain.md#set-up-subdomain) aan Adobe werd gedelegeerd, contacteer uw vertegenwoordiger van Adobe.
 
 ## E-mail doorsturen {#forward-email}
 
