@@ -6,10 +6,8 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van Live-act
 feature: Channel Configuration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 1%
@@ -70,7 +68,7 @@ Stap 1 is optioneel als uw pushgegevens al zijn geconfigureerd, omdat deze opnie
 
 1. Kies iOS als uw **[!UICONTROL Platform]** .
 
-1. Selecteer van drop-down het zelfde **[!UICONTROL App id]** zoals voor uw [&#x200B; hierboven gevormde duw credentie &#x200B;](#push-credentials-launch) of kies bestaande.
+1. Selecteer van drop-down het zelfde **[!UICONTROL App id]** zoals voor uw [ hierboven gevormde duw credentie ](#push-credentials-launch) of kies bestaande.
 
    ![](assets/config-3.png)
 
@@ -80,10 +78,10 @@ Stap 1 is optioneel als uw pushgegevens al zijn geconfigureerd, omdat deze opnie
 
    >[!NOTE]
    >
-   >Als de controles niet succesvol zijn, leer meer over de mogelijke mislukkingsredenen in [&#x200B; deze sectie &#x200B;](../configuration/channel-surfaces.md).
+   >Als de controles niet succesvol zijn, leer meer over de mogelijke mislukkingsredenen in [ deze sectie ](../configuration/channel-surfaces.md).
 
 1. Wanneer de controles succesvol zijn, krijgt de kanaalconfiguratie de **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
 U kunt nu de integratie starten met Adobe Experience Platform Mobile SDK om real-time, dynamische updates op het Lock Screen en Dynamic Island in te schakelen.
 
-➡️ [&#x200B; Leer meer op de integratie van Adobe Experience Platform Mobile SDK &#x200B;](mobile-live-configuration-sdk.md)
+➡️ [ Leer meer op de integratie van Adobe Experience Platform Mobile SDK ](mobile-live-configuration-sdk.md)
