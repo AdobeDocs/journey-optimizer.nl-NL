@@ -21,9 +21,9 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Deze pagina behandelt besluitvormingsregels voor het erfenis **vermogen van het Beheer van het Besluit**. Als u **Beslissing** gebruikt — [!DNL Adobe Journey Optimizer] het huidige beslissingsvermogen beschikbaar via code-gebaseerde ervaring en e-mailkanalen — verwijs naar [ bouwt regels ](../../experience-decisioning/rules.md) in plaats daarvan.
+>Deze pagina behandelt besluitvormingsregels voor het erfenis **vermogen van het Beheer van het Besluit**. Als u **Beslissing** gebruikt — [!DNL Adobe Journey Optimizer] het huidige beslissingsvermogen beschikbaar via code-gebaseerde ervaring en e-mailkanalen — verwijs naar [&#x200B; bouwt regels &#x200B;](../../experience-decisioning/rules.md) in plaats daarvan.
 >
->Weet u niet zeker welke mogelijkheden u gebruikt? [ leer over Beslissing ](../../experience-decisioning/gs-experience-decisioning.md).
+>Weet u niet zeker welke mogelijkheden u gebruikt? [&#x200B; leer over Beslissing &#x200B;](../../experience-decisioning/gs-experience-decisioning.md).
 
 ## Over beslissingsregels {#about}
 
@@ -53,7 +53,7 @@ Voer de volgende stappen uit om een beslissingsregel te maken:
 
 1. Noem uw regel en verstrek een beschrijving, dan vorm de regel volgens uw behoeften.
 
-   Om dit te doen, is de Bouwer van het Segment van Adobe Experience Platform **beschikbaar om u te helpen de voorwaarden van de regel bouwen.** [ leer hoe te om segmentdefinities te bouwen ](../../audience/creating-a-segment-definition.md)
+   Om dit te doen, is de Bouwer van het Segment van Adobe Experience Platform **beschikbaar om u te helpen de voorwaarden van de regel bouwen.** [&#x200B; leer hoe te om segmentdefinities te bouwen &#x200B;](../../audience/creating-a-segment-definition.md)
 
    <!--In this example, the rule will target customers that have the "Gold" loyalty level.-->
 
@@ -61,7 +61,7 @@ Voer de volgende stappen uit om een beslissingsregel te maken:
 
    >[!NOTE]
    >
-   >De segmentbouwer die wordt verstrekt om besluitvormingsregels tot stand te brengen heeft sommige specifieke eigenschappen in vergelijking met die gebruikt met de **[!UICONTROL Segmentation]** dienst. Nochtans, is het globale proces dat in de [ documentatie van de Bouwer van het Segment ](../../audience/creating-a-segment-definition.md) wordt beschreven nog geldig om de regels van aanbiedingsbesluiten te bouwen. Leer meer in de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+   >De segmentbouwer die wordt verstrekt om besluitvormingsregels tot stand te brengen heeft sommige specifieke eigenschappen in vergelijking met die gebruikt met de **[!UICONTROL Segmentation]** dienst. Nochtans, is het globale proces dat in de [&#x200B; documentatie van de Bouwer van het Segment &#x200B;](../../audience/creating-a-segment-definition.md) wordt beschreven nog geldig om de regels van aanbiedingsbesluiten te bouwen. Leer meer in de [&#x200B; documentatie van de Dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 1. Terwijl u nieuwe velden toevoegt en configureert in de werkruimte, wordt in het deelvenster **[!UICONTROL Audience properties]** informatie weergegeven over de geschatte profielen die bij het publiek horen. Klik op **[!UICONTROL Refresh estimate]** om gegevens bij te werken.
 
@@ -79,7 +79,7 @@ Voer de volgende stappen uit om een beslissingsregel te maken:
 
 >[!CAUTION]
 >
->Aanbiedingen op basis van gebeurtenissen worden momenteel niet ondersteund in [!DNL Journey Optimizer] . Als u een besluitvormingsregel creeert die op een [ wordt gebaseerd gebeurtenis ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, zult u niet het in een aanbieding kunnen hefboomwerking geven.
+>Aanbiedingen op basis van gebeurtenissen worden momenteel niet ondersteund in [!DNL Journey Optimizer] . Als u een besluitvormingsregel creeert die op een [&#x200B; wordt gebaseerd gebeurtenis &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, zult u niet het in een aanbieding kunnen hefboomwerking geven.
 
 ## Video over zelfstudie {#video}
 

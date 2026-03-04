@@ -22,7 +22,7 @@ Een openingspagina is een zelfstandige webpagina waarnaar een gebruiker wordt ve
 
 Met [!DNL Journey Optimizer] kunt u bestemmingspagina&#39;s maken en ontwerpen, zodat uw gebruikers naar onlineformulieren kunnen gaan waar zij uw communicatie kunnen in- of uitschakelen of zich kunnen abonneren op een specifieke service, zoals een nieuwsbrief.
 
-➡️ [ Leer meer over het vormen van abonnementen en het creëren van landende pagina&#39;s in deze video ](#video)
+➡️ [&#x200B; Leer meer over het vormen van abonnementen en het creëren van landende pagina&#39;s in deze video &#x200B;](#video)
 
 ## Wanneer moeten bestemmingspagina&#39;s worden gebruikt? {#when-to-use}
 
@@ -37,17 +37,17 @@ Gebruik openingspagina&#39;s als u wilt:
 
 Voer de volgende stappen uit voordat u een openingspagina maakt:
 
-1. **vorm subdomain** — Opstelling subdomain specifiek aan het ontvangen van uw landende pagina&#39;s. [ vorm het landen van pagina subdomeinen ](lp-subdomains.md)
-1. **creeer een het landen vooraf ingestelde pagina** - vooraf ingesteld bepaalt subdomain en andere montages die op uw het landen pagina&#39;s worden toegepast. [ creeer vooraf ingesteld ](lp-presets.md#lp-create-preset)
-1. **creeer een abonnementenlijst** (voor de gevallen van het abonnementsgebruik) — Vereist als u klanten aan of zich van de specifieke dienst wilt intekenen. [ creeer een abonnementenlijst ](subscription-list.md)
+1. **vorm subdomain** — Opstelling subdomain specifiek aan het ontvangen van uw landende pagina&#39;s. [&#x200B; vorm het landen van pagina subdomeinen &#x200B;](lp-subdomains.md)
+1. **creeer een het landen vooraf ingestelde pagina** - vooraf ingesteld bepaalt subdomain en andere montages die op uw het landen pagina&#39;s worden toegepast. [&#x200B; creeer vooraf ingesteld &#x200B;](lp-presets.md#lp-create-preset)
+1. **creeer een abonnementenlijst** (voor de gevallen van het abonnementsgebruik) — Vereist als u klanten aan of zich van de specifieke dienst wilt intekenen. [&#x200B; creeer een abonnementenlijst &#x200B;](subscription-list.md)
 
 ## Werking {#how-it-works}
 
 Het creëren van en het opstellen van een het landen pagina volgen deze opeenvolging:
 
 1. **creeer en vorm** uw het landen pagina - selecteer vooraf ingesteld, opstelling de primaire pagina, en voeg om het even welke vereiste subpages toe. [Een introductiepagina maken](create-lp.md)
-1. **Ontwerp de pagina** — Bouw de pagina inhoud en de vorm gebruikend [!DNL Journey Optimizer] belemmering-en-dalingsredacteur. [ Ontwerp een het landen pagina ](design-lp.md)
-1. **Test en publiceer** — Voorproef de pagina, test vormgedrag, dan publiceer om het levend te maken. [ beheer uw het landen pagina&#39;s ](manage-lp.md)
+1. **Ontwerp de pagina** — Bouw de pagina inhoud en de vorm gebruikend [!DNL Journey Optimizer] belemmering-en-dalingsredacteur. [&#x200B; Ontwerp een het landen pagina &#x200B;](design-lp.md)
+1. **Test en publiceer** — Voorproef de pagina, test vormgedrag, dan publiceer om het levend te maken. [&#x200B; beheer uw het landen pagina&#39;s &#x200B;](manage-lp.md)
 1. **Verbinding in een bericht of een reis** - voeg de het landen pagina URL aan een e-mail, een campagne, of een reisactie toe zodat de klanten het kunnen bereiken.
 
 ## Belangrijkste mogelijkheden {#capabilities}
