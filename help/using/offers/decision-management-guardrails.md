@@ -9,22 +9,24 @@ role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 6%
+source-wordcount: '400'
+ht-degree: 5%
 
 ---
 
 # Beheersbeheerinstructies en beperkingen {#decision-management-guardrails}
 
->[!TIP]
+>[!IMPORTANT]
 >
->Het besluit, de nieuwe beslissingsmogelijkheden van [!DNL Adobe Journey Optimizer], is nu beschikbaar via de op code gebaseerde ervaring en e-mailkanalen! [Meer informatie](../experience-decisioning/gs-experience-decisioning.md)
+>Deze pagina behandelt gidsen voor het erfenis **vermogen van het Beheer van het Besluit**. Als u **Beslissing** gebruikt — [!DNL Adobe Journey Optimizer] het huidige beslissingsvermogen beschikbaar via code-gebaseerde ervaring en e-mailkanalen — verwijs in plaats daarvan naar [ Beslissende gidsen &amp; beperkingen ](../experience-decisioning/decisioning-guardrails.md).
+>
+>Weet u niet zeker welke mogelijkheden u gebruikt? [ leer over Beslissing ](../experience-decisioning/gs-experience-decisioning.md).
 
-Houd rekening met de volgende voorzorgsmaatregelen en beperkingen om een optimaal gebruik van het besluitvormingsbeheer te waarborgen.
+Deze pagina is van toepassing op gebruikers die nog steeds werken met het oude besluitvormingsbeheersysteem. Houd de volgende instructies en beperkingen in acht om een optimaal gebruik te waarborgen.
 
-De volledige lijst van [!DNL Journey Optimizer] guardrails &amp; beperkingen is beschikbaar in [&#x200B; deze sectie &#x200B;](../start/guardrails.md).
+De volledige lijst van [!DNL Journey Optimizer] guardrails &amp; beperkingen is beschikbaar in [ deze sectie ](../start/guardrails.md).
 
 ## Beslissingsverzoeken
 
@@ -101,4 +103,4 @@ De leveringstijd komt overeen met het aantal beslissingsreacties dat binnen een 
 
 Het totale aantal configuraties dat door het beheer van Besluit wordt ondersteund, mag niet meer bedragen dan 20.000.
 
-De totale configuratiegraad is het totale aantal [&#x200B; het begrenzen regels &#x200B;](offer-library/add-constraints.md#capping) die in uw zandbak bestaan. Voor elke het in kaart brengen regel die over alle [&#x200B; plaatsen &#x200B;](offer-library/creating-placements.md) wordt toegepast, moet de regel over alle plaatsen worden vermenigvuldigd verbonden aan de gespecificeerde aanbieding.
+De totale configuratiegraad is het totale aantal [ het begrenzen regels ](offer-library/add-constraints.md#capping) die in uw zandbak bestaan. Voor elke het in kaart brengen regel die over alle [ plaatsen ](offer-library/creating-placements.md) wordt toegepast, moet de regel over alle plaatsen worden vermenigvuldigd verbonden aan de gespecificeerde aanbieding.
