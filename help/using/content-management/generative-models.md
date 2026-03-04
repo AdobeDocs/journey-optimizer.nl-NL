@@ -6,9 +6,10 @@ description: Leer hoe u uw generatieve modellen maakt en beheert
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 57916f631c0154113699ca941a635678813561fe
+exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
+source-git-commit: 7873c333cbe5002695a11d1edaaf9e15f74a6d3f
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -23,9 +24,9 @@ Kies het juiste model voor uw behoeften:
 - **[!UICONTROL Partner model]**, aangedreven door Gemini 2.5 Flash, biedt gespecialiseerde mogelijkheden voor specifieke gebruiksgevallen.
 - **[!UICONTROL Custom models]** zijn merkspecifieke modellen die op uw eigen middelen zijn getraind en door uw organisatie zijn toegevoegd.
 
-  Leer meer op **[!UICONTROL Custom models]** in [&#x200B; documentatie van Adobe Firefly &#x200B;](https://helpx.adobe.com/nl/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
+  Leer meer op **[!UICONTROL Custom models]** in [ documentatie van Adobe Firefly ](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
 
-Nadat u de configuratie hebt geconfigureerd, kunt u elk van uw generatieve modellen selecteren wanneer u afbeeldingen maakt in uw inhoud. [&#x200B; Leer meer over het produceren van beelden &#x200B;](generative-image.md).
+Nadat u de configuratie hebt geconfigureerd, kunt u elk van uw generatieve modellen selecteren wanneer u afbeeldingen maakt in uw inhoud. [ Leer meer over het produceren van beelden ](generative-image.md).
 
 ## Generatieve modellen beheren
 
@@ -49,7 +50,7 @@ Beheer uw generatieve modellen vanaf een gecentraliseerde locatie. Bekijk alle b
 
 1. Klik op **[!UICONTROL Add model]** om een geheel nieuw generatief model te maken.
 
-U kunt nu al uw generatieve modellen selecteren wanneer u afbeeldingen maakt in uw inhoud. [&#x200B; Leer meer over het produceren van beelden &#x200B;](generative-image.md).
+U kunt nu al uw generatieve modellen selecteren wanneer u afbeeldingen maakt in uw inhoud. [ Leer meer over het produceren van beelden ](generative-image.md).
 
 ## Een generatief model toevoegen
 
@@ -61,7 +62,7 @@ Aangepaste Firefly-modellen zijn merkspecifieke AI-modellen die zijn getraind op
 
 Door aangepaste Firefly-modelproviders te maken, kunt u uw AI-mogelijkheden uitbreiden tot buiten de standaardmodellen en ervoor zorgen dat de gegenereerde inhoud consistent voldoet aan de unieke esthetische behoeften en behoeften van uw merk.
 
-➡️ [&#x200B; Leer hoe te om uw douanemodel te trainen &#x200B;](https://helpx.adobe.com/nl/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [ Leer hoe te om uw douanemodel te trainen ](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. Open in het menu **[!UICONTROL Brands]** de tab **[!UICONTROL Generative Models]** en klik op **[!UICONTROL Add model]** .
 
@@ -71,7 +72,19 @@ Door aangepaste Firefly-modelproviders te maken, kunt u uw AI-mogelijkheden uitb
 
 1. Voer uw **[!UICONTROL Model ID]** in.
 
-   Ga naar de Firefly-website en navigeer naar de door u getrainde modellen om uw Firefly-model-id te zoeken. De unieke id is beschikbaar in de beheersectie van het model nadat deze is gepubliceerd. Voor meer informatie, verwijs naar de [&#x200B; documentatie van de douanemodellen van Firefly &#x200B;](https://helpx.adobe.com/nl/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
+   +++ Zoek je Firefly-model-id
+
+   1. Ga naar de Firefly-website en navigeer naar uw getrainde modellen.
+   1. Heb toegang tot [ Voorproef &amp; test ](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html#preview-and-test) menu.
+   1. Zoek in de URL de waarde na `customModelId=` . Kopieer deze waarde voor gebruik als model-id.
+
+   Voor meer informatie, verwijs naar de [ documentatie van de douanemodellen van Firefly ](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
+
+   ![](assets/gen-model-manage-10.png){zoomable="yes"}
+
+   +++
+
+   </br>
 
    ![](assets/gen-model-manage-5.png){zoomable="yes"}
 
@@ -95,6 +108,6 @@ Door aangepaste Firefly-modelproviders te maken, kunt u uw AI-mogelijkheden uitb
     If disabled, select which brands this model should be applied to.
 -->
 
-Nadat u de configuratie hebt geconfigureerd, kunt u al uw aangepaste generatieve modellen selecteren wanneer u afbeeldingen maakt in uw inhoud. [&#x200B; Leer meer over het produceren van beelden &#x200B;](generative-image.md).
+Nadat u de configuratie hebt geconfigureerd, kunt u al uw aangepaste generatieve modellen selecteren wanneer u afbeeldingen maakt in uw inhoud. [ Leer meer over het produceren van beelden ](generative-image.md).
 
 ![](assets/gen-model-manage-9.png){zoomable="yes"}
