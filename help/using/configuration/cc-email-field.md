@@ -30,24 +30,24 @@ ht-degree: 0%
 >
 >Deze functie is beschikbaar voor alle klanten met beperkte beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
-U kunt een zichtbaar CC-veld (carbon copy) toevoegen aan e-mails die door [!DNL Journey Optimizer] via uw reizen en campagnes worden verzonden. Deze facultatieve eigenschap wordt gevormd op het [ niveau van de kanaalconfiguratie ](channel-surfaces.md), naast de parameters van de e-mailkopbal en BCC e-mailoptie.
+U kunt een zichtbaar CC-veld (carbon copy) toevoegen aan e-mails die door [!DNL Journey Optimizer] via uw reizen en campagnes worden verzonden. Deze facultatieve eigenschap wordt gevormd op het [&#x200B; niveau van de kanaalconfiguratie &#x200B;](channel-surfaces.md), naast de parameters van de e-mailkopbal en BCC e-mailoptie.
 
 >[!CAUTION]
 >
 >Het gebruik van de CC-functie wordt meegeteld bij het aantal berichten waarvoor u een licentie hebt. Schakel deze alleen in waar u zichtbare CC-ontvangers nodig hebt. Controleer uw contract op volumes met licentie.
 
-Als [ BCC ](archiving-support.md#bcc-email), wordt het gebied van CC bedoeld om een exemplaar van e-mail naar een extra adres te verzenden. Het verschilt echter op de volgende manieren van BCC:
+Als [&#x200B; BCC &#x200B;](archiving-support.md#bcc-email), wordt het gebied van CC bedoeld om een exemplaar van e-mail naar een extra adres te verzenden. Het verschilt echter op de volgende manieren van BCC:
 
 * Het CC e-mailadres is zichtbaar voor de primaire ontvanger, zodat de primaire ontvanger kan zien wie wordt gekopieerd en wie om voor follow-up te contacteren kent.
 * In tegenstelling tot BCC, steunt het de e-mailgebied van CC verpersoonlijking, die u toelaat om één kanaalconfiguratie voor vele scenario&#39;s te gebruiken, en het exemplaar naar de juiste persoon per ontvanger (b.v. hun relatiemanager) te verzenden. Voor API-getriggerde campagnes, staat dit u toe om het adres relevant voor een specifieke gebeurtenis of een transactie te CC.
 
 >[!NOTE]
 >
->Als u exemplaren moet houden waar het adres niet aan de ontvanger voor archiverings of nalevingsdoeleinden zichtbaar moet zijn, gebruik [ BCC ](archiving-support.md#bcc-email) in plaats van CC.
+>Als u exemplaren moet houden waar het adres niet aan de ontvanger voor archiverings of nalevingsdoeleinden zichtbaar moet zijn, gebruik [&#x200B; BCC &#x200B;](archiving-support.md#bcc-email) in plaats van CC.
 
 ## CC-e-mail inschakelen {#enable-cc}
 
-Om de **[!UICONTROL CC email]** optie toe te laten, vorm het gebied van CC in de [ configuratie van het e-mailkanaal ](../email/email-settings.md).
+Om de **[!UICONTROL CC email]** optie toe te laten, vorm het gebied van CC in de [&#x200B; configuratie van het e-mailkanaal &#x200B;](../email/email-settings.md).
 
 ![](assets/email-config-cc.png)
 
@@ -57,7 +57,7 @@ U kunt elk extern adres opgeven in de juiste indeling, behalve een e-mailadres d
 >
 >U kunt slechts één e-mailadres definiëren. Zorg ervoor dat het CC-adres voldoende ontvangstcapaciteit heeft om alle e-mails op te slaan die met de huidige kanaalconfiguratie worden verzonden.
 >
->Meer aanbevelingen worden vermeld in [ deze sectie ](#cc-recommendations-limitations).
+>Meer aanbevelingen worden vermeld in [&#x200B; deze sectie &#x200B;](#cc-recommendations-limitations).
 
 Het veld **[!UICONTROL CC email]** accepteert drie typen waarden:
 
@@ -71,7 +71,7 @@ Het veld **[!UICONTROL CC email]** accepteert drie typen waarden:
   >
   >Wanneer CC gebruikend a **contextvariabele** wordt geplaatst, wordt het gesteund slechts in **API-teweeggebrachte campagnes**. Als u die kanaalconfiguratie in een reis of een actiecampagne gebruikt, wordt e-mail verzonden naar de primaire ontvanger slechts; geen exemplaar wordt verzonden naar het adres van CC.
 
-Om het even welke [ gehechtheid ](../email/pdf-attachments.md) inbegrepen in het bericht wordt verzonden naar zowel de primaire ontvanger als het adres van CC.
+Om het even welke [&#x200B; gehechtheid &#x200B;](../email/pdf-attachments.md) inbegrepen in het bericht wordt verzonden naar zowel de primaire ontvanger als het adres van CC.
 
 Als de CC-waarde ongeldig is of ontbreekt tijdens het verzenden (bijvoorbeeld een lege contextvariabele), wordt de CC-kopie overgeslagen; de primaire ontvanger ontvangt de e-mail nog steeds.
 
@@ -79,14 +79,14 @@ Als er meerdere waarden zijn voor het CC-veld (bijvoorbeeld wanneer u een profie
 
 ## CC-e-mail bewerken in bestaande kanaalconfiguraties {#cc-edit}
 
-Als u [ een e-mailconfiguratie ](channel-surfaces.md#edit-channel-surface) uitgeeft en het gebied van CC toevoegt of verandert, kunt u slechts gebruiken:
+Als u [&#x200B; een e-mailconfiguratie &#x200B;](channel-surfaces.md#edit-channel-surface) uitgeeft en het gebied van CC toevoegt of verandert, kunt u slechts gebruiken:
 
 * A **hardcoded** het e-mailadres van CC, of
 * A **contextvariabele** (voor API-teweeggebracht gebruik).
 
 >[!CAUTION]
 >
->Wanneer het uitgeven van een bestaande configuratie van het e-mailkanaal, kunt u geen nieuwe [ profielattributen ](../personalization/personalization-build-expressions.md#sources) aan het **[!UICONTROL CC email]** gebied toevoegen. U moet a [ nieuwe kanaalconfiguratie ](channel-surfaces.md#create-channel-surface) tot stand brengen.
+>Wanneer het uitgeven van een bestaande configuratie van het e-mailkanaal, kunt u geen nieuwe [&#x200B; profielattributen &#x200B;](../personalization/personalization-build-expressions.md#sources) aan het **[!UICONTROL CC email]** gebied toevoegen. U moet a [&#x200B; nieuwe kanaalconfiguratie &#x200B;](channel-surfaces.md#create-channel-surface) tot stand brengen.
 
 ## Aanbevelingen en beperkingen {#cc-recommendations-limitations}
 
@@ -96,13 +96,13 @@ Als u [ een e-mailconfiguratie ](channel-surfaces.md#edit-channel-surface) uitge
 
 * **Inbox beheer:** Uw inbox die voor CC wordt gebruikt zou behoorlijk voor ruimte en levering moeten worden beheerd. Als de postbus bellen retourneert, worden sommige e-mails mogelijk niet ontvangen.
 
-* **de timing van de Levering:** de Berichten kunnen aan het CC e-mailadres vóór de doelontvangers worden geleverd. De berichten van CC kunnen ook worden verzonden alhoewel de originele berichten [ kunnen hebben die ](../reports/suppression-list.md#delivery-failures) worden teruggestuurd.
+* **de timing van de Levering:** de Berichten kunnen aan het CC e-mailadres vóór de doelontvangers worden geleverd. De berichten van CC kunnen ook worden verzonden alhoewel de originele berichten [&#x200B; kunnen hebben die &#x200B;](../reports/suppression-list.md#delivery-failures) worden teruggestuurd.
 
-* **het Melden:** opent, klikt, en andere overeenkomst van de ontvangers van CC is inbegrepen in e-mail rapporteringsmetriek. Aldus, om het even welk opent of klikt van de ontvangers van CC zal misberekeningen in [ rapporten ](../reports/report-gs-cja.md) veroorzaken.
+* **het Melden:** opent, klikt, en andere overeenkomst van de ontvangers van CC is inbegrepen in e-mail rapporteringsmetriek. Aldus, om het even welk opent of klikt van de ontvangers van CC zal misberekeningen in [&#x200B; rapporten &#x200B;](../reports/report-gs-cja.md) veroorzaken.
 
 * **Spam:** Markeer geen berichten als spam in CC inbox, aangezien het alle andere e-mails zal beïnvloeden die naar dit adres worden verzonden.
 
-* **Leverbaarheid:** Gebruik CC in lijn met uw verzendende praktijken en ontvankelijke verwachtingen. Het bovenmatige gebruik van CC kan bevrediging beïnvloeden; volg [ best practices van de leverbaarheid ](../reports/deliverability.md) en uw contracttermijnen.
+* **Leverbaarheid:** Gebruik CC in lijn met uw verzendende praktijken en ontvankelijke verwachtingen. Het bovenmatige gebruik van CC kan bevrediging beïnvloeden; volg [&#x200B; best practices van de leverbaarheid &#x200B;](../reports/deliverability.md) en uw contracttermijnen.
 
 >[!CAUTION]
 >
