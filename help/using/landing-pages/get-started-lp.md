@@ -22,7 +22,7 @@ Een openingspagina is een zelfstandige webpagina waarnaar een gebruiker wordt ve
 
 Met [!DNL Journey Optimizer] kunt u bestemmingspagina&#39;s maken en ontwerpen, zodat uw gebruikers naar onlineformulieren kunnen gaan waar ze zich kunnen aanmelden of afmelden voor het ontvangen van uw communicatie of een specifieke service zoals een nieuwsbrief.
 
-➡️ [ Leer meer over het vormen van abonnementen en het creëren van landende pagina&#39;s in deze video ](#video)
+➡️ [&#x200B; Leer meer over het vormen van abonnementen en het creëren van landende pagina&#39;s in deze video &#x200B;](#video)
 
 ## Wanneer moeten bestemmingspagina&#39;s worden gebruikt? {#when-to-use}
 
