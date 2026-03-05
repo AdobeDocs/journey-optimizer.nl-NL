@@ -7,13 +7,13 @@ role: User
 level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 58b6300dd00cc4475397d117a705fe88deab1796
+exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
+source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
 
 ---
-
 
 # Werken met Adobe Experience Manager Content Advisor {#aem-content-advisor}
 
@@ -29,7 +29,7 @@ Adobe Experience Manager Content Advisor vervangt deterministische ontdekkingen 
 
 Adobe Experience Manager Content Advisor biedt de volgende functies voor bedrijfsmiddelen:
 
-* &#x200B;
+* 
   +++ AI semantische zoekopdracht
 
   Zoeken naar elementen met een natuurlijke taal in plaats van exacte trefwoorden of bestandsnamen. Beschrijf wat u in gewone taal nodig hebt, bijvoorbeeld &quot;koffie in de bergen&quot;, en de AI vindt contextafhankelijke activa gebaseerd op betekenis en inhoud, niet alleen tekstovereenkomsten.
@@ -38,7 +38,7 @@ Adobe Experience Manager Content Advisor biedt de volgende functies voor bedrijf
 
   +++
 
-* &#x200B;
+* 
   +++ Recente zoekgeschiedenis
 
   Open je recente zoekopdrachten en gebruik trefwoorden en contexten snel opnieuw. Dit bespaart tijd wanneer het werken aan gelijkaardige campagnes of wanneer u vorige onderzoeken moet verfijnen.
@@ -47,7 +47,7 @@ Adobe Experience Manager Content Advisor biedt de volgende functies voor bedrijf
 
   +++ 
 
-* &#x200B;
+* 
   +++ Uploadinstructie
 
   Upload een kort marketingdocument om automatisch elementen weer te geven die zijn afgestemd op de context van uw campagne. De AI analyseert uw opdracht en stelt relevante elementen voor op basis van de inhoud en vereisten die in het document worden beschreven.
@@ -56,7 +56,7 @@ Adobe Experience Manager Content Advisor biedt de volgende functies voor bedrijf
 
   +++
 
-* &#x200B;
+* 
   +++ Deelvenster Elementinformatie
 
   Gedetailleerde meta-gegevens en eigenschappen van de mening voor om het even welk middel gebruikend het **pictogram van Info**. Hiertoe behoren de afmetingen van de elementen, de bestandsgrootte, de aanmaakdatum, codes en andere relevante informatie die u helpt geïnformeerde beslissingen te nemen.
@@ -65,7 +65,7 @@ Adobe Experience Manager Content Advisor biedt de volgende functies voor bedrijf
 
   +++
 
-* &#x200B;
+* 
   +++ Deelvenster Dynamische media
 
   Toegang tot dynamische uitvoeringen, slimme gewassen en wijzigingen ter plaatse op basis van de configuratie van de opslagplaats.
@@ -78,9 +78,9 @@ Adobe Experience Manager Content Advisor biedt de volgende functies voor bedrijf
 
   De beschikbaarheid van dynamische media is afhankelijk van de configuratie van de opslagplaats:
 
-   * **Scene7**: Beschikbaar voor gepubliceerde activa (behalve Video en PDF). [&#x200B; Leer meer op Dynamische de wijzigingstoetsen van Media Scene7 &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
+   * **Scene7**: Beschikbaar voor gepubliceerde activa (behalve Video en PDF). [ Leer meer op Dynamische de wijzigingstoetsen van Media Scene7 ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-   * **OpenAPI**: Beschikbaar voor goedgekeurde activa (behalve Video). [&#x200B; leer meer op Dynamische Media met modifiers OpenAPI &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=nl-NL){target="_blank"}
+   * **OpenAPI**: Beschikbaar voor goedgekeurde activa (behalve Video). [ leer meer op Dynamische Media met modifiers OpenAPI ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
    * **zowel Scene7 als OpenAPI**: Beschikbaar wanneer beide configuraties bestaan en de activa aan de criteria voldoen.
 
@@ -97,7 +97,7 @@ Adobe Experience Manager Content Advisor biedt de volgende functies voor bedrijf
 
 Adobe Experience Manager Content Advisor biedt de volgende functies voor inhoudsfragmenten:
 
-* &#x200B;
+* 
   +++ Sjabloonweergaveoverzicht 
 
   Schakel tussen miniaturen en tabelweergaven om door Content Fragments te bladeren in de indeling die het beste bij uw workflow past. De miniatuurweergave biedt visuele context, terwijl de tabelweergave gedetailleerde informatie in een gestructureerde indeling weergeeft.
@@ -106,7 +106,7 @@ Adobe Experience Manager Content Advisor biedt de volgende functies voor inhouds
 
   +++
 
-* &#x200B;
+* 
   +++ Info, deelvenster 
 
   Klik op het pictogram **[!UICONTROL Info]** om een rechterdeelvenster te openen met fragmentvariaties, -eigenschappen en **[!UICONTROL Referenced By]** -details. In de sectie **[!UICONTROL Referenced By]** worden alle Adobe Experience Manager-entiteiten weergegeven waarin het fragment wordt gebruikt, met koppelingen om deze verwijzingen rechtstreeks in Adobe Experience Manager weer te geven.
@@ -115,7 +115,7 @@ Adobe Experience Manager Content Advisor biedt de volgende functies voor inhouds
 
   +++
 
-* &#x200B;
+* 
   +++ Openen in Adobe Experience Manager
 
   Open snel een inhoudsfragment rechtstreeks in Adobe Experience Manager en bewerk het met het pictogram naast de titel. Dankzij deze naadloze integratie kunt u schakelen tussen Journey Optimizer en Adobe Experience Manager zonder dat u de context verliest.
@@ -124,7 +124,7 @@ Adobe Experience Manager Content Advisor biedt de volgende functies voor inhouds
 
   +++
 
-* &#x200B;
+* 
   +++ JSON-voorvertoning
 
   Geef een voorvertoning van de JSON-structuur van inhoudsfragmenten weer in een schone, geordende tabelindeling. Zo krijgt u inzicht in de gegevensstructuur van het fragment en kunt u de inhoud controleren voordat u het fragment in uw campagnes gebruikt.
@@ -147,11 +147,11 @@ Ga als volgt te werk om Adobe Experience Manager Content Advisor in Journey Opti
 
 1. Kies in de Personalization Editor het toegangspunt voor de inhoud:
 
-   * Als u een element wilt toevoegen, klikt u op **[!UICONTROL Assets]** en vervolgens op **[!UICONTROL Open Asset Selector]** .
+   * Als u een element wilt toevoegen, klikt u op **[!UICONTROL Assets]** en vervolgens op **[!UICONTROL Open AEM Content Advisor]** .
 
      ![](assets/content-advisor-11.png){zoomable="yes"}
 
-   * Als u een Adobe Experience Manager-inhoudsfragment wilt toevoegen, klikt u op **[!UICONTROL AEM Content Fragment]** en vervolgens op **[!UICONTROL Open AEM CF Selector]** .
+   * Als u een Adobe Experience Manager-inhoudsfragment wilt toevoegen, klikt u op **[!UICONTROL AEM Content Fragment]** en vervolgens op **[!UICONTROL Open AEM Content Advisor]** .
 
      ![](assets/content-advisor-12.png){zoomable="yes"}
 
@@ -160,5 +160,3 @@ Ga als volgt te werk om Adobe Experience Manager Content Advisor in Journey Opti
    ![](assets/content-advisor-13.png){zoomable="yes"}
 
 1. Blader naar het element of inhoudsfragment dat u wilt gebruiken en selecteer het. Voeg het fragment vervolgens in de inhoud in.
-
-

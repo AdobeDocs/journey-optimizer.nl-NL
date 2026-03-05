@@ -8,9 +8,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 707bc4053ee05c275b562e35227e54836e91fa27
+exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
+source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Bijvoorbeeld, als markator voor een handelsmerk, runt u een flitsverkoop 48 uur.
 * Ontvangers die 24 uur later openen, zien &quot;23 uur resterend&quot;
 * Ontvangers die na afloop van de verkoop openen, zien &quot;Uitverkoop beëindigd&quot;
 
-Voor meer informatie over hoe te om uw Dynamische Media in de manager van de Ervaring van Adobe tot stand te brengen, verwijs [&#x200B; naar dit document &#x200B;](assets/do-not-localize/countdown.pdf).
+Voor meer informatie over hoe te om tellertijdopnemers aan uw Dynamische malplaatje van Media in Adobe Experience Manager toe te voegen, verwijs [ naar dit document ](assets/do-not-localize/countdown.pdf).
 
 
 1. Maak in **[!DNL Adobe Experience Manager]** een sjabloon voor dynamische media en voeg er een component voor afteltimer aan toe.
@@ -34,9 +35,9 @@ Voor meer informatie over hoe te om uw Dynamische Media in de manager van de Erv
 
 1. Maak in **[!DNL Journey Optimizer]** een nieuwe campagne of open een bestaande campagne en open vervolgens de e-mail-Designer.
 
-1. Sleep een **[!UICONTROL HTML component]** naar uw e-mailinhoud.
+1. De belemmering en laat vallen een **HTML** of **3} component van Activa {in uw e-mailinhoud.**
 
-1. Selecteer **[!UICONTROL Show the source code]** om de HTML rechtstreeks te bewerken.
+1. Houd de muisaanwijzer boven de component en klik op **[!UICONTROL Show the source code]** (voor HTML-componenten) of **[!UICONTROL Browse]** (voor Asset-componenten).
 
    ![](assets/timer-2.png)
 
@@ -50,9 +51,10 @@ Voor meer informatie over hoe te om uw Dynamische Media in de manager van de Erv
 
    ![](assets/timer-4.png)
 
-1. Selecteer het element in de e-mailtoepassing Designer en open het menu **[!UICONTROL Styles]** .
+1. Selecteer het element in de e-mailtoepassing Designer en open het menu **[!UICONTROL Settings]** .
 
-   Configureer de volgende instellingen:
+   Configureer het volgende:
+
    * **tekst van de Banner**: De tekst die met uw tijdopnemer wordt getoond
    * **Eind tijd**: De datum en de tijd wanneer aftellen verloopt. Voer de tijd alleen in GMT (Greenwich Mean Time) in. Het systeem accepteert geen andere tijdzones.
    * **Tekst van de Fallback**: Het bericht dat na tijdopnemereinden wordt getoond
@@ -62,4 +64,3 @@ Voor meer informatie over hoe te om uw Dynamische Media in de manager van de Erv
 1. Klik **[!UICONTROL Preview]** om de tijdopnemer met tellerupdates in real time te bekijken en uw configuratie te verifiëren.
 
 Wanneer ontvangers het e-mailbericht openen, zien ze de juiste tijd die nog over is voor de Flash-verkoop. Als ze het e-mailbericht later opnieuw openen, wordt de aftelling automatisch bijgewerkt om de resterende tijd te weerspiegelen. Na de einddatum wordt het standaardbericht automatisch weergegeven.
-
