@@ -9,7 +9,8 @@ role: User
 hidefromtoc: true
 hide: true
 level: Experienced
-source-git-commit: 74102069afa519898149de33f890568950571f26
+exl-id: 0c586565-0c65-435f-986d-cd08b59de159
+source-git-commit: 1ab21ba3a656f59de748ee90f360b99c0dc2f7a5
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 1%
@@ -44,11 +45,11 @@ Wanneer u de geavanceerde HTML-editor gebruikt, zijn de volgende instructies bes
 
 >[!WARNING]
 >
->De geavanceerde HTML-editor in de inhoudssjabloon is niet dezelfde als de modus **[!UICONTROL Code your own]** in de e-mailtoepassing van Designer. In de modus [!UICONTROL Code your own] kunt u niet terugschakelen naar de visuele editor. Als u eenmaal dat pad hebt gekozen, kunt u alleen codebewerkingen uitvoeren. Met de geavanceerde HTML-editor kunt u daarentegen op elk gewenst moment schakelen tussen de HTML-weergave en de (visuele) desktopweergave. [&#x200B; leer meer over de coderedacteur &#x200B;](../email/code-content.md)
+>De geavanceerde HTML-editor in de inhoudssjabloon is niet dezelfde als de modus **[!UICONTROL Code your own]** in de e-mailtoepassing van Designer. In de modus [!UICONTROL Code your own] kunt u niet terugschakelen naar de visuele editor. Als u eenmaal dat pad hebt gekozen, kunt u alleen codebewerkingen uitvoeren. Met de geavanceerde HTML-editor kunt u daarentegen op elk gewenst moment schakelen tussen de HTML-weergave en de (visuele) desktopweergave. [ leer meer over de coderedacteur ](../email/code-content.md)
 
 ## Overschakelen naar de geavanceerde HTML-weergave {#switch-to-desktop-view}
 
-1. Open of creeer een [&#x200B; e-mailmalplaatje &#x200B;](../content-management/create-content-templates.md) en open [&#x200B; E-mail Designer &#x200B;](../email/get-started-email-design.md) om de inhoud uit te geven.
+1. Open of creeer een [ e-mailmalplaatje ](../content-management/create-content-templates.md) en open [ E-mail Designer ](../email/get-started-email-design.md) om de inhoud uit te geven.
 
 1. Klik op de knop **[!UICONTROL HTML]** in de rechterbovenhoek van het scherm.
 
@@ -60,7 +61,7 @@ Wanneer u de geavanceerde HTML-editor gebruikt, zijn de volgende instructies bes
    >
    >Deze waarschuwing wordt alleen weergegeven wanneer u de geavanceerde HTML-editor voor de eerste keer opent en elke maand opnieuw instelt.
 
-   ![](assets/email-template-expert-mode-warning.png)
+   ![](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
 1. De geavanceerde HTML-editor wordt weergegeven.
 
@@ -74,7 +75,7 @@ Wanneer u de geavanceerde HTML-editor gebruikt, zijn de volgende instructies bes
 
 1. Opslaan is niet beschikbaar in de geavanceerde HTML-weergave. Schakel terug naar de weergave Computer om uw wijzigingen op te slaan.
 
-   &lt;![](assets/email-template-expert-mode-save.png)
+   ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
