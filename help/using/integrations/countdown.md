@@ -26,7 +26,7 @@ Bijvoorbeeld, als markator voor een handelsmerk, runt u een flitsverkoop 48 uur.
 * Ontvangers die 24 uur later openen, zien &quot;23 uur resterend&quot;
 * Ontvangers die na afloop van de verkoop openen, zien &quot;Uitverkoop beëindigd&quot;
 
-Voor meer informatie over hoe te om tellertijdopnemers aan uw Dynamische malplaatje van Media in Adobe Experience Manager toe te voegen, verwijs [ naar dit document ](assets/do-not-localize/countdown.pdf).
+Voor meer informatie over hoe te om tellertijdopnemers aan uw Dynamische malplaatje van Media in Adobe Experience Manager toe te voegen, verwijs [&#x200B; naar dit document &#x200B;](assets/do-not-localize/countdown.pdf).
 
 
 1. Maak in **[!DNL Adobe Experience Manager]** een sjabloon voor dynamische media en voeg er een component voor afteltimer aan toe.
@@ -35,7 +35,7 @@ Voor meer informatie over hoe te om tellertijdopnemers aan uw Dynamische malplaa
 
 1. Maak in **[!DNL Journey Optimizer]** een nieuwe campagne of open een bestaande campagne en open vervolgens de e-mail-Designer.
 
-1. De belemmering en laat vallen een **HTML** of **3} component van Activa {in uw e-mailinhoud.**
+1. De belemmering en laat vallen een **HTML** of **3&rbrace; component van Activa &lbrace;in uw e-mailinhoud.**
 
 1. Houd de muisaanwijzer boven de component en klik op **[!UICONTROL Show the source code]** (voor HTML-componenten) of **[!UICONTROL Browse]** (voor Asset-componenten).
 
