@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: 74102069afa519898149de33f890568950571f26
 workflow-type: tm+mt
-source-wordcount: '3130'
+source-wordcount: '3136'
 ht-degree: 15%
 
 ---
@@ -461,8 +461,9 @@ ht-degree: 15%
       + [Aan de slag met inhoudssjablonen](using/content-management/content-templates.md)
       + [Sjablonen openen en beheren](using/content-management/access-content-templates.md)
       + [Inhoudssjablonen maken](using/content-management/create-content-templates.md)
-      + [Afbeeldingen converteren naar HTML-sjablonen](using/content-management/image-to-html.md)
+      + [Afbeeldingen converteren naar e-mailsjablonen](using/content-management/image-to-html.md)
       + [Inhoud in e-mailsjablonen vergrendelen](using/content-management/content-locking.md)
+      + [E-mailsjablonen bewerken in de modus Expert](using/content-management/email-template-expert-mode.md)
       + [Inhoudssjablonen testen](using/content-management/test-content-templates.md)
       + [Inhoudssjablonen gebruiken](using/content-management/use-content-templates.md)
    + Herbruikbare inhoudsfragmenten {#fragments}
@@ -858,7 +859,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
