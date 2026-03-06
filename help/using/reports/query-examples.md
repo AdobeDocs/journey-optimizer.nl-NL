@@ -23,27 +23,27 @@ Deze sectie verstrekt algemeen gebruikte voorbeelden om de Gebeurtenissen van de
 
 Controleer het volgende voordat u een query uitvoert op deze pagina:
 
-* **Toegang tot de Dienst van de Vraag van Adobe Experience Platform** - u moet toegang tot [ de Dienst van de Vraag ](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl){target="_blank"} in uw zandbak van Adobe Experience Platform hebben.
+* **Toegang tot de Dienst van de Vraag van Adobe Experience Platform** - u moet toegang tot [&#x200B; de Dienst van de Vraag &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl){target="_blank"} in uw zandbak van Adobe Experience Platform hebben.
 * **beschikbare Dataset** - de Vragen richten zich de `journey_step_events` dataset. Verifieer de dataset bestaat en gegevens in uw zandbak via **Experience Platform > Datasets** bevat.
 * **correcte identiteitskaart van de reisversie** — De meeste vragen vereisen a `journeyVersionID`. Vind het in Journey Optimizer onder **Schavens > [ uw reis ] > Eigenschappen**, of gebruik `journeyVersionName` om van het in de dataset eerst de plaats te bepalen.
 * **het gebiedswaarden van het Schema** — zorg ervoor dat de gebieden die in uw vragen worden gebruikt waarden in het overeenkomstige schema hebben geassocieerd. Lege velden retourneren geen resultaten zonder fouten.
 
 >[!TIP]
 >
->**Nieuw aan de Dienst van de Vraag?** Open [ Adobe Experience Platform ](https://experience.adobe.com/), navigeer aan **de Dienst van de Vraag > Vraagt**, kleef om het even welk voorbeeld hieronder, vervang de placeholder waarden (b.v. `<journeyVersionID>`, `<last x hours>`), en selecteer **Looppas**.
+>**Nieuw aan de Dienst van de Vraag?** Open [&#x200B; Adobe Experience Platform &#x200B;](https://experience.adobe.com/), navigeer aan **de Dienst van de Vraag > Vraagt**, kleef om het even welk voorbeeld hieronder, vervang de placeholder waarden (b.v. `<journeyVersionID>`, `<last x hours>`), en selecteer **Looppas**.
 
 ## De juiste query zoeken {#find-query}
 
 | Ik wil... | Ga naar |
 |---|---|
-| Telprofielen die een reis hebben afgelegd | [ Basis gebruiksgevallen ](#common-queries) |
-| Fouten opsporen in het pad van een specifiek profiel | [ op profiel-gebaseerde vragen ](#profile-based-queries) |
-| Uitvoering of fouten van leespubliek controleren | [ las de vragen van het publiek ](#read-segment-queries) |
-| Berichtings- of actiefouten oplossen | [ de fouten van het Bericht &amp; van de Actie ](#message-action-errors) |
-| Teruggooi van Audience Qualification analyseren | [ vragen van de Kwalificatie van het publiek ](#segment-qualification-queries) |
-| Fouten opsporen in externe of zakelijke gebeurtenissen | [ op gebeurtenis-gebaseerde vragen ](#event-based-queries) |
-| Eindpuntprestaties van aangepaste handelingen controleren | [ de vragen van de Actie van de Douane ](#query-custom-action) |
-| Inschakelbare profielen bijhouden en licentiegebruik | [ toe te laten vragen van Profielen ](#engageable-profiles-queries) |
+| Telprofielen die een reis hebben afgelegd | [&#x200B; Basis gebruiksgevallen &#x200B;](#common-queries) |
+| Fouten opsporen in het pad van een specifiek profiel | [&#x200B; op profiel-gebaseerde vragen &#x200B;](#profile-based-queries) |
+| Uitvoering of fouten van leespubliek controleren | [&#x200B; las de vragen van het publiek &#x200B;](#read-segment-queries) |
+| Berichtings- of actiefouten oplossen | [&#x200B; de fouten van het Bericht &amp; van de Actie &#x200B;](#message-action-errors) |
+| Teruggooi van Audience Qualification analyseren | [&#x200B; vragen van de Kwalificatie van het publiek &#x200B;](#segment-qualification-queries) |
+| Fouten opsporen in externe of zakelijke gebeurtenissen | [&#x200B; op gebeurtenis-gebaseerde vragen &#x200B;](#event-based-queries) |
+| Eindpuntprestaties van aangepaste handelingen controleren | [&#x200B; de vragen van de Actie van de Douane &#x200B;](#query-custom-action) |
+| Inschakelbare profielen bijhouden en licentiegebruik | [&#x200B; toe te laten vragen van Profielen &#x200B;](#engageable-profiles-queries) |
 
 Zorg ervoor dat de gebieden die in uw vragen worden gebruikt waarden in het overeenkomstige schema hebben geassocieerd.
 
@@ -57,7 +57,7 @@ Zorg ervoor dat de gebieden die in uw vragen worden gebruikt waarden in het over
 
 >[!NOTE]
 >
->Voor het oplossen van problemendoeleinden, adviseren wij gebruikend tripVersionID in plaats van tripVersionName wanneer het vragen van reizen. Leer meer over de attributen van de reiseigenschappen [ in deze sectie ](../building-journeys/expression/journey-properties.md#journey-properties-fields).
+>Voor het oplossen van problemendoeleinden, adviseren wij gebruikend tripVersionID in plaats van tripVersionName wanneer het vragen van reizen. Leer meer over de attributen van de reiseigenschappen [&#x200B; in deze sectie &#x200B;](../building-journeys/expression/journey-properties.md#journey-properties-fields).
 
 +++
 
@@ -77,7 +77,7 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
@@ -564,7 +564,7 @@ _de output van de Steekproef_
 
 De vraag keert, voor de bepaalde periode, het aantal profielen terug dat de reis elke dag inging. Als een profiel wordt ingevoerd via meerdere identiteiten, wordt het twee keer geteld. Als de terugkeer wordt toegelaten, zou het profielaantal over verschillende dagen kunnen worden gedupliceerd als het de reis op een verschillende dag opnieuw inging.
 
-Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 
 +++
@@ -994,7 +994,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
@@ -1012,7 +1012,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
@@ -1026,7 +1026,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
@@ -1043,13 +1043,13 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
-Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 +++
 
 ## Zoekopdrachten voor Ingageable Profiles {#engageable-profiles-queries}
 
-Deze vragen helpen u uw Engageable Aantal Profielen controleren en analyseren. Een meetbaar profiel is een uniek profiel dat de afgelopen twaalf maanden is gebruikt voor reizen of campagnes. Leer meer over [ Engageable Profielen en vergunningsgebruik ](../audience/license-usage.md#what-is-engageable-profile).
+Deze vragen helpen u uw Engageable Aantal Profielen controleren en analyseren. Een meetbaar profiel is een uniek profiel dat de afgelopen twaalf maanden is gebruikt voor reizen of campagnes. Leer meer over [&#x200B; Engageable Profielen en vergunningsgebruik &#x200B;](../audience/license-usage.md#what-is-engageable-profile).
 
 >[!IMPORTANT]
 >
@@ -1070,13 +1070,13 @@ WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVe
 AND timestamp > (now() - interval '12' month);
 ```
 
-Deze vraag helpt u begrijpen hoeveel unieke profielen een specifieke reis aan uw [ toe te laten ](../audience/license-usage.md) telling van Profielen in de afgelopen 12 maanden heeft bijgedragen.
+Deze vraag helpt u begrijpen hoeveel unieke profielen een specifieke reis aan uw [&#x200B; toe te laten &#x200B;](../audience/license-usage.md) telling van Profielen in de afgelopen 12 maanden heeft bijgedragen.
 
 +++
 
 +++Telprofielen per reis in de laatste twaalf maanden
 
-Deze vraag toont het aantal unieke profielen die door elke reis in uw organisatie in de voorbije 12 maanden worden geëngageerd, die u helpen identificeren welke reizen het meest aan uw [ Engageable Aantal Profielen ](../audience/license-usage.md) bijdragen.
+Deze vraag toont het aantal unieke profielen die door elke reis in uw organisatie in de voorbije 12 maanden worden geëngageerd, die u helpen identificeren welke reizen het meest aan uw [&#x200B; Engageable Aantal Profielen &#x200B;](../audience/license-usage.md) bijdragen.
 
 ```sql
 SELECT 
@@ -1109,7 +1109,7 @@ Deze uitvoer helpt u te identificeren welke reizen de meeste profielen in dienst
 
 +++Telprofielen die de afgelopen 30 dagen dagelijks door reizen zijn gebruikt
 
-Deze vraag verstrekt een dagelijkse uitsplitsing van onlangs betrokken profielen, die u helpen spikes in [ identificeren Engageable Aantal Profielen ](../audience/license-usage.md).
+Deze vraag verstrekt een dagelijkse uitsplitsing van onlangs betrokken profielen, die u helpen spikes in [&#x200B; identificeren Engageable Aantal Profielen &#x200B;](../audience/license-usage.md).
 
 ```sql
 SELECT 
@@ -1131,13 +1131,13 @@ _de output van de Steekproef_
 | 22-11-2024 | 9.230 |
 | 21-11-2024 | 8.670 |
 
-Met deze uitvoer kunt u dagelijkse trends volgen en bepalen wanneer grote aantallen profielen worden gebruikt. In dit voorbeeld, toont 23 November een significante piek (125.340 profielen) in vergelijking met typisch dagelijkse overeenkomst (~8.000 profielen), die onderzoek zou rechtvaardigen om te begrijpen welke reis of campagne de toename in uw [ toe te laten Aantal Profielen ](../audience/license-usage.md) veroorzaakte.
+Met deze uitvoer kunt u dagelijkse trends volgen en bepalen wanneer grote aantallen profielen worden gebruikt. In dit voorbeeld, toont 23 November een significante piek (125.340 profielen) in vergelijking met typisch dagelijkse overeenkomst (~8.000 profielen), die onderzoek zou rechtvaardigen om te begrijpen welke reis of campagne de toename in uw [&#x200B; toe te laten Aantal Profielen &#x200B;](../audience/license-usage.md) veroorzaakte.
 
 +++
 
 +++Reizen identificeren waarbij onlangs een groot publiek betrokken was
 
-Deze vraaghulp identificeert welke reizen grote aantallen nieuwe profielen in recente tijdsperiodes hebben geëngageerd, die plotselinge verhogingen in [ toe te laten ](../audience/license-usage.md) telling van Profielen kunnen verklaren.
+Deze vraaghulp identificeert welke reizen grote aantallen nieuwe profielen in recente tijdsperiodes hebben geëngageerd, die plotselinge verhogingen in [&#x200B; toe te laten &#x200B;](../audience/license-usage.md) telling van Profielen kunnen verklaren.
 
 ```sql
 SELECT 
@@ -1188,7 +1188,7 @@ Dit ene getal staat voor het totale aantal unieke profielen dat in de afgelopen 
 
 >[!NOTE]
 >
->Deze vraag telt duidelijke profiel IDs in de de gebeurtenisdataset van de de reisstap. De daadwerkelijke die Aantal van Profielen van Engageable in het [ dashboard van het Gebruik van de Vergunning ](../audience/license-usage.md) worden getoond kan lichtjes verschillen, aangezien het ook profielen omvat die door campagnes en andere mogelijkheden van Journey Optimizer voorbij reizen worden aangehaald.
+>Deze vraag telt duidelijke profiel IDs in de de gebeurtenisdataset van de de reisstap. De daadwerkelijke die Aantal van Profielen van Engageable in het [&#x200B; dashboard van het Gebruik van de Vergunning &#x200B;](../audience/license-usage.md) worden getoond kan lichtjes verschillen, aangezien het ook profielen omvat die door campagnes en andere mogelijkheden van Journey Optimizer voorbij reizen worden aangehaald.
 
 +++
 
