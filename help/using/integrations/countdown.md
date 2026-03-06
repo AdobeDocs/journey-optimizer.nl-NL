@@ -9,9 +9,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
-source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
+source-git-commit: f212a2178e83283d4755da5483d7c11ba4df183f
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ Bijvoorbeeld, als markator voor een handelsmerk, runt u een flitsverkoop 48 uur.
 
 * Ontvangers die onmiddellijk openen, zien &quot;47 uur resterend&quot;
 * Ontvangers die 24 uur later openen, zien &quot;23 uur resterend&quot;
-* Ontvangers die na afloop van de verkoop openen, zien &quot;Uitverkoop beëindigd&quot;
+* Ontvangers die na afloop van de verkoop openen, zien &quot;Tijd is op!&quot;
 
-Voor meer informatie over hoe te om tellertijdopnemers aan uw Dynamische malplaatje van Media in Adobe Experience Manager toe te voegen, verwijs [&#x200B; naar dit document &#x200B;](assets/do-not-localize/countdown.pdf).
+Voor meer informatie over hoe te om tellertijdopnemers aan uw Dynamische malplaatje van Media in Adobe Experience Manager toe te voegen, verwijs [ naar dit document ](assets/do-not-localize/countdown.pdf).
 
 
 1. Maak in **[!DNL Adobe Experience Manager]** een sjabloon voor dynamische media en voeg er een component voor afteltimer aan toe.
@@ -35,7 +35,7 @@ Voor meer informatie over hoe te om tellertijdopnemers aan uw Dynamische malplaa
 
 1. Maak in **[!DNL Journey Optimizer]** een nieuwe campagne of open een bestaande campagne en open vervolgens de e-mail-Designer.
 
-1. De belemmering en laat vallen een **HTML** of **3&rbrace; component van Activa &lbrace;in uw e-mailinhoud.**
+1. De belemmering en laat vallen een **HTML** of **3} component van Activa {in uw e-mailinhoud.**
 
 1. Houd de muisaanwijzer boven de component en klik op **[!UICONTROL Show the source code]** (voor HTML-componenten) of **[!UICONTROL Browse]** (voor Asset-componenten).
 
@@ -45,13 +45,17 @@ Voor meer informatie over hoe te om tellertijdopnemers aan uw Dynamische malplaa
 
    ![](assets/timer-3.png)
 
+1. Schakel de optie voor het ophalen van vullingen in door naar Aan te gaan. Hierdoor wordt de leesbaarheid verbeterd doordat lange kenmerkpaden worden verborgen.
+
+   ![](assets/timer-6.png)
+
 1. Configureer in het menu **[!UICONTROL Custom attributes]** de eventuele aanpasbare URL-parameters die nodig zijn voor de sjabloon.
 
    Klik op **[!UICONTROL Save]** als u klaar bent.
 
    ![](assets/timer-4.png)
 
-1. Selecteer het element in de e-mailtoepassing Designer en open het menu **[!UICONTROL Settings]** .
+1. U kunt ook toegang krijgen tot de parameters van de sjabloon Dynamische media door het element te selecteren in de e-mail-Designer en vervolgens het menu **[!UICONTROL Settings]** te openen.
 
    Configureer het volgende:
 
