@@ -7,14 +7,22 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: 9fc43f2e17c256d33f73f21b6b30c4b593087a28
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
 
 # Inhoudssjablonen openen en beheren {#access-manage-templates}
+
+## Vereisten {#prerequisites}
+
+Als u inhoudssjablonen wilt openen en beheren, moet u het volgende doen:
+
+* {de toestemming van de Malplaatjes van 0} Inhoud **— Uw rol moet de** toestemming (onder het **[!UICONTROL Manage content templates]** 4} middel van het Beheer van de Inhoud) omvatten. **** Zonder het, is het **menu van de Malplaatjes van de Inhoud** niet zichtbaar in de linkernavigatie. [ Leer hoe te om toestemmingen te beheren ](../administration/permissions.md)
+* **Sandbox werkingsgebied** — De malplaatjes van de inhoud zijn zandbak-specifiek. Sjablonen die in een sandbox zijn gemaakt, zijn niet beschikbaar in een andere sandbox. Zorg ervoor dat u zich in de juiste sandbox bevindt voordat u naar een sjabloon zoekt.
+* **de malplaatjes van HTML (afgekeurd)** — Beginnend Maart 2025, HTML-type inhoudsmalplaatjes worden afgekeurd. Bestaande HTML-sjablonen blijven toegankelijk, maar er kunnen geen nieuwe worden gemaakt.
 
 ## Sjablonen voor inhoud openen {#access}
 
@@ -22,20 +30,20 @@ Als u de lijst met inhoudssjablonen wilt openen, selecteert u **[!UICONTROL Cont
 
 ![](assets/content-template-list.png)
 
-Alle sjablonen die in de huidige sandbox zijn gemaakt (dus van een rit of een campagne met de optie **[!UICONTROL Save as template]** of vanuit het menu **[!UICONTROL Content Templates]** ), worden weergegeven. [&#x200B; Leer hoe te om malplaatjes &#x200B;](#create-content-templates) tot stand te brengen
+Alle sjablonen die in de huidige sandbox zijn gemaakt (dus van een rit of een campagne met de optie **[!UICONTROL Save as template]** of vanuit het menu **[!UICONTROL Content Templates]** ), worden weergegeven. [ Leer hoe te om malplaatjes ](#create-content-templates) tot stand te brengen
 
 In het linkerdeelvenster kunt u inhoudssjablonen indelen in mappen. Standaard worden alle sjablonen weergegeven. Wanneer u een map selecteert, worden alleen de sjablonen en mappen weergegeven die in de geselecteerde map staan. [Meer informatie](#folders)
 
 ![](assets/content-template-list-folders.png)
 
-Als u een specifiek item wilt zoeken, typt u een naam in het zoekveld. Wanneer de a [&#x200B; omslag &#x200B;](#folders) wordt geselecteerd, is het onderzoek op alle inhoudsmalplaatjes of omslagen in het eerste niveau van hiërarchie van die omslag <!--(not nested items)--> van toepassing.
+Als u een specifiek item wilt zoeken, typt u een naam in het zoekveld. Wanneer de a [ omslag ](#folders) wordt geselecteerd, is het onderzoek op alle inhoudsmalplaatjes of omslagen in het eerste niveau van hiërarchie van die omslag <!--(not nested items)--> van toepassing.
 
 U kunt inhoudssjablonen sorteren op:
 
 * Type
 * Kanaal
 * Aanmaakdatum of wijzigingsdatum
-* De markeringen - [&#x200B; leren meer over markeringen &#x200B;](../start/search-filter-categorize.md#tags)
+* De markeringen - [ leren meer over markeringen ](../start/search-filter-categorize.md#tags)
 
 U kunt er ook voor kiezen alleen de items weer te geven die door u zijn gemaakt of gewijzigd.
 
@@ -75,7 +83,7 @@ Om uw inhoudsmalplaatjes gemakkelijk te navigeren, gebruik omslagen om hen effec
 
    ![](assets/content-template-folder-moved.png)
 
-1. Navigeer naar de map die u net hebt gemaakt. Elk nieuw inhoudsmalplaatje u [&#x200B; creeert &#x200B;](create-content-templates.md) van hier wordt bewaard in de huidige omslag.
+1. Navigeer naar de map die u net hebt gemaakt. Elk nieuw inhoudsmalplaatje u [ creeert ](create-content-templates.md) van hier wordt bewaard in de huidige omslag.
 
    ![](assets/content-template-folder-create.png)
 
@@ -93,7 +101,7 @@ Om uw inhoudsmalplaatjes gemakkelijk te navigeren, gebruik omslagen om hen effec
 >
 >Wanneer een sjabloon wordt bewerkt of verwijderd, hebben campagnes of reizen met inbegrip van inhoud die met deze sjabloon is gemaakt, geen invloed op deze sjabloon.
 
-## [!BADGE &#x200B; Beperkte malplaatjes van de Vertoning van de Beschikbaarheid &#x200B;]{type=Informative} als duimnagels {#template-thumbnails}
+## [!BADGE  Beperkte malplaatjes van de Vertoning van de Beschikbaarheid ]{type=Informative} als duimnagels {#template-thumbnails}
 
 Selecteer de modus **[!UICONTROL Grid view]** om elke sjabloon als een miniatuur weer te geven.
 
@@ -109,9 +117,29 @@ Selecteer de modus **[!UICONTROL Grid view]** om elke sjabloon als een miniatuur
 
 Wanneer u inhoud bijwerkt, wacht u een paar seconden totdat de wijzigingen in de miniatuur worden doorgevoerd.
 
+## Problemen oplossen {#troubleshooting}
+
++++Ik kan het menu Inhoudssjablonen niet zien in de linkernavigatie
+
+Uw rol mist **inhoudsmalplaatjes** toestemming beheren. Vraag uw beheerder om het **1} middel van het Beheer van de Inhoud met** toe te voegen leidt inhoudsmalplaatjes **toestemming aan uw rol.** [Meer informatie](../administration/permissions.md)
+
++++
+
++++Een sjabloon die ik heb gemaakt, wordt niet weergegeven in de lijst
+
+Controleer of u zich in de juiste sandbox bevindt. Sjablonen zijn specifiek voor de sandbox. Controleer ook of een map is geselecteerd in het linkerdeelvenster. Wanneer een map is geselecteerd, worden alleen sjablonen in die map weergegeven. Klik op **[!UICONTROL All content templates]** om alle sjablonen ongeacht de map weer te geven.
+
++++
+
++++Ik heb een sjabloon bewerkt, maar mijn campagne- of reisinhoud is niet bijgewerkt
+
+Als u een sjabloon bewerkt of verwijdert, worden campagnes of reizen die met de sjabloon zijn gemaakt, niet retroactief bijgewerkt. Inhoud wordt gekopieerd op het moment van gebruik. Als u bestaande inhoud wilt bijwerken, bewerkt u de campagne of de reis rechtstreeks.
+
++++
+
 ## Inhoudssjablonen exporteren naar een andere sandbox {#export}
 
 Met Journey Optimizer kunt u een inhoudssjabloon van de ene naar de andere sandbox kopiëren. U kunt bijvoorbeeld een sjabloon van de zandbakomgeving van het werkgebied kopiëren naar de productiefasen.
 
-Het exemplaarproces wordt uitgevoerd via de uitvoer en de invoer van het a **pakket** tussen de bron en doelzandbakken. De gedetailleerde informatie over hoe te om voorwerpen uit te voeren en hen in een doelzandbak in deze sectie in te voeren is beschikbaar: [&#x200B; de voorwerpen van het Exemplaar aan een andere zandbak &#x200B;](../configuration/copy-objects-to-sandbox.md)
+Het exemplaarproces wordt uitgevoerd via de uitvoer en de invoer van het a **pakket** tussen de bron en doelzandbakken. De gedetailleerde informatie over hoe te om voorwerpen uit te voeren en hen in een doelzandbak in deze sectie in te voeren is beschikbaar: [ de voorwerpen van het Exemplaar aan een andere zandbak ](../configuration/copy-objects-to-sandbox.md)
 
