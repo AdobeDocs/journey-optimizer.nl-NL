@@ -23,14 +23,14 @@ ht-degree: 0%
 >
 >Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
-Als uw subdomain momenteel opstelling met [ CNAMEs ](about-subdomain-delegation.md#cname-subdomain-setup) is, kunt u het aan de **[!UICONTROL Custom delegation]** methode migreren om het veiligheidsbeleid van uw bedrijf te ontmoeten. Dit geeft u volledige eigendom en controle over uw subdomeinen en certificaten binnen [!DNL Journey Optimizer]. [ leer meer op douanesubdomeinen ](delegate-custom-subdomain.md)
+Als uw subdomain momenteel opstelling met [&#x200B; CNAMEs &#x200B;](about-subdomain-delegation.md#cname-subdomain-setup) is, kunt u het aan de **[!UICONTROL Custom delegation]** methode migreren om het veiligheidsbeleid van uw bedrijf te ontmoeten. Dit geeft u volledige eigendom en controle over uw subdomeinen en certificaten binnen [!DNL Journey Optimizer]. [&#x200B; leer meer op douanesubdomeinen &#x200B;](delegate-custom-subdomain.md)
 
 In het kader van dit proces moet u:
 
-* [ Schrap de bestaande DNS verslagen ](#delete-dns) van uw het ontvangen oplossing
-* [ upload het SSL certificaat ](#upload-ssl-certificate) dat van de Instantie van het Certificaat wordt verkregen
-* Voltooi de [ stappen van de Lijn van de Terugkoppeling ](#feedback-loop) door domeineigendom te verifiëren en e-mailadres te melden
-* [ creeer een nieuwe reeks DNS verslagen ](#create-dns-records) die door Adobe in uw het ontvangen platform worden geproduceerd
+* [&#x200B; Schrap de bestaande DNS verslagen &#x200B;](#delete-dns) van uw het ontvangen oplossing
+* [&#x200B; upload het SSL certificaat &#x200B;](#upload-ssl-certificate) dat van de Instantie van het Certificaat wordt verkregen
+* Voltooi de [&#x200B; stappen van de Lijn van de Terugkoppeling &#x200B;](#feedback-loop) door domeineigendom te verifiëren en e-mailadres te melden
+* [&#x200B; creeer een nieuwe reeks DNS verslagen &#x200B;](#create-dns-records) die door Adobe in uw het ontvangen platform worden geproduceerd
 
 Volg onderstaande stappen om uw subdomein te migreren.
 
@@ -40,7 +40,7 @@ Lees de belangrijke informatie hieronder voordat u het migratieproces start.
 
 >[!IMPORTANT]
 >
->U kunt een subdomeinopstelling met de [ methode van de NAAM ](delegate-subdomain.md#cname-subdomain-setup) slechts migreren.
+>U kunt een subdomeinopstelling met de [&#x200B; methode van de NAAM &#x200B;](delegate-subdomain.md#cname-subdomain-setup) slechts migreren.
 
 * Zorg ervoor dat de **de delegatiemethode van de Douane** voor uw organisatie wordt toegelaten (dit vermogen is momenteel in Beperkte Beschikbaarheid-contact uw vertegenwoordiger van Adobe om toegang te krijgen). [Meer informatie](delegate-custom-subdomain.md)
 * Zorg ervoor dat geen actieve kanaalconfiguraties dit subdomein gebruiken. Het migratieproces zal hun functionaliteit onderbreken.
@@ -61,7 +61,7 @@ Voer de onderstaande stappen uit om een bepaald subdomein te migreren.
 
 1. Selecteer een subdomeinset met CNAME&#39;s en open deze.
 
-1. U kunt de sectie **[!UICONTROL Pre-migration CSR Generation]** gebruiken om de CSR te genereren voor het verzenden van de CSR naar de Certificate Authority (certificeringsinstantie) en het SSL-certificaat gereed te hebben wanneer het migratieproces start. [ leer hoe ](#send-csr-to-ca)
+1. U kunt de sectie **[!UICONTROL Pre-migration CSR Generation]** gebruiken om de CSR te genereren voor het verzenden van de CSR naar de Certificate Authority (certificeringsinstantie) en het SSL-certificaat gereed te hebben wanneer het migratieproces start. [&#x200B; leer hoe &#x200B;](#send-csr-to-ca)
 
    >[!IMPORTANT]
    >
@@ -73,7 +73,7 @@ Voer de onderstaande stappen uit om een bepaald subdomein te migreren.
 
    <!--![](assets/subdomain-migrate-to-custom.png){width=90%}-->
 
-1. Herzie de [ getoonde informatie ](#before-you-begin).
+1. Herzie de [&#x200B; getoonde informatie &#x200B;](#before-you-begin).
 
    >[!WARNING]
    >
@@ -132,9 +132,9 @@ In de sectie **[!UICONTROL SSL Certificate]** moet u een nieuw SSL-certificaat u
 
 Controleer daarvoor het volgende:
 
-* Als u reeds uw CSR naar de Instantie van het Certificaat als deel van [ pre-migratiestappen ](#start-migration) hebt verzonden, zorg ervoor u uw SSL certificaat hebt ontvangen.
+* Als u reeds uw CSR naar de Instantie van het Certificaat als deel van [&#x200B; pre-migratiestappen &#x200B;](#start-migration) hebt verzonden, zorg ervoor u uw SSL certificaat hebt ontvangen.
 
-* Als u dit nog niet hebt gedaan, volg de stappen aan [ produceren, downloaden en verzenden CSR ](#send-csr-to-ca).
+* Als u dit nog niet hebt gedaan, volg de stappen aan [&#x200B; produceren, downloaden en verzenden CSR &#x200B;](#send-csr-to-ca).
 
 <!--
     * Click **[!UICONTROL Regenerate CSR]** and fill the form to generate the Certificate Signing Request.
@@ -163,7 +163,7 @@ Voer vervolgens de stappen van de feedbacklus uit om het eigendom van het domein
 
 ![](assets/subdomain-migrate-feedback-loop.png){width="75%"}
 
-Het proces is hetzelfde als wanneer u een nieuw aangepast subdomein instelt. Volg de stappen die op de [ opstelling worden gedetailleerd een douane subdomain ](delegate-custom-subdomain.md#feedback-loop-steps) pagina.
+Het proces is hetzelfde als wanneer u een nieuw aangepast subdomein instelt. Volg de stappen die op de [&#x200B; opstelling worden gedetailleerd een douane subdomain &#x200B;](delegate-custom-subdomain.md#feedback-loop-steps) pagina.
 
 
 ## Een nieuwe set DNS-records maken {#create-dns-records}
@@ -172,7 +172,7 @@ Als u het migratieproces wilt voltooien, maakt u een nieuwe set DNS-records die 
 
 1. Nadat u de stappen van de feedbacklus hebt uitgevoerd, klikt u op de knop **[!UICONTROL Continue]** rechtsboven in het scherm.
 
-   Deze stap controleert of de vorige records zijn verwijderd en of het SSL-certificaat correct is geüpload. Als om het even welke fouten voorkomen, verwijs naar de [ controlelijst van het oplossen van problemen ](#troubleshooting).
+   Deze stap controleert of de vorige records zijn verwijderd en of het SSL-certificaat correct is geüpload. Als om het even welke fouten voorkomen, verwijs naar de [&#x200B; controlelijst van het oplossen van problemen &#x200B;](#troubleshooting).
 
 1. Als alle validaties zijn gelukt, wordt de sectie **[!UICONTROL Records to be created]** weergegeven.
 
@@ -194,10 +194,10 @@ Zodra subdomain opnieuw actief is, zijn geen veranderingen nodig aan bestaande k
 
 Als de fouten terwijl het proberen om uw douanesubdomain voor te leggen voorkomen, voer de hieronder vermelde het oplossen van problemenacties uit.
 
-* _Middel kon niet worden bevestigd. De DNS bestaat nog en moet worden geschrapt._ — Verwijder alle records uit de hostoplossing. [ leer hoe ](#delete-dns)
-* _Middel kon niet worden bevestigd. Upload uw SSL-certificaat en probeer het opnieuw._ — Het SSL-certificaat is niet geüpload. Zorg ervoor dat u het bestand uploadt. [ leer hoe ](#upload-ssl-certificate)
-* _het certificaat bevat onverwachte domeinen in zijn Onderwerp Alternatieve Namen (San)._ — Zorg ervoor dat u het juiste SSL-certificaat uploadt. [ leer hoe ](#upload-ssl-certificate)
-* _het certificaat mist de volgende vereiste domeinen in zijn Onderwerp Alternatieve Namen (San)._ — Zorg ervoor dat u het juiste SSL-certificaat uploadt. [ leer hoe ](#upload-ssl-certificate)
+* _Middel kon niet worden bevestigd. De DNS bestaat nog en moet worden geschrapt._ — Verwijder alle records uit de hostoplossing. [&#x200B; leer hoe &#x200B;](#delete-dns)
+* _Middel kon niet worden bevestigd. Upload uw SSL-certificaat en probeer het opnieuw._ — Het SSL-certificaat is niet geüpload. Zorg ervoor dat u het bestand uploadt. [&#x200B; leer hoe &#x200B;](#upload-ssl-certificate)
+* _het certificaat bevat onverwachte domeinen in zijn Onderwerp Alternatieve Namen (San)._ — Zorg ervoor dat u het juiste SSL-certificaat uploadt. [&#x200B; leer hoe &#x200B;](#upload-ssl-certificate)
+* _het certificaat mist de volgende vereiste domeinen in zijn Onderwerp Alternatieve Namen (San)._ — Zorg ervoor dat u het juiste SSL-certificaat uploadt. [&#x200B; leer hoe &#x200B;](#upload-ssl-certificate)
 
 **zie ook**
 
