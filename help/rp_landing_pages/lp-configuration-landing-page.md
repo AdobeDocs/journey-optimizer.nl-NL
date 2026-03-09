@@ -26,7 +26,7 @@ Of u nu bestaande of nieuwe domeinen gebruikt, met deze stappen kunt u de bestem
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Subdomeinen van landingspagina&#39;s configureren en beheren
 
@@ -36,7 +36,7 @@ Leer hoe u subdomeinen kunt instellen en beheren voor het hosten van landingspag
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Voorinstellingen voor openingspagina definiëren
 
