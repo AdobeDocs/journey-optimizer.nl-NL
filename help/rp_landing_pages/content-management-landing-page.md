@@ -5,7 +5,7 @@ title: Inhoudsbeheer
 description: Inhoudsbeheer
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: e5e4acf5c83c036b5ff72c8022750f9827bd98d3
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Met de Adobe Journey Optimizer-functies voor inhoudsbeheer kunt u inhoud naadloo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Personalization toevoegen
 
@@ -30,17 +30,17 @@ Leer hoe u personalisatiefuncties implementeert en optimaliseert om op maat gesn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Openingspagina&#39;s maken
 
 Ontdek gereedschappen en zelfstudies voor het maken, beheren en optimaliseren van bestemmingspagina&#39;s voor marketingcampagnes.
 
-[Meer informatie over bestemmingspagina&#39;s](landing-pages-landing-page.md)
+[Meer informatie over bestemmingspagina&#39;s](../using/landing-pages/get-started-lp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Inhoudssjablonen
 
@@ -50,7 +50,7 @@ De creatie van inhoud stroomlijnen met herbruikbare sjablonen voor efficiënt ca
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Herbruikbare inhoudsfragmenten
 
@@ -60,7 +60,7 @@ Leer hoe u herbruikbare inhoudsfragmenten maakt en beheert voor verpersoonlijkin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Dynamische inhoud maken
 
@@ -70,7 +70,7 @@ Gebruik voorwaardelijke regels om dynamische, gepersonaliseerde inhoud voor e-ma
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Gebruiksscenario&#39;s voor meerdere oplossingen
 
