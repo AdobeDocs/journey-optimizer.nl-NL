@@ -9,10 +9,11 @@ role: Admin
 level: Intermediate
 keywords: subdomein, delegatie, migratie, CNAME, aangepaste delegatie
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 3148a105551b920c4402c7b3c093aca1bb012061
+exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
+source-git-commit: 47c04f6243057ac20fd28a228e4fefb760d7fe26
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 1%
+source-wordcount: '1222'
+ht-degree: 0%
 
 ---
 
@@ -22,14 +23,14 @@ ht-degree: 1%
 >
 >Deze mogelijkheid is beschikbaar in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
-Als uw subdomain momenteel opstelling met [&#x200B; CNAMEs &#x200B;](about-subdomain-delegation.md#cname-subdomain-setup) is, kunt u het aan de **[!UICONTROL Custom delegation]** methode migreren om het veiligheidsbeleid van uw bedrijf te ontmoeten. Dit geeft u volledige eigendom en controle over uw subdomeinen en certificaten binnen [!DNL Journey Optimizer]. [&#x200B; leer meer op douanesubdomeinen &#x200B;](delegate-custom-subdomain.md)
+Als uw subdomain momenteel opstelling met [ CNAMEs ](about-subdomain-delegation.md#cname-subdomain-setup) is, kunt u het aan de **[!UICONTROL Custom delegation]** methode migreren om het veiligheidsbeleid van uw bedrijf te ontmoeten. Dit geeft u volledige eigendom en controle over uw subdomeinen en certificaten binnen [!DNL Journey Optimizer]. [ leer meer op douanesubdomeinen ](delegate-custom-subdomain.md)
 
 In het kader van dit proces moet u:
 
-* [&#x200B; Schrap de bestaande DNS verslagen &#x200B;](#delete-dns) van uw het ontvangen oplossing
-* [&#x200B; upload het SSL certificaat &#x200B;](#upload-ssl-certificate) dat van de Instantie van het Certificaat wordt verkregen
-* Voltooi de [&#x200B; stappen van de Lijn van de Terugkoppeling &#x200B;](#feedback-loop) door domeineigendom te verifiëren en e-mailadres te melden
-* [&#x200B; Kopieer het SSL CDN bevestigingsverslag URL &#x200B;](#copy-ssl-cdn-url-record) dat door Adobe in uw het ontvangen platform wordt geproduceerd
+* [ Schrap de bestaande DNS verslagen ](#delete-dns) van uw het ontvangen oplossing
+* [ upload het SSL certificaat ](#upload-ssl-certificate) dat van de Instantie van het Certificaat wordt verkregen
+* Voltooi de [ stappen van de Lijn van de Terugkoppeling ](#feedback-loop) door domeineigendom te verifiëren en e-mailadres te melden
+* [ creeer een nieuwe reeks DNS verslagen ](#create-dns-records) die door Adobe in uw het ontvangen platform worden geproduceerd
 
 Volg onderstaande stappen om uw subdomein te migreren.
 
@@ -39,10 +40,15 @@ Lees de belangrijke informatie hieronder voordat u het migratieproces start.
 
 >[!IMPORTANT]
 >
->U kunt een subdomeinopstelling met de [&#x200B; methode van de NAAM &#x200B;](delegate-subdomain.md#cname-subdomain-setup) slechts migreren.
+>U kunt een subdomeinopstelling met de [ methode van de NAAM ](delegate-subdomain.md#cname-subdomain-setup) slechts migreren.
 
 * Zorg ervoor dat de **de delegatiemethode van de Douane** voor uw organisatie wordt toegelaten (dit vermogen is momenteel in Beperkte Beschikbaarheid-contact uw vertegenwoordiger van Adobe om toegang te krijgen). [Meer informatie](delegate-custom-subdomain.md)
 * Zorg ervoor dat geen actieve kanaalconfiguraties dit subdomein gebruiken. Het migratieproces zal hun functionaliteit onderbreken.
+
+  >[!NOTE]
+  >
+  >Als u een kanaalconfiguratie deactiveert voordat u de migratie start, kunt u deze weer terugzetten in de actieve status nadat de migratieworkflow is voltooid.
+
 * Zorg ervoor dat geen actieve campagnes of reizen een kanaalconfiguratie gebruiken verbonden aan dit subdomein aangezien dit leveringsverstoring kan veroorzaken.
 * Houd er rekening mee dat de uitvaltijd begint zodra u de migratiestroom betreedt. Het subdomein gaat tijdens het proces naar **[!UICONTROL Draft]** en is niet beschikbaar tot de installatie is voltooid.
 * Derhalve wordt het geadviseerd om **de pre-migratiestappen uit te voeren alvorens het migratieproces** te beginnen - om uw SSL certificaat klaar te hebben en onderbreking te verminderen. [Meer informatie](#start-migration)
@@ -55,7 +61,7 @@ Voer de onderstaande stappen uit om een bepaald subdomein te migreren.
 
 1. Selecteer een subdomeinset met CNAME&#39;s en open deze.
 
-1. U kunt de sectie **[!UICONTROL Pre-migration CSR Generation]** gebruiken om de CSR te genereren voor het verzenden van de CSR naar de Certificate Authority (certificeringsinstantie) en het SSL-certificaat gereed te hebben wanneer het migratieproces start. [&#x200B; leer hoe &#x200B;](#send-csr-to-ca)
+1. U kunt de sectie **[!UICONTROL Pre-migration CSR Generation]** gebruiken om de CSR te genereren voor het verzenden van de CSR naar de Certificate Authority (certificeringsinstantie) en het SSL-certificaat gereed te hebben wanneer het migratieproces start. [ leer hoe ](#send-csr-to-ca)
 
    >[!IMPORTANT]
    >
@@ -67,7 +73,7 @@ Voer de onderstaande stappen uit om een bepaald subdomein te migreren.
 
    <!--![](assets/subdomain-migrate-to-custom.png){width=90%}-->
 
-1. Herzie de [&#x200B; getoonde informatie &#x200B;](#before-you-begin).
+1. Herzie de [ getoonde informatie ](#before-you-begin).
 
    >[!WARNING]
    >
@@ -99,7 +105,7 @@ Of u al met het migratieproces bent begonnen of niet, volg de onderstaande stapp
 
    * Het certificaat moet echter zowel data.subdomain.com als cdn.subdomain.com bestrijken als onderwerpalternatieven (SAN) binnen één certificaat. Als u bijvoorbeeld example.adobe.com delegeert, komt data.subdomain.com overeen met data.example.adobe.com en cdn.subdomain.com met cdn.example.adobe.com.
 
-   * Zowel de subdomeinen Data (data.example.adobe.com) als CDN (cdn.example.adobe.com) moeten als peer ingangen in het zelfde certificaat worden toegevoegd.
+   * Zowel de subdomeinen Data (data.example.adobe.com) als CDN (cdn.example.adobe.com) moeten als peer ingangen in het zelfde certificaat worden toegevoegd. Er mogen geen aanvullende subdomeinen aan dit certificaat worden toegevoegd.
 
    * De meeste CA&#39;s staan u toe om extra San&#39;s (zoals CDN subdomain) tijdens het ondertekeningsproces toe te voegen
 
@@ -126,9 +132,9 @@ In de sectie **[!UICONTROL SSL Certificate]** moet u een nieuw SSL-certificaat u
 
 Controleer daarvoor het volgende:
 
-* Als u reeds uw CSR naar de Instantie van het Certificaat als deel van [&#x200B; pre-migratiestappen &#x200B;](#start-migration) hebt verzonden, zorg ervoor u uw SSL certificaat hebt ontvangen.
+* Als u reeds uw CSR naar de Instantie van het Certificaat als deel van [ pre-migratiestappen ](#start-migration) hebt verzonden, zorg ervoor u uw SSL certificaat hebt ontvangen.
 
-* Als u dit nog niet hebt gedaan, volg de stappen aan [&#x200B; produceren, downloaden en verzenden CSR &#x200B;](#send-csr-to-ca).
+* Als u dit nog niet hebt gedaan, volg de stappen aan [ produceren, downloaden en verzenden CSR ](#send-csr-to-ca).
 
 <!--
     * Click **[!UICONTROL Regenerate CSR]** and fill the form to generate the Certificate Signing Request.
@@ -157,15 +163,41 @@ Voer vervolgens de stappen van de feedbacklus uit om het eigendom van het domein
 
 ![](assets/subdomain-migrate-feedback-loop.png){width="75%"}
 
-Het proces is hetzelfde als wanneer u een nieuw aangepast subdomein instelt. Volg de stappen die op de [&#x200B; opstelling worden gedetailleerd een douane subdomain &#x200B;](delegate-custom-subdomain.md#feedback-loop-steps) pagina.
+Het proces is hetzelfde als wanneer u een nieuw aangepast subdomein instelt. Volg de stappen die op de [ opstelling worden gedetailleerd een douane subdomain ](delegate-custom-subdomain.md#feedback-loop-steps) pagina.
 
-## De URL-validatierecord van de SSL kopiëren {#copy-ssl-cdn-url-record}
 
-Als u het migratieproces wilt voltooien, kopieert u de URL-validatierecord van de SSL CDN die door Adobe is gegenereerd naar uw hostplatform. Het proces is hetzelfde als wanneer u een nieuw aangepast subdomein instelt. Volg de stappen die op de [&#x200B; opstelling worden gedetailleerd een douane subdomain &#x200B;](delegate-custom-subdomain.md#copy-ssl-cdn-url-record) pagina.
+## Een nieuwe set DNS-records maken {#create-dns-records}
+
+Als u het migratieproces wilt voltooien, maakt u een nieuwe set DNS-records die door Adobe in uw hostplatform worden gegenereerd.
+
+1. Nadat u de stappen van de feedbacklus hebt uitgevoerd, klikt u op de knop **[!UICONTROL Continue]** rechtsboven in het scherm.
+
+   Deze stap controleert of de vorige records zijn verwijderd en of het SSL-certificaat correct is geüpload. Als om het even welke fouten voorkomen, verwijs naar de [ controlelijst van het oplossen van problemen ](#troubleshooting).
+
+1. Als alle validaties zijn gelukt, wordt de sectie **[!UICONTROL Records to be created]** weergegeven.
+
+   ![](assets/subdomain-migrate-records-to-create.png){width="75%"}
+
+1. Maak alle vereiste records in uw hostingplatform.
+
+1. Klik op **[!UICONTROL Submit]** als alle records zijn gemaakt.
+
+   >[!NOTE]
+   >
+   >Als niet alle vermelde records zijn gemaakt, wordt een fout weergegeven. Zorg ervoor dat u alle vereiste records maakt.
 
 Na het verzenden moet u wachten tot Adobe de vereiste controles uitvoert. Dit kan maximaal 3 uur in beslag nemen. [Meer informatie](delegate-subdomain.md#submit-subdomain)
 
 Zodra subdomain opnieuw actief is, zijn geen veranderingen nodig aan bestaande kanaalconfiguraties die het gebruiken-zij blijven werken zoals vroeger.
+
+## Checklist voor probleemoplossing {#troubleshooting}
+
+Als de fouten terwijl het proberen om uw douanesubdomain voor te leggen voorkomen, voer de hieronder vermelde het oplossen van problemenacties uit.
+
+* _Middel kon niet worden bevestigd. De DNS bestaat nog en moet worden geschrapt._ — Verwijder alle records uit de hostoplossing. [ leer hoe ](#delete-dns)
+* _Middel kon niet worden bevestigd. Upload uw SSL-certificaat en probeer het opnieuw._ — Het SSL-certificaat is niet geüpload. Zorg ervoor dat u het bestand uploadt. [ leer hoe ](#upload-ssl-certificate)
+* _het certificaat bevat onverwachte domeinen in zijn Onderwerp Alternatieve Namen (San)._ — Zorg ervoor dat u het juiste SSL-certificaat uploadt. [ leer hoe ](#upload-ssl-certificate)
+* _het certificaat mist de volgende vereiste domeinen in zijn Onderwerp Alternatieve Namen (San)._ — Zorg ervoor dat u het juiste SSL-certificaat uploadt. [ leer hoe ](#upload-ssl-certificate)
 
 **zie ook**
 
