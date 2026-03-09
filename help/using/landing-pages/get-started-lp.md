@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: landen, landingspagina, starten, starten
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: a78beb79376b9963034954f8e424f2d23a041666
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
@@ -22,38 +22,7 @@ Een openingspagina is een zelfstandige webpagina waarnaar een gebruiker wordt ve
 
 Met [!DNL Journey Optimizer] kunt u bestemmingspagina&#39;s maken en ontwerpen, zodat uw gebruikers naar onlineformulieren kunnen gaan waar ze zich kunnen aanmelden of afmelden voor het ontvangen van uw communicatie of een specifieke service zoals een nieuwsbrief.
 
-➡️ [&#x200B; Leer meer over het vormen van abonnementen en het creëren van landende pagina&#39;s in deze video &#x200B;](#video)
-
-## Wanneer moeten bestemmingspagina&#39;s worden gebruikt? {#when-to-use}
-
-Gebruik openingspagina&#39;s als u wilt:
-
-* Laat klanten **binnen kiezen of kiezen uit** van marketing mededelingen of een specifieke dienst of nieuwsbrief, van een verbinding in een e-mail of een campagne
-* **verzamel toestemming** alvorens mededelingen te verzenden, en bevestig de actie met geautomatiseerde e-mail
-* Richt gebruikers aan a **specifieke Webvorm** zonder een externe pagina buiten [!DNL Journey Optimizer] te bouwen opnieuw
-
-## Voordat u begint {#prerequisites}
-
-Voer de volgende stappen uit voordat u een openingspagina maakt:
-
-1. [**vorm subdomain**](lp-subdomains.md) — Opstelling subdomain specifiek aan het ontvangen van uw landende pagina&#39;s.
-1. [**creeer een het landen vooraf ingestelde pagina**](lp-presets.md#lp-create-preset) - vooraf ingesteld bepaalt subdomain en andere montages die op uw het landen pagina&#39;s worden toegepast.
-1. [**creeer een abonnementenlijst**](subscription-list.md) (voor de gevallen van het abonnementsgebruik) — Vereist als u klanten aan of zich van de specifieke dienst wilt intekenen.
-
-## Werking {#how-it-works}
-
-Het creëren van en het opstellen van een het landen pagina volgen deze opeenvolging:
-
-1. [**creeer en vorm uw het landen pagina**](create-lp.md) — selecteer vooraf ingesteld, opstelling de primaire pagina, en voeg om het even welke vereiste subpages toe.
-1. [**Ontwerp de pagina**](design-lp.md) — Bouw de pagina inhoud en de vorm gebruikend [!DNL Journey Optimizer] belemmering-en-dalingsredacteur.
-1. [**Test en publiceer**](manage-lp.md) — Voorproef de pagina, test vormgedrag, dan publiceer om het levend te maken.
-1. [**Verbinding in een bericht of een reis**](../email/message-tracking.md#insert-links) - voeg de het landen pagina URL aan een e-mail, een campagne, of een reisactie toe zodat de klanten het kunnen bereiken.
-
-## Belangrijkste mogelijkheden {#capabilities}
-
-* De mogelijkheden van het inhoudsontwerp van de hefboomwerking [!DNL Journey Optimizer] om **ontvankelijke het landen pagina&#39;s** gemakkelijk te bouwen.
-* De opstelling **opt-in en opt-out stromen** snel en foutloos, met inbegrip van abonnementslijsten om gebruikers te laten binnen of uit de specifieke dienst kiezen. [Meer informatie](lp-use-cases.md#subscription-to-a-service)
-* Verzend a **bevestigingse-mail** op opt-in of opt-out. [Meer informatie](lp-use-cases.md#send-confirmation-email)
+➡️ [ Leer meer over het vormen van abonnementen en het creëren van landende pagina&#39;s in deze video ](#video)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -91,6 +60,32 @@ Het creëren van en het opstellen van een het landen pagina volgen deze opeenvol
 <p>
 </td>
 </tr></table>
+
+## Wanneer moeten bestemmingspagina&#39;s worden gebruikt? {#when-to-use}
+
+Gebruik openingspagina&#39;s als u wilt:
+
+* Laat klanten **binnen kiezen of kiezen uit** van marketing mededelingen of een specifieke dienst of een nieuwsbrief van een verbinding in e-mail of campagne-met inbegrip van abonnementenlijsten voor de gerichte diensten. [Meer informatie](lp-use-cases.md#subscription-to-a-service)
+* **verzamel toestemming** alvorens mededelingen te verzenden en a **bevestigingsE-mail** op opt-in of opt-out te verzenden. [Meer informatie](lp-use-cases.md#send-confirmation-email)
+* Richt gebruikers aan a **specifieke Webvorm** zonder een externe pagina buiten [!DNL Journey Optimizer] te bouwen opnieuw
+* Bouw **ontvankelijke het landen pagina&#39;s** gebruikend [!DNL Journey Optimizer] inhoudsontwerpmogelijkheden
+
+## Voordat u begint {#prerequisites}
+
+Voer de volgende stappen uit voordat u een openingspagina maakt:
+
+1. [**vorm subdomain**](lp-subdomains.md) — Opstelling subdomain specifiek aan het ontvangen van uw landende pagina&#39;s.
+1. [**creeer een het landen vooraf ingestelde pagina**](lp-presets.md#lp-create-preset) - vooraf ingesteld bepaalt subdomain en andere montages die op uw het landen pagina&#39;s worden toegepast.
+1. [**creeer een abonnementenlijst**](subscription-list.md) (voor de gevallen van het abonnementsgebruik) — Vereist als u klanten aan of zich van de specifieke dienst wilt intekenen.
+
+## Werking {#how-it-works}
+
+Het creëren van en het opstellen van een het landen pagina volgen deze opeenvolging:
+
+1. [**creeer en vorm uw het landen pagina**](create-lp.md) — selecteer vooraf ingesteld, opstelling de primaire pagina, en voeg om het even welke vereiste subpages toe.
+1. [**Ontwerp de pagina**](design-lp.md) — Bouw de pagina inhoud en de vorm gebruikend [!DNL Journey Optimizer] belemmering-en-dalingsredacteur.
+1. [**Test**](create-lp.md#test-landing-page) en [**publiceert**](create-lp.md#publish-landing-page) uw het landen pagina — Voorproef de pagina, test vormgedrag, dan publiceren om het live te maken.
+1. [**Verbinding in een bericht of een reis**](../email/message-tracking.md#insert-links) - voeg de het landen pagina URL aan een e-mail, een campagne, of een reisactie toe zodat de klanten het kunnen bereiken.
 
 ## Hoe kan ik-video{#video}
 

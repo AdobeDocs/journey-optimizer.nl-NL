@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 74102069afa519898149de33f890568950571f26
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
 workflow-type: tm+mt
-source-wordcount: '3136'
+source-wordcount: '3134'
 ht-degree: 15%
 
 ---
@@ -121,8 +121,8 @@ ht-degree: 15%
          + [Lijstfuncties](using/building-journeys/functions/list-functions.md)
          + [Math-functies](using/building-journeys/functions/math-functions.md)
          + [Reeksfuncties](using/building-journeys/functions/string-functions.md)
-   + Gebruiksscenario’s {#journey-use-cases}
-      + [Gebruiksscenario’s](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+   + Gebruiksscenario&#39;s {#journey-use-cases}
+      + [Gebruiksscenario&#39;s](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [Gebruikskwesties leren](using/building-journeys/jo-use-cases.md)
       + [Criteria voor binnenkomst en vertrek op de reis](using/building-journeys/entry-exit-criteria-guide.md)
       + [Opzoeken van gebeurtenissen beleven](using/building-journeys/exp-event-lookup.md)
@@ -439,7 +439,6 @@ ht-degree: 15%
          + [E-mailadres voor afmelden van winkelwagentje](using/personalization/personalization-use-case-helper-functions.md)
          + [E-mail met voorschriften voor het gezondheidsplan](using/personalization/perso-uc-plan-prescriptions.md)
    + Landingspagina&#39;s {#landing-pages}
-      + [Landingspagina&#39;s](/help/rp_landing_pages/landing-pages-landing-page.md)
       + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
       + [Een landingspagina maken](using/landing-pages/create-lp.md)
       + [Uw openingspagina&#39;s beheren](using/landing-pages/manage-lp.md)
@@ -859,7 +858,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
