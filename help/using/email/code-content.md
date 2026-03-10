@@ -26,13 +26,13 @@ U moet de vaardigheden van HTML hebben, en zodra u deze wijze kiest, blijft u in
 
 >[!NOTE]
 >
->**[!UICONTROL Code your own]** is niet hetzelfde als de geavanceerde HTML-editor in inhoudssjablonen. Met de geavanceerde HTML-editor kunt u op elk gewenst moment schakelen tussen de HTML-weergave en de visuele weergave (Computer), en niet tussen de code-editor. [ Leer meer over de geavanceerde redacteur van HTML ](../content-management/email-template-expert-mode.md).
+>**[!UICONTROL Code your own]** is niet hetzelfde als de geavanceerde HTML-editor in inhoudssjablonen. Met de geavanceerde HTML-editor kunt u op elk gewenst moment schakelen tussen de HTML-weergave en de visuele weergave (Computer), en niet tussen de code-editor. [&#x200B; Leer meer over de geavanceerde redacteur van HTML &#x200B;](../content-management/email-template-expert-mode.md).
 
 ## De code-editor gebruiken {#use-code-editor}
 
 Voer de volgende stappen uit om e-mailinhoud te maken of te bewerken met de code-editor.
 
-1. Van de [ E-mail Designer ](get-started-email-design.md) homepage, uitgezochte **[!UICONTROL Code your own]**.
+1. Van de [&#x200B; E-mail Designer &#x200B;](get-started-email-design.md) homepage, uitgezochte **[!UICONTROL Code your own]**.
 
    ![](assets/code-your-own.png)
 
@@ -44,7 +44,7 @@ Voer de volgende stappen uit om e-mailinhoud te maken of te bewerken met de code
 
    >[!NOTE]
    >
-   >De personalisatie-editor in de e-mail Designer heeft enkele functiebeperkingen in vergelijking met reisexpressies. [ leer meer over datum/tijdfunctiebeperkingen ](#date-time-limitations)
+   >De personalisatie-editor in de e-mail Designer heeft enkele functiebeperkingen in vergelijking met reisexpressies. [&#x200B; leer meer over datum/tijdfunctiebeperkingen &#x200B;](#date-time-limitations)
 
 1. Als u uw e-mailinhoud wilt wissen en uw e-mail wilt starten vanuit een nieuw ontwerp, selecteert u **[!UICONTROL Change your design]** in het optiemenu.
 
@@ -64,7 +64,7 @@ Voer de volgende stappen uit om e-mailinhoud te maken of te bewerken met de code
 
 >[!CAUTION]
 >
->De beelden van [ Adobe Experience Manager Assets ](../integrations/assets.md) kunnen niet worden van verwijzingen voorzien wanneer het gebruiken van de Code uw eigen methode. Sla afbeeldingen waarnaar in uw HTML-code wordt verwezen, op een openbare locatie op.
+>De beelden van [&#x200B; Adobe Experience Manager Assets &#x200B;](../integrations/assets.md) kunnen niet worden van verwijzingen voorzien wanneer het gebruiken van de Code uw eigen methode. Sla afbeeldingen waarnaar in uw HTML-code wordt verwezen, op een openbare locatie op.
 
 ## Beperkingen van datum- en tijdfunctie {#date-time-limitations}
 
@@ -94,10 +94,10 @@ Als u datumberekeningen moet uitvoeren in uw e-mailinhoud:
 
   Voorbeeld: `{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
 
-* **de functies van de de datummanipulatie van het Gebruik** - 2} datum/tijdfuncties [ als ](../personalization/functions/dates.md) of `dayOfYear()` met datumwaarden van profielattributen gebruiken.`diffInDays()`
+* **de functies van de de datummanipulatie van het Gebruik** - 2&rbrace; datum/tijdfuncties [&#x200B; als &#x200B;](../personalization/functions/dates.md) of `dayOfYear()` met datumwaarden van profielattributen gebruiken.`diffInDays()`
 
   Voorbeeld: `{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
 
-* **Gebruik gegevens verwerkte attributen** - creeer [ gegevens verwerkte attributen ](../audience/computed-attributes.md) die complexe datumberekeningen uitvoeren, die de resultaten beschikbaar maken als profielattributen.
+* **Gebruik gegevens verwerkte attributen** - creeer [&#x200B; gegevens verwerkte attributen &#x200B;](../audience/computed-attributes.md) die complexe datumberekeningen uitvoeren, die de resultaten beschikbaar maken als profielattributen.
 
-Zie [ functie van de Datum en van de tijd ](../personalization/functions/dates.md) voor de volledige lijst van gesteunde functies.
+Zie [&#x200B; functie van de Datum en van de tijd &#x200B;](../personalization/functions/dates.md) voor de volledige lijst van gesteunde functies.
