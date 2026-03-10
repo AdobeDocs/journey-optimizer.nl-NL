@@ -9,9 +9,9 @@ badge: label="Beperkte beschikbaarheid" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-source-git-commit: afc09bbcb76d53404574bb53c0a896109cd7f1da
+source-git-commit: a1b9d589773c168cc8ad0cfac0cd1ba178ae4bb6
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >Deze functie bevindt zich momenteel in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
-Met [!DNL Adobe Journey Optimizer] kunt u bepalen welke ritten een profiel kan invoeren wanneer ze in aanmerking komen voor meer dan het systeem toestaat. Om dit te doen, kunt u [&#x200B; regelreeksen &#x200B;](rule-sets.md) gebruiken om caps op reisingang of gelijktijdig te bepalen. Wanneer een profiel voor meer reizen in aanmerking komt dan het maximum toestaat, bepaalt de prioriteit die aan elke reis wordt toegekend welke ritten worden gekozen.
+Met [!DNL Adobe Journey Optimizer] kunt u bepalen welke ritten een profiel kan invoeren wanneer ze in aanmerking komen voor meer dan het systeem toestaat. Om dit te doen, kunt u [ regelreeksen ](rule-sets.md) gebruiken om caps op reisingang of gelijktijdig te bepalen. Wanneer een profiel voor meer reizen in aanmerking komt dan het maximum toestaat, bepaalt de prioriteit die aan elke reis wordt toegekend welke ritten worden gekozen.
 
 In plaats van prioriteit te gebruiken, kunt u **modellen AI** in uw rangschikkende formules ook gebruiken om ritten dynamisch te rangschikken die op getrainde modelscores worden gebaseerd.
 
@@ -35,7 +35,7 @@ In plaats van prioriteit te gebruiken, kunt u **modellen AI** in uw rangschikken
 
 Volg de onderstaande stappen om een AI-model voor de rangschikking van reizen te maken.
 
-1. Maak een gegevensset waarin conversiegebeurtenissen worden verzameld. [&#x200B; leer hoe &#x200B;](../experience-decisioning/data-collection/create-dataset.md)
+1. Maak een gegevensset waarin conversiegebeurtenissen worden verzameld. [ leer hoe ](../experience-decisioning/data-collection/create-dataset.md)
 
 1. Open de sectie **[!UICONTROL Orchestration ranking]** en selecteer vervolgens de tab **[!UICONTROL AI models]** . De lijst met eerder gemaakte AI-modellen wordt weergegeven.
 
@@ -43,7 +43,7 @@ Volg de onderstaande stappen om een AI-model voor de rangschikking van reizen te
 
 1. Geef een unieke naam en, indien nodig, een beschrijving voor het AI-model op.
 
-   ![&#x200B; AI de ruit van modeldetails met naam en beschrijvingsgebieden &#x200B;](assets/journey-model-details.png){width="80%"}
+   ![ AI modeldetails die de naam en beschrijvingsgebieden tonen ](assets/journey-model-details.png){width="85%"}
 
    >[!NOTE]
    >
@@ -55,26 +55,26 @@ Volg de onderstaande stappen om een AI-model voor de rangschikking van reizen te
     * **[!UICONTROL Auto-optimization]** optimizes based on past performance. [Learn more](../experience-decisioning/ranking/auto-optimization-model.md)
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)-->
 
-1. In **[!UICONTROL Optimization metric]**, alle metriek van uw standaard [!DNL Customer Journey Analytics] [&#x200B; mening van gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} vertoning in de lijst. Selecteer metrisch dat u uw model wilt optimaliseren.
+1. In de **[!UICONTROL Optimization metric]** sectie, alle metriek van uw standaard [!DNL Customer Journey Analytics] [ vertoning van de gegevensmening ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} in de lijst. Selecteer metrisch dat u uw model wilt optimaliseren.
 
-   ![&#x200B; AI de ruit van modeldetails met naam en beschrijvingsgebieden &#x200B;](assets/journey-model-metrics.png){width="80%"}
+   ![ metrische dropdown van de optimalisering de lijst van Customer Journey Analytics metriek voor het AI model ](assets/journey-model-metrics.png){width="70%"}
 
    [!DNL Journey Optimizer] ranks die op het **worden gebaseerd omzettingspercentage** (het tarief van de Omzetting = Totaal aantal omzettingsgebeurtenissen/Totaal aantal impressiegebeurtenissen). De omrekeningskoers wordt berekend aan de hand van:
 
    * **de gebeurtenissen van de Indrukking** (punten die worden getoond)
    * **de gebeurtenissen van de Omzetting** (punten die in kliks of omzettingen resulteren)
 
-   Deze gebeurtenissen worden automatisch vastgelegd met de Web SDK of de Mobile SDK. Leer meer in het [&#x200B; overzicht van SDK van het Web 0&rbrace; Adobe Experience Platform.](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL)
+   Deze gebeurtenissen worden automatisch vastgelegd met de Web SDK of de Mobile SDK. Leer meer in het [ overzicht van SDK van het Web 0} Adobe Experience Platform.](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 
-1. Selecteer de gegevensset(s) waar de conversie- en impressiefeedagen worden verzameld. Leer hoe te om dergelijke datasets in [&#x200B; tot stand te brengen deze sectie &#x200B;](../experience-decisioning/data-collection/create-dataset.md).
+1. Selecteer de gegevensset(s) waar de conversie- en impressiefeedagen worden verzameld. Leer hoe te om dergelijke datasets in [ tot stand te brengen deze sectie ](../experience-decisioning/data-collection/create-dataset.md).
 
-   ![&#x200B; de selectie van de Dataset voor omzetting en impressiegerelateerde gebeurtenissen &#x200B;](../experience-decisioning/assets/ai-model-datasets.png){width="85%"}
+   ![ de selectie van de Dataset voor omzetting en impressiegerelateerde gebeurtenissen ](../experience-decisioning/assets/ai-model-datasets.png){width="85%"}
 
    >[!CAUTION]
    >
-   >Alleen de gegevenssets die zijn gemaakt op basis van schema&#39;s die zijn gekoppeld aan de **[!UICONTROL Experience Event - Proposition Interactions]** -veldgroep (voorheen bekend als mixin), worden weergegeven in de vervolgkeuzelijst.
+   >Alleen de gegevenssets die zijn gemaakt op basis van schema&#39;s die zijn gekoppeld aan de veldgroep **[!UICONTROL Experience Event - Proposition Interactions]** , worden weergegeven in de vervolgkeuzelijst. U kunt maximaal vijf datasets selecteren.
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Selecteer de segmenten die u wilt gebruiken om het AI-model op te leiden.
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Selecteer de segmenten die u wilt gebruiken om het AI-model op te leiden.
 
    >[!NOTE]
    >
@@ -84,52 +84,30 @@ Volg de onderstaande stappen om een AI-model voor de rangschikking van reizen te
 
 Het AI-model is nu beschikbaar voor selectie wanneer u een waarderingsformule maakt.
 
-## Een AI-model selecteren voor een waarderingsformule {#select-ai-model-for-ranking-formula}
+## Verwijzing naar het AI-model in een formule om reizen te rangschikken {#reference-ai-model}
 
-U kunt het AI-model nu instellen als een referentie om een waarderingsformule samen te stellen. Voer de onderstaande stappen uit.
+U kunt het AI-model nu instellen als een verwijzing om een rangschikkingsformule te maken, de formule vervolgens toewijzen aan een regelset en de regel die is ingesteld op uw reizen toepassen. Volg de onderstaande stappen om dit te doen.
 
-1. Maak een waarderingsformule. [&#x200B; leer hoe &#x200B;](journey-ranking-formulas.md#create-journey-ranking-formula)
+1. Maak een waarderingsformule. [ leer hoe ](journey-ranking-formulas.md#create-journey-ranking-formula)
 
-1. Selecteer met de knop **[!UICONTROL Select AI model]** het AI-model dat u wilt gebruiken.
+1. Gebruik de knop **[!UICONTROL Select AI model]** om het AI-model te selecteren dat u wilt gebruiken in de formule.
 
-   ![&#x200B; Rangschikkende de formatiedetails van de Reis ruit met AI modelselectie &#x200B;](assets/journey-formula-ai-model.png){width="80%"}
+   ![ de rangschikkingsformules van de Reis met de Uitgezochte AI modelknoop ](assets/journey-formula-ai-model.png){width="80%"}
 
 1. Definieer in ten minste een van de secties van **[!UICONTROL Criterion]** een voorwaarde en selecteer **[!UICONTROL AI model score]** als waarderingsmethode. Als de reis bijvoorbeeld een &#39;Promo&#39;-tag heeft, is de rangschikkingsscore de score van het AI-model.
 
-   ![&#x200B; Willekeurige formule: De markering van de Promo gebruikt AI modelscore &#x200B;](assets/journey-formula-ex-2.png){width="60%"}
+   ![ Een het rangschikken formule voorbeeld waar het de markeringscriterium van de Promo AI modelscore als het rangschikken methode ](assets/journey-formula-ex-2.png){width="60%"} gebruikt
 
 1. Klik op **[!UICONTROL Create]** om uw waarderingsformule te voltooien.
 
-## Het AI-model toewijzen aan een regelset {#assign-ai-model-to-ruleset}
+1. Maak nu een regelset en selecteer de formule die u als waarderingsmethode hebt gemaakt. [ leer hoe ](journey-ranking-formulas.md#assign-formula-to-ruleset)
 
-Als u een AI-model wilt gebruiken om uw reizen te rangschikken, moet u de formule die verwijst naar dit AI-model toewijzen aan een regelset.
+1. Maak de regels voor het afdekken van reizen en sla de regelset op.
 
-1. Maak in het menu **[!UICONTROL Business rules]** een regelset die u wilt gebruiken voor arbitrage tijdens de rit. [&#x200B; leer hoe &#x200B;](rule-sets.md#Create)
-
-1. Selecteer het domein **[!UICONTROL Journey]** .
-
-1. Stel in de regelseteigenschappen de waarde **[!UICONTROL Ranking method]** in op **[!UICONTROL Formula]** (in plaats van **[!UICONTROL Priority]** ).
-
-1. Selecteer de formule die het AI-model gebruikt dat u in de vervolgkeuzelijst hebt gemaakt.
-
-1. Maak de regels voor het afdekken van de verplaatsingen die u aan de regelset wilt toevoegen. [&#x200B; leer hoe &#x200B;](journey-capping.md#create-rule)
-
-1. Sla de regelset op.
-
-De formule die het AI-model gebruikt, wordt nu toegewezen aan de regelset. Vervolgens kunt u die regel op uw reizen toepassen.
-
-## Pas de regel toe die op een reis is ingesteld {#assign-rule-set-to-journey}
-
-Volg de onderstaande stappen om de regel toe te wijzen die aan een reis is ingesteld.
-
-1. Maak of open de reis waaraan u de regel wilt toewijzen. [&#x200B; leer hoe te om een reis &#x200B;](../building-journeys/journey-gs.md) tot stand te brengen
-
-1. Selecteer in de reiseigenschappen de regelset in de vervolgkeuzelijst. [&#x200B; leer hoe &#x200B;](journey-capping.md#apply-capping).
+1. Pas de regel toe die op de gewenste reizen wordt geplaatst en bewaar hen. [ leer hoe ](journey-ranking-formulas.md#assign-rule-set-to-journey)
 
    >[!NOTE]
    >
    >Er kan slechts één regelset tegelijk op een reis worden toegepast.
 
-1. Bespaar de reis.
-
-Alle ritten die van deze regel gebruikmaken, worden bij toepassing van de lampvoet gerangschikt met de geselecteerde formule aan de hand van het AI-model.
+Alle ritten die van deze regel gebruikmaken, worden gerangschikt met de formule die naar het geselecteerde AI-model verwijst wanneer de lampvoet wordt toegepast.
