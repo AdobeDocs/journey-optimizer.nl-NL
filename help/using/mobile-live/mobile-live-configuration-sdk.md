@@ -7,9 +7,9 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ De Adobe Experience Platform Mobile SDK biedt ingebouwde ondersteuning voor Appl
 
    Importeer de volgende modules: **[!DNL AEPMessaging]**, **[!DNL AEPMessagingLiveActivity]**, **[!DNL ActivityKit]** .
 
-1. [&#x200B; bepalen attributen &#x200B;](#attributes)
+1. [ bepalen attributen ](#attributes)
 
    Omgaan met `LiveActivityAttributes` , neemt u de kenmerken `LiveActivityData` en a `ContentState` op.
 
@@ -235,8 +235,11 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
 
 Voor uitgebreide documentatie en implementatiedetails van SDK:
 
-* [&#x200B; Levende Gids van de Ontwikkelaar van Activiteiten &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
-* [&#x200B; API Verwijzing &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
-* [&#x200B; Levende Zelfstudie van de Activiteit &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
-* [&#x200B; Openbare Klassen &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
-s
+* [ Levende Gids van de Ontwikkelaar van Activiteiten ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
+* [ API Verwijzing ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
+* [ Levende Zelfstudie van de Activiteit ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
+* [ Openbare Klassen ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
+
+>[!TIP]
+>
+>Als u kwesties met symbolische registratie, loonlastgroepering, of de Levende levering van de Activiteit ervaart, zie [ Levende Activiteiten ](troubleshoot-mobile-live.md) voor gedetailleerde het zuiveren begeleiding problemen oplossen.
