@@ -10,9 +10,9 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 76bb202375cdfe1c8abacc1670ba6e794175215d
+source-git-commit: 9d3dd2f0a9ae5200dd3ed332420bbb08e8e9f498
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '468'
 ht-degree: 1%
 
 ---
@@ -45,11 +45,11 @@ Wanneer u de geavanceerde HTML-editor gebruikt, zijn de volgende instructies bes
 
 >[!WARNING]
 >
->De geavanceerde HTML-editor in de inhoudssjabloon is niet dezelfde als de modus **[!UICONTROL Code your own]** in de e-mailtoepassing van Designer. In de modus [!UICONTROL Code your own] kunt u niet terugschakelen naar de visuele editor. Als u eenmaal dat pad hebt gekozen, kunt u alleen codebewerkingen uitvoeren. Met de geavanceerde HTML-editor kunt u daarentegen op elk gewenst moment schakelen tussen de HTML-weergave en de (visuele) desktopweergave. [&#x200B; leer meer over de coderedacteur &#x200B;](../email/code-content.md)
+>De geavanceerde HTML-editor in de inhoudssjabloon is niet dezelfde als de modus **[!UICONTROL Code your own]** in de e-mailtoepassing van Designer. In de modus [!UICONTROL Code your own] kunt u niet terugschakelen naar de visuele editor. Als u eenmaal dat pad hebt gekozen, kunt u alleen codebewerkingen uitvoeren. Met de geavanceerde HTML-editor kunt u daarentegen op elk gewenst moment schakelen tussen de HTML-weergave en de (visuele) desktopweergave. [ leer meer over de coderedacteur ](../email/code-content.md)
 
 ## Overschakelen naar de geavanceerde HTML-weergave {#switch-to-desktop-view}
 
-1. Open of creeer een [&#x200B; e-mailmalplaatje &#x200B;](../content-management/create-content-templates.md) en open [&#x200B; E-mail Designer &#x200B;](../email/get-started-email-design.md) om de inhoud uit te geven.
+1. Open of creeer een [ e-mailmalplaatje ](../content-management/create-content-templates.md) en open [ E-mail Designer ](../email/get-started-email-design.md) om de inhoud uit te geven.
 
 1. Klik op de knop **[!UICONTROL HTML]** in de rechterbovenhoek van het scherm.
 
@@ -73,15 +73,14 @@ Wanneer u de geavanceerde HTML-editor gebruikt, zijn de volgende instructies bes
    >
    >Zorg ervoor dat u de juiste HTML- en CSS-code invoert omdat er geen syntaxisvalidatieproces is en er geen ondersteuning wordt geboden door [!DNL Adobe] . [Meer informatie](#guardrails)
 
-1. Opslaan is niet beschikbaar in de geavanceerde HTML-weergave. Schakel terug naar de weergave Computer om uw wijzigingen op te slaan.
+1. Vanwege compatibiliteitsredenen zijn het simuleren en opslaan van inhoud niet beschikbaar in de geavanceerde HTML-weergave. Schakel terug naar de weergave Computer om een voorvertoning van uw inhoud weer te geven en uw wijzigingen op te slaan.
 
    ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Inhoud kan alleen worden opgeslagen in de bureaubladweergave om redenen van inhoucompatibiliteit. Uw bewerkingen blijven behouden wanneer u van weergave verandert.
+   ><!--Content can only be saved in Desktop view for content compatibility reasons. -->Uw bewerkingen blijven behouden wanneer u van weergave verandert.
+<!--
+1. Content simulation is not available in advanced HTML view. To preview your content, switch to Desktop view.
 
-1. Inhoud simuleren is niet beschikbaar in de geavanceerde HTML-weergave. Schakel over naar de bureaubladweergave om de inhoud te simuleren.
-
-   ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}
-
+    ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}-->
