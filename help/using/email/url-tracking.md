@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+source-git-commit: 719bd2fca82a25c356ed708819a6e7684ffbff9b
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 0%
+source-wordcount: '477'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 >title="Voorvertoning van parameters voor URL bijhouden"
 >abstract="Bekijk hoe u parameters voor bijhouden toevoegt aan de URL&#39;s in uw e-mailinhoud."
 
-Wanneer het vormen van een nieuwe [&#x200B; configuratie van het e-mailkanaal &#x200B;](email-settings.md), kunt u **[!UICONTROL URL tracking parameters]** bepalen om de doeltreffendheid van uw marketing inspanningen over kanalen te meten. U kunt deze functie ook activeren.
+Wanneer het vormen van een nieuwe [ configuratie van het e-mailkanaal ](email-settings.md), kunt u **[!UICONTROL URL tracking parameters]** bepalen om de doeltreffendheid van uw marketing inspanningen over kanalen te meten. U kunt deze functie ook activeren.
 
 De parameters die in de corresponderende sectie worden gedefinieerd, worden toegevoegd aan het einde van de URL&#39;s die in de inhoud van uw e-mailbericht zijn opgenomen. Vervolgens kunt u deze parameters vastleggen in hulpprogramma&#39;s voor webanalyse, zoals Adobe Analytics of Google Analytics, en verschillende prestatierapporten maken.
 
@@ -42,7 +42,7 @@ Met de knop **[!UICONTROL Add new parameter]** kunt u maximaal 10 volgparameters
 
 Als u een URL-volgparameter wilt configureren, kunt u de gewenste waarden rechtstreeks invoeren in de velden **[!UICONTROL Name]** en **[!UICONTROL Value]** .
 
-U kunt elk **[!UICONTROL Value]** gebied ook uitgeven gebruikend de [&#x200B; verpersoonlijkingsredacteur &#x200B;](../personalization/personalization-build-expressions.md). Klik op het pictogram van de editie om de editor te openen. Vervolgens kunt u de beschikbare contextafhankelijke kenmerken selecteren en/of de tekst rechtstreeks bewerken.
+U kunt elk **[!UICONTROL Value]** gebied ook uitgeven gebruikend de [ verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md). Klik op het pictogram van de editie om de editor te openen. Vervolgens kunt u de beschikbare contextafhankelijke kenmerken selecteren en/of de tekst rechtstreeks bewerken.
 
 ![](assets/preset-url-tracking-editor.png)
 
@@ -53,6 +53,10 @@ De volgende vooraf gedefinieerde waarden zijn beschikbaar via de verpersoonlijki
 * **identiteitskaart van de Aanbieding**: identiteitskaart van de aanbieding die in e-mail wordt gebruikt.
 
 * **handelings identiteitskaart van Source**: identiteitskaart van de E-mailactie die aan de reis of de campagne wordt toegevoegd.
+
+  >[!NOTE]
+  >
+  >Reizen die na een productwijziging zijn gesloten of niet opnieuw zijn gepubliceerd, kunnen `context.system.source.actionId` mogelijk niet invullen bij het bijhouden van URL&#39;s, wat resulteert in lege plaatsaanduidingen (bijvoorbeeld `cid=em-acou-adob{}` ). Om volgende parameters te verzekeren correct bevolkt, [ herpubliceer de beïnvloede reis ](../building-journeys/publish-journey.md#journey-create-new-version) of verwijder de verwijzing naar dit contextgebied voor gesloten reizen. Leer meer in [ problemen oplossen uw levende reisuitvoering ](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys).
 
 * **de actienaam van Source**: naam van de E-mailactie die aan de reis of de campagne wordt toegevoegd.
 
