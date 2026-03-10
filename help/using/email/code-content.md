@@ -9,24 +9,30 @@ role: User
 level: Intermediate, Experienced
 keywords: code, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 2%
+source-wordcount: '473'
+ht-degree: 1%
 
 ---
 
 # Uw eigen inhoud coderen {#code-content}
 
-Gebruik de modus **[!UICONTROL Code your own]** om onbewerkte HTML te importeren en/of uw e-mailinhoud te coderen. Deze methode vereist HTML-vaardigheden.
+Met **[!UICONTROL Code your own]** kunt u onbewerkte HTML schrijven of plakken en rechtstreeks e-mailinhoud maken in de [!DNL Journey Optimizer] e-mailtoepassing van Designer. Gebruik deze modus wanneer u volledige controle over markeringen nodig hebt of wanneer u bestaande HTML importeert.
+
+U moet de vaardigheden van HTML hebben, en zodra u deze wijze kiest, blijft u in code redacteur-u kunt niet op de visuele redacteur schakelen.
 
 ➡️ [Ontdek deze functie in video](#video)
 
->[!CAUTION]
+>[!NOTE]
 >
-> De beelden van [&#x200B; Adobe Experience Manager Assets &#x200B;](../integrations/assets.md) kunnen niet worden van verwijzingen voorzien wanneer het gebruiken van deze methode. De afbeeldingen waarnaar in uw HTML-code wordt verwezen, moeten worden opgeslagen op een openbare locatie.
+>**[!UICONTROL Code your own]** is niet hetzelfde als de geavanceerde HTML-editor in inhoudssjablonen. Met de geavanceerde HTML-editor kunt u op elk gewenst moment schakelen tussen de HTML-weergave en de visuele weergave (Computer), en niet tussen de code-editor. [ Leer meer over de geavanceerde redacteur van HTML ](../content-management/email-template-expert-mode.md).
 
-1. Selecteer **[!UICONTROL Code your own]** op de homepage van E-mail Designer.
+## De code-editor gebruiken {#use-code-editor}
+
+Voer de volgende stappen uit om e-mailinhoud te maken of te bewerken met de code-editor.
+
+1. Van de [ E-mail Designer ](get-started-email-design.md) homepage, uitgezochte **[!UICONTROL Code your own]**.
 
    ![](assets/code-your-own.png)
 
@@ -38,7 +44,7 @@ Gebruik de modus **[!UICONTROL Code your own]** om onbewerkte HTML te importeren
 
    >[!NOTE]
    >
-   >De personalisatie-editor in de e-mail Designer heeft enkele functiebeperkingen in vergelijking met reisexpressies. [&#x200B; leer meer over datum/tijdfunctiebeperkingen &#x200B;](#date-time-limitations)
+   >De personalisatie-editor in de e-mail Designer heeft enkele functiebeperkingen in vergelijking met reisexpressies. [ leer meer over datum/tijdfunctiebeperkingen ](#date-time-limitations)
 
 1. Als u uw e-mailinhoud wilt wissen en uw e-mail wilt starten vanuit een nieuw ontwerp, selecteert u **[!UICONTROL Change your design]** in het optiemenu.
 
@@ -55,6 +61,10 @@ Gebruik de modus **[!UICONTROL Code your own]** om onbewerkte HTML te importeren
 1. Zodra uw code klaar is, klik **[!UICONTROL Save]** dan ga terug naar het scherm van de berichtverwezenlijking om uw bericht te voltooien.
 
    ![](assets/code-editor-save.png)
+
+>[!CAUTION]
+>
+>De beelden van [ Adobe Experience Manager Assets ](../integrations/assets.md) kunnen niet worden van verwijzingen voorzien wanneer het gebruiken van de Code uw eigen methode. Sla afbeeldingen waarnaar in uw HTML-code wordt verwezen, op een openbare locatie op.
 
 ## Beperkingen van datum- en tijdfunctie {#date-time-limitations}
 
@@ -84,10 +94,10 @@ Als u datumberekeningen moet uitvoeren in uw e-mailinhoud:
 
   Voorbeeld: `{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
 
-* **de functies van de de datummanipulatie van het Gebruik** - 2&rbrace; datum/tijdfuncties [&#x200B; als &#x200B;](../personalization/functions/dates.md) of `dayOfYear()` met datumwaarden van profielattributen gebruiken.`diffInDays()`
+* **de functies van de de datummanipulatie van het Gebruik** - 2} datum/tijdfuncties [ als ](../personalization/functions/dates.md) of `dayOfYear()` met datumwaarden van profielattributen gebruiken.`diffInDays()`
 
   Voorbeeld: `{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
 
-* **Gebruik gegevens verwerkte attributen** - creeer [&#x200B; gegevens verwerkte attributen &#x200B;](../audience/computed-attributes.md) die complexe datumberekeningen uitvoeren, die de resultaten beschikbaar maken als profielattributen.
+* **Gebruik gegevens verwerkte attributen** - creeer [ gegevens verwerkte attributen ](../audience/computed-attributes.md) die complexe datumberekeningen uitvoeren, die de resultaten beschikbaar maken als profielattributen.
 
-Leer meer over [&#x200B; Functies van de Tijd van de Datum in verpersoonlijking &#x200B;](../personalization/functions/dates.md).
+Zie [ functie van de Datum en van de tijd ](../personalization/functions/dates.md) voor de volledige lijst van gesteunde functies.

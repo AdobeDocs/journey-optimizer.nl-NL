@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landen, landingspagina, starten, starten
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 1%
@@ -22,7 +22,16 @@ Een openingspagina is een zelfstandige webpagina waarnaar een gebruiker wordt ve
 
 Met [!DNL Journey Optimizer] kunt u bestemmingspagina&#39;s maken en ontwerpen, zodat uw gebruikers naar onlineformulieren kunnen gaan waar ze zich kunnen aanmelden of afmelden voor het ontvangen van uw communicatie of een specifieke service zoals een nieuwsbrief.
 
-➡️ [&#x200B; Leer meer over het vormen van abonnementen en het creëren van landende pagina&#39;s in deze video &#x200B;](#video)
+➡️ [ Leer meer over het vormen van abonnementen en het creëren van landende pagina&#39;s in deze video ](#video)
+
+## Wanneer moeten bestemmingspagina&#39;s worden gebruikt? {#when-to-use}
+
+Gebruik openingspagina&#39;s als u wilt:
+
+* Laat klanten **binnen kiezen of kiezen uit** van marketing mededelingen of een specifieke dienst of een nieuwsbrief van een verbinding in e-mail of campagne-met inbegrip van abonnementenlijsten voor de gerichte diensten. [Meer informatie](lp-use-cases.md#subscription-to-a-service)
+* **verzamel toestemming** alvorens mededelingen te verzenden en a **bevestigingsE-mail** op opt-in of opt-out te verzenden. [Meer informatie](lp-use-cases.md#send-confirmation-email)
+* Richt gebruikers aan a **specifieke Webvorm** zonder een externe pagina buiten [!DNL Journey Optimizer] te bouwen opnieuw
+* Bouw **ontvankelijke het landen pagina&#39;s** gebruikend [!DNL Journey Optimizer] inhoudsontwerpmogelijkheden
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -60,15 +69,6 @@ Met [!DNL Journey Optimizer] kunt u bestemmingspagina&#39;s maken en ontwerpen, 
 <p>
 </td>
 </tr></table>
-
-## Wanneer moeten bestemmingspagina&#39;s worden gebruikt? {#when-to-use}
-
-Gebruik openingspagina&#39;s als u wilt:
-
-* Laat klanten **binnen kiezen of kiezen uit** van marketing mededelingen of een specifieke dienst of een nieuwsbrief van een verbinding in e-mail of campagne-met inbegrip van abonnementenlijsten voor de gerichte diensten. [Meer informatie](lp-use-cases.md#subscription-to-a-service)
-* **verzamel toestemming** alvorens mededelingen te verzenden en a **bevestigingsE-mail** op opt-in of opt-out te verzenden. [Meer informatie](lp-use-cases.md#send-confirmation-email)
-* Richt gebruikers aan a **specifieke Webvorm** zonder een externe pagina buiten [!DNL Journey Optimizer] te bouwen opnieuw
-* Bouw **ontvankelijke het landen pagina&#39;s** gebruikend [!DNL Journey Optimizer] inhoudsontwerpmogelijkheden
 
 ## Voordat u begint {#prerequisites}
 

@@ -10,10 +10,10 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 9d3dd2f0a9ae5200dd3ed332420bbb08e8e9f498
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 1%
+source-wordcount: '531'
+ht-degree: 2%
 
 ---
 
@@ -33,39 +33,43 @@ Met deze functie kunt u geavanceerde expressies, zoals condities, rechtstreeks i
 
 ## Beveiligingsmechanismen {#guardrails}
 
-Wanneer u de geavanceerde HTML-editor gebruikt, zijn de volgende instructies beschikbaar om de compatibiliteit van inhoud te beschermen en verwachtingen in te stellen.
+Wanneer u de geavanceerde HTML-editor gebruikt, beschermen de volgende instructies de compatibiliteit van inhoud en stellen ze verwachtingen in.
 
-* Momenteel, is er geen bevestigingsproces **in de geavanceerde redacteur van HTML.** Syntaxisfouten en verbroken layouts worden niet gecontroleerd. Controleer de inhoud zorgvuldig voordat u deze opslaat.
+* De geavanceerde redacteur van HTML **bevestigt** uw code niet. Er worden geen syntaxisfouten of verbroken indelingen gecontroleerd. Bekijk de inhoud zorgvuldig voordat u deze opslaat.
 
-* Tijdens toekomstige systeemupdates kunnen wijzigingen in standaardmarkeringen worden hersteld. Houd er rekening mee dat **uw wijzigingen kunnen worden overschreven** .
+* De toekomstige systeemupdates kunnen veranderingen beschrijven u aan standaardprijsverhoging aanbrengt. **Uw veranderingen kunnen niet** blijven.
 
-* De kwesties die door douanecode en handveranderingen **worden veroorzaakt kunnen niet** worden problemen opgelost of door het [!DNL Adobe] ondersteuningsteam worden opgelost. Zorg ervoor dat u een reservekopie hebt van uw inhoud voor het geval u naar een vorige versie moet terugkeren.
+* Het [!DNL Adobe] ondersteuningsteam **kan niet** kwesties problemen oplossen of oplossen die door douanecode en handveranderingen worden veroorzaakt. Bewaar een back-up van uw inhoud voor het geval u deze moet herstellen.
 
-* Om inhoudsverenigbaarheid te verzekeren, **sparen is niet beschikbaar** in de geavanceerde mening van HTML. Wanneer u klaar bent om uw veranderingen te bewaren, moet u terug naar de mening van de Desktop schakelen.
+* U kunt geen inhoud simuleren in de geavanceerde HTML-weergave. Schakel over naar de weergave Computer om een voorvertoning van uw inhoud weer te geven.
+
+* Om inhoudsverenigbaarheid te verzekeren, **kunt u niet** in de geavanceerde mening van HTML bewaren. Schakel terug naar de bureaubladweergave als u klaar bent om uw wijzigingen op te slaan.
 
 >[!WARNING]
 >
->De geavanceerde HTML-editor in de inhoudssjabloon is niet dezelfde als de modus **[!UICONTROL Code your own]** in de e-mailtoepassing van Designer. In de modus [!UICONTROL Code your own] kunt u niet terugschakelen naar de visuele editor. Als u eenmaal dat pad hebt gekozen, kunt u alleen codebewerkingen uitvoeren. Met de geavanceerde HTML-editor kunt u daarentegen op elk gewenst moment schakelen tussen de HTML-weergave en de (visuele) desktopweergave. [&#x200B; leer meer over de coderedacteur &#x200B;](../email/code-content.md)
+>De geavanceerde HTML-editor in de inhoudssjabloon is niet dezelfde als de modus **[!UICONTROL Code your own]** in de e-mailtoepassing van Designer. In de modus [!UICONTROL Code your own] kunt u niet terugschakelen naar de visuele editor. Als u eenmaal dat pad hebt gekozen, kunt u alleen codebewerkingen uitvoeren. Met de geavanceerde HTML-editor kunt u daarentegen op elk gewenst moment schakelen tussen de HTML-weergave en de (visuele) desktopweergave. [ leer meer over de coderedacteur ](../email/code-content.md)
 
-## Overschakelen naar de geavanceerde HTML-weergave {#switch-to-desktop-view}
+## Overschakelen naar de geavanceerde HTML-weergave {#switch-to-html-view}
 
-1. Open of creeer een [&#x200B; e-mailmalplaatje &#x200B;](../content-management/create-content-templates.md) en open [&#x200B; E-mail Designer &#x200B;](../email/get-started-email-design.md) om de inhoud uit te geven.
+Voer de volgende stappen uit om de geavanceerde HTML-editor te openen en de sjabloonbron te bewerken.
+
+1. Open of creeer een [ e-mailmalplaatje ](../content-management/create-content-templates.md) en open [ E-mail Designer ](../email/get-started-email-design.md) om de inhoud uit te geven.
 
 1. Klik op de knop **[!UICONTROL HTML]** in de rechterbovenhoek van het scherm.
 
-   ![](assets/email-template-expert-mode-button.png)
+   ![ Plaats van de knoop van HTML in de toolbar van Designer E-mail ](assets/email-template-expert-mode-button.png)
 
 1. De eerste keer dat u de geavanceerde HTML-editor opent, wordt een waarschuwingsbericht weergegeven. Bekijk deze zorgvuldig en klik op **[!UICONTROL OK]** om door te gaan. [Meer informatie](#guardrails)
+
+   ![ de dialoog van de Waarschuwing wanneer het openen van de geavanceerde redacteur van HTML voor het eerst ](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
    >[!NOTE]
    >
    >Deze waarschuwing wordt alleen weergegeven wanneer u de geavanceerde HTML-editor voor de eerste keer opent en elke maand opnieuw instelt.
 
-   ![](assets/email-template-expert-mode-warning.png){zoomable="yes"}
-
 1. De geavanceerde HTML-editor wordt weergegeven.
 
-   ![](assets/email-template-expert-mode.png)
+   ![ Geavanceerde de redacteursinterface van HTML die de broncode van het e-mailmalplaatje toont ](assets/email-template-expert-mode.png)
 
 1. Voeg de gewenste wijzigingen toe aan uw e-mailinhoud.
 
@@ -75,12 +79,18 @@ Wanneer u de geavanceerde HTML-editor gebruikt, zijn de volgende instructies bes
 
 1. Vanwege compatibiliteitsredenen zijn het simuleren en opslaan van inhoud niet beschikbaar in de geavanceerde HTML-weergave. Schakel terug naar de weergave Computer om een voorvertoning van uw inhoud weer te geven en uw wijzigingen op te slaan.
 
-   ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
+   ![ Schakelaar terug naar de mening van de Desktop om uw veranderingen te bewaren ](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   ><!--Content can only be saved in Desktop view for content compatibility reasons. -->Uw bewerkingen blijven behouden wanneer u van weergave verandert.
-<!--
-1. Content simulation is not available in advanced HTML view. To preview your content, switch to Desktop view.
+   >Uw bewerkingen blijven behouden wanneer u van weergave verandert.
 
+<!--
     ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}-->
+
+## Verwante onderwerpen
+
+* [Uw eigen e-mailinhoud coderen](../email/code-content.md)
+* [Inhoudssjablonen maken](create-content-templates.md)
+* [Aan de slag met Email Designer](../email/get-started-email-design.md)
+
