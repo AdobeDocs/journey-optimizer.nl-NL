@@ -57,7 +57,7 @@ Er zijn drie typen functies:
 Het model heeft twee fasen:
 
 * In de **off-line modelopleiding** fase, wordt een model getraind door eigenschapinteractie in historische gegevens te leren en te herdenken.
-* In de **fase van de 0} online conferentie, worden de kandidaten aangeboden gerangschikt gebaseerd op scores in real time die door het model worden geproduceerd.** In tegenstelling tot traditionele samenwerkings het filtreren technieken, die moeilijk om eigenschappen voor gebruikers en aanbiedingen te omvatten is, is de gepersonaliseerde optimalisering een diep het leren gebaseerde raadsmethode, en kan complexe en niet-lineaire patronen van de eigenschapinteractie omvatten en leren.
+* In de **fase van de 0&rbrace; online conferentie, worden de kandidaten aangeboden gerangschikt gebaseerd op scores in real time die door het model worden geproduceerd.** In tegenstelling tot traditionele samenwerkings het filtreren technieken, die moeilijk om eigenschappen voor gebruikers en aanbiedingen te omvatten is, is de gepersonaliseerde optimalisering een diep het leren gebaseerde raadsmethode, en kan complexe en niet-lineaire patronen van de eigenschapinteractie omvatten en leren.
 
 Hier volgt een vereenvoudigd voorbeeld om het basisidee achter gepersonaliseerde optimalisatie te illustreren. Veronderstel wij een dataset hebben die historische interactie tussen gebruikers en aanbiedingen opslaat, die in Figuur 1 wordt getoond. Er zijn:
 
@@ -80,4 +80,4 @@ Koud-startprobleem doet zich voor wanneer er onvoldoende gegevens zijn om een aa
 
 ## Herscholing {#re-training}
 
-Modellen worden opnieuw getraind om de nieuwste functies-interacties te leren en de verslechtering van de modelprestaties wekelijks te beperken. Om opleidingsstatus en modelprestaties te controleren, zie [ AI model controle ](ai-model-observability.md).
+Modellen worden opnieuw getraind om de nieuwste functies-interacties te leren en de verslechtering van de modelprestaties wekelijks te beperken. Om opleidingsstatus en modelprestaties te controleren, zie [&#x200B; AI model controle &#x200B;](ai-model-observability.md).
