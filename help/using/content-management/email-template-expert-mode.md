@@ -45,11 +45,11 @@ Wanneer u de geavanceerde HTML-editor gebruikt, zijn de volgende instructies bes
 
 >[!WARNING]
 >
->De geavanceerde HTML-editor in de inhoudssjabloon is niet dezelfde als de modus **[!UICONTROL Code your own]** in de e-mailtoepassing van Designer. In de modus [!UICONTROL Code your own] kunt u niet terugschakelen naar de visuele editor. Als u eenmaal dat pad hebt gekozen, kunt u alleen codebewerkingen uitvoeren. Met de geavanceerde HTML-editor kunt u daarentegen op elk gewenst moment schakelen tussen de HTML-weergave en de (visuele) desktopweergave. [ leer meer over de coderedacteur ](../email/code-content.md)
+>De geavanceerde HTML-editor in de inhoudssjabloon is niet dezelfde als de modus **[!UICONTROL Code your own]** in de e-mailtoepassing van Designer. In de modus [!UICONTROL Code your own] kunt u niet terugschakelen naar de visuele editor. Als u eenmaal dat pad hebt gekozen, kunt u alleen codebewerkingen uitvoeren. Met de geavanceerde HTML-editor kunt u daarentegen op elk gewenst moment schakelen tussen de HTML-weergave en de (visuele) desktopweergave. [&#x200B; leer meer over de coderedacteur &#x200B;](../email/code-content.md)
 
 ## Overschakelen naar de geavanceerde HTML-weergave {#switch-to-desktop-view}
 
-1. Open of creeer een [ e-mailmalplaatje ](../content-management/create-content-templates.md) en open [ E-mail Designer ](../email/get-started-email-design.md) om de inhoud uit te geven.
+1. Open of creeer een [&#x200B; e-mailmalplaatje &#x200B;](../content-management/create-content-templates.md) en open [&#x200B; E-mail Designer &#x200B;](../email/get-started-email-design.md) om de inhoud uit te geven.
 
 1. Klik op de knop **[!UICONTROL HTML]** in de rechterbovenhoek van het scherm.
 
