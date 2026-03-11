@@ -5,9 +5,9 @@ title: De activiteit AND-join gebruiken
 description: Leer hoe u de AND-join-activiteit gebruikt in een geordende campagne
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: a6dd5e7e4bb55c9cfb094682254d940280de0815
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,11 @@ ht-degree: 0%
 >id="ajo_orchestration_and-join"
 >title="AND-join-activiteit"
 >abstract="De **en-sluit zich aan** activiteit staat u toe om veelvoudige uitvoeringstakken van een Geordende campagne te synchroniseren. De regeling wordt in werking gesteld zodra alle voorgaande activiteiten zijn beëindigd. Hierdoor kunt u ervoor zorgen dat bepaalde activiteiten zijn voltooid voordat u doorgaat met het uitvoeren van de geordende campagne."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_join"
+>title="Deelnemen aan activiteit"
+>abstract="Tijdelijke aanduiding voor samenvoegactiviteit."
 
 De **[!UICONTROL And-join]** -activiteit is een **[!UICONTROL Flow control]** -activiteit. Het staat u toe om veelvoudige uitvoeringstakken van een Geordende campagne te synchroniseren.
 
