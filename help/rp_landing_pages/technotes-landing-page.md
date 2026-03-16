@@ -2,25 +2,25 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Technische opmerkingen
-description: Technische opmerkingen
+description: Leer meer over de statistische methodologieën die aan Journey Optimizer-experimenten ten grondslag liggen, zoals betrouwbaarheidsreeksen, liftberekeningen en omrekeningskoersen.
 redpen-status: CREATED_||_2025-08-12_00-43-53
 exl-id: 853c6c96-2dab-495f-946a-1b03c50632a2
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 7897da644221ab05da9ca0e378f60b9aa5ef2564
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '123'
 ht-degree: 2%
 
 ---
 
 # Technische opmerkingen{#section-overview}
 
-De technische nota&#39;s in Adobe Journey Optimizer verstrekken een achter-de-scènes blik op de geavanceerde statistische methodologieën die experimenteren en rapportering aandrijven. Of u onderzoekt hoe de experimenten onophoudelijk met de Reeksen van het Vertrouwen worden gecontroleerd of het begrijpen hoe de metriek zoals omzettingspercentages en lift worden berekend, deze gidsen helpen u gegeven-gedreven besluiten met vertrouwen maken. Elk onderwerp bouwt op zeer belangrijke concepten zoals foutenpercentages en hypothesetests voort, die zowel fundamentele kennis als diepe duiken in de unieke benaderingen van Adobe aanbieden. Door deze gereedschappen te beheren, ontgrendelt u inzichten om campagnes te optimaliseren en de best presterende strategieën voor uw publiek met vertrouwen te declareren.
+In deze technische notities worden de statistische methoden beschreven die bij de experimenten en rapportage in Adobe Journey Optimizer worden gebruikt. Gebruik deze programma&#39;s om te begrijpen hoe experimenten worden bewaakt, hoe meetgegevens zoals lift en conversiesnelheid worden berekend en hoe u resultaten met vertrouwen kunt interpreteren.
 
 ## Technische opmerkingen
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 In Adobe Journey Optimizer-experimenten gebruikte statistische berekeningen
 
@@ -30,7 +30,7 @@ Leer over geavanceerde statistische methodologieën zoals de Reeksen van het Ver
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Statistische berekeningen in experimentele rapporten begrijpen
 

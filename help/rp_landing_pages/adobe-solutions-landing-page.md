@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Verzenden met Adobe-oplossingen
-description: Verzenden met Adobe-oplossingen
+description: Leer berichten via Adobe Campaign Standard, Campaign v7/v8 en Marketo Engage te verzenden vanaf Journey Optimizer-reizen met behulp van aangepaste handelingen.
 redpen-status: CREATED_||_2025-08-11_21-17-09
 exl-id: a8d34150-32f1-4c58-8728-ba73b7e90ec4
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: a0ea5aef7616520bbc2792ba33e85ff72724a28e
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -20,33 +20,33 @@ Adobe Journey Optimizer kan berichten door andere oplossingen-zulke van Adobe oo
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer integreren met Adobe Campaign Standard
 
 Leer hoe u Adobe Journey Optimizer kunt integreren met Adobe Campaign Standard om mogelijkheden voor transactiemeldingen zoals e-mail, push en SMS in te schakelen.
 
-[De zelfstudie lezen](../using/action/acs-action.md)
+[Integreren met Campaign Standard](../using/action/acs-action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer integreren met Adobe Campaign v7/v8
 
 Ontdek hoe u Adobe Journey Optimizer kunt verbinden met Adobe Campaign v7/v8 voor transactieberichten via e-mail, SMS en pushberichten.
 
-[De zelfstudie lezen](../using/action/acc-action.md)
+[Integreren met campagne v7/v8](../using/action/acc-action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer integreren met Marketo Engage
 
 Stel een aangepaste Marketo Engage-actie in om gegevens te synchroniseren en marketing in Adobe Journey Optimizer te personaliseren.
 
-[De zelfstudie lezen](../using/action/marketo-engage.md)
+[Integreren met Marketo Engage](../using/action/marketo-engage.md)
 :::
 
 ::::

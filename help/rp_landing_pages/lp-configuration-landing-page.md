@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Landingspagina’s configureren
-description: Landingspagina’s configureren
+description: Leer subdomeinen en voorinstellingen van bestemmingspagina's in Journey Optimizer zodanig te configureren dat ze uw bestemmingspagina's consistent kunnen hosten, markeren en beheren.
 redpen-status: CREATED_||_2025-08-12_00-37-08
 exl-id: 599d9f7b-3e41-4926-95b6-f5f58255d91d
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: 1eafa4cef02c13c8498ac9ac2df502a8a7d926d2
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 5%
+source-wordcount: '179'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ Of u nu bestaande of nieuwe domeinen gebruikt, met deze stappen kunt u de bestem
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Subdomeinen van landingspagina&#39;s configureren en beheren
 
@@ -36,7 +36,7 @@ Leer hoe u subdomeinen kunt instellen en beheren voor het hosten van landingspag
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Voorinstellingen voor openingspagina definiëren
 

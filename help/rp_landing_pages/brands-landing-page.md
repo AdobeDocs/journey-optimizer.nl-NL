@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Merken
-description: Merken
+description: Leer om merkrichtlijnen in Journey Optimizer te maken, te beheren en aan te passen om consistente, on-brand inhoud in al uw campagnes te garanderen.
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: c8c07cf68cba20d6c6f4185bb3e8da0236f7acb5
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ In Adobe Journey Optimizer kunt u met de functie &#39;Merken&#39; de unieke iden
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Uw merkenrichtlijnen maken en beheren
 
@@ -30,13 +30,33 @@ Leer hoe u merkrichtlijnen voor een consistente visuele en verbale identiteit ku
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Uw merkenuitlijningsscore evalueren
 
 Begrijp en gebruik de functie Merkuitlijning om te controleren of de inhoud voldoet aan de richtlijnen van het merk en om de consistentie te verbeteren.
 
 [Meer informatie over uitlijning van merken](../using/content-management/brands-score.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Je merken aanpassen
+
+Leer hoe u standaardmerkvoorkeuren instelt en richtlijnen voor het merk aanpast voor naadloze integratie met door AI gegenereerde inhoud.
+
+[Je merken personaliseren](../using/content-management/brands-personalize.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+Generatieve modellen maken en beheren
+
+Ontdek hoe u aangepaste generatieve AI-modellen kunt maken en beheren die zijn opgeleid op basis van uw richtlijnen voor consistente inhoudsgeneratie.
+
+[Generatieve modellen beheren](../using/content-management/generative-models.md)
 :::
 
 ::::

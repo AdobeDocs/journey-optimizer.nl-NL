@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Actieconfiguratie
-description: Actieconfiguratie
+description: Leer aangepaste handelingen in Journey Optimizer te configureren voor het verbinden van reizen met systemen van derden via API-oproepen, reacties, bewaking en beheer.
 redpen-status: CREATED_||_2025-08-11_21-11-53
 exl-id: 4ce42dab-7e8f-454d-8f34-e713312ad7c5
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0fea7e06705d2154a664c72b8a483d1dbbdc18de
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -20,33 +20,43 @@ Met de configuratie van handelingen in Adobe Journey Optimizer kunt u uw klantri
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met aangepaste handelingen
 
 Leer hoe u aangepaste acties in Adobe Journey Optimizer configureert en gebruikt om persoonlijke, real-time klantenervaringen te bieden.
 
-[Aangepaste acties configureren](../using/action/action.md)
+[Aan de slag met aangepaste handelingen](../using/action/action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Hoe te om de Acties van de Douane te vormen
 
 Stapsgewijze zelfstudie voor het instellen van aangepaste handelingen, waaronder beveiligingsprotocollen, eindpuntconfiguratie en aanbevolen procedures.
 
-[Volg de configuratiegids](../using/action/about-custom-action-configuration.md)
+[Een aangepaste handeling configureren](../using/action/about-custom-action-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Het gebruiken van de Reacties van de Vraag van API in Acties van de Douane
 
 Ontdek hoe u API-aanroepreacties kunt gebruiken in aangepaste handelingen om reizen te ordenen, fouten te verwerken en implementaties te testen.
 
 [API-vraagantwoorden verkennen](../using/action/action-response.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+
+Uw aangepaste handelingen controleren
+
+Houd de prestaties en uitvoering van aangepaste handelingen tijdens uw reizen bij met behulp van ingebouwde bewakings- en rapportagemogelijkheden.
+
+[Aangepaste handelingen controleren](../using/action/reporting.md)
 :::
 
 ::::
