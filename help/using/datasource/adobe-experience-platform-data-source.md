@@ -49,7 +49,7 @@ De belangrijkste stappen om gebiedsgroepen aan de ingebouwde gegevensbron toe te
 
    >[!NOTE]
    >
-   >Alleen individuele XDM-schema&#39;s op basis van profielen worden ondersteund in de Source-configuratie van [!DNL Journey Optimizer] Gegevens. Voor meer informatie, zie [&#x200B; de Individuele klasse van het Profiel XDM &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}.
+   >Alleen individuele XDM-schema&#39;s op basis van profielen worden ondersteund in de Source-configuratie van [!DNL Journey Optimizer] Gegevens. Voor meer informatie, zie [&#x200B; de Individuele klasse van het Profiel XDM &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}.
 
 1. Selecteer de velden die u wilt gebruiken en sla uw wijzigingen op.
 
