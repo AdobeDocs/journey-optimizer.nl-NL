@@ -20,7 +20,7 @@ Gegevensconfiguratie in Adobe Journey Optimizer gaat allemaal over het opzetten 
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Relationele schema&#39;s en gegevens beheren
 
@@ -30,7 +30,7 @@ Leer hoe te om relationele schema&#39;s tot stand te brengen en te beheren, data
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Hoe te om een Doelende Dimensie te vormen
 
@@ -40,7 +40,7 @@ De geleidelijke gids om relationele schema&#39;s aan klantenprofielen in kaart t
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Een kanaalconfiguratie configureren
 

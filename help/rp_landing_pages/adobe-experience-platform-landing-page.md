@@ -20,7 +20,7 @@ Adobe Experience Platform is de basis voor het aanbieden van echt persoonlijke k
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 De functie inAudience gebruiken
 
@@ -30,7 +30,7 @@ Leer hoe u de functie inAudience gebruikt om het lidmaatschap van een publiek in
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Experience Platform-gegevens gebruiken voor Personalization
 
@@ -40,7 +40,7 @@ Ontdek hoe u Adobe Experience Platform-profielkenmerken en -gegevenssets kunt ge
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 Adobe Experience Platform-gegevens gebruiken in reizen
 

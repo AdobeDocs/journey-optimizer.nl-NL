@@ -25,7 +25,7 @@ De gebeurtenisgegevens van het Beheer van het Besluit en het XDM schema Decision
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Werken met gebeurtenissen voor Beheer van beslissingen
 
@@ -35,7 +35,7 @@ Leer hoe u gegevenssets voor Beslissingsbeheer kunt gebruiken voor rapportage en
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Toegang tot XDM-velden voor DecisioningEvents en ontdek deze
 
