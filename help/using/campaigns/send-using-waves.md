@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: golven, batches, planning, campagne, transport, leverbaarheid
-source-git-commit: 7df05e41b086c60724576328c5bcfee47cab65ca
+exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
+source-git-commit: 55181db4fd8c1e6ee0f0f865dd61201be3c2df39
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 0%
+source-wordcount: '763'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +38,7 @@ Met Journey Optimizer kunt u het aantal golven, de grootte ervan (als percentage
 
 Volg de onderstaande stappen om te configureren hoe en wanneer u golven wilt verzenden in een campagne.
 
-1. Creeer of open een [&#x200B; campagne van de Actie &#x200B;](create-campaign.md) die een uitgaande actie (bijvoorbeeld, E-mail, SMS, Duw) bevat.
+1. Creeer of open een [ campagne van de Actie ](create-campaign.md) die een uitgaande actie (bijvoorbeeld, E-mail, SMS, Duw) bevat.
 
 1. Selecteer **[!UICONTROL Schedule]** op het tabblad **[!UICONTROL Deliver campaign actions in waves]** van uw campagne.
 
@@ -73,17 +74,13 @@ Selecteer de optie **[!UICONTROL Custom distribution]** om de grootte van elke g
 
 ![](assets/campaign-wave-percentage.png){width="80%"}
 
->[!NOTE]
->
->Het totaal voor alle golven moet gelijk zijn aan 100%. Als dit niet het geval is, wordt een waarschuwingsbericht getoond.<!--are the waves actually sent or does the system prevent user from saving the campaign?-->
-
 Selecteer **[!UICONTROL Numbers]** om de grootte van elke golf als een absoluut aantal profielen (bijvoorbeeld, 10.000; 50.000) te bepalen.
 
 ![](assets/campaign-wave-numbers.png){width="80%"}
 
 >[!NOTE]
->
->Wanneer het gebruiken van aantallen, bevestigt het systeem niet dat de som het volledige publiek-u moet ervoor zorgen dat uw golfgrootte het publiek behandelt u van plan bent te verzenden naar. Leer meer in de [&#x200B; Veelgestelde vragen &#x200B;](#faq).
+>* Wanneer u percentages gebruikt, moeten alle golven 100% in totaal gebruiken. Er wordt een waarschuwing weergegeven als dit niet het geval is.
+>* Als u getallen gebruikt, valideert het systeem de dekking niet. Zorg ervoor dat de golfformaten het beoogde publiek bedekken. [Meer informatie](#faq)
 
 ### Aangepast schema {#custom-schedule}
 
@@ -95,7 +92,7 @@ Selecteer **[!UICONTROL Schedule each wave]** om een specifieke begindatum en ti
 >
 >Het minimuminterval tussen het begin van twee golven is **30 minuten**.
 
-## Gebruiksscenario’s {#use-cases}
+## Gebruiksscenario&#39;s {#use-cases}
 
 Golf die hulp verzendt u controleert wanneer en hoeveel berichten uit gaan, die leveringscapaciteit kunnen verbeteren, afzenderreputatie beschermen, en richten verzendt met uw operationeel vermogen. Overweeg golven in deze scenario&#39;s te gebruiken:
 
@@ -115,7 +112,7 @@ Golf die hulp verzendt u controleert wanneer en hoeveel berichten uit gaan, die 
 
 +++ Wat gebeurt er als de som van de golfgrootten niet overeenkomt met uw totale publiek?
 
-* Als de som van uw golfgrootte **&#x200B;**&#x200B;het publiek overschrijdt (bijvoorbeeld, plant u 100.000 in de eerste golf voor een publiek van 100.000), zal de eerste golf naar het volledige publiek verzenden en de resterende golven zullen geen één verlaten hebben naar-zij niet uitvoeren.
+* Als de som van uw golfgrootte **** het publiek overschrijdt (bijvoorbeeld, plant u 100.000 in de eerste golf voor een publiek van 100.000), zal de eerste golf naar het volledige publiek verzenden en de resterende golven zullen geen één verlaten hebben naar-zij niet uitvoeren.
 * Als de som **minder** dan het publiek is (bijvoorbeeld, bepaalt u vier golven in totaal 40.000 profielen voor een publiek van 100.000), slechts de profielen inbegrepen in die golven zullen het bericht ontvangen. De rest van het publiek zal niet de mededeling ontvangen en zal niet in recentere golven opnieuw worden geprobeerd.
 
 +++
@@ -128,5 +125,5 @@ U kunt alleen de grootte en de timing van golven definiëren. De selectie van on
 
 ## Volgende stappen {#next}
 
-* [&#x200B; Plan de campagne van de Actie &#x200B;](campaign-schedule.md) - vastgestelde begindatum, einddatum, frequentie, en tariefcontrole.
-* [&#x200B; Overzicht en activeer de campagne &#x200B;](review-activate-campaign.md) - controleer de campagne en ga levend.
+* [ Plan de campagne van de Actie ](campaign-schedule.md) - vastgestelde begindatum, einddatum, frequentie, en tariefcontrole.
+* [ Overzicht en activeer de campagne ](review-activate-campaign.md) - controleer de campagne en ga levend.
