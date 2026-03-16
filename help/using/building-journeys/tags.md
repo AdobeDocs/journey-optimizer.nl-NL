@@ -34,13 +34,13 @@ Voordelen van tagcategorieën ten opzichte van naamgevingsconventies:
 * **Duidelijkheid** — de namen van de reis blijven kort en mijlpaal-geconcentreerd.
 * **Schaalbaarheid** — toevoegend een nieuwe meta-gegevensdimensie betekent het creëren van een nieuwe markeringscategorie, die een noemende overeenkomst niet herschrijft.
 
-Voor een geadviseerde opstellingswerkschema, zie [ de categorieën van de opstellingstag voor reisbeheer ](#tags-setup) hieronder.
+Voor een geadviseerde opstellingswerkschema, zie [&#x200B; de categorieën van de opstellingstag voor reisbeheer &#x200B;](#tags-setup) hieronder.
 
 ## Tags toevoegen aan een rit
 
-Het **gebied van Markeringen**, in de reiseigenschappen, staat u toe om markeringen voor uw reis te bepalen. U kunt een bestaande tag selecteren of een nieuwe tag maken. Typ de naam van de gewenste tag en selecteer deze in de lijst. Als het niet beschikbaar is, creeert de klik **** om nieuwe tot stand te brengen en het toe te voegen aan uw reis. U kunt zo veel tags definiëren als nodig is.
+Het **gebied van Markeringen**, in de reiseigenschappen, staat u toe om markeringen voor uw reis te bepalen. U kunt een bestaande tag selecteren of een nieuwe tag maken. Typ de naam van de gewenste tag en selecteer deze in de lijst. Als het niet beschikbaar is, creeert de klik **&#x200B;**&#x200B;om nieuwe tot stand te brengen en het toe te voegen aan uw reis. U kunt zo veel tags definiëren als nodig is.
 
-![ het paneel van Markeringen in reiseigenschappen voor categorisatie en organisatie ](assets/tags1.png)
+![&#x200B; het paneel van Markeringen in reiseigenschappen voor categorisatie en organisatie &#x200B;](assets/tags1.png)
 
 De lijst van bepaalde markeringen wordt getoond onder het **gebied van Markeringen**.
 
@@ -56,15 +56,15 @@ De lijst van de Reis toont een specifieke kolom zodat kunt u uw markeringen gema
 
 Een filter is ook beschikbaar om alleen reizen met bepaalde tags weer te geven.
 
-![ drop-down van de selectie van de markering met beschikbare markeringen voor reisclassificatie ](assets/tags2.png)
+![&#x200B; drop-down van de selectie van de markering met beschikbare markeringen voor reisclassificatie &#x200B;](assets/tags2.png)
 
 U kunt tags toevoegen aan of verwijderen uit elk type transport (live, concept, enz.). Klik het **Meer acties** pictogram naast de reis, en selecteer **uitgeven markeringen**.
 
-![ Reis die lijst door markeringen wordt gefiltreerd die gecategoriseerde reizen tonen ](assets/tags3.png)
+![&#x200B; Reis die lijst door markeringen wordt gefiltreerd die gecategoriseerde reizen tonen &#x200B;](assets/tags3.png)
 
 ## Tags beheren
 
-De beheerders kunnen markeringen schrappen en hen door categorieën organiseren gebruikend het **menu van Codes**, onder **BEHEER**. Verwijs naar deze [ documentatie ](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html).
+De beheerders kunnen markeringen schrappen en hen door categorieën organiseren gebruikend het **menu van Codes**, onder **BEHEER**. Verwijs naar deze [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html).
 
 >[!NOTE]
 >
@@ -92,4 +92,4 @@ Houd de reisnaam die op de klantenmijlpaal wordt geconcentreerd het drijft (b.v.
 
 >[!TIP]
 >
->Voor een bredere bespreking van deze benadering en zijn voordelen op schaal, zie [ Beste praktijken voor geavanceerde reizen in Journey Optimizer ](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Voor een bredere bespreking van deze benadering en zijn voordelen op schaal, zie [&#x200B; Beste praktijken voor geavanceerde reizen in Journey Optimizer &#x200B;](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
