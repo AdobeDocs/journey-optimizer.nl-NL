@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: extern, bronnen, gegevens, configuratie, verbinding, derde
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 3d6b12903d4c43fec2fd4e0046a5d1f90ecd6d64
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 37%
+source-wordcount: '1718'
+ht-degree: 36%
 
 ---
 
@@ -29,9 +29,9 @@ Met externe gegevensbronnen kunt u een verbinding met systemen van derden defini
 
 >[!NOTE]
 >
->* De begeleiding wanneer het werken met externe systemen is vermeld op [&#x200B; deze pagina &#x200B;](../configuration/external-systems.md).
+>* De begeleiding wanneer het werken met externe systemen is vermeld op [ deze pagina ](../configuration/external-systems.md).
 >
->* Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie [&#x200B; reacties van de douaneactie &#x200B;](../action/action-response.md)
+>* Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie [ reacties van de douaneactie ](../action/action-response.md). Aangepaste acties zonder persistentie in Data Lake zijn de juiste keuze wanneer de gegevens alleen nuttig zijn binnen de reis en het externe systeem toegankelijk is via een API-eindpunt. Voor een vergelijking van alle opties van de gegevenstoegang, zie [ uw strategie van de gegevenstoegang kiezen ](../datasource/about-data-sources.md#data-access-strategy).
 
 REST-API’s die gebruikmaken van POST of GET en JSON retourneren, worden ondersteund. API-sleutel, standaard en aangepaste verificatiemodi worden ondersteund.
 
@@ -46,7 +46,7 @@ De aanroep bestaat uit een hoofd-URL (_https://api.adobeweather.org/weather_), t
 
 >[!TIP]
 >
->We raden u aan om minstens een buffer van één minuut te laten staan tussen de periode van de symbolische vervaldatum van de externe API en de Journey Optimizer-instelling [`cacheDuration` &#x200B;](#custom-authentication-access-token) , met name bij zware werklasten, om te voorkomen dat de vervaldatumproblemen en 401 fouten niet worden opgelost.
+>We raden u aan om minstens een buffer van één minuut te laten staan tussen de periode van de symbolische vervaldatum van de externe API en de Journey Optimizer-instelling [`cacheDuration` ](#custom-authentication-access-token) , met name bij zware werklasten, om te voorkomen dat de vervaldatumproblemen en 401 fouten niet worden opgelost.
 
 ## Een externe gegevensbron maken en configureren {#create-ext-data-sources}
 
@@ -54,11 +54,11 @@ Hieronder vindt u de belangrijkste stappen voor het maken en configureren van ee
 
 1. Klik in de lijst met gegevensbronnen op **[!UICONTROL Create Data Source]** om een nieuwe externe gegevensbron te maken.
 
-   ![&#x200B; de bronnen van Gegevens het scherm van de lijst met Create de knoop van Source van Gegevens benadrukte &#x200B;](assets/journey25.png)
+   ![ de bronnen van Gegevens het scherm van de lijst met Create de knoop van Source van Gegevens benadrukte ](assets/journey25.png)
 
    Hiermee opent u het configuratiedeelvenster voor de databron aan de rechterkant van het scherm.
 
-   ![&#x200B; de configuratieruit van de gegevensbron open op de rechterkant van het scherm &#x200B;](assets/journey26.png)
+   ![ de configuratieruit van de gegevensbron open op de rechterkant van het scherm ](assets/journey26.png)
 
 1. Voer een naam in voor de databron.
 
@@ -71,7 +71,7 @@ Alleen alfanumerieke tekens en onderstrepingstekens zijn toegestaan. De maximuml
    >
    >We raden u uit beveiligingsoverwegingen sterk aan om HTTPS te gebruiken. Merk ook op dat wij niet het gebruik van de adressen van Adobe toestaan die niet openbaar beschikbaar en het gebruik van IP adressen zijn.
 
-   ![&#x200B; Extern gegeven bronURL gebied met voorbeeld weer API eindpunt ingegaan &#x200B;](assets/journey27.png)
+   ![ Extern gegeven bronURL gebied met voorbeeld weer API eindpunt ingegaan ](assets/journey27.png)
 
 1. Configureer de verificatie afhankelijk van de externe serviceconfiguratie: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]** , **[!UICONTROL Custom]** of **[!UICONTROL API key]** .
 
@@ -84,14 +84,14 @@ Alleen alfanumerieke tekens en onderstrepingstekens zijn toegestaan. De maximuml
    >* [!DNL Adobe Journey Optimizer] versleutelt automatisch geheimen die zijn gedefinieerd in aangepaste handelingen. De encryptiesleutels van elke organisatie worden veilig beheerd in een specifieke vault die aan hun organisatie wordt gebonden. Wanneer de geloofsbrieven in de interface worden getoond, worden zij gemaskeerd door gebrek om toevallige blootstelling te verhinderen.
 
 
-   Voor meer informatie over de wijze van de douaneauthentificatie, zie [&#x200B; de sectie van de de wijze van de douaneauthentificatie &#x200B;](../datasource/external-data-sources.md#custom-authentication-mode). In ons voorbeeld kiezen we de API-sleutelverificatiemodus, zoals hieronder:
+   Voor meer informatie over de wijze van de douaneauthentificatie, zie [ de sectie van de de wijze van de douaneauthentificatie ](../datasource/external-data-sources.md#custom-authentication-mode). In ons voorbeeld kiezen we de API-sleutelverificatiemodus, zoals hieronder:
 
    * **[!UICONTROL Type]**: ‘API-sleutel’
    * **[!UICONTROL Name]**: ‘appid’ (dit is de parameternaam van de API-sleutel)
    * **[!UICONTROL Value]**: ‘1234’ (dit is de waarde van onze API-sleutel)
    * **[!UICONTROL Location]**: ‘Query-parameter’ (de API-sleutel bevindt zich in de URL)
 
-     ![&#x200B; API zeer belangrijke authentificatievelden die Type, Naam, Waarde, en de input van de Plaats tonen &#x200B;](assets/journey28.png)
+     ![ API zeer belangrijke authentificatievelden die Type, Naam, Waarde, en de input van de Plaats tonen ](assets/journey28.png)
 
 1. Voeg een nieuwe veldengroep toe voor elke API-parameterreeks door te klikken op **[!UICONTROL Add a New Field Group]**. Alleen alfanumerieke tekens en onderstrepingstekens zijn toegestaan in de naam van de veldgroep. De maximumlengte is 30 tekens. In ons voorbeeld moeten we twee veldengroepen maken, één voor elke parameterreeks (city en long/lat).
 
@@ -99,7 +99,7 @@ Voor de parameterreeks ‘long/lat’ maken we een veldengroep met de volgende i
 
 * **[!UICONTROL Used in]**: geeft het aantal journey’s weer dat een veldengroep gebruikt. U kunt klikken op het pictogram **[!UICONTROL View journeys]** om de lijst weer te geven met journey’s die deze veldengroep gebruiken.
 * **[!UICONTROL Method]**: selecteer de methode POST of GET. In ons geval selecteren we de methode GET.
-* **[!UICONTROL Dynamic Values]** : voer in ons voorbeeld de verschillende parameters in, gescheiden door een komma, &quot;long,lat&quot;. Aangezien de parameterwaarden afhankelijk zijn van de uitvoeringscontext, worden ze tijdens de journey’s gedefinieerd. [&#x200B; leer meer over uitdrukkingen &#x200B;](../building-journeys/expression/expressionadvanced.md)
+* **[!UICONTROL Dynamic Values]** : voer in ons voorbeeld de verschillende parameters in, gescheiden door een komma, &quot;long,lat&quot;. Aangezien de parameterwaarden afhankelijk zijn van de uitvoeringscontext, worden ze tijdens de journey’s gedefinieerd. [ leer meer over uitdrukkingen ](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL Response Payload]**: klik in het veld **[!UICONTROL Payload]** en plak een voorbeeld van de payload die door de aanroep is geretourneerd. Voor ons voorbeeld hebben we een payload gebruikt van een API-weerwebsite. Controleer of de veldtypen correct zijn. Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payloadvoorbeeld zijn opgenomen. U kunt klikken op **[!UICONTROL Paste a new payload]** als u de huidige payload wilt wijzigen.
 * **[!UICONTROL Sent Payload]**: dit veld staat niet in ons voorbeeld. Deze optie is alleen beschikbaar als u de methode POST selecteert. Plak de payload die naar het externe systeem wordt verzonden.
 
@@ -112,7 +112,7 @@ Bij een GET-aanroep die parameter(s) vereist, voert u de parameter(s) in het vel
 {"id":{"param":"identifier"}}
 ```
 
-![&#x200B; het deelvenster van de groepsconfiguratie van het Gebied met Dynamische Waarden en de gebieden van de Lading van de Reactie &#x200B;](assets/journey29.png)
+![ het deelvenster van de groepsconfiguratie van het Gebied met Dynamische Waarden en de gebieden van de Lading van de Reactie ](assets/journey29.png)
 
 
 Zodra uw veranderingen worden bewaard, wordt de gegevensbron gevormd en klaar om in uw reizen, bijvoorbeeld in uw voorwaarden te worden gebruikt of een e-mail te personaliseren. Als de temperatuur boven 30 °C ligt, kunt u besluiten een bepaalde mededeling te sturen.
@@ -128,11 +128,11 @@ De wijze van de douaneauthentificatie wordt gebruikt voor complexe authentificat
 
 Wanneer u de douaneauthentificatie vormt, gebruik de **[!UICONTROL Click to check the authentication]** knoop om te controleren als de lading van de douaneauthentificatie correct wordt gevormd.
 
-![&#x200B; knoop van de de authentificatietest van de Douane in de gegevensbronconfiguratie &#x200B;](assets/journey29-bis.png)
+![ knoop van de de authentificatietest van de Douane in de gegevensbronconfiguratie ](assets/journey29-bis.png)
 
 Wanneer de test succesvol is, wordt de knoop groen.
 
-![&#x200B; de testknoop van de Authentificatie die groen op succesvolle bevestiging wijst &#x200B;](assets/journey29-ter.png)
+![ de testknoop van de Authentificatie die groen op succesvolle bevestiging wijst ](assets/journey29-ter.png)
 
 In deze verificatiemodus bestaat de uitvoering van de handeling uit twee stappen:
 
