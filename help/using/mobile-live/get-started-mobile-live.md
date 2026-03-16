@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: f3c398a7164d7c83a39c4ec7c9460589309c8cae
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -54,3 +54,9 @@ Voer de onderstaande stappen uit om Live-activiteit in uw toepassing te configur
 1. **[Spoor uw campagnes](../reports/campaign-global-report-cja-activity.md)**
 
    Begin de impact van uw Live-activiteit te meten met ingebouwde rapporten.
+
+## Hoe kan ik-video
+
+Ontdek hoe u iOS Live-activiteiten kunt configureren met Adobe Journey Optimizer om geavanceerde realtime updates te leveren op het iPhone Lock Screen en Dynamic Island.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
