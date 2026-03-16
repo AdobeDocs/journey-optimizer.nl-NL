@@ -94,7 +94,7 @@ Bouw elke fase als een aparte reis in Journey Optimizer en gebruik vervolgens **
 
 >[!TIP]
 >
->Voor een gedetailleerde analyse van deze benadering, zie [&#x200B; Beste praktijken voor geavanceerde reizen in Journey Optimizer &#x200B;](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Voor een gedetailleerde analyse van deze benadering, zie [&#x200B; Beste praktijken voor geavanceerde reizen in Journey Optimizer &#x200B;](https://experienceleague.adobe.com/nl/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 ## De sprongactiviteit configureren {#jump-configure}
 

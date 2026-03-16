@@ -64,7 +64,7 @@ U kunt tags toevoegen aan of verwijderen uit elk type transport (live, concept, 
 
 ## Tags beheren
 
-De beheerders kunnen markeringen schrappen en hen door categorieën organiseren gebruikend het **menu van Codes**, onder **BEHEER**. Verwijs naar deze [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html).
+De beheerders kunnen markeringen schrappen en hen door categorieën organiseren gebruikend het **menu van Codes**, onder **BEHEER**. Verwijs naar deze [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=nl-NL).
 
 >[!NOTE]
 >
@@ -92,4 +92,4 @@ Houd de reisnaam die op de klantenmijlpaal wordt geconcentreerd het drijft (b.v.
 
 >[!TIP]
 >
->Voor een bredere bespreking van deze benadering en zijn voordelen op schaal, zie [&#x200B; Beste praktijken voor geavanceerde reizen in Journey Optimizer &#x200B;](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Voor een bredere bespreking van deze benadering en zijn voordelen op schaal, zie [&#x200B; Beste praktijken voor geavanceerde reizen in Journey Optimizer &#x200B;](https://experienceleague.adobe.com/nl/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
