@@ -292,4 +292,4 @@ U kunt een gedeactiveerde kanaalconfiguratie niet rechtstreeks bewerken. U kunt 
 
 Leer welke kanaalconfiguraties zijn en hoe deze in Adobe Journey Optimizer worden gebruikt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480457/?captions=dut&learn=on)
