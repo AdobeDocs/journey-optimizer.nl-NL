@@ -20,7 +20,7 @@ Adobe Journey Optimizer geeft u de kracht om slimmere en snellere beslissingen t
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 Gebruik contextgegevens in besluitvorming
 
@@ -30,7 +30,7 @@ Leer hoe u contextgegevens van Adobe Experience Platform kunt integreren in Adob
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Adobe Experience Platform-gegevens gebruiken voor besluitvorming
 

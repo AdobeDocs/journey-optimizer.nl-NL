@@ -20,7 +20,7 @@ In deze technische notities worden de statistische methoden beschreven die bij d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
 
 In Adobe Journey Optimizer-experimenten gebruikte statistische berekeningen
 
@@ -30,7 +30,7 @@ Leer over geavanceerde statistische methodologieën zoals de Reeksen van het Ver
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 Statistische berekeningen in experimentele rapporten begrijpen
 
