@@ -10,18 +10,14 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: golven, batches, planning, reis, leestoor, leverbaar
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: d0bc5eff31a076b78660088d48a81d74b2391466
+source-git-commit: 62982a0bef06ffc84c254577ca1bb676a180e541
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
 
 # Verzenden met gebruik van golven tijdens reizen {#send-using-waves-journeys}
-
->[!AVAILABILITY]
->
->Deze functie bevindt zich in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 U kunt uitgaande berichten van een reis in partijen (golven) in tijd in plaats van allen in één keer leveren. Golf die hulplading verzendt, vermijdt overweldigende stroomafwaartse systemen (zoals callcenters of landende pagina&#39;s), en steunt leverbaarheid en afzenderreputatie-vooral voor high-volume gelezen publiekstrajecten.
 
@@ -34,7 +30,7 @@ U vormt het op het reisniveau wanneer u bepaalt hoe het publiek ingaat en hoe de
 
 ## Beperkingen en geleiders {#limitations-guardrails}
 
-* Golfverzending is alleen beschikbaar voor leestuisreizen met de plannertypen **[!DNL As soon as possible]** en **[!UICONTROL Once]** . Leer meer op het [&#x200B; reisprogramma &#x200B;](read-audience.md#schedule).
+* Golfverzending is alleen beschikbaar voor leestuisreizen met de plannertypen **[!DNL As soon as possible]** en **[!UICONTROL Once]** . Leer meer op het [ reisprogramma ](read-audience.md#schedule).
 * De verzending van de golven is niet beschikbaar voor terugkomende, gebeurtenis-teweeggebrachte, zaken-gebeurtenis, testwijze of droge reizen.
 * U moet minstens **2 golven** bepalen en u kunt tot **10 golven** toevoegen.
 * Het minimuminterval tussen het begin van twee golven is **30 minuten**.
@@ -45,7 +41,7 @@ U vormt het op het reisniveau wanneer u bepaalt hoe het publiek ingaat en hoe de
 
 ## Vorm golf die in een reis verzendt {#configure-wave-sending}
 
-1. Begin uw reis met a [&#x200B; Gelezen de activiteit van het publiek &#x200B;](read-audience.md).
+1. Begin uw reis met a [ Gelezen de activiteit van het publiek ](read-audience.md).
 
 1. Dubbelklik op de **[!UICONTROL Read Audience]** -activiteit om de eigenschappen ervan te openen en selecteer de optie **[!UICONTROL Deliver journey action in waves]** .
 
@@ -117,7 +113,7 @@ Golf die hulp verzendt u controleert wanneer en hoeveel berichten uit gaan, die 
 
 +++ Wat gebeurt er als de som van de golfgrootten niet overeenkomt met uw totale publiek?
 
-* Als de som van uw golfgrootte **&#x200B;**&#x200B;het publiek overschrijdt (bijvoorbeeld, plant u 100.000 in de eerste golf voor een publiek van 100.000), zal de eerste golf naar het volledige publiek verzenden en de resterende golven zullen geen één verlaten hebben naar-zij niet uitvoeren.
+* Als de som van uw golfgrootte **** het publiek overschrijdt (bijvoorbeeld, plant u 100.000 in de eerste golf voor een publiek van 100.000), zal de eerste golf naar het volledige publiek verzenden en de resterende golven zullen geen één verlaten hebben naar-zij niet uitvoeren.
 * Als de som **minder** dan het publiek is (bijvoorbeeld, bepaalt u vier golven in totaal 40.000 profielen voor een publiek van 100.000), slechts de profielen inbegrepen in die golven zullen het bericht ontvangen. De rest van het publiek zal niet de mededeling ontvangen en zal niet in recentere golven opnieuw worden geprobeerd.
 
 +++
@@ -130,4 +126,4 @@ U kunt alleen de grootte en de timing van golven definiëren. Dezelfde doelgroep
 
 ## Zie ook {#see-also}
 
-* [&#x200B; gebruik een publiek in een reis &#x200B;](read-audience.md) - vorm de Gelezen activiteit van het Publiek.
+* [ gebruik een publiek in een reis ](read-audience.md) - vorm de Gelezen activiteit van het Publiek.
