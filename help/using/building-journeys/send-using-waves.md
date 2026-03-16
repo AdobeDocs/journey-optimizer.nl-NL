@@ -34,7 +34,7 @@ U vormt het op het reisniveau wanneer u bepaalt hoe het publiek ingaat en hoe de
 
 ## Beperkingen en geleiders {#limitations-guardrails}
 
-* Golfverzending is alleen beschikbaar voor leestuisreizen met de plannertypen **[!DNL As soon as possible]** en **[!UICONTROL Once]** . Leer meer op het [ reisprogramma ](read-audience.md#schedule).
+* Golfverzending is alleen beschikbaar voor leestuisreizen met de plannertypen **[!DNL As soon as possible]** en **[!UICONTROL Once]** . Leer meer op het [&#x200B; reisprogramma &#x200B;](read-audience.md#schedule).
 * De verzending van de golven is niet beschikbaar voor terugkomende, gebeurtenis-teweeggebrachte, zaken-gebeurtenis, testwijze of droge reizen.
 * U moet minstens **2 golven** bepalen en u kunt tot **10 golven** toevoegen.
 * Het minimuminterval tussen het begin van twee golven is **30 minuten**.
@@ -45,7 +45,7 @@ U vormt het op het reisniveau wanneer u bepaalt hoe het publiek ingaat en hoe de
 
 ## Vorm golf die in een reis verzendt {#configure-wave-sending}
 
-1. Begin uw reis met a [ Gelezen de activiteit van het publiek ](read-audience.md).
+1. Begin uw reis met a [&#x200B; Gelezen de activiteit van het publiek &#x200B;](read-audience.md).
 
 1. Dubbelklik op de **[!UICONTROL Read Audience]** -activiteit om de eigenschappen ervan te openen en selecteer de optie **[!UICONTROL Deliver journey action in waves]** .
 
@@ -117,7 +117,7 @@ Golf die hulp verzendt u controleert wanneer en hoeveel berichten uit gaan, die 
 
 +++ Wat gebeurt er als de som van de golfgrootten niet overeenkomt met uw totale publiek?
 
-* Als de som van uw golfgrootte **** het publiek overschrijdt (bijvoorbeeld, plant u 100.000 in de eerste golf voor een publiek van 100.000), zal de eerste golf naar het volledige publiek verzenden en de resterende golven zullen geen één verlaten hebben naar-zij niet uitvoeren.
+* Als de som van uw golfgrootte **&#x200B;**&#x200B;het publiek overschrijdt (bijvoorbeeld, plant u 100.000 in de eerste golf voor een publiek van 100.000), zal de eerste golf naar het volledige publiek verzenden en de resterende golven zullen geen één verlaten hebben naar-zij niet uitvoeren.
 * Als de som **minder** dan het publiek is (bijvoorbeeld, bepaalt u vier golven in totaal 40.000 profielen voor een publiek van 100.000), slechts de profielen inbegrepen in die golven zullen het bericht ontvangen. De rest van het publiek zal niet de mededeling ontvangen en zal niet in recentere golven opnieuw worden geprobeerd.
 
 +++
@@ -130,4 +130,4 @@ U kunt alleen de grootte en de timing van golven definiëren. Dezelfde doelgroep
 
 ## Zie ook {#see-also}
 
-* [ gebruik een publiek in een reis ](read-audience.md) - vorm de Gelezen activiteit van het Publiek.
+* [&#x200B; gebruik een publiek in een reis &#x200B;](read-audience.md) - vorm de Gelezen activiteit van het Publiek.
