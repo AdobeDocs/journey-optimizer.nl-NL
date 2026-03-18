@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 6859847ad700a471dd43b2cb9b0c486e31d91c78
+source-git-commit: cfe6fa417c81e7488a3f2f1313b08f346f1aeb03
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '2579'
 ht-degree: 0%
 
 ---
@@ -29,227 +29,436 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-Als de trefwoorden opt-in of opt-out niet worden opgegeven, worden standaardtoestemmingsberichten gebruikt om de privacy van de gebruiker te respecteren. Als u aangepaste trefwoorden toevoegt, worden de standaardwaarden automatisch genegeerd.
+Wanneer er nieuwe API-referenties worden gemaakt in Journey Optimizer, kunt u met SMS-websites zowel binnenkomende trefwoorden als feedbackgebeurtenissen zoals leveringen en fouten vastleggen. Omdat elke provider verschillende mogelijkheden heeft, zijn er aparte instructies om webhaken in te schakelen.
+Met websites die nu aangepaste providers ondersteunen, is het nu mogelijk feedback en inkomende trefwoordverzameling te verzamelen bij elke provider die in Journey Optimizer moet worden gerapporteerd en waarop moet worden gereageerd.
 
-**Standaardsleutelwoorden:**
+* **Nieuwe klanten:** de instructies kunnen hier worden gevolgd om de websites van SMS correct te vormen.
 
-* **Opt-binnen**: ABONNEMENT, JA, ONSTOP, BEGIN, DOORGAAN, HERVATTEN, BEGINNEN
-* **Opt-out**: STOP, SLUIT, ANNULEREN, EINDE, ONABONNEMENT, GEEN
-* **Hulp**: HELP
+* **Bestaande klanten:** u kunt van informatie migreren die in API Geloofsbrieven aan Webhooks wordt opgeslagen en er is geen chronologie voor klanten om te migreren. Voor bestaande klanten die wel naar SMS Webhooks willen migreren, moeten de migratiestappen worden uitgevoerd zoals gedocumenteerd in de migratiehandleiding.
 
 >[!ENDSHADEBOX]
 
-Zodra uw API geloofsbrieven met succes zijn gecreeerd, kunt u Webhooks nu vormen om binnenkomende reacties voor het beheren van opt-in en opt-out toestemming te vangen, en leveringsrapporten zoals lees ontvangstbewijzen te ontvangen waar beschikbaar.
+## Overzicht {#overview}
+
+Nadat de API-referenties zijn gemaakt, kunt u nu webhooks configureren om binnenkomende reacties vast te leggen voor het beheer van de toestemming om zich aan te melden en te weigeren, en leveringsrapporten ontvangen, inclusief leesontvangstbewijzen, indien beschikbaar.
 
 Wanneer u een webhaak instelt, kunt u het doel ervan definiëren op basis van het type gegevens dat u wilt vastleggen:
 
-* **[!UICONTROL Inbound]**: gebruik deze optie als u toestemmingsreacties, zoals opt-ins of opt-outs, wilt vangen en gebruikersvoorkeur verzamelt.
+* **Binnenkomend**: Gebruik deze optie als u toestemmingsreacties, zoals opt-ins of opt-outs wilt vangen, en gebruikersvoorkeur verzamelen.
 
-* **[!UICONTROL Feedback]**: Kies deze optie om bezorgings- en betrokkenheidsgebeurtenissen, inclusief leesontvangstbewijzen en gebruikersinteracties, bij te houden ter ondersteuning van rapportage en analyse.
+* **Terugkoppeling**: Kies deze optie om levering en betrokkenheidsgebeurtenissen, met inbegrip van leveringen, uitgaande fouten, read ontvangstbewijzen (indien van toepassing) te volgen om rapportering en analyse te steunen.
 
-Blader door de onderstaande tabbladen, afhankelijk van uw SMS-providers:
+Afhankelijk van uw leverancier, zullen er verschillende verwachtingen zijn over wat moet opstelling om een succesvolle implementatie van SMS te hebben:
 
->[!BEGINTABS]
+* **Sinch en Sinch Conversational**: Creeer één webhaak die zowel binnenkomende als terugkoppelen gebeurtenissen behandelt. Er is geen payload-configuratie vereist.
 
->[!TAB  Douane ]
+* **Infobip**: Creeer twee afzonderlijke webhooks, voor binnenkomende gebeurtenissen en voor terugkoppel gebeurtenissen. Voor geen van beide websites is een payload-configuratie vereist.
 
-1. Navigeer in de linkertrack naar **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]** , selecteer het menu **[!UICONTROL SMS Webhooks]** onder **[!UICONTROL SMS settings]** en klik op de knop **[!UICONTROL Create Webhook]** .
+* **Twilio**: Webhooks zijn niet beschikbaar. De binnenkomende en terugkoppelen gegevensinzameling wordt niet gesteund.
 
-   ![](assets/sms_byo_5.png){zoomable="yes"}
+* **Leverancier van de Douane**: Creeer twee afzonderlijke websites, voor binnenkomende gebeurtenissen en voor terugkoppelt gebeurtenissen. De configuratie van de lading wordt vereist voor beide websites behoorlijk te functioneren.
 
-1. Configureer uw WebHaak-instellingen, zoals hieronder wordt beschreven:
+### Ondersteuning van leveranciers {#provider-support}
 
-   * **[!UICONTROL Name]**: ga een naam voor uw Webhaak in.
+>[!NOTE]
+>
+>JSON is de enige ondersteunde webhaakindeling. Formuliergegevens voor websites worden niet ondersteund.
 
-   * **[!UICONTROL Select SMS vendor]**: Aangepast.
+In de volgende tabel wordt aangegeven welke providers binnenkomende webhooks ondersteunen en feedback geven, en of er een payload moet worden gemaakt:
 
-   * **[!UICONTROL Type]**: Binnenkomend.
+| Provider | Binnenkomende WebHaak | Feedback Webhaak | Trefwoorden | Payload-ontwerp vereist | Webhaak vereist | Payload maken |
+| --- | --- | --- | --- | --- | --- | --- |
+| Infobip | Configureerbaar | Configureerbaar | Configureerbaar | Niet vereist | Vereist | Niet vereist |
+| Sinch | Configureerbaar | Configureerbaar | Configureerbaar | Niet vereist | Nee. Geïntegreerd | N.v.t. |
+| Sinch-gesprek | Configureerbaar | Configureerbaar | Configureerbaar | Niet vereist | Nee. Geïntegreerd | N.v.t. |
+| Twilio | Niet beschikbaar | Niet beschikbaar | Niet beschikbaar | Niet beschikbaar | Niet beschikbaar | N.v.t. |
+| Aangepast | Configureerbaar | Configureerbaar | Configureerbaar | Vereist | Vereist | Vereist |
 
-   * **[!UICONTROL API credentials]**: Kies van drop-down u [&#x200B; eerder gevormde API geloofsbrieven &#x200B;](sms-configuration-custom.md#api-credential).
+Voor klanten die van API geloofsbrieven aan de websites van SMS bewegen, wordt de informatie over de migratieweg gevonden in de migratiegids.
 
-   * **[!UICONTROL Sender Phone Number &#x200B;]**: ga het de telefoonaantal van de Afzender in &#x200B; u voor uw mededelingen wilt gebruiken.
+## Webhaak maken
 
-     ![](assets/webhook-inbound.png){zoomable="yes"}
+### Voor Sinch- en Sinch-gesprekken {#create-webhook-sinch}
 
-1. Klik op ![](assets/do-not-localize/Smock_Add_18_N.svg) om trefwoordencategorieën toe te voegen en configureer deze afhankelijk van uw SMS-provider:
-
-   * **[!UICONTROL Inbound Keyword Category]**: Kies de trefwoordcategorieën **[!UICONTROL Opt-In]** , **[!UICONTROL Opt-Out]** , **[!UICONTROL Double Opt-In]** , **[!UICONTROL Help]** of **[!UICONTROL Custom]** .
-
-   * **[!UICONTROL Enter a keyword]**: voer de standaardtrefwoorden of aangepaste trefwoorden in die het bericht automatisch activeren. Klik op ![](assets/do-not-localize/Smock_Add_18_N.svg) om meerdere trefwoorden toe te voegen.
-
-     Gebruik voor **[!UICONTROL Custom keyword]** trefwoorden die geen betrekking hebben op toestemming, voor handelingen op basis van batchverwerking tijdens een rit.
-
-   * **[!UICONTROL Reply Message]**: selecteer in het keuzemenu de aangepaste reactie die automatisch wordt verzonden.
-
-   * **[!UICONTROL Fuzzy Opt-out]**: Schakel deze optie in om een automatisch antwoord te verzenden wanneer een bijna-overeenkomend uitschakeltrefwoord wordt gevonden.
-
-   ![](assets/sms_byo_6.png){zoomable="yes"}
-
-1. Voer automatisch een **[!UICONTROL Default Reply Message]** in die wordt verzonden wanneer een binnenkomend bericht niet overeenkomt met een geconfigureerd trefwoord of een geconfigureerde categorie.
-
-1. Klik op **[!UICONTROL View payload editor]** om uw aanvraag te valideren en aan te passen.
-
-   U kunt uw lading dynamisch personaliseren gebruikend profielattributen, en ervoor zorgen wordt de nauwkeurige gegevens verzonden voor verwerking en reactiegeneratie met de hulp van ingebouwde hulpfuncties.
-
-1. Klik **[!UICONTROL Submit]** wanneer u de configuratie van uw Webhaak voltooide.
-
-1. Als u een **[!UICONTROL Feedback]** webhaak wilt maken, voert u dezelfde stappen uit als hierboven, en selecteert u **[!UICONTROL Feedback]** als uw webhaak **[!UICONTROL Type]** .
-
-1. Vanuit het menu **[!UICONTROL Webhooks]** kunt u bestaande websites bewerken of verwijderen, of de **[!UICONTROL Webhook URL]** openen en kopiëren voor integratie met uw SMS-provider.
-
-   ![](assets/sms_byo_7.png){zoomable="yes"}
-
-Na het creëren van en het vormen van de montages voor Webhaak, moet u nu a [&#x200B; kanaalconfiguratie &#x200B;](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
-
-Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zoals bericht creatie, verpersoonlijking, verbinding het volgen, en rapportering.
-
->[!TAB  Infobip ]
+Voor Sinch en Sinch Conversational, creeer één enkele webhaak die zowel binnenkomende als feedbackgebeurtenissen behandelt. Er is geen aangepaste payload-configuratie vereist.
 
 1. Navigeer in de linkertrack naar **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]** , selecteer het menu **[!UICONTROL SMS Webhooks]** onder **[!UICONTROL SMS settings]** en klik op de knop **[!UICONTROL Create Webhook]** .
 
-   ![](assets/sms_byo_5.png){zoomable="yes"}
+   ![](assets/webhook-1.png)
 
 1. Configureer uw WebHaak-instellingen, zoals hieronder wordt beschreven:
 
-   * **[!UICONTROL Name]**: ga een naam voor uw Webhaak in.
+   * **[!UICONTROL Name]**: voer een naam in voor uw webhaak.
+
+   * **[!UICONTROL Select SMS vendor]**: Sinch- of Sinch-gesprek.
+
+   * **[!UICONTROL API credentials]**: Kies van drop-down u [ eerder gevormde API geloofsbrieven ](sms-configuration-sinch.md).
+
+   * **[!UICONTROL Sender Phone Number]**: ga het aantal van de afzendertelefoon in u voor uw mededelingen wilt gebruiken.
+
+   ![](assets/webhook-2.png)
+
+1. Start het instellen van de binnenkomende trefwoorden door trefwoorden in te voeren in het veld **[!UICONTROL Enter a Keyword]** . U kunt meerdere trefwoorden toevoegen en verwijderen. Trefwoorden zijn niet hoofdlettergevoelig.
+
+   ![](assets/webhook-3.png)
+
+1. Selecteer een trefwoordcategorie in de vervolgkeuzelijst **[!UICONTROL Inbound Keyword Category]** die u wilt configureren:
+
+   * 
+     +++ Inschakelen
+
+      * Trefwoorden inschakelen die gebruikers met hun toestemming aanmelden. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, wordt hun telefoonaantal verkozen binnen om de berichten van SMS te ontvangen.
+
+      * Standaard zijn de volgende trefwoorden ingeschakeld: Abonneren, Ja, Stoppen, Doorgaan, Hervatten en Beginnen. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
+
+      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een Opt-In-trefwoord.
+
+   +++
+
+   * 
+     +++ Uitschakelen
+
+      * Schakel trefwoorden in die gebruikers weigeren en verwijder toestemming om tekstberichten te verzenden. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, wordt hun telefoonaantal uit het ontvangen van de berichten van SMS verkozen.
+
+      * Standaard zijn de volgende trefwoorden ingeschakeld: Stoppen, Afsluiten, Annuleren, Einde, Afmelden, Nee. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
+
+      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een uitschakeltrefwoord.
+
+      * Schakel **[!UICONTROL Fuzzy Logic]** in om vergelijkbare trefwoorden te detecteren als geconfigureerde uitschakeltrefwoorden. Als de reactie van een gebruiker dicht maar niet nauwkeurig is, wordt het bericht ingegaan in het **[!UICONTROL Fuzzy Auto Response]** gebied verzonden. Doorgaans geeft dit bericht aan dat de optie niet is ingeschakeld en geeft het exacte trefwoord op dat nodig is om het abonnement op te zeggen.
+
+   +++
+
+   * 
+     +++ Dubbele plug-in
+
+      * Trefwoorden inschakelen voor de vereiste dubbele aanmelding. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, zijn zij niet volledig open-binnen in dit stadium. Deze tweestapstoestemmingswerkstroom vereist gebruikers om hun opt-in met een tweede sleutelwoord te bevestigen.
+
+      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer een trefwoord voor dubbele aanmelding overeenkomt. Dit bericht instrueert de gebruiker om een Opt-In sleutelwoord in te gaan om het opt-in proces te voltooien.
+
+   +++
+
+   * 
+     +++ Help
+
+      * Laat sleutelwoorden toe die een standaardreactie verstrekken wanneer de hulp wordt gevraagd. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, ontvangen zij het het antwoordbericht van de Hulp.
+
+      * Standaard zijn de volgende trefwoorden ingeschakeld: Help, Info, Informatie. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
+
+      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een Help-trefwoord.
+
+   +++
+
+   * 
+     +++ Aangepast
+
+      * Configureer één aangepast trefwoord. Wanneer het bericht van een gebruiker dit sleutelwoord aanpast, wordt het sleutelwoord geschreven aan de **[!UICONTROL Message Feedback tracking]** dataset voor het melden van en publiek het opbouwen.
+
+      * Bouw een Publiek (het stromen of de partij) die verwijzingen dit sleutelwoord voor gebruik in uw reizen en campagnes.
+
+   +++
+
+1. Voer een **[!UICONTROL Default Reply Message]** in. Dit bericht wordt automatisch verzonden wanneer de reactie van een gebruiker geen gevormd sleutelwoord aanpast.
+
+   ![](assets/webhook-4.png)
+
+1. Klik op **[!UICONTROL Submit]** om de configuratie van uw webhaak op te slaan.
+
+1. Vanuit het menu **[!UICONTROL Webhooks]** kunt u bestaande webhaken bewerken of verwijderen.
+
+1. Open de nieuwe webhaak en kopieer de **[!UICONTROL Webhook URL]** .
+
+   ![](assets/webhook-5.png)
+
+1. Gebruik uw **[!UICONTROL Webhook URL]** om de **Terugkoppeling** en **Binnenkomende** gebeurtenissen toe te laten om in Journey Optimizer te komen.
+
+   * Voor het kanaal van SMS, [ leren meer in de documentatie van de Sondt ](https://community.sinch.com/t5/SMS/How-do-I-assign-a-callback-URL-to-an-SMS-service/ta-p/8414)
+
+   * Voor het kanaal MMS, [ leer meer in de documentatie van het Sondje ](https://developers.sinch.com/docs/conversation/getting-started#5-handle-incoming-messages)
+
+   * Voor klanten die SMS rechtstreeks via Journey Optimizer hebben aangeschaft, kunt u een ondersteuningsticket indienen bij de ondersteuning van Adobe. Het Adobe-accountteam configureert de URL van de webhaak voor u.
+     ![](assets/webhook-4.png)
+
+Als uw webhaak API-referenties gebruikt die aan een bestaande kanaalconfiguratie zijn gekoppeld, wordt de webhaak onmiddellijk van kracht. Anders maakt u een nieuwe kanaalconfiguratie.
+
+➡️[ leer meer op kanaalconfiguratie ](sms-configuration-surface.md)
+
+### Voor Infobip {#create-webhook-infobip}
+
+Voor Infobip, creeer twee afzonderlijke websites: voor de gebeurtenissen van de Terugkoppeling en voor Inkomende gebeurtenissen.
+
+1. Navigeer in de linkertrack naar **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]** , selecteer het menu **[!UICONTROL SMS Webhooks]** onder **[!UICONTROL SMS settings]** en klik op de knop **[!UICONTROL Create Webhook]** .
+
+   ![](assets/webhook-1.png)
+
+1. Configureer uw WebHaak-instellingen, zoals hieronder wordt beschreven:
+
+   * **[!UICONTROL Name]**: voer een naam in voor uw webhaak.
 
    * **[!UICONTROL Select SMS vendor]**: Infobip.
 
-   * **[!UICONTROL Type]**: Binnenkomend.
+   * **[!UICONTROL Type]**: Kies Feedback of Binnenkomend. U moet beide afzonderlijk creëren, hier, beginnen wij met Binnenkomend.
 
-   * **[!UICONTROL API credentials]**: Kies van drop-down u [&#x200B; eerder gevormde API geloofsbrieven &#x200B;](sms-configuration-infobip.md#api-credential).
+   * **[!UICONTROL API credentials]**: Kies van drop-down u [ eerder gevormde API geloofsbrieven ](sms-configuration-infobip.md#api-credential).
 
-   * **[!UICONTROL Sender Phone Number &#x200B;]**: ga het de telefoonaantal van de Afzender in &#x200B; u voor uw mededelingen wilt gebruiken.
+   * **[!UICONTROL Sender Phone Number]**: ga het aantal van de afzendertelefoon in u voor uw mededelingen wilt gebruiken.
 
-     ![](assets/webhook-infobip-1.png){zoomable="yes"}
+   ![](assets/webhook-6.png)
 
-1. Klik op ![](assets/do-not-localize/Smock_Add_18_N.svg) om trefwoordencategorieën toe te voegen en configureer deze afhankelijk van uw SMS-provider:
+1. Start het instellen van de binnenkomende trefwoorden door trefwoorden in te voeren in het veld **[!UICONTROL Enter a Keyword]** . U kunt meerdere trefwoorden toevoegen en verwijderen. Trefwoorden zijn niet hoofdlettergevoelig.
 
-   * **[!UICONTROL Inbound Keyword Category]**: Kies de trefwoordcategorieën **[!UICONTROL Opt-In]** , **[!UICONTROL Opt-Out]** , **[!UICONTROL Double Opt-In]** , **[!UICONTROL Help]** of **[!UICONTROL Custom]** .
+   ![](assets/webhook-7.png)
 
-   * **[!UICONTROL Enter a keyword]**: voer de standaardtrefwoorden of aangepaste trefwoorden in die het bericht automatisch activeren. Klik op ![](assets/do-not-localize/Smock_Add_18_N.svg) om meerdere trefwoorden toe te voegen.
+1. Selecteer een trefwoordcategorie in de vervolgkeuzelijst **[!UICONTROL Inbound Keyword Category]** die u wilt configureren:
 
-     Gebruik voor **[!UICONTROL Custom keyword]** trefwoorden die geen betrekking hebben op toestemming, voor handelingen op basis van batchverwerking tijdens een rit.
+   * 
+     +++ Inschakelen
 
-   * **[!UICONTROL Reply Message]**: selecteer in het keuzemenu de aangepaste reactie die automatisch wordt verzonden.
+      * Trefwoorden inschakelen die gebruikers met hun toestemming aanmelden. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, wordt hun telefoonaantal verkozen binnen om de berichten van SMS te ontvangen.
 
-   * **[!UICONTROL Fuzzy Opt-out]**: Schakel deze optie in om een automatisch antwoord te verzenden wanneer een bijna-overeenkomend uitschakeltrefwoord wordt gevonden.
+      * Standaard zijn de volgende trefwoorden ingeschakeld: Abonneren, Ja, Stoppen, Doorgaan, Hervatten en Beginnen. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
 
-   ![](assets/webhook-infobip-2.png){zoomable="yes"}
+      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een Opt-In-trefwoord.
 
-1. Voer automatisch een **[!UICONTROL Default Reply Message]** in die wordt verzonden wanneer een binnenkomend bericht niet overeenkomt met een geconfigureerd trefwoord of een geconfigureerde categorie.
+   +++
 
-1. Klik **[!UICONTROL Submit]** wanneer u de configuratie van uw Webhaak voltooide.
+   * 
+     +++ Uitschakelen
 
-1. Als u een **[!UICONTROL Feedback]** webhaak wilt maken, voert u dezelfde stappen uit als hierboven, en selecteert u **[!UICONTROL Feedback]** als uw webhaak **[!UICONTROL Type]** .
+      * Schakel trefwoorden in die gebruikers weigeren en verwijder toestemming om tekstberichten te verzenden. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, wordt hun telefoonaantal uit het ontvangen van de berichten van SMS verkozen.
 
-1. Vanuit het menu **[!UICONTROL Webhooks]** kunt u bestaande websites bewerken of verwijderen, of de **[!UICONTROL Webhook URL]** openen en kopiëren voor integratie met uw SMS-provider.
+      * Standaard zijn de volgende trefwoorden ingeschakeld: Stoppen, Afsluiten, Annuleren, Einde, Afmelden, Nee. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
 
-   ![](assets/sms_byo_7.png){zoomable="yes"}
+      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een uitschakeltrefwoord.
 
-Na het creëren van en het vormen van de binnenkomende montages voor Webhaak, moet u nu a [&#x200B; kanaalconfiguratie &#x200B;](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
+      * Schakel **[!UICONTROL Fuzzy Logic]** in om vergelijkbare trefwoorden te detecteren als geconfigureerde uitschakeltrefwoorden. Als de reactie van een gebruiker dicht maar niet nauwkeurig is, wordt het bericht ingegaan in het **[!UICONTROL Fuzzy Auto Response]** gebied verzonden. Doorgaans geeft dit bericht aan dat de optie niet is ingeschakeld en geeft het exacte trefwoord op dat nodig is om het abonnement op te zeggen.
 
-Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zoals bericht creatie, verpersoonlijking, verbinding het volgen, en rapportering.
+   +++
 
->[!TAB  Sinch ]
+   * 
+     +++ Dubbele plug-in
 
-1. Navigeer in de linkertrack naar **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]** , selecteer het menu **[!UICONTROL SMS Webhooks]** onder **[!UICONTROL SMS settings]** en klik op de knop **[!UICONTROL Create Webhook]** .
+      * Trefwoorden inschakelen voor de vereiste dubbele aanmelding. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, zijn zij niet volledig open-binnen in dit stadium. Deze tweestapstoestemmingswerkstroom vereist gebruikers om hun opt-in met een tweede sleutelwoord te bevestigen.
 
-   ![](assets/sms_byo_5.png){zoomable="yes"}
+      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer een trefwoord voor dubbele aanmelding overeenkomt. Dit bericht instrueert de gebruiker om een Opt-In sleutelwoord in te gaan om het opt-in proces te voltooien.
+
+   +++
+
+   * 
+     +++ Help
+
+      * Laat sleutelwoorden toe die een standaardreactie verstrekken wanneer de hulp wordt gevraagd. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, ontvangen zij het het antwoordbericht van de Hulp.
+
+      * Standaard zijn de volgende trefwoorden ingeschakeld: Help, Info, Informatie. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
+
+      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een Help-trefwoord.
+
+   +++
+
+   * 
+     +++ Aangepast
+
+      * Configureer één aangepast trefwoord. Wanneer het bericht van een gebruiker dit sleutelwoord aanpast, wordt het sleutelwoord geschreven aan de **[!UICONTROL Message Feedback tracking]** dataset voor het melden van en publiek het opbouwen.
+
+      * Bouw een Publiek (het stromen of de partij) die verwijzingen dit sleutelwoord voor gebruik in uw reizen en campagnes.
+
+   +++
+
+1. Voer een **[!UICONTROL Default Reply Message]** in. Dit bericht wordt automatisch verzonden wanneer de reactie van een gebruiker geen gevormd sleutelwoord aanpast.
+
+   ![](assets/webhook-8.png)
+
+1. Klik op **[!UICONTROL Submit]** om de configuratie van uw webhaak op te slaan.
+
+1. In het **[!UICONTROL Webhooks]** menu, moet u nu a **Feedback** webhaak voor Infobip tot stand brengen.
 
 1. Configureer uw WebHaak-instellingen, zoals hieronder wordt beschreven:
 
-   * **[!UICONTROL Name]**: ga een naam voor uw Webhaak in.
+   * **[!UICONTROL Name]**: voer een naam in voor uw webhaak.
 
-   * **[!UICONTROL Select SMS vendor]**: Sinch.
+   * **[!UICONTROL Select SMS vendor]**: Infobip.
 
-   * **[!UICONTROL Type]**: Binnenkomend.
+   * **[!UICONTROL Type]**: kies Feedback.
 
-   * **[!UICONTROL API credentials]**: Kies van drop-down u [&#x200B; eerder gevormde API geloofsbrieven &#x200B;](sms-configuration-sinch.md#create-api).
+   ![](assets/webhook-9.png)
 
-   * **[!UICONTROL Sender Phone Number &#x200B;]**: ga het de telefoonaantal van de Afzender in &#x200B; u voor uw mededelingen wilt gebruiken.
+1. Klik op **[!UICONTROL Submit]** om de configuratie van uw feedbackwebsite op te slaan.
 
-     ![](assets/webhook-sinch-1.png){zoomable="yes"}
+1. Vanuit het menu **[!UICONTROL Webhooks]** kunt u bestaande webhaken bewerken of verwijderen.
 
-1. Klik op ![](assets/do-not-localize/Smock_Add_18_N.svg) om trefwoordencategorieën toe te voegen en configureer deze afhankelijk van uw SMS-provider:
+1. Open de nieuwe webhaken en kopieer de **[!UICONTROL Webhook URL]** van elk van uw webhaken.
 
-   * **[!UICONTROL Inbound Keyword Category]**: Kies de trefwoordcategorieën **[!UICONTROL Opt-In]** , **[!UICONTROL Opt-Out]** , **[!UICONTROL Double Opt-In]** , **[!UICONTROL Help]** of **[!UICONTROL Custom]** .
+   ![](assets/webhook-10.png)
 
-   * **[!UICONTROL Enter a keyword]**: voer de standaardtrefwoorden of aangepaste trefwoorden in die het bericht automatisch activeren. Klik op ![](assets/do-not-localize/Smock_Add_18_N.svg) om meerdere trefwoorden toe te voegen.
+1. U kunt die URLs nu gebruiken om zowel Callback URLs toe te laten om Terugkoppeling als Inkomende gebeurtenissen in Journey Optimizer te brengen.
 
-     Gebruik voor **[!UICONTROL Custom keyword]** trefwoorden die geen betrekking hebben op toestemming, voor handelingen op basis van batchverwerking tijdens een rit.
+Als uw webhaak API-referenties gebruikt die aan een bestaande kanaalconfiguratie zijn gekoppeld, wordt de webhaak onmiddellijk van kracht. Anders maakt u een nieuwe kanaalconfiguratie.
 
-   * **[!UICONTROL Reply Message]**: selecteer in het keuzemenu de aangepaste reactie die automatisch wordt verzonden.
+➡️[ leer meer op kanaalconfiguratie ](sms-configuration-surface.md)
 
-   * **[!UICONTROL Fuzzy Opt-out]**: Schakel deze optie in om een automatisch antwoord te verzenden wanneer een bijna-overeenkomend uitschakeltrefwoord wordt gevonden.
+### Voor aangepaste provider {#create-webhook-custom}
 
-   ![](assets/webhook-sinch-2.png){zoomable="yes"}
+Voor Aangepaste SMS-providers maakt u twee aparte websites: een voor feedbackgebeurtenissen en een voor Inbound-gebeurtenissen.
 
-1. Voer automatisch een **[!UICONTROL Default Reply Message]** in die wordt verzonden wanneer een binnenkomend bericht niet overeenkomt met een geconfigureerd trefwoord of een geconfigureerde categorie.
+1. Navigeer in de linkertrack naar **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]** , selecteer het menu **[!UICONTROL SMS Webhooks]** onder **[!UICONTROL SMS settings]** en klik op de knop **[!UICONTROL Create Webhook]** .
 
-1. Klik **[!UICONTROL Submit]** wanneer u de configuratie van uw Webhaak voltooide.
+   ![](assets/webhook-1.png)
 
-1. In het **[!UICONTROL Webhooks]** menu, klik het ![&#x200B; bakpictogram &#x200B;](assets/do-not-localize/Smock_Delete_18_N.svg) om uw Webhaak te schrappen.
+1. Configureer uw WebHaak-instellingen, zoals hieronder wordt beschreven:
 
-1. Als u de bestaande configuratie wilt wijzigen, zoekt u de gewenste Webhaak en klikt u op de optie **[!UICONTROL Edit]** om de gewenste wijzigingen aan te brengen.
+   * **[!UICONTROL Name]**: voer een naam in voor uw webhaak.
 
-1. Open en kopieer uw nieuwe **[!UICONTROL Webhook URL]** vanuit uw eerder verzonden **[!UICONTROL Webhook]** .
+   * **[!UICONTROL Select SMS vendor]**: Aangepast.
 
-   ![](assets/sms_byo_7.png){zoomable="yes"}
+   * **[!UICONTROL Type]**: Kies Feedback of Binnenkomend. U moet beide afzonderlijk creëren, hier, beginnen wij met Binnenkomend.
 
-Na het creëren van en het vormen van de binnenkomende montages voor Webhaak, moet u nu a [&#x200B; kanaalconfiguratie &#x200B;](sms-configuration-surface.md) voor de berichten van SMS tot stand brengen.
+   * **[!UICONTROL API credentials]**: Kies van drop-down u [ eerder gevormde API geloofsbrieven ](sms-configuration-custom.md).
 
-Zodra gevormd, kunt u hefboomwerking alle uit-van-de-doos kanaalmogelijkheden zoals bericht creatie, verpersoonlijking, verbinding het volgen, en rapportering.
+   * **[!UICONTROL Sender Phone Number]**: ga het aantal van de afzendertelefoon in u voor uw mededelingen wilt gebruiken.
 
-<!--
->[!TAB Twilio]
+   ![](assets/webhook-11.png)
 
-1. In the left rail, navigate to **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]**, select the **[!UICONTROL SMS Webhooks]** menu under **[!UICONTROL SMS settings]**, and click the **[!UICONTROL Create Webhook]** button.
+1. Start het instellen van de binnenkomende trefwoorden door trefwoorden in te voeren in het veld **[!UICONTROL Enter a Keyword]** . U kunt meerdere trefwoorden toevoegen en verwijderen. Trefwoorden zijn niet hoofdlettergevoelig.
 
-    ![](assets/sms_byo_5.png){zoomable="yes"}
+   ![](assets/webhook-12.png)
 
-1. Configure your Webhook Settings, as detailed below:
+1. Selecteer een trefwoordcategorie in de vervolgkeuzelijst **[!UICONTROL Inbound Keyword Category]** die u wilt configureren:
 
-    * **[!UICONTROL Name]**: Enter a name for your Webhook.
+   * 
+     +++ Inschakelen
 
-    * **[!UICONTROL Select SMS vendor]**: Twilio.
+      * Trefwoorden inschakelen die gebruikers met hun toestemming aanmelden. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, wordt hun telefoonaantal verkozen binnen om de berichten van SMS te ontvangen.
 
-    * **[!UICONTROL Type]**: Inbound.
+      * Standaard zijn de volgende trefwoorden ingeschakeld: Abonneren, Ja, Stoppen, Doorgaan, Hervatten en Beginnen. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
 
-    * **[!UICONTROL API credentials]**: Choose from the drop-down you [previously configured API credentials](sms-configuration-twilio.md#create-api).
+      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een Opt-In-trefwoord.
 
-    * **[!UICONTROL Sender Phone Number ​]**: Enter the Sender phone number ​you want to use for your communications.
+   +++
+
+   * 
+     +++ Uitschakelen
+
+      * Schakel trefwoorden in die gebruikers weigeren en verwijder toestemming om tekstberichten te verzenden. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, wordt hun telefoonaantal uit het ontvangen van de berichten van SMS verkozen.
+
+      * Standaard zijn de volgende trefwoorden ingeschakeld: Stoppen, Afsluiten, Annuleren, Einde, Afmelden, Nee. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
+
+      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een uitschakeltrefwoord.
+
+      * Schakel **[!UICONTROL Fuzzy Logic]** in om vergelijkbare trefwoorden te detecteren als geconfigureerde uitschakeltrefwoorden. Als de reactie van een gebruiker dicht maar niet nauwkeurig is, wordt het bericht ingegaan in het **[!UICONTROL Fuzzy Auto Response]** gebied verzonden. Doorgaans geeft dit bericht aan dat de optie niet is ingeschakeld en geeft het exacte trefwoord op dat nodig is om het abonnement op te zeggen.
+
+   +++
+
+   * 
+     +++ Dubbele plug-in
+
+      * Trefwoorden inschakelen voor de vereiste dubbele aanmelding. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, zijn zij niet volledig open-binnen in dit stadium. Deze tweestapstoestemmingswerkstroom vereist gebruikers om hun opt-in met een tweede sleutelwoord te bevestigen.
+
+      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer een trefwoord voor dubbele aanmelding overeenkomt. Dit bericht instrueert de gebruiker om een Opt-In sleutelwoord in te gaan om het opt-in proces te voltooien.
+
+   +++
+
+   * 
+     +++ Help
+
+      * Laat sleutelwoorden toe die een standaardreactie verstrekken wanneer de hulp wordt gevraagd. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, ontvangen zij het het antwoordbericht van de Hulp.
+
+      * Standaard zijn de volgende trefwoorden ingeschakeld: Help, Info, Informatie. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
+
+      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een Help-trefwoord.
+
+   +++
+
+   * 
+     +++ Aangepast
+
+      * Configureer één aangepast trefwoord. Wanneer het bericht van een gebruiker dit sleutelwoord aanpast, wordt het sleutelwoord geschreven aan de **[!UICONTROL Message Feedback tracking]** dataset voor het melden van en publiek het opbouwen.
+
+      * Bouw een Publiek (het stromen of de partij) die verwijzingen dit sleutelwoord voor gebruik in uw reizen en campagnes.
+
+   +++
+
+1. Voer een **[!UICONTROL Default Reply Message]** in. Dit bericht wordt automatisch verzonden wanneer de reactie van een gebruiker geen gevormd sleutelwoord aanpast.
+
+   ![](assets/webhook-13.png)
+
+1. Maak een aangepaste payload die overeenkomt met de JSON die afkomstig is van de provider. De enige webhaakindeling die wordt ondersteund, is JSON. Formuliergegevens voor websites worden niet ondersteund.
+
+   De binnenkomende webhaak vereist de volgende gebieden om waarden van WebHaak van uw leverancier te ontvangen:
+
+   * **InboundMessage**: Het binnenkomende bericht of het sleutelwoord dat van de gebruiker wordt ontvangen.
+   * **ProfileNumber**: Het telefoonaantal van de gebruiker die het bericht verzond.
+   * **RequestID**: Een uniek herkenningsteken dat door uw leverancier van SMS wordt verstrekt om een specifieke transactie te identificeren.
+   * **OriginTimestamp**: Tijdstempel toen het bericht, in formaat UTC werd ontvangen.
+   * **InboundNumber**: Het telefoonaantal dat voor deze WebHaakconfiguratie wordt gebruikt.
+
+   +++Payload-voorbeeld
+
+        &quot;json 
         
-1. Click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add your keywords categories, then, configure them depending on your SMS provider:
+        &quot;inboundMessage&quot;: &quot;{{inboundMessage}}&quot;, 
+        &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;, 
+        &quot;requestId&quot;: &quot;{{requestId}}&quot;, 
+        &quot;originTimestamp&quot;: &quot;{{originTimestamp}}&quot;, 
+        &quot;inboundNumber&quot;: &quot;{{inboundNumber}}&quot;
+        
+       &quot;
+   +++
 
-    * **[!UICONTROL Inbound Keyword Category]**: Choose your keyword categories either **[!UICONTROL Opt-In]**, **[!UICONTROL Opt-Out]**, **[!UICONTROL Double Opt-In]**, **[!UICONTROL Help]** or **[!UICONTROL Custom]**. 
+1. Wanneer uw JSON-bestand is gemaakt, klikt u op **[!UICONTROL View payload editor]**. Vervolgens kopieert en plakt u de JSON-payload in de editor en slaat u deze op.
 
-    * **[!UICONTROL Enter a keyword]**: Enter the default or custom keywords that will automatically trigger your message. Click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add multiple keywords.
+   ![](assets/webhook-14.png)
 
-        For **[!UICONTROL Custom keyword]**, use non-consent–related keywords for batch-based actions within a journey.
+1. Klik op **[!UICONTROL Submit]** om de configuratie van uw webhaak op te slaan.
 
-    * **[!UICONTROL Reply Message]**: Select from the drop-down the custom response that is automatically sent.
+1. In het **[!UICONTROL Webhooks]** menu, moet u nu a **Feedback** webhaak voor de douaneleverancier tot stand brengen.
 
-    * **[!UICONTROL Fuzzy Opt-out]**: Enable this option to send an automatic reply when a near-match opt-out keyword is detected.
+1. Configureer uw WebHaak-instellingen, zoals hieronder wordt beschreven:
 
-1. Enter a **[!UICONTROL Default Reply Message]** automatically sent when an inbound message does not match any configured keyword or category.
+   * **[!UICONTROL Name]**: voer een naam in voor uw webhaak.
 
-1. Click **[!UICONTROL Submit]** when you finished the configuration of your Webhook.
+   * **[!UICONTROL Select SMS vendor]**: Aangepast.
 
-1. In the **[!UICONTROL Webhooks]** menu, click the ![bin icon](assets/do-not-localize/Smock_Delete_18_N.svg) to delete your Webhook.
+   * **[!UICONTROL Type]**: kies Feedback.
 
-1. To modify existing configuration, locate the desired Webhook and click the **[!UICONTROL Edit]** option to make the necessary changes.
+   ![](assets/webhook-15.png)
 
-1. Access and copy your new **[!UICONTROL Webhook URL]** from your previously submitted **[!UICONTROL Webhook]**.
+1. Maak een aangepaste payload die overeenkomt met de JSON-indeling van uw provider. De enige webhaakindeling die wordt ondersteund, is JSON. Formuliergegevens voor websites worden niet ondersteund.
 
-After creating and configuring the inbound settings for the Webhook, you now need to create a [channel configuration](sms-configuration-surface.md) for SMS messages. 
+   Voor de feedbackwebsite moeten de volgende velden waarden ontvangen van de website van uw provider:
 
-Once configured, you can leverage all out-of-the-box channel capabilities such as message authoring, personalization, link tracking, and reporting.
--->
+   * **Verwijzing van de Cliënt**: Een uniek herkenningsteken dat in de nuttige lading voor het registreren doeleinden is teruggekeerd.
+   * **Code**: De mislukkingscode die door uw leverancier van SMS wordt verstrekt.
+   * **Status**: De mislukkingsstatus die door uw leverancier van SMS wordt verstrekt.
 
->[!ENDTABS]
+   +++Payload-voorbeeld
 
+        &quot;json 
+        
+        &quot;clientReference&quot;: &quot;{{client_reference}}&quot;, 
+        &quot;statussen&quot;: [
+       {
+        &quot;code&quot;: &quot;{{failureCode}}&quot;, 
+        &quot;status&quot;: &quot;{{feedbackStatus}}&quot;
+        
+       ] 
+        
+       &quot;
+   
+   +++
 
-## Hoe kan ik-video {#video}
+1. Klik op **[!UICONTROL View payload editor]** en kopieer en plak de JSON-payload naar de editor en sla deze op.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431625)
+   ![](assets/webhook-16.png)
+
+1. Klik op **[!UICONTROL Submit]** om de configuratie van uw feedbackwebsite op te slaan.
+
+1. Vanuit het menu **[!UICONTROL Webhooks]** kunt u bestaande webhaken bewerken of verwijderen.
+
+1. Open de nieuwe webhaken en kopieer de **[!UICONTROL Webhook URL]** van elk van uw webhaken.
+
+1. Vorm uw leverancier van SMS om **Terugkoppeling** en **Binnenkomende** gebeurtenissen naar deze webhaak URLs in Journey Optimizer te verzenden.
+
+   De instructies van de configuratie variëren door de leverancier van SMS. Raadpleeg de documentatie van uw provider voor meer informatie over het instellen van callback-URL&#39;s.
+
+Als uw webhaak API-referenties gebruikt die aan een bestaande kanaalconfiguratie zijn gekoppeld, wordt de webhaak onmiddellijk van kracht. Anders maakt u een nieuwe kanaalconfiguratie.
+
+➡️[ leer meer op kanaalconfiguratie ](sms-configuration-surface.md)
