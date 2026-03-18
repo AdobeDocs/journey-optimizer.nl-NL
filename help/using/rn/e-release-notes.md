@@ -7,24 +7,24 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 20026d029c980a256968be6ef016e1b2d21876cb
+source-git-commit: 44b528bc97bd8988edf042940808b6f48bd3d4a5
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
 
 # Opmerkingen voorafgaand aan de release {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [&#x200B; versienota&#39;s &#x200B;](release-notes.md).
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
 
 ## Opmerkingen voorafgaand aan de release van 26 maart {#march-26-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-**de datum van de Versie**: 26 Maart, 2026
+**de datum van de Versie**: Maart 24-25, 2026
 
 ### Nieuwe functies {#march-26-features}
 
@@ -38,6 +38,7 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <tr>
 <td>
 <p>U kunt uw e-mailinhoud nu optimaliseren voor de leesbaarheid met behulp van de technologie van het grote taalmodel (LLM). De LLM e-mailoptimalisator analyseert uw e-mailinhoud en biedt activeerbare aanbevelingen om de reputatie van de afzender te verbeteren, spamfilters te vermijden en de algehele prestaties van de leverbaarheid te verbeteren.</p>
+<p>De taak van JIRA van de documentatie: <a href="https://jira.corp.adobe.com/browse/DOCAC-14340"> DOCAC-14340 </a></p>
 </td>
 </tr>
 </tbody>
@@ -54,6 +55,7 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <td>
 <p>U kunt afbeeldingen nu rechtstreeks in Journey Optimizer converteren naar sjablonen voor e-mailinhoud. Gebruik een door AI aangedreven analyse om automatisch gestructureerde HTML-sjablonen te genereren op basis van visuele referenties, waardoor de ontwerptijd voor e-mail aanzienlijk korter wordt.</p>
 <p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+<p>De taak van JIRA van de documentatie: <a href="https://jira.corp.adobe.com/browse/DOCAC-14324"> DOCAC-14324 </a></p>
 </td>
 </tr>
 </tbody>
@@ -69,6 +71,7 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <tr>
 <td>
 <p>Een nieuwe <strong> Incrementele vraag </strong> activiteit is nu beschikbaar in Geordende Campagnes. Deze activiteit vraagt slechts nieuwe of bijgewerkte verslagen sinds de laatste werkschemauitvoering, beduidend verminderend verwerkingstijd en verbeterend efficiency voor terugkomende campagnes gericht op grote datasets.</p>
+<p>De taak van JIRA van de documentatie: <a href="https://jira.corp.adobe.com/browse/DOCAC-14262"> DOCAC-14262 </a></p>
 </td>
 </tr>
 </tbody>
@@ -84,6 +87,7 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <tr>
 <td>
 <p>De geordende Campagnes steunen nu <strong> transactioneel overseinen </strong>, toelatend u om real time, gebeurtenis-gedreven berichten-zulke zoals ordesbevestigingen, het boeken berichten, en rekening updates-direct binnen uw campagnewerkschema teweeg te brengen.</p>
+<p>De taak van JIRA van de documentatie: <a href="https://jira.corp.adobe.com/browse/DOCAC-14233"> DOCAC-14233 </a></p>
 </td>
 </tr>
 </tbody>
@@ -99,6 +103,7 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <tr>
 <td>
 <p>Een nieuwe <strong> activiteit van de Test </strong> is nu beschikbaar in Geordende Campagnes. Deze activiteit leidt werkschemauitvoering aan verschillende takken die op bepaalde voorwaarden worden gebaseerd, toelatend u om campagnelogica en configuraties te bevestigen alvorens levende leveringen te activeren.</p>
+<p>De taak van JIRA van de documentatie: <a href="https://jira.corp.adobe.com/browse/DOCAC-14115"> DOCAC-14115 </a></p>
 </td>
 </tr>
 </tbody>
@@ -115,6 +120,7 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <td>
 <p>U kunt <strong> douaneformulieren </strong> in het landen van pagina's nu tot stand brengen om specifieke abonneegegevens voorbij standaard opt-in gebieden te verzamelen. Definieer uw eigen formuliervelden, validatieregels en gedrag voor verzending ter ondersteuning van een groter aantal gebruikstoepassingen voor abonnementen en profielverrijking.</p>
 <p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+<p>De taak van JIRA van de documentatie: <a href="https://jira.corp.adobe.com/browse/DOCAC-13963"> DOCAC-13963 </a></p>
 </td>
 </tr>
 </tbody>
@@ -130,6 +136,7 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <tr>
 <td>
 <p><strong> Journey Agent </strong>, aangedreven door Adobe Experience Platform Agent Orchestrator, kan volledige <strong> Geordende het gebruiksgevallen van de Campagne </strong> nu tot stand brengen door een natuurlijke taalinterface. Beschrijf uw campagnedoel en vereisten in duidelijke taal, en Journey Agent vormt de campagnestructuur, de activiteiten, en het richten voor u.</p>
+<p>De taak van JIRA van de documentatie: <a href="https://jira.corp.adobe.com/browse/DOCAC-13768"> DOCAC-13768 </a></p>
 </td>
 </tr>
 </tbody>
@@ -145,6 +152,7 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <tr>
 <td>
 <p>Het landen van pagina's steunt nu <strong> nieuwe werkschema's van de profielverwerving </strong>, toelatend u om nieuwe publieksleden direct van uw het landen paginaervaringen te vangen en aan boord te nemen. Configureer verwervingsformulieren om profielgegevens te verzamelen en automatisch nieuwe profielen in Adobe Experience Platform te voorzien.</p>
+<p>De taak van JIRA van de documentatie: <a href="https://jira.corp.adobe.com/browse/DOCAC-13757"> DOCAC-13757 </a></p>
 </td>
 </tr>
 </tbody>
@@ -161,6 +169,7 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <td>
 <p><strong> optimalisering van de weg van de Reis </strong> gebruikt AI om historische reisprestaties te analyseren en automatisch de beste weg voor elke klant te selecteren, die omzettings en betrokkenheidsresultaten maximaliseert.</p>
 <p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+<p>De taak van JIRA van de documentatie: <a href="https://jira.corp.adobe.com/browse/DOCAC-13492"> DOCAC-13492 </a></p>
 </td>
 </tr>
 </tbody>
@@ -177,6 +186,7 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <td>
 <p>U kunt <strong> Beslissing </strong> nu gebruiken om de inhoud van uw e-mailberichten te personaliseren en te optimaliseren. Gebruik Prioriteitsscores, Formulas of AI-modellen om de meest relevante aanbiedingen en inhoud aan elke ontvanger weer te geven.</p>
 <p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+<p>De taak van JIRA van de documentatie: <a href="https://jira.corp.adobe.com/browse/DOCAC-13182"> DOCAC-13182 </a></p>
 </td>
 </tr>
 </tbody>
@@ -192,22 +202,7 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <tr>
 <td>
 <p>Een nieuw <strong> Bericht Inbox </strong> is nu beschikbaar in Adobe Journey Optimizer, die een gecentraliseerde mening van ontvangen in-app, duw, en SMS berichten verstrekt. Ontvangers hebben toegang tot al hun berichten en kunnen met al hun berichten communiceren op één plaats, waardoor rijkere betrokkenheids- en herbetrokkenheidsscenario's mogelijk zijn.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Ondersteuning voor koolstofkopie (CC) voor e-mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt nu <strong> ontvangers van het koolstofexemplaar (CC) </strong> aan uitgaande e-mailberichten toevoegen die door Journey Optimizer worden verzonden. Gebruik dit vermogen om exemplaren van klantenmededelingen naar interne teams of nalevingsadressen voor archiverings en toezichtdoeleinden te verzenden.</p>
-<p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+<p>De taak van JIRA van de documentatie: <a href="https://jira.corp.adobe.com/browse/DOCAC-11382"> DOCAC-11382 </a></p>
 </td>
 </tr>
 </tbody>
@@ -223,6 +218,7 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <tr>
 <td>
 <p>Na de Algemene Beschikbaarheid van de <strong> activiteit van de Actie </strong> in Februari 2026, de activiteiten van de erfenis inheemse kanaalactie (E-mail, SMS, Duw, In-App, enz.) in het wegcanvas worden nu afgekeurd. Bestaande reizen die gebruikmaken van activiteiten van het oude kanaal blijven functioneren zonder dat er wijzigingen of migratie vereist zijn.</p>
+<p>De taak van JIRA van de documentatie: <a href="https://jira.corp.adobe.com/browse/DOCAC-14144"> DOCAC-14144 </a></p>
 </td>
 </tr>
 </tbody>
@@ -234,49 +230,64 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 #### Journeys
 
-* **de opzoeksteun van de Dataset in reizen** - u kunt gegevens van de datasets van Adobe Experience Platform direct binnen reisvoorwaarden, uitdrukkingen, en acties opzoeken, die verrijken verpersoonlijking met catalogusgegevens, verwijzingslijsten, en andere gestructureerde datasets. Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid).
+* **de opzoeksteun van de Dataset in reizen** - Een nieuwe activiteit in reizen, de raadpleging van de Dataset, staat u toe om gegevens van de het recorddatasets van Adobe Experience Platform dynamisch terug te winnen tijdens runtime. Door gebruik te maken van deze mogelijkheid hebt u toegang tot gegevens die mogelijk niet in het profiel of de lading van de gebeurtenis zijn opgeslagen, zodat uw klanteninteractie zowel relevant als tijdig is. Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid).
+
+  De taak van JIRA van de documentatie: [ DOCAC-14351 ](https://jira.corp.adobe.com/browse/DOCAC-14351)
 
 * **Arbitrage van de Reis - AI Modellen** - Naast rangschikkende formules, kunnen de modellen van AI nu met de Arbitrage van de Reis worden gebruikt om reisingang voor klanten automatisch te rangschikken en voorrang te geven, gebruikend machine het leren om de meest relevante reis voor elk profiel te bepalen dat op historisch gedrag en contextafhankelijke signalen wordt gebaseerd. Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
+  De taak van JIRA van de documentatie: [ DOCAC-14295 ](https://jira.corp.adobe.com/browse/DOCAC-14295)
 
 #### Rapportage
 
 * **sluit beide klikken voor e-mail en SMS het melden** uit - E-mail en SMS het melden filtreert nu automatisch uit beide klikken van klikmetriek, die nauwkeurigere betrokkenheidsgegevens verstrekken en geautomatiseerd verkeer verhinderen uw prestatiescijfers te verhogen.
+De taak van JIRA van de documentatie: [ DOCAC-14354 ](https://jira.corp.adobe.com/browse/DOCAC-14354)
 
 * **Send-Time Optimalisering: de bijgewerkte controleplaats en het nieuwe liftrapport** - de controles van de Optimalisering van de Send-Time (STO) zijn herplaatst van de Linkerspoorlijn van de Actie aan de configuratie van de Actie. Bovendien is er nu een nieuw liftrapport beschikbaar in Dagrapporten om de impact van STO op de maatstaven van de prestaties van uw campagne te meten.
+
+  De taak van JIRA van de documentatie: [ DOCAC-14335 ](https://jira.corp.adobe.com/browse/DOCAC-14335)
 
 #### Email Designer
 
 * **Open-time verpersoonlijking die Dynamische Media (Beta) gebruiken** - u kunt e-mailinhoud in open tijd nu personaliseren gebruikend de Dynamische activa van Media van Adobe, toelatend in real time, ontvanger-specifieke beelden en visuals die dynamisch gebaseerd op de attributen van elke ontvanger op het ogenblik van e-mailopening worden geproduceerd. Deze mogelijkheid is momenteel in Beta.
+De taak van JIRA van de documentatie: [ DOCAC-14353 ](https://jira.corp.adobe.com/browse/DOCAC-14353)
 
 * **E-mail Designer die in Verenigde Shell** wordt getoond - E-mail Designer wordt nu getoond binnen de Verenigde ervaring van Shell, die een verenigbare navigatie en kopbalervaring verstrekt die met andere toepassingen van Adobe richt.
+De taak van JIRA van de documentatie: [ DOCAC-14254 ](https://jira.corp.adobe.com/browse/DOCAC-14254)
 
 * **de wijzessteun van de Tekst in fragmenten** - de Fragmenten steunen nu tekstwijze het uitgeven, toestaand u om gewone tekstversies van uw inhoudsfragmenten voor gebruik in op tekst-gebaseerde e-mailwerkschema&#39;s en multi-kanaalscenario&#39;s tot stand te brengen en te beheren.
+De taak van JIRA van de documentatie: [ DOCAC-14204 ](https://jira.corp.adobe.com/browse/DOCAC-14204)
 
 #### Beslissing
 
-* **de de veranderingsvoedersteun van de Verwijzing van het Fragment van de Uitdrukking in Edge Decisioning** - de fragmenten van de Uitdrukking die in Edge nu worden gebruikt steunen het mechanisme van het veranderingsvoer, die ervoor zorgen dat de updates aan uitdrukkingsfragmenten in real time aan randknopen worden verspreid.
+* **de veranderingsvoedersteun van de Verwijzing van het Fragment van de Uitdrukking in Edge Decisioning** - Deze verhoging staat veranderingen in fragmentverwijzingen toe om automatisch in alle punten worden weerspiegeld die fragmenten van verwijzingen voorzien, zonder om het even wat te verfrissen manueel (het herpubliceren van de campagne of het besluitvormingsbeleid).
+De taak van JIRA van de documentatie: [ DOCAC-14350 ](https://jira.corp.adobe.com/browse/DOCAC-14350)
 
 * **de Facultatieve fragmenten in besluitvormingspunten** - de Fragmenten verbonden aan besluitvormingspunten kunnen nu als facultatief worden gevormd, die grotere flexibiliteit in inhoudsamenstelling verstrekken wanneer niet alle het besluitvormingspunt teruggeven een specifiek fragment vereisen.
+De taak van JIRA van de documentatie: [ DOCAC-14309 ](https://jira.corp.adobe.com/browse/DOCAC-14309)
 
 #### Configuratie
 
 * **URL parameterencryptie** - de parameters URL in het volgen van verbindingen en het landen van pagina&#39;s kunnen nu worden gecodeerd, die een extra laag van veiligheid voor gevoelige parametergegevens verstrekken. Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+De taak van JIRA van de documentatie: [ DOCAC-14349 ](https://jira.corp.adobe.com/browse/DOCAC-14349)
 
 * **Omslagen voor reizen en campagnes** - u kunt uw reizen en campagnes in omslagen nu organiseren, toelatend gestructureerde navigatie en gemakkelijker beheer voor teams die met grote volumes van inhoud werken. Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+De taak van JIRA van de documentatie: [ DOCAC-14038 ](https://jira.corp.adobe.com/browse/DOCAC-14038)
 
 #### Geordende campagnes
 
 * **Globale variabelen in Geordende Campagnes** - Geordende Campagnes steunen nu globale variabelen die eens kunnen worden bepaald en over alle activiteiten binnen een werkschema worden hergebruikt, die configuratie vereenvoudigen en consistentie in dynamische waarden, uitdrukkingen, en inhoudsprijdmaking verzekeren.
+De taak van JIRA van de documentatie: [ DOCAC-14113 ](https://jira.corp.adobe.com/browse/DOCAC-14113)
 
 * **vereenvoudiging van de dimensie van het Doel in Geordende Campagnes** - de configuratie van de doeldimensie in Geordende Campagnes is vereenvoudigd, die de stappen en de ingewikkeldheid vermindert die worden vereist wanneer het bepalen van publiek gericht voor uw campagnewerkschema&#39;s.
+De taak van JIRA van de documentatie: [ DOCAC-13554 ](https://jira.corp.adobe.com/browse/DOCAC-13554)
 
 <!--
 ## February '26 pre-release notes {#feb-26-01-rn}
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -530,7 +541,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -707,7 +718,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/nl/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
