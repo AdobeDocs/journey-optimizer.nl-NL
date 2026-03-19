@@ -5,9 +5,9 @@ title: Gangbare campagnes en beperkingen
 description: Meer informatie over geordende campagnes, instructies en beperkingen
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '519'
 ht-degree: 1%
 
 ---
@@ -33,15 +33,15 @@ Hieronder vindt u instructies en beperkingen wanneer u geordende campagnes gebru
 
 * Het gemiddelde aantal attributen per schema **zou 50 kolommen** niet moeten overschrijden om manageability en prestaties te handhaven.
 
-* De relationele schema&#39;s kunnen niet voor Adobe Experience Platform **Profielen** worden toegelaten. Slechts worden de Standaard schema&#39;s XDM gesteund voor Adobe Experience Platform **Profielen**. Relationele schema&#39;s kunnen voor Geordende Campagnes of de Campagnes van de Actie worden toegelaten. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* De relationele schema&#39;s kunnen niet voor Adobe Experience Platform **Profielen** worden toegelaten. Slechts worden de Standaard schema&#39;s XDM gesteund voor Adobe Experience Platform **Profielen**. Relationele schema&#39;s kunnen voor Geordende Campagnes of de Campagnes van de Actie worden toegelaten. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
-### Data-opname
+### Data-opname {#data-ingestion}
 
 * Profiel + relationele gegevensinvoer is vereist.
 
 * Al opname moet via **Gegevens van de Verandering voorkomen vangt** bronnen:
 
-   * Voor **op dossier-Gebaseerd**: `_change_request_type` gebied wordt vereist. Ondersteunde waarden zijn `U` (upsert) of `D` (delete).
+   * Voor **op dossier-Gebaseerd**: `_change_request_type` gebied wordt vereist. Ondersteunde waarden zijn `u` (upsert) of `d` (delete). Deze waarden moeten in kleine letters `u` en `d` zijn, niet in hoofdletters `U` en `D` .
 
    * Voor **op wolk-Gebaseerde**: Het registreren van de lijst moet worden toegelaten.
 
