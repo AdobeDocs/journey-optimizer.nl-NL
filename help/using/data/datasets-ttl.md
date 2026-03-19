@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Experienced
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: f46ec2fa3bcd342b864081e0e2c805c2a07e4236
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 1%
@@ -35,7 +35,7 @@ De onderstaande tabel bevat een lijst met alle beïnvloede gegevenssets en hun r
 | Dataset voor AJO Push Tracking Experience | 13 maanden | 90 dagen |
 | Gegevensset AJO-oppervlakken | 13 maanden | nvt |
 | Gegevensset van gebeurtenis Inbound Activity van AJO | 13 maanden | 90 dagen |
-| Gegevensset AJO-e-mailBCC-feedbackgebeurtenis | 13 maanden | nvt |
+| Dataset voor tweede feedbackgebeurtenis van AJO | 13 maanden | nvt |
 | Dataset voor entiteitsgebeurtenis | 13 maanden | nvt |
 | Gebeurtenissen reisstap | 13 maanden | nvt |
 | ODE-beslissingsgebeurtenissen - prodbeslissing | 13 maanden | nvt |
@@ -44,7 +44,7 @@ De onderstaande tabel bevat een lijst met alle beïnvloede gegevenssets en hun r
 
 U zult onder Veelgestelde Vragen over datasets tijd-aan-levende (TTL) vinden.
 
-Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [&#x200B; gemeenschap van Adobe Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=nl){target="_blank"} te verbinden.
+Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [ gemeenschap van Adobe Journey Optimizer ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
 
 +++Welke types van datasets zijn onderworpen aan TTL?
 
@@ -76,13 +76,13 @@ De uitbreidingen van TTLs worden momenteel niet gesteund. Het is echter de bedoe
 
 >[!NOTE]
 >
->Voor gegevens die in het profiel zijn opgeslagen, geldt de machtiging Totaal gegevensvolume. Elke toename van de gegevensopslag op het profiel als gevolg van een uitbreiding van de TTL zou daarom in mindering worden gebracht op de machtiging Totaal gegevensvolume. [&#x200B; leer meer &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=nl-NL){target=_blank}
+>Voor gegevens die in het profiel zijn opgeslagen, geldt de machtiging Totaal gegevensvolume. Elke toename van de gegevensopslag op het profiel als gevolg van een uitbreiding van de TTL zou daarom in mindering worden gebracht op de machtiging Totaal gegevensvolume. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++Kunnen klanten TTL voor [!DNL Journey Optimizer] de gegevens van de systeemdataset in gegevenshoop verhogen? 
 
-De uitbreidingen van TTLs worden momenteel niet gesteund. De klanten kunnen gegevens door Doelen uitvoeren om gegevens langer te behouden. [&#x200B; leer meer &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=nl-NL){target=_blank} . Bovendien kunnen klanten met een machtiging **[!DNL Data Distiller]** afgeleide gegevenssets maken om de gegevens in het gegevensmeer op te slaan zonder een TTL. [&#x200B; leer meer &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+De uitbreidingen van TTLs worden momenteel niet gesteund. De klanten kunnen gegevens door Doelen uitvoeren om gegevens langer te behouden. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html) {target= &quot;_blank}. Bovendien kunnen klanten met een machtiging **[!DNL Data Distiller]** afgeleide gegevenssets maken om de gegevens in het gegevensmeer op te slaan zonder een TTL. [ leer meer ](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -120,7 +120,7 @@ Het nieuwe beleid van TTL zal de terugblik periode voor systeem-geproduceerde da
 
 +++Welke alternatieven zijn beschikbaar om gegevens langer te bewaren dan de GVTO?
 
-Klanten die langer moeten worden bewaard, moeten overwegen relevante gegevens van AJO-gegevenssets naar externe opslag te exporteren voordat de GVTO-vervaldatum verloopt. Adobe Journey Optimizer biedt ondersteuning voor het exporteren van gegevenssets naar verschillende cloudopslagbestemmingen (Amazon S3, Azure Blob, Google Cloud Storage, enz.). [&#x200B; leer meer &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=nl-NL){target=_blank}
+Klanten die langer moeten worden bewaard, moeten overwegen relevante gegevens van AJO-gegevenssets naar externe opslag te exporteren voordat de GVTO-vervaldatum verloopt. Adobe Journey Optimizer biedt ondersteuning voor het exporteren van gegevenssets naar verschillende cloudopslagbestemmingen (Amazon S3, Azure Blob, Google Cloud Storage, enz.). [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}
 
 +++
 

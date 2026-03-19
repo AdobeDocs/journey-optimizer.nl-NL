@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -29,17 +29,17 @@ U kunt gegevenssets exporteren naar 6 cloudopslagdoelen die toegankelijk zijn vi
 
 Gedetailleerde informatie over elke bestemming is beschikbaar in de documentatie van Adobe Experience Platform:
 
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=nl-NL){target="_blank"}
-* [&#x200B; Azure Blob &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=nl-NL){target="_blank"}
-* [&#x200B; Azure Gen 2 van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=nl-NL){target="_blank"}
-* [&#x200B; Gegevens die Zone &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=nl-NL){target="_blank"} aanvoeren
-* [&#x200B; Google Cloud Storage &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=nl-NL){target="_blank"}
-* [&#x200B; SFTP &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=nl-NL){target="_blank"}.
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html){target="_blank"}
+* [ Azure Blob ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html){target="_blank"}
+* [ Gen 2 van de Gegevens van Azure meer ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html){target="_blank"}
+* [ Gegevens die Zone ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html){target="_blank"} aanvoeren
+* [ Google Cloud Storage ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html){target="_blank"}
+* [ SFTP ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html){target="_blank"}.
 
 
 ## Vereisten {#prerequisites}
 
-Om datasets uit te voeren, hebt u de [&#x200B; hieronder vermelde toegangsbeheertoestemmingen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=nl-NL#permissions){target="_blank"} nodig. Lees het [&#x200B; overzicht van de toegangscontrole &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=nl-NL){target="_blank"} of contacteer uw productbeheerder om de vereiste toestemmingen te verkrijgen.
+Om datasets uit te voeren, hebt u de [ hieronder vermelde toegangsbeheertoestemmingen ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"} nodig. Lees het [ overzicht van de toegangscontrole ](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"} of contacteer uw productbeheerder om de vereiste toestemmingen te verkrijgen.
 
 | Categorie | Machtiging |
 |--|--|
@@ -53,9 +53,9 @@ De belangrijkste stappen om een dataset naar een plaats van de wolkenopslag uit 
 
 ![](assets/dataset-export-process.png)
 
-De gedetailleerde informatie over elke stap is beschikbaar in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=nl-NL){target="_blank"}.
+De gedetailleerde informatie over elke stap is beschikbaar in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}.
 
-1. **Opstelling uw bestemming van de wolkenopslag**. Als u dit nog niet hebt gedaan, maakt u verbinding met een bestemming voor cloudopslag vanuit de doelcatalogus. Leer hoe te om een nieuwe bestemmingsverbinding in [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=nl-NL#setup){target="_blank"} tot stand te brengen.
+1. **Opstelling uw bestemming van de wolkenopslag**. Als u dit nog niet hebt gedaan, maakt u verbinding met een bestemming voor cloudopslag vanuit de doelcatalogus. Leer hoe te om een nieuwe bestemmingsverbinding in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"} tot stand te brengen.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -67,7 +67,7 @@ De gedetailleerde informatie over elke stap is beschikbaar in [&#x200B; document
    >
    >Als u Adobe Journey Optimizer samen met de profielen van de Klant in real time gebruikt, zullen de bestemmingskaarten **activeren** knoop tonen, toestaand u zowel datasets als publiek voor deze bestemming activeren, afhankelijk van de toestemmingen u hebt toegelaten.
 
-1. **selecteer de dataset(s)** die u naar de geselecteerde bestemming wilt uitvoeren. [&#x200B; Leer meer over de datasets van Journey Optimizer beschikbaar voor het uitvoeren &#x200B;](#datasets)
+1. **selecteer de dataset(s)** die u naar de geselecteerde bestemming wilt uitvoeren. [ Leer meer over de datasets van Journey Optimizer beschikbaar voor het uitvoeren ](#datasets)
 
    <!--![](assets/dataset-export-dataset-selection.png)-->
 
@@ -79,7 +79,7 @@ De gedetailleerde informatie over elke stap is beschikbaar in [&#x200B; document
 
    <!--![](assets/dataset-export-review.png)-->
 
-Zodra het exporteren is voltooid, wordt de inhoud van uw gegevensset op de locatie van uw cloudopslag gedeponeerd volgens het schema dat u hebt geconfigureerd. [&#x200B; Leer hoe te om succesvolle datasetuitvoer &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=nl-NL#verify){target="_blank"} te verifiëren.
+Zodra het exporteren is voltooid, wordt de inhoud van uw gegevensset op de locatie van uw cloudopslag gedeponeerd volgens het schema dat u hebt geconfigureerd. [ Leer hoe te om succesvolle datasetuitvoer ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"} te verifiëren.
 
 ## Beschikbare gegevenssets voor exporteren {#datasets}
 
@@ -87,7 +87,6 @@ Begrijp van de lijst hieronder welke datasets van Journey Optimizer u kunt uitvo
 
 | Gegevensset | Beschrijving |
 | ------- | ------- | 
-| Gegevensset voor AJO BCC-feedbackgebeurtenis | Gegevensset voor AJO BCC-feedbackgebeurtenis |
 | AJO Classification-gegevensset | Dataset voor het invoeren van feedback over e-mail- en pushtoepassingen van Journey Optimizer. Gemaakt via SDK. |
 | AJO-servicedataset voor toestemming | Hiermee slaat u toestemmingsgegevens van een profiel op. |
 | AJO Email Tracking Experience Event Dataset | Interactielogboeken voor e-mailkanaal die worden gebruikt voor rapportage en het maken van doelgroepen.  |
@@ -95,9 +94,11 @@ Begrijp van de lijst hieronder welke datasets van Journey Optimizer u kunt uitvo
 | Gegevensset van gebeurtenis Inbound Activity van AJO | Gegevensset voor Journey Optimizer-webkanalen en inApp-kanalen voor levering- en interactiegebeurtenissen. |
 | Gegevensset AJO Interactive Messaging Profile | Hiermee worden profielen opgeslagen die zijn gemaakt voor ondersteuning van door API&#39;s geactiveerde campagnes |
 | Dataset voor AJO-feedbackgebeurtenis | Berichtenleveringslogboeken. Informatie over alle berichtlevering van Journey Optimizer voor rapportage en het creëren van publiek. De terugkoppeling van e-mailISPs op grenzen wordt ook geregistreerd in deze dataset. Deze gegevensset bevat gebeurtenissen voor alle kanalen: e-mail, SMS/MMS, Direct Mail, enz. |
+| AJO Message Export Dataset | e-mail- en SMS-berichtinhoud die is gemarkeerd voor export, wordt opgeslagen. Gegevens blijven zeven kalenderdagen na inname bewaard. |
 | Extensie AJO-profieltellers | Bevat een kaart met objecten die counter_value en endDate bevatten en die door counter_id zijn vastgezet |
 | Gegevensset van AJO Push Profile | Hiermee worden de pushtokens van een profiel opgeslagen. |
 | Dataset voor AJO Push Tracking Experience | Interactielogboeken voor pushkanaal die worden gebruikt voor rapportage en het maken van doelgroepen.  |
+| Dataset voor tweede feedbackgebeurtenis van AJO | BCC-gebeurtenissen (secundaire ontvanger) e-mailen wanneer BCC-archivering is ingeschakeld. Voor vragen en afstemming met de verzonden e-mail. |
 | Gegevensset AJO-oppervlakken | Lege dataset met betrekking tot het schema van binnenkomende oppervlakken van Journey Optimizer |
 | AOOutputForUPSDataset | Bevat alle AO publiekslidmaatschappen terug naar de Verenigde Dienst van het Profiel te schrijven |
 | Gegevensset van publiek orchestratieprofiel | Gegenereerd door publiekscompositie voor publiek compositie publiek. Bevat alle publiek samenstellingspubliek, hun attributen en verrijkingsgegevens |

@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: dataset, optimizer, gebruiksgevallen
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,12 @@ Op deze pagina vindt u de lijst met Adobe Journey Optimizer-gegevenssets en verw
 * [Dataset met gebeurtenissen voor het bijhouden van pushmeldingen](#push-tracking-experience-event-dataset)
 * [Reisstapgebeurtenis](#journey-step-event)
 * [Dataset voor beslissingsgebeurtenis](#ode-decisionevents)
-* [Gegevensset BCC-feedbackgebeurtenis](#bcc-feedback-event-dataset)
+* [Secundaire ontvanger terugkoppelt gebeurtenisdataset (BCC)](#bcc-feedback-event-dataset)
 * [Entiteitsgegevens](#entity-dataset)
 
-Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [&#x200B; het schemawoordenboek van Journey Optimizer &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL){target="_blank"}.
+Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
-Zie ook verscheidene algemeen gebruikte [&#x200B; voorbeelden aan de Gebeurtenissen van de Stap van de Vraag &#x200B;](../reports/query-examples.md).
+Zie ook verscheidene algemeen gebruikte [ voorbeelden aan de Gebeurtenissen van de Stap van de Vraag ](../reports/query-examples.md).
 
 
 ## Dataset over e-mailvolgervaringen{#email-tracking-experience-event-dataset}
@@ -174,7 +174,7 @@ ORDER BY timestamp DESC;
 
 waarbij de datumnotatie: `YYYY-MM-DD HH:MM:SS` is.
 
-Zodra geïdentificeerd, verwijder die adressen uit de onderdrukkingslijst van Journey Optimizer. [Meer informatie](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+Zodra geïdentificeerd, verwijder die adressen uit de onderdrukkingslijst van Journey Optimizer. [Meer info](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
 >[!NOTE]
 >
@@ -270,9 +270,9 @@ group by
 ```
 
 
-Zie ook verscheidene algemeen gebruikte [&#x200B; voorbeelden aan de Gebeurtenissen van de Stap van de Vraag &#x200B;](../reports/query-examples.md).
+Zie ook verscheidene algemeen gebruikte [ voorbeelden aan de Gebeurtenissen van de Stap van de Vraag ](../reports/query-examples.md).
 
-Leer hoe te [&#x200B; verworpen gebeurtenistypen in reis_step_events &#x200B;](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
+Leer hoe te [ verworpen gebeurtenistypen in reis_step_events ](../reports/sharing-field-list.md#discarded-events) problemen oplossen.
 
 ## Dataset voor beslissingsgebeurtenis{#ode-decisionevents}
 
@@ -336,11 +336,11 @@ select value.marketing.email.val FROM (
 ```
 -->
 
-## Gegevensset BCC-feedbackgebeurtenis{#bcc-feedback-event-dataset}
+## Secundaire ontvanger terugkoppelt gebeurtenisdataset (BCC){#bcc-feedback-event-dataset}
 
-_Naam in de interface: De Dataset van de Gebeurtenis van de Feedback van AJO BCC (systeemdataset)_
+_Naam in de interface: De secundaire Begunstigde Dataset van de Gebeurtenis van de Terugkoppeling van AJO (systeemdataset). In de Dienst van de Vraag, kan de datasetlijst nog worden genoemd `ajo_bcc_feedback_event_dataset`._
 
-Dataset om informatie voor BCC Berichten op te slaan.
+Dataset voor e-mailberichten BCC (secundaire ontvanger) wanneer BCC archiveren wordt toegelaten.
 
 Vraag alle BCC-berichten binnen 2 dagen op (voor een bepaalde campagne):
 
