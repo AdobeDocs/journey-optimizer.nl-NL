@@ -135,13 +135,13 @@ Weet u niet zeker waar u wilt beginnen? Hier zijn drie typische scenario&#39;s w
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-      <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">
+      <a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">
         <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px">
       </a>
       <div><strong> Welkome reeksen </strong><br/> automatisch aan boord nieuwe gebruikers met een opeenvolging van berichten na sign-up, die hen door uw product of dienst leiden.</div>
     </td>
     <td>
-      <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">
+      <a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">
         <img src="../assets/do-not-localize/icon-campaign.svg" width="35px">
       </a>
       <div><strong> Van de gebruikslooptijd van het Kart 1&rbrace; re-engaan klanten die zonder een aankoop verlieten door een geschikte herinnering met gepersonaliseerde inhoud te verzenden.</strong><br/></div>
@@ -154,8 +154,8 @@ Weet u niet zeker waar u wilt beginnen? Hier zijn drie typische scenario&#39;s w
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="jo-use-cases.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
   </tr>
 </table>
@@ -169,5 +169,5 @@ Weet u niet zeker waar u wilt beginnen? Hier zijn drie typische scenario&#39;s w
 * **[het Publiceren reizen](publish-journey.md)** - begrijp het proces van de reispublicatie en hoe te om levende reizen te beheren.
 * **[Reis die](report-journey.md)** meldt - spoor en analyseert reisprestaties met gedetailleerde metriek en inzichten.
 * **[reizen van het Oplossen van problemen](troubleshooting.md)** - vind oplossingen aan gemeenschappelijke reiskwesties en beste praktijken voor het zuiveren.
-* **[leerprogramma&#39;s van de Reis &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op het wegbouw en beste praktijken.
+* **[leerprogramma&#39;s van de Reis &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Onderzoek geleidelijke videoleerprogramma&#39;s op het wegbouw en beste praktijken.
 
