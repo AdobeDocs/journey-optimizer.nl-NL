@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ea7faa183f7b0a28efc81ec5132e539a960e7e05
+source-git-commit: 48d1e15bab9bc01d31795358cc4f632fd2a5b7dc
 workflow-type: tm+mt
 source-wordcount: '3121'
 ht-degree: 5%
@@ -23,15 +23,15 @@ ht-degree: 5%
 
 [!DNL Adobe Journey Optimizer] volgt een doorlopend leveringsmodel, dat Adobe in staat stelt voortdurend nieuwe functies, verbeteringen en correcties te leveren. Deze benadering maakt een schaalbare, gefaseerde implementatie van mogelijkheden mogelijk om prestaties en stabiliteit in alle omgevingen te garanderen.
 
-Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [&#x200B; de versiecyclus van Journey Optimizer &#x200B;](releases.md).
+Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [ de versiecyclus van Journey Optimizer ](releases.md).
 
-[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Opmerkingen voorafgaand aan de release van 26 maart {#march-26-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: Maart 24-25, 2026
 
@@ -57,14 +57,13 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <table>
 <thead>
 <tr>
-<th><strong>Afbeeldingen converteren naar sjablonen voor e-mailinhoud</strong><br/></th>
+<th><strong>Journey Agent: Gebruiksscenario voor geordende campagne maken</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt afbeeldingen nu rechtstreeks in Journey Optimizer converteren naar sjablonen voor e-mailinhoud. Gebruik een door AI aangedreven analyse om automatisch gestructureerde HTML-sjablonen te genereren op basis van visuele referenties, waardoor de ontwerptijd voor e-mail aanzienlijk korter wordt.</p>
-<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+<p><strong> Journey Agent </strong>, aangedreven door Adobe Experience Platform Agent Orchestrator, kan volledige <strong> Geordende het gebruiksgevallen van de Campagne </strong> nu tot stand brengen door een natuurlijke taalinterface. Beschrijf uw campagnedoel en vereisten in duidelijke taal, en Journey Agent vormt de campagnestructuur, de activiteiten, en het richten voor u.</p>
 </td>
 </tr>
 </tbody>
@@ -73,13 +72,16 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <table>
 <thead>
 <tr>
-<th><strong>Incrementele queryactiviteit in geordende campagnes</strong><br/></th>
+<th><strong>Journey Agent: Kanaalinhoud maken</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Een nieuwe <strong> Incrementele vraag </strong> activiteit is nu beschikbaar in Geordende Campagnes. Deze activiteit vraagt slechts nieuwe of bijgewerkte verslagen sinds de laatste werkschemauitvoering, beduidend verminderend verwerkingstijd en verbeterend efficiency voor terugkomende campagnes gericht op grote datasets.</p>
+<p>Aangedreven door <strong> Adobe Experience Platform Agent Orchestrator </strong>, <strong> Journey Agent </strong> is beschikbaar in Journey Optimizer en laat u toe om reizen door een natuurlijke taalinterface te analyseren. U kunt kanaal-specifieke inhoud nu ook direct in Journey Agent produceren en beheren, creërend inhoud voor kanalen zoals e-mail en duw, het toepassen van en het voorvertonen van malplaatjes, het verfijnen van toon en stijl door herinneringen, en het openen van inhoud in <strong> Inhoud Designer </strong> voor in-context het uitgeven.</p>
+<p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 4 maart 2026</p>
 </td>
 </tr>
 </tbody>
@@ -103,6 +105,36 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <table>
 <thead>
 <tr>
+<th><strong>Gestroomlijnde campagnes activeren met behulp van API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu een geordende campagne activeren via API. Vorm de doelcampagne als "teweeggebracht door een signaal"en publiceer het. Gebruik vervolgens een API-aanroep om de campagne te starten. De API-aanroep kan parameters bevatten die beschikbaar zijn als variabelen in de getriggerde campagne.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Incrementele queryactiviteit in geordende campagnes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Een nieuwe <strong> Incrementele vraag </strong> activiteit is nu beschikbaar in Geordende Campagnes. Deze activiteit vraagt slechts nieuwe of bijgewerkte verslagen sinds de laatste werkschemauitvoering, beduidend verminderend verwerkingstijd en verbeterend efficiency voor terugkomende campagnes gericht op grote datasets.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Testactiviteit in geordende campagnes</strong><br/></th>
 </tr>
 </thead>
@@ -110,37 +142,6 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <tr>
 <td>
 <p>Een nieuwe <strong> activiteit van de Test </strong> is nu beschikbaar in Geordende Campagnes. Deze activiteit leidt werkschemauitvoering aan verschillende takken die op bepaalde voorwaarden worden gebaseerd, toelatend u om campagnelogica en configuraties te bevestigen alvorens levende leveringen te activeren.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Aangepaste formulieren in bestemmingspagina's</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt <strong> douaneformulieren </strong> in het landen van pagina's nu tot stand brengen om specifieke abonneegegevens voorbij standaard opt-in gebieden te verzamelen. Definieer uw eigen formuliervelden, validatieregels en gedrag voor verzending ter ondersteuning van een groter aantal gebruikstoepassingen voor abonnementen en profielverrijking.</p>
-<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey Agent: Gebruiksscenario voor geordende campagne maken</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong> Journey Agent </strong>, aangedreven door Adobe Experience Platform Agent Orchestrator, kan volledige <strong> Geordende het gebruiksgevallen van de Campagne </strong> nu tot stand brengen door een natuurlijke taalinterface. Beschrijf uw campagnedoel en vereisten in duidelijke taal, en Journey Agent vormt de campagnestructuur, de activiteiten, en het richten voor u.</p>
 </td>
 </tr>
 </tbody>
@@ -165,30 +166,13 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <table>
 <thead>
 <tr>
-<th><strong>Ondersteuning voor besluitvorming in e-mailkanaal</strong><br/></th>
+<th><strong>Ondersteuning voor opzoeken van gegevenssets tijdens reizen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt <strong> Beslissing </strong> nu gebruiken om de inhoud van uw e-mailberichten te personaliseren en te optimaliseren. Gebruik Prioriteitsscores, Formulas of AI-modellen om de meest relevante aanbiedingen en inhoud aan elke ontvanger weer te geven.</p>
-<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid). Met deze algemene beschikbaarheidsrelease worden spiegelpagina's nu ondersteund.</p>
-<p>Raadpleeg de <a href="../experience-decisioning/create-decision-policy.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Bericht in vak</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Een nieuw <strong> Bericht Inbox </strong> is nu beschikbaar in Adobe Journey Optimizer, die een gecentraliseerde mening van ontvangen in-app, duw, en SMS berichten verstrekt. Ontvangers hebben toegang tot al hun berichten en kunnen met al hun berichten communiceren op één plaats, waardoor rijkere betrokkenheids- en herbetrokkenheidsscenario's mogelijk zijn.</p>
+<p>Een nieuwe activiteit in reizen, de raadpleging van de Dataset, staat u toe om gegevens van de gegevensreeksen van het verslag van Adobe Experience Platform dynamisch terug te winnen tijdens runtime. Door gebruik te maken van deze mogelijkheid hebt u toegang tot gegevens die mogelijk niet in het profiel of de lading van de gebeurtenis zijn opgeslagen, zodat uw klanteninteractie zowel relevant als tijdig is. Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid). Raadpleeg de <a href="../building-journeys/dataset-lookup.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -212,47 +196,15 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <table>
 <thead>
 <tr>
-<th><strong>Ondersteuning voor opzoeken van gegevenssets tijdens reizen</strong><br/></th>
+<th><strong>Ondersteuning voor besluitvorming in e-mailkanaal</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Een nieuwe activiteit in reizen, de raadpleging van de Dataset, staat u toe om gegevens van de gegevensreeksen van het verslag van Adobe Experience Platform dynamisch terug te winnen tijdens runtime. Door gebruik te maken van deze mogelijkheid hebt u toegang tot gegevens die mogelijk niet in het profiel of de lading van de gebeurtenis zijn opgeslagen, zodat uw klanteninteractie zowel relevant als tijdig is. Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid). Raadpleeg de <a href="../building-journeys/dataset-lookup.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Gestroomlijnde campagnes activeren met behulp van API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt nu een geordende campagne activeren via API. Vorm de doelcampagne als "teweeggebracht door een signaal"en publiceer het. Gebruik vervolgens een API-aanroep om de campagne te starten. De API-aanroep kan parameters bevatten die beschikbaar zijn als variabelen in de getriggerde campagne.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Geavanceerde HTML-editor voor e-mailsjablonen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Met de geavanceerde HTML-modus voor sjablonen voor e-mailinhoud kunt u de HTML-bron van uw inhoud bewerken in de e-mail Designer, geavanceerde expressies (zoals voorwaarden) toevoegen aan de bron en schakelen tussen de HTML-weergave en de Desktop-weergave zonder dat uw wijzigingen verloren gaan.</p>
-<p>Deze mogelijkheid is alleen beschikbaar in inhoudssjablonen voor het e-mailkanaal. Deze bevindt zich momenteel in beperkte beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
-<p><img src="assets/do-not-localize/expert-mode.gif"/></p>
-<p>Raadpleeg de <a href="../content-management/email-template-expert-mode.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p>Beschikbaarheidsdatum: 10 maart 2026</p>
+<p>U kunt <strong> Beslissing </strong> nu gebruiken om de inhoud van uw e-mailberichten te personaliseren en te optimaliseren. Gebruik Prioriteitsscores, Formulas of AI-modellen om de meest relevante aanbiedingen en inhoud aan elke ontvanger weer te geven.</p>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid). Met deze algemene beschikbaarheidsrelease worden spiegelpagina's nu ondersteund.</p>
+<p>Raadpleeg de <a href="../experience-decisioning/create-decision-policy.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -280,16 +232,14 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent: Kanaalinhoud maken</strong><br/></th>
+<th><strong>Aangepaste formulieren in bestemmingspagina's</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Aangedreven door <strong> Adobe Experience Platform Agent Orchestrator </strong>, <strong> Journey Agent </strong> is beschikbaar in Journey Optimizer en laat u toe om reizen door een natuurlijke taalinterface te analyseren. U kunt kanaal-specifieke inhoud nu ook direct in Journey Agent produceren en beheren, creërend inhoud voor kanalen zoals e-mail en duw, het toepassen van en het voorvertonen van malplaatjes, het verfijnen van toon en stijl door herinneringen, en het openen van inhoud in <strong> Inhoud Designer </strong> voor in-context het uitgeven.</p>
-<p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
-<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=nl-NL">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p>Beschikbaarheidsdatum: 4 maart 2026</p>
+<p>U kunt <strong> douaneformulieren </strong> in het landen van pagina's nu tot stand brengen om specifieke abonneegegevens voorbij standaard opt-in gebieden te verzamelen. Definieer uw eigen formuliervelden, validatieregels en gedrag voor verzending ter ondersteuning van een groter aantal gebruikstoepassingen voor abonnementen en profielverrijking.</p>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
 </td>
 </tr>
 </tbody>
@@ -298,16 +248,48 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <table>
 <thead>
 <tr>
-<th><strong>Live-activiteiten voor iOS</strong><br/></th>
+<th><strong>Bericht in vak</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Breng real-time ervaringen rechtstreeks naar het slot van Screens en Dynamic Island van uw klanten met iOS Live Activity in Adobe Journey Optimizer. Lever live updates, van bestelling volgen en vliegstatus tot aftellingen van gebeurtenissen, live scores en voortgang van de levering, zonder dat gebruikers uw app hoeven te openen. Houd je publiek op de hoogte en betrokken op precies het juiste moment, waar ze zijn.</p>
-<p>Eerder in bèta is deze mogelijkheid nu beschikbaar voor alle omgevingen (algemene beschikbaarheid).</p>
-<p>Raadpleeg de <a href="../mobile-live/get-started-mobile-live.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p>Beschikbaarheidsdatum: 3 maart 2026</p>
+<p>Een nieuw <strong> Bericht Inbox </strong> is nu beschikbaar in Adobe Journey Optimizer, die een gecentraliseerde mening van ontvangen in-app, duw, en SMS berichten verstrekt. Ontvangers hebben toegang tot al hun berichten en kunnen met al hun berichten communiceren op één plaats, waardoor rijkere betrokkenheids- en herbetrokkenheidsscenario's mogelijk zijn.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Afbeeldingen converteren naar sjablonen voor e-mailinhoud</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt afbeeldingen nu rechtstreeks in Journey Optimizer converteren naar sjablonen voor e-mailinhoud. Gebruik een door AI aangedreven analyse om automatisch gestructureerde HTML-sjablonen te genereren op basis van visuele referenties, waardoor de ontwerptijd voor e-mail aanzienlijk korter wordt.</p>
+<p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Geavanceerde HTML-editor voor e-mailsjablonen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met de geavanceerde HTML-modus voor sjablonen voor e-mailinhoud kunt u de HTML-bron van uw inhoud bewerken in de e-mail Designer, geavanceerde expressies (zoals voorwaarden) toevoegen aan de bron en schakelen tussen de HTML-weergave en de Desktop-weergave zonder dat uw wijzigingen verloren gaan.</p>
+<p>Deze mogelijkheid is alleen beschikbaar in inhoudssjablonen voor het e-mailkanaal. Deze bevindt zich momenteel in beperkte beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+<p><img src="assets/do-not-localize/expert-mode.gif"/></p>
+<p>Raadpleeg de <a href="../content-management/email-template-expert-mode.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 10 maart 2026</p>
 </td>
 </tr>
 </tbody>
@@ -327,6 +309,24 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <ul><li> <strong> Adobe model </strong> (aangedreven door Firefly Image Model 4) voor directe beeldgeneratie zonder extra opstelling</li><li> <strong> model van de Partner </strong> (aangedreven door Gemini 2.5 Flits) voor gespecialiseerde mogelijkheden</li><li><strong> de modellen van de Douane </strong> (merkspecifieke modellen die op uw eigen activa worden opgeleid) voor de generatie van het merk die precies op uw merkidentiteit, stijl, en visuele richtlijnen richt.</li></ul>
 <p>Raadpleeg de <a href="../content-management/generative-models.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <p>Beschikbaarheidsdatum: 2 maart 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Live-activiteiten voor iOS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Breng real-time ervaringen rechtstreeks naar het slot van Screens en Dynamic Island van uw klanten met iOS Live Activity in Adobe Journey Optimizer. Lever live updates, van bestelling volgen en vliegstatus tot aftellingen van gebeurtenissen, live scores en voortgang van de levering, zonder dat gebruikers uw app hoeven te openen. Houd je publiek op de hoogte en betrokken op precies het juiste moment, waar ze zijn.</p>
+<p>Eerder in bèta is deze mogelijkheid nu beschikbaar voor alle omgevingen (algemene beschikbaarheid).</p>
+<p>Raadpleeg de <a href="../mobile-live/get-started-mobile-live.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Beschikbaarheidsdatum: 3 maart 2026</p>
 </td>
 </tr>
 </tbody>
@@ -391,11 +391,11 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 ## Opmerkingen bij de release van februari &#39;26 {#feb-26-01-rn}
 
-De [&#x200B; Nieuwe mogelijkheden &#x200B;](#feb-26-01-features) en [&#x200B; secties van Verbeteringen &#x200B;](#feb-26-01-improv) behandelen reeds beschikbare mogelijkheden. De [&#x200B; komende spoedig &#x200B;](#coming-soon) sectie maakt een lijst van eigenschappen en verbeteringen die voor versie later in Februari worden gepland.
+De [ Nieuwe mogelijkheden ](#feb-26-01-features) en [ secties van Verbeteringen ](#feb-26-01-improv) behandelen reeds beschikbare mogelijkheden. De [ komende spoedig ](#coming-soon) sectie maakt een lijst van eigenschappen en verbeteringen die voor versie later in Februari worden gepland.
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -594,7 +594,7 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 #### Configuratie
 
-* **het gebeurtenisgebruik van de Ervaring in reisuitdrukkingen** - Beginnend 1 April, 2026, zal het gebruik van de attributen van de ervaringsgebeurtenis in reisuitdrukkingen niet meer gesteund worden voor organisaties die dit vermogen in de laatste 90 dagen niet hebben gebruikt. Deze mogelijkheid is al sinds 8 juli 2025 niet meer beschikbaar voor nieuwe klantenorganisaties. Voor alternatieven, zie [&#x200B; de gebeurtenisraadpleging van de Ervaring in reizen &#x200B;](../building-journeys/exp-event-lookup.md).
+* **het gebeurtenisgebruik van de Ervaring in reisuitdrukkingen** - Beginnend 1 April, 2026, zal het gebruik van de attributen van de ervaringsgebeurtenis in reisuitdrukkingen niet meer gesteund worden voor organisaties die dit vermogen in de laatste 90 dagen niet hebben gebruikt. Deze mogelijkheid is al sinds 8 juli 2025 niet meer beschikbaar voor nieuwe klantenorganisaties. Voor alternatieven, zie [ de gebeurtenisraadpleging van de Ervaring in reizen ](../building-journeys/exp-event-lookup.md).
 
 #### Contentmanagement
 
