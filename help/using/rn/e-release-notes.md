@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # Opmerkingen voorafgaand aan de release {#e-release-notes}
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [&#x200B; versienota&#39;s &#x200B;](release-notes.md).
 
 ## Opmerkingen voorafgaand aan de release van 26 maart {#march-26-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: Maart 24-25, 2026
 
@@ -264,51 +264,51 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 * **Arbitrage van de Reis - AI Modellen** - Naast rangschikkende formules, kunnen de modellen van AI nu met de Arbitrage van de Reis worden gebruikt om reisingang voor klanten automatisch te rangschikken en voorrang te geven, gebruikend machine het leren om de meest relevante reis voor elk profiel te bepalen dat op historisch gedrag en contextafhankelijke signalen wordt gebaseerd. Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
-  De taak van JIRA van de documentatie: [ DOCAC-14295 ](https://jira.corp.adobe.com/browse/DOCAC-14295)
+  De taak van JIRA van de documentatie: [&#x200B; DOCAC-14295 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-14295)
 
 #### Rapportage
 
 * **sluit beide klikken voor e-mail en SMS het melden** uit - E-mail en SMS het melden filtreert nu automatisch uit beide klikken van klikmetriek, die nauwkeurigere betrokkenheidsgegevens verstrekken en geautomatiseerd verkeer verhinderen uw prestatiescijfers te verhogen.
-De taak van JIRA van de documentatie: [ DOCAC-14354 ](https://jira.corp.adobe.com/browse/DOCAC-14354)
+De taak van JIRA van de documentatie: [&#x200B; DOCAC-14354 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-14354)
 
 * **Send-Time Optimalisering: de bijgewerkte controleplaats en het nieuwe liftrapport** - de controles van de Optimalisering van de Send-Time (STO) zijn herplaatst van de Linkerspoorlijn van de Actie aan de configuratie van de Actie. Bovendien is er nu een nieuw liftrapport beschikbaar in Dagrapporten om de impact van STO op de maatstaven van de prestaties van uw campagne te meten.
 
-  De taak van JIRA van de documentatie: [ DOCAC-14335 ](https://jira.corp.adobe.com/browse/DOCAC-14335)
+  De taak van JIRA van de documentatie: [&#x200B; DOCAC-14335 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-14335)
 
 #### Email Designer
 
 * **Open-time verpersoonlijking die Dynamische Media (Beta) gebruiken** - u kunt e-mailinhoud in open tijd nu personaliseren gebruikend de Dynamische activa van Media van Adobe, toelatend in real time, ontvanger-specifieke beelden en visuals die dynamisch gebaseerd op de attributen van elke ontvanger op het ogenblik van e-mailopening worden geproduceerd. Deze mogelijkheid is momenteel in Beta.
-De taak van JIRA van de documentatie: [ DOCAC-14353 ](https://jira.corp.adobe.com/browse/DOCAC-14353)
+De taak van JIRA van de documentatie: [&#x200B; DOCAC-14353 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-14353)
 
 * **E-mail Designer die in Verenigde Shell** wordt getoond - E-mail Designer wordt nu getoond binnen de Verenigde ervaring van Shell, die een verenigbare navigatie en kopbalervaring verstrekt die met andere toepassingen van Adobe richt.
-De taak van JIRA van de documentatie: [ DOCAC-14254 ](https://jira.corp.adobe.com/browse/DOCAC-14254)
+De taak van JIRA van de documentatie: [&#x200B; DOCAC-14254 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-14254)
 
 * **de wijzessteun van de Tekst in fragmenten** - de Fragmenten steunen nu tekstwijze het uitgeven, toestaand u om gewone tekstversies van uw inhoudsfragmenten voor gebruik in op tekst-gebaseerde e-mailwerkschema&#39;s en multi-kanaalscenario&#39;s tot stand te brengen en te beheren.
-De taak van JIRA van de documentatie: [ DOCAC-14204 ](https://jira.corp.adobe.com/browse/DOCAC-14204)
+De taak van JIRA van de documentatie: [&#x200B; DOCAC-14204 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-14204)
 
 #### Beslissing
 
 * **de veranderingsvoedersteun van de Verwijzing van het Fragment van de Uitdrukking in Edge Decisioning** - Deze verhoging staat veranderingen in fragmentverwijzingen toe om automatisch in alle punten worden weerspiegeld die fragmenten van verwijzingen voorzien, zonder om het even wat te verfrissen manueel (het herpubliceren van de campagne of het besluitvormingsbeleid).
-De taak van JIRA van de documentatie: [ DOCAC-14350 ](https://jira.corp.adobe.com/browse/DOCAC-14350)
+De taak van JIRA van de documentatie: [&#x200B; DOCAC-14350 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-14350)
 
 * **de Facultatieve fragmenten in besluitvormingspunten** - de Fragmenten verbonden aan besluitvormingspunten kunnen nu als facultatief worden gevormd, die grotere flexibiliteit in inhoudsamenstelling verstrekken wanneer niet alle het besluitvormingspunt teruggeven een specifiek fragment vereisen.
-De taak van JIRA van de documentatie: [ DOCAC-14309 ](https://jira.corp.adobe.com/browse/DOCAC-14309)
+De taak van JIRA van de documentatie: [&#x200B; DOCAC-14309 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-14309)
 
 #### Configuratie
 
 * **URL parameterencryptie** - de parameters URL in het volgen van verbindingen en het landen van pagina&#39;s kunnen nu worden gecodeerd, die een extra laag van veiligheid voor gevoelige parametergegevens verstrekken. Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
-De taak van JIRA van de documentatie: [ DOCAC-14349 ](https://jira.corp.adobe.com/browse/DOCAC-14349)
+De taak van JIRA van de documentatie: [&#x200B; DOCAC-14349 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-14349)
 
 * **Omslagen voor reizen en campagnes** - u kunt uw reizen en campagnes in omslagen nu organiseren, toelatend gestructureerde navigatie en gemakkelijker beheer voor teams die met grote volumes van inhoud werken. Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
-De taak van JIRA van de documentatie: [ DOCAC-14038 ](https://jira.corp.adobe.com/browse/DOCAC-14038)
+De taak van JIRA van de documentatie: [&#x200B; DOCAC-14038 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-14038)
 
 #### Geordende campagnes
 
 * **Globale variabelen in Geordende Campagnes** - Geordende Campagnes steunen nu globale variabelen die eens kunnen worden bepaald en over alle activiteiten binnen een werkschema worden hergebruikt, die configuratie vereenvoudigen en consistentie in dynamische waarden, uitdrukkingen, en inhoudsprijdmaking verzekeren.
-De taak van JIRA van de documentatie: [ DOCAC-14113 ](https://jira.corp.adobe.com/browse/DOCAC-14113)
+De taak van JIRA van de documentatie: [&#x200B; DOCAC-14113 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-14113)
 
 * **vereenvoudiging van de dimensie van het Doel in Geordende Campagnes** - u kunt of automatisch het recht selecteren en de secundaire dimensies in Geordende campagnes voor nauwkeurige, efficiënte publieksactivering nu selecteren of automatisch aftrekken.
-De taak van JIRA van de documentatie: [ DOCAC-13554 ](https://jira.corp.adobe.com/browse/DOCAC-13554)
+De taak van JIRA van de documentatie: [&#x200B; DOCAC-13554 &#x200B;](https://jira.corp.adobe.com/browse/DOCAC-13554)
 
 <!--
 ## February '26 pre-release notes {#feb-26-01-rn}
