@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 48d1e15bab9bc01d31795358cc4f632fd2a5b7dc
+source-git-commit: 87814676a7087373a22dcbd6b60ec909f1d4dcf9
 workflow-type: tm+mt
-source-wordcount: '3121'
+source-wordcount: '3247'
 ht-degree: 5%
 
 ---
@@ -23,15 +23,15 @@ ht-degree: 5%
 
 [!DNL Adobe Journey Optimizer] volgt een doorlopend leveringsmodel, dat Adobe in staat stelt voortdurend nieuwe functies, verbeteringen en correcties te leveren. Deze benadering maakt een schaalbare, gefaseerde implementatie van mogelijkheden mogelijk om prestaties en stabiliteit in alle omgevingen te garanderen.
 
-Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [&#x200B; de versiecyclus van Journey Optimizer &#x200B;](releases.md).
+Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [ de versiecyclus van Journey Optimizer ](releases.md).
 
-[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Opmerkingen voorafgaand aan de release van 26 maart {#march-26-rn}
 
 **de pre-versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd in de releaseopmerkingen op de releasedatum.
 
-Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Zie ook [ de pre-versienota&#39;s van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **de datum van de Versie**: Maart 24-25, 2026
 
@@ -80,8 +80,24 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <td>
 <p>Aangedreven door <strong> Adobe Experience Platform Agent Orchestrator </strong>, <strong> Journey Agent </strong> is beschikbaar in Journey Optimizer en laat u toe om reizen door een natuurlijke taalinterface te analyseren. U kunt kanaal-specifieke inhoud nu ook direct in Journey Agent produceren en beheren, creërend inhoud voor kanalen zoals e-mail en duw, het toepassen van en het voorvertonen van malplaatjes, het verfijnen van toon en stijl door herinneringen, en het openen van inhoud in <strong> Inhoud Designer </strong> voor in-context het uitgeven.</p>
 <p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
-<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=nl-NL">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">gedetailleerde documentatie</a> voor meer informatie.</p>
 <p>Beschikbaarheidsdatum: 4 maart 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Reisarbitrage - AI-modellen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu AI-modellen in uw rangschikkingsformules gebruiken om automatisch de prioriteitsscores voor reizen te verhogen op basis van de kenmerken van het klantprofiel en contextafhankelijke factoren, zodat klanten de meest relevante reizen kunnen betreden.</p>
+<p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
 </td>
 </tr>
 </tbody>
@@ -150,13 +166,35 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <table>
 <thead>
 <tr>
+<th><strong>Codering van URL-parameters</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>URL-parameters in het bijhouden van koppelingen en bestemmingspagina's kunnen nu worden gecodeerd, zodat een extra beveiligingslaag voor vertrouwelijke parametergegevens beschikbaar is.</p>
+<ul>
+<li>Registreer en beheer encryptiesleutels in een specifiek <strong> register van het Beleid </strong>.</li>
+<li>Gebruik de nieuwe encryptiehelper in uitdrukkingen om gevoelige gegevens in het volgen van verbindingen en het landen pagina URLs voor de vraagparameters te coderen u bij teruggevende tijd wilt beschermen.</li>
+</ul>
+<p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Reispad optimaliseren</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong> optimalisering van de weg van de Reis </strong> gebruikt AI om historische reisprestaties te analyseren en automatisch de beste weg voor elke klant te selecteren, die omzettings en betrokkenheidsresultaten maximaliseert.</p>
+<p>Gebruik de nieuwe Optimize knoop om specifieke doelgroepen te richten of A/B tests in werking te stellen om de beste weg te bepalen om aan uw zaken-centric KPIs te voldoen.
+Dit hulpmiddel staat u toe om te testen en te variëren, en mededelingen, het rangschikken, en timing aan te passen om uw klanten het best te bereiken.
+</p>
 <p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid).</p>
 </td>
 </tr>
@@ -187,7 +225,10 @@ Zie ook [&#x200B; de pre-versienota&#39;s van Adobe Experience Platform &#x200B;
 <tbody>
 <tr>
 <td>
-<p>Na de Algemene Beschikbaarheid van de <strong> activiteit van de Actie </strong> in Februari 2026, de activiteiten van de erfenis inheemse kanaalactie (E-mail, SMS, Duw, In-App, enz.) in het wegcanvas worden nu afgekeurd. Bestaande reizen die gebruikmaken van activiteiten van het oude kanaal blijven functioneren zonder dat er wijzigingen of migratie vereist zijn. Raadpleeg de <a href="../building-journeys/journey-action.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Na de Algemene Beschikbaarheid van de <strong> activiteit van de Actie </strong> in Februari 2026, de activiteiten van het erfenisinheemse kanaal (E-mail, Duw, SMS, In-app, Web, op code-gebaseerde ervaring, en de Kaart van de Inhoud) in het reiscanvas worden nu afgekeurd.</p>
+<p>U gebruikt nu één enkele <strong> activiteit van de Actie </strong> om alle kanaalacties te vormen, die de behoefte aan afzonderlijke kanaal-specifieke knopen vervangen.</p>
+Bestaande reizen die gebruikmaken van activiteiten van het oude kanaal zullen blijven functioneren zonder dat wijzigingen of migratie vereist zijn.
+<p>Raadpleeg de <a href="../building-journeys/journey-action.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -338,8 +379,6 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 #### Journeys
 
-* **Arbitrage van de Reis - AI Modellen** - Naast rangschikkende formules, kunnen de modellen van AI nu met de Arbitrage van de Reis worden gebruikt om reisingang voor klanten automatisch te rangschikken en voorrang te geven, gebruikend machine het leren om de meest relevante reis voor elk profiel te bepalen dat op historisch gedrag en contextafhankelijke signalen wordt gebaseerd. Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
-
 * **Golf die berichten in reizen** verzendt - u kunt berichten van de reizen van Journey Optimizer nu plannen die in gecontroleerde partijen in tijd moeten worden geleverd. [Meer informatie](../building-journeys/send-using-waves.md)
 
   Eerder vrijgegeven in Beperkte Beschikbaarheid voor gebruik in reizen, is deze capaciteit nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid).
@@ -362,17 +401,17 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 * **E-mail Designer die in Verenigde Shell** wordt getoond - E-mail Designer wordt nu getoond binnen de Verenigde ervaring van Shell, die een verenigbare navigatie en kopbalervaring verstrekt die met andere toepassingen van Adobe richt.
 
-* **de wijzessteun van de Tekst in fragmenten** - de Fragmenten steunen nu tekstwijze het uitgeven, toestaand u om gewone tekstversies van uw inhoudsfragmenten voor gebruik in op tekst-gebaseerde e-mailwerkschema&#39;s en multi-kanaalscenario&#39;s tot stand te brengen en te beheren.
+* **de wijzesteun van de Tekst in fragmenten** - om op tekst-gebaseerde e-mailwerkschema&#39;s te steunen, kunt u tekstversies van uw visuele fragmenten voor optimaal gebruik in de gewone tekstversie van e-mails nu tot stand brengen en beheren die dat fragment omvatten.
+
+  **Voorzichtigheid:** wanneer het gebruiken van een fragment dat vóór de huidige versie werd gecreeerd, kan de versie van de fragmenttekst verkeerd worden teruggegeven-zowel in E-mail Designer als in definitieve e-mail die aan uw ontvangers wordt geleverd. Voor de beste resultaten met oudere fragmenten kunt u elk fragment bewerken, opslaan en opnieuw publiceren.
 
 #### Beslissing
 
-* **de veranderingsvoedersteun van de Verwijzing van het Fragment van de Uitdrukking in Edge Decisioning** - Deze verhoging staat veranderingen in fragmentverwijzingen toe om automatisch in alle punten worden weerspiegeld die fragmenten van verwijzingen voorzien, zonder om het even wat te verfrissen manueel (het herpubliceren van de campagne of het besluitvormingsbeleid).
+* **de veranderingsvoer van de fragmentverwijzing van de Uitdrukking in Edge Decisioning** - Deze verhoging staat veranderingen in fragmentverwijzingen toe om automatisch in alle punten worden weerspiegeld die fragmenten van verwijzingen voorzien, zonder om het even wat te verfrissen manueel (het herpubliceren van de campagne of het besluitvormingsbeleid).
 
-* **de Facultatieve fragmenten in besluitvormingspunten** - de Fragmenten verbonden aan besluitvormingspunten kunnen nu als facultatief worden gevormd, die grotere flexibiliteit in inhoudsamenstelling verstrekken wanneer niet alle het besluitvormingspunt teruggeven een specifiek fragment vereisen.
+* **Facultatieve fragmenten in besluitvormingspunten** - wanneer het gebruiken van fragmenten in besluitvormingspunten, kunt u een fragment facultatief nu maken zodat als het tijdelijk op Edge niet beschikbaar is, het wordt overgeslagen en de reis of de campagne blijft teruggeven in plaats van het ontbreken.
 
 #### Configuratie
-
-* **URL parameterencryptie** - de parameters URL in het volgen van verbindingen en het landen van pagina&#39;s kunnen nu worden gecodeerd, die een extra laag van veiligheid voor gevoelige parametergegevens verstrekken. Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 * **Omslagen voor reizen en campagnes** - u kunt uw reizen en campagnes in omslagen nu organiseren, toelatend gestructureerde navigatie en gemakkelijker beheer voor teams die met grote volumes van inhoud werken. Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
@@ -391,11 +430,11 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 ## Opmerkingen bij de release van februari &#39;26 {#feb-26-01-rn}
 
-De [&#x200B; Nieuwe mogelijkheden &#x200B;](#feb-26-01-features) en [&#x200B; secties van Verbeteringen &#x200B;](#feb-26-01-improv) behandelen reeds beschikbare mogelijkheden. De [&#x200B; komende spoedig &#x200B;](#coming-soon) sectie maakt een lijst van eigenschappen en verbeteringen die voor versie later in Februari worden gepland.
+De [ Nieuwe mogelijkheden ](#feb-26-01-features) en [ secties van Verbeteringen ](#feb-26-01-improv) behandelen reeds beschikbare mogelijkheden. De [ komende spoedig ](#coming-soon) sectie maakt een lijst van eigenschappen en verbeteringen die voor versie later in Februari worden gepland.
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -594,7 +633,7 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 
 #### Configuratie
 
-* **het gebeurtenisgebruik van de Ervaring in reisuitdrukkingen** - Beginnend 1 April, 2026, zal het gebruik van de attributen van de ervaringsgebeurtenis in reisuitdrukkingen niet meer gesteund worden voor organisaties die dit vermogen in de laatste 90 dagen niet hebben gebruikt. Deze mogelijkheid is al sinds 8 juli 2025 niet meer beschikbaar voor nieuwe klantenorganisaties. Voor alternatieven, zie [&#x200B; de gebeurtenisraadpleging van de Ervaring in reizen &#x200B;](../building-journeys/exp-event-lookup.md).
+* **het gebeurtenisgebruik van de Ervaring in reisuitdrukkingen** - Beginnend 1 April, 2026, zal het gebruik van de attributen van de ervaringsgebeurtenis in reisuitdrukkingen niet meer gesteund worden voor organisaties die dit vermogen in de laatste 90 dagen niet hebben gebruikt. Deze mogelijkheid is al sinds 8 juli 2025 niet meer beschikbaar voor nieuwe klantenorganisaties. Voor alternatieven, zie [ de gebeurtenisraadpleging van de Ervaring in reizen ](../building-journeys/exp-event-lookup.md).
 
 #### Contentmanagement
 
