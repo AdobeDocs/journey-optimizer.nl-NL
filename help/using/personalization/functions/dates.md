@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 241af4304f0bed8f3addf28ed8e7bc746550d823
+source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 3%
+source-wordcount: '1419'
+ht-degree: 2%
 
 ---
 
@@ -416,7 +416,7 @@ Waar de eerste parameter het datum-tijdkenmerk is en de tweede waarde hoe u de d
 >
 > Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
 >
-> U kunt de datum die functies gebruiken Java zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> U kunt de datum die functies gebruiken Java zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **Voorbeelden**
 
@@ -484,6 +484,29 @@ Uitvoer: `sun` , `mon` , `tue` , enzovoort.
 
 +++
 
++++Een tijdstempel opmaken van een contextgebeurtenis
+
+Bij het gebruik van een tijdstempel van een transportgebeurteniscontextkenmerk zijn twee vereisten van toepassing:
+
+* **verpakt timestamp met`toDateTime()`** — de tijdstempels van de contextgebeurtenis worden niet automatisch erkend als datum-tijd waarden door `formatDate()`.
+* **de numerieke gebeurtenis IDs van de omslag in backticks** — als uw gebeurtenisidentiteitskaart een aantal (bijvoorbeeld, `1697323153`) is, moet het met backticks in de uitdrukkingspad zijn ontsnapt, anders heft de redacteur een de syntaxisfout van PQL op.
+* **Gebruik `{% let %}` toewijzingssyntaxis** - gealigneerde `{%= %}` syntaxis steunt dit patroon niet. Wijs eerst het resultaat aan een variabele toe en geef deze vervolgens weer met `{{varName}}` .
+
+```handlebars
+{% let appointmentDate = formatDate(toDateTime(context.journey.events.`1697323153`.timestamp), "dd/MM/yyyy HH:mm") %}
+{{appointmentDate}}
+```
+
+Uitvoer (voorbeeld): `18/03/2026 14:30`
+
++++
+
+>[!CAUTION]
+>
+>**Gemeenschappelijke fout: &quot;onjuist overtroffen input &#39; (&#39; verwacht \&lt;EOF\>&quot;**
+>
+>Deze PQL-syntaxisfout treedt op wanneer u `formatDate()` gebruikt met een inline tijdstempel voor een gebeurtenis context (`{%= formatDate(...) %}` ). De meest voorkomende oorzaken zijn een numerieke gebeurtenis-id die niet in terugloop (`` ` ``) is opgenomen, of een tijdstempelveld dat rechtstreeks aan `formatDate()` wordt doorgegeven zonder deze eerst in te pakken `toDateTime()` . U kunt beide problemen verhelpen door het `{% let %}` toewijzingspatroon in het bovenstaande voorbeeld te gebruiken.
+
 ### Patroontekens {#pattern-characters}
 
 Sommige patroonletters kunnen er hetzelfde uitzien, maar vertegenwoordigen verschillende concepten.
@@ -513,9 +536,9 @@ Waar de eerste tekenreeks het datumkenmerk is, is de tweede waarde hoe u de datu
 >
 > Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
 >
-> U kunt de datum het formatteren functies van Java zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) gebruiken.
+> U kunt de datum het formatteren functies van Java zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html) gebruiken.
 >
-> U kunt het formatteren en geldige scènes gebruiken zoals samengevat in [&#x200B; documentatie van Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [&#x200B; Gesteunde scènes &#x200B;](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> U kunt het formatteren en geldige scènes gebruiken zoals samengevat in [ documentatie van Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [ Gesteunde scènes ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 **Voorbeeld**
 

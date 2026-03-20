@@ -10,9 +10,9 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 4a5a512a3e9eddaf720e857f5a250c645b2454db
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Herzie deze vereisten alvorens u datasetraadplegingen vormt.
 
 ### Gegevensset inschakelen
 
-De dataset moet voor raadpleging in [!DNL Adobe Experience Platform] worden toegelaten. De gedetailleerde informatie is beschikbaar in deze sectie: [&#x200B; gegevens van het 1&rbrace; Gebruik  [!DNL Adobe Experience Platform] .](../data/lookup-aep-data.md)
+De dataset moet voor raadpleging in [!DNL Adobe Experience Platform] worden toegelaten. De gedetailleerde informatie is beschikbaar in deze sectie: [ gegevens van het 1} Gebruik  [!DNL Adobe Experience Platform] .](../data/lookup-aep-data.md)
 
 ### Beperkingen en beperkingen
 
@@ -66,7 +66,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Dataset lookup]** -activiteit t
 
 1. Ontgrendel de categorie **[!UICONTROL Orchestration]** en zet een **[!UICONTROL Dataset lookup]** -activiteit neer op uw canvas.
 
-   ![[!DNL Adobe Experience Platform] activiteit van de datasetraadpleging in reis &#x200B;](assets/aep-data-activity.png)
+   ![[!DNL Adobe Experience Platform] activiteit van de datasetraadpleging in reis ](assets/aep-data-activity.png)
 
 1. Voeg een label en beschrijving toe.
 
@@ -74,7 +74,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Dataset lookup]** -activiteit t
 
    >[!NOTE]
    >
-   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten. Voor meer details, verwijs naar [&#x200B; &#x200B;](#must-read) sectie moet lezen.
+   >Als de dataset u zoekt niet in de lijst toont, zorg ervoor u het voor raadpleging hebt toegelaten. Voor meer details, verwijs naar [ ](#must-read) sectie moet lezen.
 
 1. Selecteer de specifieke gebieden u van de dataset wilt halen.
 
@@ -84,7 +84,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Dataset lookup]** -activiteit t
 
    +++Voorbeeld
 
-   ![&#x200B; het gebiedsselectie van de Dataset die primitieve gegevenstypes en structuur tonen &#x200B;](assets/aep-data-leaf-primitive.png)
+   ![ het gebiedsselectie van de Dataset die primitieve gegevenstypes en structuur tonen ](assets/aep-data-leaf-primitive.png)
 
    +++
 
@@ -94,9 +94,13 @@ Voer de volgende stappen uit om de **[!UICONTROL Dataset lookup]** -activiteit t
 
    * Slechts **koorden** of **lijsten van koorden** worden gesteund.
 
+   >[!IMPORTANT]
+   >
+   >U moet de raadplegingssleutel bepalen gebruikend **geavanceerde wijze**. Als u eenvoudige wijze gebruikt om de sleutel te plaatsen, zal de output van de de opzoekactiviteit van de dataset niet beschikbaar als contextattribuut in stroomafwaartse activiteiten zijn, en de `@datasetLookup{}` syntaxis zal met een &quot;niet gevonden&quot;fout van de raadpleging van de Dataset in voorwaardenactiviteiten ontbreken.
+
    +++Voorbeeld
 
-   ![&#x200B; de redacteur van de Uitdrukking met de raadpleging van het gegevenssetgebied en koordfuncties &#x200B;](assets/aep-data-strings.png)
+   ![ de redacteur van de Uitdrukking met de raadpleging van het gegevenssetgebied en koordfuncties ](assets/aep-data-strings.png)
 
    +++
 
@@ -106,7 +110,7 @@ De gegevens die door de **[!UICONTROL Dataset lookup]** -activiteit worden opgeh
 
 * **Redacteur van de Uitdrukking van de Reis**:
 
-  Open de editor van **[!UICONTROL Advanced mode]** en gebruik de syntaxis: `@datasetLookup{MyDatasetLookUpActivity1.entities}` . [&#x200B; Leer hoe te met de geavanceerde uitdrukkingsredacteur te werken &#x200B;](../building-journeys/expression/expressionadvanced.md)
+  Open de editor van **[!UICONTROL Advanced mode]** en gebruik de syntaxis: `@datasetLookup{MyDatasetLookUpActivity1.entities}` . [ Leer hoe te met de geavanceerde uitdrukkingsredacteur te werken ](../building-journeys/expression/expressionadvanced.md)
 
 * **Redacteur van Personalization**:
 
@@ -126,7 +130,7 @@ De gegevens die door de **[!UICONTROL Dataset lookup]** -activiteit worden opgeh
 
 1. **Gebeurtenis van de Aankoop**: Vang SKUs van de kar van de gebruiker.
 
-1. **de opzoekactiviteit van 0&rbrace; Dataset:**
+1. **de opzoekactiviteit van 0} Dataset:**
 
    * Gegevensset: `products-dataset` (SKU als primaire sleutel).
    * Opzoektoetsen: `list(@event{purchase_event.products.sku})`.
@@ -171,7 +175,7 @@ De gegevens die door de **[!UICONTROL Dataset lookup]** -activiteit worden opgeh
 
 1. **Trigger van de Gebeurtenis van het Profiel**: Leg e-mail IDs van het profiel of gebeurteniscontext vast.
 
-1. **de activiteit van de Opzoeken van de Dataset van 0&rbrace;:**
+1. **de activiteit van de Opzoeken van de Dataset van 0}:**
    * Gegevensset: `loyalty-member-dataset` (e-mail als primaire sleutel).
    * Opzoektoetsen: `@profile.email`.
    * Te retourneren velden: `["email", "loyaltyTier"]`.
@@ -191,3 +195,15 @@ De gegevens die door de **[!UICONTROL Dataset lookup]** -activiteit worden opgeh
    ```
    {{context.journey.datasetLookup.1482319411.entity.loyaltyMember.loyaltyTier}}
    ```
+
++++
+
+## Problemen oplossen {#troubleshooting}
+
+### Fout in &#39;Opzoeken van gegevensset niet gevonden&#39; in voorwaardenactiviteit {#troubleshooting-not-found}
+
+**Symptom:** de `@datasetLookup{}` syntaxis in de geavanceerde uitdrukkingsredacteur van een voorwaardenactiviteit keert een &quot;gevonden de raadpleging van de Dataset niet&quot;fout terug, alhoewel de activiteit van de datasetraadpleging correct in de reis wordt gevormd.
+
+**Oorzaak:** de raadplegingssleutel in de activiteit van de datasetraadpleging werd geplaatst gebruikend eenvoudige wijze. Wanneer de sleutel niet op geavanceerde wijze wordt bepaald, wordt de activiteitenoutput niet blootgesteld als contextattribuut in stroomafwaartse activiteiten.
+
+**Repareren:** Open de activiteit van de datasetraadpleging, bepaal de plaats van het **[!UICONTROL Lookup key(s)]** gebied, en schakelaar aan **geavanceerde wijze** om de belangrijkste uitdrukking opnieuw te bepalen. Sla de activiteit op en publiceer de reis opnieuw.
