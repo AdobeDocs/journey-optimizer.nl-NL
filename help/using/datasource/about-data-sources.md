@@ -41,7 +41,7 @@ Er zijn twee soorten databronnen:
 
 >[!NOTE]
 >
->Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [ sectie ](../action/action-response.md)
+>Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [&#x200B; sectie &#x200B;](../action/action-response.md)
 
 Voor elke databron definieert u de informatie die u wilt ophalen met behulp van veldengroepen. Veldengroepen zijn reeksen velden die uit een databron kunnen worden opgehaald. Zie [deze pagina](../datasource/configure-data-sources.md#define-field-groups).
 
@@ -51,7 +51,7 @@ Voor elke databron definieert u de informatie die u wilt ophalen met behulp van 
 
 ## Kies uw strategie voor gegevenstoegang {#data-access-strategy}
 
-Alvorens een gegevensbron te vormen, overweeg welke benadering beste uw gebruiksgeval past. Er zijn drie opties beschikbaar, elk met verschillende compromissen wat betreft persistentie, profielverrijking en herbruikbaarheid. Voor een gedetailleerde bespreking van deze opties, zie [ Beste praktijken voor geavanceerde reizen in Journey Optimizer ](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+Alvorens een gegevensbron te vormen, overweeg welke benadering beste uw gebruiksgeval past. Er zijn drie opties beschikbaar, elk met verschillende compromissen wat betreft persistentie, profielverrijking en herbruikbaarheid. Voor een gedetailleerde bespreking van deze opties, zie [&#x200B; Beste praktijken voor geavanceerde reizen in Journey Optimizer &#x200B;](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 **Optie 1 — Toegang externe gegevens via de Acties van de Douane (geen het Leer van Gegevens)**
 
@@ -60,7 +60,7 @@ Sluit tijdens de reis rechtstreeks een externe API aan zonder permanente gegeven
 * De gegevens zijn alleen nuttig binnen de reiscontext en niet elders nodig.
 * Het externe systeem is toegankelijk door een API eindpunt dat de vereiste attributen terugkeert.
 
-Leer meer over [ douaneacties ](../action/action.md) en [ reacties van de douaneactie ](../action/action-response.md).
+Leer meer over [&#x200B; douaneacties &#x200B;](../action/action.md) en [&#x200B; reacties van de douaneactie &#x200B;](../action/action-response.md).
 
 **Optie 2 — Dataset in het Leer van Gegevens, niet toegelaten voor Profiel**
 
@@ -71,7 +71,7 @@ Gegevens in een gegevensset opnemen om reizen te activeren en te personaliseren 
 
 **Optie 3 — Profiel-Toegelaten dataset in het meer van Gegevens**
 
-De samenvattingsgegevens in a [ profiel-toegelaten dataset ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} om publiek tot stand te brengen, verrijken identiteitsgrafieken, en hefboomwerkingsgegevens over veelvoudige reizen en rt-CDP bestemmingen. Meest geschikt wanneer:
+De samenvattingsgegevens in a [&#x200B; profiel-toegelaten dataset &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} om publiek tot stand te brengen, verrijken identiteitsgrafieken, en hefboomwerkingsgegevens over veelvoudige reizen en rt-CDP bestemmingen. Meest geschikt wanneer:
 
 * De gegevens zijn handig voor publieksdefinities die worden gebruikt in kanalen buiten Journey Optimizer.
 * De gegevens bevatten meerdere identiteiten die bijdragen tot rijkere, gestikte profielfragmenten.
