@@ -6,7 +6,8 @@ description: Leer hoe u uw merkrichtlijnen kunt aanpassen
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+exl-id: e5254a1f-e256-4ec8-b165-0b5b62ae4034
+source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 0%
@@ -43,7 +44,7 @@ Gebruik het tabblad **[!UICONTROL About the brand]** om de belangrijkste identit
 
      ![](assets/brands-about-2.png)
 
-1. Van de **[!UICONTROL Core brand values]** categorie, klik ![&#x200B; Beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Add_18_N.svg " pictogram ") toevoegen om de kernwaarden van het merk toe te voegen en de details in te vullen:
+1. Van de **[!UICONTROL Core brand values]** categorie, klik ![ Beeld van de Duik alt tekst ](assets/do-not-localize/Smock_Add_18_N.svg " pictogram ") toevoegen om de kernwaarden van het merk toe te voegen en de details in te vullen:
 
    * **[!UICONTROL Value]**: geef een naam op voor een kernmerk.
 
@@ -55,11 +56,11 @@ Gebruik het tabblad **[!UICONTROL About the brand]** om de belangrijkste identit
 
      ![](assets/brands-12.png)
 
-1. Indien nodig, klik het ![&#x200B; beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Edit_18_N.svg " uitgeven ") pictogram om één van uw waarde van het kernmerk bij te werken of te schrappen.
+1. Indien nodig, klik het ![ beeld van de Duik alt tekst ](assets/do-not-localize/Smock_Edit_18_N.svg " uitgeven ") pictogram om één van uw waarde van het kernmerk bij te werken of te schrappen.
 
    ![](assets/brands-10.png)
 
-U kunt uw merk verder personaliseren of [&#x200B; uw merk &#x200B;](brands.md#create-brand-kit) publiceren.
+U kunt uw merk verder personaliseren of [ uw merk ](brands.md#create-brand-kit) publiceren.
 
 ## Schrijfstijl {#writing-style}
 
@@ -171,11 +172,11 @@ U past de **[!UICONTROL Writing Style]** als volgt aan:
 
 1. Selecteer zo nodig een van de hulplijnen of uitsluitingen die u wilt bijwerken of verwijderen.
 
-1. Klik het ![&#x200B; beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Edit_18_N.svg " uitgeven ") om uw voorbeeld of het ![Alternatieve tekst voor afbeelding duwen](assets/do-not-localize/Smock_Delete_18_N.svg "Verwijderen") pictogram uit te geven om het te schrappen.
+1. Klik het ![ beeld van de Duik alt tekst ](assets/do-not-localize/Smock_Edit_18_N.svg " uitgeven ") om uw voorbeeld of het ![Alternatieve tekst voor afbeelding duwen](assets/do-not-localize/Smock_Delete_18_N.svg "Verwijderen") pictogram uit te geven om het te schrappen.
 
    ![](assets/brands-11.png)
 
-U kunt uw merk verder personaliseren of [&#x200B; uw merk &#x200B;](#create-brand-kit) publiceren.
+U kunt uw merk verder personaliseren of [ uw merk ](#create-brand-kit) publiceren.
 
 ## Visuele inhoud {#visual-content}
 
@@ -247,11 +248,11 @@ U past de **[!UICONTROL Visual content]** als volgt aan:
 
 1. Selecteer zo nodig een van de hulplijnen of uitsluitingen die u wilt bijwerken of verwijderen.
 
-1. Selecteer één uw voorbeeld om het bij te werken, vervang het beeld of klik het ![&#x200B; beeld alt tekst van de Duik &#x200B;](assets/do-not-localize/Smock_Delete_18_N.svg " Schrapping ") pictogram om het te schrappen.
+1. Selecteer één uw voorbeeld om het bij te werken, vervang het beeld of klik het ![ beeld alt tekst van de Duik ](assets/do-not-localize/Smock_Delete_18_N.svg " Schrapping ") pictogram om het te schrappen.
 
    ![](assets/brands-14.png)
 
-U kunt uw merk verder personaliseren of [&#x200B; uw merk &#x200B;](brands.md#create-brand-kit) publiceren.
+U kunt uw merk verder personaliseren of [ uw merk ](brands.md#create-brand-kit) publiceren.
 
 <!--
 ## Colors {#colors}
