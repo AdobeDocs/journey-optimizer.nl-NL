@@ -10,9 +10,9 @@ level: Intermediate
 keywords: profiel, update, reis, activiteit
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 5383e0af430188dadd3e9ee259253115f7f1992d
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -24,63 +24,77 @@ ht-degree: 0%
 >title="Profielactiviteit bijwerken"
 >abstract="Met de actie Profiel bijwerken kunt u een bestaand [!DNL Adobe Experience Platform] -profiel bijwerken met informatie die afkomstig is van de gebeurtenis, een gegevensbron of een specifieke waarde gebruiken."
 
-Gebruik de handeling **[!UICONTROL Update Profile]** om een bestaand [!DNL Adobe Experience Platform] -profiel bij te werken met informatie die afkomstig is van een gebeurtenis, een gegevensbron of een specifieke waarde.
-
-## Belangrijkste concepten {#key-concepts}
-
-* De **actie van het Profiel van de Update** kan slechts in reizen worden gebruikt die een namespace hebben.
-* Met de handeling worden alleen bestaande velden bijgewerkt. Er worden geen nieuwe profielvelden gemaakt.
-* U kunt niet de **actie van het Profiel van de Update gebruiken** om ervaringsgebeurtenissen, bijvoorbeeld een aankoop te produceren.
-* Net als bij andere acties kunt u een alternatief pad definiëren in het geval van een fout of time-out. U kunt geen twee acties parallel plaatsen.
-* Het updateverzoek dat naar [!DNL Adobe Experience Platform] wordt verzonden, is onmiddellijk of binnen een seconde. Het duurt normaal een paar seconden, maar soms nog meer zonder garantie. Dientengevolge, bijvoorbeeld, als een actie &quot;gebied 1&quot;gebruikt dat door een **wordt bijgewerkt actie van het Profiel van de Update** wordt geplaatst juist vóór, zou u niet moeten verwachten dat &quot;gebied 1&quot;in de actie zal worden bijgewerkt.
-* De **het profiel van de Update** activiteit steunt geen gebieden XDM die als opsommingen of voorgestelde waarden worden bepaald.
-* De **[!UICONTROL Update profile]** activiteit werkt slechts de [&#x200B; Opslag van het Profiel &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl-NL#profile-data-store){target="_blank"} bij, niet het meer van Gegevens.
+Gebruik de **[!UICONTROL Update Profile]** -actieactiviteit om een bestaand [!DNL Adobe Experience Platform] -profiel te verrijken of te corrigeren terwijl een klant een reis maakt. U kunt veldwaarden instellen die afkomstig zijn van een reisgebeurtenis, een geconfigureerde gegevensbron of een statische waarde, zodat u de profielgegevens nauwkeurig en handelbaar kunt houden zonder het canvas van de reis te verlaten. Alvorens deze activiteit te vormen, herzie [ guardrails en beperkingen ](#guardrails) die van toepassing zijn.
 
 ## Selectie gegevensset {#dataset-selection}
 
-De **activiteit van het Profiel van de Update** vereist een specifieke dataset om updates op te slaan. Aangezien deze activiteit slechts de opslag van het Profiel (niet Datalake) bijwerkt, zouden alle updates in een profiel-toegelaten dataset specifiek moeten worden bewaard die voor **wordt aangewezen de acties van het Profiel van de Update**. Het gebruiken van een dataset die voor partij of het stromen ingeslikt wordt gebruikt zal in onlangs onberen gegevens resulteren die de veranderingen beschrijven die door de **actie van het Profiel van de Update** worden aangebracht.
+De **[!UICONTROL Update Profile]** -activiteit vereist een speciale dataset om updates op te slaan. Aangezien deze activiteit slechts de [ Opslag van het Profiel ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"} (niet Datalake) bijwerkt, zouden alle updates in a [ profiel-toegelaten dataset ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} specifiek moeten worden bewaard die voor **[!UICONTROL Update Profile]** acties wordt aangewezen.
 
-Bovendien, vereist de **activiteitenconfiguratie van het Profiel van de 0&rbrace; Update &lbrace;geen identiteit namespace.** Als dusdanig, zorg ervoor dat de geselecteerde dataset het zelfde **Gebruik van de Identiteit namespace** dat door de actie werd gebruikt die de reis lanceerde aangezien het dit namespace is deze updates zullen gebruiken. De identiteitskaart kan ook door de geselecteerde dataset worden gebruikt. Als u geen gegevensset selecteert met de juiste naamruimte of met een identiteitskaart, mislukt de activiteit Profiel bijwerken.
+>[!CAUTION]
+>
+>Gebruik geen dataset die ook voor partij of het stromen opname wordt gebruikt. Bij andere insluitingsbewerkingen worden de wijzigingen overschreven die door de handeling **[!UICONTROL Update Profile]** zijn aangebracht, waardoor de profielkenmerken verdwijnen of terugkeren naar de vorige waarden. Als u dit gedrag waarneemt, verifieer in Adobe Experience Platform dat geen andere opname aan de zelfde dataset schrijft. Voor het oplossen van problemenstappen, zie [ Oplossende mislukkingen van de profielupdate in Adobe Journey Optimizer ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26352){target="_blank"}.
 
-## De profielupdate gebruiken
+Bovendien, vereist de **[!UICONTROL Update Profile]** activiteitenconfiguratie geen [ identiteit namespace ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces){target="_blank"}. Als dusdanig, zorg ervoor dat de geselecteerde dataset het zelfde **[!UICONTROL Identity namespace]** gebruikt dat door de actie werd gebruikt die de reis lanceerde aangezien het deze namespace is deze updates zullen gebruiken. De identiteitskaart kan ook door de geselecteerde dataset worden gebruikt. Als u geen gegevensset selecteert met de juiste naamruimte voor identiteit of met een identiteitsoverzicht, mislukt de activiteit van **[!UICONTROL Update Profile]** .
 
-1. Ontwerp uw reis door met een gebeurtenis te beginnen. Zie deze [&#x200B; sectie &#x200B;](../building-journeys/journey.md).
+## De activiteit Profiel bijwerken configureren {#use-profile-update}
 
-1. In de **sectie van de Actie** van het palet, laat vallen de **activiteit van het Profiel van de Update** in het canvas.
+Volg de onderstaande stappen om de **[!UICONTROL Update Profile]** activiteit in uw reis te vormen.
 
-   ![&#x200B; de activiteit van het Profiel van de update in vervoerpalet onder Acties &#x200B;](assets/profileupdate0.png)
+1. Begin uw reis te ontwerpen. Leer meer in [ creeer uw eerste reis ](../building-journeys/journey-gs.md).
+
+1. Verplaats de **[!UICONTROL Action]** -activiteit in de sectie **[!UICONTROL Update Profile]** van het palet naar het canvas.
+
+   ![ de activiteit van het Profiel van de update in vervoerpalet onder Acties ](assets/profileupdate0.png)
 
 1. Selecteer een schema in de lijst.
 
-1. Klik op **Gebied** om het gebied te selecteren u wilt bijwerken. Er kan slechts één veld worden geselecteerd.
+   >[!NOTE]
+   >
+   >Alleen velden die al voorkomen in het geselecteerde XDM-profielschema zijn beschikbaar voor selectie. Als het gewenste veld niet in de lijst staat, voegt u het eerst toe aan het schema in Adobe Experience Platform.
 
-   ![&#x200B; de updateconfiguratiepaneel van het Profiel met dropdown van de gebiedsselectie &#x200B;](assets/profileupdate2.png)
+1. Klik op **[!UICONTROL Field]** om het veld te selecteren dat u wilt bijwerken.
+
+   ![ Selecterend het gebied om ](assets/profileupdate2.png) bij te werken
 
 1. Selecteer een gegevensset in de lijst.
 
    >[!NOTE]
    >
-   >De **actie van het Profiel van de Update** werkt de profielgegevens in real time bij, maar het werkt geen datasets bij. De datasetselectie is nodig aangezien het profiel een verslag met betrekking tot een dataset is.
+   >Met de handeling **[!UICONTROL Update Profile]** worden de profielgegevens in realtime bijgewerkt, maar worden gegevenssets niet bijgewerkt. De datasetselectie is nodig aangezien het profiel een verslag met betrekking tot een dataset is.
 
-1. Klik op het **gebied van de Waarde** om de waarde te bepalen u wilt gebruiken:
+1. Klik in het veld **[!UICONTROL Value]** om de waarde te definiëren die u wilt gebruiken:
 
    * Met de eenvoudige expressieeditor kunt u een veld uit een gegevensbron of uit de binnenkomende gebeurtenis selecteren.
 
-     ![&#x200B; de Eenvoudige selecteur van het wijzegebied voor de updates van profielattributen &#x200B;](assets/profileupdate4.png)
+     ![ de Eenvoudige selecteur van het wijzegebied voor de updates van profielattributen ](assets/profileupdate4.png)
 
-   * Als u een specifieke waarde of hefboomwerking geavanceerde functies wilt bepalen, selecteer **Geavanceerde wijze**.
+   * Selecteer [**[!UICONTROL Advanced mode]**](expression/expressionadvanced.md) als u een specifieke waarde wilt definiëren of geavanceerde functies wilt gebruiken.
 
-     ![&#x200B; Geavanceerde de redacteur van de wijzereeks voor complexe profielupdates &#x200B;](assets/profileupdate3.png)
+     ![ Geavanceerde de redacteur van de wijzereeks voor complexe profielupdates ](assets/profileupdate3.png)
 
-Het **Profiel van de Update** wordt nu gevormd.
+1. Als u aanvullende profielkenmerken in dezelfde handeling wilt bijwerken, klikt u op **[!UICONTROL Update another field]** en herhaalt u de selectie van het veld en de waarde. U kunt maximaal vijf veld-/waardeparen toevoegen in één **[!UICONTROL Update Profile]** -actie. Zie [ Grafieken en beperkingen ](#guardrails).
 
-![&#x200B; de updateactiviteit van het Profiel in reis met gebiedsconfiguratie &#x200B;](assets/profileupdate1.png)
+De **[!UICONTROL Update Profile]** -activiteit is nu geconfigureerd.
+
+![ de updateactiviteit van het Profiel in reis met veelvoudige gebiedsconfiguratie ](assets/profileupdate1.png)
 
 
-## De testmodus gebruiken {#using-the-test-mode}
+## De profielupdate testen {#using-the-test-mode}
 
-In de testmodus wordt het profiel niet bijgewerkt. De update wordt uitgevoerd op het testprofiel.
+Houd er rekening mee dat in [ testmodus ](testing-the-journey.md) de profielupdates onmiddellijk van kracht worden op het testprofiel en niet worden gesimuleerd.
 
-Alleen testprofielen kunnen een reis maken in de testmodus. U kunt een nieuw testprofiel maken of een bestaand profiel omzetten in een testprofiel. In [!DNL Adobe Experience Platform] kunt u profielkenmerken bijwerken via een CSV-bestand importeren of API-aanroepen. Een eenvoudigere methode moet een **actie van het Profiel van de Update** gebruiken en het de actiesector veranderen van het de profielbooleaanse gebied van de test van vals in waar.
+Alleen testprofielen kunnen een reis maken in de testmodus. U kunt een nieuw testprofiel maken of een bestaand profiel omzetten in een testprofiel. In [!DNL Adobe Experience Platform] kunnen profielkenmerken worden bijgewerkt via een CSV-bestand importeren of API-aanroepen. Een sneller alternatief is het gebruik van een **[!UICONTROL Update Profile]** -activiteit binnen de rit zelf om het booleaanse veld voor het testprofiel in te stellen op true.
 
-Voor meer informatie over hoe te om een bestaand profiel in een testprofiel te veranderen, verwijs naar deze [&#x200B; sectie &#x200B;](../audience/creating-test-profiles.md#create-test-profiles-csv).
+Voor meer informatie over hoe te om een bestaand profiel in een testprofiel te veranderen, verwijs naar deze [ sectie ](../audience/creating-test-profiles.md#create-test-profiles-csv).
+
+## Afvoerkanalen en beperkingen {#guardrails}
+
+* De **[!UICONTROL Update Profile]** actie kan slechts in reizen worden gebruikt die a [ namespace ](../event/about-creating.md#select-the-namespace) hebben.
+* Met de handeling worden alleen bestaande velden bijgewerkt. Er worden geen nieuwe profielvelden gemaakt.
+* De handeling ondersteunt alleen eenvoudige veldtypen (tekenreeks, getal, boolean). XDM-velden die zijn gedefinieerd als opsommingen, voorgestelde waarden, objectarrays of complexe verzamelingen (bijvoorbeeld productlijsten), worden niet ondersteund.
+* U kunt niet de **[!UICONTROL Update Profile]** actie gebruiken om [ ervaringsgebeurtenissen ](../event/about-events.md), zoals een aankoop te produceren.
+* Als een andere actie, kunt u een [ alternatieve weg in het geval van fout of onderbreking ](using-the-journey-designer.md#paths) bepalen. Twee handelingen kunnen niet parallel worden geplaatst.
+* Profielupdates zijn niet gegarandeerd direct beschikbaar stroomafwaarts op dezelfde reis. Plaats een handeling waarmee een veld direct wordt gelezen na de handeling **[!UICONTROL Update Profile]** die deze schrijft, omdat de bijgewerkte waarde mogelijk nog niet wordt gereflecteerd.
+* De **[!UICONTROL Update profile]** activiteit werkt slechts de [ Opslag van het Profiel ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"} bij, niet het meer van Gegevens.
+* U kunt maximaal vijf veld-/waardeparen bijwerken in één **[!UICONTROL Update Profile]** -actie. Gebruik de knop **[!UICONTROL Update another field]** om meer paren toe te voegen.
+* Voor betere prestaties groepeert u meerdere kenmerkupdates in één **[!UICONTROL Update Profile]** -actie in plaats van één actie per kenmerk te gebruiken.
