@@ -51,7 +51,7 @@ Voor elke databron definieert u de informatie die u wilt ophalen met behulp van 
 
 ## Kies uw strategie voor gegevenstoegang {#data-access-strategy}
 
-Alvorens een gegevensbron te vormen, overweeg welke benadering beste uw gebruiksgeval past. Er zijn drie opties beschikbaar, elk met verschillende compromissen wat betreft persistentie, profielverrijking en herbruikbaarheid. Voor een gedetailleerde bespreking van deze opties, zie [&#x200B; Beste praktijken voor geavanceerde reizen in Journey Optimizer &#x200B;](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+Alvorens een gegevensbron te vormen, overweeg welke benadering beste uw gebruiksgeval past. Er zijn drie opties beschikbaar, elk met verschillende compromissen wat betreft persistentie, profielverrijking en herbruikbaarheid. Voor een gedetailleerde bespreking van deze opties, zie [&#x200B; Beste praktijken voor geavanceerde reizen in Journey Optimizer &#x200B;](https://experienceleague.adobe.com/nl/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 **Optie 1 — Toegang externe gegevens via de Acties van de Douane (geen het Leer van Gegevens)**
 
@@ -71,7 +71,7 @@ Gegevens in een gegevensset opnemen om reizen te activeren en te personaliseren 
 
 **Optie 3 — Profiel-Toegelaten dataset in het meer van Gegevens**
 
-De samenvattingsgegevens in a [&#x200B; profiel-toegelaten dataset &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} om publiek tot stand te brengen, verrijken identiteitsgrafieken, en hefboomwerkingsgegevens over veelvoudige reizen en rt-CDP bestemmingen. Meest geschikt wanneer:
+De samenvattingsgegevens in a [&#x200B; profiel-toegelaten dataset &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} om publiek tot stand te brengen, verrijken identiteitsgrafieken, en hefboomwerkingsgegevens over veelvoudige reizen en rt-CDP bestemmingen. Meest geschikt wanneer:
 
 * De gegevens zijn handig voor publieksdefinities die worden gebruikt in kanalen buiten Journey Optimizer.
 * De gegevens bevatten meerdere identiteiten die bijdragen tot rijkere, gestikte profielfragmenten.
@@ -82,7 +82,7 @@ De samenvattingsgegevens in a [&#x200B; profiel-toegelaten dataset &#x200B;](htt
 | **Optie 2** — Dataset niet toegelaten voor Profiel | Ja | Nee |
 | **Optie 3** — Profiel-Toegelaten dataset | Ja | Ja |
 
-Voor meer informatie over het configureren van een Adobe Experience Platform-databron en een externe databron en hoe u gegevens in een journey kunt vinden en gebruiken, bekijkt u deze [zelfstudievideo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
+Voor meer informatie over het configureren van een Adobe Experience Platform-databron en een externe databron en hoe u gegevens in een journey kunt vinden en gebruiken, bekijkt u deze [zelfstudievideo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=nl-NL){target="_blank"}.
 
 ## Hoe kan ik-video {#video}
 
