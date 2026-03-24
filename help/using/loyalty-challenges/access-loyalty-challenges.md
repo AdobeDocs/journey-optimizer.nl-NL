@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Private bèta" type="Informative"
 mini-toc-levels: 1
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
-source-git-commit: c5d7cbde6e0a9b4b835abac19d33b973f9f364e4
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -26,16 +26,16 @@ ht-degree: 0%
 **de documentatie van de Uitdagingen van de Loyalty:**
 
 * [Aan de slag met Loyalty Challenges](get-started.md)
-* **toegang &amp; beheer uitdagingen en taken** {2 }︎ ◀ u bent hier **&#x200B;**
+* **toegang &amp; beheer uitdagingen en taken** {2 }︎ ◀ u bent hier ****
 * [Uitdagingen maken](create-challenges.md)
 * [Taken maken](create-tasks.md)
-* [&#x200B; Loyalty Uitdagingen API verwijzing &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [ Loyalty Uitdagingen API verwijzing ](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta**. Leer meer over [&#x200B; beschikbaarheidslabels &#x200B;](../rn/releases.md#availability-labels).
+>Deze eigenschap is momenteel in **privé bèta**. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [ de versiecyclus van Journey Optimizer ](../rn/releases.md).
 
 ## Toegang tot en beheer uitdagingen en taken
 
@@ -72,7 +72,7 @@ Van het lusje van Uitdagingen, kunt u acties op uitdagingen uitvoeren:
 
 * **geef een uitdaging** uit: Selecteer de uitdagingsnaam om zijn detailspagina te openen en de gewenste veranderingen aan te brengen.
 
-  Wanneer u een gepubliceerde uitdaging voor het uitgeven opent, moet u het eerst aan de staat van het Ontwerp terugkeren. Alle aanpassingen die rechtstreeks op de automatisch gegenereerde reis worden aangebracht, gaan verloren. Nadat u de wijzigingen hebt aangebracht, slaat u de uitdaging op en publiceert u deze opnieuw. Daarna publiceert u de bijbehorende reis. [&#x200B; Leer hoe te om een uitdaging &#x200B;](create-challenges.md#launch) te lanceren
+  Wanneer u een gepubliceerde uitdaging voor het uitgeven opent, moet u het eerst aan de staat van het Ontwerp terugkeren. Alle aanpassingen die rechtstreeks op de automatisch gegenereerde reis worden aangebracht, gaan verloren. Nadat u de wijzigingen hebt aangebracht, slaat u de uitdaging op en publiceert u deze opnieuw. Daarna publiceert u de bijbehorende reis. [ Leer hoe te om een uitdaging ](create-challenges.md#launch) te lanceren
 
   >[!IMPORTANT]
   >
