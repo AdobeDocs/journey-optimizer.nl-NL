@@ -7,9 +7,9 @@ feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: b6fe3fec0c64983fc2317027a5748a0d44c18469
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,10 @@ Het **menu van Identiteiten** in [!DNL Adobe Journey Optimizer] staat gebruikers
 
 Het verstrekt een **Grafiek van de Identiteit**, die een kaart van verhoudingen tussen verschillende identiteiten voor een bepaalde klant is. Deze grafiek biedt een visuele weergave van de manier waarop een klant met een merk werkt via verschillende kanalen. Alle grafieken van de klantenidentiteit worden collectief beheerd en door de Dienst van de Identiteit van Adobe Experience Platform in antwoord op klantenactiviteit bijgewerkt.
 
-De gedetailleerde informatie bij het werken met identiteiten is beschikbaar in de [&#x200B; documentatie van de Dienst van de Identiteit &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl){target="_blank"}.
+De gedetailleerde informatie bij het werken met identiteiten is beschikbaar in de [ documentatie van de Dienst van de Identiteit ](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl){target="_blank"}.
+
+>[!MORELIKETHIS]
+>
+>* [ worden begonnen met gegevensbeheer in Journey Optimizer ](../data/gs-data.md)
+>* [ worden begonnen met profielen ](get-started-profiles.md)
+>* [ documentatie van de Dienst van de Identiteit ](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl){target="_blank"}
