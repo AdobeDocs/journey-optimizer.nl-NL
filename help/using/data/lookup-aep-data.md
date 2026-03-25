@@ -11,9 +11,9 @@ keywords: expression, editor
 mini-toc-levels: 1
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 8da2bb4123394d60e397409f6401434d215fd463
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ Met [!DNL Journey Optimizer] kunt u gegevens uit [!DNL Adobe Experience Platform
 
 >[!NOTE]
 >
->De mogelijkheid voor het opzoeken van gegevens is alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [&#x200B; de versiecyclus van Journey Optimizer &#x200B;](../rn/releases.md).
+>De mogelijkheid voor het opzoeken van gegevens is alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [ de versiecyclus van Journey Optimizer ](../rn/releases.md).
 
-Leer meer op hoe te om met datasets in deze sectie toegang te hebben en te werken: [&#x200B; wordt begonnen met datasets &#x200B;](../data/get-started-datasets.md)
+Leer meer op hoe te om met datasets in deze sectie toegang te hebben en te werken: [ wordt begonnen met datasets ](../data/get-started-datasets.md)
 
 ## Meer lezen
 
@@ -56,8 +56,6 @@ Controleer voordat u begint de volgende beperkingen en richtlijnen:
   **Partij 3**: Sku7, Sku8, Sku9, Sku10
 
   Als u **Partij 1** schrapt, worden Sku1, Sku2, en Sku3 verwijderd uit de raadplegingsopslag. De resulterende opzoekgegevens bevatten vervolgens: Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10.
-
-* **Geen geketende raadplegingen** - de raadplegingen van de Dataset kunnen niet samen worden geketend. Met andere woorden, kunt u niet het resultaat van één raadpleging als variabele gebruiken om dan de sleutel te worden om een tweede raadpleging uit te voeren.
 
 ### Entitlement for lookup service
 
@@ -111,7 +109,7 @@ In het gegevenssetbeheer gebruikersinterface, gebruik de knevel om de dataset vo
 
 ### API-methode
 
-Volg de richtingen die in [&#x200B; worden gedetailleerd deze documentatie &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) om uw milieu te vormen om API bevelen te verzenden.
+Volg de richtingen die in [ worden gedetailleerd deze documentatie ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) om uw milieu te vormen om API bevelen te verzenden.
 
 #### Vereisten
 
