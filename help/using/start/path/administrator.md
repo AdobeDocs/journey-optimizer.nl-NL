@@ -37,7 +37,7 @@ Voer de volgende stappen uit om toegangsbeheer te configureren:
 
 1. **voorwerp-vlakke toegangsbeheer van het Gebruik** (facultatief). Pas toegangsetiketten op voorwerpen zoals reizen, campagnes, en kanaalconfiguraties toe om te controleren welke gebruikers tot specifieke middelen kunnen toegang hebben. Leer meer over [&#x200B; voorwerp-vlakke toegangsbeheer (OLAC) &#x200B;](../../administration/object-based-access.md).
 
-Bovendien moet u gebruikers toevoegen die toegang tot de Hoofdzaak van Activa aan de **Hoofdzaak van Activa Consumenten** of/en **de Gebruikers van de Hoofdzaak van Activa** rollen nodig hebben. [&#x200B; las meer in de documentatie van de Hoofdzaak van Activa &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}.
+Bovendien moet u gebruikers toevoegen die toegang tot de Hoofdzaak van Activa aan de **Hoofdzaak van Activa Consumenten** of/en **de Gebruikers van de Hoofdzaak van Activa** rollen nodig hebben. [&#x200B; las meer in de documentatie van de Hoofdzaak van Activa &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=nl-NL){target="_blank"}.
 
 Wanneer u [!DNL Journey Optimizer] voor het eerst opent, beschikt u over een productiesandbox en kunt u een bepaald aantal IP&#39;s toewijzen, afhankelijk van uw contract.
 
