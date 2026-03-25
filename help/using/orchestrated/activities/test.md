@@ -3,13 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Gebruik de activiteit van de Test in uw Geordende campagnes
 description: Leer hoe u de testactiviteit gebruikt
-hide: true
-hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 version: Campaign Orchestration
-source-git-commit: 341a4dac0ae1c124559ebf552af5b3e7a35519e7
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -27,36 +25,39 @@ ht-degree: 0%
 >title="Voorwaarden"
 >abstract="De **activiteit van de Test** kan veelvoudige uitvoerovergangen hebben. Tijdens de uitvoering van de geordende campagne wordt elke voorwaarde opeenvolgend getest totdat aan een van deze voorwaarden is voldaan. Als aan geen van de voorwaarden wordt voldaan, gaat de geordende campagne verder langs de weg van **[!UICONTROL Default condition]**. Als geen standaardvoorwaarde wordt geactiveerd, stopt de geordende campagne op dit punt."
 
-De **[!UICONTROL Test]** -activiteit is een **[!UICONTROL Flow control]** -activiteit. Hiermee kunt u overgangen inschakelen op basis van opgegeven voorwaarden.
+De **[!UICONTROL Test]** -activiteit is een **[!UICONTROL Flow control]** -activiteit. Gebruik dit schema om de campagnestroom af te takken door verschillende overgangen te activeren, afhankelijk van de voorwaarden die u definieert. Elke voorwaarde kan gegevens van de binnenkomende overgang evalueren en u kunt kiezen welke overgang eerst door de orde loopt waarin de voorwaarden worden geëvalueerd.
 
 ## De testactiviteit configureren {#test-configuration}
 
-Voer de volgende stappen uit om de **[!UICONTROL Test]** -activiteit te configureren:
+U stelt de **[!UICONTROL Test]** -activiteit als volgt in:
 
-1. Voeg een **[!UICONTROL Test]** activiteit aan uw Geordende campagne toe.
+1. Zet een **[!UICONTROL Test]** -activiteit neer in uw geordende campagnecanvas.
 
-1. De **[!UICONTROL Test]** -activiteit geeft standaard een eenvoudige booleaanse test weer. Als aan de voorwaarde in de overgang &quot;Waar&quot; is voldaan, wordt deze overgang geactiveerd. Anders wordt een standaardovergang &quot;False&quot; geactiveerd.
+1. Standaard biedt de activiteit één booleaanse test: wanneer aan de voorwaarde &quot;Waar&quot; wordt voldaan, wordt die overgang geactiveerd; anders wordt de overgang &quot;Onwaar&quot; (standaard) geactiveerd.
 
-1. Klik op het pictogram **[!UICONTROL Open personalization dialog]** om de voorwaarde te configureren die aan een overgang is gekoppeld. Gebruik de uitdrukkingsredacteur om de regels te bepalen die worden vereist om deze overgang te activeren. U kunt gebeurtenisvariabelen, voorwaarden en datum-/tijdfuncties ook gebruiken.
+   ![](../assets/test-1.png)
 
-   Bovendien kunt u het veld **[!UICONTROL Label]** aanpassen om de naam van de overgang aan te passen op het geordende campagneccanvas.
+1. Definieer de voorwaarde voor een overgang door de volgende velden in te vullen:
 
-   ![](../assets/workflow-test-default.png)
+   * **Etiket**: Een naam voor de overgang zodat kunt u het op het canvas identificeren.
 
-1. U kunt meerdere uitvoerovergangen toevoegen aan een **[!UICONTROL Test]** -activiteit. Klik hiertoe op de knop **[!UICONTROL Add condition]** en configureer het label en de bijbehorende voorwaarde voor elke overgang.
-v
-1. Tijdens de uitvoering van de geordende campagne wordt elke voorwaarde opeenvolgend getest totdat aan een van deze voorwaarden is voldaan. Als aan geen van de voorwaarden wordt voldaan, gaan de geordende campagnes door langs de weg van **[!UICONTROL Default condition]**. Als geen standaardvoorwaarde wordt geactiveerd, stopt de campagne op dit punt.
+   * **Type van Voorwaarde**: De gegevens, door gebrek, bevolkingstelling te evalueren.
+
+   * **Exploitant**: De vergelijking om van toepassing te zijn, b.v. gelijk aan, groter dan, minder dan. De lijst met operatoren is afhankelijk van het gegevenstype van het voorwaarde.
+
+   * **Waarde**: De waarde om het voorwaardetype tegen te vergelijken.
+
+   ![](../assets/test-2.png)
+
+1. Als u op meer dan twee resultaten wilt vertakken, klikt u op **[!UICONTROL Add condition]** en definieert u een label en een voorwaarde voor elke aanvullende overgang.
+
+1. Tijdens de uitvoering worden de voorwaarden op volgorde geëvalueerd en wordt de eerste campagne gevolgd die overeenkomt. Wanneer geen voorwaarde overeenkomt, volgt de uitvoering **[!UICONTROL Default condition]** als er een is ingesteld; anders stopt de campagne bij de **[!UICONTROL Test]** -activiteit.
 
 ## Voorbeeld {#example}
 
-In dit voorbeeld worden verschillende overgangen geactiveerd op basis van het aantal profielen waarop een **[!UICONTROL Build audience]** -activiteit is gericht:
+In dit voorbeeld worden verschillende overgangen geactiveerd op basis van het aantal profielen waarop een **[!UICONTROL Build audience]** -activiteit is gericht. De voorwaarden worden geëvalueerd in orde; de laatste overgang is het gebrek en wordt gebruikt wanneer geen vorige voorwaarde aanpast.
 
 * Als er meer dan 10.000 profielen zijn bedoeld, wordt een e-mailbericht verzonden.
-* Voor 1.000 tot 10.000 profielen, wordt SMS verzonden.
-* Als de doelprofielen lager zijn dan 1.000, worden ze omgeleid naar een overgang &quot;neem geen contact op&quot;.
+* Standaardwaarde (geen voorwaarde die wordt gematcht): wanneer het aantal 10.000 of minder is, wordt de populatie omgeleid naar een overgang die niet in contact komt met.
 
 ![](../assets/workflow-test-example.png)
-
-Hiervoor is de gebeurtenisvariabele `vars.recCount` gebruikt in de voorwaarden &quot;email&quot; en &quot;sms&quot; om het aantal doelprofielen te tellen en de juiste overgang te activeren.
-
-![](../assets/workflow-test-example-config.png)
