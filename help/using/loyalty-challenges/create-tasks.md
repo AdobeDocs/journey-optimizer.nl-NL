@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Private bèta" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -29,19 +29,24 @@ ht-degree: 0%
 * [Toegang tot en beheer uitdagingen en taken](access-loyalty-challenges.md)
 * [Uitdagingen maken](create-challenges.md)
 * **creeer taken** {2 }︎ ◀ u hier **bent**
-* [&#x200B; Loyalty Uitdagingen API verwijzing &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [ Loyalty Uitdagingen API verwijzing ](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Deze eigenschap is momenteel in **privé bèta**. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [&#x200B; de versiecyclus van Journey Optimizer &#x200B;](../rn/releases.md).
+>Deze eigenschap is momenteel in **privé bèta**. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [ de versiecyclus van Journey Optimizer ](../rn/releases.md).
 
 De taken bepalen de specifieke acties of de mijlpalen die de klanten moeten voltooien om beloningen in een loyaliteitsuitdaging te verdienen. U kunt taaktypes, hoeveelheden, en productvereisten vormen om het in dienst nemen en gepersonaliseerde loyaliteitservaringen tot stand te brengen.
 
 Elke taak vertegenwoordigt een meetbare actie die tot uitdagingsvoltooiing bijdraagt. De taken zijn herbruikbare componenten die onafhankelijk kunnen worden tot stand gebracht en dan aan één of meerdere uitdagingen worden toegevoegd, of direct binnen een uitdaging worden gecreeerd.
 
 ## Een taak maken {#create-task}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_task_create"
+>title="Een taak maken"
+>abstract="Selecteer een klantenactiviteit (Aankoop of Uitgaven), dan vorm activiteit-specifieke attributen: hoeveelheden of bedragen, in aanmerking komende punten en uitsluitingen, en facultatieve grenzen zoals minimum besteedt of maximumtransacties. Stel in het deelvenster Eigenschappen de taaknaam en beschrijving in."
 
 U kunt taken maken op basis van twee invoerpunten. Het configuratieproces is het zelfde ongeacht waar u begint.
 
@@ -79,10 +84,10 @@ Configureer de taakkenmerken op basis van het geselecteerde type activiteit. Bla
 
 >[!TAB  Activiteit van de Aankoop ]
 
-Beschikbare attributen voor **activiteiten van de Aankoop 0&rbrace;:**
+Beschikbare attributen voor **activiteiten van de Aankoop 0}:**
 
 * **[!UICONTROL Quantity]**: voer het aantal items in dat moet worden aangeschaft om deze taak te voltooien.
-* **[!UICONTROL Eligible items & exclusions]**: Definieer items of itemgroepen die tellen voor voltooiing van de taak en items die dat niet doen. [&#x200B; Leer meer op in aanmerking komende punten en uitsluitingen &#x200B;](#eligible-items-exclusions)
+* **[!UICONTROL Eligible items & exclusions]**: Definieer items of itemgroepen die tellen voor voltooiing van de taak en items die dat niet doen. [ Leer meer op in aanmerking komende punten en uitsluitingen ](#eligible-items-exclusions)
 * **[!UICONTROL Minimum spend value amount]**: stel een minimale aanschafwaarde in.
 * **[!UICONTROL Maximum number of transactions]**: Beperk het aantal transacties dat kan worden gebruikt om de taak te voltooien.
 
@@ -93,7 +98,7 @@ Beschikbare attributen voor **activiteiten van de Aankoop 0&rbrace;:**
 Beschikbare attributen voor **uitgaven** activiteiten:
 
 * **[!UICONTROL Amount]**: voer het totale bedrag in dat nodig is om de taak te voltooien.
-* **[!UICONTROL Eligible items & exclusions]**: Definieer items of itemgroepen die tellen voor voltooiing van de taak en items die dat niet doen. [&#x200B; Leer meer op in aanmerking komende punten en uitsluitingen &#x200B;](#eligible-items-exclusions)
+* **[!UICONTROL Eligible items & exclusions]**: Definieer items of itemgroepen die tellen voor voltooiing van de taak en items die dat niet doen. [ Leer meer op in aanmerking komende punten en uitsluitingen ](#eligible-items-exclusions)
 * **[!UICONTROL Maximum number of transactions]**: geef op hoeveel transacties zijn toegestaan om te voldoen aan de vereisten voor uitgaven. U kunt dit kenmerk activeren via het parameterpictogram.
 
 ![](assets/task-create-spend.png)
@@ -101,6 +106,11 @@ Beschikbare attributen voor **uitgaven** activiteiten:
 >[!ENDTABS]
 
 ## In aanmerking komende items en uitsluitingen definiëren {#eligible-items-exclusions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_task_eligible_items_exclusion"
+>title="In aanmerking komende objecten en uitsluitingen"
+>abstract="Controle welke aankopen tellen voor aankoop en uitgaven taken. Typ in het eerste veld een door komma&#39;s gescheiden item-id&#39;s, categorieën of doel-id&#39;s om alleen die id&#39;s toe te staan. Laat het leeg zodat alle aankopen worden geteld of typ een sterretje als alle aankopen. In het tweede veld kunt u items of categorieën weergeven die u nooit wilt tellen, zoals cadeaukaarten of klaring."
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
