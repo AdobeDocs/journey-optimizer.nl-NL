@@ -29,7 +29,7 @@ Op deze pagina krijgt u een praktisch beginpunt voor begrip:
 Gebruik deze handleiding samen met uw gegevenstechnici, beheerders en marketers, zodat iedereen een gemeenschappelijk beeld heeft van hoe gegevens in en uit Journey Optimizer stromen.
 
 >[!TIP]
->Nieuw bij gegevensbeheer in Journey Optimizer? Bekijk het [&#x200B; overzicht van opstellingsgegevens leerprogramma &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"} voor een praktische, begin-vriendschappelijke analyse van schema&#39;s, datasets, en bronnen.
+>Nieuw bij gegevensbeheer in Journey Optimizer? Bekijk het [&#x200B; overzicht van opstellingsgegevens leerprogramma &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"} voor een praktische, begin-vriendschappelijke analyse van schema&#39;s, datasets, en bronnen.
 
 ## Hoe Journey Optimizer Adobe Experience Platform-gegevens gebruikt {#aep-data}
 
@@ -40,7 +40,7 @@ Schema&#39;s en datasets leven in Adobe Experience Platform. De identiteiten en 
 >[!TIP]
 >Beschouw Adobe Experience Platform als uw centrale gegevenslaag en Journey Optimizer als een toepassing die reizen en berichten organiseert met behulp van die gedeelde gegevensbasis.
 
-➡️ [&#x200B; Leer meer over de architectuur van Journey Optimizer &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/understanding-ajo#architecture-details){target="_blank"}
+➡️ [&#x200B; Leer meer over de architectuur van Journey Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/get-started/essentials/understanding-ajo#architecture-details){target="_blank"}
 
 ## Belangrijkste gegevensconcepten in Journey Optimizer {#key-concepts}
 
@@ -84,7 +84,7 @@ Een gegevensbron in Journey Optimizer bepaalt welke velden van Adobe Experience 
 ➡️ [&#x200B; Leer meer over gegevensbronnen &#x200B;](../datasource/about-data-sources.md)
 
 >[!NOTE]
->De [&#x200B; Verklarende woordenlijst van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/glossary){target="_blank"} bepaalt &quot;gegevensbron&quot;algemeen als oorsprong van gegevens (een CRM, mobiele app, enz.). In Journey Optimizer, **gegevensbron** heeft een specifieke betekenis: een configuratie UI die controleert welke gebieden binnen reizen en berichten worden blootgesteld.
+>De [&#x200B; Verklarende woordenlijst van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/landing/glossary){target="_blank"} bepaalt &quot;gegevensbron&quot;algemeen als oorsprong van gegevens (een CRM, mobiele app, enz.). In Journey Optimizer, **gegevensbron** heeft een specifieke betekenis: een configuratie UI die controleert welke gebieden binnen reizen en berichten worden blootgesteld.
 
 ### Identiteit en realtime profiel van klant {#identity}
 
@@ -146,7 +146,7 @@ Vorm bronschakelaars voor uw ondernemingssystemen — zoals Adobe Analytics, het
 
 ➡️ [&#x200B; Leer meer over bronschakelaars &#x200B;](../start/get-started-sources.md)
 
-➡️ [&#x200B; Leerprogramma: Creeer datasets en neem gegevens in &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
+➡️ [&#x200B; Leerprogramma: Creeer datasets en neem gegevens in &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
 
 +++
 
@@ -157,7 +157,7 @@ Gegevensbronnen zijn een Journey Optimizer-specifiek concept: ze zijn niet waar 
 Journey Optimizer omvat een ingebouwde [&#x200B; gegevensbron van Adobe Experience Platform &#x200B;](../datasource/adobe-experience-platform-data-source.md) die directe toegang tot de attributen van het Profiel van de Klant in real time geeft. Dit geldt voor het overgrote deel van de gevallen waarin gebruik wordt gemaakt: kenmerken van het leesprofiel voor personalisatie of controle van toestemmings- en voorkeursvelden. U kunt [&#x200B; externe gegevensbronnen &#x200B;](../datasource/external-data-sources.md) ook vormen om derde APIs bij reis runtime te roepen - bijvoorbeeld, om een loyaliteitsscore in real time, een productaanbeveling, of een niveau van de opslaginventaris terug te winnen dat niet in Adobe Experience Platform wordt opgeslagen.
 
 >[!NOTE]
->Directe toegang tot gebeurtenisgegevens via de ingebouwde Adobe Experience Platform-gegevensbron is verouderd en wordt geleidelijk uitgeschakeld. [Meer info](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/exp-event-lookup){target="_blank"}.
+>Directe toegang tot gebeurtenisgegevens via de ingebouwde Adobe Experience Platform-gegevensbron is verouderd en wordt geleidelijk uitgeschakeld. [Meer info](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/exp-event-lookup){target="_blank"}.
 
 Het vormen van gegevensbronnen is een administratieve taak die de volledige gegevenslaag voor reisauteurs en verkopers ontgrendelt. Zodra een gebied door een gegevensbron wordt blootgesteld, wordt het beschikbaar in de bouwer van de reisvoorwaarde, in de redacteurs van de berichtverpersoonlijking, en in aanbieding beslissingsregels - zonder extra ingenieurswerk bij reis-bouwt tijd te vereisen.
 
@@ -216,7 +216,7 @@ Deze stroom illustreert hoe schema&#39;s, datasets, bronnen, gegevensbronnen, en
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
 
 **worden begonnen met schema&#39;s**
 
@@ -226,7 +226,7 @@ Leer hoe u XDM-schema&#39;s maakt in Adobe Experience Platform, de juiste klasse
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=nl-NL)
 
 **Werk met datasets**
 
@@ -236,7 +236,7 @@ Begrijp hoe te om profiel-toegelaten en gebeurtenisdatasets tot stand te brengen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 **Gegevensbronnen configureren**
 
@@ -246,7 +246,7 @@ Stapsgewijze instructies voor het instellen van de ingebouwde Adobe Experience P
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
 
 **de gegevens van Adobe Experience Platform van het Gebruik (raadpleging)**
 
@@ -256,7 +256,7 @@ Ontdek hoe u berichten tijdens runtime verrijkt met referentie- of transactiegeg
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 **worden begonnen met vragen**
 
@@ -266,7 +266,7 @@ De Dienst van de Vraag van het gebruik om de datasets van Journey Optimizer te a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
 
 **worden begonnen met profielen**
 
@@ -276,23 +276,23 @@ Ontdek hoe het Real-Time klantprofiel in Journey Optimizer werkt en hoe u in de 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 **het overzichtsleerprogramma van opstellingsgegevens**
 
 Een beginnervriendelijke videoanalyse van gegevensopstelling in Journey Optimizer, die schema&#39;s, datasets, en bronnen bedekt beëindigen aan eind.
 
-[&#x200B; het Horloge leerprogramma &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"}
+[&#x200B; het Horloge leerprogramma &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"}
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 **creeer datasets en neem gegevensleerprogramma op**
 
 Een praktische zelfstudie die laat zien hoe u gegevenssets in Adobe Experience Platform kunt maken en gegevens kunt invoeren met bronconnectors, met stapsgewijze instructies die u in uw eigen sandbox kunt volgen.
 
-[&#x200B; het Horloge leerprogramma &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
+[&#x200B; het Horloge leerprogramma &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
 :::
 
 ::::
