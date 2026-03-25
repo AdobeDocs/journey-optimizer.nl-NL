@@ -30,9 +30,9 @@ Voer de onderstaande stappen uit om een pushmelding te maken:
 
 >[!BEGINTABS]
 
->[!TAB  voeg een Duw aan een Reis ] toe
+>[!TAB voeg een Duw aan een Reis  toe]
 
-1. Open uw reis en sleep een **[!UICONTROL Action]** activiteit van de **[!UICONTROL Actions]** sectie van het palet. Leer meer over de [ activiteit van de Actie ](../building-journeys/journey-action.md).
+1. Open uw reis en sleep een **[!UICONTROL Action]** activiteit van de **[!UICONTROL Actions]** sectie van het palet. Leer meer over de [&#x200B; activiteit van de Actie &#x200B;](../building-journeys/journey-action.md).
 
    >[!IMPORTANT]
    >
@@ -54,21 +54,21 @@ Voer de onderstaande stappen uit om een pushmelding te maken:
 
    * U kunt afkapregels toepassen op uw pushactie door een regel te selecteren die is ingesteld in de vervolgkeuzelijst **[!UICONTROL Business rules]** . [Meer informatie](../conflict-prioritization/channel-capping.md)
 
-   * Met de optie **[!DNL Send time optimization]** kunt u het beste tijdstip voorspellen waarop het bericht wordt verzonden om de betrokkenheid te maximaliseren op basis van geopende historie en kliksnelheden. [ leer hoe ](../building-journeys/send-time-optimization.md)
+   * Met de optie **[!DNL Send time optimization]** kunt u het beste tijdstip voorspellen waarop het bericht wordt verzonden om de betrokkenheid te maximaliseren op basis van geopende historie en kliksnelheden. [&#x200B; leer hoe &#x200B;](../building-journeys/send-time-optimization.md)
 
-1. Gebruik **[!UICONTROL Rapid delivery mode]** om uw pushmelding in grote hoeveelheden te verzenden. [ leer hoe ](#rapid-delivery)
+1. Gebruik **[!UICONTROL Rapid delivery mode]** om uw pushmelding in grote hoeveelheden te verzenden. [&#x200B; leer hoe &#x200B;](#rapid-delivery)
 
 1. Selecteer de knop **[!UICONTROL Edit content]** en maak de gewenste inhoud. [Meer informatie](design-push.md)
 
-1. Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken of monsters nemen van invoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of die u handmatig hebt toegevoegd om een voorvertoning van de inhoud weer te geven. [ leer hoe ](send-push.md)
+1. Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken of monsters nemen van invoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of die u handmatig hebt toegevoegd om een voorvertoning van de inhoud weer te geven. [&#x200B; leer hoe &#x200B;](send-push.md)
 
 1. Ga terug naar het reiscanvas. Indien nodig voltooit u de reisflow door extra handelingen of gebeurtenissen te slepen en neer te zetten. [Meer informatie](../building-journeys/about-journey-activities.md)
 
    >[!NOTE]
    >
-   >Om het gedrag van uw ontvangers door duw openingen en/of interactie te volgen, zorg ervoor dat de specifieke opties in de volgende sectie in de [ e-mailactiviteit ](../building-journeys/journey-action.md) worden toegelaten.
+   >Om het gedrag van uw ontvangers door duw openingen en/of interactie te volgen, zorg ervoor dat de specifieke opties in de volgende sectie in de [&#x200B; e-mailactiviteit &#x200B;](../building-journeys/journey-action.md) worden toegelaten.
 
-Voor meer informatie over om een reis tot stand te brengen te vormen en te publiceren, verwijs naar [ deze pagina ](../building-journeys/journey-gs.md).
+Voor meer informatie over om een reis tot stand te brengen te vormen en te publiceren, verwijs naar [&#x200B; deze pagina &#x200B;](../building-journeys/journey-gs.md).
 
 >[!TAB  voeg een Duw aan een Campagne toe ]
 
@@ -88,13 +88,13 @@ Voor meer informatie over om een reis tot stand te brengen te vormen en te publi
 
 1. Kies in de sectie **[!UICONTROL Actions]** de **[!UICONTROL Push notification]** en selecteer of maak een nieuwe configuratie.
 
-   Leer meer over de Duw configuratie voor mobiel op [ deze pagina ](push-configuration.md) en voor Web op [ deze pagina ](push-configuration-web.md).
+   Leer meer over de Duw configuratie voor mobiel op [&#x200B; deze pagina &#x200B;](push-configuration.md) en voor Web op [&#x200B; deze pagina &#x200B;](push-configuration-web.md).
 
    ![](assets/push_create_3.png)
 
 1. Klik op **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren en behandelingen te maken om de prestaties te meten en de beste optie voor uw doelgroep te identificeren. [Meer informatie](../content-management/content-experiment.md)
 
-1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [ te vormen deze sectie ](../campaigns/create-campaign.md#schedule).
+1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [&#x200B; te vormen deze sectie &#x200B;](../campaigns/create-campaign.md#schedule).
 
 1. Kies in het menu **[!UICONTROL Action triggers]** de **[!UICONTROL Frequency]** van uw pushmelding:
 
@@ -103,15 +103,15 @@ Voor meer informatie over om een reis tot stand te brengen te vormen en te publi
    * Wekelijks
    * Maandelijks
 
-1. Klik in het scherm Campagneconfiguratie op de knop **[!UICONTROL Edit content]** om de inhoud van de push te configureren. [ Ontwerp een duw- bericht ](design-push.md)
+1. Klik in het scherm Campagneconfiguratie op de knop **[!UICONTROL Edit content]** om de inhoud van de push te configureren. [&#x200B; Ontwerp een duw- bericht &#x200B;](design-push.md)
 
-1. Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken of monsters nemen van invoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of die u handmatig hebt toegevoegd om een voorvertoning van de inhoud weer te geven. [ leer hoe ](send-push.md)
+1. Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken of monsters nemen van invoergegevens die vanuit een CSV-/JSON-bestand zijn geüpload of die u handmatig hebt toegevoegd om een voorvertoning van de inhoud weer te geven. [&#x200B; leer hoe &#x200B;](send-push.md)
 
-1. Wanneer uw duw klaar is, voltooi de configuratie van uw [ campagne ](../campaigns/create-campaign.md) om het te verzenden.
+1. Wanneer uw duw klaar is, voltooi de configuratie van uw [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md) om het te verzenden.
 
-   Om het gedrag van uw ontvangers door duw openingen en/of interactie te volgen, zorg ervoor dat de specifieke opties in de volgende sectie in de [ campagne ](../campaigns/create-campaign.md) worden toegelaten.
+   Om het gedrag van uw ontvangers door duw openingen en/of interactie te volgen, zorg ervoor dat de specifieke opties in de volgende sectie in de [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md) worden toegelaten.
 
-Voor meer informatie over om een campagne tot stand te brengen te vormen en te activeren, verwijs naar [ deze pagina ](../campaigns/get-started-with-campaigns.md).
+Voor meer informatie over om een campagne tot stand te brengen te vormen en te activeren, verwijs naar [&#x200B; deze pagina &#x200B;](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 
@@ -131,7 +131,7 @@ De snelle leveringswijze is een [!DNL Journey Optimizer] toe:voegen-op die zeer 
 
 Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd.
 
-Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [ het productbeschrijving van Adobe Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+Voor meer informatie over prestaties wanneer het gebruiken van Snelle leveringswijze, verwijs naar [&#x200B; het productbeschrijving van Adobe Journey Optimizer &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ### Vereisten {#prerequisites}
 
@@ -148,7 +148,7 @@ Snelle levering overseinen komt met de volgende vereisten:
 
    ![](assets/create-campaign-burst.png)
 
-1. Vorm de berichtinhoud en selecteer het publiek om te richten. [ Leer hoe te om een campagne ](#create) tot stand te brengen
+1. Vorm de berichtinhoud en selecteer het publiek om te richten. [&#x200B; Leer hoe te om een campagne &#x200B;](#create) tot stand te brengen
 
    >[!IMPORTANT]
    >
