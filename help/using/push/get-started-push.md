@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: ad3b64cb0ba6af5df654b340b4524161a94297e1
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Als dit de eerste keer is dat u een pushmelding maakt, controleert u of het pushkanaal is geconfigureerd. [Meer informatie](push-gs.md).
+>Als dit de eerste keer is dat u een pushmelding maakt, controleert u of het pushkanaal is geconfigureerd. [Meer info](push-gs.md).
 
 Met pushberichten bereikt u gebruikers van uw mobiele app en webbezoekers op elk gewenst moment, vooral wanneer ze uw app niet actief gebruiken of door uw website bladeren. Met pushberichten kunt u verschillende gebruiksgevallen bereiken, zoals het aanbieden van updates over uw service, het vragen van een gebruiker om actie te ondernemen, de gebruiker te waarschuwen voor een nieuwe deal, enzovoort. Apparaatplatforms moeten zich aanmelden voordat eindgebruikers uw meldingen kunnen ontvangen of bekijken. Gebruikers kunnen zich al aanmelden nadat de app voor de eerste keer na de installatie is gestart of in een volgende sessie of workflow, al naar gelang wat van toepassing is.
 
@@ -27,15 +27,15 @@ Met pushberichten bereikt u gebruikers van uw mobiele app en webbezoekers op elk
 
 U kunt pushmeldingen maken:
 
-* In a **Weg**: Zodra u een activiteit van de Duw in uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Push]** juiste ruit om de inhoud voor de Duw berichten tot stand te brengen. [&#x200B; leer hoe te om een reis &#x200B;](../building-journeys/journey-gs.md) tot stand te brengen
+* In a **Weg**: Zodra u een activiteit van de Duw in uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Push]** juiste ruit om de inhoud voor de Duw berichten tot stand te brengen. [ leer hoe te om een reis ](../building-journeys/journey-gs.md) tot stand te brengen
 
-* In a **Campagne**: Zodra u een campagne creeerde, uitgezocht duw bericht als uw actie en bepaalt basismontages. Leer hoe te om [&#x200B; een actiecampagne &#x200B;](../campaigns/campaign-action.md#action-campaign-action) te creëren | [&#x200B; een API-teweeggebrachte campagne &#x200B;](../campaigns/api-triggered-campaigns.md) | [&#x200B; een georkestreerde campagne &#x200B;](../orchestrated/create-orchestrated-campaign.md#create)
+* In a **Campagne**: Zodra u een campagne creeerde, uitgezocht duw bericht als uw actie en bepaalt basismontages. Leer hoe te om [ een actiecampagne ](../campaigns/campaign-action.md#action-campaign-action) te creëren | [ een API-teweeggebrachte campagne ](../campaigns/api-triggered-campaigns.md) | [ een georkestreerde campagne ](../orchestrated/create-orchestrated-campaign.md#create)
 
 Gebruik de specifieke lusjes om de montages van het pushbericht voor **iOS**, **Android**, en **Web** platforms te bepalen.
 
 >[!NOTE]
 >
->Hoewel **[!DNL Journey Optimizer]** manieren biedt om de optie om te weigeren te beheren in e-mails en SMS-berichten, is voor pushberichten geen actie aan uw kant vereist, aangezien ontvangers hun abonnement zelf via hun apparaten kunnen opzeggen. Ze kunnen er bijvoorbeeld voor kiezen om meldingen te stoppen wanneer ze worden gedownload of wanneer ze uw app gebruiken. Op dezelfde manier kunnen ze de meldingsinstellingen wijzigen via het mobiele besturingssysteem of de webbrowser.
+>Hoewel **[!DNL Journey Optimizer]** manieren biedt om de optie om te weigeren te beheren in e-mails en SMS-berichten, is voor pushberichten geen actie aan uw kant vereist, aangezien ontvangers hun abonnement zelf via hun apparaten kunnen opzeggen. Ze kunnen er bijvoorbeeld voor kiezen om meldingen te stoppen wanneer ze worden gedownload of wanneer ze uw app gebruiken. Op dezelfde manier kunnen ze de meldingsinstellingen wijzigen via het mobiele besturingssysteem of de webbrowser. Om de status van de duw van de toestemming van een profiel in de het profielkijker van AEP te verifiëren, zie [ de duw opt-outstatus van de Controle ](../privacy/opt-out.md#push-opt-out-status).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
