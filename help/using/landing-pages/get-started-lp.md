@@ -22,7 +22,7 @@ Een openingspagina is een zelfstandige webpagina waarnaar een gebruiker wordt ve
 
 Met [!DNL Journey Optimizer] kunt u bestemmingspagina&#39;s maken en ontwerpen, zodat uw gebruikers naar onlineformulieren kunnen gaan waar ze zich kunnen aanmelden of afmelden voor het ontvangen van uw communicatie of een specifieke service zoals een nieuwsbrief.
 
-➡️ [ Leer meer over het vormen van abonnementen en het creëren van landende pagina&#39;s in deze video ](#video)
+➡️ [&#x200B; Leer meer over het vormen van abonnementen en het creëren van landende pagina&#39;s in deze video &#x200B;](#video)
 
 ## Wanneer moeten bestemmingspagina&#39;s worden gebruikt? {#when-to-use}
 
@@ -36,7 +36,7 @@ Gebruik openingspagina&#39;s als u wilt:
 
 ### Gegevensvastlegging met bestemmingspagina&#39;s {#data-capture-lp}
 
-Met landingspagina&#39;s van **[!UICONTROL Data Capture]** kunt u gepubliceerde formulieren insluiten, zodat bezoekers kenmerken kunnen verzenden die naar uw [!DNL Adobe Experience Platform] -gegevensset zijn geschreven via de streamingverbinding die in de formuliervoorinstelling is geconfigureerd. [ Leer om vormen in een het landen pagina tot stand te brengen en in te bedden ](lp-forms.md)
+Met landingspagina&#39;s van **[!UICONTROL Data Capture]** kunt u gepubliceerde formulieren insluiten, zodat bezoekers kenmerken kunnen verzenden die naar uw [!DNL Adobe Experience Platform] -gegevensset zijn geschreven via de streamingverbinding die in de formuliervoorinstelling is geconfigureerd. [&#x200B; Leer om vormen in een het landen pagina tot stand te brengen en in te bedden &#x200B;](lp-forms.md)
 
 >[!NOTE]
 >
