@@ -27,15 +27,15 @@ Met pushberichten bereikt u gebruikers van uw mobiele app en webbezoekers op elk
 
 U kunt pushmeldingen maken:
 
-* In a **Weg**: Zodra u een activiteit van de Duw in uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Push]** juiste ruit om de inhoud voor de Duw berichten tot stand te brengen. [ leer hoe te om een reis ](../building-journeys/journey-gs.md) tot stand te brengen
+* In a **Weg**: Zodra u een activiteit van de Duw in uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Push]** juiste ruit om de inhoud voor de Duw berichten tot stand te brengen. [&#x200B; leer hoe te om een reis &#x200B;](../building-journeys/journey-gs.md) tot stand te brengen
 
-* In a **Campagne**: Zodra u een campagne creeerde, uitgezocht duw bericht als uw actie en bepaalt basismontages. Leer hoe te om [ een actiecampagne ](../campaigns/campaign-action.md#action-campaign-action) te creëren | [ een API-teweeggebrachte campagne ](../campaigns/api-triggered-campaigns.md) | [ een georkestreerde campagne ](../orchestrated/create-orchestrated-campaign.md#create)
+* In a **Campagne**: Zodra u een campagne creeerde, uitgezocht duw bericht als uw actie en bepaalt basismontages. Leer hoe te om [&#x200B; een actiecampagne &#x200B;](../campaigns/campaign-action.md#action-campaign-action) te creëren | [&#x200B; een API-teweeggebrachte campagne &#x200B;](../campaigns/api-triggered-campaigns.md) | [&#x200B; een georkestreerde campagne &#x200B;](../orchestrated/create-orchestrated-campaign.md#create)
 
 Gebruik de specifieke lusjes om de montages van het pushbericht voor **iOS**, **Android**, en **Web** platforms te bepalen.
 
 >[!NOTE]
 >
->Hoewel **[!DNL Journey Optimizer]** manieren biedt om de optie om te weigeren te beheren in e-mails en SMS-berichten, is voor pushberichten geen actie aan uw kant vereist, aangezien ontvangers hun abonnement zelf via hun apparaten kunnen opzeggen. Ze kunnen er bijvoorbeeld voor kiezen om meldingen te stoppen wanneer ze worden gedownload of wanneer ze uw app gebruiken. Op dezelfde manier kunnen ze de meldingsinstellingen wijzigen via het mobiele besturingssysteem of de webbrowser. Om de status van de duw van de toestemming van een profiel in de het profielkijker van AEP te verifiëren, zie [ de duw opt-outstatus van de Controle ](../privacy/opt-out.md#push-opt-out-status).
+>Hoewel **[!DNL Journey Optimizer]** manieren biedt om de optie om te weigeren te beheren in e-mails en SMS-berichten, is voor pushberichten geen actie aan uw kant vereist, aangezien ontvangers hun abonnement zelf via hun apparaten kunnen opzeggen. Ze kunnen er bijvoorbeeld voor kiezen om meldingen te stoppen wanneer ze worden gedownload of wanneer ze uw app gebruiken. Op dezelfde manier kunnen ze de meldingsinstellingen wijzigen via het mobiele besturingssysteem of de webbrowser. Om de status van de duw van de toestemming van een profiel in de het profielkijker van AEP te verifiëren, zie [&#x200B; de duw opt-outstatus van de Controle &#x200B;](../privacy/opt-out.md#push-opt-out-status).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
