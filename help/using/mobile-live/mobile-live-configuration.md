@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Het actieve activiteitenkanaal configureren
+title: Het kanaal Live-activiteiten configureren
 description: Leer hoe u uw omgeving configureert voor het verzenden van Live-activiteiten met Journey Optimizer
 feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '484'
 ht-degree: 1%
 
 ---
 
 # Aan de slag met Live activity-configuratie {#mobile-live-config}
 
-Voordat u uw Live-activiteit kunt verzenden, moet u de Adobe Journey Optimizer-omgeving configureren. Dit doet u als volgt:
+Voordat u Live-activiteiten kunt verzenden, moet u de Adobe Journey Optimizer-omgeving configureren. Dit doet u als volgt:
 
 ## Stap 1: Voeg uw pushreferenties voor de app toe in Journey Optimizer (optioneel){#push-credentials-launch}
 
@@ -68,7 +68,7 @@ Stap 1 is optioneel als uw pushgegevens al zijn geconfigureerd, omdat deze opnie
 
 1. Kies iOS als uw **[!UICONTROL Platform]** .
 
-1. Selecteer van drop-down het zelfde **[!UICONTROL App id]** zoals voor uw [&#x200B; hierboven gevormde duw credentie &#x200B;](#push-credentials-launch) of kies bestaande.
+1. Selecteer van drop-down het zelfde **[!UICONTROL App id]** zoals voor uw [ hierboven gevormde duw credentie ](#push-credentials-launch) of kies bestaande.
 
    ![](assets/config-3.png)
 
@@ -78,14 +78,14 @@ Stap 1 is optioneel als uw pushgegevens al zijn geconfigureerd, omdat deze opnie
 
    >[!NOTE]
    >
-   >Als de controles niet succesvol zijn, leer meer over de mogelijke mislukkingsredenen in [&#x200B; deze sectie &#x200B;](../configuration/channel-surfaces.md).
+   >Als de controles niet succesvol zijn, leer meer over de mogelijke mislukkingsredenen in [ deze sectie ](../configuration/channel-surfaces.md).
 
 1. Wanneer de controles succesvol zijn, krijgt de kanaalconfiguratie de **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
 U kunt nu de integratie starten met Adobe Experience Platform Mobile SDK om real-time, dynamische updates op het Lock Screen en Dynamic Island in te schakelen.
 
-➡️ [&#x200B; Leer meer op de integratie van Adobe Experience Platform Mobile SDK &#x200B;](mobile-live-configuration-sdk.md)
+➡️ [ Leer meer op de integratie van Adobe Experience Platform Mobile SDK ](mobile-live-configuration-sdk.md)
 
 >[!TIP]
 >
->Als u kwesties met de Levende configuratie of levering van de Activiteit ontmoet, zie [&#x200B; Levende Activiteiten &#x200B;](troubleshoot-mobile-live.md) problemen oplossen voor het zuiveren stappen.
+>Als u kwesties met Levende activiteitenconfiguratie of levering ontmoet, zie [ Levende activiteiten ](troubleshoot-mobile-live.md) problemen oplossen voor het zuiveren stappen.

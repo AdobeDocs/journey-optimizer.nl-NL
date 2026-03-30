@@ -2,33 +2,33 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Live-activiteiten oplossen
-description: Leer hoe te om Levende Activiteiten in Journey Optimizer voor zowel eenheids als uitzendingsgebruiksgevallen problemen op te lossen, met inbegrip van profiel tokenkwesties, campagneconfiguratie, en leveringsmislukkingen
+description: Leer hoe te om Levende activiteiten in Journey Optimizer voor zowel eenheids als uitzendingsgebruiksgevallen problemen op te lossen, met inbegrip van profiel tokenkwesties, campagneconfiguratie, en leveringsmislukkingen
 role: User
 level: Intermediate
-source-git-commit: b71dbb0e4987cfc879a7b153d5c1453d6c220bf9
+exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '4503'
 ht-degree: 0%
 
 ---
 
-
 # Live-activiteiten oplossen {#troubleshoot-mobile-live}
 
-Live Activiteiten in Adobe Journey Optimizer maken real-time, dynamische updates mogelijk op iOS-vergrendelingsschermen en Dynamic Islands. Ze kunnen alleen worden geactiveerd en beheerd via door API&#39;s geactiveerde campagnes.
+Live-activiteiten in Adobe Journey Optimizer maken real-time, dynamische updates mogelijk op iOS-slotschermen en Dynamic Islands. Ze kunnen alleen worden geactiveerd en beheerd via door API&#39;s geactiveerde campagnes.
 
 **gevaltypes van het Gebruik:**
 
 * **Eenheid**: Individueel gericht, transactie (API-teweeggebrachte Transactionele campagnes)
 * **Uitzending**: Publiek-gericht, massalevering (API-teweeggebrachte Marketing campagnes)
 
-Een frequente uitdaging met Levende Activiteiten is wanneer de API vraag om een Levende Activiteit in werking te stellen of bij te werken a **succesvolle reactie (200 O.K.)** terugkeert, maar de Levende Activiteit ontbreekt om op het apparaat van de gebruiker te verschijnen of bij te werken. Deze verbinding tussen API bevestiging en daadwerkelijke apparatengedrag kan op veelvoudige punten in de leveringspijpleiding voorkomen. Deze gids verstrekt een systematische het oplossen van problemenbenadering om te identificeren waar de levering ontbreekt, die elk stadium van API verzoekbevestiging door apparatenteruggave onderzoekt.
+Een frequente uitdaging met Levende activiteiten is wanneer de API vraag om een Levende activiteit teweeg te brengen of bij te werken a **succesvolle reactie (200 O.K.)** terugkeert, maar de Levende activiteit ontbreekt om op het apparaat van de gebruiker te verschijnen of bij te werken. Deze verbinding tussen API bevestiging en daadwerkelijke apparatengedrag kan op veelvoudige punten in de leveringspijpleiding voorkomen. Deze gids verstrekt een systematische het oplossen van problemenbenadering om te identificeren waar de levering ontbreekt, die elk stadium van API verzoekbevestiging door apparatenteruggave onderzoekt.
 
 ## Vereisten
 
 Zorg ervoor dat u beschikt over:
 
-* &#x200B;
+* 
   +++ Een Assurance-sessie instellen
 
   Opstelling een **zitting van Assurance** om de gebeurtenissen van SDK te vangen en de leveringspijpleiding te inspecteren. Assurance biedt zichtbaarheid in:
@@ -36,15 +36,15 @@ Zorg ervoor dat u beschikt over:
    * Edge Network-verzoeken en -antwoorden
    * Profielkwalificatiegebeurtenissen
    * Push token-registratie
-   * Live Activity LiveCycle-gebeurtenissen
+   * Levende activiteiten
 
-  Leer hoe te opstelling Assurance in de [&#x200B; documentatie van Adobe Experience Platform Assurance &#x200B;](https://experienceleague.adobe.com/nl/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+  Leer hoe te opstelling Assurance in de [ documentatie van Adobe Experience Platform Assurance ](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
-  **Nota**: Voor Live Activiteit van iOS, zorg ervoor uw app op een fysiek apparaat van iOS (iOS 16.1 of later) of de Simulator van Xcode (iOS 16.1 of later) loopt.
+  **Nota**: Voor Levende activiteit van iOS, zorg ervoor uw app op een fysiek apparaat van iOS (iOS 16.1 of later) of de Simulator van Xcode (iOS 16.1 of later) loopt.
 
   +++
 
-* &#x200B;
+* 
   +++ Gegevens over door API gestuurde campagnes verzamelen
 
   Navigeer naar de via API geactiveerde campagne in Journey Optimizer en zoek de volgende gegevens op:
@@ -52,23 +52,23 @@ Zorg ervoor dat u beschikt over:
    * Campagneraam
    * Campagne-id gevonden in de URL- of campagne-eigenschappen
    * Campagneversie indien van toepassing
-   * Oppervlakteconfiguratie, iOS-toepassingsoppervlak gebruikt voor Live Activity
+   * Oppervlakteconfiguratie, iOS-toepassingsoppervlak gebruikt voor Live-activiteit
 
   +++
 
-* &#x200B;
+* 
   +++ Informatie over API-aanvragen verzamelen
 
   Sla tijdens het aanroepen van de API de Live-activiteit op:
 
-   * payload van API-aanvragen, inclusief profiel-id&#39;s en Live Activity-gegevens
+   * payload van API-aanvragen, inclusief profiel-id&#39;s en Live-activiteitsgegevens
    * API-reactie inclusief statuscode, bericht-id, aanvraag-id
    * Tijdstempel van wanneer de API is aangeroepen
    * Gebruikte eindpunt, bijvoorbeeld `/campaign/{CAMPAIGN_ID}/execute`
 
   +++
 
-* &#x200B;
+* 
   +++ Het testprofiel identificeren
 
   Haal het volgende op uit uw API-verzoek:
@@ -76,11 +76,11 @@ Zorg ervoor dat u beschikt over:
    * Profielnaamruimte, bijvoorbeeld ECID, e-mail, klant-id
    * Profiel-id gebruikt in API-aanroep
 
-  Controleer of u dit profiel in Adobe Experience Platform kunt opzoeken. Leer hoe te [&#x200B; omhoog een profiel in de documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html) kijken.
+  Controleer of u dit profiel in Adobe Experience Platform kunt opzoeken. Leer hoe te [ omhoog een profiel in de documentatie van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html) kijken.
 
   +++
 
-* &#x200B;
+* 
   +++ Apparaat- en toepassingsgegevens
 
   Verzamel het volgende van uw testapparaat:
@@ -97,15 +97,15 @@ Zorg ervoor dat u beschikt over:
 
 ### Problemen met profiel- of pushtoken {#profile-issue}
 
-[!BADGE &#x200B; is op zowel eenheids als uitzendingsgebruiksgevallen &#x200B;]{type=Positive} van toepassing
+[!BADGE  is op zowel eenheids als uitzendingsgebruiksgevallen ]{type=Positive} van toepassing
 
-De API retourneert HTTP 200, maar de Live Activiteit wordt niet weergegeven. Vaak voorkomende oorzaken:
+De API retourneert HTTP 200, maar de Live-activiteit wordt niet weergegeven. Vaak voorkomende oorzaken:
 
 * Profiel bestaat niet in Adobe Experience Platform.
-* Pushtoken voor Live-activiteit is niet gesynchroniseerd met profiel.
-* De pushgegevens voor Live-activiteit worden gesynchroniseerd maar bevatten een onjuiste configuratie, bijvoorbeeld onjuist `appId` of `attributeType` .
+* Pushtoken voor live-activiteit is niet gesynchroniseerd met profiel.
+* Pushdetails van Live-activiteit worden gesynchroniseerd maar bevatten een onjuiste configuratie, bijvoorbeeld onjuist `appId` of `attributeType` .
 
-**Nota voor de gevallen van het uitzendingsgebruik**: Als sommige profielen in uw publiek tekenen missen, slechts zullen die profielen er niet in slagen om de Levende Activiteit te ontvangen. Neem een monster van verschillende profielen van uw publiek om problemen met token te diagnosticeren. Dit is alleen van toepassing op externe start-gebeurtenissen, niet op update- of end-gebeurtenissen.
+**Nota voor de gevallen van het uitzendingsgebruik**: Als sommige profielen in uw publiek tekenen missen, slechts zullen die profielen er niet in slagen om de Levende activiteit te ontvangen. Neem een monster van verschillende profielen van uw publiek om problemen met token te diagnosticeren. Dit is alleen van toepassing op externe start-gebeurtenissen, niet op update- of end-gebeurtenissen.
 
 #### Voorcontroles
 
@@ -119,7 +119,7 @@ De API retourneert HTTP 200, maar de Live Activiteit wordt niet weergegeven. Vaa
 
 #### Foutopsporingsstappen
 
-1. &#x200B;
+1. 
    +++ Controleren of het profiel bestaat in Adobe Experience Platform
 
    1. In Journey Optimizer, navigeer aan **Klant** `>` **Profielen**.
@@ -129,8 +129,8 @@ De API retourneert HTTP 200, maar de Live Activiteit wordt niet weergegeven. Vaa
 
       +++
 
-1. &#x200B;
-   +++ Controleren of pushtoken voor Live-activiteit is gesynchroniseerd
+1. 
+   +++ Controleren of push-token voor live-activiteit is gesynchroniseerd
 
    U kunt Assurance gebruiken om de tokenregistratie te verifiëren:
 
@@ -149,7 +149,7 @@ De API retourneert HTTP 200, maar de Live Activiteit wordt niet weergegeven. Vaa
 
    +++
 
-1. &#x200B;
+1. 
    +++ Tokendetails in profiel valideren
 
    1. Van uw **Profiel**, heb toegang tot **Attributen** tabel.
@@ -189,34 +189,34 @@ De API retourneert HTTP 200, maar de Live Activiteit wordt niet weergegeven. Vaa
 
 ### Problemen met de configuratie en lading van campagnes {#payload-issues}
 
-[!BADGE &#x200B; is op zowel eenheids als uitzendingsgebruiksgevallen &#x200B;]{type=Positive} van toepassing
+[!BADGE  is op zowel eenheids als uitzendingsgebruiksgevallen ]{type=Positive} van toepassing
 
-Profiel bestaat met geldige tokens, maar Live activiteit wordt niet weergegeven. Dit kan worden veroorzaakt door:
+Profiel bestaat met geldige tokens, maar Live-activiteit wordt niet weergegeven. Dit kan worden veroorzaakt door:
 
 * Onjuiste oppervlak- of kanaalconfiguratie.
 * Onjuiste API-laadstructuur.
 * `content-state` en `attributes` komen niet overeen met iOS `ActivityAttributes` -implementatie.
 * Stale `timestamp` (kritiek voor update/eind).
 
-**Nota voor de gevallen van het uitzendingsgebruik**: De campagne moet **API-getriggerde Marketing** (niet Transactioneel) zijn. Bij Payload wordt `audience` gebruikt in plaats van individuele `profile` . Verwijs naar [&#x200B; deze sectie &#x200B;](#broadcast-config) voor uitzending-specifieke ladingsstructuur en naar [&#x200B; documentatie van Adobe Developer &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMAudienceMessageExecution) voor volledige API specificaties.
+**Nota voor de gevallen van het uitzendingsgebruik**: De campagne moet **API-getriggerde Marketing** (niet Transactioneel) zijn. Bij Payload wordt `audience` gebruikt in plaats van individuele `profile` . Verwijs naar [ deze sectie ](#broadcast-config) voor uitzending-specifieke ladingsstructuur en naar [ documentatie van Adobe Developer ](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMAudienceMessageExecution) voor volledige API specificaties.
 
 #### Voorcontroles
 
-* De campagne is **API-teweeggebrachte Transactionele** (unitaire) of **API-teweeggebrachte Marketing** (uitzending) en **Hoge de optie van de Bedrading** moet **niet** worden toegelaten aangezien het met Levende Activiteit onverenigbaar is.
-* Zorg ervoor dat het profiel bestaat en de tekenen correct gebruikend het [&#x200B; hierboven scenario &#x200B;](#profile-issue) worden gesynchroniseerd.
+* De campagne is **API-teweeggebrachte Transactionele** (unitaire) of **API-teweeggebrachte Marketing** (uitzending) en **Hoge de optie van de Productie** moet **niet** worden toegelaten aangezien het met Levende activiteit onverenigbaar is.
+* Zorg ervoor dat het profiel bestaat en de tekenen correct gebruikend het [ hierboven scenario ](#profile-issue) worden gesynchroniseerd.
 
 #### Foutopsporingsstappen
 
-1. &#x200B;
+1. 
    +++ Configuratie van campagneoppervlak verifiëren
 
-   1. In Journey Optimizer, open uw **Campagne** en navigeer aan het **3&rbrace; menu van Acties.**
+   1. In Journey Optimizer, open uw **Campagne** en navigeer aan het **3} menu van Acties.**
    1. Controleer uw **Levende activiteitenconfiguratie**. Het oppervlak moet voor de iOS-toepassing worden geconfigureerd met een bundle-id die overeenkomt met de `appId` in het `liveActivityPushNotificationDetails` -profiel. Als uw profiel bijvoorbeeld `"appId": "com.example.myapp"` heeft, moet het oppervlak zich richten op dezelfde app.
    1. Controleer dat het **type van Activiteit** in uw campagneconfiguratie precies `attributeType` in uw profiel `liveActivityPushNotificationDetails` aanpast. Als uw profiel bijvoorbeeld `"attributeType": "FoodDeliveryLiveActivityAttributes"` heeft, moet de campagne hetzelfde type activiteit opgeven.
 
       +++
 
-1. &#x200B;
+1. 
    +++Betalingsstructuur van API valideren
 
    Wanneer u de campagne uitvoert via de API, moet u ervoor zorgen dat de lading de juiste structuur volgt.
@@ -275,12 +275,12 @@ Profiel bestaat met geldige tokens, maar Live activiteit wordt niet weergegeven.
    * Optioneel veld met Unix epoche-tijd (seconden).
    * **slechts relevant wanneer`event: "end"`**.
    * Hiermee geeft u aan wanneer de actieve activiteit automatisch van het apparaat moet worden verwijderd.
-   * Als deze optie niet wordt opgegeven bij de eindgebeurtenis, blijft Live-activiteit zichtbaar totdat de gebruiker deze uitschakelt.
+   * Als deze optie niet wordt opgegeven bij de eindgebeurtenis, blijft Live-activiteit zichtbaar totdat de gebruiker deze verlaat.
    * Moet een toekomstig tijdstempel zijn (later dan `timestamp`).
 
      +++
 
-1. &#x200B;
+1. 
    +++ Betalingsbelasting uitlijnen met iOS-implementatie
 
    Zorg ervoor dat de payload van uw API overeenkomt met de implementatie van uw iOS-app. `ActivityAttributes` Het Adobe SDK `LiveActivityAttributes` -protocol breidt iOS `ActivityAttributes` uit en vereist een `liveActivityData` -eigenschap.
@@ -342,19 +342,19 @@ Profiel bestaat met geldige tokens, maar Live activiteit wordt niet weergegeven.
 
    | Probleem | Gevolgen | Repareren |
    |-------|--------|-----|
-   | Ontbrekende `liveActivityData` kenmerken | Live-activiteiten wordt niet gestart | Object `liveActivityData` altijd opnemen in gebeurtenis start |
-   | Vereist veld ontbreekt in startgebeurtenis | Live-activiteiten wordt niet gestart | Alle velden uit iOS-structuur toevoegen |
+   | Ontbrekende `liveActivityData` kenmerken | Live-activiteit wordt niet gestart | Object `liveActivityData` altijd opnemen in gebeurtenis start |
+   | Vereist veld ontbreekt in startgebeurtenis | Live-activiteit wordt niet gestart | Alle velden uit iOS-structuur toevoegen |
    | Onjuiste veldnaam (typefout/hoofdletter) | Veld genegeerd of parseerfout | IOS-veldnamen exact afstemmen |
    | Onjuist gegevenstype | Parseringsfout | Overeenkomstige iOS-gegevenstypen |
    | Ontbrekend genest object | Onvolledige gegevens | Alle geneste structuren opnemen |
    | `attributes` opnemen in update/end | Onnodig, maar meestal genegeerd | Alleen `attributes` instart-gebeurtenis opnemen |
    | Tijdstempel schalen bij bijwerken/beëindigen | Bijwerken/beëindigen genegeerd door apparaat | Altijd nieuwe tijdstempel genereren |
 
-   Voor meer voorbeelden, verwijs naar [&#x200B; creeer Actieve activiteitenpagina &#x200B;](create-mobile-live.md).
+   Voor meer voorbeelden, verwijs naar [ creeer Actieve activiteitenpagina ](create-mobile-live.md).
 
    +++
 
-1. &#x200B;
+1. 
    +++ Testen met Assurance
 
    Verifieer de uitvoering van de API en de levering van de lading met Assurance:
@@ -363,26 +363,26 @@ Profiel bestaat met geldige tokens, maar Live activiteit wordt niet weergegeven.
    1. Voer de API-aanroep uit om de Live-activiteit te activeren.
    1. In de **Lijst van de Gebeurtenis**, controleer voor:
       * Gebeurtenissen tijdens de uitvoering van de campagne.
-      * Gebeurtenissen voor de levering van Live Activity.
+      * Gebeurtenissen voor de levering van live-activiteiten.
       * Gebeurtenissen van de Payload-validatie.
    1. Controleren van de te controleren gebeurtenislading:
       * De lading is correct verwerkt.
       * Er zijn geen validatiefouten opgetreden.
-      * Live Activiteit is verzonden naar APNs.
+      * Live activiteit is naar APNs verzonden.
 
       +++
 
 ### Leveringsfouten en foutenanalyse
 
-[!BADGE &#x200B; is op zowel eenheids als uitzendingsgebruiksgevallen &#x200B;]{type=Positive} van toepassing
+[!BADGE  is op zowel eenheids als uitzendingsgebruiksgevallen ]{type=Positive} van toepassing
 
 In dit scenario zijn alle vorige controles geslaagd:
 
-* Het profiel bestaat met [&#x200B; geldige Levende de duimtekenen van de Activiteit &#x200B;](#profile-issue)
-* De campagne wordt correct [&#x200B; gevormd met juiste nuttige lading &#x200B;](#payload-issues)
-* [&#x200B; tokens van de Update worden gesynchroniseerd &#x200B;](#token-not-synced) (voor update/eindgebeurtenissen, unitaire gebruikscase slechts)
+* Het profiel bestaat met [ geldige Actieve tokens van de activiteitenduw ](#profile-issue)
+* De campagne wordt correct [ gevormd met juiste nuttige lading ](#payload-issues)
+* [ tokens van de Update worden gesynchroniseerd ](#token-not-synced) (voor update/eindgebeurtenissen, unitaire gebruikscase slechts)
 
-Maar de Live Activiteit wordt nog steeds niet weergegeven, bijgewerkt of beëindigd zoals u had verwacht. Het probleem kan zich voordoen op het niveau van het Adobe-leveringssysteem of bij de APNs (push notification service provider).
+De Live-activiteit wordt echter nog steeds niet weergegeven, bijgewerkt of beëindigd zoals u had verwacht. Het probleem kan zich voordoen op het niveau van het Adobe-leveringssysteem of bij de APNs (push notification service provider).
 
 **Nota voor de gevallen van het uitzendingsgebruik**: De rapporten tonen metriek over alle publieksleden. Sommige profielen kunnen slagen terwijl andere ontbreken.
 
@@ -401,10 +401,10 @@ Maar de Live Activiteit wordt nog steeds niet weergegeven, bijgewerkt of beëind
 
 #### Foutopsporingsstappen
 
-1. &#x200B;
+1. 
    +++ Campagnerapporten controleren
 
-   1. Navigeer aan uw **Levende Campagne van de Activiteit**.
+   1. Navigeer aan uw **Levende activiteitenCampagne**.
    1. Klik de **knoop van Rapporten**.
    1. Selecteer **Mening al tijdrapport**.
    1. Bekijk de volgende secties:
@@ -423,7 +423,7 @@ Maar de Live Activiteit wordt nog steeds niet weergegeven, bijgewerkt of beëind
 
          | Algemene fout | Betekenis | Resolutie |
          |-|-|-|
-         | Ongeldig token | Push-token is ongeldig of verlopen | Tokens voor Live-activiteit opnieuw registreren vanaf apparaat |
+         | Ongeldig token | Push-token is ongeldig of verlopen | Tokens voor live-activiteiten opnieuw registreren vanaf apparaat |
          | Token niet gevonden | Geen geldig token gekoppeld aan profiel | Controleren of `liveActivityPushNotificationDetails` bestaat |
          | APN&#39;s afgewezen | Apple Push Notification service heeft pushmelding afgewezen | APNs-certificaat, bundle ID, omgeving controleren |
          | Time-out netwerk | Kan APNs niet bereiken | Voorbijgaande kwestie; probeer de API vraag opnieuw |
@@ -436,11 +436,11 @@ Maar de Live Activiteit wordt nog steeds niet weergegeven, bijgewerkt of beëind
          | Token gevoegd op lijst van gewenste personen | Token gemarkeerd als ongeldig | Token opnieuw registreren of de status van de lijst van gewezen personen controleren |
          | Profiel komt niet in aanmerking | Profiel voldoet niet aan campagnecriteria | De publieksregels van de campagne bekijken |
 
-   Leer meer in de [&#x200B; Levende pagina van het activiteitencampagnerapport &#x200B;](../reports/campaign-global-report-cja-activity.md).
+   Leer meer in de [ Levende pagina van het activiteitencampagnerapport ](../reports/campaign-global-report-cja-activity.md).
 
    +++
 
-1. &#x200B;
+1. 
    +++ Feedbackgebeurtenissen voor berichten in profiel controleren
 
    1. Navigeer aan **Klant** > **Profielen** in Journey Optimizer.
@@ -467,12 +467,12 @@ Maar de Live Activiteit wordt nog steeds niet weergegeven, bijgewerkt of beëind
 
       +++
 
-1. &#x200B;
-   +++ Levering van Live-activiteiten aan APN&#39;s in Assurance controleren
+1. 
+   +++ Levering van live-activiteiten aan APN&#39;s in Assurance controleren
 
    1. Open uw Assurance-sessie. Deze moet actief zijn tijdens de API-aanroep.
    1. Voer de API-aanroep uit (start, update of end).
-   1. In de **Lijst van de Gebeurtenis**, zoek de Actieve gebeurtenissen van de Activiteit.
+   1. In de **Lijst van de Gebeurtenis**, zoek de Actieve gebeurtenissen van de activiteitenlevering.
    1. Zoeken naar gebeurtenissen die te maken hebben met APNs-push.
    1. Controleren op de volgende indicatoren:
       * **duw verzoek aan APNs**: Bevestigt Adobe verzendt de duw naar de servers van Apple
@@ -485,15 +485,15 @@ Maar de Live Activiteit wordt nog steeds niet weergegeven, bijgewerkt of beëind
       | APNs-certificaat verlopen | Verificatiefout | Nieuw APN-certificaat vernieuwen en uploaden |
       | Verkeerde omgeving (dev vs prod) | Fout door token | Zorg ervoor dat het certificaat overeenkomt met het type App-build |
       | Bundel-id komt niet overeen | Ongeldige bundle-id | Identieke overeenkomende certificaatbundel-id verifiëren |
-      | Token is verlopen | InvalidToken-fout van APNs | Tokens voor live activiteiten opnieuw registreren |
+      | Token is verlopen | InvalidToken-fout van APNs | Tokens voor live-activiteiten opnieuw registreren |
       | Snelheidbeperking | Te veel verzoeken | API-aanroepfrequentie verminderen |
 
       +++
 
-1. &#x200B;
+1. 
    +++ Ga door met aanvullende diagnostische controles
 
-   1. Metrische gegevens over de levenscyclus van actieve activiteiten controleren in het campagnerapport.
+   1. Controleer de levenscyclusgegevens van de actieve activiteit in het campagnerapport.
 
       In het campagnerapport, herzie de **Levende sectie van de activiteitenlevenscyclus**:
 
@@ -502,13 +502,13 @@ Maar de Live Activiteit wordt nog steeds niet weergegeven, bijgewerkt of beëind
       | Extern starten | Het aantal API-gestuurde start moet worden weergegeven |
       | Updates | Aantal updategebeurtenissen weergeven |
       | Eindigt | Aantal eindgebeurtenissen weergeven |
-      | Aantal totalen | Totaal gebeurtenisvolume van Live Activity |
+      | Aantal totalen | Totaal gebeurtenisvolume van Live-activiteit |
 
       Als deze cijfers nul zijn of niet overeenkomen met uw API-aanroepen, is er een leveringsprobleem tussen Adobe en APNs.
 
-   1. Als Adobe een succesvolle levering weergeeft, maar het apparaat de Live-activiteit niet weergeeft:
+   1. Als Adobe een geslaagde levering weergeeft, maar het apparaat de Live-activiteit niet weergeeft:
 
-      * Controleer iOS-apparaatlogboeken op fouten met Live Activity.
+      * Controleer iOS-apparaatlogboeken op fouten met Live-activiteit.
       * Controleer of de app op de voor- of achtergrond staat (niet is afgesloten).
       * Bevestig apparaat heeft netwerkconnectiviteit.
       * Test op meerdere apparaten om apparaatspecifieke problemen uit te sluiten.
@@ -516,7 +516,7 @@ Maar de Live Activiteit wordt nog steeds niet weergegeven, bijgewerkt of beëind
 
       +++
 
-1. &#x200B;
+1. 
    +++ Doorverwijzing naar Adobe-ondersteuning
 
    Als u alle stappen hebt uitgevoerd en het probleem niet is opgelost, neemt u contact op met de klantenservice van Adobe via:
@@ -538,15 +538,15 @@ Maar de Live Activiteit wordt nog steeds niet weergegeven, bijgewerkt of beëind
 
 ## Uniespecifieke scenario&#39;s
 
-### Token voor update van actieve activiteit is niet gesynchroniseerd{#token-not-synced}
+### Token voor update van actieve activiteiten is niet gesynchroniseerd{#token-not-synced}
 
-De liveactiviteit wordt op het apparaat gestart, maar volgende `update` - of `end` API-aanroepen (die HTTP 200 retourneren) kunnen de live activiteit niet bijwerken of sluiten. Dit komt voor wanneer het **Levende het updatetoken van de Activiteit** niet behoorlijk aan het systeem van Adobe wordt gesynchroniseerd.
+De Live-activiteit wordt op het apparaat gestart, maar volgende `update` - of `end` API-aanroepen (die HTTP 200 retourneren) kunnen de Live-activiteit niet bijwerken of sluiten. Dit komt voor wanneer het **Levende teken van de activiteitenupdate** niet behoorlijk aan het systeem van Adobe wordt gesynchroniseerd.
 
 **Begrijpend updatetokens**
 
-Wanneer een Live-activiteit op een apparaat wordt gestart, genereert iOS een uniek updatetoken voor die specifieke Live-activiteit-instantie. Dit token is vereist voor:
+Wanneer een Live-activiteit op een apparaat start, genereert iOS een unieke updatetoken voor die specifieke Live-activiteit-instantie. Dit token is vereist voor:
 
-* Updates verzenden voor de live activiteit
+* Updates van de Live-activiteit verzenden
 * Live activiteiten extern beëindigen
 
 Elke instantie van Live-activiteit heeft een eigen unieke update-token. Adobe heeft dit token nodig om update- en end-gebeurtenissen te leveren.
@@ -556,19 +556,19 @@ Elke instantie van Live-activiteit heeft een eigen unieke update-token. Adobe he
 Update- en end-gebeurtenissen werken alleen als het volgende plaatsvindt:
 
 1. Live-activiteit wordt op het apparaat gestart.
-1. Apparaat genereert een updatetoken voor die Live Activity-instantie.
+1. Apparaat genereert een updatetoken voor die Live-activiteit-instantie.
 1. Mobile SDK legt de updatetoken vast en stuurt deze naar Adobe.
 1. Het updatetoken wordt gesynchroniseerd en opgeslagen in het Adobe-systeem.
 1. Volgende API-aanroepen voor bijwerken/beëindigen gebruiken dit token voor levering.
 
 **pre-controles:**
 
-* **Toestemming van de Gebruiker**: De eerste keer een Levende Activiteit begint op een apparaat, toont iOS een systeemherinnering: &quot;Toestaan [ Naam van de App ] om Actieve updates van de Activiteit te verstrekken?&quot; De gebruiker **moet &quot;toestaan&quot;tikken** voor updatetokens om worden geproduceerd en worden gesynchroniseerd. Als de gebruiker op &quot;Niet toestaan&quot; tikt, worden geen updatetokens gemaakt en mislukken de update-/eindaanvragen. Dit is een eenmalige machtiging per app.
-* **Bevestiging van het Profiel en van de Campagne**: Volledige [&#x200B; Scenario 1 &#x200B;](#profile-issue) en [&#x200B; Scenario 2 &#x200B;](#payload-issues) controles om profiel, tekenen, en campagneconfiguratie te verzekeren zijn correct.
+* **Toestemming van de Gebruiker**: De eerste keer een Levende activiteit begint op een apparaat, toont iOS een systeemherinnering: &quot;Toestaan [ Naam van de App ] om Actieve activiteitenupdates te verstrekken?&quot; De gebruiker **moet &quot;toestaan&quot;tikken** voor updatetokens om worden geproduceerd en worden gesynchroniseerd. Als de gebruiker op &quot;Niet toestaan&quot; tikt, worden geen updatetokens gemaakt en mislukken de update-/eindaanvragen. Dit is een eenmalige machtiging per app.
+* **Bevestiging van het Profiel en van de Campagne**: Volledige [ Scenario 1 ](#profile-issue) en [ Scenario 2 ](#payload-issues) controles om profiel, tekenen, en campagneconfiguratie te verzekeren zijn correct.
 
 #### Foutopsporingsstappen
 
-1. &#x200B;
+1. 
    +++ Synchronisatie van updatetoken verifiëren in Assurance
 
    1. Open je Assurance-sessie.
@@ -577,21 +577,21 @@ Update- en end-gebeurtenissen werken alleen als het volgende plaatsvindt:
    1. Selecteer de gebeurtenis en controleer de lading:
 
       * Controleer of het veld `token` een geldige token-tekenreeks voor updates bevat.
-      * Controleer of `liveActivityID` overeenkomt met uw Live Activity-instantie.
+      * Controleer of de `liveActivityID` overeenkomt met uw Live activity-instantie.
       * Bevestig dat de `activityType` overeenkomen met uw `attributes-type` .
 
    1. Als de gebeurtenis niet wordt gevonden:
 
       * Het updatetoken is niet gegenereerd of vastgelegd door de SDK.
-      * Controleer of de gebruiker Live-activiteit-machtigingen heeft verleend.
-      * Controleer of Live-activiteit daadwerkelijk op het apparaat is gestart.
+      * Controleer of de gebruiker Live-activiteitmachtigingen heeft verleend.
+      * Controleer of Live-activiteit correct op het apparaat is gestart.
       * Controleer of de mobiele SDK correct is geïntegreerd om updatetokens vast te leggen.
 
    1. Ga door met Stap 2 als een gebeurtenis wordt gevonden.
 
       +++
 
-2. &#x200B;
+2. 
    +++ Update-token verifiëren bij profielgebeurtenissen
 
    1. Navigeer aan **Klant** > **Profielen** in Journey Optimizer.
@@ -614,11 +614,11 @@ Update- en end-gebeurtenissen werken alleen als het volgende plaatsvindt:
 
       +++
 
-3. &#x200B;
-   +++ Live Activity-leveringsgebeurtenissen controleren in Assurance
+3. 
+   +++ Live activity-leveringsgebeurtenissen in Assurance controleren
 
    1. Voer in uw Assurance-sessie een update uit of sluit een API-aanroep af.
-   1. In de **Lijst van de Gebeurtenis**, zoek de Levende gebeurtenissen van de Activiteit van de Activiteit (APNs duw gebeurtenissen).
+   1. In de **Lijst van de Gebeurtenis**, zoek de Actieve gebeurtenissen van de activiteitenlevering (APNs duw gebeurtenissen).
    1. Controleren op gebeurtenissen die aangeven:
       * Pushmelding verzonden naar APNs.
       * Reactie van APNs (succes of fout).
@@ -633,27 +633,27 @@ Update- en end-gebeurtenissen werken alleen als het volgende plaatsvindt:
 
 ### Configuratie van de campagne voor uitzending en problemen met de lading{#broadcast-config}
 
-Deze sectie behandelt het oplossen van problemenscenario&#39;s specifiek om Levende Activiteiten uit te zenden, die verschillende het zuiveren benaderingen dan eenheidscampagnes vereisen.
+Deze sectie behandelt het oplossen van problemenscenario&#39;s specifiek om Live activiteiten uit te zenden, die verschillende het zuiveren benaderingen dan eenheidscampagnes vereisen.
 
-Wanneer profielen geldige tokens hebben maar de Actieve Activiteit niet verschijnt, bijwerkt, of zich zoals verwacht voor publieksleden gedraagt, komt de kwestie typisch uit één van het volgende voort:
+Als profielen geldige tokens hebben maar de Live-activiteit niet wordt weergegeven, bijgewerkt of zich niet naar behoren gedraagt voor publieksleden, is de uitgave doorgaans het resultaat van een van de volgende:
 
 * De campagne is niet geconfigureerd als API-getriggerde marketing.
 * De API-payload gebruikt een onjuiste uitzendstructuur (ontbreekt `audience` of `input-push-channel` ).
 * De velden `content-state` en `attributes` komen niet overeen met de iOS `ActivityAttributes` -implementatie.
 * `input-push-channel` is niet correct gemaakt op de Apple Developer Portal.
 
-Dit scenario voor probleemoplossing is van toepassing op alle gebeurtenissen Live Activity in uitzendcampagnes: `start`, `update` en `end` .
+Dit scenario voor het oplossen van problemen is van toepassing op alle gebeurtenissen Live-activiteit in uitzendingscampagnes: `start`, `update` en `end` .
 
 **pre-controles:**
 
 * **Type van Campagne**:
    * Verifieer dat de campagne als API-teweeggebrachte Marketing (die voor uitzending/op publiek-gebaseerde campagnes wordt vereist) wordt gecreeerd.
    * Bevestig dat een publiek in de campagneconfiguratie wordt bepaald.
-* **Profiel en Symbolische Bevestiging**: Steek veelvoudige profielen van het publiek om te verifiëren zij geldig `liveActivityPushNotificationDetails` hebben. Voor gedetailleerde bevestigingsstappen, volg [&#x200B; Scenario 1 &#x200B;](#profile-issue).
+* **Profiel en Symbolische Bevestiging**: Steek veelvoudige profielen van het publiek om te verifiëren zij geldig `liveActivityPushNotificationDetails` hebben. Voor gedetailleerde bevestigingsstappen, volg [ Scenario 1 ](#profile-issue).
 
 #### Foutopsporingsstappen
 
-1. &#x200B;
+1. 
    +++ Configuratie voor publiek campagne controleren
 
    1. Open uw **API teweeggebrachte de Marketing Campagne van de Marketing** in Journey Optimizer.
@@ -668,7 +668,7 @@ Dit scenario voor probleemoplossing is van toepassing op alle gebeurtenissen Liv
 
       +++
 
-1. &#x200B;
+1. 
    +++ Payloadstructuur van uitzendings-API valideren
 
    De structuur van de uitzendingslading verschilt van eenheidscampagnes. Verifieer dat uw lading het correcte uitzendingsformaat volgt.
@@ -711,13 +711,13 @@ Dit scenario voor probleemoplossing is van toepassing op alle gebeurtenissen Liv
 
    **Kritieke uitzending-specifieke gebieden:**
 
-   * **`input-push-channel`**:
-      * Vereist voor alle uitzending Live Activiteiten.
+   * **`input-push-channel`** :
+      * Vereist voor alle uitzendingen Live activiteiten.
       * Fungeert als een unieke id voor deze specifieke uitzendingsinstantie.
-      * Alle profielen in het publiek ontvangen Live Activiteiten die aan dit kanaal zijn gekoppeld.
+      * Alle profielen in het publiek ontvangen Live-activiteiten die aan dit kanaal zijn gekoppeld.
       * Moet overeenkomen met `channelID` in `liveActivityData.channelID` (zie Stap 3).
       * Moet door de client worden gemaakt voor de `appID` op de Apple Developer Portal.
-      * Alleen kanalen die voor de specifieke `appID` zijn gemaakt, kunnen worden gebruikt voor het uitzenden van Live-activiteit op die app.
+      * Alleen kanalen die voor de specifieke `appID` zijn gemaakt, kunnen worden gebruikt voor het uitzenden van Live-activiteiten op die app.
 
    * **`audience.id`**:
       * Moet verwijzen naar een geldig publiekssegment dat in Adobe Experience Platform is gemaakt.
@@ -736,11 +736,11 @@ Dit scenario voor probleemoplossing is van toepassing op alle gebeurtenissen Liv
    * `dismissal-date`: Unix tijdperk voor automatisch ontslag (alleen relevant voor `end` -gebeurtenissen)
    * `alert`: Object met `title` en `body` voor melding
 
-   Verwijs naar de [&#x200B; documentatie van API van het Overseinen van Adobe Journey Optimizer &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging) voor volledige API specificaties.
+   Verwijs naar de [ documentatie van API van het Overseinen van Adobe Journey Optimizer ](https://developer.adobe.com/journey-optimizer-apis/references/messaging) voor volledige API specificaties.
 
    +++
 
-1. &#x200B;
+1. 
    +++ Inhoudsstatus, kenmerken en invoerpushkanaal uitlijnen met iOS-implementatie
 
    Zorg ervoor dat de payload-velden overeenkomen met de `ActivityAttributes` -implementatie van uw iOS-app en dat de `input-push-channel` overeenkomt met de `channelID` in `liveActivityData` .
@@ -795,7 +795,7 @@ Dit scenario voor probleemoplossing is van toepassing op alle gebeurtenissen Liv
 
    * De `input-push-channel` -waarde in de hoofdmap van `aps` moet exact overeenkomen met de `channelID` in `liveActivityData` .
    * In het bovenstaande voorbeeld zijn beide waarden `"FEt0NgvLEfEAAOqA6AXdIQ=="` .
-   * Deze overeenkomst koppelt de uitzendingsinstantie aan de Levende gegevens van de Activiteit.
+   * Deze overeenkomst koppelt de uitzendingsinstantie aan de Levende activiteitengegevens.
    * Bij een onjuiste overeenkomst treden leveringsfouten op.
 
    **Zeer belangrijke bevestigingspunten:**
@@ -812,16 +812,16 @@ Dit scenario voor probleemoplossing is van toepassing op alle gebeurtenissen Liv
    | Probleem | Gevolgen | Repareren |
    |-|-|-|
    | Ontbrekend `input-push-channel` | Uitzenden werkt niet | Unieke kanaal-id toevoegen voor elke uitzending |
-   | `input-push-channel` komt niet overeen met `channelID` | Live-activiteiten wordt niet gestart | Zorg ervoor dat beide waarden identiek zijn |
-   | Verschil `input-push-channel` voor bijwerken/beëindigen | De update/end zal niet de Levende Activiteiten bereiken | Dezelfde kanaal-id gebruiken gedurende de hele levenscyclus |
-   | Ontbrekend `liveActivityData.channelID` | Live activiteit is niet gekoppeld aan uitzenden | `channelID` opnemen in kenmerken voor startgebeurtenis |
-   | Vereist veld ontbreekt in startgebeurtenis | Live-activiteiten wordt niet gestart | Alle velden uit iOS-structuur toevoegen |
+   | `input-push-channel` komt niet overeen met `channelID` | Live-activiteit wordt niet gestart | Zorg ervoor dat beide waarden identiek zijn |
+   | Verschil `input-push-channel` voor bijwerken/beëindigen | Update/end bereikt de Live-activiteiten niet | Dezelfde kanaal-id gebruiken gedurende de hele levenscyclus |
+   | Ontbrekend `liveActivityData.channelID` | Live-activiteiten zijn niet gekoppeld aan uitzenden | `channelID` opnemen in kenmerken voor startgebeurtenis |
+   | Vereist veld ontbreekt in startgebeurtenis | Live-activiteit wordt niet gestart | Alle velden uit iOS-structuur toevoegen |
    | Onjuiste veldnaam (typefout/hoofdletter) | Veld genegeerd of parseerfout | IOS-veldnamen exact afstemmen |
    | Tijdstempel schalen bij bijwerken/beëindigen | Bijwerken/beëindigen genegeerd door apparaten | Altijd nieuwe tijdstempel genereren |
 
    +++
 
-1. &#x200B;
+1. 
    +++ Testen met Assurance
 
    Verifieer de uitvoering van de API en de levering van de lading met Assurance:
@@ -830,7 +830,7 @@ Dit scenario voor probleemoplossing is van toepassing op alle gebeurtenissen Liv
    1. Voer de uitzending API vraag uit.
    1. In de **Lijst van de Gebeurtenis**, zoek:
       * Gebeurtenissen tijdens de uitvoering van de campagne.
-      * Gebeurtenissen voor de levering van Live Activity.
+      * Gebeurtenissen voor de levering van live-activiteiten.
       * Foutgebeurtenissen die mislukte payload-validatie aangeven.
    1. Inspecteer gebeurtenisladingen om te bevestigen:
       * De lading is correct verwerkt.
@@ -842,11 +842,11 @@ Dit scenario voor probleemoplossing is van toepassing op alle gebeurtenissen Liv
 
 ### Profiel niet in publieksopname of opname van een vergelijkbaar publiek
 
-In dit scenario worden de campagne en de lading correct gevormd, maar de specifieke profielen ontvangen niet de Levende Activiteit. Dit gebeurt gewoonlijk wanneer:
+In dit scenario worden de campagne en de lading correct gevormd, maar de specifieke profielen ontvangen niet de Levende activiteit. Dit gebeurt gewoonlijk wanneer:
 
 * Het profiel is geen lid van het publiek dat aan de campagne is gekoppeld.
 * Het publiek is een batchpubliek en bevat een verouderde momentopname van profielgegevens.
-* De tokens voor Live-activiteit van het profiel zijn onlangs toegevoegd, maar zijn nog niet in de momentopname van het publiek weerspiegeld.
+* De tokens voor live-activiteiten van het profiel zijn onlangs toegevoegd, maar zijn nog niet weerspiegeld in de opname van het publiek.
 
 Dit het oplossen van problemenscenario is specifiek op uitzendingscampagnes gebruikend op publiek-gebaseerd richten van toepassing.
 
@@ -862,16 +862,16 @@ Adobe Experience Platform gebruikt verschillende methoden voor publieksevaluatie
 **pre-controles:**
 
 * **Campagne en Bevestiging van de Lading**:
-   * Voltooi de controles in [&#x200B; dit scenario &#x200B;](#broadcast-config) om de campagne en de lading te verzekeren correct zijn.
+   * Voltooi de controles in [ dit scenario ](#broadcast-config) om de campagne en de lading te verzekeren correct zijn.
    * Controleer of de `audience.id` in de API-payload overeenkomt met de configuratie van de campagne.
 * **Profiel bestaat**: Bevestig dat het profiel in AEP met geldig `liveActivityPushNotificationDetails` bestaat.
 
 #### Foutopsporingsstappen
 
-1. &#x200B;
+1. 
    +++ Controleren of het profiel in het publiek aanwezig is
 
-   Bevestig eerst of het profiel dat de live activiteit moet ontvangen, daadwerkelijk deel uitmaakt van het publiek.
+   Bevestig eerst of het profiel dat de Live-activiteit moet ontvangen, daadwerkelijk deel uitmaakt van het publiek.
 
    1. Navigeer aan **Soorten publiek** in Adobe Experience Platform.
    1. Zoek naar en open het publiek gebruikend `audience.id` van uw campagne.
@@ -886,7 +886,7 @@ Adobe Experience Platform gebruikt verschillende methoden voor publieksevaluatie
 
       +++
 
-2. &#x200B;
+2. 
    +++ Type en planning van publieksevaluatie controleren
 
    Identificeer of het publiek batch- of streaming evaluatie gebruikt, aangezien dit gegevensversheid bepaalt.
@@ -903,7 +903,7 @@ Adobe Experience Platform gebruikt verschillende methoden voor publieksevaluatie
    1. **begrijp de beperkingen van het partijpubliek:**
       * Het batchpubliek wordt eenmaal per dag geëvalueerd (doorgaans &#39;s nachts).
       * De momentopname van het publiek kan tot 24 uur oud zijn.
-      * Als een profiel onlangs de Actieve tokens van de Activiteit registreerde, kunnen die tokens niet in de huidige momentopname zijn.
+      * Als een profiel onlangs geregistreerde Levende activiteitentekenen, kunnen die tokens niet in de huidige momentopname zijn.
       * Updates voor profielen worden pas in de volgende batchevaluatie weergegeven.
 
    1. **Controle toen laatste evaluatie voorkwam:**

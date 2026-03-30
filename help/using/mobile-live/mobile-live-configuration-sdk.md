@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Het actieve activiteitenkanaal configureren
+title: Het kanaal Live-activiteiten configureren
 description: Leer hoe u uw Adobe Experience Platform Mobile SDK-integratie configureert
 feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ De Adobe Experience Platform Mobile SDK biedt ingebouwde ondersteuning voor Appl
 
    Importeer de volgende modules: **[!DNL AEPMessaging]**, **[!DNL AEPMessagingLiveActivity]**, **[!DNL ActivityKit]** .
 
-1. [&#x200B; bepalen attributen &#x200B;](#attributes)
+1. [ bepalen attributen ](#attributes)
 
    Omgaan met `LiveActivityAttributes` , neemt u de kenmerken `LiveActivityData` en a `ContentState` op.
 
@@ -150,7 +150,7 @@ if #available(iOS 16.1, *) {
 
 ## Stap 4: Live-activiteiten-widgets maken {#widgets}
 
-Live-activiteit wordt via widgets weergegeven. U moet een widgetbundel en -configuratie maken:
+Een Live-activiteit wordt via widgets weergegeven. U moet een widgetbundel en -configuratie maken:
 
 **Voorbeeld voor een Levende activiteit van de voedsellevering:**
 
@@ -235,11 +235,11 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
 
 Voor uitgebreide documentatie en implementatiedetails van SDK:
 
-* [&#x200B; Levende Gids van de Ontwikkelaar van Activiteiten &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
-* [&#x200B; API Verwijzing &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
-* [&#x200B; Levende Zelfstudie van de Activiteit &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
-* [&#x200B; Openbare Klassen &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
+* [ Levende Gids van de Activiteiten van de Ontwikkelaar ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
+* [ API Verwijzing ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
+* [ Levende activiteitenLeerprogramma ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
+* [ Openbare Klassen ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
 
 >[!TIP]
 >
->Als u kwesties met symbolische registratie, loonlastgroepering, of de Levende levering van de Activiteit ervaart, zie [&#x200B; Levende Activiteiten &#x200B;](troubleshoot-mobile-live.md) voor gedetailleerde het zuiveren begeleiding problemen oplossen.
+>Als u kwesties met symbolische registratie, loonlastgroepering, of Levende activiteitenlevering ervaart, zie [ Levende activiteiten ](troubleshoot-mobile-live.md) voor gedetailleerde het zuiveren begeleiding problemen oplossen.
