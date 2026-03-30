@@ -56,11 +56,11 @@ In tegenstelling tot het doorgeven van context in een gratis indeling met behulp
 
    ![&#x200B; XDM schema dat de het gebiedsgroep van de Context van de Aanbieding met taal en apparaatType eigenschappen &#x200B;](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"} toont
 
-   Leer hoe te met schema&#39;s in [!DNL Adobe Experience Platform] [&#x200B; gids van de Gegevens van de Ervaring van het Model (XDM) &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"} werken
+   Leer hoe te met schema&#39;s in [!DNL Adobe Experience Platform] [&#x200B; gids van de Gegevens van de Ervaring van het Model (XDM) &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home){target="_blank"} werken
 
 1. Maak een dataset (hier &quot;Context van aanbieding&quot;) en zorg ervoor dat deze is ingeschakeld voor profiel.
 
-1. Maak een nieuwe gegevensstroom via het menu **[!UICONTROL Data Collection]** > **[!UICONTROL Datastreams]** . Leer hoe te om gegevensstroom in [!DNL Adobe Experience Platform] [&#x200B; gids van Gegevensstromen te creëren en te vormen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
+1. Maak een nieuwe gegevensstroom via het menu **[!UICONTROL Data Collection]** > **[!UICONTROL Datastreams]** . Leer hoe te om gegevensstroom in [!DNL Adobe Experience Platform] [&#x200B; gids van Gegevensstromen te creëren en te vormen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/datastreams/configure){target="_blank"}
 
    Hier, hebben wij een &quot;context van de Aanbieding&quot;gegevensstroom gecreeerd, met het de gebeurtenisschema van de &quot;Inhoud van de Aanbieding&quot;geselecteerd.
 
