@@ -86,4 +86,4 @@ Om berichten te kunnen verzenden, moet u door de hieronder vermelde configuratie
 * **[vorm iOS Live activiteiten](../mobile-live/mobile-live-configuration.md)** - opstelling uw milieu om Levende activiteiten naar het Scherm van het Slot van iPhone en Dynamisch eiland te verzenden.
 * **[vorm WhatsApp](../whatsapp/whatsapp-configuration.md)** - Opstelling het overseinen WhatsApp via de Wolk van Meta API voor campagnes en reizen.
 * **[vorm LIJN](../line/line-configuration.md)** - Het overseinen van de LIJN van de opstelling voor campagnes en reizen.
-* **[zelfstudies van de Configuratie &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - onderzoek geleidelijke videoleerprogramma&#39;s op kanaalconfiguratie en beste praktijken.
+* **[zelfstudies van de Configuratie &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - onderzoek geleidelijke videoleerprogramma&#39;s op kanaalconfiguratie en beste praktijken.
