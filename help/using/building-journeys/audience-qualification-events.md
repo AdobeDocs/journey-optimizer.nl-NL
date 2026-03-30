@@ -69,7 +69,7 @@ Voer de volgende stappen uit om de **[!UICONTROL Audience Qualification]** -acti
    >[!NOTE]
    >
    >**[!UICONTROL Enter]** en **[!UICONTROL Exit]** beantwoorden aan **gerealiseerde** en **Uitgegeven** status van de publieksparticipatie van [!DNL Adobe Experience Platform].
-   >Zie de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Zie de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results){target="_blank"}.
 
 1. Selecteer een naamruimte. Dit is alleen nodig als de gebeurtenis als eerste stap van de reis wordt geplaatst. Het veld wordt standaard voorgevuld met de laatst gebruikte naamruimte.
 
@@ -114,7 +114,7 @@ Wanneer het gebruiken van de Kwalificatie van het Publiek voor gestroomd publiek
 
 Vermijd het gebruik van open en verzend gebeurtenissen met streaming segmentatie. In plaats daarvan, gebruik echte user-activity signalen zoals kliks, aankopen, of baken gegevens. Voor frequentie of suppression logica, gebruik bedrijfsregels in plaats van gebeurtenissen te verzenden. [Meer informatie](../audience/about-audiences.md)
 
-Zie [[!DNL Adobe Experience Platform]  het stromen segmentatiedocumentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Zie [[!DNL Adobe Experience Platform]  het stromen segmentatiedocumentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 >[!NOTE]
 >
@@ -122,7 +122,7 @@ Zie [[!DNL Adobe Experience Platform]  het stromen segmentatiedocumentatie &#x20
 >
 >* **knoop van de Kwalificatie van het publiek + het stromen segment:** wanneer een profiel voor een het stromen segment bij Edge kwalificeert, wordt dat lidmaatschap geprojecteerd van Edge aan Hub alvorens de reis op het kan handelen. Deze Edge-aan-Hub propagatie neemt typisch **15 tot 30 minuten** (per UPS SLT). De extra reisverwerkingstijd is meestal minder dan 5 minuten, tenzij het systeem zwaar belast is. Als de profielen niet een reis van de Kwalificatie van het Publiek zoals verwacht ingaan, sta voor dit propagatievenster toe alvorens verder te onderzoeken. Voor gebruiksgevallen die echte real-time invoer vereisen, kunt u in plaats daarvan een trigger voor een eenheidsgebeurtenis overwegen.
 >* **`inAudience()`in een voorwaardenknoop — vóór een Wacht activiteit (of in een Reader reis van de Audience):** wanneer het segmentlidmaatschap in een voorwaardenuitdrukking in deze context wordt geëvalueerd, leest AJO van de partijprojectie van het profiel. De versheid van gegevens in deze projectie draagt SLT van tot **2 uren** na opname. Het publiek dat op dag-gebaseerde of op tijd-gebaseerde voorwaarden steunt kan extra vertraging ervaren. Voeg een korte [&#x200B; toe wacht activiteit &#x200B;](wait-activity.md) bij het begin van de reis, of laat buffertijd toe om het recentste segmentlidmaatschap te verzekeren wordt weerspiegeld.
->* **`inAudience()`in een voorwaardenknoop — na een activiteit van de Wacht (of in een eenheidgebeurtenis reis):** In deze context, wordt het segmentlidmaatschap gelezen van de het stromen (eenheids) projectie. Voor verwachte latentie, verwijs naar de [&#x200B; het stromen van Adobe Experience Platform documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Dit pad reageert doorgaans beter op recente profielwijzigingen.
+>* **`inAudience()`in een voorwaardenknoop — na een activiteit van de Wacht (of in een eenheidgebeurtenis reis):** In deze context, wordt het segmentlidmaatschap gelezen van de het stromen (eenheids) projectie. Voor verwachte latentie, verwijs naar de [&#x200B; het stromen van Adobe Experience Platform documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Dit pad reageert doorgaans beter op recente profielwijzigingen.
 
 #### Waarom niet alle gekwalificeerde profielen de reis kunnen betreden {#streaming-entry-caveats}
 
@@ -154,7 +154,7 @@ Hier volgen enkele aanbevolen procedures om overbelastingsystemen te vermijden d
 
   ![&#x200B; Foutbericht wanneer publiek niet gevonden in [!DNL Adobe Experience Platform]](assets/segment-error.png)
 
-* Plaats een plafondregel voor gegevensbronnen en handelingen die tijdens reizen worden gebruikt om overbelasting te voorkomen. Leer meer in [&#x200B; documentatie van Journey Orchestration &#x200B;](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u het opnieuw moet proberen, gebruikt u een alternatief pad in de reis door het vakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in voorwaarden of handelingen in te schakelen.
+* Plaats een plafondregel voor gegevensbronnen en handelingen die tijdens reizen worden gebruikt om overbelasting te voorkomen. Leer meer in [&#x200B; documentatie van Journey Orchestration &#x200B;](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=nl-NL){target="_blank"}. De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u het opnieuw moet proberen, gebruikt u een alternatief pad in de reis door het vakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in voorwaarden of handelingen in te schakelen.
 
 * Voordat u het publiek in een productiereis gaat gebruiken, moet u het aantal personen dat dagelijks voor dit publiek in aanmerking komt, evalueren. Controleer hiertoe het menu **[!UICONTROL Audience]** , open het publiek en bekijk de grafiek van **[!UICONTROL Profiles over time]** .
 
@@ -190,7 +190,7 @@ Volg de instructies en aanbevelingen hieronder om de reizen van de Kwalificatie 
 
 >[!CAUTION]
 >
->[&#x200B; Guardrails voor gegevens en segmentatie van het Profiel van de Klant in real time &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html){target="_blank"} zijn ook op [!DNL Adobe Journey Optimizer] van toepassing.
+>[&#x200B; Guardrails voor gegevens en segmentatie van het Profiel van de Klant in real time &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=nl-NL){target="_blank"} zijn ook op [!DNL Adobe Journey Optimizer] van toepassing.
 
 
 
