@@ -5,10 +5,10 @@ title: Geordende campagnes Veelgestelde vragen
 description: Veelgestelde vragen over door Journey Optimizer georganiseerde campagnes
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '1884'
-ht-degree: 5%
+source-wordcount: '1955'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Hieronder vindt u Veelgestelde vragen over door Adobe Journey Optimizer geordende campagnes.
 
-Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [&#x200B; gemeenschap van Adobe Journey Optimizer &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=nl){target="_blank"} te verbinden.
+Wilt u meer details? Gebruik terugkoppelen opties bij de bodem van deze pagina om uw vraag op te roepen, of met [ gemeenschap van Adobe Journey Optimizer ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
 
 +++ Wat is campagneorkest?
 
@@ -64,7 +64,7 @@ Om tot Campagneorganisatie toegang te hebben, moet uw vergunning of de **Journey
 **Meer informatie**
 
 * [Aan de slag met georkestreerde campagnes](gs-orchestrated-campaigns.md)
-* [&#x200B; Adobe Journey Optimizer productbeschrijving &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [ Adobe Journey Optimizer productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
 
 +++
 
@@ -141,11 +141,17 @@ Yes. Campaign orchestration is natively integrated with:
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
 
++++ Hoe test ik een signaalgestuurde georkestreerde campagne voordat ik publiceert?
+
+Terwijl de campagne in **Ontwerp** is, kunt u het testen door **parameters** in het programma te bepalen en **testwaarden** voor elk te verstrekken. Begin het werkschema, dan vraag de trekker API-gebruikend het steekproefverzoek van de planningsconfiguratie of uw eigen verzoek met zelfde eindpunt-om de campagne met die testwaarden in werking te stellen. [ leer hoe te om een signaal-teweeggebrachte campagne ](trigger-orchestrated-campaign.md#complete-and-test) te voltooien en te testen.
+
++++
+
 +++ Kan ik een live georkestreerde campagne terugzetten naar concept?
 
 Ja, in specifieke situaties. De optie **[!UICONTROL Back to draft]** is ontworpen als een herstelmechanisme om de publicatie van een campagne ongedaan te maken en de status van een campagne te herstellen.
 
-Deze optie is beschikbaar voor geplande campagnes die op uitvoering wachten, of voor live campagnes met uitvoeringsfouten. [&#x200B; Leer hoe te om een levende campagne terug naar ontwerp terug te keren &#x200B;](start-monitor-campaigns.md#back-to-draft)
+Deze optie is beschikbaar voor geplande campagnes die op uitvoering wachten, of voor live campagnes met uitvoeringsfouten. [ Leer hoe te om een levende campagne terug naar ontwerp terug te keren ](start-monitor-campaigns.md#back-to-draft)
 
 +++
 
@@ -365,7 +371,7 @@ Ja, u kunt gegevens verrijken van de relationele winkel en van het Adobe Experie
 
 +++ Moeten alle filters via publiek worden gedefinieerd of kan een bepaald type filter worden geconfigureerd?
 
-Geordende campagnes ondersteunen vooraf gedefinieerde filters: u kunt een query definiëren en opslaan als een filter, deze toevoegen aan uw favorieten en deze opnieuw gebruiken voor verdere segmentatietaken. Vooraf gedefinieerde filters kunnen parameters bevatten, zodat u waarden kunt invoeren op het moment van gebruik. [&#x200B; Leer hoe te met vooraf bepaalde filters &#x200B;](predefined-filters.md) te werken.
+Geordende campagnes ondersteunen vooraf gedefinieerde filters: u kunt een query definiëren en opslaan als een filter, deze toevoegen aan uw favorieten en deze opnieuw gebruiken voor verdere segmentatietaken. Vooraf gedefinieerde filters kunnen parameters bevatten, zodat u waarden kunt invoeren op het moment van gebruik. [ Leer hoe te met vooraf bepaalde filters ](predefined-filters.md) te werken.
 
 **Meer informatie**
 
@@ -383,4 +389,4 @@ Raadpleeg de volgende bronnen voor meer informatie en updates:
 * [Gestroomlijnde campagnes zorgen en beperkingen](guardrails.md)
 * [Begin met schema&#39;s en datasets in Geordende campagnes](gs-schemas.md)
 * [Uw eerste geordende campagne maken](gs-campaign-creation.md)
-* [&#x200B; de Beschrijving van het Product van Journey Optimizer &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
