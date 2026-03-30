@@ -7,33 +7,52 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: f3c398a7164d7c83a39c4ec7c9460589309c8cae
+source-git-commit: 4f599e46c35bc328057247b84193a4db670fee83
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 0%
+source-wordcount: '388'
+ht-degree: 6%
 
 ---
 
 # Aan de slag met Live-activiteiten {#get-started-mobile-live}
 
+
+Live-activiteiten zijn permanente, schitterende UI-elementen die op het vergrendelingsscherm van het apparaat worden weergegeven. Met deze instructies kan uw app realtime en actuele informatie presenteren, zodat gebruikers tijdens een doorlopende gebeurtenis op de hoogte blijven zonder dat ze de app hoeven te openen of herhaalde pushmeldingen hoeven te ontvangen.
+
 >[!AVAILABILITY]
 >
->Live-activiteiten in Journey Optimizer zijn alleen compatibel met iOS.
+>Live-activiteiten in Adobe Journey Optimizer zijn alleen compatibel met Apple iOS.
 
-Live activiteiten biedt updates in real time en interactieve ervaringen binnen mobiele apps, zodat gebruikers op de hoogte blijven van lopende gebeurtenissen of taken rechtstreeks op het scherm van hun apparaat.
+In tegenstelling tot traditionele duw- berichten, vertegenwoordigen de Levende Activiteiten **op staat-gebaseerde overeenkomst**: in plaats van het leveren van eenmalig alarm, handhaven zij een ononderbroken, contextafhankelijke aanwezigheid die dynamisch updates aangezien de gebeurtenissen evolueren.
 
-Deze functie verbetert de betrokkenheid door live-informatie te leveren, zoals voortgangscontrole, updates van gebeurtenissen of interactieve inhoud, zonder dat gebruikers de app hoeven te openen.
+
+![](assets/do-not-localize/live-activity.jpeg){width="50%" align="left"}
+
+Met Adobe Journey Optimizer, kunt u **begin**, **update** ver, en **eind** Levende Activiteiten programmatically door API-teweeggebrachte campagnes — ondersteunend zowel individuele als op publiek-gebaseerde gebruiksgevallen bij schaal.
 
 De actieve activiteit kan **slechts** via **API-teweeggebrachte** campagnes in werking worden gesteld, toestaand u om douanenuttige lasten te verstrekken en al verpersoonlijking door uw eigen nuttige lading uit te voeren.
 Het aangewezen **API-teweeggebrachte** campagneretype moet worden geselecteerd gebaseerd op het voorgenomen Levende geval van het activiteitengebruik:
 
-* Selecteer **API-teweeggebrachte Marketing** voor op publiek-gebaseerde campagnes
+* Selecteer **API-teweeggebrachte Marketing** voor uitzendingsgebruiksgevallen — op publiek-gebaseerde updates die bij schaal worden verzonden:
 
-  Ontworpen voor publiek- of op segmenten gebaseerde communicatie waarbij dezelfde update naar meerdere gebruikers wordt verzonden, bijvoorbeeld sportscores, updates van gebeurtenissen en gedeelde ervaringen.
+   * Sportscores en aftellingen voor livegebeurtenissen
+   * Updates van de vluchtstatus voor alle passagiers op een route
+   * Gedeelde ervaringen in een gebruikerssegment
 
-* Selecteer **API-teweeggebrachte Transactie** voor individuele campagnes
+* Selecteer **API-teweeggebrachte Transactie** voor individuele gebruiksgevallen - 1 :1 updates in real time per gebruiker:
 
-  Beoogde individuele gebruikers die door hun profiel worden geïdentificeerd, bijvoorbeeld de status van de bestelling, het volgen van de levering.
+   * Volgorde bijhouden en voortgang van levering
+   * Ride or de updates van de de dienststatus
+   * Bevestigingen van reservering en benoeming in realtime
+
+## Belangrijkste voordelen
+
+Live-activiteiten verschuiven de mobiele betrokkenheid van gebruikers van meldingen naar staatsbedrijven, zodat merknamen:
+
+* Handhaaf a **ononderbroken aanwezigheid** op het Scherm van het Slot door high-value gebeurtenissen
+* **informatie van de Update dynamisch** zonder overweldigende gebruikers met herhaalde berichten
+* Lever **rijkere, meer contextafhankelijke** mobiele momenten verbonden aan real-world gebeurtenissen
+* **de Overeenkomst en het behoud van de verhoging** tijdens actieve transacties of levende ervaringen
 
 ## Handleiding voor snel starten
 
@@ -59,4 +78,4 @@ Voer de onderstaande stappen uit om Live-activiteit in uw toepassing te configur
 
 Ontdek hoe u iOS Live-activiteiten kunt configureren met Adobe Journey Optimizer om geavanceerde realtime updates te leveren op het iPhone Lock Screen en Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479870/?captions=dut&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
