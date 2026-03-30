@@ -27,7 +27,7 @@ De uitgaande kanalen van de berichtlevering impliceren het verzenden van bericht
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
 
 E-mailkanaal
 
@@ -37,7 +37,7 @@ Ontdek hoe u e-mailcampagnes kunt maken, configureren en optimaliseren, inclusie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=nl-NL)
 
 Kanaal voor pushmelding
 
@@ -47,7 +47,7 @@ Leer hoe u pushmeldingen voor iOS en Android kunt maken, configureren en verzend
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=nl-NL)
 
 iOS Live Activity
 
@@ -57,7 +57,7 @@ Lever permanente updates in real time rechtstreeks op het iPhone Lock Screen en 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=nl-NL)
 
 SMS/MMS/RCS-berichten
 
@@ -67,7 +67,7 @@ Begrijp hoe te om SMS, MMS, en RCS berichten voor marketing en transactionele do
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=nl-NL)
 
 Campagnes Direct Mail
 
@@ -77,7 +77,7 @@ Ontdek hoe u direct-mailcampagnes kunt maken en beheren, waaronder het exportere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=nl-NL)
 
 WhatsApp Messaging
 
@@ -87,7 +87,7 @@ Leer hoe u WhatsApp-berichten kunt integreren en gebruiken via de Meta Cloud API
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=nl-NL)
 
 REGELBerichten
 
@@ -105,7 +105,7 @@ Met Mobiele App en Web binnenkomende ervaringen, beginnen de klanten interactie.
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=nl-NL)
 
 In-app-berichten
 
@@ -115,7 +115,7 @@ Ontdek hoe u In-app-meldingen voor mobiele en webplatforms kunt configureren, on
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=nl-NL)
 
 Web
 
@@ -125,7 +125,7 @@ Leer hoe u webervaringen maakt, configureert en personaliseert en webkanalen int
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=nl-NL)
 
 Ervaring op basis van code
 
@@ -135,7 +135,7 @@ Diveer in code-gebaseerde ervaringen om gepersonaliseerde inhoud over digitale p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=nl-NL)
 
 Inhoudskaarten
 
