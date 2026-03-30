@@ -199,5 +199,5 @@ Wanneer u het fragment aan uw e-mail toevoegt, kunt u nu de rijke tekstinhoud en
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464374/?captions=dut&learn=on&#x26;enablevpops)
 -->
