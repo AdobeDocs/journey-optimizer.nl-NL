@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 4f599e46c35bc328057247b84193a4db670fee83
+source-git-commit: df4183e15b2907bfb669e7e2e8eb88771627dcf4
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 6%
@@ -26,7 +26,7 @@ Live-activiteiten zijn permanente, schitterende UI-elementen die op het vergrend
 In tegenstelling tot traditionele duw- berichten, vertegenwoordigen de Levende Activiteiten **op staat-gebaseerde overeenkomst**: in plaats van het leveren van eenmalig alarm, handhaven zij een ononderbroken, contextafhankelijke aanwezigheid die dynamisch updates aangezien de gebeurtenissen evolueren.
 
 
-![](assets/do-not-localize/live-activity.jpeg){width="50%" align="left"}
+![](assets/do-not-localize/live-activity.jpeg){width="30%" align="left"}
 
 Met Adobe Journey Optimizer, kunt u **begin**, **update** ver, en **eind** Levende Activiteiten programmatically door API-teweeggebrachte campagnes — ondersteunend zowel individuele als op publiek-gebaseerde gebruiksgevallen bij schaal.
 
@@ -78,4 +78,4 @@ Voer de onderstaande stappen uit om Live-activiteit in uw toepassing te configur
 
 Ontdek hoe u iOS Live-activiteiten kunt configureren met Adobe Journey Optimizer om geavanceerde realtime updates te leveren op het iPhone Lock Screen en Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479870/?captions=dut&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
