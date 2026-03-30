@@ -6,9 +6,9 @@ description: Leer hoe te met  [!DNL Adobe Journey Optimizer]  communicatiekanale
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: 1e2d9dce832c28573486e10ae4d8246313d49cc1
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '626'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ De uitgaande kanalen van de berichtlevering impliceren het verzenden van bericht
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 E-mailkanaal
 
@@ -37,7 +37,7 @@ Ontdek hoe u e-mailcampagnes kunt maken, configureren en optimaliseren, inclusie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Kanaal voor pushmelding
 
@@ -47,7 +47,17 @@ Leer hoe u pushmeldingen voor iOS en Android kunt maken, configureren en verzend
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+
+iOS Live Activity
+
+Lever permanente updates in real time rechtstreeks op het iPhone Lock Screen en Dynamic Island. Live activiteiten van de macht van API-getriggerde campagnes voor individuele gebruiksgevallen (ordentracering, status van de rit) of uitzendingsgebruiksgevallen (sportscores, vluchtstatus).
+
+[Meer informatie over iOS Live Activity](../mobile-live/get-started-mobile-live.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS/MMS/RCS-berichten
 
@@ -57,13 +67,33 @@ Begrijp hoe te om SMS, MMS, en RCS berichten voor marketing en transactionele do
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campagnes Direct Mail
 
 Ontdek hoe u direct-mailcampagnes kunt maken en beheren, waaronder het exporteren van extractiebestanden voor externe providers en het controleren van de gebruikerstoestand.
 
 [Meer informatie over campagnes via e-mail](../../rp_landing_pages/direct-mail-landing-page.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/message.svg)
+
+WhatsApp Messaging
+
+Leer hoe u WhatsApp-berichten kunt integreren en gebruiken via de Meta Cloud API voor gepersonaliseerde en compatibele communicatiecampagnes en reizen.
+
+[Meer informatie over WhatsApp-berichten](../../rp_landing_pages/whatsapp-landing-page.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/comment.svg)
+
+REGELBerichten
+
+Ontdek hoe u REGELS kunt configureren, maken en personaliseren voor effectieve communicatie in campagnes en reizen.
+
+[Meer informatie over REGELS](../../rp_landing_pages/line-landing-page.md)
 :::
 
 ::::
@@ -75,7 +105,7 @@ Met Mobiele App en Web binnenkomende ervaringen, beginnen de klanten interactie.
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 In-app-berichten
 
@@ -85,7 +115,7 @@ Ontdek hoe u In-app-meldingen voor mobiele en webplatforms kunt configureren, on
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -95,7 +125,7 @@ Leer hoe u webervaringen maakt, configureert en personaliseert en webkanalen int
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Ervaring op basis van code
 
@@ -105,7 +135,7 @@ Diveer in code-gebaseerde ervaringen om gepersonaliseerde inhoud over digitale p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Inhoudskaarten
 
@@ -117,18 +147,13 @@ Ontdek hoe u inhoudskaarten kunt configureren, maken en ontwerpen voor aantrekke
 ::::
 
 
-## Aanvullende bronnen
-
-- **[WhatsApp Overseinen](../../rp_landing_pages/whatsapp-landing-page.md)** - Leer hoe te om het overseinen WhatsApp via de Wolk van Meta API voor gepersonaliseerde en volgzame communicatie campagnes te integreren en te gebruiken.
-- **[het Overseinen van de LIJN](../../rp_landing_pages/line-landing-page.md)** - ontdekt hoe te, de berichten van de LIJN voor efficiënte mededeling in campagnes en reizen te vormen tot stand te brengen en te personaliseren.
-
 ## Kanalen in reizen en campagnes {#channels}
 
 In Adobe Journey Optimizer kunt u communicatiekanalen in twee primaire contexten gebruiken:
 
-- **Reizen**: Creeer naadloze klantenervaringen over veelvoudige touchpoints. Automatiseer interacties op basis van gebruikersgedrag en -voorkeuren en zorg voor tijdige en relevante communicatie die gebruikers door hun reis met uw merk begeleidt. [&#x200B; leer hoe te om een reis &#x200B;](../building-journeys/journey-gs.md) tot stand te brengen en uit te voeren.
+- **Reizen**: Creeer naadloze klantenervaringen over veelvoudige touchpoints. Automatiseer interacties op basis van gebruikersgedrag en -voorkeuren en zorg voor tijdige en relevante communicatie die gebruikers door hun reis met uw merk begeleidt. [ leer hoe te om een reis ](../building-journeys/journey-gs.md) tot stand te brengen en uit te voeren.
 
-- **Campagnes**: Stel specifieke marketing campagnes op die een bepaald kanaal gebruiken om gerichte doelstellingen te bereiken. Of het promoten van een nieuw product of het drijven van seizoensgebonden verkoop, laten de campagnes u toe om gerichte overseinenstrategieën te creëren die aan uw publiek worden aangepast. [&#x200B; leer hoe te om een campagne &#x200B;](../campaigns/get-started-with-campaigns.md) tot stand te brengen en uit te voeren.
+- **Campagnes**: Stel specifieke marketing campagnes op die een bepaald kanaal gebruiken om gerichte doelstellingen te bereiken. Of het promoten van een nieuw product of het drijven van seizoensgebonden verkoop, laten de campagnes u toe om gerichte overseinenstrategieën te creëren die aan uw publiek worden aangepast. [ leer hoe te om een campagne ](../campaigns/get-started-with-campaigns.md) tot stand te brengen en uit te voeren.
 
 In de onderstaande tabel wordt aangegeven waar elk kanaal beschikbaar is voor verschillende reizen en campagnes.
 
@@ -137,6 +162,7 @@ In de onderstaande tabel wordt aangegeven waar elk kanaal beschikbaar is voor ve
 | Email | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Sms | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Pushmelding | ✅ | ✅ | ✅ | ✅ | ✅ |
+| iOS Live Activity | — | — | — | ✅ | — |
 | In-app | ✅ | ✅ | — | — | — |
 | Direct mail | ✅ | ✅ | — | — | ✅ |
 | Web | ✅ | ✅ | — | — | — |

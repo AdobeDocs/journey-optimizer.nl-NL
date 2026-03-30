@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configuratie, configureren, berichten, kanaal, sandbox, optimaliseren
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 729fee98b6d9681ee0e39f091d6f44e692684b83
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 4%
+source-wordcount: '452'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ Wanneer u [!DNL Journey Optimizer] voor het eerst opent, beschikt u over een pro
 
 Om berichten te kunnen verzenden, moet u door de hieronder vermelde configuratiestappen gaan:
 
-1. Als [&#x200B; het systeembeheerder van Adobe Journey Optimizer &#x200B;](../start/path/administrator.md), bepaal uw kanaal-specifieke configuraties. Leer hoe u deze configuraties instelt op de volgende pagina&#39;s:
+1. Als [ het systeembeheerder van Adobe Journey Optimizer ](../start/path/administrator.md), bepaal uw kanaal-specifieke configuraties. Leer hoe u deze configuraties instelt op de volgende pagina&#39;s:
 
    <table style="table-layout:fixed"><tr style="border: 0;">
     <td><a href="../email/get-started-email-config.md"><img alt="email" src="../channels/assets/do-not-localize/email.png"></a>
@@ -52,15 +52,17 @@ Om berichten te kunnen verzenden, moet u door de hieronder vermelde configuratie
     <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong> kaarten van de Inhoud </strong></a></div></td>
     </tr></table>
 
+   Voor extra kanalen, verwijs naar: [ Live Activiteit van iOS ](../mobile-live/mobile-live-configuration.md), [ WhatsApp ](../whatsapp/whatsapp-configuration.md), en [ LIJN ](../line/line-configuration.md).
+
    >[!NOTE]
    >
-   >Voor mobiele kanalen, vergemakkelijkt de [&#x200B; Geleide kanaalopstelling &#x200B;](set-mobile-config.md) de snelle configuratie van marketing kanalen, die alle vereiste middelen verzekeren gemakkelijk beschikbaar binnen Experience Platform, Journey Optimizer, en de Inzameling van Gegevens zijn. Hierdoor kan uw marketingteam beginnen met campagne en het creëren van reizen.
+   >Voor mobiele kanalen, vergemakkelijkt de [ Geleide kanaalopstelling ](set-mobile-config.md) de snelle configuratie van marketing kanalen, die alle vereiste middelen verzekeren gemakkelijk beschikbaar binnen Experience Platform, Journey Optimizer, en de Inzameling van Gegevens zijn. Hierdoor kan uw marketingteam beginnen met campagne en het creëren van reizen.
 
-1. Zodra gedaan, moet u alle technische parameters vormen die worden vereist om berichten te leveren door **kanaalconfiguraties** te creëren. [&#x200B; leer meer over kanaalconfiguraties &#x200B;](channel-surfaces.md)
+1. Zodra gedaan, moet u alle technische parameters vormen die worden vereist om berichten te leveren door **kanaalconfiguraties** te creëren. [ leer meer over kanaalconfiguraties ](channel-surfaces.md)
 
 1. Afhankelijk van de kanalen die u gebruikt, uw milieu&#39;s en uw behoeften, moet u ook de volgende stappen uitvoeren:
 
-   * Subdomain configuratie en delegatie voor uw kanalen, zoals [&#x200B; e-mails &#x200B;](about-subdomain-delegation.md), [&#x200B; SMS &#x200B;](../sms/sms-subdomains.md), [&#x200B; het landen pagina&#39;s &#x200B;](../landing-pages/lp-subdomains.md), en [&#x200B; Webervaringen &#x200B;](../web/web-delegated-subdomains.md).
+   * Subdomain configuratie en delegatie voor uw kanalen, zoals [ e-mails ](about-subdomain-delegation.md), [ SMS ](../sms/sms-subdomains.md), [ het landen pagina&#39;s ](../landing-pages/lp-subdomains.md), en [ Webervaringen ](../web/web-delegated-subdomains.md).
 
    * IP van de opstelling warmup plannen voor optimale leverbaarheid. [Meer informatie](ip-warmup-gs.md)
 
@@ -81,4 +83,7 @@ Om berichten te kunnen verzenden, moet u door de hieronder vermelde configuratie
 * **[IP warmup](ip-warmup-gs.md)** - ontdek beste praktijken voor IP adreswarmte om e-mailleverbaarheid en afzenderreputatie te verbeteren.
 * **[beheert suppressielijst](manage-suppression-list.md)** - leer hoe te om suppressielijsten te beheren om grenzen te behandelen en lijsthygiëne te handhaven.
 * **[vorm mobiele apps](set-mobile-config.md)** - opstelling mobiele app configuraties voor dupberichten en in-app overseinen.
-* **[zelfstudies van de Configuratie &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - onderzoek geleidelijke videoleerprogramma&#39;s op kanaalconfiguratie en beste praktijken.
+* **[vorm iOS Live Activiteit](../mobile-live/mobile-live-configuration.md)** - opstelling uw milieu om Actieve Activiteiten naar het Scherm van het Slot van iPhone en Dynamisch eiland te verzenden.
+* **[vorm WhatsApp](../whatsapp/whatsapp-configuration.md)** - Opstelling het overseinen WhatsApp via de Wolk van Meta API voor campagnes en reizen.
+* **[vorm LIJN](../line/line-configuration.md)** - Het overseinen van de LIJN van de opstelling voor campagnes en reizen.
+* **[zelfstudies van de Configuratie ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - onderzoek geleidelijke videoleerprogramma&#39;s op kanaalconfiguratie en beste praktijken.
