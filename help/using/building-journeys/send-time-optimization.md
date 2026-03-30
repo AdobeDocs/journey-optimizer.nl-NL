@@ -53,11 +53,11 @@ Voordat u begint, moet u nagaan welke berichten het beste passen voordat u deze 
 
 1. Open het menu **[!UICONTROL Configure action]** vanuit uw reis.
 
-   ![ Send-Time de knevel van de Optimalisatie in de configuratie van het e-mailkanaal ](assets/sto-1.png)
+   ![&#x200B; Send-Time de knevel van de Optimalisatie in de configuratie van het e-mailkanaal &#x200B;](assets/sto-1.png)
 
 1. Schakel de **[!UICONTROL Send-Time Optimization]** -schakelaar in het menu Verzendtijd in.
 
-   ![ Send-Time de knevel van de Optimalisatie in de configuratie van het e-mailkanaal ](assets/sto-2.png)
+   ![&#x200B; Send-Time de knevel van de Optimalisatie in de configuratie van het e-mailkanaal &#x200B;](assets/sto-2.png)
 
 1. Kies bij E-mailberichten of u wilt optimaliseren voor openen of voor doorklikken door de juiste optie te selecteren. Pushberichten zijn altijd geoptimaliseerd voor openen.
 
@@ -67,13 +67,13 @@ Voordat u begint, moet u nagaan welke berichten het beste passen voordat u deze 
 
    Kies voor de beste resultaten een waarde tussen 6 en 24 uur. Een lagere waarde vermindert het aantal beschikbare verzendtijden en kan het voordeel van de Optimalisering van de Send-Time beperken. Een hogere waarde kan betekenen dat het bericht verouderd of minder relevant is op het moment dat het wordt verzonden.
 
-   ![ Send-Time de knevel van de Optimalisatie in de configuratie van het e-mailkanaal ](assets/sto-3.png)
+   ![&#x200B; Send-Time de knevel van de Optimalisatie in de configuratie van het e-mailkanaal &#x200B;](assets/sto-3.png)
 
 1. Kies bij E-mailberichten hoe uw handeling wordt bijgehouden. U kunt het openen van e-mailberichten volgen en klikken op koppelingen en knoppen in de e-mail volgen.
 
 Wanneer uw reis wordt geactiveerd en een klant de actie E-mail of Duw in de reis bereikt, zal de Optimalisering Send-Time kiezen de best voorspelde verzendtijd beschikbaar voor elke gebruiker binnen uw gespecificeerde grenzen.
 
-Om de prestaties van uw reis te controleren, verwijs naar de [ pagina van het Overzicht ](../reports/channel-report-cja.md).
+Om de prestaties van uw reis te controleren, verwijs naar de [&#x200B; pagina van het Overzicht &#x200B;](../reports/channel-report-cja.md).
 
 ## Hoe Send-Time Optimalisatie werkt {#how-send-time}
 
@@ -87,11 +87,11 @@ De optimalisering van de Send-Tijd maakt voorspellingen voor elk uur van de week
 
 Deze voorspellingen worden gewogen en gecombineerd met behulp van een Bayesiaanse benadering, wat resulteert in een &quot;hittekaart&quot; voor elke metrische waarde (e-mail wordt geopend, e-mail klikt en push wordt geopend), die voor elke klant aangeeft hoeveel uren van de week contact met die gebruiker het meest en het minst waarschijnlijk zal leiden tot het gewenste betrokkenheidsresultaat (open/klik), zoals wordt geïllustreerd in het onderstaande voorbeeld van een verwarmingskaart:
 
-![ de heatmap van de Betrokkenheid die optimale verzendt tijden voor e-mail door dag en uur ](assets/heatmap-1.png) toont
+![&#x200B; de heatmap van de Betrokkenheid die optimale verzendt tijden voor e-mail door dag en uur &#x200B;](assets/heatmap-1.png) toont
 
 Als een gebruiker met de bovengenoemde voorspelde waarschijnlijkheden voor een bericht bij 9 wordt gericht AM Woensdag met Send-Time die optimalisering wordt aangezet en een maximum 7 uur wachttijd tijd, geselecteerde verzendt tijd voor het bericht zal 12 PM zijn:
 
-![ de heatmap van de Betrokkenheid met gedetailleerde uur-voor-uur optimalisatiegegevens ](assets/heatmap-2.png)
+![&#x200B; de heatmap van de Betrokkenheid met gedetailleerde uur-voor-uur optimalisatiegegevens &#x200B;](assets/heatmap-2.png)
 
 ## Training over het optimalisatiemodel voor verzendtijd en informatie over scores  {#model-send-time}
 
@@ -108,7 +108,7 @@ De exploratie verzendt tijden wordt geselecteerd in willekeurige volgorde van ve
 
 U vindt hieronder Veelgestelde vragen over Send-Time Optimization.
 
-Wilt u meer details? Gebruik terugkoppelt opties bij de bodem van deze pagina om uw vraag op te heffen, of met [[!DNL Adobe Journey Optimizer]  gemeenschap ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
+Wilt u meer details? Gebruik terugkoppelt opties bij de bodem van deze pagina om uw vraag op te heffen, of met [[!DNL Adobe Journey Optimizer]  gemeenschap &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
 
 +++Hoe lang moet ik wachten alvorens Send-Time Optimalisering te gebruiken?
 
