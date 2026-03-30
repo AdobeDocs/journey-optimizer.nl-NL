@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 727f277b06b748cd4712c9cce62d7b4a1ad1f146
+source-git-commit: e49528fa70225e7435683f5a63d883a0ffce29fa
 workflow-type: tm+mt
 source-wordcount: '3147'
 ht-degree: 15%
@@ -403,10 +403,10 @@ ht-degree: 15%
       + [Regelkanaal configureren in Journey Optimizer](using/line/line-configuration.md)
       + [Een LIJNbericht maken](using/line/create-line.md)
       + [Controleer en verzend uw berichten van de LIJN](using/line/send-line.md)
-   + Live-activiteit {#live-activity}
+   + Live activiteiten {#live-activity}
       + [Aan de slag met Live-activiteiten](using/mobile-live/get-started-mobile-live.md)
       + [Live-activiteiten maken](using/mobile-live/create-mobile-live.md)
-      + [Live-activiteit oplossen](using/mobile-live/troubleshoot-mobile-live.md)
+      + [Live-activiteiten oplossen](using/mobile-live/troubleshoot-mobile-live.md)
       + [Veelgestelde vragen](using/mobile-live/mobile-live-faq.md)
       + Actief activiteitenkanaal configureren {#configure}
          + [Live-activiteiten configureren in Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
@@ -861,7 +861,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
