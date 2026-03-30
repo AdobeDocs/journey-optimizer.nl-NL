@@ -29,7 +29,7 @@ De rapportpagina wordt getoond met de volgende lusjes:
 * [Regelsets](#rule-sets)
 * [Optimalisatie modellen](#optimization-models)
 
-Meer over Customer Journey Analytics Workspace leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Meer over Customer Journey Analytics Workspace leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home).
 
 ## Hooglichten {#highlights}
 
