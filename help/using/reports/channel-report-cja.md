@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
+source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '993'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,9 @@ De rapportpagina wordt getoond met de volgende lusjes:
 * [Campagnes](#campaign)
 * [Kanalen](#channel)
 * [Regelsets](#rule-sets)
+* [Optimalisatie modellen](#optimization-models)
 
-Meer over Customer Journey Analytics Workspace leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-workspace/home).
+Meer over Customer Journey Analytics Workspace leren en hoe te om gegevens te filtreren en te analyseren, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Hooglichten {#highlights}
 
@@ -142,7 +143,7 @@ De tabel van **[!UICONTROL Journey Capping and Conflicts]** biedt inzicht in de 
 
 De kolom **[!UICONTROL Journey Entries by Rule Set]** toont het aantal profielen dat de reis inging. Er zijn drie typen ingangen:
 
-* **&#x200B;**&#x200B;[!UICONTROL No conflict]&#x200B;**&#x200B;**: Het profiel is de reis binnengegaan zonder conflicten die door regels zijn ingesteld. Geen actieve regelreeksen verhinderde deze toegang, en de reis kwam ongeacht arbitrageregels voor.
+* ****[!UICONTROL No conflict]****: Het profiel is de reis binnengegaan zonder conflicten die door regels zijn ingesteld. Geen actieve regelreeksen verhinderde deze toegang, en de reis kwam ongeacht arbitrageregels voor.
 
 * **Hogere prioriteit**: Het profiel ging de reis wegens zijn hogere prioriteit dan andere concurrerende reizen binnen. Hoewel er sprake was van een conflict (het profiel was geschikt voor meerdere reizen), werd deze reis gekozen vanwege de hogere prioriteitsscore.
 
@@ -156,4 +157,26 @@ In de kolom **[!UICONTROL Exclusions]** wordt het aantal profielen weergegeven d
 
 +++
 
-➡️ [&#x200B; Leer meer over reis het afschilderen &amp; arbitrage &#x200B;](../conflict-prioritization/journey-capping.md)
+➡️ [ Leer meer over reis het afschilderen &amp; arbitrage ](../conflict-prioritization/journey-capping.md)
+
+## Optimalisatie modellen {#optimization-models}
+
+![](assets/sto-report.png)
+
+De **[!UICONTROL Send-Time Optimization]** -tabellen geven u inzicht in de manier waarop uw geoptimaliseerde en Besturingse-mail- of pushberichten worden uitgevoerd. Gebruik het om zeer belangrijke metriek, zoals te vergelijken verzendt, opent, klikt, en stuiters-zodat kunt u zien hoe elke variant doet en uw optimaliseringsbesluiten informeert.
+
+Merk op dat de metriek in dit rapport, met inbegrip van **[!UICONTROL Lift]** en **[!UICONTROL Confidence]**, van **60 dagen** van verzendt en overeenkomst wordt berekend.
+
++++ Meer informatie over optimalisatiemetriek voor SendTime
+
+* **[!UICONTROL Sends]**: Het totale aantal keren dat elke berichtvariant is verzonden.
+
+* **[!UICONTROL Open]**: Het totale aantal open gebeurtenissen dat is opgenomen voor het bericht.
+
+* **[!UICONTROL Open rate]**: Het percentage verzonden berichten waarvoor het profiel het bericht minstens één keer opende.
+
+* **[!UICONTROL Lift]**: procentuele verbetering van de conversiesnelheid voor een bepaalde behandeling ten opzichte van de basislijnvariant. Lift kwantificeert de grootte van een verschil; interpreteer het samen met **[!UICONTROL Confidence]**.
+
+* **[!UICONTROL Confidence]**: statistische sterkte van het bewijs dat de open of kliksnelheid van de geoptimaliseerde variant voor Send-Time verschilt van de besturingsvariant (verzendt willekeurig toegewezen tijd). Het wordt berekend aan de hand van een Z-test met twee verhoudingen.
+
++++

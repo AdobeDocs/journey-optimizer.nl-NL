@@ -10,9 +10,9 @@ level: Intermediate
 keywords: send-time, send, message, optimization, trip, AI, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -47,26 +47,33 @@ Send-Time optimalisatie is alleen beschikbaar voor ingebouwde e-mail- en push-ac
 
 ## Optimalisatie voor verzenden gebruiken{#use-send-time-optimization}
 
-Gebruik Send-Time Optimization op een e-mail of duw actie door de Send-Time Optimization schakelaar van de actieparameters aan te zetten.
+Volg onderstaande stappen om Send-Time Optimization op een e-mail- of push-actie in te schakelen en te configureren.
 
-![&#x200B; Send-Time de knevel van de Optimalisatie in de configuratie van het e-mailkanaal &#x200B;](assets/jo-message5.png)
+Voordat u begint, moet u nagaan welke berichten het beste passen voordat u deze inschakelt. De optimalisering van de Send-Time zou niet voor urgente, tijd-gevoelige operationele berichten, bijvoorbeeld, een ordesbevestiging, een bericht van het wachtwoordterugstellen, of een bericht van de de veranderingsverandering van de vlieggate moeten worden gebruikt. Het werkt het best voor minder urgente marketing mededelingen, zoals een wekelijkse advertentie, promotionele informatie over een nieuw product, of informatie over een maandenlange verkoop.
 
-De optimalisering van de Send-Time zou niet voor dringende, tijdgevoelige operationele berichten - bijvoorbeeld, een ordesbevestiging, een bericht van het wachtwoordterugstellen, of een bericht van de de gate verandering van de vlucht moeten worden gebruikt. De optimalisering van de Send-Time wordt het best gebruikt op minder-urgente marketing mededelingen - bijvoorbeeld, een wekelijkse advertentie, promotieinformatie over een nieuw product, of informatie over een maand-lange verkoop.
+1. Open het menu **[!UICONTROL Configure action]** vanuit uw reis.
 
-Kies bij e-mailberichten of u wilt optimaliseren bij het openen van een e-mail of door op het juiste keuzerondje te klikken. Pushberichten zijn altijd geoptimaliseerd voor openen.
+   ![ Send-Time de knevel van de Optimalisatie in de configuratie van het e-mailkanaal ](assets/sto-1.png)
 
->[!TIP]
->
->Voor de beste resultaten moeten de meeste e-mailberichten zijn geoptimaliseerd voor klikken. Kies deze optie voor Opens als uw e-mailbericht informatief van aard is en niet bedoeld is om een handeling rechtstreeks te sturen.
+1. Schakel de **[!UICONTROL Send-Time Optimization]** -schakelaar in het menu Verzendtijd in.
 
-Kies voor zowel e-mail- als pushberichten het maximumaantal uren dat het systeem wacht voordat het bericht wordt verzonden door een waarde in te stellen voor de optie &quot;Verzenden binnen de volgende&quot;. U kunt een waarde kiezen tussen 1 en 168 uur.
+   ![ Send-Time de knevel van de Optimalisatie in de configuratie van het e-mailkanaal ](assets/sto-2.png)
 
->[!TIP]
->
->Voor de beste resultaten kiest u een maximale wachttijd tussen 6 en 24 uur. Als u een lagere waarde voor de maximale wachttijdtijd kiest, wordt het aantal beschikbare verzendtijden verminderd en kan de potentiële waarde van de optimalisatie voor de verzendtijd hierdoor afnemen. Als u een hogere waarde voor de maximale wachttijd kiest, kan een bericht verouderd of irrelevant zijn tegen de tijd dat het wordt verzonden.
+1. Kies bij E-mailberichten of u wilt optimaliseren voor openen of voor doorklikken door de juiste optie te selecteren. Pushberichten zijn altijd geoptimaliseerd voor openen.
+
+   Voor beste resultaten, optimaliseer de meeste e-mails voor **klikt**. Kies **opent** wanneer het bericht informatief is en niet bedoeld om een specifieke actie te drijven.
+
+1. Stel voor zowel e-mail- als pushberichten **[!UICONTROL Send within next]** in op het maximumaantal uren (1-168) dat het systeem moet wachten voordat het bericht wordt verzonden.
+
+   Kies voor de beste resultaten een waarde tussen 6 en 24 uur. Een lagere waarde vermindert het aantal beschikbare verzendtijden en kan het voordeel van de Optimalisering van de Send-Time beperken. Een hogere waarde kan betekenen dat het bericht verouderd of minder relevant is op het moment dat het wordt verzonden.
+
+   ![ Send-Time de knevel van de Optimalisatie in de configuratie van het e-mailkanaal ](assets/sto-3.png)
+
+1. Kies bij E-mailberichten hoe uw handeling wordt bijgehouden. U kunt het openen van e-mailberichten volgen en klikken op koppelingen en knoppen in de e-mail volgen.
 
 Wanneer uw reis wordt geactiveerd en een klant de actie E-mail of Duw in de reis bereikt, zal de Optimalisering Send-Time kiezen de best voorspelde verzendtijd beschikbaar voor elke gebruiker binnen uw gespecificeerde grenzen.
 
+Om de prestaties van uw reis te controleren, verwijs naar de [ pagina van het Overzicht ](../reports/channel-report-cja.md).
 
 ## Hoe Send-Time Optimalisatie werkt {#how-send-time}
 
@@ -80,11 +87,11 @@ De optimalisering van de Send-Tijd maakt voorspellingen voor elk uur van de week
 
 Deze voorspellingen worden gewogen en gecombineerd met behulp van een Bayesiaanse benadering, wat resulteert in een &quot;hittekaart&quot; voor elke metrische waarde (e-mail wordt geopend, e-mail klikt en push wordt geopend), die voor elke klant aangeeft hoeveel uren van de week contact met die gebruiker het meest en het minst waarschijnlijk zal leiden tot het gewenste betrokkenheidsresultaat (open/klik), zoals wordt geïllustreerd in het onderstaande voorbeeld van een verwarmingskaart:
 
-![&#x200B; de heatmap van de Betrokkenheid die optimale verzendt tijden voor e-mail door dag en uur &#x200B;](assets/heatmap-1.png) toont
+![ de heatmap van de Betrokkenheid die optimale verzendt tijden voor e-mail door dag en uur ](assets/heatmap-1.png) toont
 
 Als een gebruiker met de bovengenoemde voorspelde waarschijnlijkheden voor een bericht bij 9 wordt gericht AM Woensdag met Send-Time die optimalisering wordt aangezet en een maximum 7 uur wachttijd tijd, geselecteerde verzendt tijd voor het bericht zal 12 PM zijn:
 
-![&#x200B; de heatmap van de Betrokkenheid met gedetailleerde uur-voor-uur optimalisatiegegevens &#x200B;](assets/heatmap-2.png)
+![ de heatmap van de Betrokkenheid met gedetailleerde uur-voor-uur optimalisatiegegevens ](assets/heatmap-2.png)
 
 ## Training over het optimalisatiemodel voor verzendtijd en informatie over scores  {#model-send-time}
 
@@ -101,7 +108,7 @@ De exploratie verzendt tijden wordt geselecteerd in willekeurige volgorde van ve
 
 U vindt hieronder Veelgestelde vragen over Send-Time Optimization.
 
-Wilt u meer details? Gebruik terugkoppelt opties bij de bodem van deze pagina om uw vraag op te heffen, of met [[!DNL Adobe Journey Optimizer]  gemeenschap &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=nl){target="_blank"} te verbinden.
+Wilt u meer details? Gebruik terugkoppelt opties bij de bodem van deze pagina om uw vraag op te heffen, of met [[!DNL Adobe Journey Optimizer]  gemeenschap ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} te verbinden.
 
 +++Hoe lang moet ik wachten alvorens Send-Time Optimalisering te gebruiken?
 
