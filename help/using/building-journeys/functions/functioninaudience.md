@@ -36,7 +36,7 @@ Het publiek kan twee deelnemingsstatussen hebben:
 * **Realized**: Het individu kwalificeert voor de publieksdefinitie en is een actief lid
 * **Uitgegeven**: Het individu heeft het publiek verlaten en kwalificeert niet meer
 
-Slechts zullen de individuen met de **Geleide** status als actieve publieksleden worden beschouwd. Wanneer de functie `true` retourneert, wordt bevestigd dat de persoon de status heeft gerealiseerd; wanneer `false` wordt geretourneerd, geeft dit de status verlaten. Voor meer informatie over publieksevaluatie, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+Slechts zullen de individuen met de **Geleide** status als actieve publieksleden worden beschouwd. Wanneer de functie `true` retourneert, wordt bevestigd dat de persoon de status heeft gerealiseerd; wanneer `false` wordt geretourneerd, geeft dit de status verlaten. Voor meer informatie over publieksevaluatie, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results){target="_blank"}.
 
 +++Syntaxis
 
@@ -116,7 +116,7 @@ Wanneer u de functie `inAudience` gebruikt tijdens reizen, dient u rekening te h
 Wanneer u `inAudience()` in een voorwaardenknooppunt gebruikt, varieert de timing van de evaluatie van het segmentlidmaatschap, afhankelijk van waar de voorwaarde op de reis verschijnt:
 
 * **vóór een Wacht activiteit (of in een Gelezen reis van het Publiek):** AJO leest van de partijprojectie van het profiel. De versheid van gegevens in deze projectie draagt SLT van tot **2 uren** na opname. Het publiek dat op dag-gebaseerde of op tijd-gebaseerde voorwaarden steunt kan extra vertraging ervaren. Voeg een korte [&#x200B; toe wacht activiteit &#x200B;](../wait-activity.md) bij het begin van de reis, of laat buffertijd toe om het recentste segmentlidmaatschap te verzekeren wordt weerspiegeld.
-* **na een Wacht activiteit (of in een eenheidse gebeurtenisreis):** het lidmaatschap van het segment wordt gelezen van de het stromen (unitaire) projectie. Voor verwachte latentie, verwijs naar de [&#x200B; het stromen van Adobe Experience Platform documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Dit pad reageert doorgaans beter op recente profielwijzigingen.
+* **na een Wacht activiteit (of in een eenheidse gebeurtenisreis):** het lidmaatschap van het segment wordt gelezen van de het stromen (unitaire) projectie. Voor verwachte latentie, verwijs naar de [&#x200B; het stromen van Adobe Experience Platform documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Dit pad reageert doorgaans beter op recente profielwijzigingen.
 
 ## Verwante onderwerpen
 
