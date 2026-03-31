@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: URL-parameters versleutelen bij bijhouden
+title: URL-parameters versleutelen
 description: Leer hoe te om gevoelige URL vraagparameters te coderen zodat PII niet in duidelijke teksten op Journey Optimizer het volgen verbindingen en het landen pagina's wordt blootgesteld.
 feature: Personalization
 topic: Personalization
@@ -9,15 +9,15 @@ role: Admin
 level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: codering, URL, bijhouden, landingspagina, sleutelregister, personalisatie, beveiliging, privacy, sandbox
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
+source-git-commit: 300f57042131b64c1f51e890a3f14199f33c1419
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
 
-
-# URL-parameters versleutelen bij bijhouden {#url-parameter-encryption}
+# URL-parameters versleutelen {#url-parameter-encryption}
 
 >[!AVAILABILITY]
 >
@@ -35,8 +35,8 @@ U codeert alleen de queryparameters die u kiest, met behulp van sleutels die beh
 
 ### Werking {#how-it-works}
 
-* **de Beheerders** gebruiken de zeer belangrijke registratie [&#x200B; sleutels &#x200B;](#create-keys) creëren en [&#x200B; leiden sleutels &#x200B;](#manage-keys) in overeenstemming met het veiligheidsbeleid van uw organisatie.
-* **de Keters van de Marketers** nemen de encryptiehelper in de verpersoonlijkingsredacteur op en gaan de waarde over om plus een actief zeer belangrijk herkenningsteken van de registratie te beschermen. Voor syntaxis en opties, zie [&#x200B; URL parameterencryptie &#x200B;](functions/helpers.md#url-parameter-encryption-helper).
+* **de Beheerders** gebruiken de zeer belangrijke registratie [ sleutels ](#create-keys) creëren en [ leiden sleutels ](#manage-keys) in overeenstemming met het veiligheidsbeleid van uw organisatie.
+* **de Keters** nemen de `Encrypt` hulp in de verpersoonlijkingsredacteur op en gaan de waarde over om plus een actief zeer belangrijk herkenningsteken van de registratie te beschermen. Voor syntaxis en opties, zie [ deze sectie ](functions/helpers.md#url-parameter-encryption-helper).
 
 >[!IMPORTANT]
 >
@@ -59,19 +59,19 @@ Voordat u de URL-parametercoderingsfunctie kunt gebruiken, moet u een sleutel ma
 
 1. Klik op de knop **[!UICONTROL Manage]** om **[!UICONTROL Key registry]** te openen.
 
-   ![&#x200B; Zeer belangrijke registratiesectie in het menu van het Beleid &#x200B;](assets/encryption-key-registry.png){width="80%"}
+   ![ Zeer belangrijke registratiesectie in het menu van het Beleid ](assets/encryption-key-registry.png){width="80%"}
 
 1. Gebruik de toegewijde knop om naar wens sleutels voor uw organisatie te maken.
 
-   ![&#x200B; creeer zeer belangrijke knoop in Zeer belangrijke registratiesectie &#x200B;](assets/encryption-create-key.png){width="80%"}
+   ![ creeer zeer belangrijke knoop in Zeer belangrijke registratiesectie ](assets/encryption-create-key.png){width="80%"}
 
 1. Wijs hen een duidelijk etiket of herkenningsteken toe uw teams in de verpersoonlijkingsredacteur kunnen van verwijzingen voorzien.
 
-   ![&#x200B; Zeer belangrijke details in Zeer belangrijke registratiesectie &#x200B;](assets/encryption-key-details.png){width="80%"}
+   ![ Zeer belangrijke details in Zeer belangrijke registratiesectie ](assets/encryption-key-details.png){width="80%"}
 
 1. Klik op **[!UICONTROL Submit]** om uw wijzigingen te bevestigen.
 
-Zodra een sleutel wordt gecreeerd, kunnen de marketers de [&#x200B; hulp van de de parameterencryptie URL &#x200B;](functions/helpers.md#url-parameter-encryption-helper) in de verpersoonlijkingsredacteur gebruiken om specifieke waarden te coderen die zij in URL vraagparameters plaatsen.
+Zodra een sleutel wordt gecreeerd, kunnen de marketers de [ hulp van de de parameterencryptie URL ](functions/helpers.md#url-parameter-encryption-helper) in de verpersoonlijkingsredacteur gebruiken om specifieke waarden te coderen die zij in URL vraagparameters plaatsen.
 
 ## Sleutels beheren {#manage-keys}
 
@@ -79,11 +79,11 @@ Volg onderstaande stappen om de toetsen te beheren.
 
 1. Open de lus **[!UICONTROL Key registry]** . Alle toetsen die voor de huidige sandbox zijn gemaakt, worden weergegeven in een lijstweergave.
 
-   ![&#x200B; Zeer belangrijke mening van de registratielijst &#x200B;](assets/encryption-key-registry-list.png){width="100%"}
+   ![ Zeer belangrijke mening van de registratielijst ](assets/encryption-key-registry-list.png){width="100%"}
 
 1. Klik op een toets met de status **[!UICONTROL Active]** om de belangrijkste details te openen.
 
-   ![&#x200B; Actieve belangrijkste details &#x200B;](assets/encryption-key-active-details.png){width="80%"}
+   ![ Actieve belangrijkste details ](assets/encryption-key-active-details.png){width="80%"}
 
 1. Klik op de knop **[!UICONTROL Revoke]** om de sleutel voor nieuwe versleuteling permanent uit te schakelen.
 
@@ -96,6 +96,3 @@ Volg onderstaande stappen om de toetsen te beheren.
    >[!NOTE]
    >
    >Alleen actieve toetsen moeten worden geselecteerd om nieuwe waarden te versleutelen in de verpersoonlijkingseditor. Gebruik geen ingetrokken toetsen voor nieuwe inhoud.
-
-
-
