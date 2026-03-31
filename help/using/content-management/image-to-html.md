@@ -26,13 +26,13 @@ Met [!DNL Journey Optimizer] kunt u het maken van e-mail aanzienlijk versnellen 
 >
 >Deze mogelijkheid is alleen beschikbaar voor het e-mailkanaal.
 
-Door generatieve AI technologie leveraging, analyseert een geïntegreerd hulpmiddel de lay-out, typografie, kleuren, en visuele elementen in uw beeld en produceert schone, modulaire inhoud van HTML die ontwerpwaarachtigheid terwijl het verzekeren van volledige editability met [ e-mail Designer ](../email/get-started-email-design.md) handhaaft.
+Door generatieve AI technologie leveraging, analyseert een geïntegreerd hulpmiddel de lay-out, typografie, kleuren, en visuele elementen in uw beeld en produceert schone, modulaire inhoud van HTML die ontwerpwaarachtigheid terwijl het verzekeren van volledige editability met [&#x200B; e-mail Designer &#x200B;](../email/get-started-email-design.md) handhaaft.
 
 Dankzij deze codeerfunctie kunnen marketers visuele elementen van grafische ontwerpers of ontwerpgereedschappen transformeren in responsieve, bewerkbare e-mailsjablonen die kunnen worden opgeslagen en hergebruikt voor meerdere reizen en campagnes, zonder dat hiervoor technische expertise vereist is.
 
 >[!IMPORTANT]
 >
->Alvorens te beginnen om deze eigenschap te gebruiken, lees uit verwante [ Grafieken en aanbevelingen ](#limitations).
+>Alvorens te beginnen om deze eigenschap te gebruiken, lees uit verwante [&#x200B; Grafieken en aanbevelingen &#x200B;](#limitations).
 
 De belangrijkste voordelen zijn:
 
@@ -64,13 +64,13 @@ Uw organisatie moet het addendum [!DNL Generative AI] met Adobe hebben onderteke
 
 **Toestemmingen**
 
-* Om tot malplaatjes toegang te hebben en tot stand te brengen, moet uw rol de **[!UICONTROL Manage content templates]** toestemming (onder het **2} middel van het Beheer van de Inhoud) omvatten.** [ leer meer over toestemmingen ](../administration/permissions.md)
+* Om tot malplaatjes toegang te hebben en tot stand te brengen, moet uw rol de **[!UICONTROL Manage content templates]** toestemming (onder het **2&rbrace; middel van het Beheer van de Inhoud) omvatten.** [&#x200B; leer meer over toestemmingen &#x200B;](../administration/permissions.md)
 
-* Om het beeld aan de converter van HTML te gebruiken, moet u worden verleend **produceer Inhoud** toestemming. Leer hoe te om Inhoudgeneratie verwante toestemmingen in [ toe te wijzen deze sectie ](../content-management/gs-generative.md#generative-access).
+* Om het beeld aan de converter van HTML te gebruiken, moet u worden verleend **produceer Inhoud** toestemming. Leer hoe te om Inhoudgeneratie verwante toestemmingen in [&#x200B; toe te wijzen deze sectie &#x200B;](../content-management/gs-generative.md#generative-access).
 
 **Overeenkomst**
 
-Voordat u deze functie kunt gebruiken, moet u akkoord gaan met een gebruikersovereenkomst die de eerste keer dat u Generative AI gebruikt, weergeeft in [!DNL Journey Optimizer] . Voor meer informatie, lees de [ Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud ](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
+Voordat u deze functie kunt gebruiken, moet u akkoord gaan met een gebruikersovereenkomst die de eerste keer dat u Generative AI gebruikt, weergeeft in [!DNL Journey Optimizer] . Voor meer informatie, lees de [&#x200B; Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
 ## Guardrails en aanbevelingen {#limitations}
 
@@ -80,7 +80,7 @@ Houd rekening met de volgende beperkingen en aanbevelingen wanneer u afbeeldinge
 
 * **AI interpretatie**: AI produceert statische inhoud van HTML die op visuele interpretatie van uw beeld wordt gebaseerd. Het biedt een sterk startpunt voor het maken van e-mails, maar moet worden gecontroleerd en verfijnd met de e-mail Designer om ervoor te zorgen dat deze precies aan uw vereisten voldoet. U dient na conversie indien nodig handmatig personalisatie, dynamische inhoud en tekstspatiëring toe te voegen.
 
-* **de nauwkeurigheid van de Tekst**: Terwijl AI probeert om tekst nauwkeurig te erkennen en te reproduceren, verifieer altijd tekstinhoud en maak correcties zoals nodig. Controleer de [ Generatieve AI Richtlijnen van de Gebruiker van Adobe ](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
+* **de nauwkeurigheid van de Tekst**: Terwijl AI probeert om tekst nauwkeurig te erkennen en te reproduceren, verifieer altijd tekstinhoud en maak correcties zoals nodig. Controleer de [&#x200B; Generatieve AI Richtlijnen van de Gebruiker van Adobe &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
 **selectie van het Beeld**
 
@@ -121,7 +121,7 @@ Volg onderstaande stappen om een afbeeldingsontwerp om te zetten in een volledig
 
 1. Voer in de sectie **[!UICONTROL Convert image to template]** de volgende stappen uit:
 
-   * (Optioneel) Als in uw organisatie merkthema&#39;s zijn gedefinieerd in Journey Optimizer, kunt u een thema als invoer selecteren zodat de gegenereerde HTML wordt opgemaakt volgens de themaparameters van uw merk. [ leer meer over thema&#39;s ](../email/apply-email-themes.md)
+   * (Optioneel) Als in uw organisatie merkthema&#39;s zijn gedefinieerd in Journey Optimizer, kunt u een thema als invoer selecteren zodat de gegenereerde HTML wordt opgemaakt volgens de themaparameters van uw merk. [&#x200B; leer meer over thema&#39;s &#x200B;](../email/apply-email-themes.md)
 
      Stijlen zoals achtergrondkleur, knopkleur, lettertypen, regelafstand, marges en opvulling worden toegepast op de gegenereerde sjabloon, waardoor extra ontwerpwerkzaamheden worden verminderd en een sjabloon wordt gemaakt die klaar is voor gebruik met minimale bewerkingen.
 
@@ -129,15 +129,15 @@ Volg onderstaande stappen om een afbeeldingsontwerp om te zetten in een volledig
 
    * Klik op de knop **[!UICONTROL Upload image]** om het afbeeldingsbestand te selecteren.
 
-     ![ de redacteur van het e-mailinhoudssjabloon van Journey Optimizer met Beeld van de Bekeerling aan malplaatjesectie ](../email/assets/email_designer_convert_img.png){width=80%}
+     ![&#x200B; de redacteur van het e-mailinhoudssjabloon van Journey Optimizer met Beeld van de Bekeerling aan malplaatjesectie &#x200B;](../email/assets/email_designer_convert_img.png){width=80%}
 
      >[!CAUTION]
      >
      >Wanneer u een afbeelding uploadt voor conversie, wordt alle inhoud die momenteel in de e-mail is toegevoegd, verwijderd en vervangen door de gegenereerde sjabloon.
 
-1. Als dit de eerste keer is dat u Generative AI gebruikt in [!DNL Journey Optimizer] , wordt u gevraagd akkoord te gaan met de gebruikersovereenkomst. Om meer te leren, controleer de [ Generatieve AI Richtlijnen van de Gebruiker van Adobe ](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
+1. Als dit de eerste keer is dat u Generative AI gebruikt in [!DNL Journey Optimizer] , wordt u gevraagd akkoord te gaan met de gebruikersovereenkomst. Om meer te leren, controleer de [&#x200B; Generatieve AI Richtlijnen van de Gebruiker van Adobe &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
-   ![ Generatieve de dialoog van de AI gebruikersovereenkomst in Journey Optimizer ](../email/assets/email_designer_convert_agreement.png){width=50%}
+   ![&#x200B; Generatieve de dialoog van de AI gebruikersovereenkomst in Journey Optimizer &#x200B;](../email/assets/email_designer_convert_agreement.png){width=50%}
 
    Klik op **[!UICONTROL Agree]** om door te gaan.
 
@@ -153,12 +153,12 @@ Volg onderstaande stappen om een afbeeldingsontwerp om te zetten in een volledig
    >
    >Het resultaat wordt niet automatisch getoond tot u verfrist.
 
-   ![ E-mail inhoudsmalplaatje dat het ontwerp toont van beeldomzetting wordt geproduceerd ](../email/assets/email_designer_converted_img.png){width=90%}
+   ![&#x200B; E-mail inhoudsmalplaatje dat het ontwerp toont van beeldomzetting wordt geproduceerd &#x200B;](../email/assets/email_designer_converted_img.png){width=90%}
 
 1. Gebruik de sectie **[!UICONTROL Image to template converter feedback]** om uw gedachten en suggesties met Adobe te delen om ons te helpen de functie te verbeteren.
-   ![ sectie van de Terugkoppeling in Journey Optimizer met een tekstgebied om uw gedachten en suggesties te delen ](../email/assets/email_designer_converter_feedback.png){width=70%}
+   ![&#x200B; sectie van de Terugkoppeling in Journey Optimizer met een tekstgebied om uw gedachten en suggesties te delen &#x200B;](../email/assets/email_designer_converter_feedback.png){width=70%}
 
-1. Klik op **[!UICONTROL Edit email body]**. Het omgezette malplaatje opent in [ E-mail Designer ](../email/get-started-email-design.md) met volledige het uitgeven mogelijkheden. U kunt nu het volgende:
+1. Klik op **[!UICONTROL Edit email body]**. Het omgezette malplaatje opent in [&#x200B; E-mail Designer &#x200B;](../email/get-started-email-design.md) met volledige het uitgeven mogelijkheden. U kunt nu het volgende:
 
    * Tekstinhoud controleren, bewerken en personalisatie toepassen
    * Afbeeldingen wijzigen en koppelingen toevoegen
@@ -166,13 +166,13 @@ Volg onderstaande stappen om een afbeeldingsontwerp om te zetten in een volledig
    * Inhoud toevoegen, verwijderen of opnieuw rangschikken
    * Gebruik alle Designer-functies voor e-mail net als alle andere sjablonen
 
-   ![ E-mail Designer in Journey Optimizer die het omgezette malplaatje als modulaire inhoudscomponenten toont voor het uitgeven ](../email/assets/email_designer_html_components.png)
+   ![&#x200B; E-mail Designer in Journey Optimizer die het omgezette malplaatje als modulaire inhoudscomponenten toont voor het uitgeven &#x200B;](../email/assets/email_designer_html_components.png)
 
    Breng de gewenste wijzigingen aan om de sjabloon te verfijnen en aan te passen aan de richtlijnen van uw merk.
 
 1. Klik op **[!UICONTROL Save]** als u tevreden bent met de sjabloon.
 
-Uw sjabloon is nu beschikbaar in de inhoudssjabloonbibliotheek en kan worden gebruikt bij het maken van e-mails tijdens reizen of campagnes. [ leer hoe te om inhoudsmalplaatjes ](../email/use-email-templates.md) te gebruiken
+Uw sjabloon is nu beschikbaar in de inhoudssjabloonbibliotheek en kan worden gebruikt bij het maken van e-mails tijdens reizen of campagnes. [&#x200B; leer hoe te om inhoudsmalplaatjes &#x200B;](../email/use-email-templates.md) te gebruiken
 
 ## Best practices {#best-practices}
 
@@ -209,11 +209,11 @@ Volg deze aanbevelingen om optimale resultaten te bereiken bij het converteren v
 
 * **verfrist zich om resultaten** te zien: Na ongeveer 5 minuten (of tot 10 minuten voor zeer grote beelden), vernieuw de pagina zodat de voltooide omzetting verschijnt.
 * **herzie uw ontwerp**: Zodra de omzetting volledig is, wordt uw malplaatje automatisch bewaard als ontwerp. Neem de tijd om de gegenereerde inhoud zorgvuldig te controleren op nauwkeurigheid.
-* **Test grondig**: Test e-mail over verschillende e-mailcliënten en apparaten. [ Leer hoe te om inhoud ](preview-test.md) voor te vertonen en te testen.
-* **verfijnen manueel**: Breng aanpassingen aan zoals nodig gebruikend de [ volledige het uitgeven van Designer van de E-mail ](../email/get-started-email-design.md) mogelijkheden.
-* **Merk groepering**: Verifieer kleuren, doopvonten, en het stileren passen uw merkrichtlijnen aan, gebruikend thema&#39;s als beschikbaar. [ Leer meer over e-mailthema&#39;s ](../email/apply-email-themes.md).
-* **Personalization**: Voeg dynamische inhoud en personalisatietokens toe zoals vereist. [ Leer meer over verpersoonlijking ](../personalization/personalize.md).
-* **Toegankelijkheid**: Herzie en verbeter toegankelijkheidseigenschappen indien nodig. [ Leer meer over toegankelijke e-mailinhoud ](../email/accessible-content.md).
+* **Test grondig**: Test e-mail over verschillende e-mailcliënten en apparaten. [&#x200B; Leer hoe te om inhoud &#x200B;](preview-test.md) voor te vertonen en te testen.
+* **verfijnen manueel**: Breng aanpassingen aan zoals nodig gebruikend de [&#x200B; volledige het uitgeven van Designer van de E-mail &#x200B;](../email/get-started-email-design.md) mogelijkheden.
+* **Merk groepering**: Verifieer kleuren, doopvonten, en het stileren passen uw merkrichtlijnen aan, gebruikend thema&#39;s als beschikbaar. [&#x200B; Leer meer over e-mailthema&#39;s &#x200B;](../email/apply-email-themes.md).
+* **Personalization**: Voeg dynamische inhoud en personalisatietokens toe zoals vereist. [&#x200B; Leer meer over verpersoonlijking &#x200B;](../personalization/personalize.md).
+* **Toegankelijkheid**: Herzie en verbeter toegankelijkheidseigenschappen indien nodig. [&#x200B; Leer meer over toegankelijke e-mailinhoud &#x200B;](../email/accessible-content.md).
 
 +++
 
