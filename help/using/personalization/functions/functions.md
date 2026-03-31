@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: cdf9eadc36d7e7b3538690a7a165bc39eccc40b5
+source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2479'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 Met behulp van de hulpfuncties kunt u gegevens transformeren en manipuleren binnen uw persoonlijke inhoud. U kunt ze gebruiken om berekeningen uit te voeren, gegevens op te maken, voorwaarden toe te passen en verschillende bewerkingen uit te voeren om dynamische, op maat gemaakte ervaringen voor uw klanten te creëren.
 
-Deze functies maken gebruik van de sjabloontaal [!DNL Journey Optimizer] . Leer over de richtlijnen van de verpersoonlijkingssyntaxis in [&#x200B; deze pagina &#x200B;](../personalization-syntax.md).
+Deze functies maken gebruik van de sjabloontaal [!DNL Journey Optimizer] . Leer over de richtlijnen van de verpersoonlijkingssyntaxis in [ deze pagina ](../personalization-syntax.md).
 
-➡️ [&#x200B; Leer hoe te om hulpfuncties in deze video te gebruiken &#x200B;](#video)
+➡️ [ Leer hoe te om hulpfuncties in deze video te gebruiken ](#video)
 
 ## Toegang tot hulpfuncties
 
@@ -42,7 +42,7 @@ Functies zijn ingedeeld in drie categorieën voor eenvoudige navigatie:
 
 >[!NOTE]
 >
->De functies en de mogelijkheden beschikbaar in de verpersoonlijkingsredacteur verschillen van degenen beschikbaar in de [&#x200B; Reis geavanceerde uitdrukkingsredacteur &#x200B;](../../building-journeys/expression/expressionadvanced.md). De functie `now()` is bijvoorbeeld alleen beschikbaar in reisexpressies. [Meer informatie](../../email/code-content.md#date-time-limitations)
+>De functies en de mogelijkheden beschikbaar in de verpersoonlijkingsredacteur verschillen van degenen beschikbaar in de [ Reis geavanceerde uitdrukkingsredacteur ](../../building-journeys/expression/expressionadvanced.md). De functie `now()` is bijvoorbeeld alleen beschikbaar in reisexpressies. [Meer informatie](../../email/code-content.md#date-time-limitations)
 
 ## Functies{#functions-helper}
 
@@ -310,7 +310,7 @@ Functies zijn ingedeeld in drie categorieën voor eenvoudige navigatie:
         <td><a href="string.md#encode64">Coderen 64</a></td><td>Deze functie wordt gebruikt om een tekenreeks te coderen</td>
     </tr>
     <tr>
-        <td><a href="string.md#endsWith">Eindigt met</a></td><td>Deze functie wordt gebruikt om te bepalen of een tekenreeks eindigt met een opgegeven subtekenreeks</td>
+        <td><a href="string.md#endsWith">Ends with (Eindigt met)</a></td><td>Deze functie wordt gebruikt om te bepalen of een tekenreeks eindigt met een opgegeven subtekenreeks</td>
     </tr>
         </tr>
     <tr>
@@ -392,7 +392,7 @@ Functies zijn ingedeeld in drie categorieën voor eenvoudige navigatie:
         <td><a href="string.md#split">Splitsen</a></td><td>Deze functie wordt gebruikt om een tekenreeks te splitsen op een bepaald teken</td>
     </tr>
     <tr>
-        <td><a href="string.md#startsWith">Begint met</a></td><td>Deze functie wordt gebruikt om te bepalen of een tekenreeks begint met een opgegeven subtekenreeks</td>
+        <td><a href="string.md#startsWith">Starts with (Begint met)</a></td><td>Deze functie wordt gebruikt om te bepalen of een tekenreeks begint met een opgegeven subtekenreeks</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-date">Tekenreeks naar datum</a></td><td>Deze functie converteert een tekenreekswaarde naar een datum-tijdwaarde</td>
@@ -435,7 +435,7 @@ Functies zijn ingedeeld in drie categorieën voor eenvoudige navigatie:
 
 ## Helpers{#helper-helper}
 
-De helpers zijn gedetailleerd op [&#x200B; deze pagina &#x200B;](helpers.md).
+De helpers zijn gedetailleerd op [ deze pagina ](helpers.md).
 
 
 <table>
@@ -454,8 +454,11 @@ De helpers zijn gedetailleerd op [&#x200B; deze pagina &#x200B;](helpers.md).
     <tr>
         <td><a href="helpers.md#let">Laat</a></td><td>Met deze functie kan een expressie worden opgeslagen als een variabele die later in een query moet worden gebruikt</td>
     </tr>
-   <tr>
+    <tr>
         <td><a href="helpers.md#unless">Tenzij</a></td><td>Deze functie wordt gebruikt om een voorwaardelijk blok te bepalen - als de uitdrukkingsevaluatie vals terugkeert, wordt het blok teruggegeven</td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#url-parameter-encryption-helper">URL-parametercodering</a></td><td>Codeert expressiewaarden voor URL-queryparameters bij het renderen met een actieve sleutel uit het sandboxregister </td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">Met</a></td><td>Deze functie wordt gebruikt om het evaluatietoken van template-part te veranderen</td>

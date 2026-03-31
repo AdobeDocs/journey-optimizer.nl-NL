@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e49528fa70225e7435683f5a63d883a0ffce29fa
+source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
 workflow-type: tm+mt
-source-wordcount: '3147'
+source-wordcount: '3160'
 ht-degree: 15%
 
 ---
@@ -420,7 +420,9 @@ ht-degree: 15%
       + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [Doorlopen van contextafhankelijke gegevens](using/personalization/iterate-contextual-data.md)
       + [Expressiefragmenten opnieuw gebruiken](using/personalization/use-expression-fragments.md)
-      + [Adobe Experience Platform-gegevens gebruiken voor personalisatie](using/personalization/aep-data-perso.md)
+      + Adobe Experience Platform-gegevens gebruiken voor personalisatie {#aep-data-perso}
+         + [Adobe Experience Platform-gegevens gebruiken voor personalisatie](using/personalization/aep-data-perso.md)
+         + [URL-parameters versleutelen bij het bijhouden van koppelingen](using/personalization/url-parameter-encryption.md)
       + Lijst met hulpfuncties {#functions}
          + [Lijst met hulpfuncties](/help/rp_landing_pages/functions-landing-page.md)
          + [Aan de slag met hulpfuncties](using/personalization/functions/functions.md)
@@ -861,7 +863,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}

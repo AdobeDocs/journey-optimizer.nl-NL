@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
+source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '998'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,7 @@ De instructie `elseif` geeft een nieuwe voorwaarde op die moet worden getest als
 
 >[!NOTE]
 >
->Meer over publiek en de segmentatieservice leren, verwijs naar [&#x200B; deze sectie &#x200B;](../../audience/about-audiences.md).
+>Meer over publiek en de segmentatieservice leren, verwijs naar [ deze sectie ](../../audience/about-audiences.md).
 
 
 ## Tenzij{#unless}
@@ -165,7 +165,7 @@ Een lijst met producten weergeven die deze gebruiker in zijn winkelwagentje heef
 
 >[!NOTE]
 >
->U kunt de `each` helper ook gebruiken om arrays die uit aangepaste handelingsreacties zijn geretourneerd, te doorlopen. Voor een voorbeeld om over genestelde series van een reactie van de douaneactie te herhalen, zie [&#x200B; Gebruikend de reacties van de douaneactie in inheemse kanalen &#x200B;](../../action/action-response.md#response-in-channels).
+>U kunt de `each` helper ook gebruiken om arrays die uit aangepaste handelingsreacties zijn geretourneerd, te doorlopen. Voor een voorbeeld om over genestelde series van een reactie van de douaneactie te herhalen, zie [ Gebruikend de reacties van de douaneactie in inheemse kanalen ](../../action/action-response.md#response-in-channels).
 
 ## Met{#with}
 
@@ -234,7 +234,7 @@ Met deze functie kunt u contextafhankelijke informatie toevoegen aan elke native
 
 >[!NOTE]
 >
->* De functie van Meta-gegevens van de Uitvoering wordt niet gesteund door [&#x200B; douaneacties &#x200B;](../../action/action.md).
+>* De functie van Meta-gegevens van de Uitvoering wordt niet gesteund door [ douaneacties ](../../action/action.md).
 >* De functie Metagegevens van de Uitvoering is niet zichtbaar wanneer de inhoud zelf wordt getoond.
 
 U kunt bijvoorbeeld de functie Metagegevens uitvoeren gebruiken om een specifieke id toe te voegen aan elke levering die naar elk profiel wordt verzonden. Deze informatie wordt tijdens runtime gegenereerd en de verrijkte metagegevens voor uitvoering kunnen vervolgens worden geëxporteerd voor afstemming op een extern rapportageplatform.
@@ -260,7 +260,7 @@ Tijdens runtime wordt de metagegevenswaarde toegevoegd aan de bestaande **[!UICO
 
 >[!NOTE]
 >
->Leer meer op datasets in [&#x200B; deze sectie &#x200B;](../../data/get-started-datasets.md).
+>Leer meer op datasets in [ deze sectie ](../../data/get-started-datasets.md).
 
 **Beperkingen**
 
@@ -282,4 +282,49 @@ In dit voorbeeld, uitgaande van `profile.person.name.firstName` = &quot;Alex&quo
   "value": "Alex"
 }
 ```
+
+## URL-parametercodering {#url-parameter-encryption-helper}
+
+>[!AVAILABILITY]
+>
+>Deze functie is beschikbaar in Beperkte Beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+>
+>Deze mogelijkheid is momenteel alleen beschikbaar voor het e-mailkanaal.
+
+Met de functie `EncryptParam` kunt u elke expressiewaarde tijdens het renderen coderen (doorgaans een profielkenmerk, een token of zelfs een stringified JSON-structuur die u in de expressie maakt) voordat deze in een queryparameter wordt geschreven voor het bijhouden van koppelingen of het landen van pagina&#39;s.
+
+Waarden die als normale tekst in de URL worden weergegeven (inclusief PII of andere vertrouwelijke gegevens), zijn niet leesbaar wanneer de koppeling wordt gecontroleerd of doorgestuurd. Alleen de waarden die u met deze hulplijn omsluit, worden gecodeerd. De rest van de URL blijft ongewijzigd.
+
+U kunt de hulp op één parameter, verscheidene, of alle parameters in een verbinding, afhankelijk van uw ontwerp URL en lengtebeperkingen toepassen.
+
+**Vereisten**
+
+* Codering van URL-parameters moet zijn ingeschakeld voor uw organisatie (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+* Een beheerder moet ten minste één actieve sleutel maken in het sleutelregister op sandboxniveau. [ leer hoe te om sleutels tot stand te brengen en te beheren ](../url-parameter-encryption.md)
+
+**hoe het** werkt
+
+1. Selecteer in de lijst met hulplijnen de `EncryptParam` helper.
+
+1. Geef `data` door: de waarde of expressie die moet worden gecodeerd (bijvoorbeeld `profile` -velden, een variabele of een samengesteld tekenreekstoken).
+
+1. Geef `key` door: een actieve sleutel-id uit uw sandbox-sleutelregister.
+
+>[!NOTE]
+>
+>Het gebruiken van een ingetrokken of anders niet-actieve sleutel zou de verpersoonlijking moeten veroorzaken om bij teruggeven tijd te ontbreken zodat wordt een bericht niet verzonden met een ongeldige sleutel.
+
+**Voorbeeld**
+
+Stel dat u een waarde definieert of berekent (bijvoorbeeld een variabele `stringToken` die een JSON-payload of samengevoegde id&#39;s bevat) die niet als onbewerkte tekst in de `token` -queryparameter moet worden weergegeven. Een laatste URL kan dit patroon volgen: vervang `stringToken` door uw expressie en `encrypt-key` door een actieve sleutel-id uit het sleutelregister:
+
+```text
+https://example.com/verify?token={{encrypt data=stringToken key="encrypt-key"}}
+```
+
+**Guardrails**
+
+Decryptie wordt buiten [!DNL Journey Optimizer] afgehandeld op de bestemmingspagina&#39;s, apps of API&#39;s. De belangrijkste levenscyclus en omwenteling van het plan met uw veiligheidsteam zodat kunnen de historische ladingen nog worden gedecrypteerd waar nodig.
+
+Ingetrokken sleutels mogen niet worden gebruikt voor nieuwe versleuteling. Volg uw beveiligingsbeleid voor roteren en uit bedrijf nemen.
 
