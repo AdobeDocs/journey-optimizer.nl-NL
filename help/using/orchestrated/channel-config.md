@@ -4,7 +4,8 @@ product: journey optimizer
 title: De kanaalconfiguratie configureren
 description: Leer hoe te om uw configuratie van het Kanaal te vormen
 version: Campaign Orchestration
-source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
+exl-id: 6793e9b8-06ca-403b-8cb0-3bcaef089837
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 # De kanaalconfiguratie configureren {#channel-configuration}
 
-Na vestiging uw [&#x200B; Doel Dimension &#x200B;](target-dimension.md), moet u uw **[!UICONTROL Channel Configuration]** vormen en aangewezen **[!UICONTROL Execution Details]** bepalen. Zo kunt u definiëren:
+Na vestiging uw [ Doel Dimension ](target-dimension.md), moet u uw **[!UICONTROL Channel Configuration]** vormen en aangewezen **[!UICONTROL Execution Details]** bepalen. Zo kunt u definiëren:
 
 * **het niveau van berichtlevering**: bijvoorbeeld, verzendend één bericht per ontvanger, zoals één enkele e-mail per individu.
 
@@ -25,7 +26,7 @@ U kunt als volgt de kanaalconfiguratie configureren:
 
    U kunt ook een bestaande **[!UICONTROL Channel configuration]** bijwerken.
 
-   ➡️ [&#x200B; volg de stappen die in deze pagina &#x200B;](../email/surface-personalization.md) worden gedetailleerd
+   ➡️ [ volg de stappen die in deze pagina ](../email/surface-personalization.md) worden gedetailleerd
 
 1. Open vanuit de sectie **[!UICONTROL Execution details]** van uw **[!UICONTROL Channel configuration]** de tab **[!UICONTROL Orchestrated campaigns]** .
 
@@ -39,7 +40,7 @@ U kunt als volgt de kanaalconfiguratie configureren:
 
    * **[!UICONTROL Target + Secondary Dimension]**: verzenden met zowel primaire als secundaire entiteiten, bijvoorbeeld ontvanger + contract.
 
-1. Selecteer van drop-down uw [&#x200B; eerder gecreeerd Doel Dimension &#x200B;](#targeting-dimension).
+1. Selecteer van drop-down uw [ eerder gecreeerd Doel Dimension ](#targeting-dimension).
 
    ![](assets/target-dimension-4.png)
 
@@ -59,13 +60,13 @@ U kunt als volgt de kanaalconfiguratie configureren:
 
      Als de secundaire dimensie bijvoorbeeld een boeking of abonnement vertegenwoordigt, kan het uitvoeringsadres, zoals een e-mail, van dat niveau worden genomen. Dit is handig wanneer profielen bij het boeken of abonneren op een service andere contactgegevens gebruiken.
 
-1. Van het **[!UICONTROL Delivery address]** gebied, klik ![&#x200B; geef pictogram &#x200B;](assets/do-not-localize/edit.svg) uit om het specifieke gebied te kiezen voor uw berichtlevering te gebruiken.
+1. Van het **[!UICONTROL Delivery address]** gebied, klik ![ geef pictogram ](assets/do-not-localize/edit.svg) uit om het specifieke gebied te kiezen voor uw berichtlevering te gebruiken.
 
    ![](assets/target-dimension-4.png)
 
 1. Klik op **[!UICONTROL Submit]** wanneer dit is geconfigureerd.
 
-Uw kanaal is nu klaar om met **Geordende Campagnes** te gebruiken, en de berichten zullen volgens de geselecteerde doeldimensie worden geleverd.
+Uw kanaal is nu klaar om met **Geordende campagnes** te gebruiken, en de berichten zullen volgens de geselecteerde doeldimensie worden geleverd.
 
 ## Parameters voor URL-tracking {#url-tracking}
 
@@ -87,4 +88,4 @@ Bijvoorbeeld:
 www.YourLandingURL.com?utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content={{context.system.source.actionName}}
 ```
 
-Leer meer over URL het volgen parameters in [&#x200B; deze sectie &#x200B;](../email/url-tracking.md).
+Leer meer over URL het volgen parameters in [ deze sectie ](../email/url-tracking.md).

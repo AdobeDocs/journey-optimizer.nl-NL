@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: API-actiecampagnes
-description: API-actiecampagnes
+title: API-gestuurde campagnes
+description: API-gestuurde campagnes
 redpen-status: CREATED_||_2025-08-11_20-23-06
 exl-id: f98e85b4-8d8a-4a9a-b814-59aa3759e534
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
 
-# API-actiecampagnes{#section-overview}
+# API-gestuurde campagnes{#section-overview}
 
 Met API-getriggerde campagnes in Adobe Journey Optimizer kunt u realtime, gepersonaliseerde berichten, zoals aankoopbevestigingen of promotieaanbiedingen, leveren op het moment dat deze nodig zijn met REST API-oproepen. Of u nu transactieupdates of marketingberichten verzendt, deze functie zorgt voor nauwkeurige, geautomatiseerde levering op maat van uw publiek. Leer hoe u campagne-eigenschappen definieert, acties zoals meertalige inhoud of het bijhouden van betrokkenheid configureert en soorten publiek instelt. Van het plannen aan activering en uitvoering, bouwt elke stap in de richting van naadloze, impactful mededeling. Met praktische instructies en voorbeelden kunt u campagnes maken die op dit moment verbinding maken.
 
@@ -20,7 +20,7 @@ Met API-getriggerde campagnes in Adobe Journey Optimizer kunt u realtime, gepers
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Door API&#39;s gestuurde campagnes maken en beheren
 
@@ -30,7 +30,7 @@ Leer hoe u API-getriggerde campagnes in Adobe Journey Optimizer kunt maken, conf
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Eigenschappen van API-activering voor campagne definiëren
 
@@ -40,7 +40,7 @@ Volg stapsgewijze instructies om campagne-eigenschappen te definiëren, zoals na
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 API-activering van campagne configureren
 
@@ -50,7 +50,7 @@ Leer hoe te om acties te vormen, communicatiekanalen te selecteren, berichtlever
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 API-activering van Campagne-inhoud bewerken en aanpassen
 
@@ -60,7 +60,7 @@ Campagne-inhoud aanpassen en aanpassen met contextuele gegevens. Leer om effici�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Het publiek van de API-gestuurde campagne definiëren
 
@@ -70,7 +70,7 @@ Stel het campagnepubliek in door profielen te selecteren, identiteitstypen te co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Een API-gestuurde campagne plannen
 

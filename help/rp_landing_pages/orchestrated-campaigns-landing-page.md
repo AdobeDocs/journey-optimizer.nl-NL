@@ -5,7 +5,7 @@ title: Geordende campagnes
 description: Geordende campagnes
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 2%
@@ -20,7 +20,7 @@ Met geordende campagnes in Adobe Journey Optimizer kunt u geavanceerde, uit meer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Inleiding tot geordende campagnes
 
@@ -30,7 +30,7 @@ Leer meer over de kernmogelijkheden, componenten en het onderscheid tussen geord
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Afvoerkanalen en beperkingen
 
@@ -40,7 +40,7 @@ Begrijp de beperkingen en beperkingen om te overwegen wanneer het gebruiken van 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gegevensconfiguratie voor geordende campagnes
 
@@ -50,7 +50,7 @@ Vorm relationele schema&#39;s, datasets, en kanalen om gegevensbereidheid voor G
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Geordende campagnes starten en beheren
 
@@ -60,9 +60,9 @@ Een stapsgewijze gids voor het maken, orkesteren, controleren en analyseren van 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Vraag het Gegevensbestand voor Geordende Campagnes
+Vraag het Gegevensbestand voor Geordende campagnes
 
 Hoofddatabase die zich richt op doelgroepen, segmenten en doelgroepen in geordende campagnes.
 
@@ -70,7 +70,7 @@ Hoofddatabase die zich richt op doelgroepen, segmenten en doelgroepen in georden
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Uitgebreide gids voor campagneactiviteiten
 

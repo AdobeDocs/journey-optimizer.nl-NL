@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '3160'
+source-wordcount: '3156'
 ht-degree: 15%
 
 ---
@@ -152,9 +152,9 @@ ht-degree: 15%
       + [De campagne plannen](using/campaigns/campaign-schedule.md)
       + [Verzenden met gebruik van golven](using/campaigns/send-using-waves.md)
       + [Een handelingscampagne bekijken en activeren](using/campaigns/review-activate-campaign.md)
-   + API-actiecampagnes {#api-triggered-campaigns}
-      + [API-actiecampagnes](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
-      + [Werken met door API geactiveerde campagnes](using/campaigns/api-triggered-campaigns.md)
+   + API-gestuurde campagnes {#api-triggered-campaigns}
+      + [API-gestuurde campagnes](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
+      + [Werken met API-gestuurde campagnes](using/campaigns/api-triggered-campaigns.md)
       + [De eigenschappen van de campagne definiëren](using/campaigns/api-triggered-campaign-properties.md)
       + [Campagne configureren](using/campaigns/api-triggered-campaign-action.md)
       + [De inhoud van de campagne bewerken](using/campaigns/api-triggered-campaign-content.md)
@@ -863,7 +863,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}

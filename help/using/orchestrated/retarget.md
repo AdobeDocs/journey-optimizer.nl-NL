@@ -6,7 +6,7 @@ description: Leer hoe u geordende campagnes met Adobe Journey Optimizer kunt sta
 feature: Monitoring
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Door opnieuw te trainen kunt u op basis van de manier waarop ze op een vorige geordende campagne hebben gereageerd, een follow-up met ontvangers krijgen. U kunt bijvoorbeeld een tweede e-mail verzenden naar ontvangers die wel een tweede e-mail hebben ontvangen, maar niet op de eerste hebben geklikt.
 
-**[!UICONTROL Orchestrated Campaign]** biedt hiervoor twee hoofdschema&#39;s:
+**[!UICONTROL Orchestrated campaign]** biedt hiervoor twee hoofdschema&#39;s:
 
 * **[!UICONTROL Message Feedback]**: legt gebeurtenissen vast die betrekking hebben op de levering, zoals verzonden, geopend, teruggestuurd, enz. bericht.
 * **[!UICONTROL Email Tracking]**: legt gebruikersacties vast, bijvoorbeeld klikken en openen.
@@ -32,7 +32,7 @@ Op feedback gebaseerde regel voor opnieuw toewijzen stelt u in staat ontvangers 
 
 Gebruikend deze gegevens, kunt u regels bepalen om ontvangers te identificeren die een vorig bericht ontvingen toelatend follow-upmededeling die op specifieke leveringsstatussen wordt gebaseerd.
 
-1. Maak een nieuwe **[!UICONTROL Orchestrated Campaign]** .
+1. Maak een nieuwe **[!UICONTROL Orchestrated campaign]** .
 
 1. Voeg een **[!UICONTROL Build Audience]** -activiteit toe en stel de doeldimensie in op **[!UICONTROL Recipient (caas)]** . Klik op **[!UICONTROL Continue]**.
 
@@ -44,7 +44,7 @@ Gebruikend deze gegevens, kunt u regels bepalen om ontvangers te identificeren d
 
    1. Selecteer de filterregel en kies de **[!UICONTROL Behavior]** die u als doel wilt instellen, zoals **[!UICONTROL Message sent]** .
 
-   1. Klik ![&#x200B; omslagpictogram &#x200B;](assets/do-not-localize/folder-search.svg) om de specifieke campagne te selecteren u wilt opnieuw richten. U hebt twee opties:
+   1. Klik ![ omslagpictogram ](assets/do-not-localize/folder-search.svg) om de specifieke campagne te selecteren u wilt opnieuw richten. U hebt twee opties:
 
       * **[!UICONTROL Select a specific campaign]**: Kies een bepaalde campagne in uw lijst om ontvangers die met die campagne hebben gewerkt, opnieuw aan te wijzen.
 
@@ -102,13 +102,13 @@ Gebruikend deze gegevens, kunt u regels bepalen om ontvangers te identificeren d
 
    1. Geef in het menu **[!UICONTROL Custom condition]** de naam van de actie voor de campagne op in het veld **[!UICONTROL Value]** .
 
-      De namen van de acties kunnen worden gevonden door het ![&#x200B; pictogram van de Informatie &#x200B;](assets/do-not-localize/info-icon.svg) naast het gebied van het Etiket van uw activiteit te klikken.
+      De namen van de acties kunnen worden gevonden door het ![ pictogram van de Informatie ](assets/do-not-localize/info-icon.svg) naast het gebied van het Etiket van uw activiteit te klikken.
 
    +++
 
 1. U kunt ook filteren op **[!UICONTROL Campaign ID]** (UUID), die u vindt in de campagneeigenschappen.
 
-U hebt nu op feedback gebaseerde herrichtingsregel geconfigureerd om ontvangers te identificeren op basis van de leveringsstatus van een vorig bericht, zoals verzonden, geopend, teruggestuurd of gemarkeerd als spam. Met dit die publiek wordt bepaald, kunt u of een follow-up e-mail toevoegen of uw het richten verder verfijnen door [&#x200B; het vormen van een Op volgen-Gebaseerde het opnieuw richten regel &#x200B;](#tracking-based), die gebruikersinteractiegegevens gebruikt.
+U hebt nu op feedback gebaseerde herrichtingsregel geconfigureerd om ontvangers te identificeren op basis van de leveringsstatus van een vorig bericht, zoals verzonden, geopend, teruggestuurd of gemarkeerd als spam. Met dit die publiek wordt bepaald, kunt u of een follow-up e-mail toevoegen of uw het richten verder verfijnen door [ het vormen van een Op volgen-Gebaseerde het opnieuw richten regel ](#tracking-based), die gebruikersinteractiegegevens gebruikt.
 
 ![](assets/retarget_9.png){zoomable="yes"}
 
@@ -119,7 +119,7 @@ Het volgen-gebaseerde opnieuw richten van regel richt ontvangers die op hun inte
 
 Gebruik de entiteit **[!UICONTROL Email Tracking]** als volgt om ontvangers opnieuw te richten op basis van berichtinteractie (bijvoorbeeld openen of klikken):
 
-1. Maak een nieuwe **[!UICONTROL Orchestrated Campaign]** .
+1. Maak een nieuwe **[!UICONTROL Orchestrated campaign]** .
 
 1. Voeg een **[!UICONTROL Build Audience]** -activiteit toe en stel de doeldimensie in op **[!UICONTROL Recipient (caas)]** om de focus op vorige geordende campagneontvangers te plaatsen.
 
@@ -135,7 +135,7 @@ Gebruik de entiteit **[!UICONTROL Email Tracking]** als volgt om ontvangers opni
 
       ![](assets/retarget_13.png){zoomable="yes"}
 
-   1. Klik ![&#x200B; omslagpictogram &#x200B;](assets/do-not-localize/folder-search.svg) om de specifieke campagne te selecteren u wilt opnieuw richten. U hebt twee opties:
+   1. Klik ![ omslagpictogram ](assets/do-not-localize/folder-search.svg) om de specifieke campagne te selecteren u wilt opnieuw richten. U hebt twee opties:
 
       * **[!UICONTROL Select a specific campaign]**: Kies een bepaalde campagne in uw lijst om ontvangers die met die campagne hebben gewerkt, opnieuw aan te wijzen.
 
@@ -157,7 +157,7 @@ Gebruik de entiteit **[!UICONTROL Email Tracking]** als volgt om ontvangers opni
 
    ![](assets/retarget_8.png){zoomable="yes"}
 
-U hebt nu een op reeksspatiëring gebaseerde herrichtingsregel geconfigureerd voor doelontvangers op basis van hun interacties met een eerder bericht, zoals het openen van een e-mail of het klikken met koppelingen, met behulp van gegevens uit het kenmerk **[!UICONTROL Email Tracking]** . Met dit bepaalde publiek, kunt u of een follow-up actie toevoegen of uw het richten verder verfijnen door het met a [&#x200B; te combineren terugkoppelen-Gebaseerde het opnieuw richten regel &#x200B;](#feedback-retarget) om berichtresultaten zoals verzonden, die, of duidelijk als spam worden verzonden te omvatten.
+U hebt nu een op reeksspatiëring gebaseerde herrichtingsregel geconfigureerd voor doelontvangers op basis van hun interacties met een eerder bericht, zoals het openen van een e-mail of het klikken met koppelingen, met behulp van gegevens uit het kenmerk **[!UICONTROL Email Tracking]** . Met dit bepaalde publiek, kunt u of een follow-up actie toevoegen of uw het richten verder verfijnen door het met a [ te combineren terugkoppelen-Gebaseerde het opnieuw richten regel ](#feedback-retarget) om berichtresultaten zoals verzonden, die, of duidelijk als spam worden verzonden te omvatten.
 
 
 ![](assets/retarget_10.png){zoomable="yes"}

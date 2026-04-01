@@ -5,7 +5,7 @@ title: Configuratiestappen
 description: Leer hoe u een relationeel schema maakt in Adobe Experience Platform door een DDL te uploaden
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Deze gids begeleidt u door het proces om een relationeel schema tot stand te brengen, vormend een dataset voor Geordende campagnes en het opnemen van gegevens.
 
-![&#x200B; schema &#x200B;](assets/do-not-localize/schema_admin.png){zoomable="yes"}
+![ schema ](assets/do-not-localize/schema_admin.png){zoomable="yes"}
 
 ## Belangrijkste concepten
 
@@ -33,7 +33,7 @@ Hierin wordt beschreven:
 * De kenmerken van deze entiteiten (bijvoorbeeld naam van de klant, begindatum van campagne)
 * De relaties tussen entiteiten (klanten behoren bijvoorbeeld tot segmenten, doelsegmenten voor campagnes)
 
-Een gegevensmodel is logisch en conceptueel, niet gebonden aan een fysieke implementatie in Geordende Campagne
+Een gegevensmodel is logisch en conceptueel, niet gebonden aan een fysieke implementatie in een geordende campagne
 
 In a **relationeel gegevensmodel**, wordt het gegeven georganiseerd in lijsten met betrekking tot andere lijsten.
 
@@ -52,13 +52,13 @@ Hier wordt aangegeven:
 
 Het organiseren van schema&#39;s of lijsten in een relationeel gegevensmodel is over het structureren van uw gegevens in veelvoudige lijsten. Zorg ervoor dat elke tabel één type entiteit/schema&#39;s opslaat
 
-➡️ [&#x200B; Leer meer over schema&#39;s in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [ Leer meer over schema&#39;s in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## Implementatiestappen {#implementation}
 
 Voer de volgende stappen uit om gegevens in te voeren en relationeel schema te maken:
 
-1. Creeer [&#x200B; relationeel schema manueel &#x200B;](manual-schema.md) of [&#x200B; gebruikend een Ddl- dossier &#x200B;](file-upload-schema.md)
+1. Creeer [ relationeel schema manueel ](manual-schema.md) of [ gebruikend een Ddl- dossier ](file-upload-schema.md)
 
    Definieer de structuur van uw gegevensmodel, inclusief tabellen, kenmerken en relaties. Kies ervoor het schema handmatig te bouwen in de gebruikersinterface of een DDL-bestand te uploaden voor een snellere installatie.
 
@@ -74,7 +74,7 @@ Voer de volgende stappen uit om gegevens in te voeren en relationeel schema te m
 
 1. [Geordende campagnes inschakelen](manual-schema.md#enable)
 
-   De dataset slaat uw opgenomen gegevens op en moet voor Geordende Campagnes worden toegelaten om het in Adobe Journey Optimizer toegankelijk te maken.
+   De dataset slaat uw opgenomen gegevens op en moet voor Geordende campagnes worden toegelaten om het in Adobe Journey Optimizer toegankelijk te maken.
 
 1. [Gegevens samenvoegen](ingest-data.md)
 

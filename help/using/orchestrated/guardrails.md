@@ -5,7 +5,7 @@ title: Gangbare campagnes en beperkingen
 description: Meer informatie over geordende campagnes, instructies en beperkingen
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Hieronder vindt u instructies en beperkingen wanneer u geordende campagnes gebru
 
 * Het gemiddelde aantal attributen per schema **zou 50 kolommen** niet moeten overschrijden om manageability en prestaties te handhaven.
 
-* De relationele schema&#39;s kunnen niet voor Adobe Experience Platform **Profielen** worden toegelaten. Slechts worden de Standaard schema&#39;s XDM gesteund voor Adobe Experience Platform **Profielen**. Relationele schema&#39;s kunnen voor Geordende Campagnes of de Campagnes van de Actie worden toegelaten. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* De relationele schema&#39;s kunnen niet voor Adobe Experience Platform **Profielen** worden toegelaten. Slechts worden de Standaard schema&#39;s XDM gesteund voor Adobe Experience Platform **Profielen**. Relationele schema&#39;s kunnen voor Geordende campagnes of campagnes van de Actie worden toegelaten. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Data-opname {#data-ingestion}
 

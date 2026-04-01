@@ -5,7 +5,7 @@ title: Geordende campagnes
 description: Geordende campagnes
 redpen-status: CREATED_||_2025-08-11_20-27-08
 exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
-source-git-commit: 341a4dac0ae1c124559ebf552af5b3e7a35519e7
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Met geordende campagneactiviteiten in Adobe Journey Optimizer kunt u naadloze, g
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Werken met geordende campagneactiviteiten
 
@@ -30,7 +30,7 @@ Leer over het richten, kanaal, en stroom controleactiviteiten om georkestreerde 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Het gebruiken van EN sluit zich aan bij Activiteit
 
@@ -40,7 +40,7 @@ Synchroniseer veelvoudige uitvoeringstakken door voorafgaande taken te verzekere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Activiteit publiek maken
 
@@ -50,7 +50,7 @@ Bepaal en vorm publiekssegmenten voor uw campagnes gebruikend de het publieksact
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Dimensieactiviteit wijzigen
 
@@ -60,7 +60,7 @@ Verbeter het richten door tussen gegevensentiteiten binnen uw campagne te versch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Kanaalactiviteiten
 
@@ -70,7 +70,7 @@ Stel e-mail, SMS, pushberichten en direct mail in voor interkanaals orchestratie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Activiteiten combineren
 

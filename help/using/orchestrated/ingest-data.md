@@ -5,7 +5,7 @@ title: Configuratiestappen
 description: Leer hoe u gegevens van ondersteunde bronnen, zoals SFTP, cloudopslag of databases, naar Adobe Experience Platform kunt overbrengen.
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 1%
@@ -39,29 +39,29 @@ De volgende bronnen worden ondersteund voor gebruik met geordende campagnes:
   <tbody>
     <tr>
       <td rowspan="3">Cloud Storage</td>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">Cloud Data Warehouses</td>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Gegevenslandingszone<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Gegevenslandingszone<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure-databases</a></td>
     </tr>
     <tr>
       <td rowspan="3">Bestandsgebaseerde uploads</td>
-      <td><a href="https://experienceleague.adobe.com/nl/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Lokaal bestand uploaden<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Lokaal bestand uploaden<a></td>
     </tr>
 
 </tbody>
@@ -85,7 +85,7 @@ Als een klant records alleen uit Adobe Experience Platform wil verwijderen zonde
 
   Als vergunning gegeven, **Gegevens Distiller** kan worden gebruikt om schrappingsverrichtingen direct binnen Adobe Experience Platform, onafhankelijk van het bronsysteem te steunen.
 
-  [&#x200B; Leer meer op Gegevens Distiller &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/query/data-distiller/overview)
+  [ Leer meer op Gegevens Distiller ](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 
 ## Een gegevensstroom configureren
 
@@ -93,7 +93,7 @@ In dit voorbeeld wordt getoond hoe u een gegevensstroom configureert die gestruc
 
 1. Via het menu **[!UICONTROL Connections]** opent u het menu **[!UICONTROL Sources]** .
 
-1. Kies uw bron afhankelijk van de [&#x200B; Gesteunde Bronnen voor Geordende campagnes &#x200B;](#supported).
+1. Kies uw bron afhankelijk van de [ Gesteunde Bronnen voor Geordende campagnes ](#supported).
 
    ![](assets/admin_sources_1.png)
 
@@ -111,7 +111,7 @@ In dit voorbeeld wordt getoond hoe u een gegevensstroom configureert die gestruc
 
    >[!IMPORTANT]
    >
-   > Voor **dossier-gebaseerde slechts bronnen**, moet elke rij in het gegevensdossier een `_change_request_type` kolom met waarden `U` (upsert) of `D` (schrapping) omvatten. Zonder deze kolom, zal het systeem niet de gegevens als ondersteunend verandering volgen erkennen, en de Geordende knevel van de Campagne zal niet verschijnen, verhinderend de dataset voor het richten wordt geselecteerd.
+   > Voor **dossier-gebaseerde slechts bronnen**, moet elke rij in het gegevensdossier een `_change_request_type` kolom met waarden `U` (upsert) of `D` (schrapping) omvatten. Zonder deze kolom, zal het systeem niet de gegevens erkennen als ondersteunend verandering het volgen, en de Geordende campagneknevel zal niet verschijnen, verhinderend de dataset voor het richten wordt geselecteerd.
 
    ![](assets/S3_config_6.png)
 
@@ -123,7 +123,7 @@ In dit voorbeeld wordt getoond hoe u een gegevensstroom configureert die gestruc
 
    De maximale ondersteunde grootte is 100 MB.
 
-1. Controleer in het venster **[!UICONTROL Mapping]** of elk kenmerk van het bronbestand correct is toegewezen aan de corresponderende velden in het doelschema. [&#x200B; Leer meer over het richten van dimensies &#x200B;](target-dimension.md).
+1. Controleer in het venster **[!UICONTROL Mapping]** of elk kenmerk van het bronbestand correct is toegewezen aan de corresponderende velden in het doelschema. [ Leer meer over het richten van dimensies ](target-dimension.md).
 
    Klik **[!UICONTROL Next]** eenmaal gereed.
 

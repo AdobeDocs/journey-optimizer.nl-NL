@@ -5,7 +5,7 @@ title: Actiecampagnes
 description: Actiecampagnes
 redpen-status: CREATED_||_2025-08-11_20-22-10
 exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 2%
@@ -16,11 +16,11 @@ ht-degree: 2%
 
 Met handelscampagnes in Adobe Journey Optimizer kunt u actuele, doelgerichte berichten voor batchberichten, zoals promoties, updates of juridische kennisgevingen, verzenden. Met deze campagnes, die zijn ontworpen voor flexibiliteit, kunt u eigenschappen definiëren, communicatiekanalen kiezen, inhoud optimaliseren, publiek instellen, levering plannen en campagnes eenvoudig activeren. Of u nu meertalige inhoud maakt, variaties test of urgente meldingen prioriteert, elke stap is gericht op het creëren van een ondoordachte en gepersonaliseerde outreach. In deze sectie wordt het proces onderverdeeld in hanteerbare stappen, die u van planning tot uitvoering begeleiden, zodat u op een betrouwbare manier campagnes kunt ontwerpen die op uw publiek en aandrijfresultaten aansluiten.
 
-## Bronnen voor actiecampagnes
+## Bronnen voor campagnes
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Een actiecampagne maken
 
@@ -30,9 +30,9 @@ Leer hoe u actiecampagnes maakt en beheert, inclusief eigenschappen, handelingen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Campagneeigenschappen voor handelingen definiëren
+Eigenschappen van handelingencampagne definiëren
 
 Stapsgewijze instructies voor het definiëren van campagne-eigenschappen zoals naamgeving, codes en toegangslabels.
 
@@ -40,7 +40,7 @@ Stapsgewijze instructies voor het definiëren van campagne-eigenschappen zoals n
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Campagnehandelingen configureren
 
@@ -50,7 +50,7 @@ Handleiding voor het instellen van campagnehandelingen, waaronder kanaalselectie
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Optimalisatie van berichten gebruiken
 
@@ -60,7 +60,7 @@ Gebruik gerichte toepassingen en experimenten om de betrokkenheid te maximaliser
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
 
 Campagne-inhoud bewerken
 
@@ -70,7 +70,7 @@ Ontwerp, test en configureer inhoud voor uw actiecampagnes op meerdere kanalen.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Campagnepubliek definiëren
 
@@ -84,5 +84,5 @@ Selecteer het publiek en het type identiteit voor uw campagne, zodat u zich op e
 
 ## Aanvullende bronnen
 
-- **[Plan de Campagne van de Actie](../using/campaigns/campaign-schedule.md)** - vorm begin en einddata, frequentie, en kanaal-specifieke het plannen voor uw campagne.
-- **[Overzicht &amp; activeer een Campagne van de Actie](../using/campaigns/review-activate-campaign.md)** - bevestigt, herziet en activeert uw campagne van de Actie met geleidelijke instructies.
+- **[Plan de campagne van de Actie](../using/campaigns/campaign-schedule.md)** - vorm begin en einddata, frequentie, en kanaal-specifieke het plannen voor uw campagne.
+- **[Overzicht &amp; activeer een campagne van de Actie](../using/campaigns/review-activate-campaign.md)** - bevestigt, herziet en activeert uw campagne van de Actie met geleidelijke instructies.

@@ -5,7 +5,7 @@ title: Configuratiestappen
 description: Leer hoe u een relationeel schema maakt in Adobe Experience Platform door een DDL te uploaden
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 0%
@@ -21,21 +21,21 @@ De schema&#39;s kunnen manueel door de interface worden gecreeerd of in bulk wor
 
 Deze sectie biedt stapsgewijze instructies voor het maken van een relationeel schema in Adobe Experience Platform door een DDL-bestand (Data Definition Language) te uploaden. Met behulp van een DDL-bestand kunt u vooraf de structuur van uw gegevensmodel definiëren, inclusief tabellen, kenmerken, sleutels en relaties.
 
-1. [&#x200B; upload een Ddl- dossier &#x200B;](#ddl-upload) om relationele schema&#39;s tot stand te brengen en hun structuur te bepalen.
+1. [ upload een Ddl- dossier ](#ddl-upload) om relationele schema&#39;s tot stand te brengen en hun structuur te bepalen.
 
-1. [&#x200B; bepaalt verhoudingen &#x200B;](#relationships) tussen lijsten in uw gegevensmodel.
+1. [ bepaalt verhoudingen ](#relationships) tussen lijsten in uw gegevensmodel.
 
-1. [&#x200B; schema&#39;s van de Verbinding &#x200B;](#link-schema) om uw relationele gegevens met bestaande profielentiteiten zoals Ontvangers of Banden te verbinden.
+1. [ schema&#39;s van de Verbinding ](#link-schema) om uw relationele gegevens met bestaande profielentiteiten zoals Ontvangers of Banden te verbinden.
 
-1. [&#x200B; Samenvatting gegevens &#x200B;](ingest-data.md) in uw dataset van gesteunde bronnen.
+1. [ Samenvatting gegevens ](ingest-data.md) in uw dataset van gesteunde bronnen.
 
-➡️ [&#x200B; Leer meer over relationele schema&#39;s in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/relational)
+➡️ [ Leer meer over relationele schema&#39;s in de documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## Een DDL-bestand uploaden{#ddl-upload}
 
 Door een DDL-bestand te uploaden, kunt u vooraf de structuur van uw gegevensmodel definiëren, inclusief tabellen, kenmerken, sleutels en relaties.
 
-Op Excel gebaseerde schemabestanden worden geüpload. Download het [&#x200B; verstrekte malplaatje &#x200B;](assets/template.zip) om uw schemadefinities gemakkelijk voor te bereiden.
+Op Excel gebaseerde schemabestanden worden geüpload. Download het [ verstrekte malplaatje ](assets/template.zip) om uw schemadefinities gemakkelijk voor te bereiden.
 
 +++De volgende functies worden ondersteund bij het maken van relationele schema&#39;s in Adobe Experience Platform
 
@@ -56,7 +56,7 @@ Hier volgt een voorbeeld:
   ```
 
 * **Etiket van het Schema voor het Beleid van Gegevens**\
-  De etikettering wordt gesteund op het niveau van het schemagebied om gegevens te handhaven governance beleid zoals toegangsbeheer en gebruiksbeperkingen. Voor meer details, verwijs naar [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl).
+  De etikettering wordt gesteund op het niveau van het schemagebied om gegevens te handhaven governance beleid zoals toegangsbeheer en gebruiksbeperkingen. Voor meer details, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl).
 
 +++
 
@@ -102,7 +102,7 @@ Hier volgt een voorbeeld:
 
 1. Klik **[!UICONTROL Done]** eenmaal gereed.
 
-U kunt nu de tabel- en velddefinities op het canvas controleren. [&#x200B; leer meer in de sectie hieronder &#x200B;](#entities)
+U kunt nu de tabel- en velddefinities op het canvas controleren. [ leer meer in de sectie hieronder ](#entities)
 
 ## Relaties definiëren {#relationships}
 
@@ -154,7 +154,7 @@ U kunt verhoudingen direct binnen het Ddl- dossier specificeren wanneer het cre�
 
    * **Download**: Download het ER diagram als .png- dossier.
 
-1. Klik **sparen** eens gereed. Deze actie leidt tot de schema&#39;s en bijbehorende gegevensreeksen en laat de gegevensreeks voor gebruik in Geordende Campagnes toe.
+1. Klik **sparen** eens gereed. Deze actie leidt tot de schema&#39;s en bijbehorende gegevensreeksen en laat de gegevensreeks voor gebruik in Geordende campagnes toe.
 
 1. Klik op **[!UICONTROL Open Jobs]** om de voortgang van de ontwerptaak te volgen. Dit proces kan enkele minuten duren, afhankelijk van het aantal tabellen dat in het DDL-bestand is gedefinieerd.
 
@@ -168,7 +168,7 @@ U kunt verhoudingen direct binnen het Ddl- dossier specificeren wanneer het cre�
 >
 > Alleen relaties die expliciet in het DDL-bestand zijn gedefinieerd, worden door het systeem herkend. Om het even welke entiteitverhoudingen die buiten het Ddl- dossier bestaan zullen worden genegeerd en niet verwerkt.
 
-Vestig een verband tussen het **schema van de 0&rbrace; loyaliteitstransacties &lbrace;en het** Ontvangers **schema om elke transactie met het correcte klantenverslag te associëren.**
+Vestig een verband tussen het **schema van de 0} loyaliteitstransacties {en het** Ontvangers **schema om elke transactie met het correcte klantenverslag te associëren.**
 
 1. Navigeer aan **[!UICONTROL Schemas]** en open eerder **loyaliteitstransacties** creëren.
 
