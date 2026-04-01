@@ -27,7 +27,7 @@ Gebruik de functie `inAudience` wanneer dat nodig is:
 * Evalueer de participatie van het publiek in real time binnen reisvoorwaarden
 * Combineer veelvoudige publiekscontroles om complexe het richten regels tot stand te brengen
 
-De functie evalueert publiekslidmaatschap in real time en keert een booleaanse waarde terug, die het voor beslissingsknopen en voorwaardelijke uitdrukkingen ideaal maakt. Het publiek wordt bepaald en geleid in [ Adobe Experience Platform ](https://platform.adobe.com/audience/overview){target="_blank"} (leer meer over [ het werken met publiek ](../../audience/about-audiences.md) in Journey Optimizer), en de uitdrukkingsredacteur verstrekt autocomplete suggesties om u te helpen hen nauwkeurig van verwijzingen voorzien.
+De functie evalueert publiekslidmaatschap in real time en keert een booleaanse waarde terug, die het voor beslissingsknopen en voorwaardelijke uitdrukkingen ideaal maakt. Het publiek wordt bepaald en geleid in [&#x200B; Adobe Experience Platform &#x200B;](https://platform.adobe.com/audience/overview){target="_blank"} (leer meer over [&#x200B; het werken met publiek &#x200B;](../../audience/about-audiences.md) in Journey Optimizer), en de uitdrukkingsredacteur verstrekt autocomplete suggesties om u te helpen hen nauwkeurig van verwijzingen voorzien.
 
 **Status van het publiek:**
 
@@ -36,7 +36,7 @@ Het publiek kan twee deelnemingsstatussen hebben:
 * **Realized**: Het individu kwalificeert voor de publieksdefinitie en is een actief lid
 * **Uitgegeven**: Het individu heeft het publiek verlaten en kwalificeert niet meer
 
-Slechts zullen de individuen met de **Geleide** status als actieve publieksleden worden beschouwd. Wanneer de functie `true` retourneert, wordt bevestigd dat de persoon de status heeft gerealiseerd; wanneer `false` wordt geretourneerd, geeft dit de status verlaten. Voor meer informatie over publieksevaluatie, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+Slechts zullen de individuen met de **Geleide** status als actieve publieksleden worden beschouwd. Wanneer de functie `true` retourneert, wordt bevestigd dat de persoon de status heeft gerealiseerd; wanneer `false` wordt geretourneerd, geeft dit de status verlaten. Voor meer informatie over publieksevaluatie, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 +++Syntaxis
 
@@ -109,14 +109,14 @@ Wanneer u de functie `inAudience` gebruikt tijdens reizen, dient u rekening te h
 
 **het beleidsoverwegingen van de Fusie:**
 * Wanneer u meerdere soorten publiek gebruikt met de functie `inAudience` , kunnen inconsistenties met het samenvoegbeleid fouten of waarschuwingen veroorzaken
-* Verwijs naar [ eigenschappen van de Reis ](../journey-properties.md) voor meer informatie over het gedrag van het fusiebeleid
+* Verwijs naar [&#x200B; eigenschappen van de Reis &#x200B;](../journey-properties.md) voor meer informatie over het gedrag van het fusiebeleid
 
 **de timing van de Verspreiding:** {#propagation-timing}
 
 Wanneer u `inAudience()` in een voorwaardenknooppunt gebruikt, varieert de timing van de evaluatie van het segmentlidmaatschap, afhankelijk van waar de voorwaarde op de reis verschijnt:
 
-* **in een Gelezen reis van het Publiek, vóór een Wacht activiteit:** Journey Optimizer leest van de partijprojectie van het profiel. De gegevens in deze projectie worden verfrist binnen **2 uren** na opname. Het publiek dat op dag-gebaseerde of op tijd-gebaseerde voorwaarden steunt kan extra vertraging ervaren. Voeg een korte [ toe wacht activiteit ](../wait-activity.md) bij het begin van de reis, of laat buffertijd toe om het recentste segmentlidmaatschap te verzekeren wordt weerspiegeld.
-* **in een eenheidsgebeurtenisreis, of na een Wacht activiteit:** het lidmaatschap van het Segment wordt gelezen van de het stromen (unitaire) projectie. Het gegeven is typisch beschikbaar binnen **15 minuten**. Voor meer details, verwijs naar [ Adobe Experience Platform die inspraakdocumentatie stromen ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
+* **in een Gelezen reis van het Publiek, vóór een Wacht activiteit:** Journey Optimizer leest van de partijprojectie van het profiel. De gegevens in deze projectie worden verfrist binnen **2 uren** na opname. Het publiek dat op dag-gebaseerde of op tijd-gebaseerde voorwaarden steunt kan extra vertraging ervaren. Voeg een korte [&#x200B; toe wacht activiteit &#x200B;](../wait-activity.md) bij het begin van de reis, of laat buffertijd toe om het recentste segmentlidmaatschap te verzekeren wordt weerspiegeld.
+* **in een eenheidsgebeurtenisreis, of na een Wacht activiteit:** het lidmaatschap van het Segment wordt gelezen van de het stromen (unitaire) projectie. Het gegeven is typisch beschikbaar binnen **15 minuten**. Voor meer details, verwijs naar [&#x200B; Adobe Experience Platform die inspraakdocumentatie stromen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
 
 ## Verwante onderwerpen
 
