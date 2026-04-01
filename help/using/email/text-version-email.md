@@ -223,7 +223,7 @@ Your input helps us improve our service.
 Ja, verpersoonlijkingsvelden zoals `{{profile.firstName}}` werken op dezelfde manier in zowel HTML- als normale tekstversies.
 
 **hoe ik mijn gewone tekstversie test?**
-* Schakel over naar de weergave **[!UICONTROL Plain text]** in de Designer-e-mail. [ leer hoe ](#text-version-email)
+* Schakel over naar de weergave **[!UICONTROL Plain text]** in de Designer-e-mail. [&#x200B; leer hoe &#x200B;](#text-version-email)
 * Verzend teste-mailberichten naar e-mailclients met alleen tekst, zoals oude versies van Pine of mobiele e-mailapps met een standaardversie.
 
 **wat gebeurt als ik vergeet om een gewone tekstversie tot stand te brengen?**\
