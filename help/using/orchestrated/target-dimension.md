@@ -33,7 +33,7 @@ Wanneer het vormen richt, bepaalt u twee zeer belangrijke aspecten:
 
   Het systeem moet begrijpen hoe het doelschema aan het `Profile` schema in kaart brengt. Dit wordt bereikt door een gedeeld identiteitsgebied - dat zowel in het doelschema als het `Profile` schema bestaat en als identiteitsnaamruimte gevormd.
 
-➡️ [&#x200B; Leer meer over relationele schema&#39;s in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [&#x200B; Leer meer over relationele schema&#39;s in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Uw doeldimensie maken {#targeting-dimension}
 
@@ -53,7 +53,7 @@ Begin door campagneorchestratie op te zetten door een relationeel schema aan het
 
    In dit voorbeeld is het klantprofiel gekoppeld aan meerdere abonnementen, die elk worden vertegenwoordigd door een uniek `crmID` in het `Recipient` -schema. Als u **[!UICONTROL Target Dimension]** instelt om het `Recipient` schema en de `crmID` identiteit te gebruiken, kunt u berichten verzenden op abonnementsniveau in plaats van naar het hoofdklantprofiel, zodat elk contract of elke regel een eigen gepersonaliseerd bericht ontvangt.
 
-   [&#x200B; leer meer in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
+   [&#x200B; leer meer in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 

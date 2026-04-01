@@ -29,7 +29,7 @@ Deze sectie biedt stapsgewijze instructies voor het maken van een relationeel sc
 
 1. [&#x200B; Samenvatting gegevens &#x200B;](ingest-data.md) in uw dataset van gesteunde bronnen.
 
-➡️ [&#x200B; Leer meer over relationele schema&#39;s in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
+➡️ [&#x200B; Leer meer over relationele schema&#39;s in de documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/schema/relational)
 
 ## Een DDL-bestand uploaden{#ddl-upload}
 
