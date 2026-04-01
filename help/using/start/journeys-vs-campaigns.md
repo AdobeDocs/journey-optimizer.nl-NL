@@ -35,7 +35,7 @@ Deze gids helpt u kiezen gebaseerd op uitvoeringsstijl, gegevensbehoeften, en ge
 
 >[!TIP]
 >
->**Snelle regel van duim:** heb elke klant nodig om bij hun eigen tempo met logica in real time te bewegen? De Reizen van het gebruik ****. Eén bericht verzenden naar een publiek volgens een planning? De campagnes van de Actie van het gebruik ****. Triggerend vanaf een extern systeem via API? Gebruik **API-teweeggebrachte campagnes**. Gegevens van meerdere entiteiten, exacte aantallen of een batchcanvas nodig? Gebruik **Geordende campagnes**.
+>**Snelle regel van duim:** heb elke klant nodig om bij hun eigen tempo met logica in real time te bewegen? De Reizen van het gebruik **&#x200B;**. Eén bericht verzenden naar een publiek volgens een planning? De campagnes van de Actie van het gebruik **&#x200B;**. Triggerend vanaf een extern systeem via API? Gebruik **API-teweeggebrachte campagnes**. Gegevens van meerdere entiteiten, exacte aantallen of een batchcanvas nodig? Gebruik **Geordende campagnes**.
 
 ## Gedetailleerde vergelijking {#detailed-comparison}
 
@@ -284,7 +284,7 @@ Klaar om te beginnen met bouwen? Bekijk de gedetailleerde documentatie voor uw g
 
 >[!MORELIKETHIS]
 >
->* [ de types van Reis vergelijking ](../building-journeys/journey.md#journey-types-comparison)
->* [ de types van Campagne vergelijking ](../campaigns/get-started-with-campaigns.md#campaign-types)
->* [ Veelgestelde vragen van de Reis ](../building-journeys/journey-faq.md)
->* [ Geordende campagnes FAQ ](../orchestrated/orchestrated-campaigns-faq.md)
+>* [&#x200B; de types van Reis vergelijking &#x200B;](../building-journeys/journey.md#journey-types-comparison)
+>* [&#x200B; de types van Campagne vergelijking &#x200B;](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [&#x200B; Veelgestelde vragen van de Reis &#x200B;](../building-journeys/journey-faq.md)
+>* [&#x200B; Geordende campagnes FAQ &#x200B;](../orchestrated/orchestrated-campaigns-faq.md)
