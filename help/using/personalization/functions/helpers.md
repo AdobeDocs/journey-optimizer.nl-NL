@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 42348a3f6fca6567b4473cffd16708c61416dbbb
+source-git-commit: 39a4893357f3b95938c5a3402516aa45277411aa
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1021'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,7 @@ De instructie `elseif` geeft een nieuwe voorwaarde op die moet worden getest als
 
 >[!NOTE]
 >
->Meer over publiek en de segmentatieservice leren, verwijs naar [&#x200B; deze sectie &#x200B;](../../audience/about-audiences.md).
+>Meer over publiek en de segmentatieservice leren, verwijs naar [ deze sectie ](../../audience/about-audiences.md).
 
 
 ## Tenzij{#unless}
@@ -165,7 +165,7 @@ Een lijst met producten weergeven die deze gebruiker in zijn winkelwagentje heef
 
 >[!NOTE]
 >
->U kunt de `each` helper ook gebruiken om arrays die uit aangepaste handelingsreacties zijn geretourneerd, te doorlopen. Voor een voorbeeld om over genestelde series van een reactie van de douaneactie te herhalen, zie [&#x200B; Gebruikend de reacties van de douaneactie in inheemse kanalen &#x200B;](../../action/action-response.md#response-in-channels).
+>U kunt de `each` helper ook gebruiken om arrays die uit aangepaste handelingsreacties zijn geretourneerd, te doorlopen. Voor een voorbeeld om over genestelde series van een reactie van de douaneactie te herhalen, zie [ Gebruikend de reacties van de douaneactie in inheemse kanalen ](../../action/action-response.md#response-in-channels).
 
 ## Met{#with}
 
@@ -234,7 +234,7 @@ Met deze functie kunt u contextafhankelijke informatie toevoegen aan elke native
 
 >[!NOTE]
 >
->* De functie van Meta-gegevens van de Uitvoering wordt niet gesteund door [&#x200B; douaneacties &#x200B;](../../action/action.md).
+>* De functie van Meta-gegevens van de Uitvoering wordt niet gesteund door [ douaneacties ](../../action/action.md).
 >* De functie Metagegevens van de Uitvoering is niet zichtbaar wanneer de inhoud zelf wordt getoond.
 
 U kunt bijvoorbeeld de functie Metagegevens uitvoeren gebruiken om een specifieke id toe te voegen aan elke levering die naar elk profiel wordt verzonden. Deze informatie wordt tijdens runtime gegenereerd en de verrijkte metagegevens voor uitvoering kunnen vervolgens worden geëxporteerd voor afstemming op een extern rapportageplatform.
@@ -260,7 +260,7 @@ Tijdens runtime wordt de metagegevenswaarde toegevoegd aan de bestaande **[!UICO
 
 >[!NOTE]
 >
->Leer meer op datasets in [&#x200B; deze sectie &#x200B;](../../data/get-started-datasets.md).
+>Leer meer op datasets in [ deze sectie ](../../data/get-started-datasets.md).
 
 **Beperkingen**
 
@@ -301,7 +301,7 @@ Met deze hulp kunt u gevoelige profielgegevens (PII) beschermen voordat u deze o
 
 **Vereiste**
 
-Een beheerder moet ten minste één actieve sleutel maken in het sleutelregister op sandboxniveau. [&#x200B; leer hoe te om sleutels tot stand te brengen en te beheren &#x200B;](../url-parameter-encryption.md#create-keys)
+Een beheerder moet ten minste één actieve sleutel maken in het sleutelregister op sandboxniveau. [ leer hoe te om sleutels tot stand te brengen en te beheren ](../url-parameter-encryption.md#create-keys)
 
 >[!NOTE]
 >
@@ -337,3 +337,5 @@ U kunt de hulp op één parameter, verscheidene, of alle parameters in een verbi
 * Decryptie wordt buiten [!DNL Journey Optimizer] afgehandeld op de bestemmingspagina&#39;s, apps of API&#39;s. De belangrijkste levenscyclus en omwenteling van het plan met uw veiligheidsteam zodat kunnen de historische ladingen nog worden gedecrypteerd waar nodig.
 
 * Ingetrokken sleutels mogen niet worden gebruikt voor nieuwe versleuteling. Volg uw beveiligingsbeleid voor roteren en uit bedrijf nemen.
+
+* Het coderingsproces dat bronintensief is, waarbij de functie `Encrypt` wordt gebruikt, kan van invloed zijn op de doorvoer tijdens de rendertijd.
