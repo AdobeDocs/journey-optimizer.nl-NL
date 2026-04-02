@@ -5,7 +5,7 @@ title: Geordende campagnes met Journey Optimizer maken en plannen
 description: Leer hoe u een geordende campagne kunt maken en plannen met Adobe Journey Optimizer
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Voer de volgende stappen uit om een geordende campagne te maken:
 
 1. Klik op de knop **[!UICONTROL Create campaign]** en selecteer het type campagne van **[!UICONTROL Orchestration - Marketing and transactional]** .
 
-   U zult kiezen of elk bericht marketing of transactie is wanneer u de activiteit van het a [&#x200B; kanaal &#x200B;](../orchestrated/activities/channels.md) toevoegt.
+   U zult kiezen of elk bericht marketing of transactie is wanneer u de activiteit van het a [ kanaal ](../orchestrated/activities/channels.md) toevoegt.
 
    ![](assets/create-modal.png)
 
@@ -40,14 +40,14 @@ Voer de volgende stappen uit om een geordende campagne te maken:
 
    1. Selecteer een **[!UICONTROL Merge policy]** voor uw campagne.
 
-      In [!DNL Adobe Experience Platform] is elk publiek gebonden aan een specifiek samenvoegbeleid, dat bepaalt hoe de profielinformatie wordt gecombineerd om een samengevoegd profiel te vormen. Wanneer u een samenvoegbeleid selecteert in de publieksactiviteit Lezen, zijn alleen publiek beschikbaar dat is gebaseerd op hetzelfde samenvoegbeleid. Standaard gebruikt het systeem het standaardsamenvoegbeleid, maar u kunt dit desgewenst wijzigen. Voor meer informatie over fusiebeleid, verwijs naar de [&#x200B; documentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+      In [!DNL Adobe Experience Platform] is elk publiek gebonden aan een specifiek samenvoegbeleid, dat bepaalt hoe de profielinformatie wordt gecombineerd om een samengevoegd profiel te vormen. Wanneer u een samenvoegbeleid selecteert in de publieksactiviteit Lezen, zijn alleen publiek beschikbaar dat is gebaseerd op hetzelfde samenvoegbeleid. Standaard gebruikt het systeem het standaardsamenvoegbeleid, maar u kunt dit desgewenst wijzigen. Voor meer informatie over fusiebeleid, verwijs naar de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
-   1. Gebruik het veld **[!UICONTROL Tags]** om Adobe Experience Platform Unified Tags toe te wijzen aan uw campagne. Op deze manier kunt u ze gemakkelijk classificeren en zoeken verbeteren vanuit de lijst Geordende campagnes. [&#x200B; Leer hoe te met markeringen &#x200B;](../start/search-filter-categorize.md#tags) te werken.
+   1. Gebruik het veld **[!UICONTROL Tags]** om Adobe Experience Platform Unified Tags toe te wijzen aan uw campagne. Op deze manier kunt u ze gemakkelijk classificeren en zoeken verbeteren vanuit de lijst Geordende campagnes. [ Leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) te werken.
 
    1. Klik op **[!UICONTROL Save]**.
 
 
-   U kunt tot de campagneeigenschappen op elk ogenblik toegang hebben gebruikend het ![&#x200B; pictogram van de montages van de Campagne &#x200B;](assets/do-not-localize/campaign-settings.svg) knoop naast de naam van de campagne.
+   U kunt tot de campagneeigenschappen op elk ogenblik toegang hebben gebruikend het ![ pictogram van de montages van de Campagne ](assets/do-not-localize/campaign-settings.svg) knoop naast de naam van de campagne.
 
    ![](assets/inventory-create.png)
 
@@ -70,13 +70,15 @@ Voer de volgende stappen uit om een geordende campagne te maken:
 
 Standaard worden geordende campagnes gestart wanneer ze handmatig worden geactiveerd en eindigen wanneer de bijbehorende activiteiten zijn uitgevoerd. Als u liever de uitvoering vertraagt of de campagne op een terugkerende basis uitvoert, kunt u een schema voor de campagne definiëren.
 
-U kunt de campagne ook starten wanneer deze een signaal van een extern systeem of een externe toepassing ontvangt in plaats van dat deze volgens een schema wordt uitgevoerd. [&#x200B; Leer hoe te om een Geordende campagne teweeg te brengen gebruikend een signaal &#x200B;](trigger-orchestrated-campaign.md).
-
 Overweeg de volgende aanbevolen procedures bij het plannen van geordende campagnes om optimale prestaties en verwacht gedrag te garanderen:
 
 * Plan geen geordende campagne om meer dan om de 15 minuten te draaien aangezien het algemene systeemprestaties kan belemmeren en tot blokken in het gegevensbestand kan leiden.
 * Als u een one-shot bericht in uw Geordende campagne wilt verzenden, kunt u het plaatsen om **te lopen**.
 * Als u een terugkomend bericht in uw Geordende campagne wilt verzenden, moet u a **gebruiken plannend** opties en de uitvoeringsfrequentie plaatsen. De terugkomende leveringsactiviteit staat u niet toe om een programma te bepalen.
+
+>[!NOTE]
+>
+>U kunt de campagne ook starten wanneer deze een signaal van een extern systeem of een externe toepassing ontvangt in plaats van dat deze volgens een schema wordt uitgevoerd. [ Leer hoe te om een Geordende campagne teweeg te brengen gebruikend een signaal ](trigger-orchestrated-campaign.md).
 
 Voer de volgende stappen uit om het campagnereschema te configureren:
 
@@ -155,8 +157,8 @@ Voer de volgende stappen uit om het campagnereschema te configureren:
 
 In het volgende voorbeeld, wordt de activiteit gevormd zodat de Geordende campagne tweemaal per dag om 9 en 12 AM, elke dag van de week van 1 Oktober, 2025 aan 1 Januari, 2026 loopt.
 
-![&#x200B; Planner die wordt gevormd om de campagne tweemaal per dag bij 9 en 12 AM &#x200B;](assets/scheduler-sample.png){width="50%" align="left"} in werking te stellen
+![ Planner die wordt gevormd om de campagne tweemaal per dag bij 9 en 12 AM ](assets/scheduler-sample.png){width="50%" align="left"} in werking te stellen
 
 ## Volgende stappen {#next}
 
-Zodra uw campagnemontages en programma worden gevormd, bent u bereid om de verschillende taken te beginnen te ordenen het zal uitvoeren. [&#x200B; Leer hoe te om campagneactiviteiten te ordenen &#x200B;](../orchestrated/orchestrate-activities.md)
+Zodra uw campagnemontages en programma worden gevormd, bent u bereid om de verschillende taken te beginnen te ordenen het zal uitvoeren. [ Leer hoe te om campagneactiviteiten te ordenen ](../orchestrated/orchestrate-activities.md)
