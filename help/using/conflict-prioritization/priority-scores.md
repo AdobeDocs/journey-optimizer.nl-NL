@@ -56,7 +56,7 @@ Als u deze campagne zou ontwerpen en ervoor wilde zorgen dat deze inhoud van de 
 >title="Prioriteit"
 >abstract="Wijs een prioritaire score aan de reisactie toe. Prioriteit is essentieel om een binnenkomende actie voorrang te geven wanneer er veelvoudige reisacties of campagnes gebruikend de zelfde kanaalconfiguratie zijn.</br> ga een numerieke waarde (van 0-100) in. Let op: hoe hoger het getal, hoe hoger de prioriteit. Standaard wordt de prioriteitsscore voor de actie overgenomen van de algemene prioriteitsscore voor de reis."
 
-Journey Optimizer staat u ook toe om een prioritaire score aan binnenkomende kanaalacties binnen de [&#x200B; Actie &#x200B;](../building-journeys/journey-action.md) activiteit toe te wijzen.
+Journey Optimizer staat u ook toe om een prioritaire score aan binnenkomende kanaalacties binnen de [ Actie ](../building-journeys/journey-action.md) activiteit toe te wijzen.
 
 Dit staat u toe om aan een binnenkomende actie voorrang te geven wanneer er veelvoudige reisacties of campagnes gebruikend de zelfde kanaalconfiguratie zijn.
 
@@ -72,4 +72,4 @@ Als u een prioriteitsscore wilt toewijzen aan de binnenkomende acties die zijn g
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445007?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

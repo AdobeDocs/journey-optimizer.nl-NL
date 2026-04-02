@@ -22,7 +22,7 @@ Voordat u het WhatsApp-bericht verzendt, moet u uw Adobe Journey Optimizer-omgev
 1. [Maak uw whatsApp-webhooks](#WhatsApp-webhook)
 1. [De whatsApp-configuratie maken](#WhatsApp-configuration)
 
-Deze stappen moeten door een Beheerder van het Systeem van Adobe Journey Optimizer [&#x200B; worden uitgevoerd &#x200B;](../start/path/administrator.md).
+Deze stappen moeten door een Beheerder van het Systeem van Adobe Journey Optimizer [ worden uitgevoerd ](../start/path/administrator.md).
 
 ## WhatsApp API-referenties maken {#whatsapp-credentials}
 
@@ -30,8 +30,8 @@ Deze stappen moeten door een Beheerder van het Systeem van Adobe Journey Optimiz
 
 1. Configureer uw API-referenties, zoals hieronder wordt beschreven:
 
-   * **API Token**: Ga uw API teken in. Leer meer in [&#x200B; Documentatie van Meta &#x200B;](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
-   * **identiteitskaart Bedrijfs van de Rekening**: Ga het unieke aantal met betrekking tot uw bedrijfsportefeuille in. Leer meer in [&#x200B; Documentatie van Meta &#x200B;](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
+   * **API Token**: Ga uw API teken in. Leer meer in [ Documentatie van Meta ](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+   * **identiteitskaart Bedrijfs van de Rekening**: Ga het unieke aantal met betrekking tot uw bedrijfsportefeuille in. Leer meer in [ Documentatie van Meta ](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
    ![](assets/whatsapp-api.png)
 
@@ -50,7 +50,7 @@ Deze stappen moeten door een Beheerder van het Systeem van Adobe Journey Optimiz
       * Geel: Medium-kwaliteit
       * Rood: lage kwaliteit
 
-     Leer meer over [&#x200B; de classificatie van de Kwaliteit &#x200B;](https://www.facebook.com/business/help/766346674749731#)
+     Leer meer over [ de classificatie van de Kwaliteit ](https://www.facebook.com/business/help/766346674749731#)
 
    * **Output**: wijst op het tarief waaraan uw telefoonaantal berichten kan verzenden.
 
@@ -98,7 +98,7 @@ Webhooks fungeren als de communicatiekanaal tussen Meta WhatsApp Business Platfo
 
 1. Voer een **[!UICONTROL Name]** in voor uw webhaak.
 
-1. Van **[!UICONTROL Select configuration]** drop-down, selecteer [&#x200B; API Geloofsbrieven &#x200B;](#whatsapp-credentials) u eerder creeerde.
+1. Van **[!UICONTROL Select configuration]** drop-down, selecteer [ API Geloofsbrieven ](#whatsapp-credentials) u eerder creeerde.
 
    ![](assets/webhook-2.png)
 
@@ -109,7 +109,7 @@ Webhooks fungeren als de communicatiekanaal tussen Meta WhatsApp Business Platfo
    * **[!UICONTROL Help Keywords]**
    * **[!UICONTROL Default]** - Fallback-categorie voor alle binnenkomende berichten die niet overeenkomen met andere trefwoorden. Gebruik deze categorie om het volgen gebeurtenissen (opent, leveringsrapporten) in de datasets van Adobe Experience Platform toe te laten.
 
-1. Ga uw **[!UICONTROL Keywords]** in en klik ![&#x200B; toevoegen &#x200B;](assets/do-not-localize/Smock_AddCircle_18_N.svg).
+1. Ga uw **[!UICONTROL Keywords]** in en klik ![ toevoegen ](assets/do-not-localize/Smock_AddCircle_18_N.svg).
 
    ![](assets/webhook-3.png)
 
@@ -122,11 +122,11 @@ Webhooks fungeren als de communicatiekanaal tussen Meta WhatsApp Business Platfo
     
     You can dynamically personalize your payload using profile attributes, and ensure accurate data is sent for processing and response generation with the help of built-in helper functions.
 -->
-1. Klik ![&#x200B; toevoegen &#x200B;](assets/do-not-localize/Smock_AddCircle_18_N.svg) om extra **[!UICONTROL Inbound keyword]** toe te voegen.
+1. Klik ![ toevoegen ](assets/do-not-localize/Smock_AddCircle_18_N.svg) om extra **[!UICONTROL Inbound keyword]** toe te voegen.
 
 1. Klik **[!UICONTROL Submit]** wanneer u de configuratie van uw WhatsApp Webhaak beëindigde.
 
-1. In het **[!UICONTROL Webhooks]** menu, klik het ![&#x200B; bakpictogram &#x200B;](assets/do-not-localize/Smock_Delete_18_N.svg) om uw WebHaak te schrappen WhatsApp.
+1. In het **[!UICONTROL Webhooks]** menu, klik het ![ bakpictogram ](assets/do-not-localize/Smock_Delete_18_N.svg) om uw WebHaak te schrappen WhatsApp.
 
    ![](assets/webhook-5.png)
 
@@ -134,7 +134,7 @@ Webhooks fungeren als de communicatiekanaal tussen Meta WhatsApp Business Platfo
 
 1. Kopieer de **[!UICONTROL Webhook Verify toker]** die u hier hebt gegenereerd en plak deze in de Meta-interface als onderdeel van uw WebHaak-instelling.
 
-   Voor gedetailleerde instructies op hoe en waar om dit verificatietoken toe te voegen, verwijs naar [&#x200B; documentatie van Meta &#x200B;](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product).
+   Voor gedetailleerde instructies op hoe en waar om dit verificatietoken toe te voegen, verwijs naar [ documentatie van Meta ](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product).
 
 1. Open en kopieer uw nieuwe **[!UICONTROL Webhook URL]** vanuit uw eerder verzonden **[!UICONTROL WhatsApp Webhook]** .
 
@@ -170,7 +170,7 @@ Nu uw Webhaak wordt gevormd, kunt u uw configuratie tot stand brengen WhatsApp.
 
    >[!NOTE]
    >
-   >Door gebrek, [!DNL Journey Optimizer] gebruikt het telefoonaantal dat in de [&#x200B; wordt gespecificeerd algemene montages &#x200B;](../configuration/primary-email-addresses.md) op het zandbakniveau. Wanneer u dit veld bijwerkt, wordt de standaardwaarde voor de ritten en campagnes met deze configuratie genegeerd.
+   >Door gebrek, [!DNL Journey Optimizer] gebruikt het telefoonaantal dat in de [ wordt gespecificeerd algemene montages ](../configuration/primary-email-addresses.md) op het zandbakniveau. Wanneer u dit veld bijwerkt, wordt de standaardwaarde voor de ritten en campagnes met deze configuratie genegeerd.
 
 1. Nadat alle parameters zijn geconfigureerd, klikt u op **[!UICONTROL Submit]** om te bevestigen. U kunt de kanaalconfiguratie als ontwerp ook bewaren en zijn configuratie later hervatten.
 
@@ -178,7 +178,7 @@ Nu uw Webhaak wordt gevormd, kunt u uw configuratie tot stand brengen WhatsApp.
 
    >[!NOTE]
    >
-   >Als de controles niet succesvol zijn, leer meer over de mogelijke mislukkingsredenen in [&#x200B; deze sectie &#x200B;](../configuration/channel-surfaces.md).
+   >Als de controles niet succesvol zijn, leer meer over de mogelijke mislukkingsredenen in [ deze sectie ](../configuration/channel-surfaces.md).
 
 1. Wanneer de controles succesvol zijn, krijgt de kanaalconfiguratie de **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
@@ -210,6 +210,6 @@ In de onderstaande video ziet u hoe u het WhatsApp-kanaal instelt in Adobe Journ
 
 +++ Zie video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470274/?captions=dut&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

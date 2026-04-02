@@ -21,13 +21,13 @@ ht-degree: 1%
 
 Als u uw fragmenten wilt beheren, opent u de fragmentlijst via **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** links menu.
 
-Alle fragmenten die op de huidige zandbak - of [&#x200B; van het **[!UICONTROL Fragments]** menu &#x200B;](create-fragments.md#create-fragments) werden gecreeerd, of gebruikend [&#x200B; sparen als fragmentoptie &#x200B;](save-fragments.md) - worden getoond.
+Alle fragmenten die op de huidige zandbak - of [ van het **[!UICONTROL Fragments]** menu ](create-fragments.md#create-fragments) werden gecreeerd, of gebruikend [ sparen als fragmentoptie ](save-fragments.md) - worden getoond.
 
 In het linkerdeelvenster kunt u fragmenten ordenen in mappen. Standaard worden alle fragmenten weergegeven. Wanneer u een map selecteert, worden alleen de fragmenten en mappen in de geselecteerde map weergegeven. [Meer informatie](#folders)
 
 ![](assets/fragment-list-folders.png)
 
-Als u een specifiek item wilt zoeken, typt u een naam in het zoekveld. Wanneer de a [&#x200B; omslag &#x200B;](#folders) wordt geselecteerd, is het onderzoek op alle fragmenten of omslagen in het eerste niveau van hiërarchie van die omslag <!--(not nested items)--> van toepassing.
+Als u een specifiek item wilt zoeken, typt u een naam in het zoekveld. Wanneer de a [ omslag ](#folders) wordt geselecteerd, is het onderzoek op alle fragmenten of omslagen in het eerste niveau van hiërarchie van die omslag <!--(not nested items)--> van toepassing.
 
 U kunt fragmenten filteren op hun:
 
@@ -48,7 +48,7 @@ Via de knop **[!UICONTROL More actions]** naast elk fragment kunt u:
 * Dupliceer het fragment.
 * Gebruik de optie **[!UICONTROL Explore references]** om de reizen, campagnes of sjablonen te zien waar deze worden gebruikt. [Meer informatie](#explore-references)
 * Archiveer het fragment. [Meer informatie](#archive-fragments)
-* Bewerk de tags van het fragment. [&#x200B; Leer hoe te met Verenigde markeringen &#x200B;](../start/search-filter-categorize.md#tags) te werken
+* Bewerk de tags van het fragment. [ Leer hoe te met Verenigde markeringen ](../start/search-filter-categorize.md#tags) te werken
 * Verplaats het fragment naar een map. [Meer informatie](#folders)
 
 ![](assets/fragment-list-more-actions.png)
@@ -88,7 +88,7 @@ U kunt uw fragmenten eenvoudig navigeren door mappen zodat u ze effectiever kunt
 
    <!--![](assets/fragment-folder-moved.png)-->
 
-1. Nu kunt u naar de map navigeren die u net hebt gemaakt. Elk nieuw fragment u [&#x200B; creeert &#x200B;](create-fragments.md) van hier wordt bewaard in de huidige omslag.
+1. Nu kunt u naar de map navigeren die u net hebt gemaakt. Elk nieuw fragment u [ creeert ](create-fragments.md) van hier wordt bewaard in de huidige omslag.
 
    ![](assets/fragment-folder-create.png)
 
@@ -97,23 +97,23 @@ U kunt uw fragmenten eenvoudig navigeren door mappen zodat u ze effectiever kunt
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Nieuwe fragmentstatussen"
->abstract="Aangezien **Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de **Ontwerp** status, zelfs als zij in een reis of een campagne worden gebruikt. Als u om het even welke verandering in deze fragmenten aanbrengt, moet u hen publiceren om hen **Levend** te maken en de veranderingen in de bijbehorende campagnes en de reizen te verspreiden. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. <br/> het Publiceren vereist de <a href="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage"> Publish 2&rbrace; gebruikerstoestemming van het Fragment &lbrace;.</a>"
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manager" text="Meer informatie over machtigingen voor inhoudsfragmenten"
+>abstract="Aangezien **Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de **Ontwerp** status, zelfs als zij in een reis of een campagne worden gebruikt. Als u om het even welke verandering in deze fragmenten aanbrengt, moet u hen publiceren om hen **Levend** te maken en de veranderingen in de bijbehorende campagnes en de reizen te verspreiden. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. <br/> het Publiceren vereist de <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage"> Publish 2} gebruikerstoestemming van het Fragment {.</a>"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manager" text="Meer informatie over machtigingen voor inhoudsfragmenten"
 
 Fragmenten kunnen meerdere statussen hebben:
 
 * **[!UICONTROL Draft]**: het fragment wordt bewerkt en is niet goedgekeurd.
 
-* **[!UICONTROL Live]**: het fragment is goedgekeurd en is actief. [&#x200B; leer hoe te om een fragment &#x200B;](../content-management/create-fragments.md#publish) te publiceren
+* **[!UICONTROL Live]**: het fragment is goedgekeurd en is actief. [ leer hoe te om een fragment ](../content-management/create-fragments.md#publish) te publiceren
 
   Wanneer een actief fragment wordt bewerkt, wordt een specifiek pictogram naast de status weergegeven. Klik op dit pictogram om de conceptversie van het fragment te openen.
 
 * **[!UICONTROL Publishing]**: Het fragment is goedgekeurd en wordt gepubliceerd.
-* **[!UICONTROL Archived]**: het fragment is gearchiveerd. [&#x200B; Leer hoe te om fragmenten &#x200B;](#archive-fragments) te archiveren
+* **[!UICONTROL Archived]**: het fragment is gearchiveerd. [ Leer hoe te om fragmenten ](#archive-fragments) te archiveren
 
 >[!CAUTION]
 >
->Aangezien **Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni 2024 zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de **Ontwerp** status, zelfs als zij in een reis of een campagne worden gebruikt. Als u om het even welke verandering in deze fragmenten aanbrengt, moet u hen publiceren om hen **Levend** te maken en de veranderingen in de bijbehorende campagnes en de reizen te verspreiden. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. Het publiceren vereist de [&#x200B; Publish toestemming van de gebruiker van het Fragment &#x200B;](../administration/ootb-product-profiles.md#content-library-manager).
+>Aangezien **Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni 2024 zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de **Ontwerp** status, zelfs als zij in een reis of een campagne worden gebruikt. Als u om het even welke verandering in deze fragmenten aanbrengt, moet u hen publiceren om hen **Levend** te maken en de veranderingen in de bijbehorende campagnes en de reizen te verspreiden. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. Het publiceren vereist de [ Publish toestemming van de gebruiker van het Fragment ](../administration/ootb-product-profiles.md#content-library-manager).
 
 ## Een fragment bewerken {#edit-fragments}
 
@@ -143,7 +143,7 @@ Voer de onderstaande stappen uit om een fragment te bewerken.
 
 1. Breng indien nodig de gewenste wijzigingen aan in de fragmentdetails.
 
-1. Als u de inhoud van het fragment wilt wijzigen, klikt u op de knop **[!UICONTROL Edit]** en werkt u de inhoud bij zoals u zou doen bij het maken van een geheel nieuw fragment. [&#x200B; Leer hoe te om een fragment &#x200B;](create-fragments.md#content) tot stand te brengen
+1. Als u de inhoud van het fragment wilt wijzigen, klikt u op de knop **[!UICONTROL Edit]** en werkt u de inhoud bij zoals u zou doen bij het maken van een geheel nieuw fragment. [ Leer hoe te om een fragment ](create-fragments.md#content) tot stand te brengen
 
    ![](assets/fragment-edit.png){width="70%" align="left"}
 
@@ -157,13 +157,13 @@ Wanneer u een fragment bewerkt, worden de wijzigingen automatisch doorgegeven aa
 
 >[!NOTE]
 >
->Leer hoe te om overerving in [&#x200B; te breken voeg visuele fragmenten aan uw e-mails &#x200B;](../email/use-visual-fragments.md#break-inheritance) en [&#x200B; de uitdrukkingsfragmenten van de Leverage &#x200B;](../personalization/use-expression-fragments.md#break-inheritance) secties toe.
+>Leer hoe te om overerving in [ te breken voeg visuele fragmenten aan uw e-mails ](../email/use-visual-fragments.md#break-inheritance) en [ de uitdrukkingsfragmenten van de Leverage ](../personalization/use-expression-fragments.md#break-inheritance) secties toe.
 
 ### Nieuwe kenmerken toevoegen aan een actief fragment {#adding-new-attributes}
 
 >[!WARNING]
 >
->Het toevoegen van nieuwe [&#x200B; gepersonaliseerde attributen &#x200B;](../personalization/personalization-build-expressions.md) aan een levend fragment wordt niet gesteund.
+>Het toevoegen van nieuwe [ gepersonaliseerde attributen ](../personalization/personalization-build-expressions.md) aan een levend fragment wordt niet gesteund.
 
 Nadat een fragment is gepubliceerd, wordt de set met gepersonaliseerde of contextafhankelijke kenmerken vergrendeld voor alle campagnes en reizen die ernaar verwijzen.
 
@@ -175,11 +175,11 @@ Voer de onderstaande stappen uit als u aanvullende kenmerken wilt opnemen in een
 
 1. Selecteer het gedupliceerde fragment om het te openen en klik op de knop **[!UICONTROL Edit]** .
 
-1. [&#x200B; voeg de nieuwe gewenste attributen &#x200B;](../personalization/personalization-build-expressions.md#add) aan het gedupliceerde fragment, zoals verpersoonlijkingsgebieden toe.
+1. [ voeg de nieuwe gewenste attributen ](../personalization/personalization-build-expressions.md#add) aan het gedupliceerde fragment, zoals verpersoonlijkingsgebieden toe.
 
    ![](assets/fragment-add-new-attribute.png){width="70%" align="left"}
 
-1. Sla de wijzigingen op en publiceer het nieuwe fragment. [&#x200B; leer hoe &#x200B;](create-fragments.md#publish)
+1. Sla de wijzigingen op en publiceer het nieuwe fragment. [ leer hoe ](create-fragments.md#publish)
 
 1. Werk campagnes of reizen bij om te verwijzen naar het bijgewerkte fragment waar de nieuwe kenmerken zijn toegevoegd.
 
@@ -198,7 +198,7 @@ Selecteer een tabblad om te schakelen tussen reizen, campagnes, sjablonen en fra
 
 >[!NOTE]
 >
->Als het fragment wordt gebruikt in een reis, campagne of sjabloon met een label dat u ervan weerhoudt het te openen, wordt boven op het geselecteerde tabblad een waarschuwingsbericht weergegeven. [&#x200B; leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) &#x200B;](../administration/object-based-access.md)
+>Als het fragment wordt gebruikt in een reis, campagne of sjabloon met een label dat u ervan weerhoudt het te openen, wordt boven op het geselecteerde tabblad een waarschuwingsbericht weergegeven. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md)
 
 ## Fragmenten archiveren {#archive-fragments}
 
@@ -220,4 +220,4 @@ Als u het archiveren van een fragment ongedaan wilt maken, filtert u op de **[!U
 
 Met Journey Optimizer kunt u een fragment van de ene naar de andere sandbox kopiëren. U kunt bijvoorbeeld een fragment uit de sandboxomgeving van het werkgebied kopiëren naar uw productiefandbox.
 
-Het exemplaarproces wordt gedragen via de uitvoer en de invoer van het a **pakket** tussen de bron en doelzandbakken. De gedetailleerde informatie over hoe te om voorwerpen uit te voeren en hen in een doelzandbak in deze sectie in te voeren is beschikbaar: [&#x200B; de voorwerpen van het Exemplaar aan een andere zandbak &#x200B;](../configuration/copy-objects-to-sandbox.md).
+Het exemplaarproces wordt gedragen via de uitvoer en de invoer van het a **pakket** tussen de bron en doelzandbakken. De gedetailleerde informatie over hoe te om voorwerpen uit te voeren en hen in een doelzandbak in deze sectie in te voeren is beschikbaar: [ de voorwerpen van het Exemplaar aan een andere zandbak ](../configuration/copy-objects-to-sandbox.md).

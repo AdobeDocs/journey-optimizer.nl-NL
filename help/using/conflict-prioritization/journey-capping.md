@@ -92,7 +92,7 @@ Voer de volgende stappen uit om een regel voor het afdekken van reizen te maken:
 
 1. Herhaal bovenstaande stappen om zoveel regels toe te voegen als nodig zijn voor de regelset.
 
-1. Wanneer de afkapregel klaar is om op reizen te worden toegepast, activeer de regel en de regel die is geplaatst waar het is toegevoegd. [&#x200B; Leer hoe te om regelreeksen te activeren &#x200B;](../conflict-prioritization/rule-sets.md#Create)
+1. Wanneer de afkapregel klaar is om op reizen te worden toegepast, activeer de regel en de regel die is geplaatst waar het is toegevoegd. [ Leer hoe te om regelreeksen te activeren ](../conflict-prioritization/rule-sets.md#Create)
 
 ## Afdekkingsregels toepassen op reizen {#apply-capping}
 
@@ -111,12 +111,12 @@ Om een afluisterregel op een reis toe te passen, toegang tot de reis en open zij
 
 ## Uitsluiting van monitorregelsets {#monitor}
 
-Zodra een reis levend is, kunt u het reisrapport controleren als de vastgestelde regel tot om het even welke uitsluiting van de reis, in de **[!UICONTROL Journey Exclusions]** lijst heeft geleid. De tabel met uitsluitingen voor reizen bevat gedetailleerde uitsplitsingen van uitsluitingen naar regelreeks en regelnaam, die inzichten geven in waarom profielen zijn genegeerd. [&#x200B; Leer hoe te met reisrapporten &#x200B;](../reports/journey-global-report-cja.md) te werken
+Zodra een reis levend is, kunt u het reisrapport controleren als de vastgestelde regel tot om het even welke uitsluiting van de reis, in de **[!UICONTROL Journey Exclusions]** lijst heeft geleid. De tabel met uitsluitingen voor reizen bevat gedetailleerde uitsplitsingen van uitsluitingen naar regelreeks en regelnaam, die inzichten geven in waarom profielen zijn genegeerd. [ Leer hoe te met reisrapporten ](../reports/journey-global-report-cja.md) te werken
 
 ![](assets/journey-report.png)
 
-Bovendien kunt u de [&#x200B; Dienst van de Vraag van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=nl-NL){target="_blank"} gebruiken om vragen te bouwen om te identificeren welke regel een profiel veroorzaakte om niet in een bepaalde reis binnen te gaan. Een vraagvoorbeeld is beschikbaar in [&#x200B; deze sectie &#x200B;](../reports/query-examples.md#common-queries).
+Bovendien kunt u de [ Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} gebruiken om vragen te bouwen om te identificeren welke regel een profiel veroorzaakte om niet in een bepaalde reis binnen te gaan. Een vraagvoorbeeld is beschikbaar in [ deze sectie ](../reports/query-examples.md#common-queries).
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447621?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
