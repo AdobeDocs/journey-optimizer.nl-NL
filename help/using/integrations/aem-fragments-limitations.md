@@ -27,7 +27,7 @@ Houd rekening met het volgende wanneer u Content Fragments van [!DNL Adobe Exper
    * Er is geen automatische taalresolutie of fallback tussen variaties.
 
 * **Toegang van de Bewaarplaats**
-   * [!DNL Journey Optimizer] integreert met [!DNL Adobe Experience Manager] **** publiceer slechts rij (Plaatsen, de Fragmenten van de Inhoud). Inhoudsfragmenten zijn beschikbaar via een openbaar, niet-geverifieerd eindpunt.
+   * [!DNL Journey Optimizer] integreert met [!DNL Adobe Experience Manager] **&#x200B;**&#x200B;publiceer slechts rij (Plaatsen, de Fragmenten van de Inhoud). Inhoudsfragmenten zijn beschikbaar via een openbaar, niet-geverifieerd eindpunt.
    * De bewaarplaatsen van de auteur kunnen in de bewaarplaatskiezer verschijnen, maar slechts fragmenten die aan **worden gepubliceerd publiceren** kunnen in [!DNL Journey Optimizer] worden gebruikt.
 
 * **status van het Fragment van de Inhoud**
@@ -41,7 +41,7 @@ Houd rekening met het volgende wanneer u Content Fragments van [!DNL Adobe Exper
 * **Updates en versioning**
    * Updates moeten handmatig opnieuw worden gepubliceerd vanuit [!DNL Adobe Experience Manager] . Er is geen automatische versiecomitatie.
    * Wanneer een Fragment van de Inhoud in [!DNL Adobe Experience Manager] wordt gepubliceerd of opnieuw gepubliceerd, [!DNL Journey Optimizer] werkt dat fragment bij en verfrist **alle variaties van dat fragment dat** in actieve campagnes of reizen van verwijzingen wordt voorzien.
-   * [!DNL Adobe Experience Manager] [ publiceer actie ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-publication) kan worden vertraagd. Wanneer deze is voltooid, ontvangt [!DNL Journey Optimizer] een gebeurtenis en wordt de inhoud vernieuwd.
+   * [!DNL Adobe Experience Manager] [&#x200B; publiceer actie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-publication) kan worden vertraagd. Wanneer deze is voltooid, ontvangt [!DNL Journey Optimizer] een gebeurtenis en wordt de inhoud vernieuwd.
    * Na een succesvolle update, zijn de veranderingen typisch beschikbaar binnen ongeveer **5 minuten** voor unitaire reizen en in de **volgende partij** voor partijgebruiksgevallen.
 
 * **Caching en het proef**
@@ -62,6 +62,6 @@ Als u problemen tegenkomt bij het werken met Adobe Experience Manager Content Fr
 | **Ontkende Toegang (CPES) fout** | Gebruikersrol is niet geautoriseerd voor toegang tot bepaalde kenmerken | Neem contact op met de systeembeheerder om te controleren of uw rol de juiste machtigingen heeft voor het profiel of de contextafhankelijke kenmerken die worden gebruikt in personalisatie. |
 | **de vertoningen van het fragment leeg of ontbrekende inhoud** | Ontbrekende vereiste verpersoonlijkingsparameters of terugvalwaarden | Zorg ervoor dat alle vereiste parameters zijn opgegeven en denk na of u terugvalwaarden voor optionele kenmerken wilt toevoegen. |
 | **het Beeld geeft niet terug of lijkt gebroken** | De afbeeldings-URL in het inhoudsfragment is een relatief pad of kan niet vanaf het kanaal worden bereikt | Gebruik **absolute** URLs (`https://...`) voor beeldgebieden. Relatieve paden uit Adobe Experience Manager worden niet ondersteund. Bevestig de URL in een browser of berichtvoorbeeld. |
-| **de verbindingswinst van AEM van Experience League 404** | Lege bladwijzer, voorvertoning van build of niet-gepubliceerde AEM Help-pagina | Open de [ Fragmenten van de Inhoud met Adobe Journey Optimizer ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} onderwerp van de levende documentatie van Experience Manager en navigeer van de op-pagina inhoudstafel, of onderzoek naar de sectienaam (bijvoorbeeld **de Configuratie van Dispatcher**). |
+| **de verbindingswinst van AEM van Experience League 404** | Lege bladwijzer, voorvertoning van build of niet-gepubliceerde AEM Help-pagina | Open de [&#x200B; Fragmenten van de Inhoud met Adobe Journey Optimizer &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} onderwerp van de levende documentatie van Experience Manager en navigeer van de op-pagina inhoudstafel, of onderzoek naar de sectienaam (bijvoorbeeld **de Configuratie van Dispatcher**). |
 
 Als het probleem zich blijft voordoen, neemt u contact op met uw Adobe-vertegenwoordiger voor meer informatie over uw Content Fragment ID, campagne- of reis-id en eventuele weergegeven foutberichten.
