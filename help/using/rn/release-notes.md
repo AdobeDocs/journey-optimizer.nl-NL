@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4f7e36a6cc19e4138e867950e34c5a5e6452b364
+source-git-commit: e58e9e93cc308c2e94ea94b5c6574dd8a2266bd6
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '1992'
 ht-degree: 7%
 
 ---
@@ -23,36 +23,13 @@ ht-degree: 7%
 
 [!DNL Adobe Journey Optimizer] volgt een doorlopend leveringsmodel, dat Adobe in staat stelt voortdurend nieuwe mogelijkheden, verbeteringen en oplossingen te bieden. Deze benadering maakt een schaalbare, gefaseerde implementatie van mogelijkheden mogelijk om prestaties en stabiliteit in alle omgevingen te garanderen.
 
-Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [&#x200B; de versiecyclus van Journey Optimizer &#x200B;](releases.md).
+Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [ de versiecyclus van Journey Optimizer ](releases.md).
 
-[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Updates van april 26 {#april-26-rn}
 
-### Verbeteringen {#april-26-improv}
-
-#### Adobe Experience Manager-integratie
-
-<!--* **Adobe Experience Manager Content Fragment context while authoring** - Your Content Fragment selection stays active as you move between text fields and content blocks, so you can add more fragment fields without reopening **Open AEM Content advisor** each time. [Read more](../integrations/aem-fragments.md)
-
-  Availability date: April 1, 2026-->
-
-* **de steun van de de fragmentvariatie van de Inhoud van Adobe Experience Manager** - u kunt **variaties van het Fragment van de Inhoud** (bijvoorbeeld taal of kanaalvarianten) selecteren wanneer het opnemen van de Fragmenten van de Inhoud van Adobe Experience Manager, met betere behandeling voor scène en meertalige scenario&#39;s. [Meer informatie](../integrations/aem-fragments.md#aem-variations)
-
-  Beschikbaarheidsdatum: 3 april 2026
-
-## Opmerkingen bij de release van maart 1926 {#march-26-rn}
-
-De [&#x200B; Nieuwe mogelijkheden &#x200B;](#march-26-features) en [&#x200B; secties van Verbeteringen &#x200B;](#march-26-improv) behandelen reeds beschikbare mogelijkheden. De [&#x200B; komende spoedig &#x200B;](#coming-soon) sectie maakt een lijst van eigenschappen en verbeteringen die voor versie later in Maart worden gepland.
-
-<!--
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
-
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
-
-**de datum van de Versie**: Maart 24-25, 2026
-
-### Nieuwe functies {#march-26-features}
+### Nieuwe functies {#april-26-features}
 
 <table>
 <thead>
@@ -72,6 +49,31 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 </tr>
 </tbody>
 </table>
+
+### Verbeteringen {#april-26-improv}
+
+#### Adobe Experience Manager-integratie
+
+<!--* **Adobe Experience Manager Content Fragment context while authoring** - Your Content Fragment selection stays active as you move between text fields and content blocks, so you can add more fragment fields without reopening **Open AEM Content advisor** each time. [Read more](../integrations/aem-fragments.md)
+
+  Availability date: April 1, 2026-->
+
+* **de steun van de de fragmentvariatie van de Inhoud van Adobe Experience Manager** - u kunt **variaties van het Fragment van de Inhoud** (bijvoorbeeld taal of kanaalvarianten) selecteren wanneer het opnemen van de Fragmenten van de Inhoud van Adobe Experience Manager, met betere behandeling voor scène en meertalige scenario&#39;s. [Meer informatie](../integrations/aem-fragments.md#aem-variations)
+
+  Beschikbaarheidsdatum: 3 april 2026
+
+## Opmerkingen bij de release van maart 1926 {#march-26-rn}
+
+De [ Nieuwe mogelijkheden ](#march-26-features) en [ secties van Verbeteringen ](#march-26-improv) behandelen reeds beschikbare mogelijkheden. De [ komende spoedig ](#coming-soon) sectie maakt een lijst van eigenschappen en verbeteringen die voor versie later in Maart worden gepland.
+
+<!--
+**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
+
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+
+**de datum van de Versie**: Maart 24-25, 2026
+
+### Nieuwe functies {#march-26-features}
 
 <table>
 <thead>
@@ -255,7 +257,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Aangedreven door <strong> Adobe Experience Platform Agent Orchestrator </strong>, <strong> Journey Agent </strong> is beschikbaar in Journey Optimizer en laat u toe om reizen door een natuurlijke taalinterface te analyseren. U kunt kanaal-specifieke inhoud nu ook direct in Journey Agent produceren en beheren, creërend inhoud voor kanalen zoals e-mail en duw, het toepassen van en het voorvertonen van malplaatjes, het verfijnen van toon en stijl door herinneringen, en het openen van inhoud in <strong> Inhoud Designer </strong> voor in-context het uitgeven.</p>
 <p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
-<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=nl-NL" target="_blank">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">gedetailleerde documentatie</a> voor meer informatie.</p>
 <p>Beschikbaarheidsdatum: 4 maart 2026</p>
 </td>
 </tr>
@@ -400,7 +402,7 @@ De onderstaande kenmerken en verbeteringen zullen later in maart/begin april wor
 <tr>
 <td>
 <p><strong> Inbox </strong> is een mobiele functionaliteit, beschikbaar met de Kaarten van de Inhoud, die klanten toelaat om een gecentraliseerde plaats binnen hun app of website tot stand te brengen om berichten te tonen die naar hun gebruikers worden verzonden. Dit breidt de levensduur van marketing mededelingen uit door ervoor te zorgen dat de berichten toegankelijk blijven zelfs nadat zij worden verworpen.</p>
-<p>Beschikbaarheidsdatum: 3 april 2026</p>
+<p>Beschikbaarheidsdatum: 7 april 2026</p>
 </td>
 </tr>
 </tbody>
@@ -421,7 +423,7 @@ Dit hulpmiddel staat u toe om te testen en te variëren, en mededelingen, het ra
 <p>Eerder vrijgegeven in Beperkte Beschikbaarheid, is deze capaciteit nu beschikbaar aan alle milieu's (Algemene Beschikbaarheid). <a href="../building-journeys/optimize.md">Meer informatie</a></p>
 <p><img src="assets/do-not-localize/optimize.gif"></p>
 <p>Als deel van de Algemene Beschikbaarheid, introduceert deze versie <strong> experimenteertype </strong> selectie (A/B of multi-gewapende bandit) en <strong> schaal de winnaar </strong> voor unitaire reizen.</p>
-<p>Beschikbaarheidsdatum: 3 april 2026</p>
+<p>Beschikbaarheidsdatum: 7 april 2026</p>
 </td>
 </tr>
 </tbody>
