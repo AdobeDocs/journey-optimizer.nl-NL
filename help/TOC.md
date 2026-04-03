@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4f7e36a6cc19e4138e867950e34c5a5e6452b364
+source-git-commit: fec28b40d06da6fbf880c97de11199f097727362
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3168'
 ht-degree: 15%
 
 ---
@@ -867,7 +867,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
@@ -889,9 +889,8 @@ ht-degree: 15%
       + [PTR-records openen en bewerken](using/configuration/ptr-records.md)
       + [IP-pools maken](using/configuration/ip-pools.md)
    + Voer een IP warmlopingsplan uit {#implement-ip-warmup-plan}
-      + [Voer een IP warmlopingsplan uit](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
-      + [IP de gids van de warmtegeleidbaarheid](using/configuration/ip-warmup-deliverability-guide.md)
       + [Ga aan de slag met IP-opwarmingsplannen](using/configuration/ip-warmup-gs.md)
+      + [IP de gids van de warmtegeleidbaarheid](using/configuration/ip-warmup-deliverability-guide.md)
       + [IP-warmtecampagnes maken](using/configuration/ip-warmup-campaign.md)
       + [Creeer een IP warmlopingsplan](using/configuration/ip-warmup-plan.md)
       + [Voer het IP-opwarmingsplan uit](using/configuration/ip-warmup-execution.md)
