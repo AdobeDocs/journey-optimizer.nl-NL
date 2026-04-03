@@ -35,7 +35,7 @@ ht-degree: 3%
 
 >[!INFO]
 >
->Ga in een hands-on ervaring met [&#x200B; binnen onze levende eigenschapvoorproef &#x200B;](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
+>Ga in een hands-on ervaring met [&#x200B; binnen onze levende eigenschapvoorproef &#x200B;](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
 
 
 De AI-assistent in Adobe Journey Optimizer, aangedreven door Microsoft Azure OpenAI en Adobe Firefly, biedt proactieve suggesties voor inhoudvariaties voor tekst en afbeeldingen. Dit nieuwe vermogen verstrekt a **herinnering gebaseerde tekst en beeldgeneratie**. Het genereren van afbeeldingen wordt beheerd met Adobe Firefly.
@@ -104,7 +104,7 @@ Om tot AI Medewerker in de eigenschap van Adobe Journey Optimizer toegang te heb
 
 1. Ga de naam van de gebruiker, e-mailadres in, of kies van de lijst, dan klik **sparen**.
 
-1. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
+1. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 De gebruiker ontvangt een e-mail met instructies om toegang te krijgen tot uw exemplaar.
 
@@ -137,7 +137,7 @@ De algemene richtlijnen voor het gebruik van AI Assistant in Adobe Journey Optim
 ### Juridisch gebruik en transparantie
 
 * Op uw gebruik van AI Assistant zijn de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen van toepassing. [Meer informatie](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* Als onderdeel van de toezegging van Adobe om de transparantie bij het gebruik van generatieve AI-tools bij het maken van media te bevorderen, zal Adobe Content Credentials toepassen wanneer inhoud of een project dat een door Firefly gegenereerd element bevat, wordt gedownload of geëxporteerd. [Meer informatie](https://helpx.adobe.com/firefly/using/content-credentials.html)
+* Als onderdeel van de toezegging van Adobe om de transparantie bij het gebruik van generatieve AI-tools bij het maken van media te bevorderen, zal Adobe Content Credentials toepassen wanneer inhoud of een project dat een door Firefly gegenereerd element bevat, wordt gedownload of geëxporteerd. [Meer informatie](https://helpx.adobe.com/nl/firefly/using/content-credentials.html)
 
 
 ## Mogelijkheden voor het genereren van inhoud voor AI Assistant {#generative-features}
@@ -175,4 +175,4 @@ De algemene richtlijnen voor het gebruik van AI Assistant in Adobe Journey Optim
 
 * **[Generatieve experimentatie](generative-experimentation.md)** - begrijp hoe te om AI-Gegenereerde inhoud met experimenteren te combineren.
 * **[van het de hulpgebruik van AI Hulpgevallen](generative-uc.md)**  - Leer door gebruiksgevallen hoe te om de Medewerker van AI te gebruiken
-* **[&#128279;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"} de Hulpleerprogramma&#39;s van 1&rbrace; AI** - Onderzoek geleidelijke videoleerprogramma&#39;s op AI Hulpeigenschappen en beste praktijken.
+* **[&#128279;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"} de Hulpleerprogramma&#39;s van 1&rbrace; AI** - Onderzoek geleidelijke videoleerprogramma&#39;s op AI Hulpeigenschappen en beste praktijken.
