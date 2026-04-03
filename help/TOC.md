@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
+source-git-commit: 4f7e36a6cc19e4138e867950e34c5a5e6452b364
 workflow-type: tm+mt
-source-wordcount: '3159'
+source-wordcount: '3173'
 ht-degree: 15%
 
 ---
@@ -490,7 +490,10 @@ ht-degree: 15%
       + [Werken met Adobe Stock](using/integrations/stock.md)
       + [Werken met Adobe Express](using/integrations/express.md)
       + [Werken met Experience Manager-sjablonen](using/integrations/aem-templates.md)
-      + [Werken met Experience Manager-inhoudsfragmenten](using/integrations/aem-fragments.md)
+      + Experience Manager-inhoudsfragmenten {#aem}
+         + [Aan de slag met Experience Manager-inhoudsfragmenten](using/integrations/aem-fragments-gs.md)
+         + [Werken met Experience Manager-inhoudsfragmenten](using/integrations/aem-fragments.md)
+         + [Overwegingen en problemen oplossen](using/integrations/aem-fragments-limitations.md)
       + [Werken met Experience Manager Content Advisor](using/content-management/aem-content-advisor.md)
       + [Afteltimer invoegen](using/integrations/countdown.md)
       + [Werken met dynamische media](using/integrations/aem-dynamic.md)
@@ -864,7 +867,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
