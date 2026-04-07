@@ -5,9 +5,9 @@ title: Activiteiten
 description: Activiteiten
 redpen-status: CREATED_||_2025-08-11_20-09-57
 exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ De activiteiten in Adobe Journey Optimizer zijn de bouwstenen die uw klantenreiz
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Inleiding van de reisactiviteiten
 
@@ -30,7 +30,7 @@ Leer over gebeurtenis, orchestratie, en actieactiviteiten in Adobe Journey Optim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Algemene gebeurtenissen gebruiken
 
@@ -40,7 +40,7 @@ Ontdek hoe u algemene gebeurtenissen kunt gebruiken om ritten te activeren en ti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Reactiegebeurtenissen configureren
 
@@ -50,7 +50,7 @@ Onderzoek hoe te op het volgen gegevens zoals bericht te reageren klikt of opent
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Kwalificatiegebeurtenissen voor het publiek
 
@@ -60,17 +60,17 @@ Leer hoe u acties en voorwaarden activeert op basis van de status van publiekspa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-De Condition-activiteit gebruiken
+De activiteit Optimaliseren (voorwaarden) gebruiken
 
 Definieer meerdere paden in een rit op basis van criteria zoals tijd, gegevensbron of percentages.
 
-[Voorwaardelijke activiteiten configureren](../using/building-journeys/condition-activity.md)
+[Optimalisatie en voorwaarden configureren](../using/building-journeys/optimize.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Het vormen van de Activiteit van de Wacht
 

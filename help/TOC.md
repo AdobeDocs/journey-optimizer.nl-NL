@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '3185'
-ht-degree: 15%
+source-wordcount: '3194'
+ht-degree: 14%
 
 ---
 
@@ -85,9 +85,11 @@ ht-degree: 15%
       + [Algemene gebeurtenissen](using/building-journeys/general-events.md)
       + [Reactiegebeurtenissen](using/building-journeys/reaction-events.md)
       + [kwalificatie publiek](using/building-journeys/audience-qualification-events.md)
-      + [Optimaliseren](using/building-journeys/optimize.md)
-      + [Voorwaarden](using/building-journeys/conditions.md)
-      + [Voorwaarde](using/building-journeys/condition-activity.md)
+      + Optimaliseren {#optimize-activity}
+         + [Aan de slag met de activiteit Optimaliseren](using/building-journeys/optimize.md)
+         + [Padexperimenten](using/building-journeys/path-experimentation.md)
+         + [Pad aanwijzen](using/building-journeys/path-targeting.md)
+         + [Voorwaarden](using/building-journeys/conditions.md)
       + [Doelgroep lezen](using/building-journeys/read-audience.md)
       + [Wachten](using/building-journeys/wait-activity.md)
       + [Inhoudsbeslissing](using/building-journeys/content-decision.md)
@@ -872,7 +874,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}

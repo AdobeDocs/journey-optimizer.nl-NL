@@ -9,7 +9,7 @@ level: Experienced
 keywords: expression editor, data, trip
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 55%
@@ -34,17 +34,17 @@ De geavanceerde expressie-editor biedt een reeks ingebouwde functies en operator
 
 >[!NOTE]
 >
->De functies en de mogelijkheden beschikbaar in de Reis geavanceerde uitdrukkingsredacteur verschillen van degenen beschikbaar in de [&#x200B; verpersoonlijkingsredacteur &#x200B;](../../personalization/functions/functions.md).
+>De functies en de mogelijkheden beschikbaar in de Reis geavanceerde uitdrukkingsredacteur verschillen van degenen beschikbaar in de [ verpersoonlijkingsredacteur ](../../personalization/functions/functions.md).
 
 ## De geavanceerde expressie-editor openen {#accessing-the-advanced-expression-editor}
 
 De geavanceerde expressie-editor kan worden gebruikt om:
 
-* [Geavanceerde voorwaarden](../condition-activity.md#about_condition) te maken voor databronnen en gebeurtenisinformatie
+* [Geavanceerde voorwaarden](../conditions.md#data_source_condition) te maken voor databronnen en gebeurtenisinformatie
 * Aangepaste [wachtactiviteiten](../wait-activity.md#custom) te definiëren
 * De toewijzing van actieparameters te definiëren
 
-Indien mogelijk kunt u tussen de twee modi schakelen met de knop **[!UICONTROL Advanced mode]**/**[!UICONTROL Simple mode]**. De eenvoudige modus wordt [hier](../condition-activity.md#about_condition) beschreven.
+Indien mogelijk kunt u tussen de twee modi schakelen met de knop **[!UICONTROL Advanced mode]**/**[!UICONTROL Simple mode]**. De eenvoudige modus wordt [hier](../conditions.md#about_condition) beschreven.
 
 >[!NOTE]
 >
@@ -73,9 +73,9 @@ Links in het scherm worden de beschikbare velden en functies weergegeven:
 
   >[!CAUTION]
   >
-  >Het maken van expressies met behulp van ervaringsgebeurtenissen wordt niet ondersteund. De alternatieve benaderingen en beste praktijken voor het creëren van uitdrukkingen/logica met ervaringsgebeurtenissen worden van verwijzingen voorzien [&#x200B; hier &#x200B;](../../building-journeys/exp-event-lookup.md)
+  >Het maken van expressies met behulp van ervaringsgebeurtenissen wordt niet ondersteund. De alternatieve benaderingen en beste praktijken voor het creëren van uitdrukkingen/logica met ervaringsgebeurtenissen worden van verwijzingen voorzien [ hier ](../../building-journeys/exp-event-lookup.md)
 
-* **[!UICONTROL Audiences]**: als u een **[!UICONTROL Audience qualification]** -gebeurtenis hebt neergezet, kiest u het publiek dat u in de expressie wilt gebruiken. [Meer informatie](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Audiences]**: als u een **[!UICONTROL Audience qualification]** -gebeurtenis hebt neergezet, kiest u het publiek dat u in de expressie wilt gebruiken. [Meer informatie](../conditions.md#using-a-segment)
 * **[!UICONTROL Data Sources]**: kies een optie in de lijst met velden die beschikbaar zijn in de veldgroepen van uw gegevensbronnen. [Meer informatie](../../datasource/about-data-sources.md)
 * **[!UICONTROL Journey properties]**: in deze sectie worden de technische velden voor een bepaald profiel gegroepeerd die betrekking hebben op de reis. [Meer informatie](journey-properties.md)
 * **[!UICONTROL Functions]**: kies uit de lijst met ingebouwde functies die complexe filtering mogelijk maken. Functies zijn ingedeeld in categorieën. [Meer informatie](functions.md)
@@ -98,7 +98,7 @@ Een mechanisme voor de syntaxisvalidatie controleert de integriteit van uw code.
 
 **Parameters vereist tijdens het samenstellen van voorwaarden met de geavanceerde expressie-editor**
 
-Als u een gebied van een externe gegevensbron selecteert die een te roepen parameter vereisen (zie [&#x200B; deze pagina &#x200B;](../../datasource/external-data-sources.md)), verschijnt een nieuw lusje op het recht om u deze parameter te laten specificeren. De parameterwaarde kan afkomstig zijn van gebeurtenissen die zich op de reis of de Experience Platform-gegevensbron bevinden (en niet van andere externe gegevensbronnen). In een databron met betrekking tot weersomstandigheden is ‘city’ bijvoorbeeld een veelgebruikte parameter. Dit betekent dat u moet selecteren waar u deze parameter ‘city’ wilt ophalen. Functies kunnen ook op parameters worden toegepast om opmaakwijzigingen of samenvoegingen uit te voeren.
+Als u een gebied van een externe gegevensbron selecteert die een te roepen parameter vereisen (zie [ deze pagina ](../../datasource/external-data-sources.md)), verschijnt een nieuw lusje op het recht om u deze parameter te laten specificeren. De parameterwaarde kan afkomstig zijn van gebeurtenissen die zich op de reis of de Experience Platform-gegevensbron bevinden (en niet van andere externe gegevensbronnen). In een databron met betrekking tot weersomstandigheden is ‘city’ bijvoorbeeld een veelgebruikte parameter. Dit betekent dat u moet selecteren waar u deze parameter ‘city’ wilt ophalen. Functies kunnen ook op parameters worden toegepast om opmaakwijzigingen of samenvoegingen uit te voeren.
 
 ![](../assets/journeyuc2_19.png)
 

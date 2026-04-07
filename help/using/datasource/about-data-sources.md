@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: gegevens, bron, reis, platform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 32%
@@ -24,11 +24,11 @@ ht-degree: 32%
 >abstract="De databronconfiguratie wordt altijd uitgevoerd door een technische gebruiker. Met de databronconfiguratie kunt u een verbinding met een systeem definiëren om extra informatie op te halen die in uw journey’s wordt gebruikt voor parameter- en personalisatiedata in acties en het definiëren van voorwaarden, tijdzones en aangepaste wachttijden."
 
 >[!TIP]
->Nieuw bij gegevensbeheer in Journey Optimizer? Begin met [&#x200B; worden begonnen met gegevensbeheer &#x200B;](../data/gs-data.md) overzicht om schema&#39;s, datasets, identiteiten te begrijpen, en hoe de gegevensstromen alvorens gegevensbronnen te vormen.
+>Nieuw bij gegevensbeheer in Journey Optimizer? Begin met [ worden begonnen met gegevensbeheer ](../data/gs-data.md) overzicht om schema&#39;s, datasets, identiteiten te begrijpen, en hoe de gegevensstromen alvorens gegevensbronnen te vormen.
 
 Met de databronconfiguratie kunt u een verbinding met een systeem definiëren om extra informatie op te halen die in uw journey’s wordt gebruikt voor:
 
-* [conditiedefinitie](../building-journeys/condition-activity.md)
+* [conditiedefinitie](../building-journeys/conditions.md)
 * parameter- en personalisatiedata in [acties](../action/action.md)
 * [aangepaste wachtdefinitie](../building-journeys/wait-activity.md#custom)
 * [tijdzonedefinitie](../building-journeys/timezone-management.md)
@@ -44,7 +44,7 @@ Er zijn twee soorten databronnen:
 
 >[!NOTE]
 >
->Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [&#x200B; sectie &#x200B;](../action/action-response.md)
+>Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [ sectie ](../action/action-response.md)
 
 Voor elke databron definieert u de informatie die u wilt ophalen met behulp van veldengroepen. Veldengroepen zijn reeksen velden die uit een databron kunnen worden opgehaald. Zie [deze pagina](../datasource/configure-data-sources.md#define-field-groups).
 
@@ -54,7 +54,7 @@ Voor elke databron definieert u de informatie die u wilt ophalen met behulp van 
 
 ## Kies uw strategie voor gegevenstoegang {#data-access-strategy}
 
-Alvorens een gegevensbron te vormen, overweeg welke benadering beste uw gebruiksgeval past. Er zijn drie opties beschikbaar, elk met verschillende compromissen wat betreft persistentie, profielverrijking en herbruikbaarheid. Voor een gedetailleerde bespreking van deze opties, zie [&#x200B; Beste praktijken voor geavanceerde reizen in Journey Optimizer &#x200B;](https://experienceleague.adobe.com/nl/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+Alvorens een gegevensbron te vormen, overweeg welke benadering beste uw gebruiksgeval past. Er zijn drie opties beschikbaar, elk met verschillende compromissen wat betreft persistentie, profielverrijking en herbruikbaarheid. Voor een gedetailleerde bespreking van deze opties, zie [ Beste praktijken voor geavanceerde reizen in Journey Optimizer ](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 **Optie 1 — Toegang externe gegevens via de Acties van de Douane (geen het Leer van Gegevens)**
 
@@ -63,7 +63,7 @@ Sluit tijdens de reis rechtstreeks een externe API aan zonder permanente gegeven
 * De gegevens zijn alleen nuttig binnen de reiscontext en niet elders nodig.
 * Het externe systeem is toegankelijk door een API eindpunt dat de vereiste attributen terugkeert.
 
-Leer meer over [&#x200B; douaneacties &#x200B;](../action/action.md) en [&#x200B; reacties van de douaneactie &#x200B;](../action/action-response.md).
+Leer meer over [ douaneacties ](../action/action.md) en [ reacties van de douaneactie ](../action/action-response.md).
 
 **Optie 2 — Dataset in het Leer van Gegevens, niet toegelaten voor Profiel**
 
@@ -74,7 +74,7 @@ Gegevens in een gegevensset opnemen om reizen te activeren en te personaliseren 
 
 **Optie 3 — Profiel-Toegelaten dataset in het meer van Gegevens**
 
-De samenvattingsgegevens in a [&#x200B; profiel-toegelaten dataset &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} om publiek tot stand te brengen, verrijken identiteitsgrafieken, en hefboomwerkingsgegevens over veelvoudige reizen en rt-CDP bestemmingen. Meest geschikt wanneer:
+De samenvattingsgegevens in a [ profiel-toegelaten dataset ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} om publiek tot stand te brengen, verrijken identiteitsgrafieken, en hefboomwerkingsgegevens over veelvoudige reizen en rt-CDP bestemmingen. Meest geschikt wanneer:
 
 * De gegevens zijn handig voor publieksdefinities die worden gebruikt in kanalen buiten Journey Optimizer.
 * De gegevens bevatten meerdere identiteiten die bijdragen tot rijkere, gestikte profielfragmenten.
@@ -85,7 +85,7 @@ De samenvattingsgegevens in a [&#x200B; profiel-toegelaten dataset &#x200B;](htt
 | **Optie 2** — Dataset niet toegelaten voor Profiel | Ja | Nee |
 | **Optie 3** — Profiel-Toegelaten dataset | Ja | Ja |
 
-Voor meer informatie over het configureren van een Adobe Experience Platform-databron en een externe databron en hoe u gegevens in een journey kunt vinden en gebruiken, bekijkt u deze [zelfstudievideo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=nl-NL){target="_blank"}.
+Voor meer informatie over het configureren van een Adobe Experience Platform-databron en een externe databron en hoe u gegevens in een journey kunt vinden en gebruiken, bekijkt u deze [zelfstudievideo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## Hoe kan ik-video {#video}
 

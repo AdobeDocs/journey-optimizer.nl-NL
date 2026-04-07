@@ -9,7 +9,7 @@ level: Experienced
 keywords: query, collecties, functies, lading, reis
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: e7693ba84d8806cf4b0dc10e8fdd18f2511e37ea
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 1%
@@ -79,7 +79,7 @@ De functie **[!UICONTROL all]** laat de definitie van een filter op een bepaalde
 
 **Conceptueel voorbeeld:** Onder alle app gebruikers, kunt u degenen krijgen gebruikend IOS 13 (booleaanse uitdrukking &quot;gebruikte app == IOS 13&quot;). Het resultaat van deze functie is de gefilterde lijst met items die overeenkomen met de booleaanse expressie (bijvoorbeeld: app-gebruiker 1, app-gebruiker 34, app-gebruiker 432).
 
-Bij een Source Condition-activiteit van Data kunt u controleren of het resultaat van de functie **[!UICONTROL all]** null is of niet. U kunt deze **[!UICONTROL all]** functie ook combineren met andere functies, zoals **[!UICONTROL count]** . Voor meer informatie, zie [&#x200B; de activiteit van de Voorwaarde van Source van Gegevens &#x200B;](../condition-activity.md#data_source_condition).
+Bij een Source Condition-activiteit van Data kunt u controleren of het resultaat van de functie **[!UICONTROL all]** null is of niet. U kunt deze **[!UICONTROL all]** functie ook combineren met andere functies, zoals **[!UICONTROL count]** . Voor meer informatie, zie [ de activiteit van de Voorwaarde van Source van Gegevens ](../conditions.md#data_source_condition).
 
 **de voorbeelden van de Code die de nuttige lading gebruiken LobbyBeacon:**
 

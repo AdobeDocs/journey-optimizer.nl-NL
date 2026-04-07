@@ -9,16 +9,16 @@ level: Experienced
 keywords: reis, expressie, editor, eigenschappen
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Eigenschappen voor reizen {#journey-properties}
 
-In de [&#x200B; eenvoudige uitdrukkingsredacteur &#x200B;](../condition-activity.md#about_condition), en in de [&#x200B; geavanceerde uitdrukkingsredacteur &#x200B;](../expression/expressionadvanced.md), onder de **Gebeurtenis** en **Gegevensbron** categorieën, kunt u tot de **categorie van de Eigenschappen van de Reis** toegang hebben. Deze categorie bevat technische velden die verband houden met de reis voor een bepaald profiel. Dit is de informatie die door het systeem wordt opgehaald van levende reizen, zoals de reis-ID, of de specifieke fouten die worden aangetroffen.
+In de [ eenvoudige uitdrukkingsredacteur ](../conditions.md#about_condition), en in de [ geavanceerde uitdrukkingsredacteur ](../expression/expressionadvanced.md), onder de **Gebeurtenis** en **Gegevensbron** categorieën, kunt u tot de **categorie van de Eigenschappen van de Reis** toegang hebben. Deze categorie bevat technische velden die verband houden met de reis voor een bepaald profiel. Dit is de informatie die door het systeem wordt opgehaald van levende reizen, zoals de reis-ID, of de specifieke fouten die worden aangetroffen.
 
 ![](../assets/journey-properties.png)
 
@@ -29,7 +29,7 @@ Het bevat bijvoorbeeld informatie over:
 * huidige stap, laatste huidige stap, enz.
 * geneste profielen
 
-  De lijst van gebieden is beschikbaar [&#x200B; in deze sectie &#x200B;](#journey-properties-fields).
+  De lijst van gebieden is beschikbaar [ in deze sectie ](#journey-properties-fields).
 
 U kunt deze velden gebruiken om expressies te maken. Tijdens de uitvoering van de reis worden de waarden direct van de reis opgehaald.
 
