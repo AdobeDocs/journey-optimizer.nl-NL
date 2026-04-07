@@ -6,8 +6,10 @@ index: true
 product: Journey Optimizer
 solution: Journey Optimizer
 feature-set: Journey Optimizer
+landing-page-name: journey-optimizer
+landing-page-breadcrumb-title: Journey Optimizer
 solution-title: Journey Optimizer Documentation
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 211ebdaaf1e9b046d4528f28b0ce0db406f2d7f3
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 99%
