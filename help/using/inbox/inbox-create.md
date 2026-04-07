@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Een Postvak IN maken {#inbox-create}
 
-Voorafgaand aan het creëren van inbox, voltooi de stappen in [ configuratie Inbox ](inbox-configuration.md). De kanaalconfiguratie identificeert de doeltoepassing of website, de pagina of de regel, en de plaatsing waar inbox wordt teruggegeven.
+Voorafgaand aan het creëren van inbox, voltooi de stappen in [&#x200B; configuratie Inbox &#x200B;](inbox-configuration.md). De kanaalconfiguratie identificeert de doeltoepassing of website, de pagina of de regel, en de plaatsing waar inbox wordt teruggegeven.
 
 Voer de volgende stappen uit om een bericht in een campagne te maken:
 
@@ -24,7 +24,7 @@ Voer de volgende stappen uit om een bericht in een campagne te maken:
 
    * **[!UICONTROL Scheduled - Marketing]** : voer de campagne onmiddellijk uit of op een opgegeven datum. De geplande campagnes zijn gericht op het verzenden van **marketing** berichten. Zij worden gevormd en uitgevoerd van het gebruikersinterface.
 
-   * **[!UICONTROL API-triggered - Marketing/Transactional]** : voer de campagne uit met behulp van een API-aanroep. API-teweeggebrachte campagnes zijn gericht op het verzenden van of **marketing**, of **transactie** berichten, d.w.z. berichten die na een actie worden verzonden die door een individu wordt uitgevoerd: het terugstellen van het wachtwoord, het kartelaankoop enz. [ Leer hoe te om een campagne teweeg te brengen gebruikend APIs ](../campaigns/api-triggered-campaigns.md)
+   * **[!UICONTROL API-triggered - Marketing/Transactional]** : voer de campagne uit met behulp van een API-aanroep. API-teweeggebrachte campagnes zijn gericht op het verzenden van of **marketing**, of **transactie** berichten, d.w.z. berichten die na een actie worden verzonden die door een individu wordt uitgevoerd: het terugstellen van het wachtwoord, het kartelaankoop enz. [&#x200B; Leer hoe te om een campagne teweeg te brengen gebruikend APIs &#x200B;](../campaigns/api-triggered-campaigns.md)
 
 1. Geef op het tabblad **[!UICONTROL Properties]** een naam en een beschrijving voor de campagne op.
 
@@ -32,18 +32,18 @@ Voer de volgende stappen uit om een bericht in een campagne te maken:
 
    ![](assets/inbox-create-1.png)
 
-1. Selecteer of creeer een nieuwe [ configuratie Inbox ](inbox-configuration.md).
+1. Selecteer of creeer een nieuwe [&#x200B; configuratie Inbox &#x200B;](inbox-configuration.md).
 
    ![](assets/inbox-create-2.png)
 
 1. Open het tabblad Inhoud om uw bericht te ontwerpen met de inhoudsontwerper. [Meer informatie](inbox-design.md)
 
-1. Klik in het tabblad **[!UICONTROL Audience]** op de knop **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-soorten publiek weer te geven. [ leer meer over publiek ](../audience/about-audiences.md)
+1. Klik in het tabblad **[!UICONTROL Audience]** op de knop **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-soorten publiek weer te geven. [&#x200B; leer meer over publiek &#x200B;](../audience/about-audiences.md)
 
-1. Kies in het veld **[!UICONTROL Identity namespace]** de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren. [ Leer meer over namespaces ](../event/about-creating.md#select-the-namespace)
+1. Kies in het veld **[!UICONTROL Identity namespace]** de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren. [&#x200B; Leer meer over namespaces &#x200B;](../event/about-creating.md#select-the-namespace)
 
 1. U kunt uw campagne plannen aan een specifieke datum of reeks om met regelmatige intervallen opnieuw te komen. [Meer informatie](../campaigns/create-campaign.md#schedule)
 
 1. Controleer en activeer uw campagne om berichten naar inbox te verzenden.
 
-U kunt dit Inbox nu kiezen wanneer het creëren van uw [ de kaartcampagne van de Inhoud ](../content-card/create-content-card.md).
+U kunt dit Inbox nu kiezen wanneer het creëren van uw [&#x200B; de kaartcampagne van de Inhoud &#x200B;](../content-card/create-content-card.md).

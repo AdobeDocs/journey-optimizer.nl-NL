@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Het ontwerp van de Postbus bepaalt hoe elk bericht aan gerichte profielen binnen de inbox oppervlakte wordt teruggegeven. De configuratie omvat de inbox malplaatje, lijst en uitgebreide presentaties, en read-state indicatoren die nieuwe berichten van reeds bekeken die onderscheiden.
 
-Voor de volledige procedure om een inbox campagne tot stand te brengen, verwijs naar [ creeer een Inbox ](inbox-create.md).
+Voor de volledige procedure om een inbox campagne tot stand te brengen, verwijs naar [&#x200B; creeer een Inbox &#x200B;](inbox-create.md).
 
-1. Open het **[!UICONTROL Content]** lusje van de [ Inbox campagne u ](inbox-create.md) creeerde.
+1. Open het **[!UICONTROL Content]** lusje van de [&#x200B; Inbox campagne u &#x200B;](inbox-create.md) creeerde.
 
 1. Stel de **[!UICONTROL Container title]** in.
 

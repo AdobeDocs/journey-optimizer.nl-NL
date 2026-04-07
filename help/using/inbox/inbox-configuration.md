@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Postvak IN configureren {#inbox-configuration}
 
-Alvorens u de kaartervaringen van de Inhoud door Inbox kunt leveren, moet u een **kanaalconfiguratie van 0} Inbox {in** bepalen. **[!UICONTROL Channel configurations]** Deze configuratie verbindt het oppervlak met toestemming, optionele toegangslabels en de locatie waar de ervaring wordt weergegeven op het web of in uw iOS- of Android-app. Voer de onderstaande stappen uit om een configuratie te maken:
+Alvorens u de kaartervaringen van de Inhoud door Inbox kunt leveren, moet u een **kanaalconfiguratie van 0&rbrace; Inbox &lbrace;in** bepalen. **[!UICONTROL Channel configurations]** Deze configuratie verbindt het oppervlak met toestemming, optionele toegangslabels en de locatie waar de ervaring wordt weergegeven op het web of in uw iOS- of Android-app. Voer de onderstaande stappen uit om een configuratie te maken:
 
 1. Open het menu **[!UICONTROL Channels]** > **[!UICONTROL General settings]** > **[!UICONTROL Channel configurations]** en klik op **[!UICONTROL Create channel configuration]** .
 
@@ -26,7 +26,7 @@ Alvorens u de kaartervaringen van de Inhoud door Inbox kunt leveren, moet u een 
    >
    > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook onderstrepingsteken `_` -, punt `.` - en afbreekstreepjes `-` gebruiken.
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [&#x200B; leer meer over de Controle van de Toegang van het Niveau van Objecten (OLAC) &#x200B;](../administration/object-based-access.md).
 
 1. Selecteer **[!UICONTROL Inbox]** kanaal.
 
@@ -56,4 +56,4 @@ Alvorens u de kaartervaringen van de Inhoud door Inbox kunt leveren, moet u een 
 
 U kunt nu uw configuratie selecteren wanneer het creëren van uw Inbox ervaring.
 
-➡️ [ volg de stappen die in deze pagina ](inbox-create.md) worden gedetailleerd
+➡️ [&#x200B; volg de stappen die in deze pagina &#x200B;](inbox-create.md) worden gedetailleerd

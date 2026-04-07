@@ -23,9 +23,9 @@ ht-degree: 8%
 
 [!DNL Adobe Journey Optimizer] volgt een doorlopend leveringsmodel, dat Adobe in staat stelt voortdurend nieuwe mogelijkheden, verbeteringen en oplossingen te bieden. Deze benadering maakt een schaalbare, gefaseerde implementatie van mogelijkheden mogelijk om prestaties en stabiliteit in alle omgevingen te garanderen.
 
-Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [ de versiecyclus van Journey Optimizer ](releases.md).
+Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [&#x200B; de versiecyclus van Journey Optimizer &#x200B;](releases.md).
 
-[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Updates van april 26 {#april-26-rn}
 
@@ -101,7 +101,7 @@ Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse relea
 
 ## Opmerkingen bij de release van maart 1926 {#march-26-rn}
 
-De [ Nieuwe mogelijkheden ](#march-26-features) en [ secties van Verbeteringen ](#march-26-improv) behandelen reeds beschikbare mogelijkheden. De [ komende spoedig ](#coming-soon) sectie maakt een lijst van eigenschappen en verbeteringen die voor versie later in Maart worden gepland.
+De [&#x200B; Nieuwe mogelijkheden &#x200B;](#march-26-features) en [&#x200B; secties van Verbeteringen &#x200B;](#march-26-improv) behandelen reeds beschikbare mogelijkheden. De [&#x200B; komende spoedig &#x200B;](#coming-soon) sectie maakt een lijst van eigenschappen en verbeteringen die voor versie later in Maart worden gepland.
 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
