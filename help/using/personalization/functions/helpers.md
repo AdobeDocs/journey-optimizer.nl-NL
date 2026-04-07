@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 39a4893357f3b95938c5a3402516aa45277411aa
+source-git-commit: e8ace59ea50d35de1f1b3b9a6417e5eb7961c236
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1120'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,7 @@ De instructie `elseif` geeft een nieuwe voorwaarde op die moet worden getest als
 
 >[!NOTE]
 >
->Meer over publiek en de segmentatieservice leren, verwijs naar [&#x200B; deze sectie &#x200B;](../../audience/about-audiences.md).
+>Meer over publiek en de segmentatieservice leren, verwijs naar [ deze sectie ](../../audience/about-audiences.md).
 
 
 ## Tenzij{#unless}
@@ -165,7 +165,7 @@ Een lijst met producten weergeven die deze gebruiker in zijn winkelwagentje heef
 
 >[!NOTE]
 >
->U kunt de `each` helper ook gebruiken om arrays die uit aangepaste handelingsreacties zijn geretourneerd, te doorlopen. Voor een voorbeeld om over genestelde series van een reactie van de douaneactie te herhalen, zie [&#x200B; Gebruikend de reacties van de douaneactie in inheemse kanalen &#x200B;](../../action/action-response.md#response-in-channels).
+>U kunt de `each` helper ook gebruiken om arrays die uit aangepaste handelingsreacties zijn geretourneerd, te doorlopen. Voor een voorbeeld om over genestelde series van een reactie van de douaneactie te herhalen, zie [ Gebruikend de reacties van de douaneactie in inheemse kanalen ](../../action/action-response.md#response-in-channels).
 
 ## Met{#with}
 
@@ -216,6 +216,26 @@ In het volgende voorbeeld kunt u de totale som van prijzen voor producten in de 
 {{sum}}
 ```
 
+## Opzoeken gegevensset {#dataset-lookup}
+
+>[!AVAILABILITY]
+>
+>Deze functie is momenteel beschikbaar voor alle klanten als een beperkte beschikbaarheidsrelease.
+>
+>Momenteel kan de hulpfunctie `datasetLookup` binnen expressiefragmenten voor een beperkte set klanten worden gebruikt. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+
+De `datasetLookup` helper wint gegevens van het verslagdatasets van Adobe Experience Platform tijdens verpersoonlijking terug zodat kunt u gebiedswaarden gebruiken die niet op het profiel of in de gebeurtenislading worden opgeslagen.
+
+**Syntaxis**
+
+```sql
+{{datasetLookup datasetId="datasetId" id="key" result="store" required=false}}
+```
+
+Verwijzing opgehaalde velden met `{{result.fieldId}}` , waarbij `result` de waarde is die u doorgeeft aan de parameter `result` .
+
+Voor dataset enablement, parameterdetails, voorbeelden, en het testen, zie {de gegevens van Adobe Experience Platform van 0} Gebruik voor verpersoonlijking [.](../aep-data-perso.md)
+
 ## Metagegevens van uitvoering {#execution-metadata}
 
 Met de `executionMetadata` -hulpfunctie kunt u op dynamische wijze aangepaste sleutel-waardeparen vastleggen en opslaan in de context van de berichtuitvoering.
@@ -234,7 +254,7 @@ Met deze functie kunt u contextafhankelijke informatie toevoegen aan elke native
 
 >[!NOTE]
 >
->* De functie van Meta-gegevens van de Uitvoering wordt niet gesteund door [&#x200B; douaneacties &#x200B;](../../action/action.md).
+>* De functie van Meta-gegevens van de Uitvoering wordt niet gesteund door [ douaneacties ](../../action/action.md).
 >* De functie Metagegevens van de Uitvoering is niet zichtbaar wanneer de inhoud zelf wordt getoond.
 
 U kunt bijvoorbeeld de functie Metagegevens uitvoeren gebruiken om een specifieke id toe te voegen aan elke levering die naar elk profiel wordt verzonden. Deze informatie wordt tijdens runtime gegenereerd en de verrijkte metagegevens voor uitvoering kunnen vervolgens worden geëxporteerd voor afstemming op een extern rapportageplatform.
@@ -260,7 +280,7 @@ Tijdens runtime wordt de metagegevenswaarde toegevoegd aan de bestaande **[!UICO
 
 >[!NOTE]
 >
->Leer meer op datasets in [&#x200B; deze sectie &#x200B;](../../data/get-started-datasets.md).
+>Leer meer op datasets in [ deze sectie ](../../data/get-started-datasets.md).
 
 **Beperkingen**
 
@@ -301,7 +321,7 @@ Met deze hulp kunt u gevoelige profielgegevens (PII) beschermen voordat u deze o
 
 **Vereiste**
 
-Een beheerder moet ten minste één actieve sleutel maken in het sleutelregister op sandboxniveau. [&#x200B; leer hoe te om sleutels tot stand te brengen en te beheren &#x200B;](../url-parameter-encryption.md#create-keys)
+Een beheerder moet ten minste één actieve sleutel maken in het sleutelregister op sandboxniveau. [ leer hoe te om sleutels tot stand te brengen en te beheren ](../url-parameter-encryption.md#create-keys)
 
 >[!NOTE]
 >
