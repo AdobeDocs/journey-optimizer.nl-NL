@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fec28b40d06da6fbf880c97de11199f097727362
+source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
 workflow-type: tm+mt
-source-wordcount: '3168'
+source-wordcount: '3185'
 ht-degree: 15%
 
 ---
@@ -392,6 +392,11 @@ ht-degree: 15%
          + [Ondersteuning voor inhoudskaarten configureren in Web SDK](using/content-card/content-card-configuration-sdk.md)
       + [Inhoudskaarten maken](using/content-card/create-content-card.md)
       + [Inhoudskaarten ontwerpen](using/content-card/design-content-card.md)
+   + Inbox {#inbox}
+      + [Aan de slag met Postvak IN](using/inbox/inbox-gs.md)
+      + [Inbox-kanaal configureren in Journey Optimizer](using/inbox/inbox-configuration.md)
+      + [Uw Postvak IN maken](using/inbox/inbox-create.md)
+      + [Uw Postvak IN ontwerpen](using/inbox/inbox-design.md)
    + WhatsApp {#whatsapp}
       + [WhatsApp](/help/rp_landing_pages/whatsapp-landing-page.md)
       + [Aan de slag met WhatsApp-berichten](using/whatsapp/get-started-whatsapp.md)
@@ -867,7 +872,7 @@ ht-degree: 15%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
