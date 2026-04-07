@@ -5,22 +5,28 @@ title: Kanaalconfiguratie
 description: Kanaalconfiguratie
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
-source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
+source-git-commit: 7a89b5011c4cf64b95066d62ba1b8fe43ea8ba32
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
 
 # Kanaalconfiguratie{#section-overview}
 
-Met de kanaalconfiguratie in Adobe Journey Optimizer kunt u beheren hoe berichten via verschillende kanalen worden verzonden, zoals e-mail, SMS, pushmeldingen en internet. Op deze manier kunt u ervoor zorgen dat de berichten op maat en effectief worden gecommuniceerd. Of u opstellings technische parameters, het vormen subdomeinen, of het optimaliseren van e-maillevering met IP warmup plannen, wordt elke stap ontworpen om berichtprestaties en naleving te verbeteren. U zult ook hulpmiddelen vinden om e-mailreputatie te controleren, suppressielijsten te beheren, en zelfs berichten voor controledoeleinden te archiveren. Diveer dieper in de onderwerpen aan u om te ontdekken hoe deze configuraties samenwerken, die u helpen naadloze, impactful klantenervaringen creëren.
+Met de kanaalconfiguratie in Adobe Journey Optimizer kunt u beheren hoe berichten via verschillende kanalen worden verzonden, zoals e-mail, SMS, pushmeldingen en internet. Op deze manier kunt u ervoor zorgen dat de berichten op maat en effectief worden gecommuniceerd.
+
+Of u opstellings technische parameters, het vormen subdomeinen, of het optimaliseren van e-maillevering met IP warmup plannen, wordt elke stap ontworpen om berichtprestaties en naleving te verbeteren.
+
+U zult ook hulpmiddelen vinden om e-mailreputatie te controleren, suppressielijsten te beheren, en zelfs berichten voor controledoeleinden te archiveren.
+
+Diveer dieper in de onderwerpen aan u om te ontdekken hoe deze configuraties samenwerken, die u helpen naadloze, impactful klantenervaringen creëren.
 
 ## Kanaalconfiguratie
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met kanaalconfiguratie
 
@@ -30,7 +36,7 @@ Leer de stappen om kanalen in Adobe Journey Optimizer te configureren, inclusief
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Kanaalconfiguraties instellen en beheren
 
@@ -40,7 +46,7 @@ Volg een gedetailleerde handleiding om kanaalconfiguraties te maken, te bewerken
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Kanaal instellen met instructies
 
@@ -50,7 +56,7 @@ Configureer mobiele en webkanalen efficiënt met stapsgewijze instructies en bro
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 E-mailsubdomeinen delegeren en beheren
 
@@ -59,18 +65,18 @@ Leer om e-mailsubdomeinen te delegeren en te vormen om leverbaarheid te optimali
 [E-mailsubdomeinen delegeren](delegate-subdomains-landing-page.md)
 :::
 
-<!--:::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Implement an IP Warmup Plan
+Voer een IP Plan van de Opruiming uit
 
-Create and execute IP warmup plans to establish sender reputation and enhance email deliverability.
+Creeer en voer IP warmup plannen uit om afzenderreputatie te vestigen en e-mailleverbaarheid te verbeteren.
 
-[Learn about IP warmup plans](implement-ip-warmup-plan-landing-page.md)
-:::-->
+[Meer informatie over IP-opwarmingsplannen](ip-warmup-gs.md)
+:::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 E-maillevering en -reputatie bewaken
 
