@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
+>Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [&#x200B; Grafieken en Beperkingen &#x200B;](gs-generative.md#generative-guardrails).
 
 ## Bestaande inhoud gebruiken
 
-![ Geanimeerde demonstratie die AI Medewerker toont die bestaande campagneinhoud opnieuw gebruiken om nieuwe variaties te produceren ](assets/do-not-localize/gen-ai-reuse-text.gif)
+![&#x200B; Geanimeerde demonstratie die AI Medewerker toont die bestaande campagneinhoud opnieuw gebruiken om nieuwe variaties te produceren &#x200B;](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 U kunt variaties genereren op basis van de inhoud en context die al in uw campagne staan, zodat deze consistent blijven met uw boodschap en publiek.
 
@@ -43,7 +43,7 @@ Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-mailcamp
 
 ## Variatie verfijnen {#refine}
 
-![ Geanimeerde demonstratie van het raffineren van AI-Gegenereerde inhoudsvariaties die gebruiken herhaal en vat opties ](assets/do-not-localize/gen-ai-variation.gif) samen
+![&#x200B; Geanimeerde demonstratie van het raffineren van AI-Gegenereerde inhoudsvariaties die gebruiken herhaal en vat opties &#x200B;](assets/do-not-localize/gen-ai-variation.gif) samen
 
 Pas een door AI gegenereerde variatie in plaats, toon, lengte, formulering en strategie aan voordat u de definitieve tekst selecteert.
 
@@ -75,7 +75,7 @@ Pas een door AI gegenereerde variatie in plaats, toon, lengte, formulering en st
 
 ## Vergelijkbare afbeelding genereren
 
-![ Geanimeerde demonstratie van het produceren van gelijkaardige beeldvariaties die op een geselecteerd AI-Gegenereerd beeld ](assets/do-not-localize/uc-image-similar.gif) worden gebaseerd
+![&#x200B; Geanimeerde demonstratie van het produceren van gelijkaardige beeldvariaties die op een geselecteerd AI-Gegenereerd beeld &#x200B;](assets/do-not-localize/uc-image-similar.gif) worden gebaseerd
 
 Wanneer een afbeelding bijna geschikt is, genereert u aanvullende opties die hetzelfde algemene uiterlijk en thema behouden.
 
@@ -97,7 +97,7 @@ Wanneer een afbeelding bijna geschikt is, genereert u aanvullende opties die het
 
 ## Een stijlverwijzing uploaden
 
-![ Geanimeerde demonstratie van het uploaden van een verwijzingsbeeld om AI Hulpstijl van de beeldgeneratie te begeleiden ](assets/do-not-localize/uc-image-reference.gif)
+![&#x200B; Geanimeerde demonstratie van het uploaden van een verwijzingsbeeld om AI Hulpstijl van de beeldgeneratie te begeleiden &#x200B;](assets/do-not-localize/uc-image-reference.gif)
 
 Upload een referentieafbeelding, zodat de nieuwe visuele kenmerken de gewenste stijl, het gewenste palet of de gewenste compositie volgen.
 
@@ -123,7 +123,7 @@ Upload een referentieafbeelding, zodat de nieuwe visuele kenmerken de gewenste s
 
 ## Inhoud genereren in ondersteunde talen{#languages}
 
-![ Geanimeerde demonstratie van AI Medewerker die inhoud in veelvoudige talen met inbegrip van Frans, Spaans, en Duits produceert ](assets/do-not-localize/gen-ai-language.gif)
+![&#x200B; Geanimeerde demonstratie van AI Medewerker die inhoud in veelvoudige talen met inbegrip van Frans, Spaans, en Duits produceert &#x200B;](assets/do-not-localize/gen-ai-language.gif)
 
 Maak tekst in de talen die worden ondersteund door AI Assistant door uw vraag te combineren met expliciete taalinstellingen.
 
@@ -143,7 +143,7 @@ Maak tekst in de talen die worden ondersteund door AI Assistant door uw vraag te
 
 ## Referentie-inhoud gebruiken voor genereren
 
-![ Geanimeerde demonstratie van AI Medewerker die inhoud met verwijzingsinhoud produceert ](assets/do-not-localize/gen-url.gif)
+![&#x200B; Geanimeerde demonstratie van AI Medewerker die inhoud met verwijzingsinhoud produceert &#x200B;](assets/do-not-localize/gen-url.gif)
 
 U kunt AI Medewerker meer context geven door **verwijzingsinhoud**, een Web-pagina of geuploade dossiers toe te voegen, zodat het geproduceerde exemplaar en de suggesties dichter aan uw bronmateriaal blijven.
 
@@ -155,7 +155,7 @@ U kunt AI Medewerker meer context geven door **verwijzingsinhoud**, een Web-pagi
 
 1. Voer in **[!UICONTROL Reference content]** de pagina-URL in en een naam die deze aangeeft.
 
-1. Klik ![ uploaden pictogram ](assets/do-not-localize/Smock_UploadToCloudOutline_18_N.svg) om de pagina te halen en het toe te voegen als verwijzingsinhoud voor generatie.
+1. Klik ![&#x200B; uploaden pictogram &#x200B;](assets/do-not-localize/Smock_UploadToCloudOutline_18_N.svg) om de pagina te halen en het toe te voegen als verwijzingsinhoud voor generatie.
 
 1. Als u een bestand wilt gebruiken, kiest u **[!UICONTROL Upload file option]** en selecteert u het document. Ondersteunde indelingen zijn .pdf, .png, .jpg, .jpeg, .zip, .md, .doc, .txt en .docx.
 
@@ -167,7 +167,7 @@ U kunt AI Medewerker meer context geven door **verwijzingsinhoud**, een Web-pagi
 
 ## Gebruik uw generatieve model {#generative-model}
 
-![ Geanimeerde demonstratie van AI Medewerker die inhoud met douanemodel produceren ](assets/do-not-localize/gen-ai-model.gif)
+![&#x200B; Geanimeerde demonstratie van AI Medewerker die inhoud met douanemodel produceren &#x200B;](assets/do-not-localize/gen-ai-model.gif)
 
 Registreer een aangepast generatief model en routeafbeeldingsgeneratie via dit model in AI Assistant.
 
@@ -193,7 +193,7 @@ Registreer een aangepast generatief model en routeafbeeldingsgeneratie via dit m
 
 ## Gemini gebruiken als generatief model voor een tekstbedekkingsafbeelding
 
-![ Geanimeerde demonstratie van AI Medewerker die inhoud met Gemini produceren als generatief model ](assets/do-not-localize/gen-nano.gif)
+![&#x200B; Geanimeerde demonstratie van AI Medewerker die inhoud met Gemini produceren als generatief model &#x200B;](assets/do-not-localize/gen-nano.gif)
 
 Met **Gemini 2.5** die als generatief model wordt geselecteerd, kunt u beeldvarianten in AI Medewerker produceren, tekstbedekkingen van een URL, een dossier, of een AI-Gegenereerde herinnering, dan positiebedekkingen toevoegen alvorens een definitieve variatie toe te passen.
 
