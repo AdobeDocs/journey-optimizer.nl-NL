@@ -342,7 +342,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Beslissing**
 
-* [&#x200B; Adobe Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) de gebruikers kunnen douanemodellen nu kiezen om te optimaliseren wanneer vestiging een AI model in Beslissing (vroeger genoemd geworden Ervaring die Beslissing) wordt bekend. Zo kunt u bijvoorbeeld een aangepaste tabel &quot;aankopen&quot; optimaliseren in plaats van gedefinieerde beperkingen, zoals een doorklikfrequentie. [Meer informatie](../experience-decisioning/ranking/ranking.md)
+* [&#x200B; Adobe Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL) de gebruikers kunnen douanemodellen nu kiezen om te optimaliseren wanneer vestiging een AI model in Beslissing (vroeger genoemd geworden Ervaring die Beslissing) wordt bekend. Zo kunt u bijvoorbeeld een aangepaste tabel &quot;aankopen&quot; optimaliseren in plaats van gedefinieerde beperkingen, zoals een doorklikfrequentie. [Meer informatie](../experience-decisioning/ranking/ranking.md)
 
 * Wanneer het toevoegen van een besluitvormingsbeleid aan een code-gebaseerde campagne met Beslissing, kunt u één enkele besluitvormingspunten, naast selectiestrategieën nu manueel selecteren. Bovendien kunt u nu meerdere fallback-voorstellen selecteren. Dit garandeert dat er een aantal teruggestuurde besluiten zijn. [Meer informatie](../experience-decisioning/create-decision.md)
 
@@ -442,7 +442,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tr>
 <td>
 <p>Als je je bericht hebt gemaakt en gepersonaliseerd, ga je naar het volgende niveau met AI Assistant in Journey Optimizer. U kunt nu AI Assistant gebruiken om de impact van uw bericht te optimaliseren door te experimenteren met verschillende hoofdtitels en afbeeldingen. Elke variant wordt beheerd als een unieke behandeling, om te meten en te vergelijken welke titel effectief meer kliks produceert.</p>
-<p>Ga zelf in een hands-on ervaring met <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator"> binnen onze levende eigenschapvoorproef </a>, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.</a></p>
+<p>Ga zelf in een hands-on ervaring met <a href="https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator"> binnen onze levende eigenschapvoorproef </a>, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.</a></p>
 <p>Raadpleeg de <a href="../content-management/gs-generative.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
 <p>Beschikbaarheidsdatum: 12 september 2024</p>
@@ -870,7 +870,7 @@ Lees meer in de [&#x200B; documentatie van het inhoudsfragment &#x200B;](../cont
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* U kunt nu de Edge Delivery-insteekmodule gebruiken om informatie op te halen die nodig is voor het begrijpen van en het oplossen van problemen met uw binnenkomende implementaties. [&#x200B; leer meer over de mening van Edge Delivery &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* U kunt nu de Edge Delivery-insteekmodule gebruiken om informatie op te halen die nodig is voor het begrijpen van en het oplossen van problemen met uw binnenkomende implementaties. [&#x200B; leer meer over de mening van Edge Delivery &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
 #### Direct mailkanaal

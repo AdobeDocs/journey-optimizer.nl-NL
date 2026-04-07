@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Hoofdlettergebruik: een aangepaste handeling maken om gegevens naar [!DNL Adobe Experience Platform] te verzenden{#send-data-to-aep}
 
-Als u onlangs naar een andere e-mailserviceprovider, een IP-adres of een e-maildomein of subdomein bent verhuisd, kunt u uw reputatie als afzender vaststellen. Anders kunnen leveringen worden geblokkeerd of naar de spammappen van de ontvangers worden verplaatst. Voor begeleiding, zie de [&#x200B; Gids van de Beste praktijken van de Levering Beste &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target="_blank"}.
+Als u onlangs naar een andere e-mailserviceprovider, een IP-adres of een e-maildomein of subdomein bent verhuisd, kunt u uw reputatie als afzender vaststellen. Anders kunnen leveringen worden geblokkeerd of naar de spammappen van de ontvangers worden verplaatst. Voor begeleiding, zie de [&#x200B; Gids van de Beste praktijken van de Levering Beste &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=nl-NL){target="_blank"}.
 
 Om uw IP op te warmen, kunt u geleidelijk het aantal van uw leveringen opvoeren. Lees meer over [&#x200B; optimaliserend leverbaarheid in Journey Optimizer &#x200B;](../reports/deliverability.md).
 
