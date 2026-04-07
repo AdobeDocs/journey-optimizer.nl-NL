@@ -26,7 +26,7 @@ Diveer dieper in de onderwerpen aan u om te ontdekken hoe deze configuraties sam
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=nl-NL)
 
 Aan de slag met kanaalconfiguratie
 
@@ -36,7 +36,7 @@ Leer de stappen om kanalen in Adobe Journey Optimizer te configureren, inclusief
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=nl-NL)
 
 Kanaalconfiguraties instellen en beheren
 
@@ -46,7 +46,7 @@ Volg een gedetailleerde handleiding om kanaalconfiguraties te maken, te bewerken
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
 
 Kanaal instellen met instructies
 
@@ -56,7 +56,7 @@ Configureer mobiele en webkanalen efficiënt met stapsgewijze instructies en bro
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=nl-NL)
 
 E-mailsubdomeinen delegeren en beheren
 
@@ -66,7 +66,7 @@ Leer om e-mailsubdomeinen te delegeren en te vormen om leverbaarheid te optimali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
 
 Voer een IP Plan van de Opruiming uit
 
@@ -76,7 +76,7 @@ Creeer en voer IP warmup plannen uit om afzenderreputatie te vestigen en e-maill
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=nl-NL)
 
 E-maillevering en -reputatie bewaken
 
