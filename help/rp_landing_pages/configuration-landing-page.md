@@ -20,7 +20,7 @@ Met de kanaalconfiguratie in Adobe Journey Optimizer kunt u beheren hoe berichte
 
 :::: landing-cards-container
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aan de slag met kanaalconfiguratie
 
@@ -30,7 +30,7 @@ Leer de stappen om kanalen in Adobe Journey Optimizer te configureren, inclusief
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Kanaalconfiguraties instellen en beheren
 
@@ -40,7 +40,7 @@ Volg een gedetailleerde handleiding om kanaalconfiguraties te maken, te bewerken
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Kanaal instellen met instructies
 
@@ -50,7 +50,7 @@ Configureer mobiele en webkanalen efficiënt met stapsgewijze instructies en bro
 :::
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 E-mailsubdomeinen delegeren en beheren
 
@@ -70,7 +70,7 @@ Create and execute IP warmup plans to establish sender reputation and enhance em
 :::-->
 
 :::
-![icon]( https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 E-maillevering en -reputatie bewaken
 
