@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: df19494bfd40e76b88b088cc70c6d6587916a3b3
+source-git-commit: 5683fc646985a9b3c9557a52ca2ffdf3861561e2
 workflow-type: tm+mt
-source-wordcount: '2065'
+source-wordcount: '2100'
 ht-degree: 8%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 8%
 
 [!DNL Adobe Journey Optimizer] volgt een doorlopend leveringsmodel, dat Adobe in staat stelt voortdurend nieuwe mogelijkheden, verbeteringen en oplossingen te bieden. Deze benadering maakt een schaalbare, gefaseerde implementatie van mogelijkheden mogelijk om prestaties en stabiliteit in alle omgevingen te garanderen.
 
-Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [&#x200B; de versiecyclus van Journey Optimizer &#x200B;](releases.md).
+Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse releases. Voor volledige details over de de versiecyclus en beschikbaarheidsfasen, zie [ de versiecyclus van Journey Optimizer ](releases.md).
 
-[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [&#x200B; de Nota&#39;s van de Versie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL){target="_blank"}.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ## Updates van april 26 {#april-26-rn}
 
@@ -99,14 +99,15 @@ Vanwege dit model worden releaseopmerkingen bijgewerkt tussen maandelijkse relea
 
   Beschikbaarheidsdatum: 3 april 2026
 
+
 ## Opmerkingen bij de release van maart 1926 {#march-26-rn}
 
-De [&#x200B; Nieuwe mogelijkheden &#x200B;](#march-26-features) en [&#x200B; secties van Verbeteringen &#x200B;](#march-26-improv) behandelen reeds beschikbare mogelijkheden. De [&#x200B; komende spoedig &#x200B;](#coming-soon) sectie maakt een lijst van eigenschappen en verbeteringen die voor versie later in Maart worden gepland.
+De [ Nieuwe mogelijkheden ](#march-26-features) en [ secties van Verbeteringen ](#march-26-improv) behandelen reeds beschikbare mogelijkheden. De [ komende spoedig ](#coming-soon) sectie maakt een lijst van eigenschappen en verbeteringen die voor versie later in Maart worden gepland.
 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/nl/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **de datum van de Versie**: Maart 24-25, 2026
 
@@ -312,7 +313,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Aangedreven door <strong> Adobe Experience Platform Agent Orchestrator </strong>, <strong> Journey Agent </strong> is beschikbaar in Journey Optimizer en laat u toe om reizen door een natuurlijke taalinterface te analyseren. U kunt kanaal-specifieke inhoud nu ook direct in Journey Agent produceren en beheren, creërend inhoud voor kanalen zoals e-mail en duw, het toepassen van en het voorvertonen van malplaatjes, het verfijnen van toon en stijl door herinneringen, en het openen van inhoud in <strong> Inhoud Designer </strong> voor in-context het uitgeven.</p>
 <p>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe-vertegenwoordiger voor toegang.</p>
-<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=nl-NL" target="_blank">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">gedetailleerde documentatie</a> voor meer informatie.</p>
 <p>Beschikbaarheidsdatum: 4 maart 2026</p>
 </td>
 </tr>
@@ -439,6 +440,12 @@ De verbeteringen die bij deze release worden geleverd, worden hieronder weergege
 * **Pauzeer en hervat details in reis technische details** - de reis **technische details** omvatten nu extra pauze en hervat informatie: de datum en de tijd van de laatste pauze en hervat, de vertoningsnaam en interne herkenningsteken van de gebruiker die elke actie, en een volledige reeks gepauzeerde reismontages zoals pauze gedrag, maximumpauzeduur, en auto-hervat staat uitvoerde. [Meer informatie](../building-journeys/journey-properties.md)
 
   Beschikbaarheidsdatum: 2 maart 2026
+
+#### Beslissing
+
+* **Beslissende migratie — bied en contextattributen** aan - de migratie API entiteitafbeelding maakt nu een lijst van **aanbiedingsattributen** (`migratedofferattributes` op het Gepersonaliseerde schema van het aanbiedingspunt) en **contextattributen** (`migratedcontextattributes` op het schema van de migratiedataset). [Meer informatie](../experience-decisioning/decisioning-migration-api.md#entity-mapping)
+
+  Beschikbaarheidsdatum: 31 maart 2026
 
 ## Binnenkort beschikbaar {#coming-soon}
 
