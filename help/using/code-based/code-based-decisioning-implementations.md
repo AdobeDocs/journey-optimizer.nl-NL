@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -19,13 +19,13 @@ Wanneer het gebruiken van Beslissing in code-gebaseerde ervaringen, denk na toev
 
 >[!CAUTION]
 >
->Het op code-gebaseerde ervaringskanaal steunt slechts het [!DNL Journey Optimizer] [&#x200B; Beslissende &#x200B;](../experience-decisioning/gs-experience-decisioning.md) vermogen. De bestaande mogelijkheden voor het beheer van beslissingen zijn niet beschikbaar met ervaring op basis van code.
+>Het op code-gebaseerde ervaringskanaal steunt slechts het [!DNL Journey Optimizer] [ Beslissende ](../experience-decisioning/gs-experience-decisioning.md) vermogen. De bestaande mogelijkheden voor het beheer van beslissingen zijn niet beschikbaar met ervaring op basis van code.
 
-➡️ Leer meer over het vormen van het Web SDK voor op code-gebaseerde ervaringen en besluitvorming in [&#x200B; deze leerprogramma&#39;s &#x200B;](#tutorials).
+➡️ Leer meer over het vormen van het Web SDK voor op code-gebaseerde ervaringen en besluitvorming in [ deze leerprogramma&#39;s ](#tutorials).
 
 ## Op code gebaseerde ervaringen testen met beslissingen {#code-based-test-decisions}
 
-Wanneer het testen van [&#x200B; code-gebaseerde ervaring &#x200B;](create-code-based.md) met besluit, kan de `dryRun` vlag worden gebruikt om te onderdrukken terugkoppelt gebeurtenissen voor zowel het melden als het begrenzen tellers.
+Wanneer het testen van [ code-gebaseerde ervaring ](create-code-based.md) met besluit, kan de `dryRun` vlag worden gebruikt om te onderdrukken terugkoppelt gebeurtenissen voor zowel het melden als het begrenzen tellers.
 
 Nadat u de campagne hebt gepubliceerd, voegt u de markering `dryRun` toe aan het XDM-gebeurtenisblok `data` in de clientimplementatie:
 
@@ -44,11 +44,12 @@ Nadat u de campagne hebt gepubliceerd, voegt u de markering `dryRun` toe aan het
 <!--
 >[!CAUTION]
 >
->Adding the `dryRun` flag to your request will prevent feedback to be captured for reporting and frequency counters from being added to.-->
+>Adding the `dryRun` flag to your request will prevent feedback to be captured for reporting and frequency counters from being added to.
+-->
 
 ## Deduplicatie van besluitvormingselementen in op code-gebaseerde implementaties {#code-based-decisioning-deduplication}
 
-Wanneer het gebruiken van [&#x200B; besluitvormingsbeleid &#x200B;](../experience-decisioning/create-decision.md) in uw op code-gebaseerde ervaringen, kunt u deduplicatie op uw besluitvormingsverzoeken in uw cliëntimplementatie toepassen.
+Wanneer het gebruiken van [ besluitvormingsbeleid ](../experience-decisioning/create-decision.md) in uw op code-gebaseerde ervaringen, kunt u deduplicatie op uw besluitvormingsverzoeken in uw cliëntimplementatie toepassen.
 
 Beslissingsverzoeken (via Konductor) accepteren de deduplicatiemarkering, die de unieke keuze van beslissingselementen in één verzoek behandelt, dat uit meerdere beleidslijnen of plaatsingen bestaat.
 
@@ -295,10 +296,10 @@ Stel dat u hetzelfde beslissingsbeleid hebt met plaatsing van kop- en voettekst 
 
 ## Tutorials {#tutorials}
 
-Leer hoe te om code-gebaseerde ervaringen te halen te tonen en te volgen gebruikend de [&#x200B; uitbreiding van Adobe Journey Optimizer &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"} voor Adobe Experience Platform Mobile SDKs in [&#x200B; dit leerprogramma &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+Leer hoe te om code-gebaseerde ervaringen te halen te tonen en te volgen gebruikend de [ uitbreiding van Adobe Journey Optimizer ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"} voor Adobe Experience Platform Mobile SDKs in [ dit leerprogramma ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
 
-Leer hoe te om besluiten in Journey Optimizer te gebruiken om inhoudsaanbiedingen op uw website, met een nadruk op de configuratie van SDK van het Web te personaliseren, in [&#x200B; dit leerprogramma &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
+Leer hoe te om besluiten in Journey Optimizer te gebruiken om inhoudsaanbiedingen op uw website, met een nadruk op de configuratie van SDK van het Web te personaliseren, in [ dit leerprogramma ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}.
 
-Leer hoe te om het Web SDK te vormen en besluiten met code-gebaseerde ervaringen te gebruiken om aanbiedingen te personaliseren gebruikend weergegevens in real time en contextafhankelijke informatie in [&#x200B; dit leerprogramma &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}.
+Leer hoe te om het Web SDK te vormen en besluiten met code-gebaseerde ervaringen te gebruiken om aanbiedingen te personaliseren gebruikend weergegevens in real time en contextafhankelijke informatie in [ dit leerprogramma ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}.
 
 

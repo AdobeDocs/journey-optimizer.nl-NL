@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 >
 > Als uw campagne onderworpen is aan een goedkeuringsbeleid, zult u goedkeuring moeten vragen om uw code-gebaseerde ervaringen te kunnen activeren. [Meer informatie](../test-approve/gs-approval.md)
 
-Zodra u uw op code-gebaseerde ervaring bepaalde en uw inhoud zoals gewenst gebruikend de [&#x200B; code-gebaseerde redacteur &#x200B;](create-code-based.md#edit-code) gebruikte, kunt u uw reis of campagne activeren om uw veranderingen zichtbaar aan uw publiek te maken.
+Zodra u uw op code-gebaseerde ervaring bepaalde en uw inhoud zoals gewenst gebruikend de [ code-gebaseerde redacteur ](create-code-based.md#edit-code) gebruikte, kunt u uw reis of campagne activeren om uw veranderingen zichtbaar aan uw publiek te maken.
 
 U kunt ook een voorvertoning van uw code-gebaseerde ervaringsinhoud weergeven voordat u deze live maakt. [Meer informatie](test-code-based.md)
 
@@ -29,9 +29,9 @@ U kunt ook een voorvertoning van uw code-gebaseerde ervaringsinhoud weergeven vo
 >
 >Als u een op code gebaseerde reis/campagne activeert die dezelfde pagina&#39;s beïnvloedt als een andere reis of campagne die al actief is, worden alle wijzigingen toegepast op uw inhoud.
 >
->Als meerdere op code gebaseerde reizen of campagnes hetzelfde element of dezelfde elementen van uw inhoud bijwerken, heeft de hoogste prioriteit prioriteit voor de reis/campagne. [&#x200B; leer meer op prioritaire scores &#x200B;](../conflict-prioritization/priority-scores.md)
+>Als meerdere op code gebaseerde reizen of campagnes hetzelfde element of dezelfde elementen van uw inhoud bijwerken, heeft de hoogste prioriteit prioriteit voor de reis/campagne. [ leer meer op prioritaire scores ](../conflict-prioritization/priority-scores.md)
 
-Zodra uw op code-gebaseerde reis of campagne levend is, is uw team van de app implementatie verantwoordelijk voor het maken van expliciete API of SDK vraag om inhoud voor de oppervlakken te halen die in de geselecteerde [&#x200B; op code-gebaseerde ervaringsconfiguratie &#x200B;](code-based-configuration.md) worden bepaald. Leer meer over de verschillende klantenimplementaties in [&#x200B; deze sectie &#x200B;](code-based-implementation-samples.md).
+Zodra uw op code-gebaseerde reis of campagne levend is, is uw team van de app implementatie verantwoordelijk voor het maken van expliciete API of SDK vraag om inhoud voor de oppervlakken te halen die in de geselecteerde [ op code-gebaseerde ervaringsconfiguratie ](code-based-configuration.md) worden bepaald. Leer meer over de verschillende klantenimplementaties in [ deze sectie ](code-based-implementation-samples.md).
 
 ### Een op code gebaseerde reis publiceren {#publish-code-based-journey}
 
@@ -45,7 +45,7 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring live te maken van
 
    >[!NOTE]
    >
-   >Leer meer over het publiceren reizen in [&#x200B; deze sectie &#x200B;](../building-journeys/publish-journey.md).
+   >Leer meer over het publiceren reizen in [ deze sectie ](../building-journeys/publish-journey.md).
 
 Uw op code-gebaseerde reis neemt de **[!UICONTROL Live]** status en is nu zichtbaar aan het geselecteerde publiek. Elke ontvanger van uw reis kan uw wijzigingen zien.
 
@@ -67,15 +67,15 @@ Uw op code-gebaseerde reis neemt de **[!UICONTROL Live]** status en is nu zichtb
 
    >[!NOTE]
    >
-   >Leer meer over het activeren van campagnes in [&#x200B; deze sectie &#x200B;](../campaigns/review-activate-campaign.md).
+   >Leer meer over het activeren van campagnes in [ deze sectie ](../campaigns/review-activate-campaign.md).
 
-Uw op code-gebaseerde campagne neemt **[!UICONTROL Live]** [&#x200B; status &#x200B;](../campaigns/manage-campaigns.md#statuses) en is nu zichtbaar aan het geselecteerde publiek. Elke ontvanger van de campagne kan de wijzigingen zien die u aan uw inhoud hebt toegevoegd.
+Uw op code-gebaseerde campagne neemt **[!UICONTROL Live]** [ status ](../campaigns/manage-campaigns.md#statuses) en is nu zichtbaar aan het geselecteerde publiek. Elke ontvanger van de campagne kan de wijzigingen zien die u aan uw inhoud hebt toegevoegd.
 
 >[!NOTE]
 >
 >Nadat u op **[!UICONTROL Activate]** hebt geklikt, kan het 15 minuten duren voordat de wijzigingen live beschikbaar zijn.
 >
->Als u een programma voor uw code-gebaseerde campagne bepaalde, heeft het de **[!UICONTROL Scheduled]** [&#x200B; status &#x200B;](../campaigns/manage-campaigns.md#statuses) tot de begindatum en de tijd worden bereikt.
+>Als u een programma voor uw code-gebaseerde campagne bepaalde, heeft het de **[!UICONTROL Scheduled]** [ status ](../campaigns/manage-campaigns.md#statuses) tot de begindatum en de tijd worden bereikt.
 
 ## Een op code gebaseerde reis of campagne stoppen {#stop-code-based-experience}
 
@@ -99,13 +99,16 @@ Wanneer een code-gebaseerde ervaring levend is, kunt u het tegenhouden om uw pub
 >
 >Nadat een op code gebaseerde reis of campagne is gestopt, kunt u deze niet meer bewerken of activeren. U kunt deze alleen dupliceren en de gedupliceerde reis/campagne activeren.
 
-<!--Reporting TBC
+<!--
+Reporting TBC
 
 ## Check the code-based experience reports {#check-code-based-reports}
 
-Once your code-based experience is live, you can check the **[!UICONTROL Code-based]** tab of the  [Journey report](../reports/journey-global-report-cja.md#web-cja) and [Campaign report](../reports/campaign-global-report-cja.md#web) to compare elements such as the number of experiences delivered to your audience, and the number of engagements with your content.-->
+Once your code-based experience is live, you can check the **[!UICONTROL Code-based]** tab of the  [Journey report](../reports/journey-global-report-cja.md#web-cja) and [Campaign report](../reports/campaign-global-report-cja.md#web) to compare elements such as the number of experiences delivered to your audience, and the number of engagements with your content.
+-->
 
-<!--## Code-based reports
+<!--
+## Code-based reports
 
 You can access code-based journey or campaign reports from the summary screen.
 
@@ -152,5 +155,4 @@ The **[!UICONTROL Code-based experience summary]** graph shows the evolution of 
 
 TBC: The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your apps/pages.
 +++
-
 -->

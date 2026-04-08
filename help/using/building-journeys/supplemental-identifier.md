@@ -3,7 +3,7 @@ title: Aanvullende id's gebruiken tijdens reizen
 description: Leer hoe u aanvullende id's kunt gebruiken tijdens reizen.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1414'
 ht-degree: 0%
@@ -85,11 +85,11 @@ Voer de volgende stappen uit om een aanvullende id te gebruiken in een gebeurten
 
 1. **teken de attributen als herkenningsteken in het gebeurtenisschema**
 
-   1. Open het gebeurtenisschema en zoek het kenmerk dat u als aanvullende id wilt gebruiken (bijvoorbeeld de reserverings-id, de abonnement-id) en markeer het als een id. [&#x200B; Leer hoe te met schema&#39;s &#x200B;](../data/get-started-schemas.md) te werken
+   1. Open het gebeurtenisschema en zoek het kenmerk dat u als aanvullende id wilt gebruiken (bijvoorbeeld de reserverings-id, de abonnement-id) en markeer het als een id. [ Leer hoe te met schema&#39;s ](../data/get-started-schemas.md) te werken
 
    1. Markeer de id als een **[!UICONTROL Identity]** .
 
-      ![&#x200B; configuratie van het Schema met de supplementaire groep van het herkenningsgebied &#x200B;](assets/supplemental-ID-schema.png)
+      ![ configuratie van het Schema met de supplementaire groep van het herkenningsgebied ](assets/supplemental-ID-schema.png)
 
       >[!IMPORTANT]
       >
@@ -101,11 +101,11 @@ Voer de volgende stappen uit om een aanvullende id te gebruiken in een gebeurten
 
 1. **voeg extra identiteitskaart aan de gebeurtenis toe**
 
-   1. Maak of bewerk de gewenste gebeurtenis. [&#x200B; Leer hoe te om een eenheidsgebeurtenis te vormen &#x200B;](../event/about-creating.md)
+   1. Maak of bewerk de gewenste gebeurtenis. [ Leer hoe te om een eenheidsgebeurtenis te vormen ](../event/about-creating.md)
 
    1. Controleer de optie **[!UICONTROL Use supplemental identifier]** in het scherm met gebeurtenisconfiguratie.
 
-      ![&#x200B; de configuratie van de Gebeurtenis met supplementaire herkenningsteken namespace selectie &#x200B;](assets/supplemental-ID-event.png)
+      ![ de configuratie van de Gebeurtenis met supplementaire herkenningsteken namespace selectie ](assets/supplemental-ID-event.png)
 
    1. Gebruik de uitdrukkingsredacteur om de attributen te selecteren u als supplementaire identiteitskaart merkte
 
@@ -119,7 +119,7 @@ Voer de volgende stappen uit om een aanvullende id te gebruiken in een gebeurten
 
    Sleep de geconfigureerde gebeurtenis naar het reiscanvas. Het zal reizen op basis van zowel profiel-id als aanvullende id activeren.
 
-   ![&#x200B; Reis die extra herkenningsteken voor gebeurtenis gebruiken die &#x200B;](assets/supplemental-ID-journey.png) teweegbrengt
+   ![ Reis die extra herkenningsteken voor gebeurtenis gebruiken die ](assets/supplemental-ID-journey.png) teweegbrengt
 
 >[!TAB  Lees publiekstraject ]
 
@@ -127,11 +127,11 @@ Voer de volgende stappen uit om een extra id te gebruiken voor een leestoepreis:
 
 1. **Teken de attributen als herkenningsteken in het unie/profielschema**
 
-   1. Open het samenvoegings-/profielschema en zoek het kenmerk dat u als aanvullende id wilt gebruiken (bijv. reserverings-id, abonnement-id) en markeer het als een id. [&#x200B; Leer hoe te met schema&#39;s &#x200B;](../data/get-started-schemas.md) te werken
+   1. Open het samenvoegings-/profielschema en zoek het kenmerk dat u als aanvullende id wilt gebruiken (bijv. reserverings-id, abonnement-id) en markeer het als een id. [ Leer hoe te met schema&#39;s ](../data/get-started-schemas.md) te werken
 
    1. Markeer de id als een **[!UICONTROL Identity]** .
 
-      ![&#x200B; schema van het Profiel met supplementaire gevormde herkenningsgebied &#x200B;](assets/supplemental-ID-schema-profile.png)
+      ![ schema van het Profiel met supplementaire gevormde herkenningsgebied ](assets/supplemental-ID-schema-profile.png)
 
       >[!IMPORTANT]
       >
@@ -141,13 +141,15 @@ Voer de volgende stappen uit om een extra id te gebruiken voor een leestoepreis:
 
       Nadat u de naamruimte voor niet-persoonlijke identiteit op een schema hebt toegepast, moet u een nieuwe veldgroep maken om de aanvullende id te kunnen gebruiken. Bestaande entiteiten kunnen niet worden vernieuwd om de nieuwe id te herkennen.
 
-<!--1. **Add the supplemental ID field to the data source**
+<!--
+1. **Add the supplemental ID field to the data source**
 
     1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
 
         ![Data source configuration with supplemental identifier mapping](assets/supplemental-ID-data-source.png)
 
-    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).-->
+    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).
+-->
 
 1. **voeg en vorm een Gelezen publieksactiviteit in de reis toe**
 
@@ -155,7 +157,7 @@ Voer de volgende stappen uit om een extra id te gebruiken voor een leestoepreis:
 
    1. Schakel in het deelvenster Eigenschappen activiteit de optie **[!UICONTROL Use supplemental identifier]** in.
 
-      ![&#x200B; las de activiteit van het publiek met supplementaire herkenningstekenconfiguratie &#x200B;](assets/supplemental-ID-read-audience.png)
+      ![ las de activiteit van het publiek met supplementaire herkenningstekenconfiguratie ](assets/supplemental-ID-read-audience.png)
 
    1. Gebruik in het veld **[!UICONTROL Supplement identifier]** de expressieeditor om het kenmerk te selecteren dat u als aanvullende id hebt gemarkeerd.
 
@@ -171,7 +173,7 @@ Voer de volgende stappen uit om een extra id te gebruiken voor een leestoepreis:
 
 Gebruik de uitdrukkingsredacteur en de verpersoonlijkingsredacteur om attributen van het supplementaire herkenningsteken voor verpersoonlijking of voorwaardelijke logica van verwijzingen te voorzien. Kenmerken zijn toegankelijk via het menu **[!UICONTROL Contextual attributes]** .
 
-![&#x200B; de redacteur van Personalization die supplementaire herkenningstekengebieden voor inhoud tonen &#x200B;](assets/supplemental-ID-perso.png)
+![ de redacteur van Personalization die supplementaire herkenningstekengebieden voor inhoud tonen ](assets/supplemental-ID-perso.png)
 
 Gebruik een formule voor gebeurtenisgestuurde reizen wanneer u met arrays werkt (bijvoorbeeld meerdere voorschriften of beleidsregels) om specifieke elementen te extraheren.
 
@@ -248,4 +250,4 @@ Deze voorbeelden tonen hoe de supplementaire herkenningstekens veelvoudige verwa
 
 Leer hoe u een aanvullende id in [!DNL Adobe Journey Optimizer] kunt inschakelen en toepassen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464798?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

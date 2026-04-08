@@ -10,7 +10,7 @@ level: Intermediate
 keywords: activiteit, besluitvorming, inhouds-beslissing, beslissingsbeleid, canvas, reis
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1215'
 ht-degree: 1%
@@ -19,19 +19,19 @@ ht-degree: 1%
 
 # Beslissingsactiviteit inhoud {#content-decision}
 
-[!DNL Journey Optimizer] staat u toe om aanbiedingen in uw reizen door de specifieke **inhoud besluit** activiteit in het wegcanvas te omvatten. U kunt andere activiteiten (zoals [&#x200B; douaneacties &#x200B;](../action/about-custom-action-configuration.md)) aan uw reizen dan toevoegen om uw publiek met deze gepersonaliseerde aanbiedingen te richten.
+[!DNL Journey Optimizer] staat u toe om aanbiedingen in uw reizen door de specifieke **inhoud besluit** activiteit in het wegcanvas te omvatten. U kunt andere activiteiten (zoals [ douaneacties ](../action/about-custom-action-configuration.md)) aan uw reizen dan toevoegen om uw publiek met deze gepersonaliseerde aanbiedingen te richten.
 
 >[!NOTE]
 >
 >De output van een activiteit van de inhoudsbeslissing kan niet in inheemse kanaalactiviteiten worden gebruikt.
 
-Aan hefboomwerking dit vermogen, creeer een reis waar u de activiteit van het a [&#x200B; inhoudsbesluit &#x200B;](#add-content-decision-activity) toevoegt om de aanbiedingen te bepalen u aan de in aanmerking komende profielen wilt voorstellen.
+Aan hefboomwerking dit vermogen, creeer een reis waar u de activiteit van het a [ inhoudsbesluit ](#add-content-decision-activity) toevoegt om de aanbiedingen te bepalen u aan de in aanmerking komende profielen wilt voorstellen.
 
 Vervolgens kunt u de uitvoer van de besluitvormingsactiviteit voor de inhoud gebruiken in:
 
-* en [&#x200B; optimaliseer activiteit met een voorwaarde &#x200B;](#add-condition-activity), om profielen aan specifieke wegen te bewegen die op de teruggewonnen aanbiedingen worden gebaseerd;
+* en [ optimaliseer activiteit met een voorwaarde ](#add-condition-activity), om profielen aan specifieke wegen te bewegen die op de teruggewonnen aanbiedingen worden gebaseerd;
 
-* a [&#x200B; douaneactie &#x200B;](#add-custom-action), waar u die aanbiedingen naar externe systemen kunt verzenden.
+* a [ douaneactie ](#add-custom-action), waar u die aanbiedingen naar externe systemen kunt verzenden.
 
 ## Een handeling voor een inhoudsbesluit configureren {#add-content-decision-activity}
 
@@ -43,11 +43,11 @@ Voer de onderstaande stappen uit om de **[!UICONTROL Content decision]** -activi
 
 1. Ontvouw de categorie **[!UICONTROL Orchestration]** en zet een **[!UICONTROL Content decision]** -activiteit neer op uw canvas.
 
-   ![&#x200B; voeg een inhoudsbesluit aan de reis &#x200B;](assets/journey-content-decision.png){width=100%} toe
+   ![ voeg een inhoudsbesluit aan de reis ](assets/journey-content-decision.png){width=100%} toe
 
 1. Voeg desgewenst een label en beschrijving aan de activiteit toe.
 
-1. Klik op **[!UICONTROL Add decision policy]**. [&#x200B; Leer meer over besluitvormingsbeleid &#x200B;](../experience-decisioning/create-decision.md)
+1. Klik op **[!UICONTROL Add decision policy]**. [ Leer meer over besluitvormingsbeleid ](../experience-decisioning/create-decision.md)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Voer de onderstaande stappen uit om de **[!UICONTROL Content decision]** -activi
 
 1. Controleer en sla uw beslissingsbeleid op.
 
-   ![&#x200B; Overzicht van het beleid van Besluit &#x200B;](assets/journey-content-decision-policy.png){width=70%}<!--reshoot or change screen-->
+   ![ Overzicht van het beleid van Besluit ](assets/journey-content-decision-policy.png){width=70%}<!--reshoot or change screen-->
 
 U bent nu klaar om de output van deze inhoud beslissingsactiviteit in uw reis te gebruiken.
 
@@ -81,13 +81,13 @@ U bent nu klaar om de output van deze inhoud beslissingsactiviteit in uw reis te
 
 ## De uitvoer van de activiteit voor het nemen van beslissingen over inhoud gebruiken {#use-content-decision-output}
 
-De output van een inhoudbesluit kan in veelvoudige reisactiviteiten worden gebruikt. Bijvoorbeeld, kunt u [&#x200B; gebruiken optimaliseert activiteit met een voorwaarde &#x200B;](#add-condition-activity) om profielen naar specifieke takken van uw reis te bewegen, die op het aantal aanbiedingen voor hen worden teruggewonnen.
+De output van een inhoudbesluit kan in veelvoudige reisactiviteiten worden gebruikt. Bijvoorbeeld, kunt u [ gebruiken optimaliseert activiteit met een voorwaarde ](#add-condition-activity) om profielen naar specifieke takken van uw reis te bewegen, die op het aantal aanbiedingen voor hen worden teruggewonnen.
 
-U kunt a [&#x200B; douaneactie &#x200B;](#add-custom-action) aan uw reis ook toevoegen om de aanbiedingen van de activiteit van het inhoudsbesluit aan een extern systeem te delen.
+U kunt a [ douaneactie ](#add-custom-action) aan uw reis ook toevoegen om de aanbiedingen van de activiteit van het inhoudsbesluit aan een extern systeem te delen.
 
 ### In een Optimize-activiteit (Condition-methode) {#add-condition-activity}
 
-Als u de uitvoer van een besluitvormingsactiviteit voor inhoud wilt optimaliseren, voegt u een **[!UICONTROL Optimize]** -activiteit toe, kiest u de methode **[!UICONTROL Condition]** en definieert u expressies om profielen naar specifieke paden te verplaatsen met behulp van gegevens uit deze aanbiedingen. Voer de onderstaande stappen uit. Voor meer voorwaardetypes en opties, zie [&#x200B; Voorwaarden &#x200B;](conditions.md).
+Als u de uitvoer van een besluitvormingsactiviteit voor inhoud wilt optimaliseren, voegt u een **[!UICONTROL Optimize]** -activiteit toe, kiest u de methode **[!UICONTROL Condition]** en definieert u expressies om profielen naar specifieke paden te verplaatsen met behulp van gegevens uit deze aanbiedingen. Voer de onderstaande stappen uit. Voor meer voorwaardetypes en opties, zie [ Voorwaarden ](conditions.md).
 
 1. Verplaats vanuit de categorie **[!UICONTROL Orchestration]** een **[!UICONTROL Optimize]** -activiteit naar uw canvas. [Meer informatie](optimize.md)
 
@@ -95,29 +95,29 @@ Als u de uitvoer van een besluitvormingsactiviteit voor inhoud wilt optimalisere
 
 1. Klik voor dit eerste pad in het veld **[!UICONTROL Expression]** of gebruik het pictogram Bewerken om een expressie toe te voegen.
 
-   ![&#x200B; voeg een voorwaarde toe en geef de uitdrukking &#x200B;](assets/journey-content-decision-condition.png){width=80%} uit
+   ![ voeg een voorwaarde toe en geef de uitdrukking ](assets/journey-content-decision-condition.png){width=80%} uit
 
-1. In het pop-up venster dat opent, schakelaar aan **[!UICONTROL Advanced mode]** om de [&#x200B; geavanceerde uitdrukkingsredacteur &#x200B;](expression/expressionadvanced.md) te gebruiken.
+1. In het pop-up venster dat opent, schakelaar aan **[!UICONTROL Advanced mode]** om de [ geavanceerde uitdrukkingsredacteur ](expression/expressionadvanced.md) te gebruiken.
 
    >[!CAUTION]
    >
    >De uitvoer van een beslissingsknooppunt voor inhoud is alleen beschikbaar in de **[!UICONTROL Advanced mode]** .
 
-1. Ontvouw de **[!UICONTROL Context]** knoop en navigeer aan uw besluitvormingsbeleid om alle attributen te tonen beschikbaar in het [&#x200B; catalogusschema van aanbiedingen &#x200B;](../experience-decisioning/catalogs.md#access-catalog-schema).
+1. Ontvouw de **[!UICONTROL Context]** knoop en navigeer aan uw besluitvormingsbeleid om alle attributen te tonen beschikbaar in het [ catalogusschema van aanbiedingen ](../experience-decisioning/catalogs.md#access-catalog-schema).
 
-   ![&#x200B; voeg een voorwaarde toe en geef de uitdrukking &#x200B;](assets/journey-content-decision-context.png) uit
+   ![ voeg een voorwaarde toe en geef de uitdrukking ](assets/journey-content-decision-context.png) uit
 
    >[!NOTE]
    >
-   >Om het even welk beperkt die etiket op een attribuut wordt bepaald kan in een beleidsschending voor DULE of toestemming resulteren. Dit is op de gebeurtenissen van de reiservaring van toepassing die in een besluitvormingsregel en op [&#x200B; worden gebruikt aanbiedt schema &#x200B;](../experience-decisioning/catalogs.md#access-catalog-schema). Leer meer over het beleid van het gegevensbeheer in [&#x200B; deze sectie &#x200B;](../action/action-privacy.md).
+   >Om het even welk beperkt die etiket op een attribuut wordt bepaald kan in een beleidsschending voor DULE of toestemming resulteren. Dit is op de gebeurtenissen van de reiservaring van toepassing die in een besluitvormingsregel en op [ worden gebruikt aanbiedt schema ](../experience-decisioning/catalogs.md#access-catalog-schema). Leer meer over het beleid van het gegevensbeheer in [ deze sectie ](../action/action-privacy.md).
 
-1. Om te controleren als om het even welke aanbieding voor de profielen is teruggekeerd die de reis ingaan, gebruik de [&#x200B; listSize &#x200B;](functions/list-functions.md#listSize) functie met de volgende syntaxis: `listSize(@decision{ContentdecisionName.items})>0`
+1. Om te controleren als om het even welke aanbieding voor de profielen is teruggekeerd die de reis ingaan, gebruik de [ listSize ](functions/list-functions.md#listSize) functie met de volgende syntaxis: `listSize(@decision{ContentdecisionName.items})>0`
 
    >[!NOTE]
    >
    >In dit voorbeeld is `Name` het label van de inhoudsbeslissing die u aan uw reis hebt toegevoegd.
 
-   ![&#x200B; voeg een voorwaarde met lijst &#x200B;](assets/journey-content-decision-condition-list.png) toe
+   ![ voeg een voorwaarde met lijst ](assets/journey-content-decision-condition-list.png) toe
 
 1. Klik op **[!UICONTROL Ok]**.
 
@@ -139,17 +139,17 @@ Als u de uitvoer van een besluitvormingsactiviteit met betrekking tot inhoud wil
 
    Klik in het bewerkbare tekstveld en selecteer een parameter die u wilt toewijzen aan kenmerken uit de aanbiedingen die zijn opgehaald.
 
-   ![&#x200B; geeft de verzoekparameters van de douaneactie &#x200B;](assets/journey-content-decision-custom-action-param.png) uit
+   ![ geeft de verzoekparameters van de douaneactie ](assets/journey-content-decision-custom-action-param.png) uit
 
-1. Schakel over naar **[!UICONTROL Advanced mode]** in het pop-upvenster dat wordt geopend. In de [&#x200B; geavanceerde uitdrukkingsredacteur &#x200B;](expression/expressionadvanced.md), ontvouw de **[!UICONTROL Context]** knoop om alle punten van het besluitvormingsbeleid te tonen.
+1. Schakel over naar **[!UICONTROL Advanced mode]** in het pop-upvenster dat wordt geopend. In de [ geavanceerde uitdrukkingsredacteur ](expression/expressionadvanced.md), ontvouw de **[!UICONTROL Context]** knoop om alle punten van het besluitvormingsbeleid te tonen.
 
    >[!CAUTION]
    >
    >De uitvoer van een beslissingsknooppunt voor inhoud is alleen beschikbaar in de **[!UICONTROL Advanced mode]** .
 
-1. Blader door het [&#x200B; catalogusschema van aanbiedingen &#x200B;](../experience-decisioning/catalogs.md#access-catalog-schema) gebruikend de `items` serie. Gebruik bijvoorbeeld de `itemName` van de eerste aanbieding die wordt opgehaald en de `itemName` van de tweede aanbieding die wordt opgehaald.
+1. Blader door het [ catalogusschema van aanbiedingen ](../experience-decisioning/catalogs.md#access-catalog-schema) gebruikend de `items` serie. Gebruik bijvoorbeeld de `itemName` van de eerste aanbieding die wordt opgehaald en de `itemName` van de tweede aanbieding die wordt opgehaald.
 
-   ![&#x200B; de verzoekparameters van de actie van de Douane met inbegrip van het besluitvormingsbeleid &#x200B;](assets/journey-content-decision-custom-action-param-ex.png)
+   ![ de verzoekparameters van de actie van de Douane met inbegrip van het besluitvormingsbeleid ](assets/journey-content-decision-custom-action-param-ex.png)
 
 1. Klik op **[!UICONTROL Ok]** om uw expressie op te slaan.
 
@@ -159,15 +159,17 @@ Als u de uitvoer van een besluitvormingsactiviteit met betrekking tot inhoud wil
 
 Hieronder ziet u het volledige voorbeeld van een reis waarbij een activiteit voor het nemen van beslissingen over inhoud wordt gecombineerd met een voorwaardenactiviteit en een aangepaste handeling, zoals hierboven beschreven.
 
-![&#x200B; Volledige reis &#x200B;](assets/journey-content-decision-full-journey.png)
+![ Volledige reis ](assets/journey-content-decision-full-journey.png)
 
 <!--When all activities are properly configured and saved, [publish](publish-journey.md) your journey.-->
 
-Zodra de reis [&#x200B; &#x200B;](publish-journey.md) wordt geactiveerd:
+Zodra de reis [ ](publish-journey.md) wordt geactiveerd:
 
-<!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
+<!--
+* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 
-* If no offer is returned for a profile, they are excluded from the custom action.-->
+* If no offer is returned for a profile, they are excluded from the custom action.
+-->
 
 1. Telkens als een profiel voor dat publiek kwalificeert, komt het op reis.
 

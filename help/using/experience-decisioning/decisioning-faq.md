@@ -6,7 +6,8 @@ topic: Integrations
 role: User
 level: Intermediate
 version: Journey Orchestration
-source-git-commit: 74f8db8f71cbf51260868a93702a563b3c0d4a2d
+exl-id: 7bb72527-d4e1-49f8-b2c3-c943d65903f2
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
@@ -30,7 +31,7 @@ Als u twee plafondregels voor een aanbieding definieert:
 
 Het aanbod wordt niet meer weergegeven aan een gebruiker als deze het vijf keer per week heeft gezien, zelfs als de totale limiet van 100 nog niet is bereikt. Op dezelfde manier, zodra 100 totale indrukken worden bereikt, houdt de aanbieding op worden getoond aan alle gebruikers.
 
-Leer meer over [&#x200B; het begrenzen regels &#x200B;](items.md#capping).
+Leer meer over [ het begrenzen regels ](items.md#capping).
 
 +++
 
@@ -38,14 +39,14 @@ Leer meer over [&#x200B; het begrenzen regels &#x200B;](items.md#capping).
 
 +++**wat is de rol van publiek tegenover een volledige dataset in AI modellen?**
 
-Wanneer het vormen van [&#x200B; AI modellen &#x200B;](ranking/ai-models.md), zowel dienen de datasets als het publiek afzonderlijke doeleinden.
+Wanneer het vormen van [ AI modellen ](ranking/ai-models.md), zowel dienen de datasets als het publiek afzonderlijke doeleinden.
 
 * **Datasets**: De omzettingsgebeurtenissen van de Vangst (kliks, orden, opbrengst) die als optimaliseringsdoelstellingen voor het model dienen.
 * **Soorten publiek**: Functie als voorspellende variabelen die het model toelaten om aanbevelingen te personaliseren die op het lidmaatschap van het klantensegment worden gebaseerd.
 
 Het publiek beperkt of vergroot het bereik van het model niet. In plaats daarvan, verstrekken zij contextafhankelijke attributen die de capaciteit van het model verbeteren om gepersonaliseerde voorspellingen over verschillende klantensegmenten te maken.
 
-Beide componenten worden vereist voor efficiënte [&#x200B; gepersonaliseerde optimalisatiemodellen &#x200B;](ranking/personalized-optimization-model.md) modelprestaties.
+Beide componenten worden vereist voor efficiënte [ gepersonaliseerde optimalisatiemodellen ](ranking/personalized-optimization-model.md) modelprestaties.
 
 +++
 
@@ -68,7 +69,7 @@ In AI-modellen worden nieuwe aanbiedingen tijdens de volgende trainingscyclus ge
 
 Zodra beide modellen zijn geïdentificeerd, zullen zij onmiddellijk de nieuwe aanbiedingen aan sommige bezoekers gaan bedienen om hun prestaties te testen en gegevens over hun doeltreffendheid te verzamelen.
 
-Leer meer over [&#x200B; auto-optimalisering &#x200B;](ranking/auto-optimization-model.md) en [&#x200B; gepersonaliseerde optimalisering &#x200B;](ranking/personalized-optimization-model.md) modellen.
+Leer meer over [ auto-optimalisering ](ranking/auto-optimization-model.md) en [ gepersonaliseerde optimalisering ](ranking/personalized-optimization-model.md) modellen.
 
 +++
 
@@ -90,9 +91,11 @@ Adobe beveelt de volgende minimumdrempels aan om effectieve modelprestaties te g
 * 1.000 afbeeldingen per aanbieding/object per week
 * 100 conversiegebeurtenissen per aanbieding/object per week
 
-<!--**Absolute minimums (per 30 days):**
+<!--
+**Absolute minimums (per 30 days):**
 * At least **250 impressions** per offer/item  
-* At least **25 conversion events** per offer/item-->
+* At least **25 conversion events** per offer/item
+-->
 
 Standaard probeert het systeem geen gepersonaliseerde modellen te maken voor aanbiedingen/items met minder dan 1000 afbeeldingen of 50 conversiegebeurtenissen.
 
@@ -100,7 +103,7 @@ Standaard probeert het systeem geen gepersonaliseerde modellen te maken voor aan
 >
 >In productieomgevingen met grote aanbiedingen voor catalogi (~300 aanbiedingen) en restrictieve bedrijfsregels, kunnen sommige aanbiedingen lagere absolute drempels benaderen (250 beelden en 25 omzettingen per 30 dagen). Deze zijn de minimale gegevensvereisten voor modeltraining, maar bieden mogelijk geen garantie voor optimale prestaties.
 
-Leer meer over [&#x200B; vereisten van de gegevensinzameling &#x200B;](data-collection/data-collection.md).
+Leer meer over [ vereisten van de gegevensinzameling ](data-collection/data-collection.md).
 
 +++
 

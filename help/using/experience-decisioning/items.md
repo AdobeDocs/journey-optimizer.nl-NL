@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 559feb1d45abb287d5f4b0e2abae8f2ec663713b
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '2086'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Met Journey Optimizer kunt u marketingaanbiedingen maken, ook wel &#39;beslissingsitems&#39; genoemd, die u kunt maken en indelen in een gecentraliseerde catalogus en verzamelingen. Ze bestaan uit standaard- en aangepaste kenmerken die precies op uw behoeften zijn afgestemd. Bovendien, nemen zij profielbeperkingen op die u toestaan om te bepalen aan wie een besluitpunt kan worden getoond.
 
-Alvorens een besluitvormingspunt tot stand te brengen, zorg ervoor u a **besluitvormingsregel** hebt gecreeerd als u voorwaarden wilt plaatsen om te bepalen aan wie het besluitpunt kan worden getoond. [&#x200B; Leer hoe te om besluitvormingsregels &#x200B;](rules.md) tot stand te brengen.
+Alvorens een besluitvormingspunt tot stand te brengen, zorg ervoor u a **besluitvormingsregel** hebt gecreeerd als u voorwaarden wilt plaatsen om te bepalen aan wie het besluitpunt kan worden getoond. [ Leer hoe te om besluitvormingsregels ](rules.md) tot stand te brengen.
 
 Als u een beslissingsitem wilt maken, navigeert u naar **[!UICONTROL Decisioning]** > **[!UICONTROL Catalogs]** en klikt u op **[!UICONTROL Create item]** . Vervolgens volgt u de stappen die in de onderstaande secties worden beschreven.
 
@@ -46,15 +46,15 @@ Begin door de standaard en douanekenmerken van het besluitpunt te bepalen:
    >
    >De prioriteit is een gegevenstype van gehele getallen. Alle attributen die geheelgegevenstypes zijn zouden geheelwaarden (geen decimalen) moeten bevatten.
 
-1. Het **gebied van Markeringen** staat u toe om Adobe Experience Platform Verenigde Markeringen aan uw besluitvormingspunten toe te wijzen. Op deze manier kunt u ze gemakkelijk classificeren en zoeken verbeteren. [&#x200B; leer hoe te met markeringen &#x200B;](../start/search-filter-categorize.md#tags) werken
+1. Het **gebied van Markeringen** staat u toe om Adobe Experience Platform Verenigde Markeringen aan uw besluitvormingspunten toe te wijzen. Op deze manier kunt u ze gemakkelijk classificeren en zoeken verbeteren. [ leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) werken
 
-1. Gebruik [&#x200B; fragmenten &#x200B;](../content-management/fragments.md) om veelvoudige inhoud aan het besluitvormingspunt toe te voegen - bijvoorbeeld, als u verschillende inhoud voor verscheidene mobiele apparatenmodellen wilt tonen. U kunt deze fragmenten vervolgens gebruiken in uw besluitvormingsbeleid. [&#x200B; leer hoe &#x200B;](fragments-decision-policies.md)
+1. Gebruik [ fragmenten ](../content-management/fragments.md) om veelvoudige inhoud aan het besluitvormingspunt toe te voegen - bijvoorbeeld, als u verschillende inhoud voor verscheidene mobiele apparatenmodellen wilt tonen. U kunt deze fragmenten vervolgens gebruiken in uw besluitvormingsbeleid. [ leer hoe ](fragments-decision-policies.md)
 
    >[!AVAILABILITY]
    >
    >Deze eigenschap is beschikbaar in Beperkte Beschikbaarheid voor de **op code-gebaseerde ervaring** en **e-mail** kanalen. Neem contact op met uw Adobe-vertegenwoordiger om toegang aan te vragen.
 
-1. Aangepaste kenmerken opgeven (optioneel). Aangepaste kenmerken zijn specifieke kenmerken die zijn toegesneden op uw behoeften en die u kunt toewijzen aan een beslissingsitem. Zij worden bepaald in het de catalogusschema van besluitvormingspunten. [&#x200B; leer hoe te met catalogi &#x200B;](catalogs.md) werken
+1. Aangepaste kenmerken opgeven (optioneel). Aangepaste kenmerken zijn specifieke kenmerken die zijn toegesneden op uw behoeften en die u kunt toewijzen aan een beslissingsitem. Zij worden bepaald in het de catalogusschema van besluitvormingspunten. [ leer hoe te met catalogi ](catalogs.md) werken
 
 1. Wanneer de kenmerken van het beslissingsitem zijn gedefinieerd, klikt u op **[!UICONTROL Next]** .
 
@@ -66,8 +66,8 @@ Begin door de standaard en douanekenmerken van het besluitpunt te bepalen:
 >abstract="Standaard kunnen alle profielen in aanmerking komen voor het item voor een beslissing, maar u kunt het publiek of de regels gebruiken om het item te beperken tot specifieke profielen."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -83,9 +83,9 @@ In feite is de uitvoer van een publiek een lijst met profielen, terwijl een besl
 
 +++
 
-* Als u de presentatie van het beslissingsitem wilt beperken tot de leden van een of meer Adobe Experience Platform-doelgroepen, selecteert u de optie **[!UICONTROL Visitors who fall into one or multiple audiences]** en voegt u vervolgens een of meer soorten doelgroepen in het linkerdeelvenster toe en combineert u deze met de logische operatoren **[!UICONTROL And]** / **[!UICONTROL Or]** . [&#x200B; leer meer over publiek &#x200B;](../audience/about-audiences.md)
+* Als u de presentatie van het beslissingsitem wilt beperken tot de leden van een of meer Adobe Experience Platform-doelgroepen, selecteert u de optie **[!UICONTROL Visitors who fall into one or multiple audiences]** en voegt u vervolgens een of meer soorten doelgroepen in het linkerdeelvenster toe en combineert u deze met de logische operatoren **[!UICONTROL And]** / **[!UICONTROL Or]** . [ leer meer over publiek ](../audience/about-audiences.md)
 
-* Als u een specifieke beslissingsregel wilt koppelen aan het beslissingsitem, selecteert u **[!UICONTROL By rule]** en sleept u de gewenste regel van het linkerdeelvenster naar het centrale gebied. [&#x200B; leer meer over besluitvormingsregels &#x200B;](rules.md)
+* Als u een specifieke beslissingsregel wilt koppelen aan het beslissingsitem, selecteert u **[!UICONTROL By rule]** en sleept u de gewenste regel van het linkerdeelvenster naar het centrale gebied. [ leer meer over besluitvormingsregels ](rules.md)
 
 ![](assets/item-constraints.png)
 
@@ -100,7 +100,7 @@ Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de ges
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_expression"
 >title="Uitdrukking"
->abstract="In plaats daarvan kunt u uw eigen expressie definiëren door een statische waarde te gebruiken voor de afkapdrempel. Hierdoor kunt u de drempel dynamisch berekenen met behulp van beslissingskenmerken en/of externe kenmerken van een Adobe Experience Platform-gegevensset.<br/><br/> uitdrukkingen **van de regel van de Capping van 0&rbrace; zijn momenteel beschikbaar als Beperkte Beschikbaarheid aan alle gebruikers.** Deze worden alleen ondersteund voor het type **[!UICONTROL In total]** capapping."
+>abstract="In plaats daarvan kunt u uw eigen expressie definiëren door een statische waarde te gebruiken voor de afkapdrempel. Hierdoor kunt u de drempel dynamisch berekenen met behulp van beslissingskenmerken en/of externe kenmerken van een Adobe Experience Platform-gegevensset.<br/><br/> uitdrukkingen **van de regel van de Capping van 0} zijn momenteel beschikbaar als Beperkte Beschikbaarheid aan alle gebruikers.** Deze worden alleen ondersteund voor het type **[!UICONTROL In total]** capapping."
 
 Afdekkingen worden gebruikt als beperking om het maximumaantal keren te bepalen dat een aanbiedingsobject kan worden aangeboden. Door het aantal keren dat gebruikers specifieke aanbiedingen krijgen te beperken, kunt u voorkomen dat uw klanten te veel vragen en zo elk aanraakpunt optimaliseren met de beste aanbieding. U kunt tot 10 titels voor een bepaald besluitpunt tot stand brengen.
 
@@ -111,7 +111,7 @@ Afdekkingen worden gebruikt als beperking om het maximumaantal keren te bepalen 
 >
 >De waarde van de afluisterteller kan tot 3 seconden duren om bij te werken. Stel bijvoorbeeld dat u een webbanner weergeeft die een aanbieding op uw website weergeeft. Als een bepaalde gebruiker in minder dan 3 seconden naar de volgende pagina van uw website bladert, wordt de tellerwaarde niet voor die gebruiker verhoogd.
 
-Wanneer het vormen van het begrenzen van regels, kunt u attributen van verwijzingen voorzien die in de datasets van Adobe Experience Platform worden opgeslagen om drempels te bepalen. Als u een gegevensset wilt gebruiken, selecteert u deze in de sectie **[!UICONTROL Dataset]** . [&#x200B; Leer hoe te om de gegevens van Adobe Experience Platform voor Beslissing te gebruiken &#x200B;](../experience-decisioning/aep-data-exd.md)
+Wanneer het vormen van het begrenzen van regels, kunt u attributen van verwijzingen voorzien die in de datasets van Adobe Experience Platform worden opgeslagen om drempels te bepalen. Als u een gegevensset wilt gebruiken, selecteert u deze in de sectie **[!UICONTROL Dataset]** . [ Leer hoe te om de gegevens van Adobe Experience Platform voor Beslissing te gebruiken ](../experience-decisioning/aep-data-exd.md)
 
 ![](assets/exd-lookup-capping.png)
 
@@ -124,7 +124,7 @@ Klik op de knop **[!UICONTROL Create capping]** en voer de onderstaande stappen 
    * **[!UICONTROL Decision event]** (standaardwaarde): het maximale aantal keer dat een aanbieding kan worden gepresenteerd.
    * **[!UICONTROL Impression]** (alleen binnenkomende kanalen): het maximale aantal keren dat de aanbieding aan een gebruiker kan worden weergegeven.
    * **[!UICONTROL Clicks]**: een gebruiker kan maximaal aantal keer op het beslissingsitem klikken.
-   * **[!UICONTROL Custom event]**: Uiteinde gebaseerd op zaken of gedragservaringsgebeurtenissen die u in Adobe Experience Platform-bijvoorbeeld, aflossingen, aankopen, of kartkassen registreert. De gebeurtenis van de douane die gebruik [&#x200B; Adobe Experience Platform XDM &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} ervaringsgebeurtenissen begrenst die u opneemt. In het vervolgkeuzemenu wijst u de specifieke ervaringsgebeurtenis toe die het uiteinde moet aansturen, zodat de plafondteller telkens wanneer die gebeurtenis wordt ontvangen, wordt verhoogd. Het toewijzen van programmacode aan leveringsgebeurtenissen voor kanalen, zoals verzenden via e-mail, wordt niet ondersteund: Aangepaste gebeurtenis is alleen van toepassing op ervaringsgebeurtenissen die u opgeeft, niet op bezorgings- of verzendgebeurtenissen.
+   * **[!UICONTROL Custom event]**: Uiteinde gebaseerd op zaken of gedragservaringsgebeurtenissen die u in Adobe Experience Platform-bijvoorbeeld, aflossingen, aankopen, of kartkassen registreert. De gebeurtenis van de douane die gebruik [ Adobe Experience Platform XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} ervaringsgebeurtenissen begrenst die u opneemt. In het vervolgkeuzemenu wijst u de specifieke ervaringsgebeurtenis toe die het uiteinde moet aansturen, zodat de plafondteller telkens wanneer die gebeurtenis wordt ontvangen, wordt verhoogd. Het toewijzen van programmacode aan leveringsgebeurtenissen voor kanalen, zoals verzenden via e-mail, wordt niet ondersteund: Aangepaste gebeurtenis is alleen van toepassing op ervaringsgebeurtenissen die u opgeeft, niet op bezorgings- of verzendgebeurtenissen.
 
    +++Afdekkingen voor het pushkanaal
 
@@ -188,8 +188,10 @@ Klik op de knop **[!UICONTROL Create capping]** en voer de onderstaande stappen 
 
    ![](assets/item-capping-rules.png)
 
-<!--* Identifying how many times a given customer has been shown a decision item. 
-If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
+<!--
+* Identifying how many times a given customer has been shown a decision item. 
+If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event
+-->
 
 ## Het beslissingsonderdeel beoordelen en goedkeuren {#approve}
 

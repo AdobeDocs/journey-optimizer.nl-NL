@@ -9,7 +9,7 @@ role: Admin, Developer
 level: Experienced
 keywords: toestemming, high-level, laag-level, profiel, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Elke rol bestaat uit machtigingen waarmee gebruikers toegang hebben tot de versc
 
 Zij kunnen in twee types worden verdeeld:
 
-* **toestemming op hoog niveau**: vertegenwoordigt de verschillende toestemmingen die aan **[!UICONTROL Role]**, zoals **[!DNL Publish journeys]** en **[!DNL Manage subdomains delegation]** kunnen worden toegewezen. Rechten op hoog niveau omvatten bevoegdheden op laag niveau. De toestemmingen op hoog niveau zijn gedetailleerd op [&#x200B; deze pagina &#x200B;](ootb-permissions.md).
+* **toestemming op hoog niveau**: vertegenwoordigt de verschillende toestemmingen die aan **[!UICONTROL Role]**, zoals **[!DNL Publish journeys]** en **[!DNL Manage subdomains delegation]** kunnen worden toegewezen. Rechten op hoog niveau omvatten bevoegdheden op laag niveau. De toestemmingen op hoog niveau zijn gedetailleerd op [ deze pagina ](ootb-permissions.md).
 
 * **laagvlakke toestemming**: vertegenwoordigt de verschillende toestemmingen die uit de toestemming op hoog niveau komen.
 
@@ -176,11 +176,13 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
       * campaign.read
       * campaign.write
       * campaign.delete
-     <!--* experiments.read
+     <!--
+      * experiments.read
       * experiments.write
-      * experiments.delete-->
+      * experiments.delete
+-->
 
-  +++
++++
 
 * Met machtiging op hoog niveau van **[!DNL Publish campaigns]** kunnen gebruikers campagnes publiceren.
 
@@ -190,9 +192,11 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
 
       * door campagne gelezen
       * campagnepublicatie
-        <!--* experiments.activate-->
+     <!--
+      * experiments.activate
+-->
 
-  +++
++++
 
 * Met machtiging op hoog niveau van **[!DNL View campaigns report]** kunnen gebruikers campagnerapport lezen en bewerken.
 
@@ -201,10 +205,12 @@ De rol **[!DNL Journey administrator]** wordt bijvoorbeeld toegewezen aan de mac
    * specifiek voor Journey Optimizer:
       * campaign.read
       * campaign-report.read
-     <!--* experiments.read
-      * experiments_report.read-->
+     <!--
+      * experiments.read
+      * experiments_report.read
+-->
 
-  +++
++++
 
 ## Hulpbron voor Besluit {#decisions-permissions}
 

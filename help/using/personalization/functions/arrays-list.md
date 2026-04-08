@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 2%
@@ -101,7 +101,7 @@ De functie `head` wordt gebruikt om het eerste item in een array of lijst te ret
 
 **Voorbeeld**
 
-De volgende bewerking retourneert de eerste van de bovenste vijf bestellingen met de hoogste prijs. Meer informatie over de `topN` functie kan in [&#x200B; eerst `n` in serie &#x200B;](#first-n) sectie worden gevonden.
+De volgende bewerking retourneert de eerste van de bovenste vijf bestellingen met de hoogste prijs. Meer informatie over de `topN` functie kan in [ eerst `n` in serie ](#first-n) sectie worden gevonden.
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
@@ -187,7 +187,8 @@ De volgende bewerking definieert personen van wie de favoriete kleuren ten minst
 ```
 
 
-<!-- ## Intersection{#intersection}
+<!--
+## Intersection{#intersection}
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
@@ -217,7 +218,7 @@ De functie `bottomN` sorteert een array in oplopende volgorde op basis van de op
 ```
 
 | Argument | Beschrijving |
-| --------- | ----------- | 
+| --------- | ----------- |
 | `{ARRAY}` | De array of lijst die moet worden gesorteerd. |
 | `{VALUE}` | De eigenschap waarin de array of de lijst moet worden gesorteerd. |
 | `{AMOUNT}` | Het aantal objecten dat moet worden geretourneerd. |

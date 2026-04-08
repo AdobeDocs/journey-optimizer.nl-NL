@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 keywords: query, collecties, functies, lading, reis
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 0%
@@ -73,14 +73,14 @@ De functie **[!UICONTROL all]** laat de definitie van een filter op een bepaalde
 
 Zo kunt u onder alle gebruikers van de app de toepassingen ophalen met IOS 13 (Booleaanse expressie &quot;app used == IOS 13&quot;). Het resultaat van deze functie is de gefilterde lijst met items die overeenkomen met de booleaanse expressie (bijvoorbeeld: app-gebruiker 1, app-gebruiker 34, app-gebruiker 432).
 
-Bij een Source Condition-activiteit van Data kunt u controleren of het resultaat van de functie **[!UICONTROL all]** null is of niet. U kunt deze **[!UICONTROL all]** functie ook combineren met andere functies, zoals **[!UICONTROL count]** . Voor meer informatie, zie [&#x200B; de activiteit van de Voorwaarde van Source van Gegevens &#x200B;](../conditions.md#data_source_condition).
+Bij een Source Condition-activiteit van Data kunt u controleren of het resultaat van de functie **[!UICONTROL all]** null is of niet. U kunt deze **[!UICONTROL all]** functie ook combineren met andere functies, zoals **[!UICONTROL count]** . Voor meer informatie, zie [ de activiteit van de Voorwaarde van Source van Gegevens ](../conditions.md#data_source_condition).
 
 
 ## Voorbeelden
 
 >[!CAUTION]
 >
->Het gebruik van ervaringsevenementen in reisexpressies/omstandigheden wordt ondersteund, maar niet aanbevolen. Als uw gebruiksgeval het gebruik van ervaringsgebeurtenissen vereist, overweeg alternatieve methodes zoals [&#x200B; gegevens verwerkte attributen &#x200B;](../../audience/computed-attributes.md), of het creëren van een segment gebruikend de gebeurtenissen en het opnemen van dat segment in [`inAudience` uitdrukkingen &#x200B;](../../building-journeys/functions/functioninaudience.md).
+>Het gebruik van ervaringsevenementen in reisexpressies/omstandigheden wordt ondersteund, maar niet aanbevolen. Als uw gebruiksgeval het gebruik van ervaringsgebeurtenissen vereist, overweeg alternatieve methodes zoals [ gegevens verwerkte attributen ](../../audience/computed-attributes.md), of het creëren van een segment gebruikend de gebeurtenissen en het opnemen van dat segment in [`inAudience` uitdrukkingen ](../../building-journeys/functions/functioninaudience.md).
 
 **Voorbeeld 1:**
 
@@ -102,7 +102,8 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 
 Het resultaat zal waar zijn.
 
-<!--Alternatively, you can check if there is no token in the collection:
+<!--
+Alternatively, you can check if there is no token in the collection:
 
    ```json
    count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) == 0
@@ -123,7 +124,8 @@ Note that when the condition in the **all()** function is empty, the filter will
 In both cases, the result of the expression is **3**.
 
 A query of experience events recorded on the Adobe Experience Platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which [!DNL Journey Orchestration] sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the Adobe Experience Platform. For example, when using the .all() syntax to query experience events from the Adobe Experience Platform, we recommend enforcing the exclusion of the current event (by requiring an
-earlier timestamp) in order to only consider prior events.-->
+earlier timestamp) in order to only consider prior events.
+-->
 
 >[!NOTE]
 >
@@ -160,7 +162,8 @@ count(
 )._id}) > 0
 ```
 
-<!--**"All + Count" example 4:** here we use the count function in a boolean expression to see if there is push notification tokens in the collection.
+<!--
+**"All + Count" example 4:** here we use the count function in a boolean expression to see if there is push notification tokens in the collection.
 
 `count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) > 0`
 
@@ -174,7 +177,8 @@ Alternatively, you can check if there is NO token in the collection:
 
 The result will be:
 
-`false`-->
+`false`
+-->
 
 >[!NOTE]
 >

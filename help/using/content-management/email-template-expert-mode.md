@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 145944952ad9aca752085588526f71e8034b8611
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 2%
@@ -45,21 +45,21 @@ Wanneer u de geavanceerde HTML-editor gebruikt, beschermen de volgende instructi
 
 >[!WARNING]
 >
->De geavanceerde HTML-editor in de inhoudssjabloon is niet dezelfde als de modus **[!UICONTROL Code your own]** in de e-mailtoepassing van Designer. In de modus [!UICONTROL Code your own] kunt u niet terugschakelen naar de visuele editor. Als u eenmaal dat pad hebt gekozen, kunt u alleen codebewerkingen uitvoeren. Met de geavanceerde HTML-editor kunt u daarentegen op elk gewenst moment schakelen tussen de HTML-weergave en de (visuele) desktopweergave. [&#x200B; leer meer over de coderedacteur &#x200B;](../email/code-content.md)
+>De geavanceerde HTML-editor in de inhoudssjabloon is niet dezelfde als de modus **[!UICONTROL Code your own]** in de e-mailtoepassing van Designer. In de modus [!UICONTROL Code your own] kunt u niet terugschakelen naar de visuele editor. Als u eenmaal dat pad hebt gekozen, kunt u alleen codebewerkingen uitvoeren. Met de geavanceerde HTML-editor kunt u daarentegen op elk gewenst moment schakelen tussen de HTML-weergave en de (visuele) desktopweergave. [ leer meer over de coderedacteur ](../email/code-content.md)
 
 ## Overschakelen naar de geavanceerde HTML-weergave {#switch-to-html-view}
 
 Voer de volgende stappen uit om de geavanceerde HTML-editor te openen en de sjabloonbron te bewerken.
 
-1. Open of creeer een [&#x200B; e-mailmalplaatje &#x200B;](../content-management/create-content-templates.md) en open [&#x200B; E-mail Designer &#x200B;](../email/get-started-email-design.md) om de inhoud uit te geven.
+1. Open of creeer een [ e-mailmalplaatje ](../content-management/create-content-templates.md) en open [ E-mail Designer ](../email/get-started-email-design.md) om de inhoud uit te geven.
 
 1. Klik op de knop **[!UICONTROL HTML]** in de rechterbovenhoek van het scherm.
 
-   ![&#x200B; Plaats van de knoop van HTML in de toolbar van Designer E-mail &#x200B;](assets/email-template-expert-mode-button.png)
+   ![ Plaats van de knoop van HTML in de toolbar van Designer E-mail ](assets/email-template-expert-mode-button.png)
 
 1. De eerste keer dat u de geavanceerde HTML-editor opent, wordt een waarschuwingsbericht weergegeven. Bekijk deze zorgvuldig en klik op **[!UICONTROL OK]** om door te gaan. [Meer informatie](#guardrails)
 
-   ![&#x200B; de dialoog van de Waarschuwing wanneer het openen van de geavanceerde redacteur van HTML voor het eerst &#x200B;](assets/email-template-expert-mode-warning.png){zoomable="yes"}
+   ![ de dialoog van de Waarschuwing wanneer het openen van de geavanceerde redacteur van HTML voor het eerst ](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ Voer de volgende stappen uit om de geavanceerde HTML-editor te openen en de sjab
 
 1. De geavanceerde HTML-editor wordt weergegeven.
 
-   ![&#x200B; Geavanceerde de redacteursinterface van HTML die de broncode van het e-mailmalplaatje toont &#x200B;](assets/email-template-expert-mode.png)
+   ![ Geavanceerde de redacteursinterface van HTML die de broncode van het e-mailmalplaatje toont ](assets/email-template-expert-mode.png)
 
 1. Voeg de gewenste wijzigingen toe aan uw e-mailinhoud.
 
@@ -77,14 +77,15 @@ Voer de volgende stappen uit om de geavanceerde HTML-editor te openen en de sjab
 
 1. Vanwege compatibiliteitsredenen zijn het simuleren en opslaan van inhoud niet beschikbaar in de geavanceerde HTML-weergave. Schakel terug naar de weergave Computer om een voorvertoning van uw inhoud weer te geven en uw wijzigingen op te slaan.
 
-   ![&#x200B; Schakelaar terug naar de mening van de Desktop om uw veranderingen te bewaren &#x200B;](assets/email-template-expert-mode-save.png){zoomable="yes"}
+   ![ Schakelaar terug naar de mening van de Desktop om uw veranderingen te bewaren ](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
    >Uw bewerkingen blijven behouden wanneer u van weergave verandert.
 
 <!--
-    ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}-->
+    ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}
+-->
 
 ## Verwante onderwerpen
 

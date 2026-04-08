@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 1%
@@ -48,7 +48,7 @@ In deze sectie kunt u verschillende landinstellingen instellen voor het beheer v
 
 1. Selecteer de **[!UICONTROL Locales]** die aan deze instellingen is gekoppeld. U kunt maximaal 50 landinstellingen toevoegen.
 
-   Als een **[!UICONTROL Locale]** ontbreekt, kunt u het manueel van tevoren van het **[!UICONTROL Translation]** menu of door API tot stand brengen. Verwijs naar [&#x200B; creeer een nieuwe Scène &#x200B;](multilingual-locale.md).
+   Als een **[!UICONTROL Locale]** ontbreekt, kunt u het manueel van tevoren van het **[!UICONTROL Translation]** menu of door API tot stand brengen. Verwijs naar [ creeer een nieuwe Scène ](multilingual-locale.md).
 
    ![](assets/multilingual-settings-2.png)
 
@@ -85,7 +85,7 @@ In deze sectie kunt u verschillende landinstellingen instellen voor het beheer v
    >
    >Deze voorwaarden zijn alleen vereist voor de kanalen voor de in-app- en inhoudskaarten.
 
-   1. Open het menu **[!UICONTROL Rules]** in Adobe Experience Platform Data Collection en maak een nieuwe regel. De gedetailleerde informatie over hoe te om regels tot stand te brengen is beschikbaar in [!DNL Adobe Experience Platform] [&#x200B; documentatie van de Inzameling van Gegevens &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. Open het menu **[!UICONTROL Rules]** in Adobe Experience Platform Data Collection en maak een nieuwe regel. De gedetailleerde informatie over hoe te om regels tot stand te brengen is beschikbaar in [!DNL Adobe Experience Platform] [ documentatie van de Inzameling van Gegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    2. Voeg in de sectie **[!UICONTROL IF]** van de regel een gebeurtenis toe die als volgt is geconfigureerd:
 
@@ -143,7 +143,7 @@ Nadat u de taalvoorkeuren hebt ingesteld, kunt u deze niet meer bewerken.
 
 Nadat u meertalige inhoud hebt ingesteld, kunt u uw campagne of reis plannen en de inhoud voor elk van uw geselecteerde landinstellingen aanpassen.
 
-1. Begin door uw E-mail, SMS of Push bericht [&#x200B; campagne &#x200B;](../campaigns/create-campaign.md) te creëren en te vormen of [&#x200B; reis &#x200B;](../building-journeys/journey-action.md) volgens uw vereisten.
+1. Begin door uw E-mail, SMS of Push bericht [ campagne ](../campaigns/create-campaign.md) te creëren en te vormen of [ reis ](../building-journeys/journey-action.md) volgens uw vereisten.
 
    >[!IMPORTANT]
    >
@@ -197,5 +197,4 @@ U kunt nu uw campagne of reis activeren. Als u eenmaal bent verzonden, kunt u de
 1. Create your journey with a Delivery and personalize your content as needed.
 1. From your delivery action, click Edit content.
 1. Click Add languages.
-
 -->

@@ -5,7 +5,8 @@ feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
-source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
+exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # E-mailtekst voor AI-invakken optimaliseren {#email-text-optimizer}
 
-[!DNL Adobe Journey Optimizer] komt met een e-mail-kanaal vermogen dat u helpt de [&#x200B; tekstversie &#x200B;](../email/text-version-email.md) van uw berichten voor betere AI-Gesteunde inbox ervaart-zoals [!DNL Apple Intelligence] en [!DNL Google Gemini] in [!DNL Gmail]-zodat kunnen zij vragen beantwoorden en post samenvatten die op uw inhoud wordt gebaseerd nauwkeuriger, met betere resultaten.
+[!DNL Adobe Journey Optimizer] komt met een e-mail-kanaal vermogen dat u helpt de [ tekstversie ](../email/text-version-email.md) van uw berichten voor betere AI-Gesteunde inbox ervaart-zoals [!DNL Apple Intelligence] en [!DNL Google Gemini] in [!DNL Gmail]-zodat kunnen zij vragen beantwoorden en post samenvatten die op uw inhoud wordt gebaseerd nauwkeuriger, met betere resultaten.
 
 >[!NOTE]
 >
@@ -36,12 +37,13 @@ Om deze problemen te voorkomen, herschrijft [!DNL Journey Optimizer] de onbewerk
 >
 >Het exacte gedrag van de AI-assistent is afhankelijk van de inbox-provider en de modelversie. Nadat uw e-mail is bezorgd, kunnen de antwoorden en samenvattingen die door externe AI cliënten worden verstrekt verkeerd zijn, onvolledig, of met Webresultaten gemengd.
 >
->Met de functie E-mailtekst optimaliseren voor AI-invakken wordt alleen de normale tekst verbeterd die u in Journey Optimizer hebt gemaakt. U kunt hiermee niet garanderen hoe een externe assistent het bericht zal interpreteren of weergeven. Lees meer over de [&#x200B; beperkingen en de risico&#39;s van derde inbox AI &#x200B;](#inbox-ai-risks).
+>Met de functie E-mailtekst optimaliseren voor AI-invakken wordt alleen de normale tekst verbeterd die u in Journey Optimizer hebt gemaakt. U kunt hiermee niet garanderen hoe een externe assistent het bericht zal interpreteren of weergeven. Lees meer over de [ beperkingen en de risico&#39;s van derde inbox AI ](#inbox-ai-risks).
 
 ## Aanbevolen gebruiksgevallen {#use-cases}
 
 <!--
-* **Critical details only in images** — Offers, promo codes, or deadlines shown in banners or graphics are invisible in plain text. Use the optimizer (and manual edits) so the same facts appear as text, improving extraction by AI summaries and text-only clients.-->
+* **Critical details only in images** — Offers, promo codes, or deadlines shown in banners or graphics are invisible in plain text. Use the optimizer (and manual edits) so the same facts appear as text, improving extraction by AI summaries and text-only clients.
+-->
 
 * **ontken of gefragmenteerde auto-geproduceerde tekst** - wanneer de standaard duidelijke tekst moeilijk is te scrollen, kan de optimalisering een duidelijkere lineaire verhaal met expliciete aanbiedingen en verbindingen veroorzaken.
 
@@ -51,35 +53,35 @@ Om deze problemen te voorkomen, herschrijft [!DNL Journey Optimizer] de onbewerk
 
 >[!IMPORTANT]
 >
->Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [&#x200B; Risken en beperkingen &#x200B;](#inbox-ai-risks).
+>Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Risken en beperkingen ](#inbox-ai-risks).
 >
->Als u toegang wilt tot deze functie, moet u akkoord gaan met een gebruikersovereenkomst die de eerste keer dat u Generative AI gebruikt, weergeeft in [!DNL Journey Optimizer] . Voor meer informatie, lees de [&#x200B; Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
+>Als u toegang wilt tot deze functie, moet u akkoord gaan met een gebruikersovereenkomst die de eerste keer dat u Generative AI gebruikt, weergeeft in [!DNL Journey Optimizer] . Voor meer informatie, lees de [ Generatieve AI Richtlijnen van de Gebruiker van Adobe Experience Cloud ](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
 Volg onderstaande stappen om de normale tekstversie van uw e-mailbericht te optimaliseren voor AI-vakken met [!DNL Journey Optimizer] .
 
-1. Open uw e-mail in [&#x200B; E-mail Designer &#x200B;](../email/content-from-scratch.md) (van een campagne, reis, of malplaatje, afhankelijk van uw werkschema).
+1. Open uw e-mail in [ E-mail Designer ](../email/content-from-scratch.md) (van een campagne, reis, of malplaatje, afhankelijk van uw werkschema).
 
 1. Selecteer het pictogram **[!UICONTROL Plain text]** om de tekstversie van uw e-mail te openen. [Meer informatie](../email/text-version-email.md)
 
-   ![&#x200B; selecteer het Onbewerkte tekstpictogram om de tekstversie van uw e-mail &#x200B;](assets/text-optimizer-text-icon.png){zoomable="yes"} te openen
+   ![ selecteer het Onbewerkte tekstpictogram om de tekstversie van uw e-mail ](assets/text-optimizer-text-icon.png){zoomable="yes"} te openen
 
 1. De tekstversie van uw e-mail wordt weergegeven. Klik op de knop **[!UICONTROL Optimize for AI Inbox]** om een verbeterde versie van onbewerkte tekst te genereren die belangrijke informatie markeert voor lezen en samenvatten met AI-ondersteuning.
 
-   ![&#x200B; optimaliseer voor AI Inbox knoop in de mening van de tekstversie &#x200B;](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
+   ![ optimaliseer voor AI Inbox knoop in de mening van de tekstversie ](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
 
    >[!NOTE]
    >
    >Als u op de knop **[!UICONTROL Optimize for AI Inbox]** klikt, wordt de optie **[!UICONTROL Sync with HTML]** automatisch uitgeschakeld. [Meer informatie](../email/text-version-email.md#plain-text-custom)
 
-1. Als dit de eerste keer is dat u Generative AI gebruikt in [!DNL Journey Optimizer] , wordt u gevraagd akkoord te gaan met de gebruikersovereenkomst. Om meer te leren, controleer de [&#x200B; Generatieve AI Richtlijnen van de Gebruiker van Adobe &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
+1. Als dit de eerste keer is dat u Generative AI gebruikt in [!DNL Journey Optimizer] , wordt u gevraagd akkoord te gaan met de gebruikersovereenkomst. Om meer te leren, controleer de [ Generatieve AI Richtlijnen van de Gebruiker van Adobe ](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
-   ![&#x200B; Generatieve de dialoog van de AI gebruikersovereenkomst in Journey Optimizer &#x200B;](assets/text-optimizer-agreement.png){width=50%}
+   ![ Generatieve de dialoog van de AI gebruikersovereenkomst in Journey Optimizer ](assets/text-optimizer-agreement.png){width=50%}
 
    Klik op **[!UICONTROL Agree]** om door te gaan.
 
 1. De gegenereerde tekst wordt weergegeven. Controleer de wijzigingen, bewerk indien nodig de wijzigingen en sla uw e-mail op de gebruikelijke manier op.
 
-   ![&#x200B; Gegenereerde tekst in de mening van de tekstversie &#x200B;](assets/text-optimizer-output.png){zoomable="yes" width="80%"}
+   ![ Gegenereerde tekst in de mening van de tekstversie ](assets/text-optimizer-output.png){zoomable="yes" width="80%"}
 
    >[!NOTE]
    >
@@ -109,4 +111,4 @@ Met de functie E-mailtekst optimaliseren voor AI-invakken kunt u normale tekst v
 
 * [De tekstversie van een e-mail beheren](../email/text-version-email.md)
 * [Aan de slag met e-mailontwerp](../email/get-started-email-design.md)
-* Voor de generatieve eigenschappen van Adobe breder, zie [&#x200B; begonnen worden met AI Medewerker om inhoud &#x200B;](gs-generative.md) tot stand te brengen.
+* Voor de generatieve eigenschappen van Adobe breder, zie [ begonnen worden met AI Medewerker om inhoud ](gs-generative.md) tot stand te brengen.

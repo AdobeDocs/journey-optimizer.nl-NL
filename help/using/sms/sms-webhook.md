@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 7b6efb1997074723be25b0f99d47debb1f1188e0
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '2579'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Voor Sinch en Sinch Conversational, creeer één enkele webhaak die zowel binnen
 
    * **[!UICONTROL Select SMS vendor]**: Sinch- of Sinch-gesprek.
 
-   * **[!UICONTROL API credentials]**: Kies van drop-down u [&#x200B; eerder gevormde API geloofsbrieven &#x200B;](sms-configuration-sinch.md).
+   * **[!UICONTROL API credentials]**: Kies van drop-down u [ eerder gevormde API geloofsbrieven ](sms-configuration-sinch.md).
 
    * **[!UICONTROL Sender Phone Number]**: ga het aantal van de afzendertelefoon in u voor uw mededelingen wilt gebruiken.
 
@@ -104,58 +104,53 @@ Voor Sinch en Sinch Conversational, creeer één enkele webhaak die zowel binnen
 
 1. Selecteer een trefwoordcategorie in de vervolgkeuzelijst **[!UICONTROL Inbound Keyword Category]** die u wilt configureren:
 
-   * &#x200B;
-     +++ Inschakelen
+   +++ Inschakelen
 
-      * Trefwoorden inschakelen die gebruikers met hun toestemming aanmelden. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, wordt hun telefoonaantal verkozen binnen om de berichten van SMS te ontvangen.
+   * Trefwoorden inschakelen die gebruikers met hun toestemming aanmelden. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, wordt hun telefoonaantal verkozen binnen om de berichten van SMS te ontvangen.
 
-      * Standaard zijn de volgende trefwoorden ingeschakeld: Abonneren, Ja, Stoppen, Doorgaan, Hervatten en Beginnen. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
+   * Standaard zijn de volgende trefwoorden ingeschakeld: Abonneren, Ja, Stoppen, Doorgaan, Hervatten en Beginnen. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
 
-      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een Opt-In-trefwoord.
+   * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een Opt-In-trefwoord.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Uitschakelen
+   +++ Uitschakelen
 
-      * Schakel trefwoorden in die gebruikers weigeren en verwijder toestemming om tekstberichten te verzenden. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, wordt hun telefoonaantal uit het ontvangen van de berichten van SMS verkozen.
+   * Schakel trefwoorden in die gebruikers weigeren en verwijder toestemming om tekstberichten te verzenden. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, wordt hun telefoonaantal uit het ontvangen van de berichten van SMS verkozen.
 
-      * Standaard zijn de volgende trefwoorden ingeschakeld: Stoppen, Afsluiten, Annuleren, Einde, Afmelden, Nee. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
+   * Standaard zijn de volgende trefwoorden ingeschakeld: Stoppen, Afsluiten, Annuleren, Einde, Afmelden, Nee. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
 
-      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een uitschakeltrefwoord.
+   * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een uitschakeltrefwoord.
 
-      * Schakel **[!UICONTROL Fuzzy Logic]** in om vergelijkbare trefwoorden te detecteren als geconfigureerde uitschakeltrefwoorden. Als de reactie van een gebruiker dicht maar niet nauwkeurig is, wordt het bericht ingegaan in het **[!UICONTROL Fuzzy Auto Response]** gebied verzonden. Doorgaans geeft dit bericht aan dat de optie niet is ingeschakeld en geeft het exacte trefwoord op dat nodig is om het abonnement op te zeggen.
+   * Schakel **[!UICONTROL Fuzzy Logic]** in om vergelijkbare trefwoorden te detecteren als geconfigureerde uitschakeltrefwoorden. Als de reactie van een gebruiker dicht maar niet nauwkeurig is, wordt het bericht ingegaan in het **[!UICONTROL Fuzzy Auto Response]** gebied verzonden. Doorgaans geeft dit bericht aan dat de optie niet is ingeschakeld en geeft het exacte trefwoord op dat nodig is om het abonnement op te zeggen.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Dubbele plug-in
+   +++ Dubbele plug-in
 
-      * Trefwoorden inschakelen voor de vereiste dubbele aanmelding. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, zijn zij niet volledig open-binnen in dit stadium. Deze tweestapstoestemmingswerkstroom vereist gebruikers om hun opt-in met een tweede sleutelwoord te bevestigen.
+   * Trefwoorden inschakelen voor de vereiste dubbele aanmelding. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, zijn zij niet volledig open-binnen in dit stadium. Deze tweestapstoestemmingswerkstroom vereist gebruikers om hun opt-in met een tweede sleutelwoord te bevestigen.
 
-      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer een trefwoord voor dubbele aanmelding overeenkomt. Dit bericht instrueert de gebruiker om een Opt-In sleutelwoord in te gaan om het opt-in proces te voltooien.
+   * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer een trefwoord voor dubbele aanmelding overeenkomt. Dit bericht instrueert de gebruiker om een Opt-In sleutelwoord in te gaan om het opt-in proces te voltooien.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Help
+   +++ Help
 
-      * Laat sleutelwoorden toe die een standaardreactie verstrekken wanneer de hulp wordt gevraagd. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, ontvangen zij het het antwoordbericht van de Hulp.
+   * Laat sleutelwoorden toe die een standaardreactie verstrekken wanneer de hulp wordt gevraagd. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, ontvangen zij het het antwoordbericht van de Hulp.
 
-      * Standaard zijn de volgende trefwoorden ingeschakeld: Help, Info, Informatie. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
+   * Standaard zijn de volgende trefwoorden ingeschakeld: Help, Info, Informatie. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
 
-      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een Help-trefwoord.
+   * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een Help-trefwoord.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Aangepast
+   +++ Aangepast
 
-      * Configureer één aangepast trefwoord. Wanneer het bericht van een gebruiker dit sleutelwoord aanpast, wordt het sleutelwoord geschreven aan de **[!UICONTROL Message Feedback tracking]** dataset voor het melden van en publiek het opbouwen.
+   * Configureer één aangepast trefwoord. Wanneer het bericht van een gebruiker dit sleutelwoord aanpast, wordt het sleutelwoord geschreven aan de **[!UICONTROL Message Feedback tracking]** dataset voor het melden van en publiek het opbouwen.
 
-      * Bouw een Publiek (het stromen of de partij) die verwijzingen dit sleutelwoord voor gebruik in uw reizen en campagnes.
+   * Bouw een Publiek (het stromen of de partij) die verwijzingen dit sleutelwoord voor gebruik in uw reizen en campagnes.
 
-     +++
+   +++
 
 1. Voer een **[!UICONTROL Default Reply Message]** in. Dit bericht wordt automatisch verzonden wanneer de reactie van een gebruiker geen gevormd sleutelwoord aanpast.
 
@@ -171,16 +166,16 @@ Voor Sinch en Sinch Conversational, creeer één enkele webhaak die zowel binnen
 
 1. Gebruik uw **[!UICONTROL Webhook URL]** om de **Terugkoppeling** en **Binnenkomende** gebeurtenissen toe te laten om in Journey Optimizer te komen.
 
-   * Voor het kanaal van SMS, [&#x200B; leren meer in de documentatie van de Sondt &#x200B;](https://community.sinch.com/t5/SMS/How-do-I-assign-a-callback-URL-to-an-SMS-service/ta-p/8414)
+   * Voor het kanaal van SMS, [ leren meer in de documentatie van de Sondt ](https://community.sinch.com/t5/SMS/How-do-I-assign-a-callback-URL-to-an-SMS-service/ta-p/8414)
 
-   * Voor het kanaal MMS, [&#x200B; leer meer in de documentatie van het Sondje &#x200B;](https://developers.sinch.com/docs/conversation/getting-started#5-handle-incoming-messages)
+   * Voor het kanaal MMS, [ leer meer in de documentatie van het Sondje ](https://developers.sinch.com/docs/conversation/getting-started#5-handle-incoming-messages)
 
    * Voor klanten die SMS rechtstreeks via Journey Optimizer hebben aangeschaft, kunt u een ondersteuningsticket indienen bij de ondersteuning van Adobe. Het Adobe-accountteam configureert de URL van de webhaak voor u.
      ![](assets/webhook-4.png)
 
 Als uw webhaak API-referenties gebruikt die aan een bestaande kanaalconfiguratie zijn gekoppeld, wordt de webhaak onmiddellijk van kracht. Anders maakt u een nieuwe kanaalconfiguratie.
 
-➡️[&#x200B; leer meer op kanaalconfiguratie &#x200B;](sms-configuration-surface.md)
+➡️[ leer meer op kanaalconfiguratie ](sms-configuration-surface.md)
 
 ### Voor Infobip {#create-webhook-infobip}
 
@@ -198,7 +193,7 @@ Voor Infobip, creeer twee afzonderlijke websites: voor de gebeurtenissen van de 
 
    * **[!UICONTROL Type]**: Kies Feedback of Binnenkomend. U moet beide afzonderlijk creëren, hier, beginnen wij met Binnenkomend.
 
-   * **[!UICONTROL API credentials]**: Kies van drop-down u [&#x200B; eerder gevormde API geloofsbrieven &#x200B;](sms-configuration-infobip.md#api-credential).
+   * **[!UICONTROL API credentials]**: Kies van drop-down u [ eerder gevormde API geloofsbrieven ](sms-configuration-infobip.md#api-credential).
 
    * **[!UICONTROL Sender Phone Number]**: ga het aantal van de afzendertelefoon in u voor uw mededelingen wilt gebruiken.
 
@@ -210,58 +205,53 @@ Voor Infobip, creeer twee afzonderlijke websites: voor de gebeurtenissen van de 
 
 1. Selecteer een trefwoordcategorie in de vervolgkeuzelijst **[!UICONTROL Inbound Keyword Category]** die u wilt configureren:
 
-   * &#x200B;
-     +++ Inschakelen
+   +++ Inschakelen
 
-      * Trefwoorden inschakelen die gebruikers met hun toestemming aanmelden. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, wordt hun telefoonaantal verkozen binnen om de berichten van SMS te ontvangen.
+   * Trefwoorden inschakelen die gebruikers met hun toestemming aanmelden. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, wordt hun telefoonaantal verkozen binnen om de berichten van SMS te ontvangen.
 
-      * Standaard zijn de volgende trefwoorden ingeschakeld: Abonneren, Ja, Stoppen, Doorgaan, Hervatten en Beginnen. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
+   * Standaard zijn de volgende trefwoorden ingeschakeld: Abonneren, Ja, Stoppen, Doorgaan, Hervatten en Beginnen. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
 
-      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een Opt-In-trefwoord.
+   * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een Opt-In-trefwoord.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Uitschakelen
+   +++ Uitschakelen
 
-      * Schakel trefwoorden in die gebruikers weigeren en verwijder toestemming om tekstberichten te verzenden. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, wordt hun telefoonaantal uit het ontvangen van de berichten van SMS verkozen.
+   * Schakel trefwoorden in die gebruikers weigeren en verwijder toestemming om tekstberichten te verzenden. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, wordt hun telefoonaantal uit het ontvangen van de berichten van SMS verkozen.
 
-      * Standaard zijn de volgende trefwoorden ingeschakeld: Stoppen, Afsluiten, Annuleren, Einde, Afmelden, Nee. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
+   * Standaard zijn de volgende trefwoorden ingeschakeld: Stoppen, Afsluiten, Annuleren, Einde, Afmelden, Nee. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
 
-      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een uitschakeltrefwoord.
+   * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een uitschakeltrefwoord.
 
-      * Schakel **[!UICONTROL Fuzzy Logic]** in om vergelijkbare trefwoorden te detecteren als geconfigureerde uitschakeltrefwoorden. Als de reactie van een gebruiker dicht maar niet nauwkeurig is, wordt het bericht ingegaan in het **[!UICONTROL Fuzzy Auto Response]** gebied verzonden. Doorgaans geeft dit bericht aan dat de optie niet is ingeschakeld en geeft het exacte trefwoord op dat nodig is om het abonnement op te zeggen.
+   * Schakel **[!UICONTROL Fuzzy Logic]** in om vergelijkbare trefwoorden te detecteren als geconfigureerde uitschakeltrefwoorden. Als de reactie van een gebruiker dicht maar niet nauwkeurig is, wordt het bericht ingegaan in het **[!UICONTROL Fuzzy Auto Response]** gebied verzonden. Doorgaans geeft dit bericht aan dat de optie niet is ingeschakeld en geeft het exacte trefwoord op dat nodig is om het abonnement op te zeggen.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Dubbele plug-in
+   +++ Dubbele plug-in
 
-      * Trefwoorden inschakelen voor de vereiste dubbele aanmelding. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, zijn zij niet volledig open-binnen in dit stadium. Deze tweestapstoestemmingswerkstroom vereist gebruikers om hun opt-in met een tweede sleutelwoord te bevestigen.
+   * Trefwoorden inschakelen voor de vereiste dubbele aanmelding. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, zijn zij niet volledig open-binnen in dit stadium. Deze tweestapstoestemmingswerkstroom vereist gebruikers om hun opt-in met een tweede sleutelwoord te bevestigen.
 
-      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer een trefwoord voor dubbele aanmelding overeenkomt. Dit bericht instrueert de gebruiker om een Opt-In sleutelwoord in te gaan om het opt-in proces te voltooien.
+   * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer een trefwoord voor dubbele aanmelding overeenkomt. Dit bericht instrueert de gebruiker om een Opt-In sleutelwoord in te gaan om het opt-in proces te voltooien.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Help
+   +++ Help
 
-      * Laat sleutelwoorden toe die een standaardreactie verstrekken wanneer de hulp wordt gevraagd. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, ontvangen zij het het antwoordbericht van de Hulp.
+   * Laat sleutelwoorden toe die een standaardreactie verstrekken wanneer de hulp wordt gevraagd. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, ontvangen zij het het antwoordbericht van de Hulp.
 
-      * Standaard zijn de volgende trefwoorden ingeschakeld: Help, Info, Informatie. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
+   * Standaard zijn de volgende trefwoorden ingeschakeld: Help, Info, Informatie. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
 
-      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een Help-trefwoord.
+   * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een Help-trefwoord.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Aangepast
+   +++ Aangepast
 
-      * Configureer één aangepast trefwoord. Wanneer het bericht van een gebruiker dit sleutelwoord aanpast, wordt het sleutelwoord geschreven aan de **[!UICONTROL Message Feedback tracking]** dataset voor het melden van en publiek het opbouwen.
+   * Configureer één aangepast trefwoord. Wanneer het bericht van een gebruiker dit sleutelwoord aanpast, wordt het sleutelwoord geschreven aan de **[!UICONTROL Message Feedback tracking]** dataset voor het melden van en publiek het opbouwen.
 
-      * Bouw een Publiek (het stromen of de partij) die verwijzingen dit sleutelwoord voor gebruik in uw reizen en campagnes.
+   * Bouw een Publiek (het stromen of de partij) die verwijzingen dit sleutelwoord voor gebruik in uw reizen en campagnes.
 
-     +++
+   +++
 
 1. Voer een **[!UICONTROL Default Reply Message]** in. Dit bericht wordt automatisch verzonden wanneer de reactie van een gebruiker geen gevormd sleutelwoord aanpast.
 
@@ -293,7 +283,7 @@ Voor Infobip, creeer twee afzonderlijke websites: voor de gebeurtenissen van de 
 
 Als uw webhaak API-referenties gebruikt die aan een bestaande kanaalconfiguratie zijn gekoppeld, wordt de webhaak onmiddellijk van kracht. Anders maakt u een nieuwe kanaalconfiguratie.
 
-➡️[&#x200B; leer meer op kanaalconfiguratie &#x200B;](sms-configuration-surface.md)
+➡️[ leer meer op kanaalconfiguratie ](sms-configuration-surface.md)
 
 ### Voor aangepaste provider {#create-webhook-custom}
 
@@ -311,7 +301,7 @@ Voor Aangepaste SMS-providers maakt u twee aparte websites: een voor feedbackgeb
 
    * **[!UICONTROL Type]**: Kies Feedback of Binnenkomend. U moet beide afzonderlijk creëren, hier, beginnen wij met Binnenkomend.
 
-   * **[!UICONTROL API credentials]**: Kies van drop-down u [&#x200B; eerder gevormde API geloofsbrieven &#x200B;](sms-configuration-custom.md).
+   * **[!UICONTROL API credentials]**: Kies van drop-down u [ eerder gevormde API geloofsbrieven ](sms-configuration-custom.md).
 
    * **[!UICONTROL Sender Phone Number]**: ga het aantal van de afzendertelefoon in u voor uw mededelingen wilt gebruiken.
 
@@ -323,58 +313,53 @@ Voor Aangepaste SMS-providers maakt u twee aparte websites: een voor feedbackgeb
 
 1. Selecteer een trefwoordcategorie in de vervolgkeuzelijst **[!UICONTROL Inbound Keyword Category]** die u wilt configureren:
 
-   * &#x200B;
-     +++ Inschakelen
+   +++ Inschakelen
 
-      * Trefwoorden inschakelen die gebruikers met hun toestemming aanmelden. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, wordt hun telefoonaantal verkozen binnen om de berichten van SMS te ontvangen.
+   * Trefwoorden inschakelen die gebruikers met hun toestemming aanmelden. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, wordt hun telefoonaantal verkozen binnen om de berichten van SMS te ontvangen.
 
-      * Standaard zijn de volgende trefwoorden ingeschakeld: Abonneren, Ja, Stoppen, Doorgaan, Hervatten en Beginnen. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
+   * Standaard zijn de volgende trefwoorden ingeschakeld: Abonneren, Ja, Stoppen, Doorgaan, Hervatten en Beginnen. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
 
-      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een Opt-In-trefwoord.
+   * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een Opt-In-trefwoord.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Uitschakelen
+   +++ Uitschakelen
 
-      * Schakel trefwoorden in die gebruikers weigeren en verwijder toestemming om tekstberichten te verzenden. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, wordt hun telefoonaantal uit het ontvangen van de berichten van SMS verkozen.
+   * Schakel trefwoorden in die gebruikers weigeren en verwijder toestemming om tekstberichten te verzenden. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, wordt hun telefoonaantal uit het ontvangen van de berichten van SMS verkozen.
 
-      * Standaard zijn de volgende trefwoorden ingeschakeld: Stoppen, Afsluiten, Annuleren, Einde, Afmelden, Nee. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
+   * Standaard zijn de volgende trefwoorden ingeschakeld: Stoppen, Afsluiten, Annuleren, Einde, Afmelden, Nee. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
 
-      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een uitschakeltrefwoord.
+   * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een uitschakeltrefwoord.
 
-      * Schakel **[!UICONTROL Fuzzy Logic]** in om vergelijkbare trefwoorden te detecteren als geconfigureerde uitschakeltrefwoorden. Als de reactie van een gebruiker dicht maar niet nauwkeurig is, wordt het bericht ingegaan in het **[!UICONTROL Fuzzy Auto Response]** gebied verzonden. Doorgaans geeft dit bericht aan dat de optie niet is ingeschakeld en geeft het exacte trefwoord op dat nodig is om het abonnement op te zeggen.
+   * Schakel **[!UICONTROL Fuzzy Logic]** in om vergelijkbare trefwoorden te detecteren als geconfigureerde uitschakeltrefwoorden. Als de reactie van een gebruiker dicht maar niet nauwkeurig is, wordt het bericht ingegaan in het **[!UICONTROL Fuzzy Auto Response]** gebied verzonden. Doorgaans geeft dit bericht aan dat de optie niet is ingeschakeld en geeft het exacte trefwoord op dat nodig is om het abonnement op te zeggen.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Dubbele plug-in
+   +++ Dubbele plug-in
 
-      * Trefwoorden inschakelen voor de vereiste dubbele aanmelding. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, zijn zij niet volledig open-binnen in dit stadium. Deze tweestapstoestemmingswerkstroom vereist gebruikers om hun opt-in met een tweede sleutelwoord te bevestigen.
+   * Trefwoorden inschakelen voor de vereiste dubbele aanmelding. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, zijn zij niet volledig open-binnen in dit stadium. Deze tweestapstoestemmingswerkstroom vereist gebruikers om hun opt-in met een tweede sleutelwoord te bevestigen.
 
-      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer een trefwoord voor dubbele aanmelding overeenkomt. Dit bericht instrueert de gebruiker om een Opt-In sleutelwoord in te gaan om het opt-in proces te voltooien.
+   * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer een trefwoord voor dubbele aanmelding overeenkomt. Dit bericht instrueert de gebruiker om een Opt-In sleutelwoord in te gaan om het opt-in proces te voltooien.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Help
+   +++ Help
 
-      * Laat sleutelwoorden toe die een standaardreactie verstrekken wanneer de hulp wordt gevraagd. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, ontvangen zij het het antwoordbericht van de Hulp.
+   * Laat sleutelwoorden toe die een standaardreactie verstrekken wanneer de hulp wordt gevraagd. Wanneer het bericht van een gebruiker een gevormd sleutelwoord aanpast, ontvangen zij het het antwoordbericht van de Hulp.
 
-      * Standaard zijn de volgende trefwoorden ingeschakeld: Help, Info, Informatie. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
+   * Standaard zijn de volgende trefwoorden ingeschakeld: Help, Info, Informatie. Verwijder standaardtrefwoorden door op ![](assets/do-not-localize/Smock_Close_18_N.svg) te klikken.
 
-      * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een Help-trefwoord.
+   * Gebruik het veld **[!UICONTROL Reply Message]** om een bericht te maken dat automatisch wordt verzonden wanneer het binnenkomende bericht van een gebruiker overeenkomt met een Help-trefwoord.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Aangepast
+   +++ Aangepast
 
-      * Configureer één aangepast trefwoord. Wanneer het bericht van een gebruiker dit sleutelwoord aanpast, wordt het sleutelwoord geschreven aan de **[!UICONTROL Message Feedback tracking]** dataset voor het melden van en publiek het opbouwen.
+   * Configureer één aangepast trefwoord. Wanneer het bericht van een gebruiker dit sleutelwoord aanpast, wordt het sleutelwoord geschreven aan de **[!UICONTROL Message Feedback tracking]** dataset voor het melden van en publiek het opbouwen.
 
-      * Bouw een Publiek (het stromen of de partij) die verwijzingen dit sleutelwoord voor gebruik in uw reizen en campagnes.
+   * Bouw een Publiek (het stromen of de partij) die verwijzingen dit sleutelwoord voor gebruik in uw reizen en campagnes.
 
-     +++
+   +++
 
 1. Voer een **[!UICONTROL Default Reply Message]** in. Dit bericht wordt automatisch verzonden wanneer de reactie van een gebruiker geen gevormd sleutelwoord aanpast.
 
@@ -434,12 +419,12 @@ Voor Aangepaste SMS-providers maakt u twee aparte websites: een voor feedbackgeb
         &quot;json 
         
         &quot;clientReference&quot;: &quot;{{client_reference}}&quot;, 
-        &quot;statussen&quot;: &lbrack;
-       &lbrace;
+        &quot;statussen&quot;: [
+       {
         &quot;code&quot;: &quot;{{failureCode}}&quot;, 
         &quot;status&quot;: &quot;{{feedbackStatus}}&quot;
         
-       &rbrack; 
+       ] 
         
        &quot;
    
@@ -461,4 +446,4 @@ Voor Aangepaste SMS-providers maakt u twee aparte websites: een voor feedbackgeb
 
 Als uw webhaak API-referenties gebruikt die aan een bestaande kanaalconfiguratie zijn gekoppeld, wordt de webhaak onmiddellijk van kracht. Anders maakt u een nieuwe kanaalconfiguratie.
 
-➡️[&#x200B; leer meer op kanaalconfiguratie &#x200B;](sms-configuration-surface.md)
+➡️[ leer meer op kanaalconfiguratie ](sms-configuration-surface.md)

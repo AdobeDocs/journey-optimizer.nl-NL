@@ -11,7 +11,7 @@ version: Journey Orchestration
 hide: true
 hidefromtoc: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 1%
@@ -34,7 +34,7 @@ ht-degree: 1%
 
 **Perfect voor:** Bevestigingen van de Orde na aankoop, welkome e-mails wanneer iemand zich abonneert, wortelbeëindiging teweeggebracht door het doorbladeren, en wachtwoord terugstellende berichten.
 
-➡️ [&#x200B; Leer over gebeurtenissen &#x200B;](../event/about-events.md) | [&#x200B; Bericht aan abonnees gebruikt geval &#x200B;](message-to-subscribers-uc.md)
+➡️ [ Leer over gebeurtenissen ](../event/about-events.md) | [ Bericht aan abonnees gebruikt geval ](message-to-subscribers-uc.md)
 
 >[!TAB  lees de reizen van het Publiek ]
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 **Perfect voor:** Maandelijkse nieuwsbrieven, promotiecampagnes aan doelsegmenten, productaankondigingen, en seizoensgebonden marketing campagnes.
 
-➡️ [&#x200B; Leer over Gelezen Publiek &#x200B;](read-audience.md) | [&#x200B; krijgen begonnen met publiek &#x200B;](../audience/about-audiences.md)
+➡️ [ Leer over Gelezen Publiek ](read-audience.md) | [ begonnen met publiek ](../audience/about-audiences.md)
 
 >[!TAB  reizen van de Kwalificatie van het publiek ]
 
@@ -54,17 +54,17 @@ ht-degree: 1%
 
 **Perfect voor:** de de rijverbeteringsberichten van VIP, re-engagement wanneer de klanten inactief worden, eerste de berichten van de aankoopviering, en geografisch gericht richten wanneer de klanten zich bewegen.
 
-➡️ [&#x200B; Leer over de Kwalificatie van het Publiek &#x200B;](audience-qualification-events.md) | [&#x200B; Creërend publiek &#x200B;](../audience/creating-a-segment-definition.md)
+➡️ [ Leer over de Kwalificatie van het Publiek ](audience-qualification-events.md) | [ Creërend publiek ](../audience/creating-a-segment-definition.md)
 
 >[!TAB  Van bedrijfs gebeurtenisreizen ]
 
 **Wanneer te gebruiken:** Bedrijfs voorwaarden die veelvoudige klanten beïnvloeden
 
-&lbrace;de ritten van de Bedrijfs gebeurtenis **worden teweeggebracht door zaken-vlakke gebeurtenissen (voorraadupdates, weeralarm, prijsveranderingen) die veelvoudige profielen gelijktijdig beïnvloeden.** Deze maatregelen zijn eerder gericht op bredere bedrijfsomstandigheden dan op individuele acties.
+{de ritten van de Bedrijfs gebeurtenis **worden teweeggebracht door zaken-vlakke gebeurtenissen (voorraadupdates, weeralarm, prijsveranderingen) die veelvoudige profielen gelijktijdig beïnvloeden.** Deze maatregelen zijn eerder gericht op bredere bedrijfsomstandigheden dan op individuele acties.
 
 **Perfect voor:** Lage inventarisalarm aan geïnteresseerde klanten, de aankondigingen van de flitsverkoop, op weer-gebaseerde bevorderingen, de berichten van de prijsdaling, en product achterstandsalarm.
 
-➡️ [&#x200B; Leer over bedrijfsgebeurtenissen &#x200B;](../event/about-creating-business.md) | [&#x200B; Invoerbeheer &#x200B;](entry-management.md)
+➡️ [ Leer over bedrijfsgebeurtenissen ](../event/about-creating-business.md) | [ het beheer van de Ingang ](entry-management.md)
 
 >[!ENDTABS]
 
@@ -130,34 +130,34 @@ Niet alle functies zijn beschikbaar voor alle soorten reizen. Gebruik deze matri
 
 | Functie/mogelijkheid | Unitair | Publiek lezen | Poortkwalificatie | Zakelijke gebeurtenis |
 |---------------------|:-------:|:-------------:|:----------------------:|:--------------:|
-| **mechanismen van de Ingang** |
+| **mechanismen van de Ingang** | | | | |
 | Gebeurtenisgestuurde vermelding | ✅ | ❌ | ❌ | ✅ |
 | Gepland item | ❌ | ✅ | ❌ | ❌ |
 | Publiek-gebaseerd item | ❌ | ✅ | ✅ | ❌ |
-| **de eigenschappen van 0&rbrace; Orchestration** |
+| **de eigenschappen van 0} Orchestration** | | | | |
 | Wachten op activiteiten | ✅ | ✅ | ✅ | ✅ |
 | Conditioneringsactiviteiten | ✅ | ✅ | ✅ | ✅ |
 | Aangepaste acties | ✅ | ✅ | ✅ | ✅ |
 | Lees de publieksactiviteit (binnenreis) | ✅ | ✅ | ✅ | ✅ |
 | Kwalificatieactiviteit van het publiek | ✅ | ✅ | ✅ | ✅ |
 | Snelheid | ✅ | ✅ | ✅ | ✅ |
-| **het beheer van het Profiel** |
+| **het beheer van het Profiel** | | | | |
 | Opnieuw openen van profiel | ✅ Configureerbaar | ❌ Eenmaal per uitvoering | ✅ Configureerbaar | ✅ Per gebeurtenis |
 | Naamruimteconfiguratie | ✅ Vereist | ✅ Optioneel | ✅ Vereist | ✅ Vereist |
 | Profiel uiteinde | ✅ | ✅ | ✅ | ✅ |
-| **het Testen &amp; optimalisering** |
+| **het Testen &amp; optimalisering** | | | | |
 | Testmodus | ✅ | ✅ | ✅ | ✅ |
 | Droge run | ✅ | ✅ | ✅ | ✅ |
 | Padexperimenten (A/B-tests) | ✅ | ✅ | ✅ | ❌ |
 | Optimalisatie bij verzending | ✅ | ✅ | ✅ | ✅ |
-| **Kanalen** |
+| **Kanalen** | | | | |
 | Email | ✅ | ✅ | ✅ | ✅ |
 | Pushmeldingen | ✅ | ✅ | ✅ | ✅ |
 | SMS/MMS | ✅ | ✅ | ✅ | ✅ |
 | In-app berichten | ✅ | ✅ | ✅ | ✅ |
 | Web | ✅ | ✅ | ✅ | ✅ |
 | Inhoudskaarten | ✅ | ✅ | ✅ | ✅ |
-| **Geavanceerde mogelijkheden** |
+| **Geavanceerde mogelijkheden** | | | | |
 | Incrementeel lezen | ❌ | ✅ | ❌ | ❌ |
 | Exportpubliek | ✅ | ✅ | ✅ | ✅ |
 | Tijdzonebeheer | ✅ | ✅ | ✅ | ✅ |
@@ -165,7 +165,7 @@ Niet alle functies zijn beschikbaar voor alle soorten reizen. Gebruik deze matri
 | Externe databronnen | ✅ | ✅ | ✅ | ✅ |
 | Throtting/Capping | ✅ | ✅ | ✅ | ✅ |
 
-**Legend:** ✅ = Gesteund | ❌ = Niet ondersteund
+**Legend:** ✅ = Gesteund | ❌ = niet gesteund
 
 ## Volgende stappen {#next-steps}
 
@@ -178,4 +178,4 @@ Nu je reistypes begrijpt, ben je klaar om:
 
 **Behoefte met campagnes te vergelijken?**
 
-* [&#x200B; Reizen vs Campagnes vergelijkingsgids &#x200B;](../start/journeys-vs-campaigns.md) - kies tussen reizen, acties/API campagnes, en Geordende campagnes
+* [ Reizen vs Campagnes vergelijkingsgids ](../start/journeys-vs-campaigns.md) - kies tussen reizen, acties/API campagnes, en Geordende campagnes

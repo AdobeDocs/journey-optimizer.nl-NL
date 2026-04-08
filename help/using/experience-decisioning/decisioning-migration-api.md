@@ -6,7 +6,7 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 2e9a3e641a63190660badac3eeb14800eb6a6ab7
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Met de API voor beslissingsmigratieservice kunt u beslissingsbeheerobjecten migr
 
 Deze API staat u toe om uw beslissingsinhoud tussen milieu&#39;s <!--(e.g., from development to staging, or staging to production) --> foutloos over te brengen terwijl het handhaven van gegevensintegriteit en verhoudingen.
 
-Om over de voordelen en de mogelijkheden van Beslissing in vergelijking met het beheer van het Besluit te leren, verwijs naar [&#x200B; deze pagina &#x200B;](migrate-to-decisioning.md).
+Om over de voordelen en de mogelijkheden van Beslissing in vergelijking met het beheer van het Besluit te leren, verwijs naar [ deze pagina ](migrate-to-decisioning.md).
 
 ## Mogelijkheden {#capabilities}
 
@@ -51,7 +51,7 @@ Tot de gebruikelijke machtigingen behoren:
 
 >[!NOTE]
 >
->Leer hoe te om de toestemmingen van Beslissing in [&#x200B; toe te wijzen deze sectie &#x200B;](gs-experience-decisioning.md#steps). Voor de volledige lijst van toestemmingen, verwijs naar de [&#x200B; Ingebouwde toestemmingen &#x200B;](../administration/ootb-permissions.md#ootb-permissions) pagina.
+>Leer hoe te om de toestemmingen van Beslissing in [ toe te wijzen deze sectie ](gs-experience-decisioning.md#steps). Voor de volledige lijst van toestemmingen, verwijs naar de [ Ingebouwde toestemmingen ](../administration/ootb-permissions.md#ootb-permissions) pagina.
 
 ### De doelsandbox voorbereiden {#target-sandbox-preparation}
 
@@ -62,7 +62,7 @@ Controleer voordat u een migratie uitvoert of de doelsandbox correct is geconfig
 * **Dataset** - identificeer een datasetnaam voor de migratie (`dependency.datasetName`) te gebruiken.
 * **DataStream** - besluit of de migratie een gegevensstroom (`createDataStream`) zou moeten tot stand brengen.
 
-Voor meer informatie over zandbakbeheer, verwijs naar [&#x200B; Gebruik en wijs zandbakken &#x200B;](../administration/sandboxes.md) toe.
+Voor meer informatie over zandbakbeheer, verwijs naar [ Gebruik en wijs zandbakken ](../administration/sandboxes.md) toe.
 
 ## Basisprincipes van API&#39;s {#api-basics}
 
@@ -81,7 +81,7 @@ Voor alle API-aanvragen zijn de volgende headers vereist:
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-Voor gedetailleerde instructies bij vestiging authentificatie, verwijs naar de [&#x200B; de authentificatiegids van Journey Optimizer &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
+Voor gedetailleerde instructies bij vestiging authentificatie, verwijs naar de [ de authentificatiegids van Journey Optimizer ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
 
 ### Workflowmodel {#workflow-model}
 
@@ -356,19 +356,21 @@ Bij de migratie van beslissingsbeheer naar besluitvorming worden de entiteiten a
 
 ## Opschonen van workflow {#cleanup}
 
-<!--Workflow resources can be deleted by service users only. Delete operations require an `If-Match` header with the workflow's `_etag` value.
+<!--
+Workflow resources can be deleted by service users only. Delete operations require an `If-Match` header with the workflow's `_etag` value.
 
 **Available delete operations:**
 
 * `DELETE /workflows/generate-dependencies/{id}`
 * `DELETE /workflows/migration/{id}`
-* `DELETE /workflows/rollback/{id}`-->
+* `DELETE /workflows/rollback/{id}`
+-->
 
 De schrapping van het werkschema is niet openbaar beschikbaar. Als u een werkschemabron moet schrappen, contacteer uw systeembeheerder.
 
 ## Verwante onderwerpen {#related-topics}
 
-* [&#x200B; Migreer van het beheer van Besluit aan Beslissing &#x200B;](migrate-to-decisioning.md) - begrijp de voordelen en de mogelijkheden van het migreren aan Beslissing
+* [ Migreer van het beheer van Besluit aan Beslissing ](migrate-to-decisioning.md) - begrijp de voordelen en de mogelijkheden van het migreren aan Beslissing
 * [Aan de slag met beslissing](gs-experience-decisioning.md)
 * [Beslissingsinstructies en beperkingen](decisioning-guardrails.md)
 * [Aan de slag met beslissing-API&#39;s](api-reference/getting-started.md)

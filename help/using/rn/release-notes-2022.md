@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 8%
@@ -26,7 +26,6 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 ## Release oktober 2022 {#oct-2022-release}
 
 <!--
-
 ### New capability{#oct-2022-features}
 
 <table>
@@ -44,7 +43,6 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 </tr>
 </tbody>
 </table>
-
 -->
 
 ### Verbeteringen {#oct-2022-improvements}
@@ -190,7 +188,8 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 </table>
 
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Data Hygiene</strong><br/></th>
@@ -206,7 +205,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 ### Verbeteringen{#sept-2022-improvements}
 
@@ -224,7 +223,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 
 **controles van de Controle**
 
-* Met Journey Optimizer kunt u acties identificeren die door gebruikers in het systeem worden uitgevoerd op verschillende services en mogelijkheden, zoals campagnes, reizen, berichten, landingspagina&#39;s, enz. De middelen van het logboek van de controle omvatten nu veranderingen op diverse andere acties, en worden automatisch geregistreerd aangezien de activiteit voorkomt. Leer meer [&#x200B; op deze pagina &#x200B;](../privacy/audit-logs.md).
+* Met Journey Optimizer kunt u acties identificeren die door gebruikers in het systeem worden uitgevoerd op verschillende services en mogelijkheden, zoals campagnes, reizen, berichten, landingspagina&#39;s, enz. De middelen van het logboek van de controle omvatten nu veranderingen op diverse andere acties, en worden automatisch geregistreerd aangezien de activiteit voorkomt. Leer meer [ op deze pagina ](../privacy/audit-logs.md).
 
 **Archiving steun**
 
@@ -285,7 +284,8 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>New Dynamic Expression Builder</strong><br/></th>
@@ -300,7 +300,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 
 ### Verbeteringen
@@ -309,7 +309,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 
 * De tabel en de grafiek van het beleid voor instemming zijn nu beschikbaar in algemene rapporten van Journey. Met deze widgets kunt u de uitgesloten profielen bijhouden in het beleid in uw aangepaste handelingen. [Meer informatie](../reports/journey-global-report-cja.md#journey-global)
 
-  Als u toegang wilt hebben tot de meest recente widgets, moet u de verschillende rapportdashboards opnieuw instellen. Voor meer informatie over dashboardaanpassing, verwijs naar [&#x200B; de gedetailleerde documentatie &#x200B;](../reports/report-gs-cja.md).
+  Als u toegang wilt hebben tot de meest recente widgets, moet u de verschillende rapportdashboards opnieuw instellen. Voor meer informatie over dashboardaanpassing, verwijs naar [ de gedetailleerde documentatie ](../reports/report-gs-cja.md).
 
 **Beheer**
 
@@ -393,7 +393,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 
 **Reizen**
 
-* **die een reis** beëindigt - in het wegcanvas, is de **Eind** activiteit verwijderd uit het palet. Eindtags worden nu standaard aan het einde van elk pad toegevoegd en kunnen niet worden verwijderd. Dankzij deze verbetering kan beter worden aangegeven waar een klant de reis heeft verlaten, zonder dat de reisdeskundige enige actie hoeft te ondernemen. Verwijs naar de [&#x200B; documentatie &#x200B;](../building-journeys/end-journey.md) en [&#x200B; eigenschapvideo &#x200B;](https://video.tv.adobe.com/v/345376){target="_blank"}.
+* **die een reis** beëindigt - in het wegcanvas, is de **Eind** activiteit verwijderd uit het palet. Eindtags worden nu standaard aan het einde van elk pad toegevoegd en kunnen niet worden verwijderd. Dankzij deze verbetering kan beter worden aangegeven waar een klant de reis heeft verlaten, zonder dat de reisdeskundige enige actie hoeft te ondernemen. Verwijs naar de [ documentatie ](../building-journeys/end-journey.md) en [ eigenschapvideo ](https://video.tv.adobe.com/v/345376){target="_blank"}.
 
 
 * De **de tijdzone van het Profiel** optie is nu ongecontroleerd door gebrek in reiseigenschappen. [Meer informatie](../building-journeys/timezone-management.md#timezone-from-profiles)
@@ -472,7 +472,8 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 </tbody>
 </table>
 
-<!--<table>
+<!--
+<table>
 <thead>
 <tr>
 <th><strong>Automatically use the best performing offer in your decisions</strong><br/></th>
@@ -488,7 +489,8 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 <table>
 <thead>
@@ -568,7 +570,8 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Attribute-based Access Control (ABAC)</strong><br/></th>
@@ -583,7 +586,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 <table>
 <thead>
@@ -617,7 +620,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 **Reizen**
 
 * **gelezen publiek** - Één-schot Gelezen publiekstrajecten nu naar de Eind status 30 dagen na de reis uitvoering. Voor een gepland leespubliek duurt het 30 dagen na de uitvoering van het laatste exemplaar. [Meer informatie](../building-journeys/read-audience.md)
-* **de redacteur van de Uitdrukking** - de [&#x200B; grens &#x200B;](../building-journeys/functions/list-functions.md#limit) functie is toegevoegd om u toe te staan om het aantal punten van een lijst te beperken. De [&#x200B; soort &#x200B;](../building-journeys/functions/list-functions.md#sort) functie staat u nu toe om een lijstvoorwerp te sorteren. De steun van listObject is ook toegevoegd aan [&#x200B; disctinct &#x200B;](../building-journeys/functions/list-functions.md#distinct) en [&#x200B; separatelyWithNull &#x200B;](../building-journeys/functions/list-functions.md#distinctWithNull) functies.
+* **de redacteur van de Uitdrukking** - de [ grens ](../building-journeys/functions/list-functions.md#limit) functie is toegevoegd om u toe te staan om het aantal punten van een lijst te beperken. De [ soort ](../building-journeys/functions/list-functions.md#sort) functie staat u nu toe om een lijstvoorwerp te sorteren. De steun van listObject is ook toegevoegd aan [ disctinct ](../building-journeys/functions/list-functions.md#distinct) en [ separatelyWithNull ](../building-journeys/functions/list-functions.md#distinctWithNull) functies.
 
 **Beheer**
 
@@ -722,7 +725,8 @@ Als Adobe Campaign Standard-klant kunt u nu e-mails, pushberichten en SMS verzen
 </table>
 
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>API Developer Site and Suppression API</strong><br/></th>
@@ -739,7 +743,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 <table>
 <thead>
@@ -818,7 +822,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 **Reizen**
 
-* De de stapgebeurtenissen van Journey Optimizer kunnen nu met andere datasets in [&#x200B; Adobe Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL) worden verbonden. Het **profileID** gebied, in het ingebouwde schema van de Gebeurtenis van de Stap van de Reis, wordt nu bepaald als identiteitsgebied. [Meer informatie](../reports/sharing-overview.md#integration-cja)
+* De de stapgebeurtenissen van Journey Optimizer kunnen nu met andere datasets in [ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) worden verbonden. Het **profileID** gebied, in het ingebouwde schema van de Gebeurtenis van de Stap van de Reis, wordt nu bepaald als identiteitsgebied. [Meer informatie](../reports/sharing-overview.md#integration-cja)
 
 **het beheer van het Besluit**
 

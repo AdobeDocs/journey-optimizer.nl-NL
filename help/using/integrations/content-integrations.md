@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: elementen, integratie
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 1%
@@ -35,20 +35,21 @@ Assets Essentials maakt verbinding met Adobe Express en Adobe Photoshop Express 
 * **[!DNL Assets as a Cloud Service]** biedt een gebruiksvriendelijke cloudoplossing voor efficiënt beheer van digitale bedrijfsmiddelen en dynamische mediabewerkingen.
 * **[!DNL Assets Essentials]** is een lichte Assets as a Cloud Service-oplossing voor gezamenlijk beheer en samenwerking van bedrijfsmiddelen.
 
-Leer meer over [&#x200B; Journey Optimizer + Adobe Experience Manager Assets &#x200B;](../integrations/assets.md).
+Leer meer over [ Journey Optimizer + Adobe Experience Manager Assets ](../integrations/assets.md).
 
 <!--
 ### Templates
 
 With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's Email Designer, simplifying the process of crafting and sending messages to your desired audience.
 
-Learn more about [Journey Optimizer + Adobe Experience Manager templates](../integrations/aem-templates.md).-->
+Learn more about [Journey Optimizer + Adobe Experience Manager templates](../integrations/aem-templates.md).
+-->
 
 ### Fragmenten
 
 Door Adobe Experience Manager te integreren met Adobe Journey Optimizer, kunt u nu uw AEM Content Fragments naadloos opnemen in uw Journey Optimizer e-mailinhoud. Deze gestroomlijnde verbinding vereenvoudigt het proces van toegang tot en gebruik van AEM-inhoud, waardoor persoonlijke en dynamische campagnes en reizen kunnen worden gemaakt.
 
-Leer meer over [&#x200B; Journey Optimizer + de fragmenten van Adobe Experience Manager &#x200B;](../integrations/aem-fragments.md).
+Leer meer over [ Journey Optimizer + de fragmenten van Adobe Experience Manager ](../integrations/aem-fragments.md).
 
 ### Dynamische media
 
@@ -56,7 +57,7 @@ De Asset-kiezer ondersteunt nu Dynamische media waarmee u goedgekeurde dynamisch
 
 Deze integratie is alleen beschikbaar voor klanten die Dynamic Media Manager as a Cloud Service gebruiken.
 
-Leer meer over [&#x200B; Journey Optimizer + de Dynamische Media van Adobe Experience Manager &#x200B;](../integrations/aem-dynamic.md).
+Leer meer over [ Journey Optimizer + de Dynamische Media van Adobe Experience Manager ](../integrations/aem-dynamic.md).
 
 
 ## Adobe Stock {#integration-stock}
@@ -65,7 +66,7 @@ Met de insteekmodule [!DNL Adobe Stock] en [!DNL Adobe Journey Optimizer] Email 
 
 Met [!DNL Adobe Journey Optimizer] kunt u afbeeldingen rechtstreeks vanuit [!DNL Adobe Stock] uploaden naar uw e-mail en deze toevoegen aan de map **[!UICONTROL Assets]** met de optie **[!UICONTROL Find Adobe Stock photos]** . Daarnaast kunt u met de optie **[!UICONTROL Find Similar Stock photos]** afbeeldingen vinden die overeenkomen met de inhoud, kleur en compositie van het element dat wordt gebruikt bij de levering.
 
-Leer meer over [&#x200B; Journey Optimizer + Voorraad &#x200B;](../integrations/stock.md).
+Leer meer over [ Journey Optimizer + Voorraad ](../integrations/stock.md).
 
 ## Adobe Express {#express}
 
@@ -75,12 +76,12 @@ Om tot het **[!DNL Adobe Express]** menu toegang te hebben, heb toegang tot uw *
 
 Met een Enterprise-licentie krijgen gebruikers volledige toegang tot de Adobe Express-editor, zodat ze afbeeldingen kunnen wijzigen door de kleur, helderheid, scherpte, contrast, afmetingen en extra instellingen aan te passen.
 
-Leer meer over [&#x200B; Journey Optimizer + Adobe Express &#x200B;](../integrations/express.md).
+Leer meer over [ Journey Optimizer + Adobe Express ](../integrations/express.md).
 
 ## GenStudio for Performance Marketing
 
-Adobe GenStudio for Performance Marketing is een generatieve AI-First-toepassing waarmee marketingteams hun eigen advertenties en e-mails kunnen maken om onhandige, gepersonaliseerde marketingcampagnes te voeren die aan uw merkstandaarden voldoen en aan uw bedrijfsbeleid voldoen. Door gebruik te maken van Adobe AI-technologie, biedt deze technologie een uitgebreide reeks hulpmiddelen die de complexiteit van het maken en beheren van content vereenvoudigen, zodat creatieve mensen zich kunnen richten op innovatie.
+Adobe GenStudio for Performance Marketing is een generatieve AI-First-toepassing waarmee marketingteams hun eigen advertenties en e-mails kunnen maken om onhandige, gepersonaliseerde marketingcampagnes te voeren die aan uw merkstandaarden voldoen en aan uw bedrijfsbeleid voldoen. Door gebruik te maken van Adobe AI-technologie, biedt deze technologie een uitgebreide reeks hulpmiddelen die de complexiteit van het creëren en beheren van content vereenvoudigen, zodat creatieve mensen zich kunnen richten op innovatie.
 
 Om marketing efficiency te verbeteren en merkconsistentie te handhaven, kunt u [!DNL **GenStudio for Performance Marketing**] ervaringen met [!DNL **Adobe Journey Optimizer**] foutloos integreren. Zo kunt u de AI-kracht van [!DNL GenStudio] gebruiken om inhoud te maken, naast de geavanceerde orchestratiemogelijkheden van [!DNL Journey Optimizer] .
 
-Leer meer over [&#x200B; Journey Optimizer + GenStudio for Performance Marketing &#x200B;](../integrations/genstudio.md).
+Leer meer over [ Journey Optimizer + GenStudio for Performance Marketing ](../integrations/genstudio.md).

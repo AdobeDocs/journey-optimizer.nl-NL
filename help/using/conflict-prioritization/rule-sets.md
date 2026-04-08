@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 0%
@@ -36,7 +36,7 @@ U kunt twee typen regelsets maken:
    * **het begrenzen van de frequentie regels** - *verzendt niet meer dan 1 e-mail of sms- mededeling per dag.*
    * **de urenregels van de stilte** - *verzendt geen e-mailberichten buiten 8AM - 9PM timeslot.*
 
-* **de regelreeksen van 0&rbrace; Reis &lbrace;passen ingang en gelijktijdige afschilderingsregels op een reis toe.** Voer bijvoorbeeld niet profielen in voor meer dan één reis tegelijk.
+* **de regelreeksen van 0} Reis {passen ingang en gelijktijdige afschilderingsregels op een reis toe.** Voer bijvoorbeeld niet profielen in voor meer dan één reis tegelijk.
 
 ➡️ [Ontdek deze functie in video](#video)
 
@@ -47,7 +47,7 @@ Om met bedrijfsregels te werken, hebt u de volgende toestemmingen nodig:
 * **[!UICONTROL View Frequency Rules]**: Toegang tot en weergave van bedrijfsregels.
 * **[!UICONTROL Manage Frequency Rules]**: Maak, bewerk of verwijder bedrijfsregels.
 
-Leer meer over toestemmingen in [&#x200B; deze sectie &#x200B;](../administration/high-low-permissions.md).
+Leer meer over toestemmingen in [ deze sectie ](../administration/high-low-permissions.md).
 
 ### Algemene en aangepaste regelsets {#global-custom}
 
@@ -55,7 +55,7 @@ Wanneer de toegang tot van regelreeksen voor het eerst van **[!UICONTROL Adminis
 
 Deze regelreeks bevat globale regels die u kunt toepassen om te bepalen hoe vaak de gebruikers berichten over één of veelvoudige kanalen ontvangen. Alle regels die in deze regel worden bepaald zijn op alle geselecteerde kanalen van toepassing, of de mededelingen van een reis of een campagne worden verzonden.
 
-Naast deze &quot;Globale Vastgestelde de regel van de Regel van het Standaard&quot;wordt geplaatst, kunt u **regelreeksen** tot stand brengen die u op om het even welke reis of campagne kunt toepassen om specifieke afschilderingsregels toe te passen. [&#x200B; Leer hoe te om de reeksen van de douaneregel tot stand te brengen &#x200B;](#create)
+Naast deze &quot;Globale Vastgestelde de regel van de Regel van het Standaard&quot;wordt geplaatst, kunt u **regelreeksen** tot stand brengen die u op om het even welke reis of campagne kunt toepassen om specifieke afschilderingsregels toe te passen. [ Leer hoe te om de reeksen van de douaneregel tot stand te brengen ](#create)
 
 ![](assets/rule-sets-default.png)
 
@@ -71,11 +71,13 @@ Naast deze &quot;Globale Vastgestelde de regel van de Regel van het Standaard&qu
 >title="Selecteer de categorie voor berichtregels"
 >abstract="Wanneer deze optie wordt geactiveerd en toegepast op een bericht, worden alle frequentieregels die overeenkomen met de geselecteerde categorie automatisch toegepast op dit bericht. Momenteel is alleen de marketingcategorie beschikbaar."
 
-<!--NOT USED?
+<!--
+NOT USED?
 [!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
 >title="Set the capping for your rule"
->abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
+>abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."
+-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
@@ -122,7 +124,7 @@ Volg onderstaande stappen om een regelset te maken.
 
    De gedetailleerde informatie over hoe te om reis en kanaalregels te vormen is beschikbaar in deze secties:
 
-   * [&#x200B; het in kaart brengen van de Reis &#x200B;](../conflict-prioritization/journey-capping.md)
+   * [ het in kaart brengen van de Reis ](../conflict-prioritization/journey-capping.md)
    * [Frequentiecapaciteit per kanaal en communicatietype](../conflict-prioritization/channel-capping.md)
    * [Stil uur](../conflict-prioritization/quiet-hours.md)
 
@@ -180,4 +182,4 @@ De status verandert in **[!UICONTROL Inactive]** en de regel geldt niet voor toe
 
 ## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444732?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
