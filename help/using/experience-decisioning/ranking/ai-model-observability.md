@@ -167,7 +167,7 @@ If no model has been successfully deployed yet, the "currently deployed model" s
 
 Leer hoe u uw AI-classificatiemodellen kunt controleren en de trainingsstatus en -prestaties in [!DNL Journey Optimizer] kunt interpreteren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479849?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479855?captions=dut&quality=12)
 
 ## Gerelateerde documentatie {#related}
 

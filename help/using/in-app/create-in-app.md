@@ -254,7 +254,7 @@ Voor meer informatie over om een campagne tot stand te brengen te vormen en te a
 
   +++Zie video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3445294/?captions=dut&learn=on&autoplay=true)
 
   +++
 

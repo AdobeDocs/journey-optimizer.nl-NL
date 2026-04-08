@@ -246,4 +246,4 @@ U kunt de formuliervelden eenvoudig bewerken vanuit een ervaringstraject of -cam
 
 Leer hoe u bewerkbare velden kunt toevoegen aan op code gebaseerde ervaringskanaal-inhoudssjablonen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463997/?captions=dut&learn=on&#x26;enablevpops)
