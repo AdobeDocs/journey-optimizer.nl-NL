@@ -37,7 +37,7 @@ Opstelling een **zitting van Assurance** om de gebeurtenissen van SDK te vangen 
 * Push token-registratie
 * Levende activiteiten
 
-Leer hoe te opstelling Assurance in de [&#x200B; documentatie van Adobe Experience Platform Assurance &#x200B;](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+Leer hoe te opstelling Assurance in de [&#x200B; documentatie van Adobe Experience Platform Assurance &#x200B;](https://experienceleague.adobe.com/nl/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
 **Nota**: Voor Levende activiteit van iOS, zorg ervoor uw app op een fysiek apparaat van iOS (iOS 16.1 of later) of de Simulator van Xcode (iOS 16.1 of later) loopt.
 

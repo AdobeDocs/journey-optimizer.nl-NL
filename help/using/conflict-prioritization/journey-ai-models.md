@@ -58,7 +58,7 @@ Volg de onderstaande stappen om een AI-model voor de rangschikking van reizen te
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)
 -->
 
-1. In de **[!UICONTROL Optimization metric]** sectie, alle metriek van uw standaard [!DNL Customer Journey Analytics] [&#x200B; vertoning van de gegevensmening &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} in de lijst. Selecteer metrisch dat u uw model wilt optimaliseren.
+1. In de **[!UICONTROL Optimization metric]** sectie, alle metriek van uw standaard [!DNL Customer Journey Analytics] [&#x200B; vertoning van de gegevensmening &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} in de lijst. Selecteer metrisch dat u uw model wilt optimaliseren.
 
    ![&#x200B; metrische dropdown van de optimalisering de lijst van Customer Journey Analytics metriek voor het AI model &#x200B;](assets/journey-model-metrics.png){width="70%"}
 
@@ -67,7 +67,7 @@ Volg de onderstaande stappen om een AI-model voor de rangschikking van reizen te
    * **de gebeurtenissen van de Indrukking** (punten die worden getoond)
    * **de gebeurtenissen van de Omzetting** (punten die in kliks of omzettingen resulteren)
 
-   Deze gebeurtenissen worden automatisch vastgelegd met de Web SDK of de Mobile SDK. Leer meer in het [&#x200B; overzicht van SDK van het Web 0&rbrace; Adobe Experience Platform.](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+   Deze gebeurtenissen worden automatisch vastgelegd met de Web SDK of de Mobile SDK. Leer meer in het [&#x200B; overzicht van SDK van het Web 0&rbrace; Adobe Experience Platform.](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL)
 
 1. Selecteer de gegevensset(s) waar de conversie- en impressiefeedagen worden verzameld. Leer hoe te om dergelijke datasets in [&#x200B; tot stand te brengen deze sectie &#x200B;](../experience-decisioning/data-collection/create-dataset.md).
 

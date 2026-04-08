@@ -95,7 +95,7 @@ Zonder de backticks, zal de verpersoonlijkingsredacteur bevestiging met een fout
 
 * **Doelgroep**
 
-  Meer over de segmentatiedienst leren, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
+  Meer over de segmentatiedienst leren, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL){target="_blank"}.
 
 * **Aanbiedingen**
 

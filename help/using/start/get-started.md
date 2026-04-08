@@ -23,7 +23,7 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en combineert een uniform, realtime klantprofiel, een API-eerste open framework, gecentraliseerde besluitvorming over aanbiedingen en kunstmatige intelligentie (AI) en computertraining (ML) voor personalisatie en optimalisatie. Met Journey Optimizer kunnen merken op intelligente wijze bepalen wat de volgende beste interactie is met schaal, snelheid en flexibiliteit voor de hele reis van de klant. Met [!DNL Adobe Journey Optimizer] kunnen bedrijven zowel geplande marketingcampagnes (zoals wekelijkse promoties voor een detailhandel) als op maat gesneden individuele communicatie (zoals een pushmelding voor een item dat een klant van een loyauteit-app eerder heeft bekeken) binnen dezelfde toepassing maken en leveren.
 
-➡️ [&#x200B; ontdekt Journey Optimizer &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target="_blank"} (video)
+➡️ [&#x200B; ontdekt Journey Optimizer &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=nl-NL){target="_blank"} (video)
 
 
 <!--
@@ -58,7 +58,7 @@ De belangrijkste mogelijkheden omvatten:
 
 >[!NOTE]
 >
->* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [&#x200B; toestemmingen &#x200B;](../administration/permissions.md) en van uw [&#x200B; vergunning gevend pakket &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
+>* De componenten en de mogelijkheden beschikbaar in uw milieu hangen van uw [&#x200B; toestemmingen &#x200B;](../administration/permissions.md) en van uw [&#x200B; vergunning gevend pakket &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} af. Neem voor alle vragen contact op met de Adobe Customer Success Manager of uw Adobe-vertegenwoordiger.
 >
 >* Algemene richtlijnen en procedures voor privacy in Adobe Experience Cloud zijn van toepassing op [!DNL Journey Optimizer] . [&#x200B; Leer meer over de privacy van Adobe Experience Cloud &#x200B;](https://www.adobe.com/privacy/experience-cloud.html){target="_blank"}.
 
@@ -91,6 +91,6 @@ Zie [&#x200B; de blauwdrukken van Adobe Journey Optimizer &#x200B;](https://expe
 >* [&#x200B; krijgen begonnen met gegevensbeheer &#x200B;](../data/gs-data.md)
 >* [&#x200B; reizen van het Ontwerp en verzend berichten &#x200B;](../building-journeys/journey-gs.md)
 >* [&#x200B; Levende rapporten &#x200B;](../reports/live-report.md)
->* [&#x200B; Inleiding aan zelfstudie van Journey Optimizer &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}
+>* [&#x200B; Inleiding aan zelfstudie van Journey Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}
 >* [&#x200B; het Overzicht van de Veiligheid van Journey Optimizer &#x200B;](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
 >* [&#x200B; de Beschrijving van het Product van Journey Optimizer &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.htm){target="_blank"}
