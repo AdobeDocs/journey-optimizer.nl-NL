@@ -73,9 +73,9 @@ Het deelvenster Dynamische media biedt toegang tot dynamische uitvoeringen, slim
 
 De beschikbaarheid van dynamische media is afhankelijk van de configuratie van de opslagplaats:
 
-* **Scene7**: Beschikbaar voor gepubliceerde activa (behalve Video en PDF). [ Leer meer op Dynamische de wijzigingstoetsen van Media Scene7 ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
+* **Scene7**: Beschikbaar voor gepubliceerde activa (behalve Video en PDF). [&#x200B; Leer meer op Dynamische de wijzigingstoetsen van Media Scene7 &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI**: Beschikbaar voor goedgekeurde activa (behalve Video). [ leer meer op Dynamische Media met modifiers OpenAPI ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
+* **OpenAPI**: Beschikbaar voor goedgekeurde activa (behalve Video). [&#x200B; leer meer op Dynamische Media met modifiers OpenAPI &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
 * **zowel Scene7 als OpenAPI**: Beschikbaar wanneer beide configuraties bestaan en de activa aan de criteria voldoen.
 

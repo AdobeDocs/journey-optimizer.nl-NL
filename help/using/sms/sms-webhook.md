@@ -92,7 +92,7 @@ Voor Sinch en Sinch Conversational, creeer één enkele webhaak die zowel binnen
 
    * **[!UICONTROL Select SMS vendor]**: Sinch- of Sinch-gesprek.
 
-   * **[!UICONTROL API credentials]**: Kies van drop-down u [ eerder gevormde API geloofsbrieven ](sms-configuration-sinch.md).
+   * **[!UICONTROL API credentials]**: Kies van drop-down u [&#x200B; eerder gevormde API geloofsbrieven &#x200B;](sms-configuration-sinch.md).
 
    * **[!UICONTROL Sender Phone Number]**: ga het aantal van de afzendertelefoon in u voor uw mededelingen wilt gebruiken.
 
@@ -166,16 +166,16 @@ Voor Sinch en Sinch Conversational, creeer één enkele webhaak die zowel binnen
 
 1. Gebruik uw **[!UICONTROL Webhook URL]** om de **Terugkoppeling** en **Binnenkomende** gebeurtenissen toe te laten om in Journey Optimizer te komen.
 
-   * Voor het kanaal van SMS, [ leren meer in de documentatie van de Sondt ](https://community.sinch.com/t5/SMS/How-do-I-assign-a-callback-URL-to-an-SMS-service/ta-p/8414)
+   * Voor het kanaal van SMS, [&#x200B; leren meer in de documentatie van de Sondt &#x200B;](https://community.sinch.com/t5/SMS/How-do-I-assign-a-callback-URL-to-an-SMS-service/ta-p/8414)
 
-   * Voor het kanaal MMS, [ leer meer in de documentatie van het Sondje ](https://developers.sinch.com/docs/conversation/getting-started#5-handle-incoming-messages)
+   * Voor het kanaal MMS, [&#x200B; leer meer in de documentatie van het Sondje &#x200B;](https://developers.sinch.com/docs/conversation/getting-started#5-handle-incoming-messages)
 
    * Voor klanten die SMS rechtstreeks via Journey Optimizer hebben aangeschaft, kunt u een ondersteuningsticket indienen bij de ondersteuning van Adobe. Het Adobe-accountteam configureert de URL van de webhaak voor u.
      ![](assets/webhook-4.png)
 
 Als uw webhaak API-referenties gebruikt die aan een bestaande kanaalconfiguratie zijn gekoppeld, wordt de webhaak onmiddellijk van kracht. Anders maakt u een nieuwe kanaalconfiguratie.
 
-➡️[ leer meer op kanaalconfiguratie ](sms-configuration-surface.md)
+➡️[&#x200B; leer meer op kanaalconfiguratie &#x200B;](sms-configuration-surface.md)
 
 ### Voor Infobip {#create-webhook-infobip}
 
@@ -193,7 +193,7 @@ Voor Infobip, creeer twee afzonderlijke websites: voor de gebeurtenissen van de 
 
    * **[!UICONTROL Type]**: Kies Feedback of Binnenkomend. U moet beide afzonderlijk creëren, hier, beginnen wij met Binnenkomend.
 
-   * **[!UICONTROL API credentials]**: Kies van drop-down u [ eerder gevormde API geloofsbrieven ](sms-configuration-infobip.md#api-credential).
+   * **[!UICONTROL API credentials]**: Kies van drop-down u [&#x200B; eerder gevormde API geloofsbrieven &#x200B;](sms-configuration-infobip.md#api-credential).
 
    * **[!UICONTROL Sender Phone Number]**: ga het aantal van de afzendertelefoon in u voor uw mededelingen wilt gebruiken.
 
@@ -283,7 +283,7 @@ Voor Infobip, creeer twee afzonderlijke websites: voor de gebeurtenissen van de 
 
 Als uw webhaak API-referenties gebruikt die aan een bestaande kanaalconfiguratie zijn gekoppeld, wordt de webhaak onmiddellijk van kracht. Anders maakt u een nieuwe kanaalconfiguratie.
 
-➡️[ leer meer op kanaalconfiguratie ](sms-configuration-surface.md)
+➡️[&#x200B; leer meer op kanaalconfiguratie &#x200B;](sms-configuration-surface.md)
 
 ### Voor aangepaste provider {#create-webhook-custom}
 
@@ -301,7 +301,7 @@ Voor Aangepaste SMS-providers maakt u twee aparte websites: een voor feedbackgeb
 
    * **[!UICONTROL Type]**: Kies Feedback of Binnenkomend. U moet beide afzonderlijk creëren, hier, beginnen wij met Binnenkomend.
 
-   * **[!UICONTROL API credentials]**: Kies van drop-down u [ eerder gevormde API geloofsbrieven ](sms-configuration-custom.md).
+   * **[!UICONTROL API credentials]**: Kies van drop-down u [&#x200B; eerder gevormde API geloofsbrieven &#x200B;](sms-configuration-custom.md).
 
    * **[!UICONTROL Sender Phone Number]**: ga het aantal van de afzendertelefoon in u voor uw mededelingen wilt gebruiken.
 
@@ -419,12 +419,12 @@ Voor Aangepaste SMS-providers maakt u twee aparte websites: een voor feedbackgeb
         &quot;json 
         
         &quot;clientReference&quot;: &quot;{{client_reference}}&quot;, 
-        &quot;statussen&quot;: [
-       {
+        &quot;statussen&quot;: &lbrack;
+       &lbrace;
         &quot;code&quot;: &quot;{{failureCode}}&quot;, 
         &quot;status&quot;: &quot;{{feedbackStatus}}&quot;
         
-       ] 
+       &rbrack; 
         
        &quot;
    
@@ -446,4 +446,4 @@ Voor Aangepaste SMS-providers maakt u twee aparte websites: een voor feedbackgeb
 
 Als uw webhaak API-referenties gebruikt die aan een bestaande kanaalconfiguratie zijn gekoppeld, wordt de webhaak onmiddellijk van kracht. Anders maakt u een nieuwe kanaalconfiguratie.
 
-➡️[ leer meer op kanaalconfiguratie ](sms-configuration-surface.md)
+➡️[&#x200B; leer meer op kanaalconfiguratie &#x200B;](sms-configuration-surface.md)

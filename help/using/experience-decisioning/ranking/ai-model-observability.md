@@ -26,7 +26,7 @@ Dit geeft u een duidelijke mening van of uw model werkt, toen het het laatst wer
 
 >[!AVAILABILITY]
 >
->Momenteel wordt dit vermogen gesteund voor [ gepersonaliseerde optimalisering ](personalized-optimization-model.md) slechts modellen.
+>Momenteel wordt dit vermogen gesteund voor [&#x200B; gepersonaliseerde optimalisering &#x200B;](personalized-optimization-model.md) slechts modellen.
 
 ➡️ [Ontdek deze functie in video](#video)
 
@@ -58,7 +58,7 @@ Klik in de lijst in een gepersonaliseerd AI-model voor optimalisatie. Hierna kun
 
   U kunt ook zien dat het model momenteel 40% van verkeer aan het gepersonaliseerde neurale netwerk, 40% van verkeer aan de contextafhankelijke bandiet, en 20% van verkeer aan willekeurige exploratie toewijst.
 
-* **[!UICONTROL Last training job]** - In deze sectie wordt de status van de laatste trainingstaak tijdens het uitvoeren weergegeven, en eventuele foutberichten. [ leer meer over foutenstaten ](#check-for-error-states)
+* **[!UICONTROL Last training job]** - In deze sectie wordt de status van de laatste trainingstaak tijdens het uitvoeren weergegeven, en eventuele foutberichten. [&#x200B; leer meer over foutenstaten &#x200B;](#check-for-error-states)
 
   ![](../assets/ai-model-last-training-job.png)
 
@@ -110,17 +110,17 @@ Voer de onderstaande stappen uit om foutgegevens weer te geven voor een geperson
 
 +++ Welke AI modellen kan ik controleren?
 
-AI modelcontrole wordt momenteel gesteund voor [ gepersonaliseerde optimalisering ](personalized-optimization-model.md) slechts modellen. Andere het rangschikken modeltypes stellen nog niet het rapport van de modelstatus bloot.
+AI modelcontrole wordt momenteel gesteund voor [&#x200B; gepersonaliseerde optimalisering &#x200B;](personalized-optimization-model.md) slechts modellen. Andere het rangschikken modeltypes stellen nog niet het rapport van de modelstatus bloot.
 +++
 
 +++ Waarom is de trainingsbaan van mijn model mislukt?
 
-Trainingstaken mislukken vaak wanneer de gegevensset die voor het model is geselecteerd, geen of zeer weinig feedbackgebeurtenissen (conversie) bevat. Controleer de sectie **[!UICONTROL Last training job]** op de foutdetails en bekijk vervolgens de **[!UICONTROL Properties]** -code van het model om de gegevensset en optimalisatiemetrische gegevens te bevestigen. Vul de dataset met de juiste gebeurtenissen of [ selecteer een verschillende dataset ](create-ai-models.md) met aangewezen omzettingsgegevens.
+Trainingstaken mislukken vaak wanneer de gegevensset die voor het model is geselecteerd, geen of zeer weinig feedbackgebeurtenissen (conversie) bevat. Controleer de sectie **[!UICONTROL Last training job]** op de foutdetails en bekijk vervolgens de **[!UICONTROL Properties]** -code van het model om de gegevensset en optimalisatiemetrische gegevens te bevestigen. Vul de dataset met de juiste gebeurtenissen of [&#x200B; selecteer een verschillende dataset &#x200B;](create-ai-models.md) met aangewezen omzettingsgegevens.
 +++
 
 +++ Hoe verhoudt het toezicht op AI-modellen zich tot campagne- en reisrapporten?
 
-Controle van AI-modellen verschilt van rapportage van campagne of reizen. Een enkel AI-model kan voor meerdere campagnes of meerdere reizen worden gebruikt, en uit campagne- of reisrapporten blijkt niet welk model voor een bepaalde levering is gebruikt. Gebruik de AI modelstatus controle om het model zelf te begrijpen en te controleren; gebruik [ campagnerapporten ](../../reports/campaign-global-report-cja.md) en [ reisrapporten ](../../reports/journey-global-report-cja.md) voor levering-vlakke metriek.
+Controle van AI-modellen verschilt van rapportage van campagne of reizen. Een enkel AI-model kan voor meerdere campagnes of meerdere reizen worden gebruikt, en uit campagne- of reisrapporten blijkt niet welk model voor een bepaalde levering is gebruikt. Gebruik de AI modelstatus controle om het model zelf te begrijpen en te controleren; gebruik [&#x200B; campagnerapporten &#x200B;](../../reports/campaign-global-report-cja.md) en [&#x200B; reisrapporten &#x200B;](../../reports/journey-global-report-cja.md) voor levering-vlakke metriek.
 +++
 
 +++ Mijn optimalisatiemetrisch is ononderbroken metrische als opbrengst of ordewaarde, niet binair metrisch zoals kliks of omzettingen. Hoe interpreteer ik de gerapporteerde waarden van Omzettingen en Omzettingstarief?

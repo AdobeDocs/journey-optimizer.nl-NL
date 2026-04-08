@@ -24,9 +24,9 @@ ht-degree: 1%
 
 ## Aan de slag met voorinstellingen voor openingspagina {#gs-lp-presets}
 
-Wanneer [ creërend een het landen pagina ](../landing-pages/create-lp.md#create-lp), moet u een het landen vooraf ingestelde pagina selecteren om de het landen pagina en hefboomwerking het door **[!DNL Journey Optimizer]** te kunnen bouwen. De voorinstelling bevat het subdomein dat moet worden gebruikt voor de bestemmingspagina&#39;s die op deze voorinstelling zijn gebaseerd.
+Wanneer [&#x200B; creërend een het landen pagina &#x200B;](../landing-pages/create-lp.md#create-lp), moet u een het landen vooraf ingestelde pagina selecteren om de het landen pagina en hefboomwerking het door **[!DNL Journey Optimizer]** te kunnen bouwen. De voorinstelling bevat het subdomein dat moet worden gebruikt voor de bestemmingspagina&#39;s die op deze voorinstelling zijn gebaseerd.
 
-Voordat u een voorinstelling maakt, moet u controleren of u eerder minstens één subdomein van de bestemmingspagina hebt geconfigureerd. [ Leer hoe te om een het landen pagina subdomain ](lp-subdomains.md) tot stand te brengen.
+Voordat u een voorinstelling maakt, moet u controleren of u eerder minstens één subdomein van de bestemmingspagina hebt geconfigureerd. [&#x200B; Leer hoe te om een het landen pagina subdomain &#x200B;](lp-subdomains.md) tot stand te brengen.
 
 ## Voorinstellingen voor openingspagina&#39;s openen {#access-lp-presets}
 
@@ -62,11 +62,11 @@ Voer de onderstaande stappen uit om een voorinstelling voor een openingspagina t
 
    >[!NOTE]
    >
-   >Om een subdomein te kunnen selecteren, zorg ervoor u eerder minstens één het landen paginasubdomain hebt gevormd. [ leer hoe ](lp-subdomains.md)
+   >Om een subdomein te kunnen selecteren, zorg ervoor u eerder minstens één het landen paginasubdomain hebt gevormd. [&#x200B; leer hoe &#x200B;](lp-subdomains.md)
 
    De instellingen die overeenkomen met de geselecteerde subdomeinweergave.
 
-1. U kunt het subdomein van de bestemmingspagina voor **[!UICONTROL Tracking URL]** selecteren door de optie **[!UICONTROL Same as landing page subdomain]** te controleren. [ Leer meer over het volgen ](../email/message-tracking.md)
+1. U kunt het subdomein van de bestemmingspagina voor **[!UICONTROL Tracking URL]** selecteren door de optie **[!UICONTROL Same as landing page subdomain]** te controleren. [&#x200B; Leer meer over het volgen &#x200B;](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
@@ -74,9 +74,9 @@ Voer de onderstaande stappen uit om een voorinstelling voor een openingspagina t
 
    >[!CAUTION]
    >
-   >Het geselecteerde landende paginasubdomain wordt gebruikt om **[!UICONTROL Tracking URL]** <!--and **[!UICONTROL Image Delivery URL]** --> te specificeren als dat subdomain gebruikend [ bestaand subdomain ](lp-subdomains.md#lp-use-existing-subdomain) werd gecreeerd.
+   >Het geselecteerde landende paginasubdomain wordt gebruikt om **[!UICONTROL Tracking URL]** <!--and **[!UICONTROL Image Delivery URL]** --> te specificeren als dat subdomain gebruikend [&#x200B; bestaand subdomain &#x200B;](lp-subdomains.md#lp-use-existing-subdomain) werd gecreeerd.
    >
-   >Als subdomain werd gecreeerd gebruikend [ voeg uw eigen domein ](lp-subdomains.md#lp-configure-new-subdomain) optie toe, primaire subdomain (d.w.z., eerste gemachtigde subdomain) in plaats daarvan wordt gebruikt.
+   >Als subdomain werd gecreeerd gebruikend [&#x200B; voeg uw eigen domein &#x200B;](lp-subdomains.md#lp-configure-new-subdomain) optie toe, primaire subdomain (d.w.z., eerste gemachtigde subdomain) in plaats daarvan wordt gebruikt.
 
 1. Klik op **[!UICONTROL Submit]** om het maken van de voorinstelling voor de openingspagina te bevestigen. <!--You can also save the preset as draft and resume its configuration later on.-->
 
@@ -84,7 +84,7 @@ Voer de onderstaande stappen uit om een voorinstelling voor een openingspagina t
 
 1. Nadat de voorinstelling voor de openingspagina is gemaakt, wordt deze in de lijst weergegeven met de status **[!UICONTROL Active]** . U kunt deze nu gebruiken voor uw bestemmingspagina&#39;s.
 
-U bent nu klaar om landende pagina&#39;s [ in ](../landing-pages/create-lp.md) te creëren.[!DNL Journey Optimizer]
+U bent nu klaar om landende pagina&#39;s [&#x200B; in &#x200B;](../landing-pages/create-lp.md) te creëren.[!DNL Journey Optimizer]
 <!--
 >[!NOTE]
 >

@@ -45,7 +45,7 @@ Door deze processen te stroomlijnen, kunt u klantenervaring verbeteren, tijd bes
 
 ## Regels voor stille uren maken
 
-Om stille uren te plaatsen, creeer een regel binnen een reeks van de douaneregel. [ Leer hoe te om regelreeksen ](../conflict-prioritization/rule-sets.md#Create) tot stand te brengen. Voer de volgende stappen uit:
+Om stille uren te plaatsen, creeer een regel binnen een reeks van de douaneregel. [&#x200B; Leer hoe te om regelreeksen &#x200B;](../conflict-prioritization/rule-sets.md#Create) tot stand te brengen. Voer de volgende stappen uit:
 
 1. Navigeer naar **[!UICONTROL Business rules]** om toegang te krijgen tot het overzicht van regelsets.
 
@@ -83,7 +83,7 @@ Om stille uren te plaatsen, creeer een regel binnen een reeks van de douaneregel
 
    1. Pas in de vervolgkeuzelijst **[!UICONTROL Time zone]** een standaardtijdzone toe op alle ontvangers in het publiek, ongeacht hun afzonderlijke tijdzones.
 
-      Selecteer **[!UICONTROL Use recipients local time zone]** als u het tijdzoneveld van elk profiel wilt gebruiken. [ leer meer op het beheer van de tijdzone in reizen ](../building-journeys/timezone-management.md#timezone-from-profiles)
+      Selecteer **[!UICONTROL Use recipients local time zone]** als u het tijdzoneveld van elk profiel wilt gebruiken. [&#x200B; leer meer op het beheer van de tijdzone in reizen &#x200B;](../building-journeys/timezone-management.md#timezone-from-profiles)
 
       >[!IMPORTANT]
       >
@@ -123,7 +123,7 @@ De regel wordt nu weergegeven in de regelset. U kunt het selecteren om zijn deta
 
 ![](assets/quiet-hours-preview.png)
 
-Als uw regel klaar is, activeer het en voltooi de configuratie van uw regelreeks. [ leer hoe te om regelreeksen tot stand te brengen en te activeren ](../conflict-prioritization/rule-sets.md#Create)
+Als uw regel klaar is, activeer het en voltooi de configuratie van uw regelreeks. [&#x200B; leer hoe te om regelreeksen tot stand te brengen en te activeren &#x200B;](../conflict-prioritization/rule-sets.md#Create)
 
 ## Stil uur toepassen op reizen en campagnes {#apply}
 
@@ -133,14 +133,14 @@ Nadat u de regel hebt opgeslagen en de regelset hebt geactiveerd, kunt u deze to
 
 >[!TAB  pas de acties van het het urenkanaal van de stilte in reizen toe ]
 
-1. Open uw reis, selecteer de actie van het a [ kanaal ](../building-journeys/journey-action.md) en geef de inhoud van uw bericht uit.
+1. Open uw reis, selecteer de actie van het a [&#x200B; kanaal &#x200B;](../building-journeys/journey-action.md) en geef de inhoud van uw bericht uit.
 1. Klik op de knop **[!UICONTROL Add Business Rule]** en selecteer de regelset die de regel voor stille uren bevat.
 
    ![](assets/quiet-hours-apply.png)
 
    >[!NOTE]
    >
-   >Slechts [ geactiveerde ](#activate-rule) regelreeksen tonen in de lijst.
+   >Slechts [&#x200B; geactiveerde &#x200B;](#activate-rule) regelreeksen tonen in de lijst.
 
 1. Activeer je reis.
 
@@ -153,7 +153,7 @@ Nadat u de regel hebt opgeslagen en de regelset hebt geactiveerd, kunt u deze to
 
    >[!NOTE]
    >
-   >Slechts [ geactiveerde ](#activate-rule) regelreeksen tonen in de lijst.
+   >Slechts [&#x200B; geactiveerde &#x200B;](#activate-rule) regelreeksen tonen in de lijst.
 
 1. Activeer uw campagne.
 
@@ -161,7 +161,7 @@ Nadat u de regel hebt opgeslagen en de regelset hebt geactiveerd, kunt u deze to
 
 ## Volgende stappen
 
-Zodra uw reis of campagnes zijn geactiveerd en uitgevoerd, kunt u het aantal profielen bekijken die van de mededeling in het [ rapport van Customer Journey Analytics ](../reports/report-gs-cja.md) worden uitgesloten, en in het [ Levende rapport ](../reports/live-report.md), waar de de urenregels van de Quiet als mogelijke reden voor gebruikers die van levering worden uitgesloten zullen worden vermeld.
+Zodra uw reis of campagnes zijn geactiveerd en uitgevoerd, kunt u het aantal profielen bekijken die van de mededeling in het [&#x200B; rapport van Customer Journey Analytics &#x200B;](../reports/report-gs-cja.md) worden uitgesloten, en in het [&#x200B; Levende rapport &#x200B;](../reports/live-report.md), waar de de urenregels van de Quiet als mogelijke reden voor gebruikers die van levering worden uitgesloten zullen worden vermeld.
 
 ![](assets/quiet-hours-report.png)
 

@@ -23,7 +23,7 @@ ht-degree: 1%
 >abstract="Als uw implementatie niet voor Web, iOS, of Android is, of als u specifieke URIs moet richten, ga een oppervlakte URI in, die een unieke herkenningsteken richtend aan de entiteit is waar u uw ervaring wilt leveren. Zorg ervoor u een oppervlakte URI ingaat die in uw eigen implementatie wordt gebruikt."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="Creeer een code-gebaseerde ervaringsconfiguratie voor Andere platforms"
 
-Een op code-gebaseerde ervaring **oppervlakte** is om het even welke entiteit die voor gebruiker of systeeminteractie wordt ontworpen, uniek door een [ URI ](#surface-uri) wordt geïdentificeerd. Het oppervlak wordt gespecificeerd in de [ toepassing implementatie ](code-based-prerequisites.md#implementation-prerequisites) en moet de oppervlakte aanpassen die in uw [ code-gebaseerde configuratie van het ervaringskanaal ](code-based-configuration.md) wordt van verwijzingen voorzien.
+Een op code-gebaseerde ervaring **oppervlakte** is om het even welke entiteit die voor gebruiker of systeeminteractie wordt ontworpen, uniek door een [&#x200B; URI &#x200B;](#surface-uri) wordt geïdentificeerd. Het oppervlak wordt gespecificeerd in de [&#x200B; toepassing implementatie &#x200B;](code-based-prerequisites.md#implementation-prerequisites) en moet de oppervlakte aanpassen die in uw [&#x200B; code-gebaseerde configuratie van het ervaringskanaal &#x200B;](code-based-configuration.md) wordt van verwijzingen voorzien.
 
 Een oppervlak kan worden beschouwd als een container op elk hiërarchisch niveau met een bestaande entiteit (aanraakpunt).
 
@@ -35,7 +35,7 @@ Een oppervlak kan worden beschouwd als een container op elk hiërarchisch niveau
 
 >[!NOTE]
 >
->Wanneer u meerdere op code gebaseerde ervaringsacties uitvoert op hetzelfde oppervlak, bepaalt de campagne of de rit **[!UICONTROL Priority score]** wat aan de eindgebruiker wordt geleverd als deze in aanmerking komt voor meer dan één actie. [ leer meer op prioritaire scores ](../conflict-prioritization/priority-scores.md)
+>Wanneer u meerdere op code gebaseerde ervaringsacties uitvoert op hetzelfde oppervlak, bepaalt de campagne of de rit **[!UICONTROL Priority score]** wat aan de eindgebruiker wordt geleverd als deze in aanmerking komt voor meer dan één actie. [&#x200B; leer meer op prioritaire scores &#x200B;](../conflict-prioritization/priority-scores.md)
 
 ## Identificatiecode oppervlak {#surface-uri}
 
@@ -76,14 +76,14 @@ In de onderstaande tabellen staan enkele voorbeelden van de oppervlakte-URI-defi
 
 In [!DNL Journey Optimizer], steunt het op code-gebaseerde ervaringskanaal twee types van klantenimplementaties:
 
-* Gebaseerd op [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} voor uw websites, of op [ Mobiele SDK van Adobe Experience Platform ](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} voor u mobiele apps;
-* Server-kant of hybride gebruikend [ de Server APIs van AEP Edge Network ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"}.
+* Gebaseerd op [&#x200B; SDK van het Web van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} voor uw websites, of op [&#x200B; Mobiele SDK van Adobe Experience Platform &#x200B;](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} voor u mobiele apps;
+* Server-kant of hybride gebruikend [&#x200B; de Server APIs van AEP Edge Network &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"}.
 
 >[!NOTE]
 >
->Leer meer over de implementatievereisten in [ deze sectie ](code-based-prerequisites.md#implementation-prerequisites).
+>Leer meer over de implementatievereisten in [&#x200B; deze sectie &#x200B;](code-based-prerequisites.md#implementation-prerequisites).
 
-Gebruikend op code-gebaseerde ervaringen, kunt u inhoud op korrelplaatsen <!--(such as a specific location on a page, or inside a mobile native app)--> wijzigen die uniek door [!DNL Journey Optimizer] gebruikend [ oppervlakte URIs ](#surface-uri) worden geïdentificeerd.
+Gebruikend op code-gebaseerde ervaringen, kunt u inhoud op korrelplaatsen <!--(such as a specific location on a page, or inside a mobile native app)--> wijzigen die uniek door [!DNL Journey Optimizer] gebruikend [&#x200B; oppervlakte URIs &#x200B;](#surface-uri) worden geïdentificeerd.
 
 Deze oppervlakte-URIs wordt samengesteld en behandeld afhankelijk van de implementatiemethode:
 
@@ -91,8 +91,8 @@ Deze oppervlakte-URIs wordt samengesteld en behandeld afhankelijk van de impleme
 
 * **Edge Network APIs**: De app/paginaontwikkelaar moet volledige oppervlakte URIs bepalen die de volledige weg en de plaats omvatten waar de inhoud zal worden verbruikt, omdat volledige URIs in dit type van implementatie wordt vereist.
 
-Dit is waarom, wanneer het creëren van a [ code-Gebaseerde configuratie van het ervaringskanaal ](code-based-configuration.md), u twee manieren hebt om de oppervlakte volgens het geselecteerde platform te specificeren:
+Dit is waarom, wanneer het creëren van a [&#x200B; code-Gebaseerde configuratie van het ervaringskanaal &#x200B;](code-based-configuration.md), u twee manieren hebt om de oppervlakte volgens het geselecteerde platform te specificeren:
 
-* Voor **[!UICONTROL Web]**, **[!UICONTROL iOS]** en **[!UICONTROL Android]** platforms, moet u **URL/app identiteitskaart** en a **plaats of weg** ingaan om de oppervlakte samen te stellen. Leer meer over het vormen van code-gebaseerde ervaringen voor [ Web ](code-based-configuration.md#web) en [ mobiele ](code-based-configuration.md#mobile) platforms
+* Voor **[!UICONTROL Web]**, **[!UICONTROL iOS]** en **[!UICONTROL Android]** platforms, moet u **URL/app identiteitskaart** en a **plaats of weg** ingaan om de oppervlakte samen te stellen. Leer meer over het vormen van code-gebaseerde ervaringen voor [&#x200B; Web &#x200B;](code-based-configuration.md#web) en [&#x200B; mobiele &#x200B;](code-based-configuration.md#mobile) platforms
 
-* Als het platform **[!UICONTROL Other]** is, moet u de volledige **oppervlakte URI** ingaan, als in de voorbeelden [ hierboven ](#surface-uri). Leer meer over het vormen op code-gebaseerde ervaringen voor [ andere ](code-based-configuration.md#other) platforms
+* Als het platform **[!UICONTROL Other]** is, moet u de volledige **oppervlakte URI** ingaan, als in de voorbeelden [&#x200B; hierboven &#x200B;](#surface-uri). Leer meer over het vormen op code-gebaseerde ervaringen voor [&#x200B; andere &#x200B;](code-based-configuration.md#other) platforms

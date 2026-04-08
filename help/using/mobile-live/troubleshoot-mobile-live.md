@@ -37,7 +37,7 @@ Opstelling een **zitting van Assurance** om de gebeurtenissen van SDK te vangen 
 * Push token-registratie
 * Levende activiteiten
 
-Leer hoe te opstelling Assurance in de [ documentatie van Adobe Experience Platform Assurance ](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+Leer hoe te opstelling Assurance in de [&#x200B; documentatie van Adobe Experience Platform Assurance &#x200B;](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
 **Nota**: Voor Levende activiteit van iOS, zorg ervoor uw app op een fysiek apparaat van iOS (iOS 16.1 of later) of de Simulator van Xcode (iOS 16.1 of later) loopt.
 
@@ -72,7 +72,7 @@ Haal het volgende op uit uw API-verzoek:
 * Profielnaamruimte, bijvoorbeeld ECID, e-mail, klant-id
 * Profiel-id gebruikt in API-aanroep
 
-Controleer of u dit profiel in Adobe Experience Platform kunt opzoeken. Leer hoe te [ omhoog een profiel in de documentatie van Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html) kijken.
+Controleer of u dit profiel in Adobe Experience Platform kunt opzoeken. Leer hoe te [&#x200B; omhoog een profiel in de documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html) kijken.
 
 +++
 
@@ -92,7 +92,7 @@ Verzamel het volgende van uw testapparaat:
 
 ### Problemen met profiel- of pushtoken {#profile-issue}
 
-[!BADGE  is op zowel eenheids als uitzendingsgebruiksgevallen ]{type=Positive} van toepassing
+[!BADGE &#x200B; is op zowel eenheids als uitzendingsgebruiksgevallen &#x200B;]{type=Positive} van toepassing
 
 De API retourneert HTTP 200, maar de Live-activiteit wordt niet weergegeven. Vaak voorkomende oorzaken:
 
@@ -181,7 +181,7 @@ Als `liveActivityPushNotificationDetails` ontbreekt: het token is nog niet gesyn
 
 ### Problemen met de configuratie en lading van campagnes {#payload-issues}
 
-[!BADGE  is op zowel eenheids als uitzendingsgebruiksgevallen ]{type=Positive} van toepassing
+[!BADGE &#x200B; is op zowel eenheids als uitzendingsgebruiksgevallen &#x200B;]{type=Positive} van toepassing
 
 Profiel bestaat met geldige tokens, maar Live-activiteit wordt niet weergegeven. Dit kan worden veroorzaakt door:
 
@@ -190,18 +190,18 @@ Profiel bestaat met geldige tokens, maar Live-activiteit wordt niet weergegeven.
 * `content-state` en `attributes` komen niet overeen met iOS `ActivityAttributes` -implementatie.
 * Stale `timestamp` (kritiek voor update/eind).
 
-**Nota voor de gevallen van het uitzendingsgebruik**: De campagne moet **API-getriggerde Marketing** (niet Transactioneel) zijn. Bij Payload wordt `audience` gebruikt in plaats van individuele `profile` . Verwijs naar [ deze sectie ](#broadcast-config) voor uitzending-specifieke ladingsstructuur en naar [ documentatie van Adobe Developer ](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMAudienceMessageExecution) voor volledige API specificaties.
+**Nota voor de gevallen van het uitzendingsgebruik**: De campagne moet **API-getriggerde Marketing** (niet Transactioneel) zijn. Bij Payload wordt `audience` gebruikt in plaats van individuele `profile` . Verwijs naar [&#x200B; deze sectie &#x200B;](#broadcast-config) voor uitzending-specifieke ladingsstructuur en naar [&#x200B; documentatie van Adobe Developer &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMAudienceMessageExecution) voor volledige API specificaties.
 
 #### Voorcontroles
 
 * De campagne is **API-teweeggebrachte Transactionele** (unitaire) of **API-teweeggebrachte Marketing** (uitzending) en **Hoge de optie van de Productie** moet **niet** worden toegelaten aangezien het met Levende activiteit onverenigbaar is.
-* Zorg ervoor dat het profiel bestaat en de tekenen correct gebruikend het [ hierboven scenario ](#profile-issue) worden gesynchroniseerd.
+* Zorg ervoor dat het profiel bestaat en de tekenen correct gebruikend het [&#x200B; hierboven scenario &#x200B;](#profile-issue) worden gesynchroniseerd.
 
 #### Foutopsporingsstappen
 
 +++ &#x200B;1. Verifieer de configuratie van het campagneoppervlak
 
-1. In Journey Optimizer, open uw **Campagne** en navigeer aan het **3} menu van Acties.**
+1. In Journey Optimizer, open uw **Campagne** en navigeer aan het **3&rbrace; menu van Acties.**
 1. Controleer uw **Levende activiteitenconfiguratie**. Het oppervlak moet voor de iOS-toepassing worden geconfigureerd met een bundle-id die overeenkomt met de `appId` in het `liveActivityPushNotificationDetails` -profiel. Als uw profiel bijvoorbeeld `"appId": "com.example.myapp"` heeft, moet het oppervlak zich richten op dezelfde app.
 1. Controleer dat het **type van Activiteit** in uw campagneconfiguratie precies `attributeType` in uw profiel `liveActivityPushNotificationDetails` aanpast. Als uw profiel bijvoorbeeld `"attributeType": "FoodDeliveryLiveActivityAttributes"` heeft, moet de campagne hetzelfde type activiteit opgeven.
 
@@ -339,7 +339,7 @@ Zorg ervoor dat de payload van uw API overeenkomt met de implementatie van uw iO
 | `attributes` opnemen in update/end | Onnodig, maar meestal genegeerd | Alleen `attributes` instart-gebeurtenis opnemen |
 | Tijdstempel schalen bij bijwerken/beëindigen | Bijwerken/beëindigen genegeerd door apparaat | Altijd nieuwe tijdstempel genereren |
 
-Voor meer voorbeelden, verwijs naar [ creeer Actieve activiteitenpagina ](create-mobile-live.md).
+Voor meer voorbeelden, verwijs naar [&#x200B; creeer Actieve activiteitenpagina &#x200B;](create-mobile-live.md).
 
 +++
 
@@ -362,13 +362,13 @@ Verifieer de uitvoering van de API en de levering van de lading met Assurance:
 
 ### Leveringsfouten en foutenanalyse
 
-[!BADGE  is op zowel eenheids als uitzendingsgebruiksgevallen ]{type=Positive} van toepassing
+[!BADGE &#x200B; is op zowel eenheids als uitzendingsgebruiksgevallen &#x200B;]{type=Positive} van toepassing
 
 In dit scenario zijn alle vorige controles geslaagd:
 
-* Het profiel bestaat met [ geldige Actieve tokens van de activiteitenduw ](#profile-issue)
-* De campagne wordt correct [ gevormd met juiste nuttige lading ](#payload-issues)
-* [ tokens van de Update worden gesynchroniseerd ](#token-not-synced) (voor update/eindgebeurtenissen, unitaire gebruikscase slechts)
+* Het profiel bestaat met [&#x200B; geldige Actieve tokens van de activiteitenduw &#x200B;](#profile-issue)
+* De campagne wordt correct [&#x200B; gevormd met juiste nuttige lading &#x200B;](#payload-issues)
+* [&#x200B; tokens van de Update worden gesynchroniseerd &#x200B;](#token-not-synced) (voor update/eindgebeurtenissen, unitaire gebruikscase slechts)
 
 De Live-activiteit wordt echter nog steeds niet weergegeven, bijgewerkt of beëindigd zoals u had verwacht. Het probleem kan zich voordoen op het niveau van het Adobe-leveringssysteem of bij de APNs (push notification service provider).
 
@@ -423,7 +423,7 @@ De Live-activiteit wordt echter nog steeds niet weergegeven, bijgewerkt of beëi
       | Token gevoegd op lijst van gewenste personen | Token gemarkeerd als ongeldig | Token opnieuw registreren of de status van de lijst van gewezen personen controleren |
       | Profiel komt niet in aanmerking | Profiel voldoet niet aan campagnecriteria | De publieksregels van de campagne bekijken |
 
-Leer meer in de [ Levende pagina van het activiteitencampagnerapport ](../reports/campaign-global-report-cja-activity.md).
+Leer meer in de [&#x200B; Levende pagina van het activiteitencampagnerapport &#x200B;](../reports/campaign-global-report-cja-activity.md).
 
 +++
 
@@ -547,7 +547,7 @@ Update- en end-gebeurtenissen werken alleen als het volgende plaatsvindt:
 **pre-controles:**
 
 * **Toestemming van de Gebruiker**: De eerste keer een Levende activiteit begint op een apparaat, toont iOS een systeemherinnering: &quot;Toestaan [ Naam van de App ] om Actieve activiteitenupdates te verstrekken?&quot; De gebruiker **moet &quot;toestaan&quot;tikken** voor updatetokens om worden geproduceerd en worden gesynchroniseerd. Als de gebruiker op &quot;Niet toestaan&quot; tikt, worden geen updatetokens gemaakt en mislukken de update-/eindaanvragen. Dit is een eenmalige machtiging per app.
-* **Bevestiging van het Profiel en van de Campagne**: Volledige [ Scenario 1 ](#profile-issue) en [ Scenario 2 ](#payload-issues) controles om profiel, tekenen, en campagneconfiguratie te verzekeren zijn correct.
+* **Bevestiging van het Profiel en van de Campagne**: Volledige [&#x200B; Scenario 1 &#x200B;](#profile-issue) en [&#x200B; Scenario 2 &#x200B;](#payload-issues) controles om profiel, tekenen, en campagneconfiguratie te verzekeren zijn correct.
 
 #### Foutopsporingsstappen
 
@@ -629,7 +629,7 @@ Dit scenario voor het oplossen van problemen is van toepassing op alle gebeurten
 * **Type van Campagne**:
    * Verifieer dat de campagne als API-teweeggebrachte Marketing (die voor uitzending/op publiek-gebaseerde campagnes wordt vereist) wordt gecreeerd.
    * Bevestig dat een publiek in de campagneconfiguratie wordt bepaald.
-* **Profiel en Symbolische Bevestiging**: Steek veelvoudige profielen van het publiek om te verifiëren zij geldig `liveActivityPushNotificationDetails` hebben. Voor gedetailleerde bevestigingsstappen, volg [ Scenario 1 ](#profile-issue).
+* **Profiel en Symbolische Bevestiging**: Steek veelvoudige profielen van het publiek om te verifiëren zij geldig `liveActivityPushNotificationDetails` hebben. Voor gedetailleerde bevestigingsstappen, volg [&#x200B; Scenario 1 &#x200B;](#profile-issue).
 
 #### Foutopsporingsstappen
 
@@ -714,7 +714,7 @@ De structuur van de uitzendingslading verschilt van eenheidscampagnes. Verifieer
 * `dismissal-date`: Unix tijdperk voor automatisch ontslag (alleen relevant voor `end` -gebeurtenissen)
 * `alert`: Object met `title` en `body` voor melding
 
-Verwijs naar de [ documentatie van API van het Overseinen van Adobe Journey Optimizer ](https://developer.adobe.com/journey-optimizer-apis/references/messaging) voor volledige API specificaties.
+Verwijs naar de [&#x200B; documentatie van API van het Overseinen van Adobe Journey Optimizer &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging) voor volledige API specificaties.
 
 +++
 
@@ -838,7 +838,7 @@ Adobe Experience Platform gebruikt verschillende methoden voor publieksevaluatie
 **pre-controles:**
 
 * **Campagne en Bevestiging van de Lading**:
-   * Voltooi de controles in [ dit scenario ](#broadcast-config) om de campagne en de lading te verzekeren correct zijn.
+   * Voltooi de controles in [&#x200B; dit scenario &#x200B;](#broadcast-config) om de campagne en de lading te verzekeren correct zijn.
    * Controleer of de `audience.id` in de API-payload overeenkomt met de configuratie van de campagne.
 * **Profiel bestaat**: Bevestig dat het profiel in AEP met geldig `liveActivityPushNotificationDetails` bestaat.
 
