@@ -22,17 +22,17 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
 >title="Actie optimaliseren"
->abstract="**optimaliseer** activiteit laat u bepalen hoe de individuen door uw reis door veelvoudige wegen te creëren die op specifieke criteria, met inbegrip van het experimenteren, richten, en specifieke voorwaarden worden gebaseerd. Merk op dat **optimaliseer** activiteit het nieuwe voertuig voor het creëren van voorwaardelijke wegen in reizen is. Het vervangt de vroegere **1} activiteit van de Voorwaarde {.**"
+>abstract="**optimaliseer** activiteit laat u bepalen hoe de individuen door uw reis door veelvoudige wegen te creëren die op specifieke criteria, met inbegrip van het experimenteren, richten, en specifieke voorwaarden worden gebaseerd. Merk op dat **optimaliseer** activiteit het nieuwe voertuig voor het creëren van voorwaardelijke wegen in reizen is. Het vervangt de vroegere **1&rbrace; activiteit van de Voorwaarde &lbrace;.**"
 
 >[!IMPORTANT]
 >
->**optimaliseer** activiteit is het nieuwe voertuig voor het creëren van voorwaardelijke wegen in reizen. Het vervangt de vroegere **voorwaarde** activiteit, die uit UI is verwijderd. Alle voorwaardelijke logica wordt behouden en wordt nu behandeld door **** voorwaarden van 1} activiteit {optimaliseren [.](conditions.md)
+>**optimaliseer** activiteit is het nieuwe voertuig voor het creëren van voorwaardelijke wegen in reizen. Het vervangt de vroegere **voorwaarde** activiteit, die uit UI is verwijderd. Alle voorwaardelijke logica wordt behouden en wordt nu behandeld door **&#x200B;**&#x200B;voorwaarden van 1&rbrace; activiteit &lbrace;optimaliseren [.](conditions.md)
 >
 >Als u bestaande ritten hebt die **[!UICONTROL Condition]** activiteiten gebruikten, kunt u hen blijven gebruiken zoals voordien. Ze worden nu met een nieuw pictogram weergegeven als **[!UICONTROL Optimize]** -activiteiten met de methode **[!UICONTROL Condition]** , maar het gedrag blijft ongewijzigd. Elk aangepast label dat u op het knooppunt hebt ingesteld, blijft behouden.
 
 **optimaliseer** activiteit laat u bepalen hoe de individuen door uw reis door veelvoudige **wegen** te creëren die op specifieke criteria, met inbegrip van het experimenteren, het richten, en specifieke voorwaarden - het verzekeren van maximumbetrokkenheid en succes door hoogst aangepaste en efficiënte reizen te creëren.
 
-![ optimaliseer knoop in het palet van de reisactiviteit ](assets/journey-optimize.png)
+![&#x200B; optimaliseer knoop in het palet van de reisactiviteit &#x200B;](assets/journey-optimize.png)
 
 ## Wat is een reispad? {#journey-path}
 
@@ -44,15 +44,15 @@ Een pad kan bijvoorbeeld een e-mail bevatten, een ander pad kan twee SMS-bericht
 
 Door **optimaliseer** activiteit, kunt u de volgende acties op uw reiswegen uitvoeren:
 
-* [ de wegexperimenten van de Looppas ](path-experimentation.md) - test verschillende wegen die op willekeurige spaties worden gebaseerd om te bepalen welke het best volgens vooraf bepaalde succesmetriek (bijvoorbeeld: omzettingspercentage, opbrengst, overeenkomst) presteert.
+* [&#x200B; de wegexperimenten van de Looppas &#x200B;](path-experimentation.md) - test verschillende wegen die op willekeurige spaties worden gebaseerd om te bepalen welke het best volgens vooraf bepaalde succesmetriek (bijvoorbeeld: omzettingspercentage, opbrengst, overeenkomst) presteert.
 
-* [ Hefboomwerking richtend regels ](path-targeting.md) - bepaal specifieke regels die voor een klant moeten worden ontmoet om één van de reiswegen in te gaan, die op publiekssegmenten, profielattributen, of contextafhankelijke gegevens wordt gebaseerd. Dit zorgt ervoor dat het juiste publiek het opgegeven pad invoert.
+* [&#x200B; Hefboomwerking richtend regels &#x200B;](path-targeting.md) - bepaal specifieke regels die voor een klant moeten worden ontmoet om één van de reiswegen in te gaan, die op publiekssegmenten, profielattributen, of contextafhankelijke gegevens wordt gebaseerd. Dit zorgt ervoor dat het juiste publiek het opgegeven pad invoert.
 
   >[!AVAILABILITY]
   >
   >Deze mogelijkheid is momenteel beschikbaar met beperkte beschikbaarheid. Neem contact op met uw Adobe-vertegenwoordiger om toegang aan te vragen.
 
-* [ past voorwaarden ](conditions.md) toe - creeer voorwaardelijke wegen die op specifieke criteria zoals gegevensbronnen, tijd, datum, percentagespleten, of profielkappen worden gebaseerd. Dit is het equivalent van de vroegere Condition-activiteit.
+* [&#x200B; past voorwaarden &#x200B;](conditions.md) toe - creeer voorwaardelijke wegen die op specifieke criteria zoals gegevensbronnen, tijd, datum, percentagespleten, of profielkappen worden gebaseerd. Dit is het equivalent van de vroegere Condition-activiteit.
 
 ## Werking {#how-it-works}
 
@@ -62,6 +62,6 @@ Zodra de reis levend is, worden profielen beoordeeld aan de hand van de vastgest
 
 Selecteer de optimalisatiemethode die het beste bij uw gebruikscase past:
 
-* Wilt u testen en leren welk pad het beste presteert? → Ga naar [ experimenteren van de Weg ](path-experimentation.md)
-* Wilt u verschillende soorten publiek langs specifieke paden omlaag sturen? → Ga naar [ Weg richtend ](path-targeting.md)
-* Wilt u voorwaardelijke logica maken (als/dan scenario&#39;s)? → Ga naar [ Voorwaarden ](conditions.md)
+* Wilt u testen en leren welk pad het beste presteert? → Ga naar [&#x200B; experimenteren van de Weg &#x200B;](path-experimentation.md)
+* Wilt u verschillende soorten publiek langs specifieke paden omlaag sturen? → Ga naar [&#x200B; Weg richtend &#x200B;](path-targeting.md)
+* Wilt u voorwaardelijke logica maken (als/dan scenario&#39;s)? → Ga naar [&#x200B; Voorwaarden &#x200B;](conditions.md)
