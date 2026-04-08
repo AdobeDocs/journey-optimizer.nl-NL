@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 337b8ed47892ef06a84884468919e32a333653f3
+exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
+source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Inbox bouwt op het kanaal van de Kaarten van de Inhoud verder en voegt toe:
 * **Blijvend overseinen**: De inhoud blijft in inbox tot u het verwijdert of het verloopt, zodat kunnen de gebruikers aan het terugkeren nadat een bericht sluit of app verlaten.
 * **Gecentraliseerde plaats**: Één enkele brievenbus in uw app of plaats voor relevante marketing berichten.
 * **Flexibele implementatie**: Gebruik de kant-en-klare inbox container of pas de ervaring in uw eigen UI aan.
-* **Synchronisatie tussen apparaten**: Lees status en overeenkomst blijven gericht over de apparaten van een gebruiker.
+* **lees-Status**: De berichten kunnen als gelezen of ongelezen op het apparaat worden gemerkt waar zij worden geopend.
 
 ## Handleiding voor snel starten
 
@@ -45,6 +46,6 @@ Voer de volgende stappen uit om Postvak IN te configureren en te gebruiken:
 
 ## Aanvullende bronnen
 
-* [&#x200B; Vetch en Vertoning Inbox &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox/): Laad Journey Optimizer inbox- berichten en geef Inbox UI op Android (de documentatie van Adobe Developer) terug.
-* [&#x200B; het Aanpassen Inbox &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/): Pas inbox lay-out, het stileren, en interactiegedrag voor uw Android app (de documentatie van Adobe Developer) aan.
-* [&#x200B; luisterend aan Gebeurtenissen Inbox &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/): Abonneer aan inbox callbacks voor gebruikersacties en levenscyclusupdates op Android (de documentatie van Adobe Developer).
+* [ Vetch en Vertoning Inbox ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox/): Laad Journey Optimizer inbox- berichten en geef Inbox UI op Android (de documentatie van Adobe Developer) terug.
+* [ het Aanpassen Inbox ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/): Pas inbox lay-out, het stileren, en interactiegedrag voor uw Android app (de documentatie van Adobe Developer) aan.
+* [ luisterend aan Gebeurtenissen Inbox ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/): Abonneer aan inbox callbacks voor gebruikersacties en levenscyclusupdates op Android (de documentatie van Adobe Developer).
