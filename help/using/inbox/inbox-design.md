@@ -17,9 +17,9 @@ ht-degree: 0%
 
 Het ontwerp van de Postbus bepaalt hoe elk bericht aan gerichte profielen binnen de inbox oppervlakte wordt teruggegeven. De configuratie omvat de inbox malplaatje, lijst en uitgebreide presentaties, en read-state indicatoren die nieuwe berichten van reeds bekeken die onderscheiden.
 
-Voor de volledige procedure om een inbox campagne tot stand te brengen, verwijs naar [ creeer een Inbox ](inbox-create.md).
+Voor de volledige procedure om een inbox campagne tot stand te brengen, verwijs naar [&#x200B; creeer een Inbox &#x200B;](inbox-create.md).
 
-1. Open het **[!UICONTROL Content]** lusje van de [ Inbox campagne u ](inbox-create.md) creeerde.
+1. Open het **[!UICONTROL Content]** lusje van de [&#x200B; Inbox campagne u &#x200B;](inbox-create.md) creeerde.
 
 1. Stel de **[!UICONTROL Container title]** in.
 
@@ -53,7 +53,7 @@ Voor de volledige procedure om een inbox campagne tot stand te brengen, verwijs 
 
    ![](assets/inbox-design-3.png)
 
-1. Klik het ![ spoorpictogram ](assets/do-not-localize/Smock_Rail_18_N.svg) om het voorproefpaneel te openen en te herzien hoe lege inbox verschijnt.
+1. Klik het ![&#x200B; spoorpictogram &#x200B;](assets/do-not-localize/Smock_Rail_18_N.svg) om het voorproefpaneel te openen en te herzien hoe lege inbox verschijnt.
 
    ![](assets/inbox-design-3.png)
 
@@ -63,5 +63,5 @@ Voor de volledige procedure om een inbox campagne tot stand te brengen, verwijs 
 
    ![](assets/inbox-design-4.png)
 
-Wanneer u klaar bent, controleert u uw instellingen en activeert u het Postvak IN. Na activering, kunt u het met [ kaarten van de Inhoud ](../content-card/create-content-card.md) gebruiken.
+Wanneer u klaar bent, controleert u uw instellingen en activeert u het Postvak IN. Na activering, kunt u het met [&#x200B; kaarten van de Inhoud &#x200B;](../content-card/create-content-card.md) gebruiken.
 

@@ -46,6 +46,6 @@ Voer de volgende stappen uit om Postvak IN te configureren en te gebruiken:
 
 ## Aanvullende bronnen
 
-* [ Vetch en Vertoning Inbox ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox/): Laad Journey Optimizer inbox- berichten en geef Inbox UI op Android (de documentatie van Adobe Developer) terug.
-* [ het Aanpassen Inbox ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/): Pas inbox lay-out, het stileren, en interactiegedrag voor uw Android app (de documentatie van Adobe Developer) aan.
-* [ luisterend aan Gebeurtenissen Inbox ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/): Abonneer aan inbox callbacks voor gebruikersacties en levenscyclusupdates op Android (de documentatie van Adobe Developer).
+* [&#x200B; Vetch en Vertoning Inbox &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox/): Laad Journey Optimizer inbox- berichten en geef Inbox UI op Android (de documentatie van Adobe Developer) terug.
+* [&#x200B; het Aanpassen Inbox &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/): Pas inbox lay-out, het stileren, en interactiegedrag voor uw Android app (de documentatie van Adobe Developer) aan.
+* [&#x200B; luisterend aan Gebeurtenissen Inbox &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/): Abonneer aan inbox callbacks voor gebruikersacties en levenscyclusupdates op Android (de documentatie van Adobe Developer).
