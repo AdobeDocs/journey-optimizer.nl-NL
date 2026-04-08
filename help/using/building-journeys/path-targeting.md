@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: gericht, regels, reis, weg, optimalisering, personalisering
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
+source-git-commit: 9cf7479bcdb12e5d2ebadfcf977b17738a97536d
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 1%
 
 ---
-
 
 # Benadering van gebruikspad {#targeting}
 
@@ -47,33 +47,33 @@ Volg de onderstaande stappen om doelgericht te kiezen op een reis.
 
 1. Selecteer **[!UICONTROL Targeting rule]** in de vervolgkeuzelijst **[!UICONTROL Method]** .
 
-   ![&#x200B; het richten regelselectie in Optimize activiteit &#x200B;](assets/journey-optimize-targeting.png){width=60%}
+   ![ het richten regelselectie in Optimize activiteit ](assets/journey-optimize-targeting.png){width=60%}
 
 1. Klik op **[!UICONTROL Create targeting rule]**.
 
 1. Klik op **[!UICONTROL Create rule]** > **[!UICONTROL Create new]** en gebruik de regelbouwer om uw criteria te definiëren.
 
-   ![&#x200B; de bouwerinterface van de Regel voor het creëren van het richten van criteria &#x200B;](assets/journey-targeting-create-rule.png){width=100%}
+   ![ de bouwerinterface van de Regel voor het creëren van het richten van criteria ](assets/journey-targeting-create-rule.png){width=100%}
 
    U kunt bijvoorbeeld een regel definiëren voor Gold-leden van het Loyalty-programma (`loyalty.status.equals("Gold", false)`) en een regel voor de andere leden (`loyalty.status.notEqualTo("Gold", false)`).
 
-   ![&#x200B; Loyalty status richtend regel voor Goud en niet-Goud leden &#x200B;](assets/journey-targeting-rule.png)
+   ![ Loyalty status richtend regel voor Goud en niet-Goud leden ](assets/journey-targeting-rule.png)
 
 1. U kunt ook op **[!UICONTROL Create rule]** > **[!UICONTROL Select rule]** klikken om een bestaande doelregel te selecteren die in het menu **[!UICONTROL Rules]** is gemaakt. [Meer informatie](../experience-decisioning/rules.md)
 
-   ![&#x200B; Uitgezocht bestaand richtend regel van het menu van Regels &#x200B;](assets/journey-targeting-select-rule.png){width=70%}
+   ![ Uitgezocht bestaand richtend regel van het menu van Regels ](assets/journey-targeting-select-rule.png){width=70%}
 
    In dit geval wordt de formule die de regel vormt, gewoon gekopieerd naar de reisactiviteit. Eventuele volgende wijzigingen in die regel in het menu **[!UICONTROL Rules]** hebben geen invloed op de kopie van de rit.
 
    >[!AVAILABILITY]
    >
-   >[&#x200B; Creërend het richten van regels &#x200B;](../experience-decisioning/rules.md#create) van het specifieke [!DNL Journey Optimizer] menu is momenteel beschikbaar aan organisaties die het Besluit toe:voegen-op aanbieden hebben gekocht, en zij zijn beschikbaar op bestelling voor de andere organisaties (Beperkte Beschikbaarheid).
+   >[ Creërend het richten van regels ](../experience-decisioning/rules.md#create) van het specifieke [!DNL Journey Optimizer] menu is momenteel beschikbaar aan organisaties die het Besluit toe:voegen-op aanbieden hebben gekocht, en zij zijn beschikbaar op bestelling voor de andere organisaties (Beperkte Beschikbaarheid).
    >
    >Deze capaciteit zal geleidelijk aan aan alle klanten worden uitgebreid. Neem in de tussentijd contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 1. Nadat u een regel hebt toegevoegd, kunt u deze nog steeds wijzigen. Kies **[!UICONTROL Edit inline]** om de regel onderweg bij te werken met de regelbuilder of **[!UICONTROL Select rule]** om een andere bestaande regel op te halen.
 
-   ![&#x200B; geef gealigneerde uit of selecteer regelopties voor het wijzigen van het richten van regels &#x200B;](assets/journey-targeting-modify-rule.png){width=100%}
+   ![ geef gealigneerde uit of selecteer regelopties voor het wijzigen van het richten van regels ](assets/journey-targeting-modify-rule.png){width=100%}
 
    >[!NOTE]
    >
@@ -89,11 +89,11 @@ Volg de onderstaande stappen om doelgericht te kiezen op een reis.
 
 1. Plaats op de achtergrond de specifieke handelingen om elk pad aan te passen. Maak bijvoorbeeld een e-mailbericht met persoonlijke aanbiedingen voor leden van Gold Loyalty en een SMS-herinnering voor alle andere leden.
 
-   ![&#x200B; wegen van de Reis met e-mail voor Gouden leden en SMS voor anderen &#x200B;](assets/journey-targeting-paths.png)
+   ![ wegen van de Reis met e-mail voor Gouden leden en SMS voor anderen ](assets/journey-targeting-paths.png)
 
 1. Als u bij het definiëren van de regelinstellingen de optie **[!UICONTROL Enable fallback content]** hebt geselecteerd, definieert u een of meer handelingen voor het terugvalpad dat automatisch is toegevoegd.
 
-   ![&#x200B; de padconfiguratie van de Fallback voor ongekwalificeerde profielen &#x200B;](assets/journey-targeting-fallback.png){width=70%}
+   ![ de padconfiguratie van de Fallback voor ongekwalificeerde profielen ](assets/journey-targeting-fallback.png){width=70%}
 
 1. U kunt ook de **[!UICONTROL Add an alternative path in case of a timeout or an error]** gebruiken om een alternatieve actie te definiëren als er problemen optreden. [Meer informatie](using-the-journey-designer.md#paths)
 
@@ -101,7 +101,7 @@ Volg de onderstaande stappen om doelgericht te kiezen op een reis.
 
    In dit voorbeeld, ontwerp een e-mail met speciale aanbiedingen voor Gouden leden, en een herinnering van SMS voor de andere leden.<!--You can seamlessly navigate between the different contents for each action. ![Content design panel for targeting rule actions](assets/journey-targeting-design.png)-->
 
-1. [&#x200B; publiceer &#x200B;](publish-journey.md) uw reis.
+1. [ publiceer ](publish-journey.md) uw reis.
 
 Zodra de reis levend is, wordt de weg die voor elk segment wordt gespecificeerd verwerkt zodat de Gouden leden de weg met de e-mailaanbiedingen ingaan, terwijl de andere leden de weg met de herinnering van SMS ingaan.
 
@@ -117,7 +117,7 @@ Goudstatusloyaliteitsleden kunnen persoonlijke aanbiedingen via e-mail ontvangen
 
 <!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
-![&#x200B; segment-specifieke kanalen die gouden leden met e-mail en anderen met SMS richten &#x200B;](assets/journey-optimize-targeting-uc-segment.png)
+![ segment-specifieke kanalen die gouden leden met e-mail en anderen met SMS richten ](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -127,7 +127,7 @@ Klanten die een e-mail hebben geopend maar niet hebben geklikt, kunnen een pushm
 
 <!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
-![&#x200B; op gedrag-gebaseerd richten voor e-mailovereenkomst met duw of fallback van SMS &#x200B;](assets/journey-optimize-targeting-uc-behavior.png)
+![ op gedrag-gebaseerd richten voor e-mailovereenkomst met duw of fallback van SMS ](assets/journey-optimize-targeting-uc-behavior.png)
 
 +++
 
@@ -137,7 +137,6 @@ Klanten die onlangs een aankoop hebben gedaan, kunnen een kort pad naar &quot;Be
 
 <!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
-![&#x200B; de geschiedenis van de Aankoop die met dwars-verkoopweg voor kopers en de weg van de verpleegkunde voor niet-kopers richt &#x200B;](assets/journey-optimize-targeting-uc-purchase.png)
+![ de geschiedenis van de Aankoop die met dwars-verkoopweg voor kopers en de weg van de verpleegkunde voor niet-kopers richt ](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
-

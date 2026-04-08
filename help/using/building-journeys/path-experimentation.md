@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: experimenteren, experimenteren, reizen, paden, optimaliseren, A/B testen, meervoudig bewapende bandit, de winnaar schalen
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
+source-git-commit: 9cf7479bcdb12e5d2ebadfcf977b17738a97536d
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 0%
@@ -21,7 +22,7 @@ ht-degree: 0%
 >id="ajo_path_experiment_success_metric"
 >title="Metrisch met succes"
 >abstract="Succesvolle maatstaf wordt gebruikt om de best presterende behandeling in een experiment bij te houden en te evalueren."
->additional-url="https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Vorm en spoor uw reismetriek"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="Vorm en spoor uw reismetriek"
 
 Met behulp van experimenten kunt u verschillende paden testen op basis van een willekeurige splitsing om te bepalen wat het beste werkt op basis van vooraf gedefinieerde succeswaarden.
 
@@ -39,13 +40,13 @@ Stel dat u drie paden wilt vergelijken:
 
 1. Selecteer **[!UICONTROL Experiment]** in de vervolgkeuzelijst **[!UICONTROL Method]** .
 
-   ![&#x200B; het experimenteren van de Weg configuratievenster &#x200B;](assets/journey-optimize-experiment.png){width=65%}
+   ![ het experimenteren van de Weg configuratievenster ](assets/journey-optimize-experiment.png){width=65%}
 
 1. Klik op **[!UICONTROL Create experiment]**.
 
-1. Selecteer de **[!UICONTROL Success metric]** die u voor het experiment wilt instellen. Leer meer op de beschikbare metriek en hoe te om de lijst in [&#x200B; te vormen deze sectie &#x200B;](success-metrics.md).
+1. Selecteer de **[!UICONTROL Success metric]** die u voor het experiment wilt instellen. Leer meer op de beschikbare metriek en hoe te om de lijst in [ te vormen deze sectie ](success-metrics.md).
 
-   ![&#x200B; Primaire en extra metriekselectie voor experiment &#x200B;](assets/journey-optimize-experiment-metrics.png){width=80%}
+   ![ Primaire en extra metriekselectie voor experiment ](assets/journey-optimize-experiment-metrics.png){width=80%}
 
 1. Selecteer de **[!UICONTROL Experiment type]** voor het padexperiment:
 
@@ -53,9 +54,9 @@ Stel dat u drie paden wilt vergelijken:
 
    * **[!UICONTROL Multi-armed bandit]** — Verkeer dat wordt opgesplitst tussen behandelingen wordt automatisch afgehandeld. Om de 7 dagen, worden de prestaties op primaire metrisch beoordeeld, en de gewichten worden dienovereenkomstig aangepast. Uit de rapportage blijkt nog steeds dat er lift is, zoals bij A/B-tests.
 
-   ![&#x200B; Experimenteer type dropdown in wegexperiment &#x200B;](assets/journey-path-experiment-type.png){width=80%}
+   ![ Experimenteer type dropdown in wegexperiment ](assets/journey-path-experiment-type.png){width=80%}
 
-   ➡️ [&#x200B; Leer meer over het verschil tussen A/B en Multi-gewapende bandit experimenten &#x200B;](../content-management/mab-vs-ab.md)
+   ➡️ [ Leer meer over het verschil tussen A/B en Multi-gewapende bandit experimenten ](../content-management/mab-vs-ab.md)
 
 1. U kunt desgewenst een **[!UICONTROL Holdout]** -groep toevoegen aan uw levering. Deze groep zal geen weg van dit experiment ingaan.
 
@@ -69,25 +70,25 @@ Stel dat u drie paden wilt vergelijken:
 
 1. U kunt een exact percentage toewijzen aan elke **[!UICONTROL Treatment]** of gewoon de schakelbalk van **[!UICONTROL Distribute evenly]** inschakelen.
 
-   ![&#x200B; de schuifregelaar van de Toewijzing van de Behandeling met percentagedistributie &#x200B;](assets/journey-optimize-experiment-treatments.png){width=80%}
+   ![ de schuifregelaar van de Toewijzing van de Behandeling met percentagedistributie ](assets/journey-optimize-experiment-treatments.png){width=80%}
 
-1. Laat het auto-schaalexperiment toe om de winnende variatie van uw experiment automatisch uit te rollen. [&#x200B; Leer meer op hoe te om winnaar te schrapen &#x200B;](#scale-winner)
+1. Laat het auto-schaalexperiment toe om de winnende variatie van uw experiment automatisch uit te rollen. [ Leer meer op hoe te om winnaar te schrapen ](#scale-winner)
 
 1. Klik op **[!UICONTROL Create]**.
 
 1. Definieer de elementen die u wilt gebruiken voor elke vertakking die het resultaat is van het experiment, bijvoorbeeld:
 
-   * De belemmering en laat vallen een [&#x200B; E-mail &#x200B;](../email/create-email.md) activiteit op de eerste tak (**Behandeling A**).
+   * De belemmering en laat vallen een [ E-mail ](../email/create-email.md) activiteit op de eerste tak (**Behandeling A**).
 
-   * De belemmering en laat vallen a [&#x200B; wacht &#x200B;](wait-activity.md) activiteit van twee dagen op de eerste tak, die door een [&#x200B; wordt gevolgd e-mail &#x200B;](../email/create-email.md) activiteit (**Behandeling B**).
+   * De belemmering en laat vallen a [ wacht ](wait-activity.md) activiteit van twee dagen op de eerste tak, die door een [ wordt gevolgd e-mail ](../email/create-email.md) activiteit (**Behandeling B**).
 
-   * De belemmering en laat vallen een [&#x200B; E-mail &#x200B;](../email/create-email.md) activiteit op de derde tak, die door een [&#x200B; wordt gevolgd SMS &#x200B;](../sms/create-sms.md) activiteit (**Behandeling C**).
+   * De belemmering en laat vallen een [ E-mail ](../email/create-email.md) activiteit op de derde tak, die door een [ wordt gevolgd SMS ](../sms/create-sms.md) activiteit (**Behandeling C**).
 
-   ![&#x200B; het experimenteervoorbeeld van de Weg met drie behandelingspaden &#x200B;](assets/journey-optimize-experiment-ex.png){width=100%}
+   ![ het experimenteervoorbeeld van de Weg met drie behandelingspaden ](assets/journey-optimize-experiment-ex.png){width=100%}
 
 1. U kunt ook de **[!UICONTROL Add an alternative path in case of a timeout or an error]** gebruiken om een fallback-actie te definiëren. [Meer informatie](using-the-journey-designer.md#paths)
 
-1. [&#x200B; publiceer &#x200B;](publish-journey.md) uw reis.
+1. [ publiceer ](publish-journey.md) uw reis.
 
 <!--
 
@@ -122,7 +123,7 @@ Test of het verzenden van het eerste bericht via e-mail versus SMS tot hogere om
 
 ➡️ Gebruik de conversiesnelheid als de succesmaatstaf (bijvoorbeeld aankopen, aanmelden).
 
-![&#x200B; experiment van de doeltreffendheid van het Kanaal het vergelijken van e-mail tegenover SMS &#x200B;](assets/journey-optimize-experiment-uc-channel.png)
+![ experiment van de doeltreffendheid van het Kanaal het vergelijken van e-mail tegenover SMS ](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
@@ -132,7 +133,7 @@ Voer een experiment uit om te controleren of het verzenden van één e-mail vers
 
 ➡️ Gebruik aankopen of de afmeldingsfrequentie als de maatstaf voor succes.
 
-![&#x200B; de frequentietests van het Bericht testend één e-mail versus drie e-mails &#x200B;](assets/journey-optimize-experiment-uc-frequency.png)
+![ de frequentietests van het Bericht testend één e-mail versus drie e-mails ](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -142,7 +143,7 @@ Vergelijk een wachttijd van 24 uur in vergelijking met een wachttijd van 72 uur 
 
 ➡️ Gebruik de doorklikfrequentie of de opbrengst als succesmetrisch.
 
-![&#x200B; Wacht tijdexperiment die 24 uur tegenover 72-uurvertragingen vergelijkt &#x200B;](assets/journey-optimize-experiment-uc-wait.png)
+![ Wacht tijdexperiment die 24 uur tegenover 72-uurvertragingen vergelijkt ](assets/journey-optimize-experiment-uc-wait.png)
 
 +++
 
@@ -174,7 +175,7 @@ Automatisch schalen inschakelen voor experimenten:
 
 1. Schakel de optie voor automatisch schalen in wanneer u het experiment instelt.
 
-   ![&#x200B; auto-schaal optie in wegexperiment &#x200B;](assets/journey-optimize-autoscale.png)
+   ![ auto-schaal optie in wegexperiment ](assets/journey-optimize-autoscale.png)
 
 1. Selecteer wanneer de winnaar moet worden geschaald:
 
@@ -183,7 +184,7 @@ Automatisch schalen inschakelen voor experimenten:
 
    De automatisch schaalbare tijd moet voor de einddatum van het experiment zijn gepland. Als deze voor een tijd na de einddatum wordt ingesteld, verschijnt er een validatiewaarschuwing en wordt de reis niet gepubliceerd.
 
-   ![&#x200B; auto-schaal tijdselectie in wegexperiment &#x200B;](assets/journey-optimize-autoscale-time.png)
+   ![ auto-schaal tijdselectie in wegexperiment ](assets/journey-optimize-autoscale-time.png)
 
 1. Kies het terugvalgedrag als er geen winnaar is gevonden op schaaltijd:
 
@@ -208,7 +209,7 @@ De winnaar van uw experimenten handmatig schalen:
 
    Bekijk de resultaten in de **[!UICONTROL Path experiment]** -weergave om de best presterende behandeling te identificeren.
 
-   ![&#x200B; Handmatige schaalwinnaar in wegexperiment &#x200B;](assets/journey-optimize-manual-scale-winner.png)
+   ![ Handmatige schaalwinnaar in wegexperiment ](assets/journey-optimize-manual-scale-winner.png)
 
 1. Klik op **[!UICONTROL Scale treatment]** om de winnende bewerking door te voeren naar de rest van uw publiek.
 
@@ -216,6 +217,6 @@ De winnaar van uw experimenten handmatig schalen:
 
 1. Selecteer in de keuzelijst de behandeling die u wilt schalen en klik op **[!UICONTROL Scale]** .
 
-   ![&#x200B; de behandelingsselectie van de Schaal in wegexperiment &#x200B;](assets/journey-optimize-scale-treatment.png){width=80%}
+   ![ de behandelingsselectie van de Schaal in wegexperiment ](assets/journey-optimize-scale-treatment.png){width=80%}
 
 Let erop dat het schalen van de behandeling maximaal één uur kan duren. U ontvangt een melding als het handmatig schalen is voltooid.
