@@ -10,10 +10,10 @@ level: Intermediate
 keywords: problemen oplossen, problemen oplossen, reis, controle, fouten
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 719bd2fca82a25c356ed708819a6e7684ffbff9b
+source-git-commit: ecf61997d9ab8a7fe818db15b0b70b1a8c6ad500
 workflow-type: tm+mt
-source-wordcount: '2034'
-ht-degree: 12%
+source-wordcount: '2196'
+ht-degree: 11%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 12%
 
 In deze sectie, leer hoe te om reisgebeurtenissen problemen op te lossen, controleer als de profielen uw reis inging, hoe zij door het navigeren, en als de berichten worden verzonden.
 
-U kunt fouten ook oplossen voordat u een reis test of publiceert. Leer hoe [&#x200B; op deze pagina &#x200B;](troubleshooting.md).
+U kunt fouten ook oplossen voordat u een reis test of publiceert. Leer hoe [ op deze pagina ](troubleshooting.md).
 
-Als u binnenkomende acties gebruikt, leer hoe te om hen [&#x200B; op deze pagina &#x200B;](troubleshooting-inbound.md) problemen op te lossen.
+Als u binnenkomende acties gebruikt, leer hoe te om hen [ op deze pagina ](troubleshooting-inbound.md) problemen op te lossen.
 
 ## Controleren of gebeurtenissen correct zijn verzonden {#checking-that-events-are-properly-sent}
 
@@ -31,9 +31,9 @@ Het startpunt van een journey is altijd een gebeurtenis. U kunt tests uitvoeren 
 
 U kunt controleren of de API-aanroep die u via deze tools verzendt, correct is verzonden of niet. Als een fout wordt geretourneerd, betekent dit dat er een probleem is met uw aanroep. Controleer opnieuw de payload, de koptekst (vooral de organisatie-id) en de bestemmings-URL. U kunt de beheerder vragen wat de juiste URL is.
 
-Gebeurtenissen worden niet rechtstreeks van de bron naar de ritten verplaatst. Reizen vertrouwen inderdaad op de streaming opname-API&#39;s van [!DNL Adobe Experience Platform] . Dientengevolge, in het geval van gebeurtenis verwante kwesties, kunt u naar [[!DNL Adobe Experience Platform]  documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=nl-NL){target="_blank"} voor het Streamen van opname APIs het oplossen van problemen verwijzen.
+Gebeurtenissen worden niet rechtstreeks van de bron naar de ritten verplaatst. Reizen vertrouwen inderdaad op de streaming opname-API&#39;s van [!DNL Adobe Experience Platform] . Dientengevolge, in het geval van gebeurtenis verwante kwesties, kunt u naar [[!DNL Adobe Experience Platform]  documentatie ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} voor het Streamen van opname APIs het oplossen van problemen verwijzen.
 
-Als uw reis er niet in slaagt testwijze met fout `ERR_MODEL_RULES_16` toe te laten, zorg ervoor de gebruikte gebeurtenis een [&#x200B; identiteit namespace &#x200B;](../audience/get-started-identity.md) omvat wanneer het gebruiken van een kanaalactie.
+Als uw reis er niet in slaagt testwijze met fout `ERR_MODEL_RULES_16` toe te laten, zorg ervoor de gebruikte gebeurtenis een [ identiteit namespace ](../audience/get-started-identity.md) omvat wanneer het gebruiken van een kanaalactie.
 
 De naamruimte identity wordt gebruikt om de testprofielen op unieke wijze te identificeren. Bijvoorbeeld, als e-mail wordt gebruikt om de testprofielen te identificeren, zou de identiteit namespace **E-mail** moeten worden geselecteerd. Als het unieke herkenningsteken het telefoonaantal is, dan zou de identiteit namespace **Telefoon** moeten worden geselecteerd.
 
@@ -57,18 +57,18 @@ U kunt het oplossen van problemen met de hieronder vragen beginnen:
   Content-type - application/json
   ```
 
-* **de voorwaarde en het schemagegevenstypes van de Gebeurtenis** - verzeker de gegevenstypes die in uw gebeurtenisvoorwaarde (regel) worden gebruikt het gebeurtenisschema aanpassen. Bij niet-overeenkomende typen (bijvoorbeeld tekenreeks versus geheel getal) mislukt de regelevaluatie en gaan gebeurtenissen verloren. Zie [&#x200B; de identiteit van de gebeurtenisidentiteit &#x200B;](#verify-event-identity-and-rule-data-types) verifiëren.
+* **de voorwaarde en het schemagegevenstypes van de Gebeurtenis** - verzeker de gegevenstypes die in uw gebeurtenisvoorwaarde (regel) worden gebruikt het gebeurtenisschema aanpassen. Bij niet-overeenkomende typen (bijvoorbeeld tekenreeks versus geheel getal) mislukt de regelevaluatie en gaan gebeurtenissen verloren. Zie [ de identiteit van de gebeurtenisidentiteit ](#verify-event-identity-and-rule-data-types) verifiëren.
 
-* **Verworpen Gebeurtenis - kwalificatievoorwaarde niet voldaan aan** - voor op regel-gebaseerde gebeurtenissen, als de **kwalificatievoorwaarde** niet door de gebeurtenislading wordt voldaan (bijvoorbeeld, is een vereist gebied leeg of ontbreekt, of een voorwaarde zoals `isNotEmpty` op een gebied ontbreekt), wordt de gebeurtenis ontvangen maar verworpen **&#x200B;**&#x200B;en de reis wordt niet teweeggebracht. Logboeken en segmentsporen kunnen aantonen dat de gebeurtenis is ontvangen maar genegeerd omdat deze niet voldeed aan de kwalificatieconditie, met codes zoals `notSuitableInitialEvent` die worden genegeerd. Dit wordt verwacht: als niet aan de kwalificatievoorwaarde wordt voldaan, wordt de gebeurtenis genegeerd en wordt de reis niet geactiveerd voor dat profiel. Verifieer uw gebeurtenislading de verwachte gebieden en de waarden bevat, en dat de regel in de gebeurtenisconfiguratie de gegevens aanpast u verzendt. Als de gebeurtenis door a **douaneactie** van een andere reis wordt teweeggebracht, zie [&#x200B; de Behandeling verwerpt gebeurtenissen en inactieve-onderbrekingen &#x200B;](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts) in het oplossen van problemen van de douaneactie.
+* **Verworpen Gebeurtenis - kwalificatievoorwaarde niet voldaan aan** - voor op regel-gebaseerde gebeurtenissen, als de **kwalificatievoorwaarde** niet door de gebeurtenislading wordt voldaan (bijvoorbeeld, is een vereist gebied leeg of ontbreekt, of een voorwaarde zoals `isNotEmpty` op een gebied ontbreekt), wordt de gebeurtenis ontvangen maar verworpen **** en de reis wordt niet teweeggebracht. Logboeken en segmentsporen kunnen aantonen dat de gebeurtenis is ontvangen maar genegeerd omdat deze niet voldeed aan de kwalificatieconditie, met codes zoals `notSuitableInitialEvent` die worden genegeerd. Dit wordt verwacht: als niet aan de kwalificatievoorwaarde wordt voldaan, wordt de gebeurtenis genegeerd en wordt de reis niet geactiveerd voor dat profiel. Verifieer uw gebeurtenislading de verwachte gebieden en de waarden bevat, en dat de regel in de gebeurtenisconfiguratie de gegevens aanpast u verzendt. Als de gebeurtenis door a **douaneactie** van een andere reis wordt teweeggebracht, zie [ de Behandeling verwerpt gebeurtenissen en inactieve-onderbrekingen ](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts) in het oplossen van problemen van de douaneactie.
 
-&#x200B;>>
-**voor de reizen van de Kwalificatie van het Publiek met het stromen publiek**: Als u een activiteit van de Kwalificatie van het Publiek als het punt van de reisingang gebruikt, ben zich ervan bewust dat niet alle profielen die voor het publiek worden gekwalificeerd noodzakelijkerwijs de reis wegens tijdsfactoren, snelle uitgang van het publiek zullen ingaan, of als de profielen reeds in het publiek alvorens te publiceren waren. Leer meer over [&#x200B; het stromen overwegingen van de publiekskwalificatie timing &#x200B;](audience-qualification-events.md#streaming-entry-caveats).
+>>
+**voor de reizen van de Kwalificatie van het Publiek met het stromen publiek**: Als u een activiteit van de Kwalificatie van het Publiek als het punt van de reisingang gebruikt, ben zich ervan bewust dat niet alle profielen die voor het publiek worden gekwalificeerd noodzakelijkerwijs de reis wegens tijdsfactoren, snelle uitgang van het publiek zullen ingaan, of als de profielen reeds in het publiek alvorens te publiceren waren. Leer meer over [ het stromen overwegingen van de publiekskwalificatie timing ](audience-qualification-events.md#streaming-entry-caveats).
 
 ### Identiteit van gebeurtenis verifiëren {#verify-event-identity-and-rule-data-types}
 
-Wanneer het vormen van een op gebeurtenis-gebaseerde reis, bevestig dat het de identiteitsgebied van de lading [&#x200B; namespace in de gebeurtenis &#x200B;](../event/about-creating.md#select-the-namespace) wordt geselecteerd aanpast. Als de gebeurtenis gebieden voor profiel aanpassing omvat, verifieer het **brievengeval** en **gegevenstype** in de gebeurtenisvoorwaarde precies de binnenkomende gegevens. Als het gebeurtenisschema `roStatus` bijvoorbeeld definieert als een tekenreeks, moet de reisregel deze ook als een tekenreeks evalueren. Niet-overeenkomende gegevenstypen (bijvoorbeeld tekenreeks versus geheel getal) zorgen ervoor dat regelevaluatie mislukt en dat geldige gebeurtenissen worden neergezet. Op dezelfde manier als de gebeurtenis a **kwalificatievoorwaarde** heeft (bijvoorbeeld, moet een gebied niet-leeg zijn), worden de gebeurtenissen die niet aan die voorwaarde voldoen **verworpen** en niet de reis teweegbrengen; de logboeken kunnen verwerpen codes zoals `notSuitableInitialEvent` tonen.
+Wanneer het vormen van een op gebeurtenis-gebaseerde reis, bevestig dat het de identiteitsgebied van de lading [ namespace in de gebeurtenis ](../event/about-creating.md#select-the-namespace) wordt geselecteerd aanpast. Als de gebeurtenis gebieden voor profiel aanpassing omvat, verifieer het **brievengeval** en **gegevenstype** in de gebeurtenisvoorwaarde precies de binnenkomende gegevens. Als het gebeurtenisschema `roStatus` bijvoorbeeld definieert als een tekenreeks, moet de reisregel deze ook als een tekenreeks evalueren. Niet-overeenkomende gegevenstypen (bijvoorbeeld tekenreeks versus geheel getal) zorgen ervoor dat regelevaluatie mislukt en dat geldige gebeurtenissen worden neergezet. Op dezelfde manier als de gebeurtenis a **kwalificatievoorwaarde** heeft (bijvoorbeeld, moet een gebied niet-leeg zijn), worden de gebeurtenissen die niet aan die voorwaarde voldoen **verworpen** en niet de reis teweegbrengen; de logboeken kunnen verwerpen codes zoals `notSuitableInitialEvent` tonen.
 
-Als u de voorwaarde van de gebeurtenis wilt valideren in [!DNL Journey Optimizer] , gebruikt u de voorvertoning van de lading in de gebeurtenisconfiguratie en zorgt u ervoor dat de typen en waarden in de regel overeenkomen met de laadstructuur. Leer hoe te [&#x200B; voorproef de nuttige lading &#x200B;](../event/about-creating.md#preview-the-payload) en [&#x200B; regel-gebaseerde gebeurtenissen &#x200B;](../event/about-creating.md) vormen.
+Als u de voorwaarde van de gebeurtenis wilt valideren in [!DNL Journey Optimizer] , gebruikt u de voorvertoning van de lading in de gebeurtenisconfiguratie en zorgt u ervoor dat de typen en waarden in de regel overeenkomen met de laadstructuur. Leer hoe te [ voorproef de nuttige lading ](../event/about-creating.md#preview-the-payload) en [ regel-gebaseerde gebeurtenissen ](../event/about-creating.md) vormen.
 
 ## Problemen met overgangen in testmodi oplossen {#troubleshooting-test-transitions}
 
@@ -78,12 +78,12 @@ Als testprofielen uw reis in testmodus niet doorlopen of als de visuele stroom g
 
 Als testprofielen de reis ingaan maar niet voorbij de aanvankelijke stap vooruit, controleer het volgende:
 
-* **de begindatum van de Reis** - de gemeenschappelijkste oorzaak is wanneer de de begindatum van de reis in de toekomst wordt geplaatst. De profielen van de test worden onmiddellijk verworpen als de huidige tijd buiten de gevormde reis [&#x200B; begin en einddata/tijd &#x200B;](journey-properties.md#dates) venster valt. Oplossen:
+* **de begindatum van de Reis** - de gemeenschappelijkste oorzaak is wanneer de de begindatum van de reis in de toekomst wordt geplaatst. De profielen van de test worden onmiddellijk verworpen als de huidige tijd buiten de gevormde reis [ begin en einddata/tijd ](journey-properties.md#dates) venster valt. Oplossen:
    * Controleren of de begindatum van de reis in de toekomst niet is ingesteld
    * Zorg ervoor dat de huidige tijd binnen het actieve datumvenster van de reis valt
    * Werk indien nodig de eigenschappen van de reis bij om de begindatum aan te passen
 
-* **het profielconfiguratie van de Test** - bevestig dat het profiel correct als testprofiel in [!DNL Adobe Experience Platform] wordt gemarkeerd. Zie [&#x200B; hoe te om testprofielen &#x200B;](../audience/creating-test-profiles.md) voor meer informatie tot stand te brengen.
+* **het profielconfiguratie van de Test** - bevestig dat het profiel correct als testprofiel in [!DNL Adobe Experience Platform] wordt gemarkeerd. Zie [ hoe te om testprofielen ](../audience/creating-test-profiles.md) voor meer informatie tot stand te brengen.
 
 * **Identiteit namespace** - verzeker de identiteit namespace die in de gebeurtenisconfiguratie wordt gebruikt aanpast namespace van uw testprofiel.
 
@@ -99,7 +99,7 @@ Als u blijvende overgangsproblemen tegenkomt:
 1. Controleren of de begindatum van de rit actueel is
 1. Testmodus deactiveren en opnieuw activeren
 1. Als het probleem zich blijft voordoen, kunt u overwegen om de betrokken transportknooppunten te dupliceren en opnieuw aan te sluiten
-1. Voor onopgeloste gevallen, [&#x200B; contactsteun &#x200B;](../start/user-interface.md#support-ticket-guidelines) met reislogboeken, beïnvloede profiel IDs, en details over de ongeldige overgang
+1. Voor onopgeloste gevallen, [ contactsteun ](../start/user-interface.md#support-ticket-guidelines) met reislogboeken, beïnvloede profiel IDs, en details over de ongeldige overgang
 
 >[!NOTE]
 >
@@ -113,6 +113,20 @@ Controleer bijvoorbeeld het volgende:
 
 * Komt het door een voorwaarde die de persoon uitsluit? De voorwaarde is bijvoorbeeld ‘geslacht = man’ en de persoon is een vrouw. Deze controle kan door een zakelijke gebruiker worden uitgevoerd als de voorwaarde niet te complex is.
 * Komt het doordat een aanroep aan een databron niet wordt beantwoord? Wanneer de journey in de testmodus verkeert, is deze informatie in testmoduslogboeken te zien. Wanneer de journey live is, kan een beheerder directe aanroepen aan de databron testen en het ontvangen antwoord controleren. Een beheerder kan de journey ook dupliceren en testen.
+
+## Genegeerde gebeurtenissen met maxInstanceStackEventsReached {#max-instance-stack-events-reached}
+
+Deze reden voor verwijderen betekent dat de interne stacklimiet van 10 gebeurtenissen per profiel voor een specifieke reisversie voor de reisruntime is bereikt. Het is een veiligheidsgarantie die voorkomt dat te veel lopende gebeurtenissen worden gestapeld terwijl een andere gebeurtenis voor hetzelfde profiel nog wordt verwerkt.
+
+Dit is **niet** een tijd-venster of productielimiet. Het komt voor wanneer de de reisinstantie van het profiel op een langlopende stap (bijvoorbeeld, een lange wachttijd, een verrijking, of douaneactieredenen) en gebeurtenissen voor het zelfde profiel wordt geblokkeerd, dat ook in die reis wordt gebruikt, stapel omhoog voorbij de 10 gebeurtenisgrens.
+
+Als u dit wilt identificeren, vraagt u stapgebeurtenissen voor de reis op wanneer de reden voor verwijderen gelijk is aan `maxInstanceStackEventsReached` (bijvoorbeeld in `serviceEvents.stateMachine.eventType` of vergelijkbare velden). Leer meer over verworpen gebeurtenistypen in de [ lijst van het stapgebeurtenisgebied ](../reports/sharing-field-list.md#discarded-events).
+
+**wat u kunt doen**
+
+* Verminder lange wachttijden of trage stappen op paden die vaak opnieuw kunnen worden geactiveerd.
+* U kunt gebeurtenissen upstream dedupliceren of debounce, indien mogelijk.
+* U kunt lange-renderingscenario&#39;s splitsen in meerdere ritten om stapelen te voorkomen.
 
 ## Controleren of berichten zijn verzonden {#checking-that-messages-are-sent-successfully}
 
@@ -199,7 +213,7 @@ Als u rapporten of analyses bouwt die op de Gebeurtenissen van de Stap van de Re
 * Kruisverwijzing met bericht terugkoppelt datasets wanneer het analyseren van berichtlevering
 * Houd er rekening mee dat timinganalyse items kan weergeven die binnen een paar seconden van elkaar zijn geclusterd
 
-Voor meer informatie over het vragen van de Gebeurtenissen van de Stap van de Reis, zie [&#x200B; Voorbeelden van vragen &#x200B;](../reports/query-examples.md).
+Voor meer informatie over het vragen van de Gebeurtenissen van de Stap van de Reis, zie [ Voorbeelden van vragen ](../reports/query-examples.md).
 
 ## Metrische verschillen in dashboard oplossen {#dashboard-metrics}
 
@@ -209,10 +223,10 @@ Als de metriek in het **Overzicht** dashboard wordt getoond niet het daadwerkeli
 * Controleer of u de juiste toegangsmachtigingen hebt om alle reizen in uw organisatie weer te geven.
 * Laat maximaal 30 minuten staan voordat metrische gegevens worden vernieuwd nadat u wijzigingen hebt aangebracht in uw reizen.
 
-Als de discrepanties blijven bestaan, [&#x200B; contacteer de Steun van Adobe &#x200B;](../start/user-interface.md#support-ticket-guidelines) met screenshots van zowel het Overzicht als doorbladert lusjes voor onderzoek.
+Als de discrepanties blijven bestaan, [ contacteer de Steun van Adobe ](../start/user-interface.md#support-ticket-guidelines) met screenshots van zowel het Overzicht als doorbladert lusjes voor onderzoek.
 
 ## Parameters bijhouden die lege plaatsaanduidingen tijdens gesloten reizen weergeven {#tracking-parameters-closed-journeys}
 
 Als URL&#39;s die worden bijgehouden in verzonden e-mails lege plaatsaanduidingen bevatten, zoals `cid=em-acou-adob{}` , kan dit erop wijzen dat een contextveld zoals `context.system.source.actionId` niet kan worden opgelost. Dit gebeurt gewoonlijk wanneer een reis werd gesloten en niet opnieuw is gepubliceerd na een relevante productverandering — slechts hergepubliceerde reizen correct vullen deze contextgebieden in het volgen van URLs.
 
-Om dit op te lossen, of herpubliceer de reis ([&#x200B; creeer een nieuwe versie en publiceer het &#x200B;](publish-journey.md#journey-create-new-version)), of verwijder de verwijzing naar het beïnvloede contextgebied van de [&#x200B; URL volgende parameters &#x200B;](../email/url-tracking.md) in de kanaalconfiguratie of e-mailinhoud.
+Om dit op te lossen, of herpubliceer de reis ([ creeer een nieuwe versie en publiceer het ](publish-journey.md#journey-create-new-version)), of verwijder de verwijzing naar het beïnvloede contextgebied van de [ URL volgende parameters ](../email/url-tracking.md) in de kanaalconfiguratie of e-mailinhoud.
