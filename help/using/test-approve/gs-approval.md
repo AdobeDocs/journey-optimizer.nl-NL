@@ -50,7 +50,7 @@ Voor alle gebruikers die al zijn toegewezen aan deze rol, worden hun machtiginge
 
 1. Ga de naam van de gebruiker, e-mailadres in, of kies van de lijst, dan klik **sparen**.
 
-1. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users).
+1. Als de gebruiker niet eerder werd gecreeerd, verwijs naar [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 De gebruiker ontvangt een e-mail met instructies om toegang te krijgen tot uw exemplaar.
 
