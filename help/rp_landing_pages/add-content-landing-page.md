@@ -5,9 +5,9 @@ title: Uw inhoud ontwerpen
 description: Uw inhoud ontwerpen
 redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Het ontwerpen van uw inhoud in Adobe Journey Optimizer gaat allemaal over het ma
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Inhoudscomponenten gebruiken
 
@@ -30,7 +30,7 @@ Leer hoe u componenten zoals tekst, knoppen, afbeeldingen en meer kunt toevoegen
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
 Gebruikmaken van visuele fragmenten
 
@@ -40,7 +40,7 @@ Ontdek hoe u herbruikbare fragmenten kunt maken om uw e-mailontwerp te stroomlij
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Koppelingen en trackberichten toevoegen
 
@@ -50,7 +50,7 @@ Schakel het bijhouden van koppelingen in, voeg koppelingen in en beheer de weerg
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Aangepaste voorstellen invoegen
 
@@ -60,7 +60,7 @@ Gebruik besluitvormingsbeheer om persoonlijke aanbiedingen die zijn afgestemd op
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 Tekstversie genereren
 
@@ -70,7 +70,17 @@ Maak en pas de onbewerkte tekstversie van uw e-mailbericht aan voor ontvangers d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=nl-NL)
+![icon]( https://cdn.experienceleague.adobe.com/icons/message.svg)
+
+E-mailtekst voor AI-invakken optimaliseren
+
+Structuur de onbewerkte tekstlaag van uw e-mail zodat kunnen de met AI-hulp gesteunde cliënten uw aanbiedingen en vraag aan actie beter samenvatten en uitpakken.
+
+[E-mailtekst voor AI-invakken optimaliseren](../using/email/llm-email-optimizer.md)
+:::
+
+:::
+![icon]( https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Metagegevens toevoegen
 

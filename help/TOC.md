@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 04f0515131f0db889fdd206df540a110a9cee81c
+source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
 workflow-type: tm+mt
-source-wordcount: '3191'
+source-wordcount: '3194'
 ht-degree: 14%
 
 ---
@@ -241,7 +241,6 @@ ht-degree: 14%
       + [Inhoudsvariaties simuleren](using/test-approve/simulate-sample-input.md)
       + [Automatisch genereren van inhoudvarianten](using/test-approve/simulate-sample-input-generated.md)
       + [E-mailspamrapport](using/content-management/spam-report.md)
-      + [LLM e-mailoptimalisatie](using/content-management/llm-email-optimizer.md)
    + Reizen en campagnes goedkeuren {#approve}
       + [Reizen en campagnes goedkeuren](/help/rp_landing_pages/approve-landing-page.md)
       + [Aan de slag met goedkeuringen](using/test-approve/gs-approval.md)
@@ -290,6 +289,7 @@ ht-degree: 14%
             + [Koppelingen toevoegen en berichten bijhouden](using/email/message-tracking.md)
             + [Aangepaste aanbiedingen invoegen](using/email/add-offers-email.md)
             + [De tekstversie beheren](using/email/text-version-email.md)
+            + [E-mailtekst voor AI-invakken optimaliseren](using/email/llm-email-optimizer.md)
             + [Metagegevens toevoegen](using/email/email-metadata.md)
          + Stijl bewerken {#edit-style}
             + [Stijl bewerken](/help/rp_landing_pages/edit-style-landing-page.md)
@@ -873,7 +873,7 @@ ht-degree: 14%
       + [Datasets Time-to-live (TTL)-instructies](using/data/datasets-ttl.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [&#x200B; Ingebouwde schema&#39;s > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=nl-NL)
+      + [ Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Adobe Experience Platform-gegevens gebruiken](using/data/lookup-aep-data.md)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Kanaalconfiguratie {#configuration}
