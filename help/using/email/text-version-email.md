@@ -52,13 +52,13 @@ Als u liever een andere inhoud gebruikt voor de versie zonder opmaak, voert u de
 
 Met de knop [!DNL Gmail] kunt u de belangrijkste aanbiedingen en details van inbox-functies die door AI zijn ingeschakeld (zoals samenvattingen in [!DNL Outlook] , [!DNL Apple Mail] of **[!UICONTROL Optimize for AI Inbox]** ), beter onder de aandacht brengen. Met deze actie wordt een verbeterde versie van normale tekst gegenereerd die is toegespitst op informatieassistenten en die waarschijnlijk wordt gelezen uit het tekstgedeelte van het bericht.
 
-![ optimaliseer voor AI Inbox knoop in de mening van de tekstversie ](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
+![&#x200B; optimaliseer voor AI Inbox knoop in de mening van de tekstversie &#x200B;](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
 
 >[!IMPORTANT]
 >
 >Wanneer u deze functie gebruikt, wordt de optie **[!UICONTROL Sync with HTML]** automatisch uitgeschakeld.
 
-Voor een volledige analyse en geadviseerde scenario&#39;s, zie [ e-mailtekst voor AI inboxes ](llm-email-optimizer.md) optimaliseren.
+Voor een volledige analyse en geadviseerde scenario&#39;s, zie [&#x200B; e-mailtekst voor AI inboxes &#x200B;](llm-email-optimizer.md) optimaliseren.
 
 ## Wanneer moet u aangepaste standaardtekstversies gebruiken? {#when-to-use}
 
@@ -235,7 +235,7 @@ Your input helps us improve our service.
 Ja, verpersoonlijkingsvelden zoals `{{profile.firstName}}` werken op dezelfde manier in zowel HTML- als normale tekstversies.
 
 **hoe ik mijn gewone tekstversie test?**
-* Schakel over naar de weergave **[!UICONTROL Plain text]** in de Designer-e-mail. [ leer hoe ](#text-version-email)
+* Schakel over naar de weergave **[!UICONTROL Plain text]** in de Designer-e-mail. [&#x200B; leer hoe &#x200B;](#text-version-email)
 * Verzend teste-mailberichten naar e-mailclients met alleen tekst, zoals oude versies van Pine of mobiele e-mailapps met een standaardversie.
 
 **wat gebeurt als ik vergeet om een gewone tekstversie tot stand te brengen?**\
