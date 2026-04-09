@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 keywords: codering, URL, bijhouden, landingspagina, sleutelregister, personalisatie, beveiliging, privacy, sandbox
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 5c8d615b5f6b2c2cb80a21c59f3ea5f12325e6fd
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,8 @@ U codeert alleen de queryparameters die u kiest, met behulp van sleutels die beh
 
 ### Werking {#how-it-works}
 
-* **de Beheerders** gebruiken de zeer belangrijke registratie [&#x200B; sleutels &#x200B;](#create-keys) creëren en [&#x200B; leiden sleutels &#x200B;](#manage-keys) in overeenstemming met het veiligheidsbeleid van uw organisatie.
-* **de Keters** nemen de `Encrypt` hulp in de verpersoonlijkingsredacteur op en gaan de waarde over om plus een actief zeer belangrijk herkenningsteken van de registratie te beschermen. Voor syntaxis en opties, zie [&#x200B; deze sectie &#x200B;](functions/helpers.md#url-parameter-encryption-helper).
+* **de Beheerders** gebruiken de zeer belangrijke registratie [ sleutels ](#create-keys) creëren en [ leiden sleutels ](#manage-keys) in overeenstemming met het veiligheidsbeleid van uw organisatie.
+* **de Keters** nemen de `Encrypt` hulp in de verpersoonlijkingsredacteur op en gaan de waarde over om plus een actief zeer belangrijk herkenningsteken van de registratie te beschermen. Voor syntaxis en opties, zie [ deze sectie ](functions/helpers.md#url-parameter-encryption-helper).
 
 >[!IMPORTANT]
 >
@@ -50,6 +50,10 @@ Een bestemmingspagina-URL kan een vraagparameter zoals `token` gebruiken de waar
 
 Voordat u de URL-parametercoderingsfunctie kunt gebruiken, moet u een sleutel maken. Volg de onderstaande stappen om dit te doen.
 
+>[!NOTE]
+>
+>Er zijn momenteel geen specifieke machtigingen voor toegang tot en beheer van toetsen. Rollen die toegang verlenen tot de sectie **[!UICONTROL Configurations]** onder **[!UICONTROL Administration]** , bieden ook toegang tot het sleutelregister. Specifieke machtigingen zijn echter gepland voor een toekomstige release.
+
 <!--
 >[!IMPORTANT]
 >
@@ -60,19 +64,19 @@ Voordat u de URL-parametercoderingsfunctie kunt gebruiken, moet u een sleutel ma
 
 1. Klik op de knop **[!UICONTROL Manage]** om **[!UICONTROL Key registry]** te openen.
 
-   ![&#x200B; Zeer belangrijke registratiesectie in het menu van het Beleid &#x200B;](assets/encryption-key-registry.png){width="80%"}
+   ![ Zeer belangrijke registratiesectie in het menu van het Beleid ](assets/encryption-key-registry.png){width="80%"}
 
 1. Gebruik de toegewijde knop om naar wens sleutels voor uw organisatie te maken.
 
-   ![&#x200B; creeer zeer belangrijke knoop in Zeer belangrijke registratiesectie &#x200B;](assets/encryption-create-key.png){width="80%"}
+   ![ creeer zeer belangrijke knoop in Zeer belangrijke registratiesectie ](assets/encryption-create-key.png){width="80%"}
 
 1. Wijs hen een duidelijk etiket of herkenningsteken toe uw teams in de verpersoonlijkingsredacteur kunnen van verwijzingen voorzien.
 
-   ![&#x200B; Zeer belangrijke details in Zeer belangrijke registratiesectie &#x200B;](assets/encryption-key-details.png){width="80%"}
+   ![ Zeer belangrijke details in Zeer belangrijke registratiesectie ](assets/encryption-key-details.png){width="80%"}
 
 1. Klik op **[!UICONTROL Submit]** om uw wijzigingen te bevestigen.
 
-Zodra een sleutel wordt gecreeerd, kunnen de marketers de [&#x200B; hulp van de de parameterencryptie URL &#x200B;](functions/helpers.md#url-parameter-encryption-helper) in de verpersoonlijkingsredacteur gebruiken om specifieke waarden te coderen die zij in URL vraagparameters plaatsen.
+Zodra een sleutel wordt gecreeerd, kunnen de marketers de [ hulp van de de parameterencryptie URL ](functions/helpers.md#url-parameter-encryption-helper) in de verpersoonlijkingsredacteur gebruiken om specifieke waarden te coderen die zij in URL vraagparameters plaatsen.
 
 ## Sleutels beheren {#manage-keys}
 
@@ -80,11 +84,11 @@ Volg onderstaande stappen om de toetsen te beheren.
 
 1. Open de lus **[!UICONTROL Key registry]** . Alle toetsen die voor de huidige sandbox zijn gemaakt, worden weergegeven in een lijstweergave.
 
-   ![&#x200B; Zeer belangrijke mening van de registratielijst &#x200B;](assets/encryption-key-registry-list.png){width="100%"}
+   ![ Zeer belangrijke mening van de registratielijst ](assets/encryption-key-registry-list.png){width="100%"}
 
 1. Klik op een toets met de status **[!UICONTROL Active]** om de belangrijkste details te openen.
 
-   ![&#x200B; Actieve belangrijkste details &#x200B;](assets/encryption-key-active-details.png){width="80%"}
+   ![ Actieve belangrijkste details ](assets/encryption-key-active-details.png){width="80%"}
 
 1. Klik op de knop **[!UICONTROL Revoke]** om de sleutel voor nieuwe versleuteling permanent uit te schakelen.
 
